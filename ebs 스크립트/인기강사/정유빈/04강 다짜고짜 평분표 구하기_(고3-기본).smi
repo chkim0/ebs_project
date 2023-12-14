@@ -1,0 +1,986 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=8573><P Class=KRCC>
+여러분, 안녕하세요? 수학이 말랑말랑해지는 시간. 
+<Sync Start=11035><P Class=KRCC>
+저는 여러분과 함께 공부하고 있는 정유빈입니다. 오늘도 즐겁게 달릴 차례거든요. 
+<Sync Start=16408><P Class=KRCC>
+벌써 4번, 5번. 두 번의 시간만 남겨두고 있습니다. 두둥이지요, 두둥. 그렇지요? 
+<Sync Start=22021><P Class=KRCC>
+생각보다 이것이 되게 빨리 끝나. 그래서 여러분이 꼭 느꼈으면 좋겠는 느낌은 
+<Sync Start=26476><P Class=KRCC>
+항상 제가 여러 번 이야기를 하지만 처음 배울 때의 양이 이만큼, 
+<Sync Start=31169><P Class=KRCC>
+그다음에 이만큼, 이만큼, 이만큼, 이만큼, 이만큼 하다 보면 
+<Sync Start=36129><P Class=KRCC>
+여러분, 수능 전날에 확통을 떠올려 봤을 때 나오는 양은 A4 용지 한 장의 범위 안에 
+<Sync Start=42000><P Class=KRCC>
+들어갈 수 있는 양이 되기를 바라요. 그러니까 모든 과목이 그래요, 여러분. 
+<Sync Start=46809><P Class=KRCC>
+진짜 그렇게 조금 줄어드는 느낌을 느꼈으면 좋겠어요. 나는 그것을 언제 사실 느꼈었냐면 
+<Sync Start=52859><P Class=KRCC>
+선생님은 선택과목이 당연히 과학탐구였잖아. 그렇지? 과탐 같은 과목. 
+<Sync Start=57679><P Class=KRCC>
+왜 이렇게 진짜 많은 것이야. 내가 어떻게 하나, 이랬었는데 처음에는. 
+<Sync Start=61242><P Class=KRCC>
+그런데 수능 전날에 이제 누워서 이것저것 생각을 하는데 무엇인가 생명과학의 내용이 
+<Sync Start=66630><P Class=KRCC>
+되게 짧게 느껴지는 기분을 그때 느꼈어요. 너무 늦게 느꼈어요. 
+<Sync Start=70523><P Class=KRCC>
+조금 더 일찍 느꼈으면 좋았을걸. 그렇지? 그런데 되게 신기하다고 생각을 했어서 
+<Sync Start=74805><P Class=KRCC>
+그 기억이 되게 강렬하게 남아 있거든요. 그때 분명히 되게 많다고 생각했던 
+<Sync Start=78298><P Class=KRCC>
+화학 내용이라든지 이런 것들이 화학, 생명과학 이런 것들이 되게, 
+<Sync Start=84154><P Class=KRCC>
+생각보다 되게 간단하네. 이런 느낌을 느꼈습니다. 수학에서도 충분히 그런 것을 
+<Sync Start=88644><P Class=KRCC>
+느낄 수가 있거든요, 여러분도. 특히나 확통은 그렇잖아. 이미 여러분은 경우의 수 
+<Sync Start=94060><P Class=KRCC>
+and 확률을 넘어왔고요. 이제 통계만 남았습니다. 그 어렵고 힘들다고 생각했던 통계를 
+<Sync Start=99393><P Class=KRCC>
+달랑 두 강 안에 끝내 드릴 것이고요. 이번 강 같은 경우는 문제보다는 
+<Sync Start=104925><P Class=KRCC>
+개념에 대한 것들을 조금씩 더 섞어가도록 할게요. 왜냐? 문제가 안 어렵게 나와요. 
+<Sync Start=111751><P Class=KRCC>
+문제도 안 어렵게 나오고 개념 자체가 많고 이런 부분입니다. 오늘도 까먹지 않았어요. 
+<Sync Start=116952><P Class=KRCC>
+5번만 세뇌하기의 시간, 그 네 번째 시간입니다. 오늘 중요한 내용이에요. 
+<Sync Start=122294><P Class=KRCC>
+아는 것만 맞자. 나의, 쟤 핑크네요. 귀염둥이잖아. 아는 것만 맞자는 말은 
+<Sync Start=130709><P Class=KRCC>
+너무너무 중요해요. 우리가 시험에 떨리는 이유가 내가 모르는 것조차 
+<Sync Start=136890><P Class=KRCC>
+잘하기를 바라서라고 하더라고요. 되게 일리가 있다고 나는 생각을 하였어. 
+<Sync Start=141898><P Class=KRCC>
+내가 아는 것을 맞히는 것은 떨어야 할 이유가 없어요. 긴장해야 될 이유가 없어요. 
+<Sync Start=146101><P Class=KRCC>
+그렇지요? 내가 아는 것만 나오기를 바라는 것은 나쁜 마음이지. 
+<Sync Start=150916><P Class=KRCC>
+공부를 그만큼 많이 했다면 모르겠는데 그것이 아니라면 그것까지는 
+<Sync Start=155254><P Class=KRCC>
+우리의 영역 밖이라고 생각을 합시다. 적어도 나와 있는 문제들 중에 
+<Sync Start=159600><P Class=KRCC>
+내가 아는 것은 내가 무조건 맞힐 수 있다는 자신감을 갖자. 그것만 해도 여러분, 
+<Sync Start=164280><P Class=KRCC>
+엄청나지요. 그렇다면 아는 것을 많이 늘려놓으면 되는 것이잖아요. 그렇지? 
+<Sync Start=168995><P Class=KRCC>
+내가 원하는 바는 다른 것 없어요. 내가 찍은 것이 맞기를 바라지도 않아요. 
+<Sync Start=173203><P Class=KRCC>
+아는 것만 맞자. 푼 것을 틀리지 말자. 아는 것만 맞자. 이렇게 생각을 하면서 
+<Sync Start=179215><P Class=KRCC>
+편안한 마음을 가져가도록 하세요. 그러면 만만해지잖아요, 여러분. 그렇지요? 
+<Sync Start=183140><P Class=KRCC>
+여러분이 아는 것들을 만들러 가보도록 하겠습니다. 오늘도 달려볼게요. 
+<Sync Start=188000><P Class=KRCC>
+일단 오늘의 기차를 먼저 볼까요? 귀여워. 이 기차, 약간 디테일이 있더라고요. 
+<Sync Start=196459><P Class=KRCC>
+엄청난. 그렇지 않아요? 얘네가 약간 돌아오면서 이것이 약간 꺾여 있기까지 하였어. 
+<Sync Start=201172><P Class=KRCC>
+그것을 한 3강 정도 만에 찾아냈어요. 엄청나지 않니? 여러분. 그렇지요? 
+<Sync Start=206581><P Class=KRCC>
+달려보겠습니다. 이 기차를 타고 내용을 한번 볼게요. 시작은 무엇이었냐 하면 
+<Sync Start=211234><P Class=KRCC>
+이산확률변수부터 시작을 해요. 제가 오늘의 제목을 평균분포 아니지요. 
+<Sync Start=217307><P Class=KRCC>
+평균분산 표준편차, 평분표라고 줄였어요. 평균분산 표준편차라고 다 쓰려고 하면 
+<Sync Start=223066><P Class=KRCC>
+제목이 너무 길어지더라고. 다른 이유는 하나도 없고요. 이렇게 줄여놓은 이유가 뭐냐 하면 
+<Sync Start=227718><P Class=KRCC>
+이산확률변수가 됐든 연속확률변수가 됐든 결국은 평균과 분산과 표준편차들을 가지고 
+<Sync Start=233325><P Class=KRCC>
+이것저것을 만들어 내는 것이 문제로 출제가 됩니다. 시작은 달랐어요. 그렇지요? 
+<Sync Start=237992><P Class=KRCC>
+이산확률변수부터 시작합니다. 이산확률변수의 핵심 포인트는 확률분포표가 되는 것이겠지요. 
+<Sync Start=243485><P Class=KRCC>
+이산확률변수가 무엇인데? 이제 어렵게 가지 말아요. 동전을 던졌어요. 
+<Sync Start=247811><P Class=KRCC>
+앞면이 나오는 횟수. 개수, 횟수, 확률변수, 이산확률변수 이렇게 흐름 따라가시고요. 
+<Sync Start=254037><P Class=KRCC>
+그에 따라서 표를 만들어야 됩니다. 그래서 이곳에 확률분포표를 조금 귀엽게 
+<Sync Start=257794><P Class=KRCC>
+하나 그려볼까요? x가, 확률변수를 전부 다 구하는 것이 굉장히 중요한 핵심이에요. 
+<Sync Start=265871><P Class=KRCC>
+그래서 x1, x2, x3, x4, x5에서 xn까지라고 하면 이들을 싹 다 구했습니다. 
+<Sync Start=272345><P Class=KRCC>
+그리고 그에 따른 무엇을 만들어야 되느냐? 이곳에 확률을 만들어요. 그렇지요? 
+<Sync Start=276960><P Class=KRCC>
+확률을 만들면 P1, P2, P3, P4 이렇게 할게요, pn까지. 이것이 확률분포표예요. 
+<Sync Start=284460><P Class=KRCC>
+그러니까 각각의 변수가 나올 확률을 일일이 하나하나 구해야 돼요. 
+<Sync Start=289633><P Class=KRCC>
+이전 시간에 했던 확률 구하기가 여전히 쓰입니다. 각각의 칸에는 확률을 구하는 것이 
+<Sync Start=295716><P Class=KRCC>
+쓰일 것이고요. 그에 따라서 우리가 확률에서 쓰였던 성질들이 전부 다 쓰입니다. 
+<Sync Start=300854><P Class=KRCC>
+첫 번째, 확률의 합은 1입니다. 이것 제일 중요해요, 사실. 
+<Sync Start=308305><P Class=KRCC>
+확률분포표에서 가장 중요한 것은 전체 확률이 1이라는 말. 제가 그래서 확률 때 
+<Sync Start=313051><P Class=KRCC>
+일부러 전체 확률이 1이라는 말을 썼어요. 진짜 확률을 합하면 전부 다 합하면 
+<Sync Start=318864><P Class=KRCC>
+다 1이 되어야 되는 것이에요. 그것부터 생각을 하셔야지 빈칸 채우기가 가능해질 것이고요. 
+<Sync Start=323638><P Class=KRCC>
+그리고 x1과 x2가 일어날 확률, 그러면 이 둘을 더 하시면 되는 것이고 
+<Sync Start=328325><P Class=KRCC>
+전혀 어려울 것 없겠지요. 그런 것들 생각해 주시면 되는 것이고 평균은 어떻게 구해요? 
+<Sync Start=333544><P Class=KRCC>
+곱해, 곱해, 곱해, 곱해, 싹 다 더해, 하면 평균이지요. 분산은 분산까지만 구하고 
+<Sync Start=340452><P Class=KRCC>
+표준편차는 어차피 루트 씌우면 되는 것이거든요. 분산은 어떻게 구해? 
+<Sync Start=344957><P Class=KRCC>
+분산은 V(X)라고 써요. 평균은 EX라고 쓰고. 곱해, 곱해, 싹 다 더해. 
+<Sync Start=351488><P Class=KRCC>
+
+<Sync Start=355038><P Class=KRCC>
+한글은 쓰기가 귀찮아. 곱해, 곱해서 했잖아. 그렇지? 저것 EX를 구하기로 하고. 
+<Sync Start=360872><P Class=KRCC>
+분산은요? 분산은, 분산은 여러분이 제일 많이 하는 말이 제평평제일 것이에요. 
+<Sync Start=366278><P Class=KRCC>
+제곱의 평균에서 평균의 제곱을 뺀다는 것인데 이것만 알고 계시면 안 돼요. 
+<Sync Start=372438><P Class=KRCC>
+왜? 저 식이 어디서 나왔어? 분산 언제 배웠는지 알아요? 여러분. 중학교 때 배웠어요. 
+<Sync Start=377369><P Class=KRCC>
+그렇지요? 그때 무엇이라고 배웠냐면 편차 제곱의 평균이라고 배웠습니다. 
+<Sync Start=381722><P Class=KRCC>
+이 정의를 아셔야 돼요. 그래서 만약에 있잖아요. 평균이 예뻐. 
+<Sync Start=389930><P Class=KRCC>
+이상한 표현이지만 평균이 예뻐서 편차들이 깔끔하게 정리가 된다면 그 이상의 표현이 없어. 
+<Sync Start=396386><P Class=KRCC>
+평균이 예뻐서 편차들이 깔끔하게 정리가 된다면 편차 제곱의 평균을 구할 것이잖아요. 
+<Sync Start=402265><P Class=KRCC>
+우리가. 그렇지요? 편차 제곱의 평균을 구하는 것이 제평평제로 구하는 것보다 
+<Sync Start=407217><P Class=KRCC>
+훨씬 더 계산이 간단할 수도 있어요. 그런 것들을 생각해 놓으시면 굉장히 좋습니다. 
+<Sync Start=414202><P Class=KRCC>
+되었어요? 오케이이. 이곳까지 일단 이 내용들 알고 계시고요. 
+<Sync Start=417579><P Class=KRCC>
+그다음에는 분산 나왔고 스르륵 나왔고 그다음에 표준편차가 이곳에 들어가야 되거든요. 
+<Sync Start=424101><P Class=KRCC>
+평균, 분산, 그리고 표준편차인데 표준편차는 이렇게 써요. 
+<Sync Start=428326><P Class=KRCC>
+이것은 분산에다가 √를 씌워요. 굉장히 쉽지요. 분산에다가 그냥 √만 뿅 씌워주면 
+<Sync Start=437426><P Class=KRCC>
+생각보다 굉장히 간단하게 나오는 편이니까요. 이렇게 해결을 해주시면 되겠습니다. 
+<Sync Start=443706><P Class=KRCC>
+됐어요? 이렇게 가주시고요. 주르륵 왔습니다. 그런 다음 마지막이 이항분포인데요. 
+<Sync Start=449880><P Class=KRCC>
+이항분포에서는 조금 내용이 간단해지는 것이 뭐냐 하면 이항분포가 무엇인지만 알면 돼. 
+<Sync Start=457925><P Class=KRCC>
+더 깊이 있게 들어가지도 않을 것이에요. 이것 독립시행의 확률과 연결돼요. 
+<Sync Start=463395><P Class=KRCC>
+그러니까 이것이 꼬리에 꼬리를 물 수밖에 없는 것이지. 이항분포 무엇이에요? 
+<Sync Start=467420><P Class=KRCC>
+시행 횟수가 n번이고 어라? 시행 횟수가 주어지고 고정된 확률이 주어져요. 
+<Sync Start=479349><P Class=KRCC>
+우리가 이전에 했던 것처럼 주사위를 10번 던져서 5의 약수가 나오는 사건에 대한 횟수, 
+<Sync Start=488509><P Class=KRCC>
+이런 것들을 이야기를 한다고 합시다. 5의 약수가 3번 나왔을 확률을 물어보는 것이 
+<Sync Start=493486><P Class=KRCC>
+독립시행의 확률이었다면 그러한 횟수를 내가 확률 변수 x라고 둔다. 
+<Sync Start=497520><P Class=KRCC>
+그런 다음 무엇 하라고 하는 줄 알아요? 평균분산 표준편차를 구하라고 해요. 
+<Sync Start=501620><P Class=KRCC>
+그러면 어떻게 하느냐? 평균 어떻게 구해요? np. 암기가 등장하였습니다. 
+<Sync Start=508495><P Class=KRCC>
+이것은 외워놔야 돼요. 평균은 np로 곱하고요. 분산은 이렇게 쓸게요. 
+<Sync Start=514425><P Class=KRCC>
+분산은 np1-p가 되어 줍니다, 라는 흐름. 이 정도의 흐름으로 쭉 가주시면 괜찮을 것 같아요.
+<Sync Start=522582><P Class=KRCC>
+그래서 이것만 알고 있으면 돼서 처음에 개념을 배울 때에 비해서 문제의 흐름, 
+<Sync Start=526904><P Class=KRCC>
+문제의 난이도는 생각보다 되게 쉽게 나오는 편이에요, 이곳이. 그렇지요? 
+<Sync Start=532808><P Class=KRCC>
+이렇게 한 번 더 해결을 해주시면 되는 것 이항분포까지는 이산확률변수입니다. 
+<Sync Start=537993><P Class=KRCC>
+이곳까지가 이산확률변수예요. 그다음 어디로 가는지 알아요? 
+<Sync Start=541100><P Class=KRCC>
+다시 연속확률변수로 등장합니다. 연속확률변수는 봐. 
+<Sync Start=546880><P Class=KRCC>
+이산확률변수는 확률분포표를 그리면서 거의 대부분 시작부터 평균분산 표준편차에 대한 
+<Sync Start=551878><P Class=KRCC>
+이야기를 하게 되어 있는데요. 연속확률변수는 확률밀도함수와 같이 섞어서 
+<Sync Start=557653><P Class=KRCC>
+평균분산 표준편차와는 관계가 없는 하나의 유형이 더 등장을 하기는 합니다. 
+<Sync Start=562805><P Class=KRCC>
+확률밀도함수 그래프에 대한 이야기. 그렇지요? 일단 확률밀도함수 그래프, 
+<Sync Start=570167><P Class=KRCC>
+예를 들어 아무거나 하나를 그려볼게요. 이렇게 그려볼까요? 범위가 주어져요. 
+<Sync Start=574979><P Class=KRCC>
+a부터 b까지라는 전체 범위 안에서 이것은요. 연속확률변수가 되다 보니까 
+<Sync Start=581884><P Class=KRCC>
+키가 정확히 168일 확률, 이런 것은 존재하지 않아요. 대신에 구간에서의 확률만 
+<Sync Start=586934><P Class=KRCC>
+존재를 하거든요. 어느 구간부터 어느 구간까지 실수 전체가 변수로 등장을 해. 
+<Sync Start=591549><P Class=KRCC>
+그러다 보니까 이것과 흐름 따라가요. 전체 넓이는 1이에요. 
+<Sync Start=597319><P Class=KRCC>
+
+<Sync Start=600805><P Class=KRCC>
+무슨 이야기야? 확률을 넓이로 이야기를 한다는 것이 핵심 포인트예요. 
+<Sync Start=606700><P Class=KRCC>
+어느 구간에서의 넓이가 곧 확률이 되어줍니다. 넓이로만 이야기를 하게 되어 있어요. 
+<Sync Start=613360><P Class=KRCC>
+그것만 가지고 단독 출제가 되는 것이 딱 하나의 유형이 있지요, 확률밀도함수는. 
+<Sync Start=618320><P Class=KRCC>
+이곳은 왜 없어? 이곳은 하나하나 구하는 것들이 이제 등장을 하는 것이지, 대신에. 
+<Sync Start=625372><P Class=KRCC>
+그렇지요? 오케이이. 그런 것들로 생각해 주시고 이것은 이제 그래프를 해석하는 
+<Sync Start=629604><P Class=KRCC>
+여러분이 확률밀도함수 그래프가 무엇인지를 아느냐 모르느냐에서 시작하잖아요. 
+<Sync Start=634482><P Class=KRCC>
+그래서 그런 유형 하나가 더 등장을 합니다. 그런 다음에 아예 또 조금 새롭게 
+<Sync Start=638629><P Class=KRCC>
+정규분포라는 친구가 등장을 해요. 사실은 오늘 하는 정규분포가 
+<Sync Start=643297><P Class=KRCC>
+다음 시간에 하는 통계의 마지막까지 키를 쥐고 있는 친구거든요. 정규분포가 무엇이에요? 
+<Sync Start=651163><P Class=KRCC>
+확률밀도함수 그래프 중에서 하필이면 평균을 기준으로 좌우대칭인 종 모양을 나타낼 때 
+<Sync Start=662378><P Class=KRCC>
+이러한 x는 정규분포를 따른다고 합니다. 평균과 표준편차가 드러나게 표현을 하고요. 
+<Sync Start=670509><P Class=KRCC>
+그러니까 약간 달라. 봐요. 이곳은 평균과 분산과 표준편차를 구하는 느낌으로 갔다면 
+<Sync Start=678687><P Class=KRCC>
+이곳은 정규분포는 평균도 주어지고 표준편차도 주어져요. 흐름을 생각하시면 여러분, 
+<Sync Start=686029><P Class=KRCC>
+문제로 나오는 것이 보여요. 개념 때는 이렇게 안 했어요. 이제는 해봅시다. 
+<Sync Start=690303><P Class=KRCC>
+얘네는 그러니까 평균과 분산과 표준편차를 물어봅니다. Q, 평균분산 표준편차였어요. 
+<Sync Start=700551><P Class=KRCC>
+그렇지요? 이곳은요? 평균과 분산과 표준편차가 주어지고요. 안 주어졌다 하더라도 
+<Sync Start=706151><P Class=KRCC>
+여러분이 구하셔야 되고요. 구해 놓은 상태에서 우리가 무엇을 구하는 줄 알아요? 
+<Sync Start=710247><P Class=KRCC>
+얘네를 알아야지 일단 그래프가 그려집니다. m을 알아야지 평균을 알아야지 
+<Sync Start=714492><P Class=KRCC>
+대칭축이 잡히고요. 표준편차를 알아야 흩어진 정도를 나타내요. 
+<Sync Start=721635><P Class=KRCC>
+즉 그래프가 평균 주변으로 몰렸는지 아니면 평균 주변으로 몰리지 않고 
+<Sync Start=727073><P Class=KRCC>
+이렇게 흩어져 있는지 이런 것들을 결정을 해서 그래프의 모양을 일단 완성을 합니다. 
+<Sync Start=733189><P Class=KRCC>
+완성되고 나면 나한테 무엇을 물어볼 것 같아? 확률을 물어봐요. 
+<Sync Start=736384><P Class=KRCC>
+
+<Sync Start=740525><P Class=KRCC>
+얘네는 확률을 물어봅니다. 이산확률변수는 확률을 알고 있었지. 
+<Sync Start=744997><P Class=KRCC>
+우리가 이미 확률분포표에서 각각 칸에 해당하는 확률을 구했고 그 확률을 구한 것으로 
+<Sync Start=751139><P Class=KRCC>
+우리가 평균분산 표준편차를 구하도록 물어본다면 출제의 포인트가 바뀐 것이지요. 
+<Sync Start=756264><P Class=KRCC>
+이곳은 어때요? 평균분산 표준편차로 그래프를 그려놓고 확률을 구하라고 하는 것입니다. 
+<Sync Start=760943><P Class=KRCC>
+확률 어떻게 구해야 되는데? 넓이로 구해야 돼요. 어딘가부터 어딘가까지의 넓이. 
+<Sync Start=767728><P Class=KRCC>
+이런 확률 어떻게 구해? 확률을 구하는 방법 첫 번째, 대칭성을 이용합니다. 
+<Sync Start=776074><P Class=KRCC>
+정규분포는 평균을 기준으로 좌우대칭인 종 모양입니다. 대칭성을 활용해서 풀 수 있다면 
+<Sync Start=782003><P Class=KRCC>
+그것이 가장 쉬운 문제일 것이에요. 오케이이? 두 번째는 그것이 안 돼. 
+<Sync Start=786868><P Class=KRCC>
+대칭으로 못 구해. 그럴 때는 두 번째, 어디로 가요? 표준정규분포로 가야지요. 그렇지요? 
+<Sync Start=795977><P Class=KRCC>
+이 표준정규분포로 가는 것들에 대한 것은 문제 풀면서 제가 조금 더 
+<Sync Start=799198><P Class=KRCC>
+이야기를 해보도록 할 것이에요. 알았지요? 그래서 무엇이래요? 
+<Sync Start=801812><P Class=KRCC>
+다시 확률 구하기로 오는 것입니다. 이것이 약간 순환열차 같은 기분이야. 그렇지? 
+<Sync Start=807672><P Class=KRCC>
+확률을 구한 것으로 확률분포표를 구하고 평균분산에 이렇게 쭉 오고 
+<Sync Start=811705><P Class=KRCC>
+연속확률변수는 다시 무엇을 구한 것이에요? 평균분산 표준편차를 안은 상태에서 
+<Sync Start=817626><P Class=KRCC>
+확률 구하기로 마무리를 짓는 그런 느낌입니다. 그래서 얘네의 흐름을 여러분, 
+<Sync Start=821778><P Class=KRCC>
+따라갈 수 있어 지면 어떤 것들이 출제가 되는구나, 어떤 것들이 문제로 나오는구나, 
+<Sync Start=826628><P Class=KRCC>
+이런 것이 조금 더 잘 보이게 되어 있는 것이지요. 똑똑함이 1 올라갔지요? 오케이이. 
+<Sync Start=832465><P Class=KRCC>
+그러면 문제를 풀면서 제가 조금 더 이야기를 하나씩 해보도록 할게요. 
+<Sync Start=836999><P Class=KRCC>
+이곳은 문제의 풀이가 되게 힘들고 어렵고 복잡하지 않아요, 절대. 
+<Sync Start=843159><P Class=KRCC>
+그래서 개념정리를 문제를 가지고 해 보도록 할 것입니다. 
+<Sync Start=847415><P Class=KRCC>
+이번의 포인트는 그래서 다짜고짜예요, 다짜고짜. 다짜고짜 문제를 보세요. 
+<Sync Start=851990><P Class=KRCC>
+개념정리 없이 문제로 왔습니다. 봐요. 이산확률변수 X의 확률분포표를 나타낸 것이에요. 
+<Sync Start=858187><P Class=KRCC>
+그러니까 X 자체가 이산확률변수야. 이산 떨어져 있어 -1, 0, 1, 2 이런 식이고 
+<Sync Start=864461><P Class=KRCC>
+그때의 확률들을 각각 나타냈습니다. 그리고 나한테 분산 주고 평균 주고 
+<Sync Start=870911><P Class=KRCC>
+그들에 대한 어쩌고 저쩌고 식 주고 로 X가 2보다 작을 확률을, 
+<Sync Start=875917><P Class=KRCC>
+일단 이것이 무슨 소리인지 모르면 굉장한 외계어로 들리는 단원이기는 해요, 이곳이. 
+<Sync Start=882011><P Class=KRCC>
+여러분이 조금 조심을 하셔야 되고 차근차근 한번 다시 볼게요. 
+<Sync Start=885940><P Class=KRCC>
+제일 먼저 물어보는 것들 따지기 전에 표만 보고 할 일은? 표만 보고 
+<Sync Start=891974><P Class=KRCC>
+합이 1이라는 것 너무 중요해요. 이것이 개념정리이자 문제풀이이기도 합니다. 
+<Sync Start=898910><P Class=KRCC>
+확률분포표가 등장을 하면 확률의 합의 1이라는 것은 너무 중요한 이야기거든요. 
+<Sync Start=904253><P Class=KRCC>
+그것부터 활용을 하세요. 그러면 어떻게 할까요? 싹 더해봐요. a+2a+a+ba-b. 
+<Sync Start=915405><P Class=KRCC>
+어떻게 나올지 모르고 나는 그냥 a, b에 관한 식이겠거니 생각하고 정리를 했더니 
+<Sync Start=922226><P Class=KRCC>
+어머, 그 정도가 아니야. 완전 대박. b가 없어져요. 5a가 1이니까 a는 얼마냐면 
+<Sync Start=931086><P Class=KRCC>
+5분의 1이 되어줍니다. 되었지요? 끝. 너무 좋아. 완전 땡큐야. 그렇지요? 
+<Sync Start=937933><P Class=KRCC>
+그래서 a가 5분의 1이라고 나오게 된 것입니다. 이제 시작한 것이에요. 
+<Sync Start=941275><P Class=KRCC>
+아직 아무것도 안 한 것이야. 이곳에서부터 이제 진짜 시작이잖아요. 그렇지? 가볼게요. 
+<Sync Start=945454><P Class=KRCC>
+분산, 평균. 분산은 어떻게 구한다고 했지요? 평균을 이용하면 편차 제곱의 평균입니다. 
+<Sync Start=957730><P Class=KRCC>
+여러분, 선택해 봐요. 편차 제곱의 평균입니다. 내가 평균을 예쁘게 구할 수 있으면. 
+<Sync Start=969418><P Class=KRCC>
+그렇지요? 분명히 무엇이라고 했어? 평균을 내가 예쁘게 구할 수 있으면 
+<Sync Start=973179><P Class=KRCC>
+편차가 깔끔하게 떨어지니까, 라는 모호한 이야기를 했습니다. 평균 어떻게 구해? 
+<Sync Start=978897><P Class=KRCC>
+곱해, 곱해, 곱해, 곱해, 싹 다 더해, 인 것입니다. 그러면 안 구해도 되지만 
+<Sync Start=984007><P Class=KRCC>
+한번 구해놔 볼게요, 어떻게 나오나. 평균을 구하시면 곱해 이것은 0이니까 안 할게요. 
+<Sync Start=990081><P Class=KRCC>
+그다음에 이곳도 곱하면 이렇게, 그리고 더하고 있어요. 이렇게 되겠지요. 
+<Sync Start=996652><P Class=KRCC>
+깔끔하기는 한데 그래도 a와 b에 대한 식으로 나옵니다. 
+<Sync Start=1000850><P Class=KRCC>
+물론 a 대입하면 b에 관한 식이 되겠지요. 그렇지요? 그 b에 관한 식을 들고 
+<Sync Start=1004968><P Class=KRCC>
+편차라는 것을 구해야 되면 어떻게 구하게? 편차는 어떻게 구하느냐? 이것도 알아놔야지. 
+<Sync Start=1009640><P Class=KRCC>
+편차는 X값에서 평균 빼면 돼요. 그것을 제곱하는 형태잖아. 그렇지? 무엇? -1-2a-b. 
+<Sync Start=1023977><P Class=KRCC>
+좋아? 안 좋잖아. 그렇지? 이런 것이 깔끔하게 나오는 경우의 
+<Sync Start=1028512><P Class=KRCC>
+편차 제곱의 평균을 이용하라는 것입니다. 이를테면 내가 이곳에서 구했는데 
+<Sync Start=1032387><P Class=KRCC>
+하필이면 평균이 예를 들어서 1이야. -1이야, 이 정도. 그러면 -1 빼면 이곳이 편차가 0, 
+<Sync Start=1041745><P Class=KRCC>
+이곳 빼면 1, 이곳은 2, 이곳은 3 이런 식으로 조금 깔끔하게 나온다. 
+<Sync Start=1047512><P Class=KRCC>
+그러면 해볼 만하다. 그런데 그것 아니잖아. 그렇지요? 개념에 대한 공부는 끝. 
+<Sync Start=1053114><P Class=KRCC>
+이제 다시 돌아갈게요. 편차 제곱의 평균으로 구하는 것이 아닐 것 같지요. 
+<Sync Start=1056534><P Class=KRCC>
+누가 봐도 이것은 무엇으로 해야 될까요? 이것까지 있잖아. 제평평제로 써보면 
+<Sync Start=1062512><P Class=KRCC>
+무엇인가 식 정리가 되게 생겼어요. 대놓고 제평평제를 쓰라고 알려주고 있는 것입니다. 
+<Sync Start=1067802><P Class=KRCC>
+제평평제로 가볼게요. 제곱의 평균에서 평균의 제곱을 빼는 것이 제평평제예요. 
+<Sync Start=1075000><P Class=KRCC>
+그것이 V(X)인데 그것에 이것을 더했으니 둘이 사라져요. 와우, 무엇이에요? 
+<Sync Start=1079906><P Class=KRCC>
+제곱의 평균이 10분의 9라고 알려주고 있는 것입니다. 그러면 이제 제곱의 평균을 
+<Sync Start=1086104><P Class=KRCC>
+어떻게 이용할 것이야? 제곱의 평균 어떻게 구해요? 평균 어떻게 구한다고 했지? 
+<Sync Start=1092852><P Class=KRCC>
+곱해, 곱해, 싹 다 더하라고 했어요. X가 -1이야. 제곱하면 얼마지요? 1이야. 
+<Sync Start=1100240><P Class=KRCC>
+이것은 0이고 이것은 1이고 이것은 4인데요. 제곱을 한다 한들 -1이 나올 확률이 
+<Sync Start=1105832><P Class=KRCC>
+a인 것이 변하지는 않잖아요. 그러면 제곱이 1 나올 확률 또한 a인 것이 변한 것은 아니에요. 
+<Sync Start=1112024><P Class=KRCC>
+0 나온 것은 2a, 마찬가지로 이곳 1, 또 1이긴 하네. 둘이 곱하면 되고. 
+<Sync Start=1117171><P Class=KRCC>
+그러니까 제곱의 평균 어떻게 구한다고요? 곱해, 곱해, 곱해, 곱해, 
+<Sync Start=1122230><P Class=KRCC>
+싹 다 더해, 인 것이에요. 전혀 새롭지 않지요. 그러면 가봅시다. 
+<Sync Start=1127660><P Class=KRCC>
+EX제곱의 평균은 둘이 곱하면 a, 넌 0이니까 빠지고 너는 a+b, 
+<Sync Start=1136773><P Class=KRCC>
+이렇게 둘이 곱하면 4a-4b 이것입니다. 둘이 가면 얼마예요, 이곳? 
+<Sync Start=1143485><P Class=KRCC>
+6a, 즉 5분의 6-, 이렇게 하면 3b가 얼마래? 10분의 9래. 됐지요? 그렇지요. 
+<Sync Start=1152870><P Class=KRCC>
+10분의 12이니까 이곳이 얼마냐면 10분의 3이지요. 그러므로 b는 얼마예요? 
+<Sync Start=1159009><P Class=KRCC>
+10분의 1 끝. a와 b와 다 나왔습니다. 문제에서 원했던 것은 무엇이냐면요. 
+<Sync Start=1165300><P Class=KRCC>
+X가 2보다 작을 확률을 구하시오, 라는 것입니다. 그러면 어떻게 하면 되느냐? 
+<Sync Start=1169860><P Class=KRCC>
+이것이 약간 총집합의 문제의 느낌이야. 그렇지? 1보다 작을 확률이면 a도 더하고 
+<Sync Start=1176981><P Class=KRCC>
+2a도 더하고 a+b도 더해서 구하시면 됩니다만 왜 때문에 그래야 되지? 여사건으로 갈까요? 
+<Sync Start=1185285><P Class=KRCC>
+2인 확률만 전체에서 빼면 되겠지요, 마무리는. 모든 공부가 다 되고 있지요. 
+<Sync Start=1191705><P Class=KRCC>
+1에서 2인 확률만 뺄게요. 이곳에서 2보다 크거나 같은 것이 2밖에 없기 때문에. 그렇지요? 
+<Sync Start=1197161><P Class=KRCC>
+a에서 b를 뿅 하고 빼주겠습니다. a에서 b를 뿅 빼면 10분의 1 나오지요. 
+<Sync Start=1202281><P Class=KRCC>
+이것이 10분의 1이니까 정답은 10분의 9 이렇게 오는 것이에요. 
+<Sync Start=1207977><P Class=KRCC>
+이 문제를 가지고 온 이유를 알겠지요? 전반적인 모든 복습이 다 가능해. 
+<Sync Start=1212681><P Class=KRCC>
+무엇이든 다 있어. 평균분산 표준편차에 대한 것 분산 구하면 루트 씌우면 
+<Sync Start=1217098><P Class=KRCC>
+표준편차가 되니까 그것까지도 생각할 수가 있는 것이고요. 분산에 대한 것 이야기할 때도 
+<Sync Start=1221884><P Class=KRCC>
+어떤 식으로 제평평제를 이용하는지 보실 수 있고요. 제곱의 평균을 어떻게 구했는지도 
+<Sync Start=1226207><P Class=KRCC>
+보실 수가 있고요. 그렇지요? 그다음에 확률의 합은 1이라는 것은 
+<Sync Start=1228893><P Class=KRCC>
+무조건 사용한다는 것도 되고요. 마지막으로 이산확률변수 확률분포표에서 
+<Sync Start=1234304><P Class=KRCC>
+어떠한 확률을 구하는 것 또한 어떤 식으로 구하는지 알겠지요? 
+<Sync Start=1238040><P Class=KRCC>
+그 각각의 칸에 해당하는 확률들을 더해주시면 돼요. 아니면 여사건으로 처리해도 되고요. 
+<Sync Start=1244313><P Class=KRCC>
+모든 것이 복습이 가능한 문제였습니다. 넘어가 볼게요. 두 번째 문제는 무엇일까요? 
+<Sync Start=1251688><P Class=KRCC>
+이런 것. 너무 좋지요, 이항분포. 이항분포는요. 대표적인 약간 무엇이라고 그러지? 
+<Sync Start=1262799><P Class=KRCC>
+23번 유형이라고 보여집니다만 이 문제는 나름 그래도 조금 여러분을 귀찮게 하는 스타일로 
+<Sync Start=1268926><P Class=KRCC>
+제가 가지고 왔어요. 왜냐하면 너무 쉬우니까. 23번 스타일로 문제 한번 변형해 볼까? 
+<Sync Start=1274910><P Class=KRCC>
+그렇지요. 이항분포가 내용을 배울 때는 어려운데 23번 스타일, 
+<Sync Start=1280710><P Class=KRCC>
+우리 수능의 23번 스타일이라면 이곳까지 똑같고 따르고 무엇이라고 알려주면 좋을까? 
+<Sync Start=1289219><P Class=KRCC>
+평균이 20이다. n은? 이렇게 물어보면 완벽한 2점짜리입니다. 어떻게, 평균 어떻게 구해? 
+<Sync Start=1301596><P Class=KRCC>
+둘이 곱해. 3분의 1n이 20이라는 것이군. 그러니까 n은 얼마예요? 60이겠군. 
+<Sync Start=1307293><P Class=KRCC>
+이렇게 나오는 수준, 이 수준. 이 수준이면 딱 23번 스타일. 맞지요? 그렇지요? 
+<Sync Start=1314795><P Class=KRCC>
+그런데 그곳에서 조금 더 복잡하게 나온다면, 을 가지고 수능특강 문제로 가지고 왔습니다. 
+<Sync Start=1319980><P Class=KRCC>
+복습 차원에서. 이항분포를 따른다 하는 순간 여러분이 좋은 점, 
+<Sync Start=1327090><P Class=KRCC>
+여러분에게 좋은 점이 무엇일까요? 이런 것을 생각해 놔야 되겠지. 
+<Sync Start=1331295><P Class=KRCC>
+이항분포가 나와서 장점. 
+<Sync Start=1333266><P Class=KRCC>
+
+<Sync Start=1336420><P Class=KRCC>
+이상한 이항분포의 좋은 점 무엇이에요? 평균과 분산을 쉽게 구할 수 있다. 너무 중요해요. 
+<Sync Start=1346060><P Class=KRCC>
+
+<Sync Start=1349860><P Class=KRCC>
+평균과 분산을 구하기 쉬워. 평균과 분산을 너무너무 한눈에 볼 수 있게 
+<Sync Start=1357598><P Class=KRCC>
+구할 수 있게 되어 있단 말이에요. 그렇다면 무조건 이것들을 구하는 방향으로 
+<Sync Start=1362314><P Class=KRCC>
+우리가 풀이를 가지고 가야 될 것이야. 그런데 EX제곱을 줬어요. 즉 제곱의 평균을 줬어요. 
+<Sync Start=1370374><P Class=KRCC>
+그러면 어떻게 해야 돼? 제곱의 평균을 구하러 가? 놉. 평균과 분산을 구하기가 쉽다니까. 
+<Sync Start=1376469><P Class=KRCC>
+그런데 제곱의 평균을 줬어. 어떻게 가면 돼? 이런 것을 생각하면 풀이가 보이지요. 
+<Sync Start=1379724><P Class=KRCC>
+그렇지. 이것을 이용해서 누구로? 분산과의 관계로 뽑아내는 것이 낫겠지요. 
+<Sync Start=1384701><P Class=KRCC>
+분산은 무엇이라고? 제곱의 평균에서 평균의 제곱을 뺀댔잖아. 그러면 봐요. 
+<Sync Start=1393153><P Class=KRCC>
+그렇다면 이곳에서 이곳에만 40을 쏙 집어넣고 분산은 그렇지. 분산 어떻게 해? 
+<Sync Start=1401544><P Class=KRCC>
+n과 3분의 1 구한 것이 E(X)예요. 분산은 그 E(X)에 1-p를 곱하면 돼요. 기억나? 
+<Sync Start=1411772><P Class=KRCC>
+그렇지np-1p. 그래서 이것이 분산입니다, 라고 했으니까 이대로 집어넣을까요? 
+<Sync Start=1418332><P Class=KRCC>
+9분의 2n은 -, 그다음에 이곳은 평균이 3분의 1n이지요. (3분의 1n)의 제곱 
+<Sync Start=1428150><P Class=KRCC>
+이렇게 가는 것이에요. 이항분포라는 것은 시행 횟수가 n번이고 
+<Sync Start=1434998><P Class=KRCC>
+내가 원하는 사건이 일어날 확률은 3분의 1인 것이야. 내가 확률분포표를 그리자면 
+<Sync Start=1439919><P Class=KRCC>
+그릴 수도 있고 그 각각의 칸은 독립시행의 확률로 그릴 것이에요. 
+<Sync Start=1444268><P Class=KRCC>
+그러나 그렇게 하시면 확률 하나하나 다 구해야 되고 X제곱의 평균 어떻게 해야 돼? 
+<Sync Start=1450981><P Class=KRCC>
+그 변수들을 제곱해서 곱하고 아니잖아. 그렇지? 무조건 이것으로 가야 돼요. 
+<Sync Start=1456788><P Class=KRCC>
+그러니까 이런 장점을 알고 있지만 여러분이 떠올리지 않으면 문제풀이의 흐름을 
+<Sync Start=1461279><P Class=KRCC>
+못 잡아갈 수도 있어요. 됐나요? 마무리는 n에 관한 2차 방정식이겠지요. 
+<Sync Start=1468213><P Class=KRCC>
+일단 양변에 9를 곱할게요. 9를 곱하시면 360-9 곱하니까 n제곱 이렇게 되지요. 넘겨봐요. 
+<Sync Start=1477684><P Class=KRCC>
+n제곱+2n은 360. n은 무엇이지요? 자연수예요. 우리가 지금 확통을 하고 있어요. 
+<Sync Start=1490917><P Class=KRCC>
+확통을 제가 저는 참 좋아하는데요. 좋아하는 이유 중의 한 가지가 뭐냐 하면 
+<Sync Start=1496748><P Class=KRCC>
+자연수에 대한 이야기들을 참 많이 다뤄. 실수 전체에서가 아니고 
+<Sync Start=1500491><P Class=KRCC>
+횟수, 개수, n번, 자연수. 그렇지? 그러다 보니까 여러분, 이곳에서 왜 이런 이야기하느냐? 
+<Sync Start=1506810><P Class=KRCC>
+내가 2차 방정식으로 풀어낸 일이 거의 없어요. 알잖아, 여러분 나를. 그렇지요? 
+<Sync Start=1511956><P Class=KRCC>
+어떻게 해? n과 n+숫자 2개 차이 나는 애가 곱해서 360이 되었다는 말은 무엇이에요? 
+<Sync Start=1519309><P Class=KRCC>
+18과 20이라는 이야기잖아. 됐네. n은 얼마예요? 18. 그렇지요? 
+<Sync Start=1527207><P Class=KRCC>
+이것이 어차피 여러분이 이곳에서 인수분해를 하셔도 똑같은 행동을 합니다. 
+<Sync Start=1530953><P Class=KRCC>
+이렇게 하면 찍은 것 같고 인수분해를 하면 풀이한 것 같다면 똑같은 노력인데 
+<Sync Start=1536584><P Class=KRCC>
+무엇인가 덜 노력한 기분을 느끼는 것이 낫지 않겠어요? 그렇지요? 
+<Sync Start=1539998><P Class=KRCC>
+어떻게 하면 숫자 2개 차이 나는 아이들을 가지고 360을 만들어낼 것인가, 
+<Sync Start=1544694><P Class=KRCC>
+이런 생각을 하도록 하세요. 그렇게 해서 구하면 되지. 그렇지? 자연수 n 값은 18 
+<Sync Start=1549261><P Class=KRCC>
+이런 식으로 나오게 되겠습니다. 괜찮아요? 그렇지요. 
+<Sync Start=1554422><P Class=KRCC>
+이곳까지가 이제 이항분포에 대한 이야기. 그렇지요? 그다음 또 넘어가 볼게요. 
+<Sync Start=1557967><P Class=KRCC>
+이번에는 확률밀도함수 그래프에 관한 이야기를 조금 다뤄볼 것인데요. 
+<Sync Start=1563310><P Class=KRCC>
+이 단원이 최근 한 3년? 3년 전 정도부터로 봤을 때 난이도가 많이 올라갔어요. 
+<Sync Start=1571483><P Class=KRCC>
+물론 오늘 제가 갖고 온 문제는 굉장히 큐트큐트한 문제로만 가지고 왔습니다. 
+<Sync Start=1576073><P Class=KRCC>
+확률밀도함수 그래프와 관련된 문제들이 전년도 수능에도 나왔고 
+<Sync Start=1580299><P Class=KRCC>
+여러분, 전년도 수능 해설 내가 했어, 확통. 들어봐요. 알았지요? 
+<Sync Start=1585581><P Class=KRCC>
+그런 것들도 한 번씩 더 체크를 해보되 지금은 전체적인 복습이라서 
+<Sync Start=1589259><P Class=KRCC>
+제가 어려운 문제를 갖고 오지는 않았습니다. 개념복습을 한번 하고 갈게요. 
+<Sync Start=1594109><P Class=KRCC>
+지금 보는 것처럼 연속확률변수 X에 대한 이야기입니다. 0부터 3까지 이런 식으로 
+<Sync Start=1598356><P Class=KRCC>
+범위가 주어졌고요. 저 범위 안에 있는 실수 전체를 변수로 갖습니다. 오케이이? 
+<Sync Start=1604773><P Class=KRCC>
+그런 다음에 확률밀도함수 f(x)를 줬어요. 확률밀도함수의 특징을 말해봐요. 
+<Sync Start=1610584><P Class=KRCC>
+이곳에서 흔히 하는 실수가, 물어볼게요. 확률이잖아. 그러니까 k는 무조건, 
+<Sync Start=1616498><P Class=KRCC>
+그러니까 4k는 무조건 1보다는 작거나 같겠지. 이런 말을 해요. 어때? 맞아? 
+<Sync Start=1621860><P Class=KRCC>
+말도 안 되는 이야기예요. 왜? 일단 f(x)의 특징을 먼저 따지고 갈게요. 
+<Sync Start=1630025><P Class=KRCC>
+f(x)는 무조건 0보다는 크거나 같다고 합니다. 그리고 함숫값은 아무것도 아니에요. 
+<Sync Start=1641727><P Class=KRCC>
+함숫값은 확률이 아니에요. 만약에 지금 이런 식으로 해서 
+<Sync Start=1648420><P Class=KRCC>
+4k가 1보다 작거나 같아야 돼, 라고 생각한 친구들은 확률인 것으로 착각을 하신 것인데요. 
+<Sync Start=1655510><P Class=KRCC>
+전혀 관계없어요. 그러면 확률은 누가 구해요? 어떻게 구할 수 있어요? 
+<Sync Start=1660167><P Class=KRCC>
+넓이로만, 오로지 넓이로만 구합니다, 여러분. 오로지 넓이로만. 
+<Sync Start=1665985><P Class=KRCC>
+그것으로만 구할 수 있어요. 즉 전체 넓이가 1이 되어야 된다. 이것이 가장 중요해요. 
+<Sync Start=1671426><P Class=KRCC>
+확률에서 이곳에서는 넓이로 간다 그랬으니까 전체 넓이, 즉 구간의 끝에서부터 끝까지 
+<Sync Start=1677028><P Class=KRCC>
+x축과 이루는 부분의 넓이. 전체 넓이가 무조건 1입니다. 이것을 안 이용할 리가 없어요. 
+<Sync Start=1684167><P Class=KRCC>
+제일 중요해요. 전체 넓이가 1이다. 이곳에서 가볼까요? 전체 넓이가 1이다. 
+<Sync Start=1688467><P Class=KRCC>
+그래서 딱 보자마자 전체 넓이가 1이구만. 그래서 계산하시면 되겠습니다. 
+<Sync Start=1692742><P Class=KRCC>
+어떻게 계산해요? 다 구하면 돼. 그래서 여러분, 넓이를 물어보니까 
+<Sync Start=1699686><P Class=KRCC>
+삼각형, 사다리꼴. 거의 대부분 얘네예요. 뭐 없어. 
+<Sync Start=1704649><P Class=KRCC>
+이곳의 넓이는 2분의 1을 곱하는 것은 나중에, k 이곳도. 이제, 쓰지요. 
+<Sync Start=1710752><P Class=KRCC>
+이렇게 밑변의 길이×높이 이렇게 해서. 그렇지요? 그다음에 이곳은요? 이것 다 해야 돼. 
+<Sync Start=1716016><P Class=KRCC>
+k, 윗변의 길이, 아랫변의 길이 더하면 k+3k=4k이지요. 높이 1÷2하잖아요. 그렇지요? 
+<Sync Start=1724370><P Class=KRCC>
+그러면 이곳은 2k네. 이렇게 하겠지요. 이곳은? 윗변의 길이 3k, 아랫변의 길이 4k. 
+<Sync Start=1730341><P Class=KRCC>
+그렇지요? 그래서 둘이 더하면 7k. 그것에 1 곱하고 2로 나누니까 2분의 7k 이렇게 되겠지요. 
+<Sync Start=1736279><P Class=KRCC>
+그리고 이들을 싹 다 더해야 하겠지요. 그러면 얼마예요? 전체 넓이 6k=1입니다. 
+<Sync Start=1742978><P Class=KRCC>
+k값 물어보지요? k는 얼마예요? 6분의 1. 이렇게 간단하게 나와요. 
+<Sync Start=1747586><P Class=KRCC>
+제가 귀여운 문제로 가지고 왔어요. 일부러 귀여운 것으로 가지고 온 것이에요, 여러분. 
+<Sync Start=1753686><P Class=KRCC>
+난이도가 높아지면 더 힘들어 할 수 있기 때문에 귀여운 것으로 가지고 왔습니다. 
+<Sync Start=1758291><P Class=KRCC>
+전체 넓이 1이라는 것만을 단순하게 이용하는 스타일의 문제인 것이지요. 그렇지요? 
+<Sync Start=1762948><P Class=KRCC>
+그렇게 가고요. 만약에 보통은, 그러니까 이것이 귀여운 문제였다면 
+<Sync Start=1767540><P Class=KRCC>
+보통은 어떤 식으로 가냐면 그림과 같을 때 k값을 구하시오, 라고 안 하고 변형해 볼까요? 
+<Sync Start=1773759><P Class=KRCC>
+그때 나한테 이런 것을 물어봐. P 1보다 크거나 같고 2보다 작거나 같을 확률은? 
+<Sync Start=1778955><P Class=KRCC>
+이런 것을 물어봐. 그러면 무엇하면 돼요? 2k 구하면 돼요. 정답은 얼마예요? 
+<Sync Start=1784872><P Class=KRCC>
+3분의 1. k를 구하신 다음에 정리하면 되는 것이겠지요. 또는 이런 것도 있어요. 
+<Sync Start=1791188><P Class=KRCC>
+이를테면 이런 것, 이곳에서부터 시작해서 1부터 시작해서 2.5까지의 확률 이런 것. 
+<Sync Start=1798481><P Class=KRCC>
+그러면 1부터 시작해서 2.5까지의 확률은 어떻게 구해? 이것 2k로 구하시고 
+<Sync Start=1802315><P Class=KRCC>
+나머지 이 부분에 대해서는 닮음을 이용해요. 그렇지요? 닮음을 이용하면서 가.
+<Sync Start=1810045><P Class=KRCC>
+즉 이곳이 3k이고 그 절반이고 4k라면 그 중간인 이것은 얼마가 되는 것이야? 
+<Sync Start=1814247><P Class=KRCC>
+3.5k 이런 식으로 갈 것 아니에요. 그렇지요? 이런 식으로 여러분이 닮음을 이용해서 
+<Sync Start=1821774><P Class=KRCC>
+값을 구해야 되는 것 추가가 됩니다. 그래서 이런 내용에 피처링이 닮음이에요. 
+<Sync Start=1826994><P Class=KRCC>
+
+<Sync Start=1830819><P Class=KRCC>
+한 번씩 등장하니까 굳이 저는 그래서 그래프에 해당하는 1차 방정식, 
+<Sync Start=1836035><P Class=KRCC>
+직선의 방정식을 구하는 방법도 있지만 나는 거의 대부분 안 구해. 
+<Sync Start=1840840><P Class=KRCC>
+나는 대부분 이것으로 가. 훨씬 쉽다고. 그렇지요? 오랜만에 등장하니까 
+<Sync Start=1846633><P Class=KRCC>
+이런 식 보통 이렇게 그려질 것 아니에요. 이곳이 1:3이네. 이러면 어때? 
+<Sync Start=1854553><P Class=KRCC>
+이곳 위치도 이곳 전체가 이 길이가 전체 1이었다면 이만큼 잘라내면 
+<Sync Start=1859193><P Class=KRCC>
+각각 3분의 1씩 차지하겠지요. 그런 식으로 길이 잡아낼 수 있기 때문에 
+<Sync Start=1863841><P Class=KRCC>
+닮음 이용하는 형태로 여러분, 문제 풀어주면 됩니다.. 이것이 다예요. 그렇지요? 
+<Sync Start=1868926><P Class=KRCC>
+이곳에 추가적으로 어려운 문제들이 그때그때 등장을 해왔었어. 
+<Sync Start=1873798><P Class=KRCC>
+조심하셔야 되는 것 알겠지요? 함숫값은 무엇을 의미한다고? 아무것도 아니다. 
+<Sync Start=1879885><P Class=KRCC>
+이렇게 생각해 주시면 됩니다. 넘어가 볼 것이고요. 그 함숫값이 그래도, 
+<Sync Start=1886865><P Class=KRCC>
+그래도 조금 의미를 갖는 파트가 어디냐고 물어본다면 오히려 정규분포일 것이에요. 
+<Sync Start=1893386><P Class=KRCC>
+정규분포 문제 중에서 제일 재밌는 수특 문제를 가지고 왔거든요. 
+<Sync Start=1898026><P Class=KRCC>
+평균이 10인 정규분포를 따른 X에 대하여 저런 확률, 저런 확률, 이런 확률의 값이 
+<Sync Start=1904120><P Class=KRCC>
+등차수열을 나타내요. 7부터 9까지의 확률을, 무엇? 이렇게 되는 것이에요. 
+<Sync Start=1911160><P Class=KRCC>
+확률은 어떻게 구한다고 했지요? 정규분포를 따른대. 정규분포를 따르면 
+<Sync Start=1915822><P Class=KRCC>
+확률밀도함수 그래프가 등장을 할 것인데 확률밀도함수 그래프가 아까 전 같으면 
+<Sync Start=1921231><P Class=KRCC>
+넓이를 구할 수가 있어요. 그런데 정규분포를 따르면 넓이를 못 구해요. 왜요? 
+<Sync Start=1927476><P Class=KRCC>
+정규분포를 따르게 되면 한번 그림을 그려봅시다. 10을 기준으로 좌우대칭인 
+<Sync Start=1934409><P Class=KRCC>
+종 모양을 그려주시면 됩니다. 잘 그렸지요. 그렇지요? 이 상태에서 여러분 보고 
+<Sync Start=1940409><P Class=KRCC>
+7부터 9까지의 확률을 구하라는데 곡선을 품고 있는 상태라서 나는 넓이를 구할 수가 없어. 
+<Sync Start=1947989><P Class=KRCC>
+직접 구할 방법이 없어요. 그러면 어디로 가야 되냐? 다음 문제에 나올 이런 것 이용하는 
+<Sync Start=1954951><P Class=KRCC>
+표준정규분포로 바꾸는 표준화 작업을 거쳐야 됩니다. 그리고 그런 문제들이 
+<Sync Start=1959602><P Class=KRCC>
+10개 중에 한 9개? 8, 9개는 그런 문제의 유형이에요. 그런데 그중 한 문제 정도는 
+<Sync Start=1965775><P Class=KRCC>
+무엇을 이용하는 문제가 등장할 수 있다고 그랬지요? 
+<Sync Start=1968221><P Class=KRCC>
+
+<Sync Start=1971997><P Class=KRCC>
+대칭성을 문제가 등장할 수 있어요. 이런 스타일의 것들이 생각보다 많이 나오거든요. 
+<Sync Start=1978262><P Class=KRCC>
+그래서 정규분포에 대한 것들 먼저 한번 정리를 합시다. 무슨 대칭이냐 하면 
+<Sync Start=1984603><P Class=KRCC>
+선을 조금 다시 한번 그려볼까요? 평균을 기준으로 좌우대칭인 종 모양이 그려집니다. 
+<Sync Start=1992560><P Class=KRCC>
+이것부터 잡아갈게요. 평균을 기준으로 좌우대칭인 어떠한 확률밀도함수 f(x)가 
+<Sync Start=1997480><P Class=KRCC>
+하나 주어져 있을 것이에요. X의 확률밀도함수 그래프고 X는 평균이 m 표준편차가 
+<Sync Start=2005480><P Class=KRCC>
+σ제곱을 따른다고 할게요. 이런 것이 나와. 그랬을 때 봐요. 
+<Sync Start=2010674><P Class=KRCC>
+m으로부터 한 칸 이동을 했어요. 앞으로든 뒤로든 한 칸씩 이동하면 그때의 여러분 봐. 
+<Sync Start=2018139><P Class=KRCC>
+확률 말고, 그때의 함숫값이 서로 같겠지요. 이런 것 생각해 봐요. 
+<Sync Start=2025541><P Class=KRCC>
+m으로부터 1만큼 뺀 것과 m으로부터 1만큼 더한 것의 함숫값이 같다. 
+<Sync Start=2032434><P Class=KRCC>
+이런 표현도 쓸 수 있어요. 평균을 기준으로 같은 거리에 있는 아이들끼리의 
+<Sync Start=2037922><P Class=KRCC>
+함숫값이 같겠구나. 이런 생각들을 가져갈 수가 있어요. 문제로밖에 안 나오지. 
+<Sync Start=2043260><P Class=KRCC>
+개념서에 없는 내용들. 그렇지요? 그리고 두 번째로는 같은 거리에 있다면 
+<Sync Start=2052659><P Class=KRCC>
+이 넓이와 이 넓이는 어때요? 빗금친 두 넓이는 서로 같겠지요. 그렇지요? 
+<Sync Start=2058173><P Class=KRCC>
+X는 m을, 그러니까 평균 X는 m을 기준으로 좌우대칭이 되다 보니까 
+<Sync Start=2061970><P Class=KRCC>
+이렇게 둘은 넓이가 같아집니다. 좌우대칭이라는 것을 계속해서 활용을 하는 것이에요. 
+<Sync Start=2070109><P Class=KRCC>
+그렇다면 평균을 기준으로 얼마큼 거리를 갔는지에 따라서 여러분이 
+<Sync Start=2074667><P Class=KRCC>
+같은 거리를 작은 쪽 방향, 큰 쪽 방향. 같은 거리를 갔다면 같은 위치를 차지한다. 
+<Sync Start=2079569><P Class=KRCC>
+이런 생각을 갖고 가야 되겠지요. 그것이 전부예요. 보세요. 10을 기준으로 갑니다. 
+<Sync Start=2084594><P Class=KRCC>
+9부터 10까지래. 그냥 쳐다보고 있지 말고요. 한 칸 이동했음을 나타내면서 
+<Sync Start=2088776><P Class=KRCC>
+적어도 이렇게 표시를 하세요. 이것이 9라면 이것은 몇이겠어? 11이겠지. 
+<Sync Start=2094424><P Class=KRCC>
+그것 봐. 11 딱 나오잖아요. 1일부터 얼마큼? 13까지래요. 그러면 이곳이 13이라고 하면 
+<Sync Start=2099900><P Class=KRCC>
+그냥 갈까요? 놉. 10으로부터, 평균 10을 제가 동그라미 칠게요. 3칸 갔으니 
+<Sync Start=2105335><P Class=KRCC>
+이곳은 3칸 오면 이것은 누구겠어? 7 이 정도는 표시를 해주게 되겠지요. 
+<Sync Start=2109999><P Class=KRCC>
+그러니까 문제에서 9를 이야기할 때 자연스럽게 11을 썼고요. 
+<Sync Start=2114255><P Class=KRCC>
+문제에서 13을 이야기할 때 자연스럽게 7을 썼습니다. 이유가 무엇이에요? 
+<Sync Start=2119058><P Class=KRCC>
+평균을 기준으로 오른쪽으로 그만큼 갔다면 왼쪽으로 갔을 때의 값을 적어두시면 좋고요. 
+<Sync Start=2124482><P Class=KRCC>
+왼쪽으로 그만큼 갔다면 오른쪽으로 갔을 때의 값을 적어두시면 대칭이 눈에 잘 보여요. 
+<Sync Start=2130724><P Class=KRCC>
+그것도 같은 함숫값의 위치를 차지한다는 것을 표시하면서 제가 가고 있잖아요. 그렇지요? 
+<Sync Start=2136324><P Class=KRCC>
+그다음에는 그랬더니 7 나오잖아. 엄청난 관계가 있는 아이들이야, 이것들끼리. 그렇지? 
+<Sync Start=2141942><P Class=KRCC>
+다시 정리, 9부터 10까지면 이 부분이고요. 11부터 13이면 이 부분이고요. 
+<Sync Start=2149666><P Class=KRCC>
+그다음에 7보다 작거나 같다면 이 부분이에요. 부러진 것이 아니고 정말 부서뜨렸어. 
+<Sync Start=2156600><P Class=KRCC>
+나 괴력을 갖고 있네. 그렇지요? 이런 난리. 이렇게 된 것이에요. 그렇지요? 
+<Sync Start=2164640><P Class=KRCC>
+그러면 지금 제가 원래 의도하는 방향은 무엇이었을 것 같아요? 
+<Sync Start=2171394><P Class=KRCC>
+끼워넣기. 그 퍼즐 조각을 끼워 넣는 것이에요. 이곳에서 재밌는 것이 하나 있어요. 
+<Sync Start=2177739><P Class=KRCC>
+대칭이기 때문에 두 번째로 많이 등장을 하는 것 중에 
+<Sync Start=2181609><P Class=KRCC>
+전체 넓이가 1이라는 이야기 했잖아요. 
+<Sync Start=2183860><P Class=KRCC>
+
+<Sync Start=2187254><P Class=KRCC>
+그러면 절반은 얼마겠어? 0.5잖아. 즉 2분의 1이겠지요. 즉 평균을 기준으로 할 때요. 
+<Sync Start=2195660><P Class=KRCC>
+여러분, 오른쪽 반의 넓이가 0.5, 왼쪽 반의 넓이가 0.5예요. 그렇지요? 
+<Sync Start=2201411><P Class=KRCC>
+그래서 나는 그것을 끼워넣기를 처음부터 할 생각이었거든. 
+<Sync Start=2204666><P Class=KRCC>
+이 빗금 친 부분과 이곳 비어 있는 부분의 넓이가 같지요. 이 빗금 친 부분과 
+<Sync Start=2209638><P Class=KRCC>
+뚫려 있는 부분의 넓이가 같겠지요. 그러네. 그렇지요? 그리고 마지막 부분, 그러네. 
+<Sync Start=2217141><P Class=KRCC>
+그러면 이것 색칠한 것을 잘라서 이곳에 갖다 붙이면 정확히 절반이 되네. 그러네. 
+<Sync Start=2221320><P Class=KRCC>
+그러니까 너와 너와 너 셋의 합은 얼마예요? 0.5, 2분의 1이겠지요. 
+<Sync Start=2227840><P Class=KRCC>
+그런데 우리 등차수열일 때 보통 어떻게 생각하지? 합을 0.5로 쓰고 싶어. 
+<Sync Start=2234920><P Class=KRCC>
+이것이 등차중항이야. 이렇게 둘을 더한 것은 이것의 2배와 같겠지요. 
+<Sync Start=2239051><P Class=KRCC>
+즉 내가 이 부분의 넓이를 별이라고 할게요. 3별은 얼마야? 2분의 1이겠지요. 
+<Sync Start=2245483><P Class=KRCC>
+즉 별의 넓이는 얼마예요? 6분의 1이겠지요. 나머지의 넓이는 정확히 모르겠고 
+<Sync Start=2251706><P Class=KRCC>
+가운데 값의 넓이가 6분의 1이라는 것만 알 수 있습니다. 
+<Sync Start=2255156><P Class=KRCC>
+그런데 문제에서 물어보는 것이 누구예요? 7부터 9까지가 내가 말한 그것이잖아, 별. 
+<Sync Start=2260551><P Class=KRCC>
+정답은 6분의 1. 끝. 시종일관 대칭성만을 활용하는 스타일의 문제인 것입니다. 
+<Sync Start=2267151><P Class=KRCC>
+그리고 어차피 평균을 기준으로 좌우대칭이라고 해서 또 절반인 
+<Sync Start=2271459><P Class=KRCC>
+0점으로 활용하는 문제였고요. 대칭만을 활용하는 문제의 스타일로 나왔다면 
+<Sync Start=2276264><P Class=KRCC>
+이런 형태가 등장할 수 있고요. 이것이 확률밀도함수 문제에서도 
+<Sync Start=2280498><P Class=KRCC>
+이런 대칭을 이용하기도 해요. 이를테면 정규분포를 따른다고는 말을 하지 않고 
+<Sync Start=2285626><P Class=KRCC>
+X는 10을 기준으로 좌우대칭이다, 이런 표현을 쓸 수 있잖아요. 
+<Sync Start=2289230><P Class=KRCC>
+그러면 똑같은 풀이로 넘어갈 수도 있는 것이거든요. 대칭성을 활용하는 문제, 
+<Sync Start=2294313><P Class=KRCC>
+이것 한 번 더 봐두세요. 그리고 나온 김에 이것과 함께 나왔으니까 한 가지 더는 
+<Sync Start=2301227><P Class=KRCC>
+좌우대칭이라는 것과 그다음에 재미있는 한 가지가 있어요. 
+<Sync Start=2304462><P Class=KRCC>
+이 그래프에서 최댓값을 누가 만드는 줄 알아? 그래프에서의 최댓값이라고 하는 것은 
+<Sync Start=2311686><P Class=KRCC>
+우리가 무엇이라고 해요? 함숫값의 최대를 물어보는 것이에요. 누가 만들지요? 
+<Sync Start=2315088><P Class=KRCC>
+평균을 집어넣었을 때가 최대예요. 이런 것도 생각해 놓으시면 
+<Sync Start=2319513><P Class=KRCC>
+난이도 올라가는 문제에서도 잘 해결이 됩니다. 그래서 함숫값을 어떤 식으로 
+<Sync Start=2323921><P Class=KRCC>
+이용하는지 알겠지요. 평균을 기준으로 같은 거리에 있으면 함숫값이 같아요. 
+<Sync Start=2328227><P Class=KRCC>
+그리고 또 멀어질수록 점점 작아지지요. 그러면 평균을 집어넣었을 때가 
+<Sync Start=2332075><P Class=KRCC>
+가장 높게 있겠구나. 최댓값, 이런 표현으로 바꿔도 여러분이 당황하지 않아야 돼요. 
+<Sync Start=2337645><P Class=KRCC>
+이미 아는 것들에서 표현이 바뀌게 되면서 난이도가 올라가는 것이잖아. 그렇지? 
+<Sync Start=2342414><P Class=KRCC>
+최종 문제, 쉬운 문제예요. 그래서 개념을 먼저 조금 봅시다. 이곳에서의 핵심 포인트는 
+<Sync Start=2350185><P Class=KRCC>
+표준정규분포겠지요. 왜 때문에 표준정규분포가 필요한지 이것을 알아야 될 것 같아요. 
+<Sync Start=2357625><P Class=KRCC>
+그래서 표와 같이 내용을 한번 볼게요. 그냥 임의의 X라는 연속확률변수가 있는데 
+<Sync Start=2364648><P Class=KRCC>
+이것이 정규분포를 따르는 상황이에요. 지금 문제와는 관계없이 개념 먼저 가봅시다. 
+<Sync Start=2368937><P Class=KRCC>
+정규분포를 따라요. 평균이 m이고 표준편차가 σ예요. 이런 상황이야. 그렇지? 
+<Sync Start=2374068><P Class=KRCC>
+이랬을 때 우리한테 확률을 구하라고 하는 것이에요. 
+<Sync Start=2378196><P Class=KRCC>
+아까처럼 대칭을 알려주면 너무 땡큐야. 어떠한 부분의 넓이를 아까는, 
+<Sync Start=2383146><P Class=KRCC>
+이렇게 못 그릴 일이야? 10부터, 기억이 안 나니까 봐야지. 11부터 13의 넓이를 구했고요. 
+<Sync Start=2391333><P Class=KRCC>
+그랬는데 그것을 이용해서 나는 7부터 9까지의 넓이를 찾는 것이고 
+<Sync Start=2394914><P Class=KRCC>
+얘네 둘의 넓이는 대칭을 이용해서 넓이가 같았잖아요. 그렇지요? 
+<Sync Start=2398266><P Class=KRCC>
+그러면 너무 좋은데 그런 상황이 아니야. 그냥 나한테 다짜고짜 m 주고 σ에 의해서 
+<Sync Start=2403685><P Class=KRCC>
+그래프 모양은 정했는데 이곳에서부터 이곳까지 넓이 구하래. 잉? 이렇게 되는 것이야. 
+<Sync Start=2412342><P Class=KRCC>
+응? 어떻게 구해? 그렇지요. 그래서 우리가 어떤 것으로 바꿨냐면 
+<Sync Start=2416745><P Class=KRCC>
+표준화 작업이라는 것을 거칩니다. 표준화 작업, 표준화 작업이라는 것을 하는 것이에요. 
+<Sync Start=2424492><P Class=KRCC>
+이를테면 이미 내가 다 구해놓은 넓이를 다 구해놓은 Z라는 아이를 소개시켜주는 것이에요. 
+<Sync Start=2431351><P Class=KRCC>
+이것은 뭐냐 하면 평균이 0이고 표준편차가 정확히 1이래요. 
+<Sync Start=2437943><P Class=KRCC>
+Z는 평균이 0이고 표준편차가 정확히 1인 아이예요. 이런 아이가 하나 
+<Sync Start=2443280><P Class=KRCC>
+새롭게 생기게 된 것입니다, 여러분. 이렇게 바꿔주려는 것이에요. 
+<Sync Start=2446999><P Class=KRCC>
+그래프의 모양은 달라요. σ값이 다르다면 그래프의 모양은 다를 것이에요. 
+<Sync Start=2451320><P Class=KRCC>
+그런데 이것이 a부터 b까지라면 a가 어디로 가고 b가 어디로 가는지가 
+<Sync Start=2455962><P Class=KRCC>
+결정만 되어 주면 이 넓이와 이 넓이가 서로 같다고 해결을 하고 
+<Sync Start=2461774><P Class=KRCC>
+이 넓이는 표를 이용해서 구할 수가 있다. 이렇게 가겠다는 것이지요. 
+<Sync Start=2465827><P Class=KRCC>
+그러면 포인트는 그것이야. 오케이, 이러한 Z를 찾아서 내가 넓이를 미리 다 
+<Sync Start=2468865><P Class=KRCC>
+구해놨다는 것도 알겠는데 모든 X를 어떻게 Z로 바꿔? 그것만 알면 되잖아요. 그렇지요? 
+<Sync Start=2474782><P Class=KRCC>
+그래서 갑자기 비밀병기 같은 마법의 식이 하나 쓰이잖아. 기억해요? 
+<Sync Start=2479343><P Class=KRCC>
+Z는 X로부터 X의 평균 빼고 X의 표준편차로 나누면 됩니다. 그러면 모든 X는 
+<Sync Start=2487206><P Class=KRCC>
+무조건 Z로 변신이 됩니다. 변신공식이에요. 변신을 시킬 수 있어. 
+<Sync Start=2493095><P Class=KRCC>
+이것이 어디서 등장을 하느냐? 여러분, 이산확률변수, 연속확률변수 각자 
+<Sync Start=2498247><P Class=KRCC>
+가장 많이 쓰이는 이것 하나 정리 한번 오랜만에 할까요? 변수를 변환시키면 
+<Sync Start=2505925><P Class=KRCC>
+평균은 어떻게 돼요? a배 되고 b 더하는 것처럼. 분산은 어떻게 돼요? 
+<Sync Start=2513524><P Class=KRCC>
+흩어진 정도는 더하는 데는 영향이 없다 보니까 제곱배만큼의 효과가 있다. 
+<Sync Start=2517263><P Class=KRCC>
+이런 이야기들을 했었잖아요. 그것 그대로예요. σ는 그러다 보니까 곱해진 숫자의 
+<Sync Start=2524231><P Class=KRCC>
+절댓값이 온 만큼만 변화가 됩니다. 이것 그대로 적용해요. Z가 이렇게 들어가잖아요. 
+<Sync Start=2529270><P Class=KRCC>
+그러면 너무 쉽게도 봐. 이 Z는 얼마가 되느냐? X로부터 평균 빼고 σ만큼 나눴다며.
+<Sync Start=2537994><P Class=KRCC>
+그렇다면 원래의 평균에서 m 빼고 σ, 응? 이것 둘이 서로 같네. 0이에요. 
+<Sync Start=2545457><P Class=KRCC>
+왜 마법의 공식인지 알겠지요. 저렇게만 되면 무조건 하고 
+<Sync Start=2549289><P Class=KRCC>
+Z가 0이 될 수밖에 없게 만들어 놓은 것이야. σ가 원래 표준편차가 σ인데 
+<Sync Start=2553711><P Class=KRCC>
+σ로 나눴으니까 표준편차는 1 되겠지요. 그렇게 그냥 틀을 만들어 놓은 것이에요, 여러분. 
+<Sync Start=2559997><P Class=KRCC>
+그렇다 보니까 어떻게? 그냥 막바로 이곳에만 적용하면 모두 다 이것으로 바꿔서 
+<Sync Start=2566056><P Class=KRCC>
+풀이를 할 수가 있어진 것입니다. 엄청난 세상이 온 것이지요. 그렇지요? 
+<Sync Start=2570372><P Class=KRCC>
+필요성은 넓이를 구해야 되는데 내가 넓이를 못 구할 때만 활용을 할 것이고요. 
+<Sync Start=2574633><P Class=KRCC>
+그것을 가지고 문제를 푸는 내용은 기가 막히게 쉽습니다. 그렇지요? 가볼까요. 
+<Sync Start=2582042><P Class=KRCC>
+어느 수학 시험에, 이것 9월 모평이야. 응시한 시험 점수는 평균이 68점, 
+<Sync Start=2587572><P Class=KRCC>
+표준편차가 10점인 정규분포에 따른다고 합니다. 시험 점수 이런 것들에 
+<Sync Start=2592340><P Class=KRCC>
+X라고 표시하시고 써주세요. 이 문제는 굉장히 쉽지만 이 다음 시간에 하게 될 내용까지 
+<Sync Start=2598573><P Class=KRCC>
+포함해서 이런 표준정규분포표가 등장하는 문제가 굉장히 많이 나오거든요. 
+<Sync Start=2604094><P Class=KRCC>
+유형마다 다르고. 그래서 이곳은 어디? 나는 누구? 이런 일이 발생을 해요. 
+<Sync Start=2609710><P Class=KRCC>
+그러지 않으려면 이것은 X라고 할 때, 이런 식으로 이름 붙여서 
+<Sync Start=2613869><P Class=KRCC>
+이것이 정규분포를 따르고 평균이 얼마이고 표준편차가 얼마인지를 쓰는 습관을 
+<Sync Start=2618781><P Class=KRCC>
+처음부터 가지세요. 이랬을 때 이 수학 시험에 응시한 수험생 중 
+<Sync Start=2623596><P Class=KRCC>
+임의로 내가 1명을 택했더니 그 점수가 X가 55 이상 78 이하일 확률을 구하래요. 
+<Sync Start=2631966><P Class=KRCC>
+구하는 것은 무엇이라고요? 55 이상, X가 78 이하일 확률, 이것을 구하래. 
+<Sync Start=2638153><P Class=KRCC>
+이렇게 정리가 돼요. 그러면 더 이상 이쪽은 읽을 것이 하나도 없어요. 
+<Sync Start=2643474><P Class=KRCC>
+우리는 무엇만 있으면 되느냐? 너, 너, 표. 끝이에요. 이것을 가지고 여러분, 
+<Sync Start=2651269><P Class=KRCC>
+넓이를 직접 구할 수 있어요? 없어요. 넓이를 구할 수 없으면 무조건 무엇으로 바꾼다고? 
+<Sync Start=2657192><P Class=KRCC>
+Z로 바꾸세요. X가 Z로 변신되려면 어떻게 해야 된다고 했지요? 
+<Sync Start=2663777><P Class=KRCC>
+평균 빼고 표준편차로 나눠요. X 것을 보세요. X를 변신시킬 것이니까 X를 보고 
+<Sync Start=2670241><P Class=KRCC>
+X에서 X의 평균 빼시고 X의 표준편차로 나눠요. X 것에서 X의 평균 빼시고 
+<Sync Start=2678289><P Class=KRCC>
+X의 표준편차로 나눠요. 이것이 다예요. 그러면 계산해 주시면 이것이 얼마냐면 
+<Sync Start=2683285><P Class=KRCC>
+-1.3 이곳은 1까지의 확률입니다. 이 표는 어떻게 이용하느냐? 0부터 z까지의 
+<Sync Start=2689523><P Class=KRCC>
+넓이를 알려준 것이에요. 즉 해석할 때는 이렇게 그려놓으시고 나는 -1부터 1까지를 원해. 
+<Sync Start=2697692><P Class=KRCC>
+-1.3부터 1까지를 원해. 이렇게 해놓으세요. 어디야? 0부터 1까지는 이곳에 있잖아요. 
+<Sync Start=2704746><P Class=KRCC>
+0부터 1까지 이것 넣으면 이것이 0.3413이지요. 그러면 0부터 -1.3까지는? 없어.
+<Sync Start=2712515><P Class=KRCC>
+-1.3부터 0까지가 없어. 대신에 우리는 좌우대칭이라는 것 알잖아요. 
+<Sync Start=2716990><P Class=KRCC>
+그러면 0부터 1.3까지나 0부터 -1.3까지나 같은 넓이를 갖겠지요. 어떻게 하면 돼요? 
+<Sync Start=2725039><P Class=KRCC>
+이것이 이렇게 되겠구나. 봐주면 되겠지요. 그러면 정답은 무엇이라고 쓰면 돼요? 
+<Sync Start=2730591><P Class=KRCC>
+0.403과 0.3413을 더해주시면 됩니다. 341인데 1 어디 갔어. 됐어요? 
+<Sync Start=2740365><P Class=KRCC>
+그래서 0.7445 이렇게 나오게 되는 것이지요. 됐어요? 이렇게 갔습니다. 
+<Sync Start=2748888><P Class=KRCC>
+보통은 이것이 이제 표가 0.5, 1, 1.5, 2 이런 아이들에서 많이 등장을 했는데 
+<Sync Start=2756256><P Class=KRCC>
+이번 9모에서 살짝 다른 값으로 등장을 했어요. 아무 상관 없어요. 그렇지요? 
+<Sync Start=2761498><P Class=KRCC>
+아무 상관 없고 우리는 표에서 필요한 것을 찾아서 뽑아내서 쓰시기만 하면 됩니다. 
+<Sync Start=2766106><P Class=KRCC>
+이런 문제가요. 실제로는 세 줄, 두 줄 정도의 풀이면 끝나는 것이고 
+<Sync Start=2772113><P Class=KRCC>
+가장 쉽게 나오는 유형이에요. 다음 시간에 다시 한번 등장을 할 것인데 
+<Sync Start=2776489><P Class=KRCC>
+비슷한 듯 다른 느낌으로 할 것입니다. 어떤 것이 다른지 모르면 
+<Sync Start=2780104><P Class=KRCC>
+끝까지 이 유형이 어렵거든요. 오늘 것 복습 잘해두셔야 될 것이에요. 알았지요? 
+<Sync Start=2784440><P Class=KRCC>
+오늘은 통계의 기본기를 다뤄봤습니다. 우리는 다음 시간에 또 즐겁게 
+<Sync Start=2788710><P Class=KRCC>
+만나도록 할 것이고요. 복습 잘하고 오시고 다음 시간에 즐겁게 만나도록 해요. 안녕.
+<Sync Start=2793650><P Class=KRCC>
+
+
+
+</BODY>
+</SAMI>

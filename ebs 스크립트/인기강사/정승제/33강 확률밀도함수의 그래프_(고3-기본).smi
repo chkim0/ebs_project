@@ -1,0 +1,928 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=2530><P Class=KRCC>
+
+<Sync Start=15180><P Class=KRCC>
+갑니다. 어디 가는 거야? 새로운 단원으로 가야지. 더 뉴 단원.
+<Sync Start=25220><P Class=KRCC>
+지금까지 공부했었던 건 그때도 한번 얘기했지만 이산된 확률변수를 가지고 있는 확률분포,
+<Sync Start=31920><P Class=KRCC>
+이산확률분포 뭐가 이산되어 있어요? 변수 X가 이산된 성격을 가지고 있을 때
+<Sync Start=40231><P Class=KRCC>
+사람들은 이산확률변수라고 해요. 그러니까 우리가 지금까지 따졌던 X는 지정된 숫자만 가능했어요.
+<Sync Start=51105><P Class=KRCC>
+물론 반드시 정수일 필요는 없어.
+<Sync Start=58333><P Class=KRCC>
+그런데 우리가 지금까지 따졌던 확률변수 X는 보통 0,1,2,3이라든가 1,2,3이라든가 2,3이라든가
+<Sync Start=66708><P Class=KRCC>
+이렇게 지정된 실수들만을 확률변수로 가졌기 때문에
+<Sync Start=74550><P Class=KRCC>
+각각의 변수에 대한 확률 값을 나타낼 때는 표로써 충분했다고.
+<Sync Start=80432><P Class=KRCC>
+표로 충분히 확률을 나타낼 수 있었다.
+<Sync Start=85727><P Class=KRCC>
+예를 들어서 10분의 1, 10분의 2, 10분의 3, 10분의 4 이런 것처럼
+<Sync Start=91009><P Class=KRCC>
+3일 때 확률 10분의 4. 2일 때 확률 10분의 3.
+<Sync Start=94640><P Class=KRCC>
+예를 들어서 X가 1.5일 때의 확률을 구하시오 그러면 0이야. 없어. 왜?
+<Sync Start=101418><P Class=KRCC>
+확률변수 X는 1과 0 사이에 무수히 많은 실수들을 모두 다 갖지 못하고
+<Sync Start=107202><P Class=KRCC>
+딱 0, 뚝 떨어져서 1, 뚝 떨어져서 2, 뚝 떨어져서 3.
+<Sync Start=113535><P Class=KRCC>
+이렇게 뚝 떨어진 걸 사람들이 이산이라고 한다니까.
+<Sync Start=116714><P Class=KRCC>
+뚝 떨어진 값만을 갖는 확률변수라고 해서 이산확률변수,
+<Sync Start=121953><P Class=KRCC>
+그러니까 지금까지 우리가 공부했던 모든 확률분포, 이항분포 포함해서
+<Sync Start=125856><P Class=KRCC>
+이항분포도 X가 뭐라고 했어요? 나온 횟수들이니까. 횟수니까 0 또는 자연수 밖에 안되거든.
+<Sync Start=134711><P Class=KRCC>
+자연수와 자연수 사이에 그 무수히 많은 실수들은 확률변수로서의 값을 갖지 못한다고.
+<Sync Start=140542><P Class=KRCC>
+그러니까 뚝뚝 떨어진 X값들만 갖는 이런 확률분포를 이산확률분포라고 그랬고
+<Sync Start=147651><P Class=KRCC>
+이때는 확률을 나타낼 때 뭐로 나타낸다고? 표.
+<Sync Start=150548><P Class=KRCC>
+하지만 지구상에 존재하는 모든 확률변수가 다 이렇게 뚝뚝 떨어진 값만 가는 게 아니야.
+<Sync Start=156274><P Class=KRCC>
+예를 들어서 우리나라 전체 국민의 키를 조사했다. 성인 남자의 키를 조사했다.
+<Sync Start=162840><P Class=KRCC>
+그걸 확률변수 X라고 하자. 그러면 확률변수 X는 보통 150cm에서 200cm 사이에 들어올 거 아니야.
+<Sync Start=173996><P Class=KRCC>
+그런데 여러분, 150cm 그다음 사람은 160, 그다음에는 170 그다음에는 180, 190, 200 이런 것만 있니?
+<Sync Start=183324><P Class=KRCC>
+아니지. 161도 있고 162도 있고. 그러면 161, 162만 있니? 아니지.
+<Sync Start=189468><P Class=KRCC>
+161.34279 이런 것도 다 있을 수 있잖아요. 그러니까 한마디로 얘기해서
+<Sync Start=195862><P Class=KRCC>
+어떤 특정 구간 안에 있는, 뚝뚝 끊어진 값만 확률변수가 될 수 있는 것이 아니라
+<Sync Start=202112><P Class=KRCC>
+키 같은 것은 특정 구간 안에 있는 모든 실수가 다 확률변수 값이 될 수 있는 거니까
+<Sync Start=209173><P Class=KRCC>
+특정 구간에 있는 모든 실수를 다 확률변수의 값으로 갖는 그런 확률분포를
+<Sync Start=215184><P Class=KRCC>
+뚝뚝 끊어지지 않고 이어져 있다는 차원에서 사람들은 연속확률변수다 이렇게 표현을 해요.
+<Sync Start=223156><P Class=KRCC>
+
+<Sync Start=225339><P Class=KRCC>
+161cm, 162cm, 163cm 그다음 사람은 164예요. 이게 아니라 163.0023cm도 존재할 수 있으니까.
+<Sync Start=235717><P Class=KRCC>
+그 특정 구간 안에 있는 모든 실수값을 다 확률변수로 갈 수 있는
+<Sync Start=241136><P Class=KRCC>
+그런 확률변수를 연속확률변수라고 하고요.
+<Sync Start=244898><P Class=KRCC>
+그런 연속확률변수로 이루어진 확률분포를 사람들은 연속확률분포라고 얘기해요.
+<Sync Start=252807><P Class=KRCC>
+그렇게 되면 더 이상 표를 이용해서 확률을 나타낼 수 없어요.
+<Sync Start=258140><P Class=KRCC>
+왜? 표를 이용해서 확률을 나타낸다는 것은 모든 X값들을 다 나타내겠다는 건데
+<Sync Start=263050><P Class=KRCC>
+모든 실수를 다 표현할 순 없잖아요. 그래서 연속확률분포에서는 확률을 나타내는데
+<Sync Start=271976><P Class=KRCC>
+표를 사용하지 못하고 그래프를 이용해서 확률을 나타나도록 하고 있고
+<Sync Start=279887><P Class=KRCC>
+표로 나타냈을 때 확률변수 X와 확률과의 함수 관계를 확률질량함수라고 한다고 그랬잖아.
+<Sync Start=287989><P Class=KRCC>
+그래프로도 확률변수 X와 확률 간의 관계를 그래프로 표현하거든.
+<Sync Start=296172><P Class=KRCC>
+이때 함수를 사람들은 뭐라고 하냐면 확률질량함수가 아니라 확률밀도함수라고 표현해.
+<Sync Start=303310><P Class=KRCC>
+그러니까 확률을 나타내는 그래프를 확률밀도함수라고 하는구나 정도까지만
+<Sync Start=310893><P Class=KRCC>
+이해하고 계시면 되는 거예요. 그렇다면 그 그래프를 어떤 방식으로 만들어낼 것이냐.
+<Sync Start=317230><P Class=KRCC>
+확률을 나타내도록 하는 그래프인 확률밀도함수의 그래프는 어떤 분위기로 만들 것이냐를
+<Sync Start=323820><P Class=KRCC>
+내가 지금부터 설명을 해보려고 해. 어디서 많이 봤던 느낌으로.
+<Sync Start=327700><P Class=KRCC>
+우리 조금 전에 키 얘기했잖아. 키로 한번 얘기를 해볼게.
+<Sync Start=331217><P Class=KRCC>
+160 이상으로 잡아볼까? 160 이상 170 미만. 단위는 mm. 아니지, cm.
+<Sync Start=340225><P Class=KRCC>
+mm면 너무 작다. 근데 귀엽겠다. 그렇지? 160mm는 어떻게 된 거야. 이렇게 된 거야. 귀엽겠네.
+<Sync Start=354230><P Class=KRCC>
+160 이상 170 미만 이걸 계급이라고 해요. 계급. 구간으로 나타낸다고.
+<Sync Start=363803><P Class=KRCC>
+왜? 이 안에 들어있는 모든 실수 값이 다 키가 될 수 있으니까.
+<Sync Start=368507><P Class=KRCC>
+얘네들이 몇 명이냐? 빈도수, 사람 수 이런 걸 사람들은 도수라고 한다고 했죠? 그렇죠?
+<Sync Start=372663><P Class=KRCC>
+몇 명이냐 조사해 봤더니 7명이야. 7명은 너무 적다.
+<Sync Start=379609><P Class=KRCC>
+23명이야. 170 이상 180 미만인 학생들의 수를 계산해 봤더니 얘네들은 52명이야.
+<Sync Start=391962><P Class=KRCC>
+52명. 진짜 많은데? 180 이상 190 미만. 다음 세상은 이렇게 태어나고 싶어요.
+<Sync Start=400891><P Class=KRCC>
+180 이상 190 미만인 학생 수를 봤더니 몇 명이라고 할까? 지금 현재 몇 명이니? 75명이니?
+<Sync Start=409151><P Class=KRCC>
+
+<Sync Start=411375><P Class=KRCC>
+현재 65명이네. 31명이면 현재 몇 명이니?
+<Sync Start=419384><P Class=KRCC>
+
+<Sync Start=424613><P Class=KRCC>
+벌써 96명이나 되니? 190 이상 200 이하인 학생들을 봤더니 4명이 있더라.
+<Sync Start=439046><P Class=KRCC>
+
+<Sync Start=442273><P Class=KRCC>
+4명이 있더라. 그래서 총합을 계산해 봤더니 이걸 사람들은 도수의 총합이라고 하지.
+<Sync Start=450471><P Class=KRCC>
+딱 100명이 있더라. 이런 걸 도수분포표라고 그런다니까.
+<Sync Start=457797><P Class=KRCC>
+그런데 여기에서 상대도수라는 말 들어봤어? 중학교 때 배우는데.
+<Sync Start=462377><P Class=KRCC>
+상대도수를 다른 말로 쉽게 얘기하면 확률이야. 100명 중에 13명이니까 0.13 이렇게 표현해.
+<Sync Start=472107><P Class=KRCC>
+다른 말로 확률이죠. 저 안에 들어올 확률 100분의 13이니까 0.13.
+<Sync Start=478407><P Class=KRCC>
+상대도수를 얘기하시오 그러면 전체 도수의 총합 분의 그 계급 안에 들어있는 도수.
+<Sync Start=486577><P Class=KRCC>
+얘는 뭐야? 시작. 0.31, 0.04 이렇게 될 거 아니야. 그렇지?
+<Sync Start=491668><P Class=KRCC>
+이걸 뭐라고 한다고? 시작. 상대도수. 상대도수의 총합을 구하라고 하면 얼마지? 시작.
+<Sync Start=496790><P Class=KRCC>
+1 이렇게 얘기해. 상대도수의 총합은 1 이렇게 얘기해요.
+<Sync Start=504983><P Class=KRCC>
+이번엔 또 뭘 볼 거냐면 상대도수를 계급의 크기로 나눠볼까요? 계급의 크기요?
+<Sync Start=515668><P Class=KRCC>
+계급의 크기가 뭔지 아니? 또 오랜만에 들어보지? 이 거리, 10cm가 계급의 크기야.
+<Sync Start=522239><P Class=KRCC>
+그걸로 나눌 거야. 선생님, 왜요? 금방 알게 돼. 얘를 10으로 나누면
+<Sync Start=525930><P Class=KRCC>
+0.013, 0.052, 0.031, 0.0014 이렇게 나와. 이게 바로 상대도수를 계급의 크기로 나눈 거거든.
+<Sync Start=541084><P Class=KRCC>
+얘를 y축으로 하는 그래프를 그려보자. 막대그래프를 그려보자. 중학교 때 많이 해봤어.
+<Sync Start=549488><P Class=KRCC>
+막대그래프를 어떻게 만드느냐. 160 이상 170 미만이면 이렇게 만드는 거야.
+<Sync Start=555456><P Class=KRCC>
+얘가 160 이게 바로 키. 키 괄호 열고 cm. 여기가 170, 180, 190, 200.
+<Sync Start=570218><P Class=KRCC>
+y축을 뭘로 잡을 거냐. 이걸로 그대로 잡을 거야. 상대도수를 한번만 봐봐. 되게 재밌어.
+<Sync Start=578799><P Class=KRCC>
+계급의 크기로 한번 나눠볼 거라니까. 상대도수를 계급의 크기로.
+<Sync Start=584909><P Class=KRCC>
+여러분, 그럼 160이상 170미만의 그 상대도수를 계급의 크기로 나눈 값이 얼마 나와요? 시작.
+<Sync Start=591998><P Class=KRCC>
+0.013 이렇게 나오거든요. 얘가 0.013이라면 160 이상 170 미만이니까 이런 막대그래프가 생긴다고.
+<Sync Start=605371><P Class=KRCC>
+되게 재밌는데? 170 이상 180 미만의 이 값은 얼마인가요? 시작. 0.052잖아.
+<Sync Start=619015><P Class=KRCC>
+
+<Sync Start=622434><P Class=KRCC>
+한 이 정도 생긴다고. 얘가 얼마야? 0.052. 180 이상 190 미만의 값은 0.031잖아.
+<Sync Start=640125><P Class=KRCC>
+0.031. 여기가 0.031이구나.
+<Sync Start=646530><P Class=KRCC>
+
+<Sync Start=649057><P Class=KRCC>
+190 이상 200 이하가 0.004잖아. 얘가 0.004구나. 무슨 그래프라고? 막대그래프라고 얘기해.
+<Sync Start=662454><P Class=KRCC>
+또는 히스토그램이라고 하기도 해요. 용어가 그다지 중요한 건 아닌데.
+<Sync Start=667924><P Class=KRCC>
+그런데 왜 이런 y값을 함부로 이렇게 만들었냐. 이 넓이가 확률이 되도록 만든 거예요.
+<Sync Start=676475><P Class=KRCC>
+이 y값이 얼만데? 이것. 막대기의 가로의 길이가 얼마야? 이게 바로 계급의 크기예요.
+<Sync Start=683518><P Class=KRCC>
+그걸 여기다가 곱하면 계급의 크기가 약분되면서 넓이 값 자체가 얼마가 나오겠니? 시작.
+<Sync Start=689809><P Class=KRCC>
+상대도수. 상대도수를 다른 말로 뭐라고 한다고 했지? 시작. 확률.
+<Sync Start=693031><P Class=KRCC>
+따라 해 봐. 넓이가 확률.
+<Sync Start=694284><P Class=KRCC>
+-넓이가 확률.
+<Sync Start=695223><P Class=KRCC>
+-넓이가 확률이 되도록 만든 히스토그램, 막대그래프야.
+<Sync Start=701926><P Class=KRCC>
+170 이상 180 미만일 확률을 구하라고 하면 넓이 구해주시면 돼.
+<Sync Start=708276><P Class=KRCC>
+넓이 구해주시면 되고 넓이 구해주시면 돼.
+<Sync Start=711458><P Class=KRCC>
+따라서 전체 넓이는 다른 말로 전체 확률이니까 전체 넓이가 얼마니? 시작. 1이 나오도록 될 거라고.
+<Sync Start=718364><P Class=KRCC>
+
+<Sync Start=722327><P Class=KRCC>
+그런데 이 막대그래프에서 천장, 옥상에 중점을 잡아. 중점을 잡아.
+<Sync Start=734438><P Class=KRCC>
+그다음에 150이 있다면 거기도 딱 중점. 그다음 계급인 210이 있다면 거기에도 딱 중점.
+<Sync Start=739257><P Class=KRCC>
+그런 다음에 중점끼리 연결해. 이래도 전체 넓이는는 1이다.
+<Sync Start=748960><P Class=KRCC>
+
+<Sync Start=751276><P Class=KRCC>
+왜요? 선생님. 이 넓이와 이 넓이 같으니까.
+<Sync Start=756321><P Class=KRCC>
+이 넓이, 이 넓이 같고 이 넓이, 이 넓이 같고 이 넓이, 이 넓이 같고 이 넓이, 이 넓이가 같기 때문에
+<Sync Start=761531><P Class=KRCC>
+전체 넓이는 항상 뭐가 된다고? 시작. 1이 된다는 이야기야.
+<Sync Start=767132><P Class=KRCC>
+그래서 원래 막대그래프였던 것에 중점을 이렇게 연결하면 막대그래프가 아니라
+<Sync Start=774951><P Class=KRCC>
+툭툭 끊어진 그래프 모양이 되는데 이걸 사람들은 분포다각형이라고 해요.
+<Sync Start=781237><P Class=KRCC>
+그런데 여기서 계급의 크기를 아주 줄여. 그러니까 이걸 10으로 잡지 말고
+<Sync Start=791144><P Class=KRCC>
+160 이상 161 이하, 161 이상 162 이하 아주 작아지면 막대그래프가 아주 촘촘하게 늘어지겠지.
+<Sync Start=802386><P Class=KRCC>
+거기에 중점들을 찍어서 보면 얘보다 훨씬 더 많이 잘게 쪼개진 그래프가 생길 거 아니야.
+<Sync Start=810897><P Class=KRCC>
+그리고 점점 이 전체 도수의 크기를, 도수의 총합을 많이 늘린다고 생각을 하면
+<Sync Start=822272><P Class=KRCC>
+그러니까 보다 더 많은 학생들을 대상으로 계급의 크기를 잘게 잘라버리면
+<Sync Start=830964><P Class=KRCC>
+결국 이 도수다각형은 어디에 가까워지게? 곡선에 가까워지는 그래프가 생겨요.
+<Sync Start=839144><P Class=KRCC>
+그 그래프를 사람들은 확률을 나타내는 그래프다. 왜? 넓이가 바로 확률이 된다고 그랬잖아.
+<Sync Start=846719><P Class=KRCC>
+
+<Sync Start=848749><P Class=KRCC>
+그 확률을 나타내는 함수를 확률밀도함수라고 이름을 붙인 거예요.
+<Sync Start=857070><P Class=KRCC>
+이게 바로 확률을 나타내는 그래프가 된다. 그래서 내가 조금 전에 말씀드렸었던 것처럼
+<Sync Start=863231><P Class=KRCC>
+확률을 나타내는 그래프, 확률밀도함수의 그래프가 보인다고 하면
+<Sync Start=868657><P Class=KRCC>
+특정 구간인 162cm와 170cm 사이에 들어올 확률을 구하라고 하면
+<Sync Start=877482><P Class=KRCC>
+그 확률밀도함수의 그래프랑 x축과 둘러싼 부분의 넓이 자체가 뭐가 된다고? 시작.
+<Sync Start=883744><P Class=KRCC>
+확률이 된다. 이렇게 기억하고 계시면 돼요. 따라서 전체 넓이를 구하라고 하면 항상 뭐가 된다고?
+<Sync Start=890537><P Class=KRCC>
+1이 될 수밖에 없고 확률은 어차피 음수가 될 수 없다.
+<Sync Start=894359><P Class=KRCC>
+그 얘기는 이 확률밀도함수의 그래프는 항상 x축보다 위에 올라가 있다.
+<Sync Start=901455><P Class=KRCC>
+왜? 밑으로 내려가면 확률 값이 음수가 된다는 얘기인데 불가능하잖아요.
+<Sync Start=907136><P Class=KRCC>
+그래서 확률밀도함수가 되기 위한 조건이라고 그러면 앞으론 뭐라고 대답하시면 되느냐.
+<Sync Start=911292><P Class=KRCC>
+항상 x축 위에 존재하며 그 확률밀도함수의 X값이 정의된 구간에서의
+<Sync Start=917946><P Class=KRCC>
+x축과 둘러싼 부분의 넓이는 항상 뭐가 된다고? 시작. 1이 되는 것이 바로 확률밀도함수다.
+<Sync Start=924758><P Class=KRCC>
+그리고 확률밀도함수에서는 확률이 어떻게 정의되어 있다고?
+<Sync Start=927626><P Class=KRCC>
+그렇지, 160 이상 170 미만일 확률을 구하라 또는 160 이상 170 이하일 확률을 구하라는
+<Sync Start=941251><P Class=KRCC>
+160과 170 사이의 넓이로 정의된다고 그랬으니까 이렇게 확률을 구하라고 하면 언제나
+<Sync Start=949135><P Class=KRCC>
+따라 해 봐, 구간.
+<Sync Start=950186><P Class=KRCC>
+-구간.
+<Sync Start=950903><P Class=KRCC>
+-구간.
+<Sync Start=951601><P Class=KRCC>
+-구간.
+<Sync Start=952126><P Class=KRCC>
+-구간으로 물어보게 돼있어요. 왜? 구간이 정해져야지 넓이라는 것이 존재할 거 아니에요.
+<Sync Start=955972><P Class=KRCC>
+그러니까 이런 연속확률분포에서는 이런 말이 절대로 성립할 수가 없어.
+<Sync Start=963770><P Class=KRCC>
+키가 158cm일 확률을 구하라. 이렇게 순간적인 X값에서는 넓이가 생겨, 안 생겨요?
+<Sync Start=972406><P Class=KRCC>
+당연히 안 생길 테니까 넓이가 확률로 정의돼 있는 확률밀도함수라면
+<Sync Start=977725><P Class=KRCC>
+당연히 순간적인 확률을 항상 뭘로 본다고? 시작. 0으로 본다는 거야.
+<Sync Start=982264><P Class=KRCC>
+그러니까 내가 조금 전에 얘기했던 것처럼 확률이 구간으로 둘러싼 부분의 넓이라면
+<Sync Start=989038><P Class=KRCC>
+1보다 크거나 같고 2보다 작거나 같을 확률이나 여기에 범위를 떼서 이렇게 등호를 떼나
+<Sync Start=997716><P Class=KRCC>
+결과는 어떨까? 시작. 어차피 같겠지. 왜? 한순간 2일 때와 1일 때는 의미가 없다.
+<Sync Start=1005019><P Class=KRCC>
+경계선 자체가 포함되느냐, 포함되지 않느냐는 넓이를 따지는 데 의미가 없는 거야.
+<Sync Start=1011317><P Class=KRCC>
+우리 이렇게 그리잖아. 반지름의 길이가 2인 원의 넓이를 구하시오 그러면 4π 그러잖아요.
+<Sync Start=1017307><P Class=KRCC>
+이때 이 원 경계선이 좀 두꺼워. 넓이가 커졌지. 이런 얘기 안 하잖아.
+<Sync Start=1024151><P Class=KRCC>
+경계선은 넓이를 구할 때는 아예 고려하지 않는 것처럼
+<Sync Start=1031153><P Class=KRCC>
+연속확률분포에서 구간을 설정할 때 열린 구간으로 설정하나, 닫힌 구간으로 설정하나,
+<Sync Start=1038771><P Class=KRCC>
+반만 열린 구간으로 설정하나 어차피 결과는 모두 다 같은 것으로 보고
+<Sync Start=1045188><P Class=KRCC>
+한 순간에서의 확률은 시작. 0으로 간주한다 이렇게 기억하고 계시면 돼요.
+<Sync Start=1049672><P Class=KRCC>
+전체 넓이는 얼마라고? 1. 특정 부분의 넓이는 특정 부분이 될
+<Sync Start=1054005><P Class=KRCC>
+확률변수가 그 사이에 들어올 확률이 된다. 확률은 뭐라고? 시작.
+<Sync Start=1058062><P Class=KRCC>
+넓이고 넓이가 확률이라고 기억하고 계시면 돼요. 끝. 진짜 끝.
+<Sync Start=1067061><P Class=KRCC>
+선생님, 그러면 앞으로 확률변수 X가 특정 구간의 모든 실수 값을 다 갖는다면
+<Sync Start=1077894><P Class=KRCC>
+확률은 항상 확률밀도함수로 나타내네요? 네. 그리고 문제는 어떻게 출제하느냐?
+<Sync Start=1083762><P Class=KRCC>
+확률이 뭘로 정의된다고 했어? 넓이로 정의된다고 했으니까
+<Sync Start=1087053><P Class=KRCC>
+앞으로 문제를 어떻게 내냐면 넓이를 구하라 이렇게 내요.
+<Sync Start=1091163><P Class=KRCC>
+특정 구간에 들어올 확률변수 X가 그 구간에 들어올 넓이를 구하라. 정확하게는 확률을 구하라겠지만
+<Sync Start=1098975><P Class=KRCC>
+그 확률밀도함수에서 x축과 둘러싼 부분의 넓이가 바로 뭡니까? 확률이니까.
+<Sync Start=1106112><P Class=KRCC>
+
+<Sync Start=1109348><P Class=KRCC>
+확률 구하라는 얘기는? 시작. 넓이 구하라는 문제랑 똑같아.
+<Sync Start=1113327><P Class=KRCC>
+만약에 문제가 이렇게 돼 있어. 다음 확률밀도함수 y=f(X)가 있다.
+<Sync Start=1118255><P Class=KRCC>
+여기가 1이고 4이다. 1과 4 사이에서 정의된 확률밀도함수가 있다.
+<Sync Start=1123718><P Class=KRCC>
+그 얘기는 확률밀도함수의 두 가지 성립 조건.
+<Sync Start=1125920><P Class=KRCC>
+항상 x축 위에서만 존재하며 전체 넓이는 얼마가 돼? 시작. 1이 된다. 이렇게 기억하고 계시면 돼요.
+<Sync Start=1131351><P Class=KRCC>
+
+<Sync Start=1134113><P Class=KRCC>
+만약에 이렇게 돼 있어요. 확률을 구하시오. 어떻게?
+<Sync Start=1136724><P Class=KRCC>
+X가 2분의 3보다 크거나 같고 2분의 5보다 작거나 같을 확률을 구하라.
+<Sync Start=1146918><P Class=KRCC>
+2분의 3보다 크거나 같고 2분의 5보다 작거나 같을 확률을 구하라고 하면 어떻게 하면 돼?
+<Sync Start=1153415><P Class=KRCC>
+넓이 구하시면 돼요. 그럼 무슨 넓이를 구하는 거야?
+<Sync Start=1156635><P Class=KRCC>
+함수 f(X)랑 x축이랑 둘러싼 부분의 넓이를 구하는 거니까 얘 뭐 하시면 돼요?
+<Sync Start=1160709><P Class=KRCC>
+적분하면 되거든. 수2 시간에 적분 들어봤잖아요. 인테그라 어디서부터 어디까지?
+<Sync Start=1164854><P Class=KRCC>
+2분의 3부터 2분의 5까지 적분하시면 되는데 그 적분 과정이 확률과 통계에서 빠졌어.
+<Sync Start=1173926><P Class=KRCC>
+당연히 여러분이 수2는 공부했겠지만 어디까지나 선택 과목이기 때문에
+<Sync Start=1178454><P Class=KRCC>
+그걸 전제로 해서 출제하지를 않는다고.
+<Sync Start=1181858><P Class=KRCC>
+그래서 원래는 적분을 이용해서 확률을 구해주시면 되겠지만 왜? 넓이니까.
+<Sync Start=1187478><P Class=KRCC>
+적분을 이 단원에서 아예 물어보지 않기 때문에 적분하지 않고도
+<Sync Start=1193861><P Class=KRCC>
+넓이를 구할 수 있는 도형으로 확률밀도함수가 주어져요. 그러니까 사실 이건 말이 안 되거든.
+<Sync Start=1199329><P Class=KRCC>
+말이 안 된다는 게 일반 사회적인 현상을 그래프로 표현했는데
+<Sync Start=1203732><P Class=KRCC>
+직선이 되거나 사다리꼴이 되거나 삼각형이 된다는 건 거의 불가능한 일이지만
+<Sync Start=1209191><P Class=KRCC>
+수학을 이론적으로 받아들이게 하기 위해서, 넓이를 구하도록 만들기 위해서
+<Sync Start=1213804><P Class=KRCC>
+우리가 구할 줄 아는 넓이는 삼각형의 넓이, 사다리꼴의 넓이, 사각형의 넓이 이런 거밖에 안 되니까
+<Sync Start=1221339><P Class=KRCC>
+당분간은 확률밀도함수의 그래프를 어떻게 주어진다고?
+<Sync Start=1225736><P Class=KRCC>
+그렇지, 직선 형태로 주어진다고 생각하시면 될 것 같아요. 예를 들어줄게요.
+<Sync Start=1233042><P Class=KRCC>
+다음과 같이 확률밀도함수의 그래프가 주어져 있다. 이렇게 되는 거야.
+<Sync Start=1238641><P Class=KRCC>
+여기가 3, 4 이렇게 돼 있고 확률밀도함수는 0보다 크거나 같고 4보다 작거나 같은
+<Sync Start=1245225><P Class=KRCC>
+X값에 대해서 존재한다고 돼 있어요. 그 얘기는 0과 4 사이에서만 확률밀도함수가 존재하니까
+<Sync Start=1251305><P Class=KRCC>
+0과 4 바깥쪽은 0이 된다. 확률밀도함수가 존재하지 않는다.
+<Sync Start=1256124><P Class=KRCC>
+그런 다음에 갑자기 여기에서 뭘 가르쳐주느냐? 여기에 쫙 그어서 a라고 해놓고
+<Sync Start=1260754><P Class=KRCC>
+다음 확률밀도함수의 그래프에서 a값을 구하라 이렇게 나옵니다.
+<Sync Start=1265677><P Class=KRCC>
+
+<Sync Start=1267749><P Class=KRCC>
+여러분, 이산확률분포에서 X가 될 수 있는 확률변수가 1,2,3인데
+<Sync Start=1277692><P Class=KRCC>
+여기가 4분의 1, 6분의 1이고 여기가 a, 확률에 들어 있는 미지수는 뭘 이용해서 구해요?
+<Sync Start=1283412><P Class=KRCC>
+전체 확률이 1이라는 걸 이용해서 구하잖아요. 똑같아요.
+<Sync Start=1286715><P Class=KRCC>
+확률밀도함수에 들어있는 이 미지수도 뭘 이용해서 구하게? 전체 확률, 다른 말로 여기서 뭐니까?
+<Sync Start=1293031><P Class=KRCC>
+전체 삼각형의 넓이가 뭐가 되도록? 1이 되도록 a를 잡아주시면 끝이다.
+<Sync Start=1300158><P Class=KRCC>
+따라서 a를 구하라고 하면 뭘 이용하라고? 전체 넓이가 1이라는 사실.
+<Sync Start=1307026><P Class=KRCC>
+얘가 밑변, 얘가 높이니까 2분의 1 곱하기 밑변 4 곱하기 높이가 얼마야? a. 걔가 뭐니까? 시작.
+<Sync Start=1313362><P Class=KRCC>
+1이니까. 따라서 a값은 얼마 나온다? 2분의 1이 나온다. 이렇게 찾아주는 거야. 
+<Sync Start=1319121><P Class=KRCC>
+여기서 끝나느냐? 아니야. 이런 걸 물어본다니까. 뭘 물어본다니까? 확률 물어본다니까요.
+<Sync Start=1325909><P Class=KRCC>
+뭘 물어볼까? 2보다 크거나 같고 4보다 작거나 같을 확률을 구하라 이렇게 물어봅니다.
+<Sync Start=1334902><P Class=KRCC>
+그럼 얘는 어떻게 찾냐? 2부터 4까지의 확률은 넓이라고 했으니까 2가 어딘가에 나타날 거 아니야.
+<Sync Start=1342075><P Class=KRCC>
+거기서부터 여기까지 이 넓이를 구하라는 거구나. 그래서 최종적인 답은
+<Sync Start=1345912><P Class=KRCC>
+이 사다리꼴 넓이에 이 삼각형 넓이를 더해주면 답이라는 거예요.
+<Sync Start=1351319><P Class=KRCC>
+근데 그거보다 더 좋은 방법이 뭐가 있을까? 어차피 전체 넓이는 뭐니까? 시작. 1이니까.
+<Sync Start=1356462><P Class=KRCC>
+1에서 뭐만 빼면? 이 부분의 넓이만 빼면 우리가 원하는 넓이를 구할 수 있잖아요.
+<Sync Start=1362696><P Class=KRCC>
+물론 사다리꼴과 삼각형의 넓이 더해줘도 되겠지만 그것도 더 좋은 방법은
+<Sync Start=1366879><P Class=KRCC>
+1에서 직각삼각형 넓이 딱 한 번만 빼주면 된다.
+<Sync Start=1372774><P Class=KRCC>
+
+<Sync Start=1374527><P Class=KRCC>
+가자. 이 넓이 구해 봐, 시작. 2분의 1 곱하기 밑변 2 곱하기 높이인데
+<Sync Start=1379671><P Class=KRCC>
+높이 계산할 때도 이런 해석기하충. 무조건 직선의 방정식 만들 생각하지 마요.
+<Sync Start=1388754><P Class=KRCC>
+논증기하로 가세요. 중학교 도형으로 가세요. 중학교 도형으로 가려면 어떻게 하면 돼?
+<Sync Start=1394475><P Class=KRCC>
+이게 몇 대 몇이야? 3 대 2분의 1이니까 시작. 6 대 1.
+<Sync Start=1398658><P Class=KRCC>
+이걸 보고 사람들은 기울기가 6분의 1인 직선이라고 해. 그래서 얘를 해석기하로
+<Sync Start=1403660><P Class=KRCC>
+직선의 방정식으로 만들면 y=6분의 1x가 돼. 이거 되긴 되는데
+<Sync Start=1410890><P Class=KRCC>
+매번 이렇게 바꿀 생각하지 말고 중학교 때 많이 배웠으니까
+<Sync Start=1415796><P Class=KRCC>
+어차피 이 직각상승과 이 직각상승의 모습은 뭐 하니까? 시작. 닮았으니까. a의 닮음이니까.
+<Sync Start=1424381><P Class=KRCC>
+
+<Sync Start=1426451><P Class=KRCC>
+얘가 몇 대 몇이야? 시작. 6 대 1. 그럼 이쪽도 6 대 1.다른 말로 이 길이를 6으로 나누면
+<Sync Start=1432430><P Class=KRCC>
+이 길이 이렇게 가라고. 이 길이가 얼마니까? 2니까 걔를 6으로 나누면 시작.
+<Sync Start=1438087><P Class=KRCC>
+
+<Sync Start=1440537><P Class=KRCC>
+3분의 1. 이 길이가 3분의 1이 되겠구나. 따라서 높이는 3분의 1이 돼서
+<Sync Start=1452758><P Class=KRCC>
+이쪽 부분의 넓이를 구해도 얼마가 되는 거야? 시작. 3분의 1이 되는 거예요.
+<Sync Start=1456747><P Class=KRCC>
+우리가 구하고자 하는 이쪽 부분의 넓이를 구하라고 하면 답은 뭘까? 시작.
+<Sync Start=1460054><P Class=KRCC>
+3분의 2라고 하면 되지. 왜? 전체 넓이가 1이 되는 거니까.
+<Sync Start=1464090><P Class=KRCC>
+1에서 3분의 1을 뺀 넓이를 최종적인 답으로 써주시면 된다는 얘기예요. 이게 끝이에요.
+<Sync Start=1472223><P Class=KRCC>
+이걸 가지고 지금부터 몇 문제 푸냐. 세 문제를 한번 풀어보자는 거야.
+<Sync Start=1477436><P Class=KRCC>
+
+<Sync Start=1479090><P Class=KRCC>
+이걸 가지고 세 문제를 풀어보자는 얘기구나. 첫 번째 문제부터 한번 풀어볼게요.
+<Sync Start=1484636><P Class=KRCC>
+다시 확률밀도함수의 전체 넓이가 얼마야? 시작. 1.
+<Sync Start=1490361><P Class=KRCC>
+
+<Sync Start=1492421><P Class=KRCC>
+특정 구간의 넓이는 어떻게 구해? X과 둘러싼 부분의 넓이로.
+<Sync Start=1496982><P Class=KRCC>
+그리고 확률밀도함수는 항상 x축의 위에 있어, 아래에 있어? 위에. 출발.
+<Sync Start=1502816><P Class=KRCC>
+연속확률변수 X가 갖는 값의 범위는 0부터 3까지다. 그 얘기는 0부터 3 바깥쪽은 다 0이라는 거야.
+<Sync Start=1509165><P Class=KRCC>
+이 사이에서만 x축 위쪽에 존재하고 따라서 여기서 a를 구하라고 하면 어떻게 구하면 되느냐.
+<Sync Start=1514978><P Class=KRCC>
+어떻게 구하면 될까? 전체 넓이가 뭐가 되도록 만들면 되겠니? 1이 되도록.
+<Sync Start=1521080><P Class=KRCC>
+이 넓이가 1이 되도록 만들면 되는 거잖아. 그렇지?
+<Sync Start=1525495><P Class=KRCC>
+
+<Sync Start=1528921><P Class=KRCC>
+여러분, 얘가 대칭형으로 생겼기 때문에 아주 간단하게 처리할 수도 있는데요. 사실 있거든.
+<Sync Start=1536037><P Class=KRCC>
+근데 그런 얘기까지 안 할게요. 그냥 전체 넓이 구하는 데는
+<Sync Start=1540274><P Class=KRCC>
+이 삼각형 넓이, 이 사각형 넓이, 이 삼각형의 넓이 구하는 방법도 있겠으나 봐 봐.
+<Sync Start=1544740><P Class=KRCC>
+이 길이가 1이고 이 길이는 a, 여기도 이 길이가 1이고 이 길이가 a잖아. 2a니까.
+<Sync Start=1550508><P Class=KRCC>
+그러니까 이 부분과 이 부분이 완전히 일치하기 때문에 이 넓이는 이 넓이랑 같거든.
+<Sync Start=1556355><P Class=KRCC>
+결국 이 넓이를 이쪽으로 넘기면 전체 넓이가 이 사각형 넓이 더하기 이 사각형 넓이랑 똑같은 거지.
+<Sync Start=1563487><P Class=KRCC>
+그런데 이 사각형 넓이는 가로의 길이가 1이고 세로의 길이가 2a이니까
+<Sync Start=1568156><P Class=KRCC>
+얘가 2a고 얘는 1과 a니까 a가 돼서 모두 다 더하면 얼마다? 시작.
+<Sync Start=1574158><P Class=KRCC>
+3a가 되는데 걔가 바로 전체 넓이 얼마가 되니까? 시작.
+<Sync Start=1577481><P Class=KRCC>
+1이 되니까 a값을 구하라고 하면 뭐야? 시작. 3분의 1. 이렇게 처리하시면 되는 거야.
+<Sync Start=1584630><P Class=KRCC>
+
+<Sync Start=1589445><P Class=KRCC>
+됐어요?
+<Sync Start=1591317><P Class=KRCC>
+
+<Sync Start=1597245><P Class=KRCC>
+됐어? a는 3분의 1이 나오는구나. 따라서 a가 3분의 1이 나왔으니까 얘가 3분의 1이구나.
+<Sync Start=1609295><P Class=KRCC>
+여기는 3분의 2가 되는구나라는 걸 찾았어. 이제 문제를 보자.
+<Sync Start=1614666><P Class=KRCC>
+a값이 3분의 1이 나왔으니까 3분의 1보다 크거나 같고 2보다 작거나 같은 X가
+<Sync Start=1621880><P Class=KRCC>
+그 사이에 들어올 확률을 구하라고 하는데 확률은 넓이니까 X=3분의 1부터 여기에 3분의 1이 있나 봐.
+<Sync Start=1630336><P Class=KRCC>
+2는 여기에 있잖아. 이 부분의 넓이를 구하라 이게 문제지. 됐어요? 어떻게 하면 돼?
+<Sync Start=1639492><P Class=KRCC>
+이 사각형의 넓이에 이 사다리꼴의 넓이를 더하시면 되지.
+<Sync Start=1645163><P Class=KRCC>
+
+<Sync Start=1648586><P Class=KRCC>
+맞아? 그래도 좋고 나 같으면 이렇게 할 거 같아. 사다리꼴 싫으면 이 느낌도 괜찮지 않니? 어떻게?
+<Sync Start=1658047><P Class=KRCC>
+이 넓이는 알잖아. 왜? 가로의 길이 1, 세로의 길이 3. 여기가 3분의 1이구나.
+<Sync Start=1666349><P Class=KRCC>
+
+<Sync Start=1670488><P Class=KRCC>
+여러분, 근데 이 길이도 1이고 이 길이도 1이라는 것은 이 사각형과 이 사각형은 동일하거든.
+<Sync Start=1676561><P Class=KRCC>
+그러니까 이 넓이도 3분의 1인데 대각선으로 나눴으니까 이 넓이는 얼마겠니? 6분의 1이거든.
+<Sync Start=1683681><P Class=KRCC>
+그렇다면 사다리꼴의 넓이를 이용해도 되겠지만 나 같으면 이 삼각형의 넓이 6분의 1에서
+<Sync Start=1690521><P Class=KRCC>
+이 삼각형의 넓이를 빼줘도 이 사다리꼴의 넓이가 나올 거 아니야.
+<Sync Start=1696424><P Class=KRCC>
+그런데 이 삼각형과 이 삼각형은 길이의 비가 시작. 3분의 1일 때 1.
+<Sync Start=1702635><P Class=KRCC>
+다른 말로 3 대 1, 길이의 비가 3 대 1이면 시작. 9 대 1. 전체의 9분의 1만큼.
+<Sync Start=1711390><P Class=KRCC>
+얘는 시작. 9분의 8만큼. 전체 삼각형의 9분의 8만큼일테니까
+<Sync Start=1720049><P Class=KRCC>
+결국 2x3=6, 2x4=8, 27분의 4가 바로 사다리꼴의 넓이가 되며
+<Sync Start=1732459><P Class=KRCC>
+사각형의 넓이는 3분의 1, 다른 말로 시작. 27분의 9가 되니까 최종적인 답은 2개를 더해버려서 시작.
+<Sync Start=1743152><P Class=KRCC>
+27분의 13이 된다. 이런 느낌으로 해석하시면 됩니다. 제발 중학교 도형으로 갔으면 좋겠다.
+<Sync Start=1751490><P Class=KRCC>
+대부분 닮은 삼각형이 많이 나오기 때문에. 물론 사다리꼴의 넓이가 나쁘다는 건 아닌데
+<Sync Start=1756806><P Class=KRCC>
+그렇게 하려면 보통 이 기울기를 찾아가지고 해석기하로 접근하는 친구들이 있는데
+<Sync Start=1762928><P Class=KRCC>
+그게 나쁘다는 얘기가 아니라 무조건 그렇게 하는 친구들이 너무 많아서 그래요.
+<Sync Start=1768291><P Class=KRCC>
+그래서 아무래도 여러분이 많이 약한 게 기하 쪽이기 때문에
+<Sync Start=1772695><P Class=KRCC>
+어차피 수학1시간에 삼각함수, 사인 법칙, 코사인 법칙 할 때 맨날 닮음 이용하잖아. 그렇지?
+<Sync Start=1779636><P Class=KRCC>
+하는 김에 수학1 연습도 할 겸 닮음을 이용해서 처리해 주는 것도
+<Sync Start=1785773><P Class=KRCC>
+좋은 방식이라는 말씀을 드리고 싶었어. 유제 첫 번째로 또 가자.
+<Sync Start=1791828><P Class=KRCC>
+확률변수 X가 갖는 값의 범위가 -2부터 2까지야.
+<Sync Start=1799127><P Class=KRCC>
+
+<Sync Start=1804180><P Class=KRCC>
+이때 -1부터 2까지의 확률을 구하시오 이렇게 됐어요. 여러분, 이것도 이런 느낌 괜찮지 않나?
+<Sync Start=1812665><P Class=KRCC>
+어차피 이 삼각형 넓이에 이 삼각형 넓이 더하면 얼마야? 1. 전체 넓이는 1이니까.
+<Sync Start=1820126><P Class=KRCC>
+그런데 밑변의 길이가 서로 똑같아. 그러면 넓이의 비가 몇 대 몇이야? 높이 대 높이겠지.
+<Sync Start=1826070><P Class=KRCC>
+
+<Sync Start=1828574><P Class=KRCC>
+밑변의 길이가 똑같으니까. 높이만 다르잖아. 그러면 넓이의 비율이 높이의 비율이잖아.
+<Sync Start=1834911><P Class=KRCC>
+근데 높이의 비율은 3대 1이잖아. 왜? 3a, a니까. 3 대 1.
+<Sync Start=1840998><P Class=KRCC>
+그럼 전체 넓이 1에 4분의 3이 이 넓이이고 4분의 1이 이 넓이잖아.
+<Sync Start=1848969><P Class=KRCC>
+우리 지금 a값 구하지도 않을 거야. 안 구해도 돼.
+<Sync Start=1853514><P Class=KRCC>
+따라서 이 넓이는 뭐가 되는 거고? 시작. 4분의 3이 되고 이 넓이는 뭐가 된다? 시작.
+<Sync Start=1858658><P Class=KRCC>
+4분의 1이 될 수밖에 없다. 그런데 또 뭐야? -1부터 2까지의 넓이를 구하라고 했으니까
+<Sync Start=1867637><P Class=KRCC>
+-1이면 딱 여기에 중점으로 만든 이 직각삼각형의 넓이에 4분의 1 더하면 답이잖아요.
+<Sync Start=1875353><P Class=KRCC>
+근데 다시 얘기할게요. 이 삼각형과 이 삼각형의 길이의 비율은 1 대 2,
+<Sync Start=1881908><P Class=KRCC>
+넓이의 비율은 1 대 4. 다른 말로 전체 넓이의 4분의 1이 여기니까
+<Sync Start=1892188><P Class=KRCC>
+여기에 시작. 4분의 1 곱하기 16분의 3이 이 넓이가 아니겠느냐.
+<Sync Start=1897858><P Class=KRCC>
+거기에 16분의 4, 다른 말로 4분의 1만 더하면 최종적인 넓이가 나오겠다.
+<Sync Start=1905157><P Class=KRCC>
+그래서 답은 16분의 7이다. 이렇게 닮음을 이용해서 생각하는 여러분이 되셨으면 좋겠다.
+<Sync Start=1911852><P Class=KRCC>
+뭐를 대비한 거야? 삼각함수 대비한 거야. 여러분이 닮음, 원, 성질 이런 것에 너무 약해서
+<Sync Start=1920755><P Class=KRCC>
+제가 그렇게 설명을 해봤고요. a 구하려면 어떻게 하면 돼? 이 넓이가 4분의 1이라며.
+<Sync Start=1927269><P Class=KRCC>
+그럼 이 넓이가 2분의 1이라며. 그러면 2 곱하기 뭐가 2분의 1이야?
+<Sync Start=1933514><P Class=KRCC>
+2 곱하기 4분의 1이 딱 2분의 1 아닐까? 이 사각형의 넓이.
+<Sync Start=1938468><P Class=KRCC>
+따라서 절반의 넓이가 4분의 1이 되는 것처럼 a값도 그런 방식으로 충분히 구할 수 있을 것이다.
+<Sync Start=1948284><P Class=KRCC>
+그다음 유제도 갈까요? 마지막 이야기야. 진짜 마지막 이야기.
+<Sync Start=1954156><P Class=KRCC>
+확률변수 X값이 갖는 범위는 0부터 4까지래. 근데 확률밀도함수가 이렇게 생겼대.
+<Sync Start=1962962><P Class=KRCC>
+따라 해 봐, 직선.
+<Sync Start=1964873><P Class=KRCC>
+-직선.
+<Sync Start=1965393><P Class=KRCC>
+-기울기가 얼마야? 16분의 1이지.
+<Sync Start=1969947><P Class=KRCC>
+왜 직선이야? 고1일 때 배웠던 해석이야. X에 관한 1차식 나오면 무조건 직선.
+<Sync Start=1976871><P Class=KRCC>
+기울기는 16분의 1. 16 커지면 1 커지는 아주 비스듬한 이 기울기가 바로 16분의 1이에요.
+<Sync Start=1986370><P Class=KRCC>
+그런데 어차피 0부터 4까지니까 이 직선의 그림을 그릴 때는
+<Sync Start=1994652><P Class=KRCC>
+0일 때 y값, 4일 때 y값 찍은 다음에 그냥 연결하시면 돼요.
+<Sync Start=1998182><P Class=KRCC>
+X가 0일 때 y값 잡아볼래? 시작. 16분의 a 이렇게 나오잖아.
+<Sync Start=2003633><P Class=KRCC>
+
+<Sync Start=2008894><P Class=KRCC>
+어떻게 돼? 16분의 a. 그런데 만약에 a가 음수라면 16분의 a는 여기 찍혔겠지.
+<Sync Start=2016886><P Class=KRCC>
+
+<Sync Start=2018932><P Class=KRCC>
+그러면 이렇게 그려질 거 아니야. 그러면 항상 확률밀도함수는
+<Sync Start=2023804><P Class=KRCC>
+그 구간 안에서 항상 x축 위라고 했는데 지금 그 구간은 0부터거든.
+<Sync Start=2029573><P Class=KRCC>
+0부터 4까지 x 위쪽에 있어야 되는데 그게 아니니까 결국 16분의 a는 항상 뭐가 될 수밖에 없다?
+<Sync Start=2036272><P Class=KRCC>
+양수가 될 수밖에 없다는 거야. 그래서 여기서 16분의 1의 기울기로 위로 올라가는 모습일 것이다.
+<Sync Start=2045118><P Class=KRCC>
+
+<Sync Start=2046891><P Class=KRCC>
+그렇겠구먼. 그리고 맨 마지막은 어디까지니까? 4까지니까 X가 4일 때 y값도 찾아보면
+<Sync Start=2058151><P Class=KRCC>
+16분의 a+4가 된다. 맞아요? 이때 a값도 구하고 b값도 구하래. a값을 어떻게 구할까?
+<Sync Start=2070343><P Class=KRCC>
+전체 넓이가 1이라는 거 이용하시면 되죠. 전체 넓이.
+<Sync Start=2074431><P Class=KRCC>
+그럼 오랜만에 사다리꼴의 넓이 구해볼까? 어떻게 하는 거야?
+<Sync Start=2078599><P Class=KRCC>
+윗변+아래변 이 두 개를 더하고 높이를 곱한 다음에 반으로 쪼개면 되죠. 초등학교 과정입니다.
+<Sync Start=2085889><P Class=KRCC>
+이 길이 얼마야? 16분의 1. 이 길이 얼마야? 16분의 a+4. 두 개 더하면 얼마야? 16분의 2a+4.
+<Sync Start=2094221><P Class=KRCC>
+거기에 높이를 곱해. 높이가 얼마야? 4. 거기에 2분의 1을 곱하면 전체 넓이.
+<Sync Start=2100797><P Class=KRCC>
+사다리꼴의 넓이가 뭐가 되는 거니까? 1이 되는 거니까.
+<Sync Start=2104221><P Class=KRCC>
+
+<Sync Start=2107099><P Class=KRCC>
+여러분, 2랑 여기에 2로 해주면 a+2만 남고 얘는 4가 되니까 결국 4분의 a+2가 1이에요.
+<Sync Start=2116748><P Class=KRCC>
+따라서 a는 얼마야? 시작. 2가 될 수밖에 없겠구나 이렇게 찾는 거라고요.
+<Sync Start=2121864><P Class=KRCC>
+a는 2가 되겠구나. a가 얼마라고? a가 2가 된대. 그럼 얜 8분의 1이 되고
+<Sync Start=2130800><P Class=KRCC>
+a가 2니까 8분의 얼마야? 3이니? 8분의 3. 맞아? 이렇게 될 거 아니야.
+<Sync Start=2139159><P Class=KRCC>
+이제 b만 구하시면 되는데 b는 어떻게 구하느냐? 0부터 b까지의 넓이가, 확률은 넓이니까
+<Sync Start=2145025><P Class=KRCC>
+8분의 3이래요. b가 어디인지 모르겠지만 b까지의 이 넓이가 마찬가지로 사다리꼴의 넓이거든.
+<Sync Start=2153128><P Class=KRCC>
+이 넓이가 바로 뭐가 돼야 된다? 시작. 8분의 3이 돼야 된다는 이야기죠. 그럼 끝났네.
+<Sync Start=2164444><P Class=KRCC>
+우리 아까 a가 뭐였어? 2였지. 가자. x가 b일 때 y값에 b 대입하면 16분의 b+2. 그럼 끝났다.
+<Sync Start=2176539><P Class=KRCC>
+사다리꼴의 넓이는 윗변 플러스 아래변, 8분의 1 더하기 이거.
+<Sync Start=2184432><P Class=KRCC>
+16분의 2 더하기 이거니까 더하면 얼마야? 시작. 16분의 b+4.
+<Sync Start=2189704><P Class=KRCC>
+거기에 높이를 곱하고 b를 곱하는 거구나. 거기에 2분의 1까지 곱하면 최종적인 넓이는 얼마라고 했어?
+<Sync Start=2198932><P Class=KRCC>
+8분의 3 이렇게 만들어주실 수 있겠죠. 양변에 이렇게 만들고 16을 곱해. 그럼 얘만 날아가고요.
+<Sync Start=2212088><P Class=KRCC>
+얘는 4x3=12가 된다고. b에 대해서 b 플러스하니까 전개하면 b²+4b-12=0 이렇게 되는 거죠.
+<Sync Start=2222451><P Class=KRCC>
+6x2=12 b+6 b-2=0 b는 양수가 될 테니까 맞지? 결국 b값도 얼마가 나온다? 시작. 2가 될 수밖에 없다.
+<Sync Start=2235028><P Class=KRCC>
+그래서 최종적인 답은 얼마야? 4 끝. 전체 넓이는 전체 확률로써 1이다.
+<Sync Start=2240183><P Class=KRCC>
+그리고 확률밀도함수는 주어진 구간에서 x축보다 위쪽에 있어야 한다.
+<Sync Start=2245733><P Class=KRCC>
+특정 구간의 넓이를 구하라고 하면 특정 구간으로 둘러싸인 부분에
+<Sync Start=2249419><P Class=KRCC>
+x축과 둘러싼 부분의 넓이를 구해주시면 되고 적분하면 되겠지만
+<Sync Start=2253806><P Class=KRCC>
+적분이 여기서 직접적으로 출제되지 않기 때문에 항상 직선 형태로 주어지게 되어 있다.
+<Sync Start=2259122><P Class=KRCC>
+이 얘기는 상당히 우스꽝스러운 얘기라는 것이다. 일반적인 사회 현상을
+<Sync Start=2265653><P Class=KRCC>
+확률밀도함수의 그래프를 그려봤을 때 절대로 직선 형태나 원이나 정형 도형으로 생기지는 않아.
+<Sync Start=2272321><P Class=KRCC>
+너무 부적절한 그래프야. 그러면 일반적인, 내가 지금 뭐라 그랬어?
+<Sync Start=2278364><P Class=KRCC>
+일반적인 보통의 분포는 어떻게 생겼느냐. 보통의 분포, 보통, 보통의 분포.
+<Sync Start=2292383><P Class=KRCC>
+보통의 분포를 영어로 이렇게 써. 보통 분포 이렇게. 보통 분포. 보통 분포.
+<Sync Start=2301110><P Class=KRCC>
+보통 분포라고 하면 약간 이북식 느낌이 들지 않니? 그래서 그런 건 아닌데
+<Sync Start=2309231><P Class=KRCC>
+이걸 우리나라 사람들은 뭐라고 부르냐면 정규분포다. 이런 이름으로 읽어요.
+<Sync Start=2315866><P Class=KRCC>
+뭐라고 읽는다고? 정규분포. 정규분포가 뭐냐. 가장 기본적인 분포긴 해.
+<Sync Start=2325908><P Class=KRCC>
+고등학교 과정에서 여기까지만 공부하고 통계학과라고 있잖아요.
+<Sync Start=2329911><P Class=KRCC>
+대학교 가면 정규분포는 보통 m분포라 그러는데 이건 기본 중에서도 기본,
+<Sync Start=2336396><P Class=KRCC>
+어떻게 보면 우리가 지금 3차함수, 4차함수 가지고 적분하잖아.
+<Sync Start=2341307><P Class=KRCC>
+근데 마치 1차함수 가지고 중학교 2학년 애가 형, 함수 알아? 이러는 느낌이야.
+<Sync Start=2347806><P Class=KRCC>
+이렇게 정규분포 가지고 막 이러는 느낌이야. 하지만 가장 중요한 분포이긴 해.
+<Sync Start=2353901><P Class=KRCC>
+그것만 공부하는 것이 바로 고등학교 과정의 연속확률분포입니다.
+<Sync Start=2361034><P Class=KRCC>
+확률밀도함수가 어떻게 생긴 걸 사람들은 정규분포라 그러냐면 가장 보통적인 분포라니까.
+<Sync Start=2366209><P Class=KRCC>
+그게 어떻게 생겼게? 이 세상에 있는 사회 현상을 그래프로 표현하면 평균이 제일 많아.
+<Sync Start=2375625><P Class=KRCC>
+그래서 내가 여러분한테 상담하지 말라는 거야. 수능의 평균이 몇 등급이야?
+<Sync Start=2382643><P Class=KRCC>
+당연히 가운데 20%가 엄청 많지. 가운데 20%를 5등급이라고 하거든.
+<Sync Start=2389293><P Class=KRCC>
+그러면 커뮤니티 사이트에 들어가서 뭐라고 그럴까.
+<Sync Start=2396071><P Class=KRCC>
+
+<Sync Start=2405430><P Class=KRCC>
+이런 느낌이라고 보시면 돼. 제주도에 내일 도착해. 어디서 뭘 먹어야 하나요? 이걸 물어보잖아.
+<Sync Start=2413677><P Class=KRCC>
+그 얘기는 5등급한테 가서 수학 공부 어떻게 하면 되나요?를 물어본 거나 100% 똑같은 거야.
+<Sync Start=2420528><P Class=KRCC>
+
+<Sync Start=2429155><P Class=KRCC>
+그래서 그런 얘기하지 않니? 제주도 가보면 뭐라고 그래?
+<Sync Start=2433538><P Class=KRCC>
+
+<Sync Start=2436143><P Class=KRCC>
+채민이 부산 사람이구나. 부산 가보면 내가 항상 여기 돼지국밥 어디가 맛있어요? 물어보는데
+<Sync Start=2443962><P Class=KRCC>
+부산 토박이들은 꼭 인상을 써. 관광객 가는 곳 가지 마이소 막 이래.
+<Sync Start=2450269><P Class=KRCC>
+정말 되게 딱하다는 듯이 100% 그래. 안 그런 사람 내가 본 적이 없어.
+<Sync Start=2456043><P Class=KRCC>
+
+<Sync Start=2458924><P Class=KRCC>
+우리 실장님이랑 처음으로 부산 갔을 때 우리 실장님이 탁 써. 안 그래도 맨날 인상 쓰고 있는데.
+<Sync Start=2464338><P Class=KRCC>
+인상 팍 써. 구덕 맞아? 구덕야구장.
+<Sync Start=2471075><P Class=KRCC>
+
+<Sync Start=2473345><P Class=KRCC>
+구덕야구장 몰라요? 부산에 구덕야구장인데. 사직에서 하기 전에 구덕야구장 있지 않아? 구덕운동장.
+<Sync Start=2487570><P Class=KRCC>
+아무튼 있는데 그 앞에 할머니가 하는 국밥집에 날 데려갔었던 기억이 나. 이렇게.
+<Sync Start=2494246><P Class=KRCC>
+
+<Sync Start=2497147><P Class=KRCC>
+그런데 갑자기 왜 이런 얘기를 하냐.
+<Sync Start=2501412><P Class=KRCC>
+무슨 말을 하고 싶냐면 대부분의 사회 현상은 평균이 압도적으로 많아.
+<Sync Start=2507908><P Class=KRCC>
+그러니까 평균 주위에 제일 많아. 대한민국 성인 남자의 평균 키가 지금 한 174에서 175 사이거든요.
+<Sync Start=2513377><P Class=KRCC>
+지나가는 성인 남자를 보면 대부분 다 174에서 175 사이라니까. 제일 많다니까.
+<Sync Start=2519272><P Class=KRCC>
+아니면 176, 177 아니면 173, 172야. 대부분 그렇지 않니? 대부분 그 안에 모여 있어.
+<Sync Start=2526761><P Class=KRCC>
+그러다가 180 넘은 사람들 많이 없고 160보다 적은 사람 많이 없고 수학 시험을 봐도 그렇다니까.
+<Sync Start=2537147><P Class=KRCC>
+반 정도 맞는 애들이 몰려있어. 제일 많아. 그리고 공부 잘하는 애 별로 없고
+<Sync Start=2542950><P Class=KRCC>
+공부 아주 못하는 애들 별로 없고. 대부분의 사회 현상을 그래프로 표현하면 어떻게 해야 되느냐.
+<Sync Start=2549944><P Class=KRCC>
+평균이 제일 많고 가면 갈수록 줄어드는 이런 모양이 된다. 어떤 모양이냐.
+<Sync Start=2556289><P Class=KRCC>
+가운데를 평균으로 잡으면 평균을 기준으로 시작. 좌우대칭인 이걸 사람들은 뭐라고 하냐면
+<Sync Start=2564258><P Class=KRCC>
+종 모양이라고 해요. 이걸 종이라고 해서 난 무슨 말인지 진짜 몰랐다.
+<Sync Start=2570483><P Class=KRCC>
+이게 왜 종 모양이냐고 그랬는데 이거더라고. 요즘 이런 종은 없는데. 이런 종 알아요?
+<Sync Start=2580061><P Class=KRCC>
+그래서 사람들이 이런 정규분포의 그래프의 모양을 얘기할 때는
+<Sync Start=2584413><P Class=KRCC>
+뭐를 기준으로 대칭이라는 게 너무 중요해? 가운데가 평균이야. 무조건이야, 이건. 무조건.
+<Sync Start=2588765><P Class=KRCC>
+평균을 기준으로 평균에서 제일 높게 솟아올라 있는,
+<Sync Start=2592170><P Class=KRCC>
+평균에서 사람들이 가장 많이 몰려 있는 좌우 대칭형 모양의 이런 그래프를
+<Sync Start=2597708><P Class=KRCC>
+사람들은 정규분포의 그래프라고 얘기하고요. 또 하나 얘기하고 싶은 것은 얘가 x축이잖아요.
+<Sync Start=2606407><P Class=KRCC>
+x축이랑 정규분포의 그래프는 만나지 않아요. 그런데 점점 가까이 가요.
+<Sync Start=2611538><P Class=KRCC>
+이럴 때 곡선이 점점 가까이 가는 직선 사람들은 점근선이라고 그러거든.
+<Sync Start=2616517><P Class=KRCC>
+그래서 x축이 점근선인, 그리고 가운데 평균이 대칭의 중심인 종 모양의 선대칭 그래프가 바로
+<Sync Start=2626867><P Class=KRCC>
+정규분포의 그래프라는 거야. 그리고 얘 또한 확률밀도함수니까 전체 구간이 어떻게 되느냐.
+<Sync Start=2633680><P Class=KRCC>
+얘랑 안 만나니까 구간은 마이너스 무한대부터 플러스 무한대까지입니다.
+<Sync Start=2640562><P Class=KRCC>
+거기에서 x축이랑 둘러싼 부분의 넓이를 구하라고 하면 넓이가 존재할까, 안 할까? 존재하지.
+<Sync Start=2644818><P Class=KRCC>
+우리 극한 개념 배웠으니까. 이 전체 넓이는 뭐다? 시작.
+<Sync Start=2649974><P Class=KRCC>
+1이 되는 거고 평균을 기준으로 대칭이라고 했으니까 평균을 기준으로
+<Sync Start=2655469><P Class=KRCC>
+이쪽 부분의 넓이를 구하라고 하면 얼마? 시작. 2분의 1, 다른 말로 0.5가 되고요.
+<Sync Start=2661628><P Class=KRCC>
+이쪽 부분의 넓이를 구하라고 해도 2분의 1. 다른 말로 뭐가 돼? 시작. 0.5가 된다.
+<Sync Start=2668349><P Class=KRCC>
+따라서 누군가가 갑자기 정규분포를 따르는, 여기서도 따르는이라는 표현을 써요.
+<Sync Start=2676347><P Class=KRCC>
+확률변수 X가 평균보다 크거나 같을 확률을 구하시오 그러면 볼 것도 없이 0.5가 답인 거예요.
+<Sync Start=2682492><P Class=KRCC>
+왜? 평균보다 크거나 같을 확률이니까. 이 부분의 넓이, 반쪽의 넓이니까 시작.
+<Sync Start=2688075><P Class=KRCC>
+2분의 1, 다른 말로 0.5가 된다고 이야기하시면 돼요.
+<Sync Start=2693281><P Class=KRCC>
+또 하나는 정규분포의 그래프라고 해서 무조건 다 겹쳐지는 건 아니야.
+<Sync Start=2701969><P Class=KRCC>
+얘랑 똑같이 생긴 게 아니라 평균을 기준으로 좌우 대칭이면서, 종 모양이면서, x축이 점근선이면
+<Sync Start=2708687><P Class=KRCC>
+다 정규분포라서 이런 정규분포도 존재하겠지만 어떤 정규분포도 존재하게?
+<Sync Start=2716153><P Class=KRCC>
+이런 정규분포도 존재합니다. 아까보다 많이 솟아져 있죠.
+<Sync Start=2722883><P Class=KRCC>
+그 얘기는 평균을 기준으로 더 많이 몰려 있지. 얘는 노란색보다는 흩어져 있지.
+<Sync Start=2734098><P Class=KRCC>
+그래서 이렇게 생겼느냐, 이렇게 생겼느냐에 상관없이 다 정규분포인데
+<Sync Start=2739832><P Class=KRCC>
+정규분포의 모양은 무수히 많다는 거야. 얘가 제일 많이 흩어져 있겠지.
+<Sync Start=2747648><P Class=KRCC>
+높이가 제일 높은 것은 평균을 기준으로 몰려 있다는 얘기고
+<Sync Start=2753135><P Class=KRCC>
+높이가 낮다는 것은 멀리 퍼져 있다, 막 흩어져 있다.
+<Sync Start=2757114><P Class=KRCC>
+다른 말로 산포도가 크다, 산포도가 작다 이렇게 상대적으로 얘기하는 거예요.
+<Sync Start=2762843><P Class=KRCC>
+그래서 정규분포의 그래프의 오므라들어있는 이 모습을, 이 정도를
+<Sync Start=2775529><P Class=KRCC>
+다른 말로 그래프 자체가 퍼져 있는지 솟아올라 있는지를 나타내는 지표가 바로 산포도야.
+<Sync Start=2783301><P Class=KRCC>
+그래서 정규분포를 결정하는 요소는 딱 2개인데 이항분포를 결정하는 요소도 2개였던 것처럼
+<Sync Start=2792645><P Class=KRCC>
+정규분포는 맨 앞 글자 N이라고 표현을 하고 이항분포처럼 두 가지 요소로 정규분포를 표현하는데
+<Sync Start=2802915><P Class=KRCC>
+정규분포 자체의 생김새, 다른 말로 몰려 있느냐 퍼져 있느냐는 누가 결정한다? 시작.
+<Sync Start=2812167><P Class=KRCC>
+산포도, 분산이 결정한다. 그래서 하나가 분산.
+<Sync Start=2817043><P Class=KRCC>
+
+<Sync Start=2819450><P Class=KRCC>
+그 얘기는 하나가 뭐야? 표준편차. 또 하나는 뭐냐? 얘 위치, 얘의 표준편차는 똑같다고 해도
+<Sync Start=2831758><P Class=KRCC>
+흰색 2개가 겹쳐져서 완전히 똑같아질 수 있는 표준편차가 같은 그림이라고 해도
+<Sync Start=2839585><P Class=KRCC>
+이때 여기에 가운데는 10이고 여기에 가운데가 20이다. 그 얘기를 뭐라고 그래?
+<Sync Start=2845073><P Class=KRCC>
+평균이라고 하니까 이런 정규분포에서의 평균은 누구야? 10.
+<Sync Start=2849404><P Class=KRCC>
+이런 정규분포에서의 평균은 누구야? 20.
+<Sync Start=2852460><P Class=KRCC>
+평균이 크면 오른쪽, 평균이 작으면 왼쪽에 존재할 거 아니니?
+<Sync Start=2857449><P Class=KRCC>
+그 좌우의 존재, 대칭축이 바로 평균이라서 평균이 그 그래프의 위치,
+<Sync Start=2868288><P Class=KRCC>
+왼쪽으로 가 있느냐, 오른쪽으로 가 있느냐라는 위치를 결정하고 표준편차가 뭐를 결정하겠니? 시작.
+<Sync Start=2875971><P Class=KRCC>
+
+<Sync Start=2878448><P Class=KRCC>
+정규분포 그래프 자체의 생김새, 폭을 결정한다. 그래서 정규분포를 결정하는 두 가지 요소가 뭐냐.
+<Sync Start=2891142><P Class=KRCC>
+하나가 평균, 하나가 표준편차. 그런데 표현할 때는 앞에 평균을 쓰고 뒤에는 분산을 쓰도록
+<Sync Start=2900870><P Class=KRCC>
+전 세계가 약속을 한 거예요. 그러니까 누군가가 N(170,5²) 이게 무슨 말이야? 시작.
+<Sync Start=2908434><P Class=KRCC>
+평균이 170, 표준편차가 5인 정규분포 이렇게 얘기하는 거야. 얘를 뭐라고 한다고? 평균.
+<Sync Start=2914531><P Class=KRCC>
+얘를 분산, 얘를 표준편차다 이렇게 얘기하기로 약속이 돼 있는 거예요.
+<Sync Start=2920795><P Class=KRCC>
+이항분포는 어떻게 표현했는지 다시 한번 복습해볼까? 이거 아니었니?
+<Sync Start=2925474><P Class=KRCC>
+얘는 뭐였고? 시행 횟수. 얘는 뭐야? 한 번씩 했을 때 나올 확률, 성공한 확률이라고 표현하는 것처럼
+<Sync Start=2933310><P Class=KRCC>
+정규분포를 표현하는, 다른 말로 정규분포를 결정하는 두 가지 요소를 이야기하시오 그러면
+<Sync Start=2939121><P Class=KRCC>
+하나는 평균. 뭐를 얘기한다? 위치, 그래프의 위치를 결정하는 거고
+<Sync Start=2943995><P Class=KRCC>
+또 하나는 표준편차. 뭐를? 그래프에 솟아 오른 정도, 폭을 결정한다라고까지만 생각해 주시면 돼요.
+<Sync Start=2953206><P Class=KRCC>
+다음 시간 정말 중요한데 이제 이 얘기를 가지고 정규분포 문제를 풀 수 있는
+<Sync Start=2959973><P Class=KRCC>
+가장 핫한 이야기를 다음 시간에 해 드리도록 하겠습니다.
+<Sync Start=2963715><P Class=KRCC>
+기대 많이 해 주세요. 오늘은 여기까지.
+</BODY>
+</SAMI>

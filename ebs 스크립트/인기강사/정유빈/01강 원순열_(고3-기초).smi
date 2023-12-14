@@ -1,0 +1,571 @@
+<SAMI>
+<HEAD>
+<TITLE>(주)기록법인상생 자막 2019</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<SYNC Start=13368><P Class=KRCC>
+짠. 여러분, 안녕하세요? 수학이 말랑말랑해지는 시간 찹쌀떡 수학. 저는 여러분과 함께 공부하고 있는 정유빈입니다.
+<SYNC Start=22456><P Class=KRCC>
+이번에는 마법사로 돌아왔습니다. 여러분들의 수학을 말랑말랑하게. 말랑말랑하게 이렇게 얘기하다 보니까 우리 진짜 수학이 말랑말랑해졌잖아요.
+<SYNC Start=32084><P Class=KRCC>
+본격적 수특에서는 진짜 말랑하게 만드는 마법을 걸어보려고 합니다.
+<SYNC Start=38054><P Class=KRCC>
+시작할 때 우리 항상 마법에 빠뜨려보도록 할 건데요. 오늘 여러분들한테 걸려고 하는 마법은 바로 이겁니다. 짜잔.
+<SYNC Start=47368><P Class=KRCC>
+나는 왜 이렇게 수학을 잘하지?
+<SYNC Start=50854><P Class=KRCC>
+여기 뒤에 쌀떡이가 있어요, 이렇게. 여기 보여요?
+<SYNC Start=56929><P Class=KRCC>
+엄청 귀엽게 두 손을 모으고 있더라고요. 숨은 쌀떡이를 잘 찾아가면서.
+<SYNC Start=62124><P Class=KRCC>
+‘난 왜 이렇게 수학을 잘하지?’라는 말 해본 적 있어요?
+<SYNC Start=65811><P Class=KRCC>
+입 밖으로 내뱉지는 마세요. 친구를 잃을 수도 있습니다. 주변에 이런 말을 하는 친구는 없잖아요.
+<SYNC Start=73295><P Class=KRCC>
+그런 말을 하지는 말고 생각을 하거나 아니면 무조건적으로 여러분들 편인 사람.
+<SYNC Start=79023><P Class=KRCC>
+예를 들어 나라든지 아니면 가족들한테 정도는 한번 내뱉어보셔도 됩니다. ‘나 왜 이렇게 수학을 잘하지?’
+<SYNC Start=86277><P Class=KRCC>
+여러분들은 오늘 그 마음으로 시작을 할 겁니다. 수학 내가 세상에서 제일 잘해요, 여러분들이.
+<SYNC Start=92394><P Class=KRCC>
+수학 문제를 풀면 푸는 족족 보이고, 개념을 들으면 듣는 족족 이해가 되는 여러분들은 수학의 천재들이 되는 겁니다.
+<SYNC Start=101315><P Class=KRCC>
+마법에 빠뜨려 놓고 시작을 해보도록 하겠습니다.
+<SYNC Start=105216><P Class=KRCC>
+오늘은 1강입니다. 여러분들 준비됐죠? 그러면 칠판으로 가볼까요? 뿅.
+<SYNC Start=113330><P Class=KRCC>
+가보도록 하겠습니다. 일단은 오늘은 원순열이고요. 저는 이거를 벗고 시작을 할 겁니다.
+<SYNC Start=121450><P Class=KRCC>
+바스락바스락 될까 봐. 일단 제일 중요한 건 우리한테 학습이니까요. 가볼까요?
+<SYNC Start=127320><P Class=KRCC>
+원순열입니다. 손바닥만큼만 개념 쓰기를 하고 갈 거예요. 진짜 개념은 간단해요. 그래서 여러분들이 장황하게 내용 쓸 것도 없고요. 딱 딱 딱 핵심 잡고 이만큼만 쓰고 가도록 할게요. 알았죠?
+<SYNC Start=142235><P Class=KRCC>
+원순열입니다. 원순열의 핵심 포인트들이 있어요. 그전에 나열하기부터 할 거예요.
+<SYNC Start=150656><P Class=KRCC>
+나열하기.
+<SYNC Start=153257><P Class=KRCC>
+흰색으로 쓸 거야. 왜냐하면, 별로 안 중요해서.
+<SYNC Start=157523><P Class=KRCC>
+왜냐하면, 별 내용이 없어요. 나열을 해나갈 겁니다. 사람 5명을 나열을 해요. n명을 나열을 해요.
+<SYNC Start=164390><P Class=KRCC>
+n이라고 굳이 쓸 필요도 없으니까 아주 간단하게 3명을 일렬로 앉혀보도록 할까요?
+<SYNC Start=173328><P Class=KRCC>
+3명을 일렬로 앉히는 방법은 몇가지일까요?
+<SYNC Start=176868><P Class=KRCC>
+첫 번째 자리에 올 수 있는 경우의 수. 후보 3명. 두 번째 자리 2명. 세 번째 자리 1명. 그래서 우리가 팩토리얼로 표현을 하죠.
+<SYNC Start=185436><P Class=KRCC>
+이게 일렬로 나열하는 겁니다. 이 내용 또한 여러분, 완벽하게 그냥 저스트 곱의 법칙을 이용하고 있는 겁니다.
+<SYNC Start=192865><P Class=KRCC>
+뭐냐면, 첫 번째 자리에 올 수 있는 경우의 수가 3명이니까 3명 다 후보군.
+<SYNC Start=198947><P Class=KRCC>
+두 번째 자리는 1명이 앉고 나면 2명. 그다음은 마지막 남은 자리 1명. 이렇게 이야기를 하죠.
+<SYNC Start=204341><P Class=KRCC>
+그래서 일렬로 나열한다. 3！이에요.
+<SYNC Start=207759><P Class=KRCC>
+나열하기가 있잖아요. 여기서 살짝 바꿔볼게요.
+<SYNC Start=213337><P Class=KRCC>
+원형으로 나열할 겁니다.
+<SYNC Start=216377><P Class=KRCC>
+‘원형으로 나열을 한다.’에는 특징이 한 가지 있어요.
+<SYNC Start=220719><P Class=KRCC>
+비교해 주세요. 일렬로 나열하는 것과 원형으로 나열할 때의 차이.
+<SYNC Start=226064><P Class=KRCC>
+원형으로 나열할 건데, 4명을 앉힐 거야, 원탁에.
+<SYNC Start=229018><P Class=KRCC>
+&nbsp;
+<SYNC Start=231967><P Class=KRCC>
+괜찮죠? 원형으로 앉을 건데, 이거는 ‘회전해서 같은 경우는 같게 본다.’ 이런 말이 붙어요.
+<SYNC Start=242904><P Class=KRCC>
+회전 가능 정도만 쓸까? 이걸 다 쓰려니까 조금 귀찮아. 회전 가능.
+<SYNC Start=249712><P Class=KRCC>
+회전 가능. 이렇게 놓을게요. 이것에 되게 중요한 말이 한 가지가 있는 거야.
+<SYNC Start=255696><P Class=KRCC>
+일렬로 나열할 거예요. 똑같이 4명이라고 해볼게요. 비교하기 위해서.
+<SYNC Start=260993><P Class=KRCC>
+4명을 일렬로 나열하는 것은 4！이라고 합니다. 이유는 첫 번째 자리에 올 수 있는 경우의 수 4가지.
+<SYNC Start=268891><P Class=KRCC>
+두 번째 자리 3가지. 세 번째 자리 2가지. 마지막 자리 1명 남았으니까 1가지의 경우의 수를 가져서 곱했죠.
+<SYNC Start=277444><P Class=KRCC>
+일렬로 나열하는 것은 각각이 다 다른 자리입니다. 그런데 회전해서 같은 경우가 생기죠.
+<SYNC Start=284763><P Class=KRCC>
+지금 얘네는 다 같은 자리예요. 현재 빈자리일 때.
+<SYNC Start=289852><P Class=KRCC>
+같은 자리란 말이에요. 이게 엄청 중요해요. A, B, C, D를 앉힌다고 하면, 여기 A가 앉고, 여기 B가 앉고, 여기 C가 앉고, 여기 D가 앉았다고 할게요.
+<SYNC Start=302233><P Class=KRCC>
+그러니까 지금 시계 방향으로 A로부터 시작해서 B, C, D 이렇게 갔잖아. 내가 여기서 살짝 바꿀 거예요.
+<SYNC Start=311561><P Class=KRCC>
+한 칸씩 이동해 봐. 그래서 A가 여기로 왔어. 한 칸 이동해 봐. B가 여기로 오지.
+<SYNC Start=316235><P Class=KRCC>
+한 칸 이동해. C가 여기로 왔다. 한 칸 이동해. D가 여기로 왔어요.
+<SYNC Start=320352><P Class=KRCC>
+흰색으로 써놓은 A, B, C, D 배열과 주황색으로 써놓은 A, B, C, D 배열은 어때요?
+<SYNC Start=328859><P Class=KRCC>
+달라? 똑같지. 지금 주황색으로 쓰여 있는 것을 여러분들이 정면으로 봐요. 그러면서 고개를 90도만 꺾어봐요.
+<SYNC Start=337939><P Class=KRCC>
+90도만 꺾으면 내 정수리 쪽에 다시 A가 있어요. 주황색일 때는 서 있으면서 정수리에 A가 있고 B, C, D였잖아.
+<SYNC Start=344636><P Class=KRCC>
+고개 90도만 꺾으면 정수리에 A가 있고 B, C, D가 됩니다. 즉, 한 칸씩 이동을 하면 이 배열이 똑같은 배열이 됩니다. 회전 가능하잖아요.
+<SYNC Start=354269><P Class=KRCC>
+오렌지색으로 써놓은 거 한 칸만 이렇게 비틀어내면 흰색이랑 딱 맞춰져요.
+<SYNC Start=359971><P Class=KRCC>
+회전 가능하다는 게 이렇게 중요한 거지. 그러면 이거는 어떻게 해결을 할 것이냐?
+<SYNC Start=364422><P Class=KRCC>
+어차피 서로 다 다른 자리라고 생각하는 4！을 그대로 두고요. 같은데 다르게 다 각각 센 경우를 나누어 주면 되겠죠. 똑같은 배열을 몇 번 만들 수 있을까?
+<SYNC Start=378215><P Class=KRCC>
+ABCD, ABCD, ABCD, ABCD 4면 만들어낼 수가 있겠죠.
+<SYNC Start=385024><P Class=KRCC>
+A가 어느 자리에 오느냐에 따라서만큼 같은 배열을 만들어낼 수가 있겠네요. 그러니까 무엇으로 나눠요?
+<SYNC Start=392786><P Class=KRCC>
+4로 나눠야 되겠지. 그래서 얘는 3！이 됩니다.
+<SYNC Start=397062><P Class=KRCC>
+그래서 원순열을 암기하시는 친구들 이런 식으로 많이 하죠.
+<SYNC Start=401641><P Class=KRCC>
+n명을 원탁에 앉힌다고 하면 우리는 어떻게 해요?
+<SYNC Start=410204><P Class=KRCC>
+그냥 n에서 1 빼서 ‘(n-1)！입니다.’라고 하여 아주 단순할 때는 그렇게 생각하셔도 괜찮아요. 아주 단순할 때는.
+<SYNC Start=421032><P Class=KRCC>
+그런데 문제에 장치가 들어갈 수가 있기 때문에 이렇게 너무 단순하게 생각하지 마시고, 이걸 이해하기 위한 두 가지 방법으로 할 거예요.
+<SYNC Start=428043><P Class=KRCC>
+첫 번째는 방금 한 것처럼 그냥 일렬로 나열한 것이라고 생각하고 겹치는 경우를 나눠주시면 됩니다.
+<SYNC Start=435353><P Class=KRCC>
+써주세요. 일렬로 나열시키고, 배열이 겹치는 경우로 나눠준 거예요.
+<SYNC Start=444716><P Class=KRCC>
+그렇죠? 나눠준 거예요. 두 번째 방법은, 이 두 번째 방법이 조금 요상해 보이는데 되게 중요해요.
+<SYNC Start=451342><P Class=KRCC>
+뭐냐면, 한 명을 먼저 앉힐 거야.
+<SYNC Start=457167><P Class=KRCC>
+이유는 다른 자리로 만들어주려고.
+<SYNC Start=461415><P Class=KRCC>
+여기서 똑같은 그림에서 생각을 해보도록 할게요. 아까와 마찬가지로 4명이 있는 경우로.
+<SYNC Start=466603><P Class=KRCC>
+한 명을 먼저 앉힌다는 게 어떤 의미를 갖는 거냐면, A, B, C, D가 있었잖아, 아까전에.
+<SYNC Start=472268><P Class=KRCC>
+‘A야, 너 가서 한번 앉아봐.’ 이랬어. A가 됐건 B가 됐건 C가 됐건 D가 됐건 그것도 상관없어요. 누구든 가서 한 명을 앉게 하는 거예요.
+<SYNC Start=479862><P Class=KRCC>
+A 앉히는 방법의 수.
+<SYNC Start=481690><P Class=KRCC>
+&nbsp;
+<SYNC Start=486461><P Class=KRCC>
+A가 가서 앉아봐, 빈자리니까. 했어. 몇 개일까?
+<SYNC Start=490217><P Class=KRCC>
+4가지? 절대 아니야. 1가지예요. 왜요?
+<SYNC Start=494779><P Class=KRCC>
+A가 여기에 가서 앉거나 여기 가서 앉거나 여기 가서 앉거나 여기 가서 앉거나 어차피 회전이 가능한 상태잖아.
+<SYNC Start=501379><P Class=KRCC>
+A가 여기 앉을 때랑 여기 앉을 때랑 어때?
+<SYNC Start=504085><P Class=KRCC>
+이거를 살짝 꺾으면 여기로 갑니다. 똑같아요.
+<SYNC Start=508317><P Class=KRCC>
+현재 다 빈 자리일 때는 A가 가서 앉는 방법의 수가 그냥 한 가지예요. 그런데 A가 앉는 순간.
+<SYNC Start=515368><P Class=KRCC>
+그런 거 있잖아. ‘내가 이름을 부르는 순간 꽃이 되었다.’ 같은 그런 느낌이야.
+<SYNC Start=519070><P Class=KRCC>
+A가 가서 앉는 순간 나머지가 다 다른 자리가 된 거예요. A 입장에서 볼 때 여기는 어때요?
+<SYNC Start=524216><P Class=KRCC>
+내 오른쪽. 여기는 내 왼쪽. 얘는 내 마주보는 자리. 다 다른 자리가 된 겁니다.
+<SYNC Start=532064><P Class=KRCC>
+A가 앉았기 때문에 다 다른 자리예요. 다 다른 자리에 다른 3명을 배열하는 방법의 수는 그냥 일렬로 나열과 마찬가지죠.
+<SYNC Start=541137><P Class=KRCC>
+&nbsp;
+<SYNC Start=544835><P Class=KRCC>
+그거랑 똑같죠, 3명을 일렬로랑. 그래서 3！이에요.
+<SYNC Start=548047><P Class=KRCC>
+마찬가지로 생각하면, n명 중에서 1명을 원탁에 앉히는 순간 그 1명 앉는 방법의 수는 1가지이고, 남은 친구들은 몇 명이에요?
+<SYNC Start=556806><P Class=KRCC>
+(n-1)명이겠죠. 그 (n-1)명을 각각 다른 자리인 (n-1) 자리에 앉히는 방법의 수는 (n-1)！입니다.
+<SYNC Start=565768><P Class=KRCC>
+n으로 접근해서 어려운 친구들은 그냥 예시로만 접근하셔도 충분히 괜찮아요. 알겠죠?
+<SYNC Start=571719><P Class=KRCC>
+여기에서 추가적인 개념들이 들어갑니다. 여러분들 잘 알고 있지만 그것까지 살짝 갖고 갈게요. 기억하고 가세요. 같이 필기해 주도록 하세요.
+<SYNC Start=580557><P Class=KRCC>
+진짜 손바닥만큼밖에 안 썼으니까 손톱만큼만 더 쓸게.
+<SYNC Start=586409><P Class=KRCC>
+이웃한다. 이웃하지 않는다.
+<SYNC Start=590648><P Class=KRCC>
+얘는 사실 원순열에서만 쓰이는 건 아니고 어떤 순열에서건 다 나오는 개념이니까 오랜만에 복습 한번 하고 가도록 할게요.
+<SYNC Start=598997><P Class=KRCC>
+‘이웃한다.’가 나와요. A랑 B랑은 서로 이웃해야 된대. 그러면 항상 그 이웃해야 되는 걸 하나의 주머니로 묶으세요.
+<SYNC Start=606664><P Class=KRCC>
+&nbsp;
+<SYNC Start=610533><P Class=KRCC>
+하나의 주머니로 묶어버리세요. 꽁꽁.
+<SYNC Start=614017><P Class=KRCC>
+그리고 한 명으로 쳐요.
+<SYNC Start=616302><P Class=KRCC>
+&nbsp;
+<SYNC Start=619318><P Class=KRCC>
+왜냐하면, 한 몸이 된 거지. 하나로 묶어버렸으니까.
+<SYNC Start=621932><P Class=KRCC>
+한 명인 척, 그리고 배열할 것들은 다 배열하세요.
+<SYNC Start=625310><P Class=KRCC>
+그다음에 꼭 주머니 안 배열도 생각해 주세요. 마지막에.
+<SYNC Start=630784><P Class=KRCC>
+&nbsp;
+<SYNC Start=635640><P Class=KRCC>
+일단은 이런 식으로 생각만 하고 있어요, 풀이법만.
+<SYNC Start=639033><P Class=KRCC>
+이웃하지 않는다는 것은 어떻게 하는 게 가장 좋으냐?
+<SYNC Start=644004><P Class=KRCC>
+이웃해도 되는 아이들을 먼저 배열해요.
+<SYNC Start=646672><P Class=KRCC>
+&nbsp;
+<SYNC Start=650941><P Class=KRCC>
+되는 애 배열.
+<SYNC Start=653540><P Class=KRCC>
+이웃해도 되는 아이들을 먼저 쭉 배열을 하세요.
+<SYNC Start=657040><P Class=KRCC>
+원순열이 됐건 그냥 일렬로건 마찬가지 이야기야. 이웃해도 되는 아이들이 배열이 되잖아요. 그리고 난 다음에는 사이사이에 끼워 넣기 하시면 돼요.
+<SYNC Start=670956><P Class=KRCC>
+그러면 절대 이웃할 수가 없잖아요. 이런 방법을 먼저 생각을 하시면 됩니다.
+<SYNC Start=677315><P Class=KRCC>
+얘네가 같이 원순열의 장치로써 많이 들어가져 있으니까 이것까지는 그냥 같이 연결을 해놓도록 할게요.
+<SYNC Start=685330><P Class=KRCC>
+그리고 하나 더 나오는 게 다각형 순열이 있는데, 이건 조금 이따가 할 거예요.
+<SYNC Start=690674><P Class=KRCC>
+제가 수능 개념 때 다각형 순열도 해드렸어요. 수특에 드디어 또 등장을 했기 때문에, 여러분들 수특 문제니까 한번 쓱 보고 갈 겁니다.
+<SYNC Start=699896><P Class=KRCC>
+이 원순열 절대 암기가 아니거든. 이게 다예요, 알았죠?
+<SYNC Start=703798><P Class=KRCC>
+그러면 문제를 풀러 가보기 전에 개념이 머릿속에 차곡차곡 소화가 되는 시간을 갖기 위해서 오늘은 소원을 들어드리는 시간을 갖도록 하겠습니다.
+<SYNC Start=718643><P Class=KRCC>
+짜잔. 30초 소원 들어주세요.
+<SYNC Start=722379><P Class=KRCC>
+소원을 들어드리도록 하겠습니다. 여러분들한테 제가 소원들, 고민들 이런 것들.
+<SYNC Start=728462><P Class=KRCC>
+고민도 어차피 듣고 날려줄 거고, 소원도 들어드리도록 할게요.
+<SYNC Start=732883><P Class=KRCC>
+내가 마법사가 됐으니 뭔들 못 들어주겠니, 여러분? 다 들어주도록 할게요.
+<SYNC Start=737029><P Class=KRCC>
+오늘의 소원, 오늘의 고민은 이거였어요.
+<SYNC Start=740686><P Class=KRCC>
+열심히 공부를 했는데 성적이 안 오르면 어떻게 하죠?
+<SYNC Start=744724><P Class=KRCC>
+열심히 공부했으니까 성적 오르게 좀 해 주세요.
+<SYNC Start=748386><P Class=KRCC>
+이런 이야기들 정말 많이 듣거든요.
+<SYNC Start=751706><P Class=KRCC>
+열심히 했는데 성적이 안 오를 일은 없어요.
+<SYNC Start=756206><P Class=KRCC>
+없어, 없어. 열심히 하면 성적은 무조건 오르게 되어 있어요. 다만, 시간이 걸리긴 하더라고요.
+<SYNC Start=762629><P Class=KRCC>
+실제 사례로 제가 제일 많이 이야기를 하는데, 얼마 전에 결혼을 한 제 친구입니다. 그 친구가 이걸 볼 일은 없으니까 막 얘기해도 되겠지?
+<SYNC Start=770752><P Class=KRCC>
+내 친구 재용이는 국어를 정말 못했거든요. 그래서 국어를 매일 매일 공부했어요. 비가 오나 눈이 오나 바람이 부나 매일매일 국어를 공부했는데,
+<SYNC Start=779634><P Class=KRCC>
+진짜 매일 공부해도 70점인 거야. 친구들이 웃었어. ‘공부를 안 해도 70점은 더 넘게 나올 수도 있겠다.’ 이랬거든요.
+<SYNC Start=788926><P Class=KRCC>
+실화예요. 그 친구가 수능에서 국어를 100점 받았어요. 하물며 국어도 돼.
+<SYNC Start=794242><P Class=KRCC>
+국어는 그런 얘기 있잖아. 어렸을 때부터 책도 많이 읽어야 된다. 이런 얘기도 하잖아요.
+<SYNC Start=798114><P Class=KRCC>
+하물며 국어도 되는데 수학이 안 될 리가 있나요? 열심히 하면 무조건 성적이 나와요. 그런데 그 중간 과정들이 분명히 있어요.
+<SYNC Start=805932><P Class=KRCC>
+당연히 진심을 다해 열심히 했는지에 대한 체크가 돼야 되고, 성적이 나오기까지 걸리는 시간들을 내가 이겨냈는가가 중요한데요.
+<SYNC Start=814520><P Class=KRCC>
+대체적으로는 공부를 하고 한 달 안에 성적이 오르기를 기대합니다.
+<SYNC Start=818886><P Class=KRCC>
+공부하지 않았던 많은 세월들을 생각하지 않기 때문이에요.
+<SYNC Start=823747><P Class=KRCC>
+열심히 하면 성적 무조건 오르게 되어 있어요. 그것에 대한 의심하지 마세요. 오늘 제가 뿅 날려드렸어요.
+<SYNC Start=829480><P Class=KRCC>
+한 만큼 성적 나오게 될 겁니다. 그러니까 열심히만 해주면 될 거예요. 알겠죠?
+<SYNC Start=835321><P Class=KRCC>
+그러면 열심히 하러 달려야 되겠죠? 그 말 하려고.
+<SYNC Start=840811><P Class=KRCC>
+잔소리인 거 같지? 아니야. 고민을 상담해 준 거예요. 소원을 들어드리는 거예요.
+<SYNC Start=849302><P Class=KRCC>
+열심히 하러 가겠습니다. 얼마나 쉬워, 원순열. 나는 좀 좋아하는 거 같아, 이 파트.
+<SYNC Start=856413><P Class=KRCC>
+원순열 보세요. 세상에 제일 쉬워요, 여기가. 어느 학교 학급 대표 회의를 갔는데 4개의 학급이 왔어요. 회장, 부회장이 있대요.
+<SYNC Start=866235><P Class=KRCC>
+국어만 잘하면 다 풀 수 있어요. 8명이 일정한 간격을 두고 원형 모양의 탁자에 앉았대요. 여기서부터 중요하겠지.
+<SYNC Start=874913><P Class=KRCC>
+4명의 부회장이 같은 학급회장의 바로 오른쪽에 앉게 둔대요. 이게 핵심이겠다.
+<SYNC Start=882717><P Class=KRCC>
+오른쪽. 그러면 생각해 봐요. 회장 자리만 정해지면 부회장은 무조건 그 회장의 오른쪽에 앉게 되어 있다는 거네. 오케이?
+<SYNC Start=894520><P Class=KRCC>
+나는 회장만 생각하면 나머지 부회장 자리는 알아서 결정이 된다는 이야기예요. 그러면 완전 쉽지. 생각해 주세요. 어떻게 하면 될까? 풀이할 수 있는 방법 엄청 여러 가지겠지만.
+<SYNC Start=906178><P Class=KRCC>
+모르겠고, 회장만 생각해.
+<SYNC Start=908505><P Class=KRCC>
+&nbsp;
+<SYNC Start=912718><P Class=KRCC>
+그렇죠? 회장 4명만 의자 가져가서 앉게 하는 거예요. 그리고 나면 그 오른쪽에는 부회장들이 각각 사이에 끼여서 의자 가져와서 앉으면 되는 거겠죠.
+<SYNC Start=921418><P Class=KRCC>
+그 4명을 원탁에 앉히는 방법의 수는 몇가지였죠?
+<SYNC Start=926865><P Class=KRCC>
+원순열이네. 3！ 끝. 정답은 6명.
+<SYNC Start=930374><P Class=KRCC>
+&nbsp;
+<SYNC Start=932470><P Class=KRCC>
+6명? 6. 끝입니다. 그렇죠?
+<SYNC Start=937118><P Class=KRCC>
+아주 단순하게 생각하면, 부회장에 대한 것은 결정이 되어버렸어요. 그냥 옆자리도 아니고 바로 오른쪽이래. ‘회장만 생각하면 되는구나.’를 알면 이렇게 간단하게 풀 수가 있어요.
+<SYNC Start=948745><P Class=KRCC>
+‘선생님, 저는 그렇게 회장만 생각하지는 못했어요.’ 두 번째 풀이 갑니다.
+<SYNC Start=954054><P Class=KRCC>
+그러면 하나하나 생각을 해줘야 되잖아. 그렇지? 어떻게?
+<SYNC Start=958460><P Class=KRCC>
+일단 1반 회장, 1반 부회장 이렇게 다 생각을 했다고 합시다.
+<SYNC Start=967072><P Class=KRCC>
+1반 회장, 1반 부회장, 2반 회장, 2반 부회장 다 이렇게 했다고 생각을 해봐요.
+<SYNC Start=971894><P Class=KRCC>
+일단 한 명을 앉히고 갈까요? 한 명을 앉힐까요?
+<SYNC Start=977099><P Class=KRCC>
+‘1반 회장아, 너 가서 앉아볼래?’ 하고 앉혔어요. 1반 회장이 가서 앉는 방법의 수는 1가지라고 했었잖아요. 그러면 1번 부회장은?
+<SYNC Start=987020><P Class=KRCC>
+자연스럽게 그 오른쪽이니까 여기 앉게 되겠죠.
+<SYNC Start=991709><P Class=KRCC>
+여기가 그러니까 1반의 자리가 되는 거예요. 그리고 보니까 어때요?
+<SYNC Start=996509><P Class=KRCC>
+여기는 2반 자리가 됐건 여기 3반이 됐건 여기 4반이 됐건 어쨌든 이렇게 세트, 세트, 세트의 2반, 3반, 4반을 앉혀야 되겠죠.
+<SYNC Start=1006756><P Class=KRCC>
+2반, 3반, 4반이 가서 앉는 방법의 수는 세 반이니까 3！이겠죠.
+<SYNC Start=1011587><P Class=KRCC>
+어차피 오른쪽에 앉아야 돼. 여기가 회장, 여기가 부회장. 여기가 회장, 부회장. 회장, 부회장이 될 테니까. 3！. 한 명 앉히고 시작한 거예요.
+<SYNC Start=1021250><P Class=KRCC>
+여기서 질문 하나를 해볼게요. 보니까 결론적으로는 회장, 부회장, 회장, 부회장, 회장, 부회장, 회장, 부회장으로 앉을 수도 있고, 그렇지?
+<SYNC Start=1036742><P Class=KRCC>
+여기를 회장이 아니라 여기가 회장이 되는 순간, 그때는 이렇게 앉게 되잖아요, 회장, 부회장. 그렇지?
+<SYNC Start=1043265><P Class=KRCC>
+한 칸씩 밀리지? 이렇게, 이렇게 빨갛게, 빨갛게.
+<SYNC Start=1047348><P Class=KRCC>
+‘그러면 흰색으로 칠한 거랑 빨강으로 칠한 거랑 다르지 않아요?’라는 생각을 혹시나 했었다면, 즉 회장 자리가 여기, 여기, 여기, 여기인 경우와
+<SYNC Start=1061225><P Class=KRCC>
+회장 자리가 여기, 여기, 여기, 여기인 경우로 나눠서 생각을 했었다면 여러분은 아직까지 원순열이 헷갈리고 있는 거예요.
+<SYNC Start=1070846><P Class=KRCC>
+지금 보이시죠? 동그라미 친 아이들을 한 자리씩만 꺾으면 체크 표시한 자리들로 갑니다.
+<SYNC Start=1078220><P Class=KRCC>
+즉, 그렇게 생각할 수 없어요. 이거 똑같은 경우에 해당합니다.
+<SYNC Start=1082520><P Class=KRCC>
+그래서 그냥 회장, 부회장 세트, 세트로 두고 네 반을 원탁에 앉히는 방법의 수가 되어주는 거예요.
+<SYNC Start=1090802><P Class=KRCC>
+그래서 이 원리만 알면 되게 간단한 문제.
+<SYNC Start=1094605><P Class=KRCC>
+유제 1번도 볼게요. 세상 똑같은 문제들로 갑니다. 유제 1번은 이렇게 되어 있어요. 정삼각형 모양 탁자에 6개의 의자가 놓여있어요.
+<SYNC Start=1102060><P Class=KRCC>
+6명이 이 의자에 모두 앉는다고 했습니다. 이게 아까 제가 얘기한 다각형 순열이에요.
+<SYNC Start=1108501><P Class=KRCC>
+어렵게 생각하지 마요. 두 가지 방법으로 갈 거예요.
+<SYNC Start=1111799><P Class=KRCC>
+첫 번째는 원순열이라고 생각을 하고 갈 거고요. 두 번째는 그냥 다 다른 자리라고 생각하고 일렬로 갈 거예요.
+<SYNC Start=1123524><P Class=KRCC>
+‘일렬로’라는 건 뭐야? 다 다른 자리라고 생각하는 거예요.
+<SYNC Start=1129536><P Class=KRCC>
+다각형 순열은 얘네 둘의 중간쯤에 있어요. 중간쯤에. 무슨 이야기야?
+<SYNC Start=1134159><P Class=KRCC>
+봐봐. 6명을 여섯 자리에 앉히는 건데 내가 원순열로 본다면 어떻게 돼요?
+<SYNC Start=1140910><P Class=KRCC>
+5！이라고 하겠지. 그런데 이 특징이 있어요, 원순열은. 뭐야?
+<SYNC Start=1147668><P Class=KRCC>
+다 같은 자리라고 생각한 거죠.
+<SYNC Start=1149628><P Class=KRCC>
+&nbsp;
+<SYNC Start=1153051><P Class=KRCC>
+그런데 얘네가 회전해도 다 같은 자리예요?
+<SYNC Start=1157051><P Class=KRCC>
+아니. 다른 자리 종류들이 있어요. 보세요.
+<SYNC Start=1161951><P Class=KRCC>
+이 자리는 회전하면 어디로 와요? 여기로 오겠죠. 한 번 더 회전하면 어디로 와요? 여기로 오겠죠.
+<SYNC Start=1169782><P Class=KRCC>
+체크 표시한 세 자리는 똑같아요. 그런데?
+<SYNC Start=1175391><P Class=KRCC>
+세모 표시한 세 자리도 어때요? 똑같아요.
+<SYNC Start=1178678><P Class=KRCC>
+체크를 어떻게 회전을 해도 세모가 될 수가 없다는 거지.
+<SYNC Start=1185197><P Class=KRCC>
+즉, 얘네 두 종류는 다른 자리 종류가 있어요. 다 같은 자리 종류라고 생각했는데 두 종류가 다르잖아. 두 종류를 곱해주셔야 돼요.
+<SYNC Start=1195116><P Class=KRCC>
+원순열로 생각하고 다른 자리 수를 곱하는 거야.
+<SYNC Start=1198690><P Class=KRCC>
+&nbsp;
+<SYNC Start=1201435><P Class=KRCC>
+정확히는 다른 종류의 자리라고 생각하면 여러분 더 편할까요?
+<SYNC Start=1205956><P Class=KRCC>
+만약에 일렬로 갔다면? 일렬로 나열하듯이 6！이라고 생각했어요. 이것은 다 다른 자리라고 생각했다는 뜻이잖아. 정말 다 다른 자리야?
+<SYNC Start=1214975><P Class=KRCC>
+아니. 회전하면서 같은 세트들을 찾을 수가 있어요. 몇 번 같이 겹쳐?
+<SYNC Start=1221501><P Class=KRCC>
+얘네 세트가 얘네 세트한테 오죠. 얘네 세트한테 옵니다.
+<SYNC Start=1225418><P Class=KRCC>
+즉, 그렇게 똑같은 걸 배열하면서 세 번씩 같은 것을 다 다르게 체크한 것이 되겠죠. 3으로 나눠주셔야 되겠죠.
+<SYNC Start=1236390><P Class=KRCC>
+계산 과정은 답은 똑같아요. 어떻게 돼?
+<SYNC Start=1239357><P Class=KRCC>
+5！×6이잖아. 거기에 ⅓ 하니까 어때요?
+<SYNC Start=1242985><P Class=KRCC>
+똑같아. 똑같죠? 그래서 정답은 240이 되어주는 겁니다.
+<SYNC Start=1248555><P Class=KRCC>
+되게 자주 출제가 되는 내용은 아니에요. ‘엄청 엄청 세상에서 제일 중요해.’ 이거는 아니지만, 얘를 아는 순간 여러분들이 원순열과 일렬로, 즉 다 다른 자리에 배열한다는 원리를 알게 되는 거거든요.
+<SYNC Start=1261116><P Class=KRCC>
+원순열의 특징은 다 같은 자리라고 생각한 거고, 일렬로 나열한다는 것은 다 1번 자리, 2번 자리, 다 다른 자리라고 생각을 하는 거예요.
+<SYNC Start=1269306><P Class=KRCC>
+그 중간 어디쯤에 있는 것이기 때문에 같은 자리라고 생각했을 때 다른 자리수를 곱해 주시고, 다 다른 자리라고 생각했을 때 겹치는 경우들을 이렇게 나눠주시면 되겠습니다. 재미있는 문제예요.
+<SYNC Start=1285676><P Class=KRCC>
+유제 2번 한번 가볼게요. 여학생 3명 있고, 남학생 3명 있다고 했습니다. 일정한 간격을 두고 원 모양의 탁자에 둘러앉는대요, 3, 3명이. 그다음에 남학생 2명만 서로 이웃한대요.
+<SYNC Start=1297833><P Class=KRCC>
+이 문제 진짜 재미있는 문제예요. 남학생은 2명만 서로 이웃을 한다고 했어요. 그러면 일단 6명을 앉혀야 되거든. 확률은 아니야. 확률은 아니니까 경우의 수만 알면 돼요.
+<SYNC Start=1309951><P Class=KRCC>
+남학생 2명이 서로 이웃을 해야 돼. 그러면 여러분, 그림을 당연히 이렇게 그렸겠지?
+<SYNC Start=1315339><P Class=KRCC>
+남학생 2명을 이웃하게 해야 돼요. 그러면 3명 중에서 2명을 일단 뽑을게. 이건 뭐야?
+<SYNC Start=1323879><P Class=KRCC>
+이웃할 애들을 뽑아. 이웃할 남학생 2명을 일단 뽑았어요. 그래서 그 2명을 갖다 먼저 앉히고 시작을 할까 합니다.
+<SYNC Start=1333619><P Class=KRCC>
+넷, 다섯, 여섯 자리. 이웃한 2명을 뽑았고, 그들을 앉히는 방법의 수는?
+<SYNC Start=1341232><P Class=KRCC>
+헷갈리지? ‘남학생 1아, 너 가서 앉아.’ 해서 남학생 1을 앉혀요.
+<SYNC Start=1345524><P Class=KRCC>
+&nbsp;
+<SYNC Start=1348272><P Class=KRCC>
+남학생 1이 앉는 방법의 수는 그냥 한 가지야. 남 1이 앉는 순간 남 2는 여기 또는 여기에 앉을 수가 있잖아요.
+<SYNC Start=1355884><P Class=KRCC>
+그러니까 남 2가 앉는 방법의 수는 두 가지입니다.
+<SYNC Start=1360730><P Class=KRCC>
+됐어? 남 2까지 앉혔어요. 그러면 남아 있는 건 누구냐?
+<SYNC Start=1364784><P Class=KRCC>
+남 3과 여 셋이에요.
+<SYNC Start=1369923><P Class=KRCC>
+헷갈리지 않게 남 3과 여 세 명으로 할게요. 남자 3번은 일단 남 1, 남 2 이렇게 앉으면 남자 3번은 여기 또는 여기에 앉아야 돼요. 그렇지?
+<SYNC Start=1383087><P Class=KRCC>
+남 3. 맞아? 그래서 남 3이 다시 두 가지를 곱해집니다.
+<SYNC Start=1388983><P Class=KRCC>
+일단 배열하는 애를 차근차근 찾아가자고. 남 3을 예를 들어 여기 앉혔어. 그러면 이제 여자들아 가서 앉아야지.
+<SYNC Start=1396357><P Class=KRCC>
+남은 3명인데 세 자리가 다 어때요? 다 다른 자리예요.
+<SYNC Start=1400635><P Class=KRCC>
+그래서 3명을 세 자리에 앉히는 방법. 여학생 배열입니다. 끝.
+<SYNC Start=1406392><P Class=KRCC>
+계산해 주시면, 3×2×2×6이 되어서 정답은 72.
+<SYNC Start=1415654><P Class=KRCC>
+진짜 하나하나씩 배열해 나가는 거예요. 남 1, 남 2 이런 식으로 하나하나씩 여러분들이 찾으면서 배열을 해나가는 거죠. 어떻게 앉히면 될까? 이런 식으로 생각을 하면서.
+<SYNC Start=1428884><P Class=KRCC>
+됐어? 두 번째 방법은 조금 다르게도 가볼게요.
+<SYNC Start=1433032><P Class=KRCC>
+지금 내가 쓴 방법은 원순열이라는 개념이 전혀 들어가지 않았어. 어디에만 들어갔지?
+<SYNC Start=1438408><P Class=KRCC>
+남 1을 배열을 할 때 ‘다 똑같은 자리니까.’ 하고 남 1 배열을 하는 순간 더 이상 원순열을 생각할 필요가 없었어요. 되게 편해진 거지.
+<SYNC Start=1447859><P Class=KRCC>
+두 번째 방법은 이렇게 한번 해볼게요.
+<SYNC Start=1452045><P Class=KRCC>
+일단 똑같이 그 두 명을 먼저 뽑고 생각을 했듯이, 그렇게 생각하지 말고 일단은 이 이웃하는 남자 자리, 여자 자리를 먼저 결정을 해볼까?
+<SYNC Start=1461822><P Class=KRCC>
+&nbsp;
+<SYNC Start=1465283><P Class=KRCC>
+자리를 결정하고 나서 애들을 배열하겠다고 생각한 거야.
+<SYNC Start=1468169><P Class=KRCC>
+남자가 앉을지 여자가 앉을지 자리를 먼저 결정을 하고.
+<SYNC Start=1472861><P Class=KRCC>
+그래서 그 자리에 대한 결정들을 먼저 해 줄 거예요. 그러면 이렇게 되는 거야.
+<SYNC Start=1480149><P Class=KRCC>
+여기에 남자애가 앉았다고 할게요. 이웃하는 남자애는 ‘여기 갈까? 여기 갈까?’만 잘 결정을 할 수가 있어요.
+<SYNC Start=1487902><P Class=KRCC>
+좋아. 그러면 일단 이렇게 앉혀놓을게.
+<SYNC Start=1491253><P Class=KRCC>
+그런데 여러분, 아직 사람을 안 앉혔잖아. 나 안 앉혔어. 그러니까 이렇게 남, 남으로 쓰나, 봐봐요. 이렇게 남, 남으로 쓰나 어때요?
+<SYNC Start=1501753><P Class=KRCC>
+남자 자리로 표시를 한 건 똑같아. 그러니까 아무 의미가 없어. 아직까지는 경우의 수가 나타나지 않았어요. 신기하죠?
+<SYNC Start=1511065><P Class=KRCC>
+지금 남, 남 자리라고 표시했지만 상관이 없는 거야. 어떻게 돌려도 똑같은 자리들이니까.
+<SYNC Start=1516236><P Class=KRCC>
+그런 다음에 남자가 갈 수 있는 자리는 어디 있겠어요?
+<SYNC Start=1520069><P Class=KRCC>
+이제는 이 두 자리는 있어. 여기에 체크하는 거랑 여기 체크하는 것은 다르지.
+<SYNC Start=1526359><P Class=KRCC>
+여기에 체크할까? 여기에 체크할까를 결정하는 두 가지를 먼저 곱합니다.
+<SYNC Start=1532185><P Class=KRCC>
+남은 남자 자리.
+<SYNC Start=1533589><P Class=KRCC>
+&nbsp;
+<SYNC Start=1536570><P Class=KRCC>
+남은 남자 자리를 결정하는 방법의 수입니다. 끝.
+<SYNC Start=1539923><P Class=KRCC>
+그러면 이렇게 했어요. 남, 남, 남 하거나 여, 여, 여. 또는 남, 남, 남 하고 여, 여, 여. 이 두 가지인 거죠. 이제는 어때요?
+<SYNC Start=1549168><P Class=KRCC>
+그냥 남자 자리, 여자 자리 배열된 데에 남은 3명, 3명을 각각 배열하면 됩니다.
+<SYNC Start=1555118><P Class=KRCC>
+여기, 여기, 여기 자리 다른 자리잖아요. 여자 3명을 배열하는 방법의 수는?
+<SYNC Start=1560292><P Class=KRCC>
+이거, 이거, 이거 다른 자리잖아요. 남자 3명을 배열하는 방법의 수는?
+<SYNC Start=1565575><P Class=KRCC>
+끝. 정답은?
+<SYNC Start=1569111><P Class=KRCC>
+어때요? 똑같아요.
+<SYNC Start=1572828><P Class=KRCC>
+그렇죠? 지금 여기서는 어떤 걸 또 원순열 이용해서 생각을 했냐면, 남, 남을 이렇게 표시하나 이렇게 표시하나 여기다 표시하나 여기다 표시하나 다 똑같단 말이야. 현재 다 빈 자리니까.
+<SYNC Start=1585597><P Class=KRCC>
+남자 자리가 어디일지를 결정하고 여자 자리가 어디일지를 결정한 다음에 그들을 배열해버리는 겁니다.
+<SYNC Start=1592915><P Class=KRCC>
+자리가 결정되고 나면 그다음에 배열해 주겠다. 이렇게 생각을 한 거죠. 아까와는 살짝 다른 개념으로 가지고 있는 거죠.
+<SYNC Start=1600912><P Class=KRCC>
+여러분들이 그 풀이에 접근할 수 있는 방법은 당연히 다양하게 있을 수 있어요. 그런데 헷갈리지 않도록 원칙을 세워놓고 풀어줘야 되겠죠. 재미있죠?
+<SYNC Start=1610753><P Class=KRCC>
+사실 나는 오히려 조금 여러 번 곱하더라도 이 방법에서는 여러분이 2를 더 곱하거나 그럴 일이 있을 수 있을 것 같아.
+<SYNC Start=1618337><P Class=KRCC>
+그래서 ‘솔루션 1이 더 편하지 않았을까?’라고 생각을 했었어요, 사실.
+<SYNC Start=1624169><P Class=KRCC>
+하나만 쉬었다가 가는 코너로 좀 머리를 식히고 가도록 할게요. 쉬운 문제 하나.
+<SYNC Start=1629409><P Class=KRCC>
+레벨 1에 있는 1번입니다. 10쪽에 있는 문제예요. 얼른 와주세요.
+<SYNC Start=1634752><P Class=KRCC>
+A, B, C를 포함한 7명이 원 모양의 탁자에 앉을 거예요. A의 양옆에는 B, C가 앉는다고 했습니다.
+<SYNC Start=1642217><P Class=KRCC>
+그러면 누구를 먼저 앉히고 시작할까?
+<SYNC Start=1645537><P Class=KRCC>
+장치가 많아질수록 한 명을 앉히고 가는 게 은근 괜찮거든요. ‘A야, 너 가서 앉아라.’ 했어.
+<SYNC Start=1651176><P Class=KRCC>
+A가 가서 앉는 방법의 수는 없어요. 그냥 1이에요. 한 가지밖에 없으니까.
+<SYNC Start=1656036><P Class=KRCC>
+B, C가 ‘이렇게 앉을까? 이렇게 앉을까?’를 결정할 수 있겠죠. 그거 두 가지를 일단 곱하고 시작할게요.
+<SYNC Start=1663598><P Class=KRCC>
+B가 가서 앉았고, C가 가서 앉았어요. 그러면 남은 4명은 다른 네 자리에 가서 앉는 거죠.
+<SYNC Start=1671226><P Class=KRCC>
+&nbsp;
+<SYNC Start=1674023><P Class=KRCC>
+끝. 정답은 그래서 48.
+<SYNC Start=1676630><P Class=KRCC>
+&nbsp;
+<SYNC Start=1679523><P Class=KRCC>
+짜자잔. 돼요?
+<SYNC Start=1683089><P Class=KRCC>
+굳이 ‘선생님, 저는 진짜 꼭 원순열로 풀어야 되겠어요.’
+<SYNC Start=1686856><P Class=KRCC>
+솔루션 2는 미리 앉히지 않는다면.
+<SYNC Start=1691769><P Class=KRCC>
+이웃하라면서요. A, B, C를 묶어주세요.
+<SYNC Start=1696065><P Class=KRCC>
+그다음에 남은 친구 몇 명이야? 남은 친구는 4명이 있어. 그러면 총 몇 명이야?
+<SYNC Start=1702779><P Class=KRCC>
+아까 얘기했죠. 이웃하는 친구는 1명으로 치면 5명이에요.
+<SYNC Start=1707066><P Class=KRCC>
+5명을 원탁에 앉히는 방법입니다. 몇가지죠?
+<SYNC Start=1711326><P Class=KRCC>
+4！. 그다음 뭐하면 돼요?
+<SYNC Start=1714107><P Class=KRCC>
+B, C 자리는 바뀔 수 있겠죠. 주머니 안 배열도 생각하라고 했으니까.
+<SYNC Start=1718045><P Class=KRCC>
+이거 두 가지를 곱합니다. 정답은 똑같이 48이 되겠죠.
+<SYNC Start=1722765><P Class=KRCC>
+한 명을 앉히는 것 또한 좋은 방법이고요. 당연히 원순열을 이용하는 것 또한 알고 있어야 되고요.
+<SYNC Start=1728051><P Class=KRCC>
+여러분이 계산할 내용이 많아지거나 생각할 게 많아질수록 일단 가서 한 명 앉혀버려.
+<SYNC Start=1732904><P Class=KRCC>
+그리고 나면 다 다른 자리가 되니까 좀 편해질 수도 있습니다. 알겠죠?
+<SYNC Start=1737483><P Class=KRCC>
+재미있었어요? 재미있었잖아. 그렇죠? 재미있는 내용이었으니까 다음 시간에 또 즐겁게 만나도록 하겠습니다. 고생 많았어요, 여러분들. 안녕.
+<SYNC Start=1746673><P Class=KRCC>
+&nbsp;
+</BODY>
+</SAMI>

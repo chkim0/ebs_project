@@ -1,0 +1,1285 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=9380><P Class=KRCC>
+여러분, 안녕하세요? 
+<Sync Start=10374><P Class=KRCC>
+수학이 말랑말랑해지는 시간, 전 여러분과 함께 공부하고 있는 정유빈입니다. 
+<Sync Start=14822><P Class=KRCC>
+드디어 마지막 시간, 파이널 체크 포인트의 정말 마지막, 
+<Sync Start=19087><P Class=KRCC>
+확통의 마지막까지 왔습니다. 
+<Sync Start=21475><P Class=KRCC>
+5강밖에 되지는 않지만, 그래도 끝나는 건 끝나는 거니까. 그렇죠? 
+<Sync Start=25324><P Class=KRCC>
+이제 끝날 때 됐으니까 얘기하지만, 오프닝 할 때 여러분들 그림 봤어요? 
+<Sync Start=29792><P Class=KRCC>
+이거하고 있어. 그거 보고 처음에 약간 맞나? 한참 생각을 했었어요. 
+<Sync Start=35919><P Class=KRCC>
+뭔가 웃기잖아요. 그렇죠? 뭔지 알아요, 여러분? 
+<Sync Start=38389><P Class=KRCC>
+여러분들은 그 세대가 아니지 않나? 무한히 열심히 도전하는 그거 알아요? 
+<Sync Start=43137><P Class=KRCC>
+여러분 알겠다, 그래도. 그렇지? 
+<Sync Start=45662><P Class=KRCC>
+그런데 그런 거 어떻게 찾아낼까? 뉴진스의 춤에서 어떻게, 
+<Sync Start=49489><P Class=KRCC>
+정준하 님과 뉴진스 님들을 어떻게 연결, 사람들이 진짜 똑똑한 것 같아요. 
+<Sync Start=54111><P Class=KRCC>
+지금 내가 하는 말들을 혹시 다 이해하고 있어요? 공부 열심히 해야지. 그렇지? 
+<Sync Start=59009><P Class=KRCC>
+여러분들, 그렇죠? 아니야, 사실 어떻게 하루 종일 공부만 해. 
+<Sync Start=63211><P Class=KRCC>
+그런 되게 짤막한 즐거운 영상들을 보면서 
+<Sync Start=66845><P Class=KRCC>
+여러분들 즐거워지는 것도 하나의 좋은 방법인 것 같아요. 
+<Sync Start=69743><P Class=KRCC>
+저도 약간 좀 힘들다 싶을 때 웃긴 짤들을 보면서 즐거워한다니까. 
+<Sync Start=74121><P Class=KRCC>
+되게 별거 아닌 것들에 되게 신나는 편이거든요. 재밌는 것들 은근히 많잖아. 
+<Sync Start=79760><P Class=KRCC>
+무슨 가위바위보 해서 탈 쓰고 꿀밤 때리기 하는 거 영상 봤는데 
+<Sync Start=85891><P Class=KRCC>
+그런 거 보고도 혼자 낄낄거리고 웃고요. 
+<Sync Start=88341><P Class=KRCC>
+아무튼 저는 귀여운 팬더곰 영상 이런 거 보고도 웃고요. 
+<Sync Start=92489><P Class=KRCC>
+즐거워하는 것들이 많이 있습니다만 짧은 걸 잠깐 보고 바로 공부를 한다는 이야기야.
+<Sync Start=99778><P Class=KRCC>
+진짜 짧게 보고 가는 거지, 
+<Sync Start=101362><P Class=KRCC>
+그걸 가지고 엄청 열심히 알고리즘에 빠져들고 이러면 절대로 안 돼요. 
+<Sync Start=106649><P Class=KRCC>
+지금 상황에서는 특히나 더더욱 그렇습니다. 
+<Sync Start=109288><P Class=KRCC>
+짧고 굵게 즐겁고 시작! 이렇게 가야 되는 것 같고, 그게 가장 중요한 것 같아요. 
+<Sync Start=113970><P Class=KRCC>
+그래서 체크 포인트를 공부하면서 우리의 마지막 다섯 번째 세뇌를 한번 해보고, 
+<Sync Start=119043><P Class=KRCC>
+그러고서 시작을 하겠습니다. 오늘의 마지막 우리의 다섯 번째 세뇌는 이것입니다. 
+<Sync Start=124090><P Class=KRCC>
+'나는 떨지 않는다. 나는 최고다.' 
+<Sync Start=127675><P Class=KRCC>
+스스로를 그렇게 생각하나요, 나는 최고라고? 그렇게 생각하세요. 
+<Sync Start=131951><P Class=KRCC>
+아니, 그렇지 않아? 내가 아니면 누가 나를 최고라고 생각을 해줘요. 안 그래요? 
+<Sync Start=137944><P Class=KRCC>
+나는 항상 그렇게 생각을 해. 
+<Sync Start=139352><P Class=KRCC>
+'내가 최고다. 내가 제일 잘한다. 내가 제일 똑똑하다.' 이렇게 생각을 해야지. 
+<Sync Start=143024><P Class=KRCC>
+그래야 돼요, 여러분. 그래야지만 공부할 맛이 나지 않겠어요? 
+<Sync Start=147601><P Class=KRCC>
+누가 나보다 잘하고, 누구는 나보다…, 그걸 왜 신경 쓰지? 
+<Sync Start=151250><P Class=KRCC>
+어차피 내가 주인공인데, 내 인생 살고 있잖아. 그렇죠? 
+<Sync Start=154859><P Class=KRCC>
+여러분들 거 하고 있는 데에서 여러분들이 주인공이고, 
+<Sync Start=157469><P Class=KRCC>
+여러분들이 제일 잘하는 사람이고, 여러분들이 제일 똑똑한 사람이에요. 
+<Sync Start=160032><P Class=KRCC>
+다만, 그렇게 말할 수 있는지 내 스스로한테 반문은 해야지. 
+<Sync Start=164363><P Class=KRCC>
+'나 정말 열심히 하고 있나? 그렇다면 난 제일 멋있는 사람이지.' 
+<Sync Start=167647><P Class=KRCC>
+그런 확신이 서잖아요. 안 떨려요. 
+<Sync Start=170773><P Class=KRCC>
+떨린다는 것 자체가 자신감이 없고, 내가 잘 못 할 거라는 걸 알아. 
+<Sync Start=174900><P Class=KRCC>
+그러니까 주눅, 긴장이 되는 거죠. 그러니까 후덜덜 떨 수밖에 없어요. 
+<Sync Start=179041><P Class=KRCC>
+난 똑똑한데? 나 되게 잘하는데? 나 되게 열심히 했는데? 뭐가 부족해. 그렇죠? 
+<Sync Start=183770><P Class=KRCC>
+이미 지나온 시간들이 너무 내 마음에 들지 않았어? 그럼 지금부터 바뀌어봐요. 
+<Sync Start=188827><P Class=KRCC>
+지금부터 남은 시간을 정말 끝내주게 열심히 하잖아요. 
+<Sync Start=191870><P Class=KRCC>
+그럼 여러분들이 스스로를 평가하는 마음이 달라져요. 
+<Sync Start=194235><P Class=KRCC>
+너무나 당연한 이야기지만, 그 생각을 꼭 가지고 시험장까지 임해주도록 하시고요. 
+<Sync Start=199847><P Class=KRCC>
+그런 자신감을 가질 수 있는 시간을 지금부터 끝나는 그 수능 전날, 
+<Sync Start=204154><P Class=KRCC>
+아니, 수능 당일까지 끌고 가주세요. 알았죠? 
+<Sync Start=207629><P Class=KRCC>
+그러기 위해서 통계를 끝내러 우리는 달려보도록 하겠습니다. 
+<Sync Start=211282><P Class=KRCC>
+오늘 시작을 해볼 거고요. 오늘의 파트는 통계적 추정 파트의 그 마지막인데요. 
+<Sync Start=216139><P Class=KRCC>
+기차의 마지막이죠. 마지막 기차를 한번 스르륵 탑승해 보도록 하겠습니다. 
+<Sync Start=222030><P Class=KRCC>
+무슨 내용이 있는지 한번 볼래요? 
+<Sync Start=223730><P Class=KRCC>
+
+<Sync Start=225875><P Class=KRCC>
+표본평균으로부터 확률을 구하는 문제, 
+<Sync Start=228587><P Class=KRCC>
+표본평균에서 평균 분산 표준편차를 구하는 문제, 
+<Sync Start=231348><P Class=KRCC>
+표본평균에서 정규분포로 가는 문제, 무슨 소리야? 
+<Sync Start=234141><P Class=KRCC>
+표본평균이 주인공이야. 그렇지? 여기 파트의 내용들을 다시 한번 생각할 거고요. 
+<Sync Start=239032><P Class=KRCC>
+문제 풀면서 제가 다시 모든 내용들을 정리는 할 거지만, 
+<Sync Start=242650><P Class=KRCC>
+여기가 여러분들 제가 굳이, 굳이 다섯 강이거든요, 우리가. 
+<Sync Start=246592><P Class=KRCC>
+근데 확률을 딸랑 한 강으로만 줄이고, 통계를 두 강으로 뺀 이유가 있어요. 
+<Sync Start=252830><P Class=KRCC>
+통계가 정말 어려워서가 아니고요. 여러분들이 어려워해서예요. 제일 낯설어해서. 
+<Sync Start=258989><P Class=KRCC>
+표본평균이라는 건 어디서 왔어요? 여기는 한번 정리하면서 갈게요. 
+<Sync Start=263685><P Class=KRCC>
+모집단에서 표본을 내가 '뿅' 하고 뽑아냅니다. 
+<Sync Start=270153><P Class=KRCC>
+그러니까 뭐가 중요해요? 표본의 크기가 필요하겠죠. 표본의 크기는 n이고요. 
+<Sync Start=274732><P Class=KRCC>
+
+<Sync Start=277749><P Class=KRCC>
+내가 뽑은 표본을 가지고 무언가를 이야기할 겁니다. 
+<Sync Start=280587><P Class=KRCC>
+그러다 보니까 내가 뽑은 표본들만 가지고 평균을 내면 표본평균이 되는 것이죠. 
+<Sync Start=287176><P Class=KRCC>
+내가 뽑은 표본의 크기가 n이라고 한다면 
+<Sync Start=289896><P Class=KRCC>
+이들을 싹 다 더해서 n으로만 나누어주면 됩니다. 이거예요. 
+<Sync Start=294783><P Class=KRCC>
+근데 만약에 문제가, 연결, 연결 한번 해볼게요. 표본평균의 확률을 구해요. 
+<Sync Start=299764><P Class=KRCC>
+무슨 이야기냐면 X바=2일 확률, 이런 걸 이야기하는 거예요, 
+<Sync Start=307086><P Class=KRCC>
+표본평균에서 확률을 구한다는 말이. 
+<Sync Start=309826><P Class=KRCC>
+저게 뭐야? 표본평균의 특징이 한 가지 있어요. 표본평균은 여러분이 생각해 봐. 
+<Sync Start=315520><P Class=KRCC>
+표본의 크기가 n이지만 내가 n개를 어떤 식으로 뽑느냐에 따라서, 
+<Sync Start=319260><P Class=KRCC>
+구성원에 따라서 표본평균은 달라집니다. 다시, 얘는 뭐라고요? 확률변수예요. 
+<Sync Start=324750><P Class=KRCC>
+
+<Sync Start=326758><P Class=KRCC>
+얘가 확률변수라면 우리가 이전 시간에 했던 거 기억하죠? 
+<Sync Start=331360><P Class=KRCC>
+이산확률변수, 연속확률변수, 그때 하던 내용들이 여기서 다시 시작이 되는 거예요.
+<Sync Start=335962><P Class=KRCC>
+이산확률변수부터 갑시다. 이산확률변수로 갈 수 있다는 건 
+<Sync Start=339702><P Class=KRCC>
+표본의 크기가 크지 않을 때에 대한 이야기가 되겠죠. 맞아? 
+<Sync Start=343424><P Class=KRCC>
+표본의 크기가 크지 않아. 
+<Sync Start=344887><P Class=KRCC>
+이를테면 표본의 크기가 2개, 3개, 4개까지일 때만 이런 질문이 가능합니다. 
+<Sync Start=356454><P Class=KRCC>
+왜 그럴까요? 표본의 크기가 10개가 되면 1, 2, 3, 4, 5, 6, 7, 8, 9, 10을 뽑을 때랑
+<Sync Start=362461><P Class=KRCC>
+1, 2, 3, 3, 3, 3, 4, 5, 7을 뽑을 때, 아무튼 이렇게 뽑을 때마다 
+<Sync Start=366774><P Class=KRCC>
+표본평균의 값들이 복잡하게 달라지겠죠. 
+<Sync Start=370692><P Class=KRCC>
+그렇잖아. 표본평균의 값들이 복잡하게 달라져. 하지만 딸랑 2개잖아. 
+<Sync Start=375022><P Class=KRCC>
+그러면 공이 1, 2, 3, 공이 있어. 1, 2를 뽑아서 평균 내봐야 2분의 3. 
+<Sync Start=380811><P Class=KRCC>
+1, 1을 뽑아서 평균 내봐야 2분의 2. 1, 2, 1, 4, 이런 식으로 몇 개가 안 나와. 
+<Sync Start=387216><P Class=KRCC>
+그러니까 표본평균에 대한 것들을 
+<Sync Start=389807><P Class=KRCC>
+적어도 표본의 크기가 2개, 3개, 4개 정도가 될 때까지는요. 
+<Sync Start=393845><P Class=KRCC>
+내가 그 표본의 평균이 정확히 2가 나올 확률, 이런 걸 구할 수가 있어요. 
+<Sync Start=399564><P Class=KRCC>
+그래서 이따가 그런 문제들 볼 거지만, 이런 식의 질문, 
+<Sync Start=403083><P Class=KRCC>
+그러니까 우리가 역으로 가자고. 
+<Sync Start=404517><P Class=KRCC>
+파이널인데 이제 와서 모든 개념들을 다 이해하겠다, 이건 좀 무리잖아. 
+<Sync Start=408074><P Class=KRCC>
+오히려 역으로 가봅시다. 이런 질문이 등장을 한다면 
+<Sync Start=412440><P Class=KRCC>
+내가 구한 표본평균 자체가 2가 될 수 있는 확률을 구하라는 거고, 
+<Sync Start=417884><P Class=KRCC>
+표본의 크기가 크지 않을 것이고, 그럼 이 문제는 어떤 문제냐? 
+<Sync Start=422596><P Class=KRCC>
+그냥 just, 확률 문제로 바뀌는 거예요. 
+<Sync Start=424974><P Class=KRCC>
+표본평균을 가지고 대단한 일을 하는 게 아니고, 
+<Sync Start=427691><P Class=KRCC>
+표본평균으로 표현이 되어 있을 뿐 just, 확률 문제가 된다는 생각을 하세요. 
+<Sync Start=432605><P Class=KRCC>
+요즘 트렌드에서는 잘 나오는 유형 중의 하나입니다. 
+<Sync Start=435781><P Class=KRCC>
+사실 과거에는요. 얘만 있으면 어디로 갔어요? 그렇지, 이걸로 가야지. 얘가 이거죠. 
+<Sync Start=443635><P Class=KRCC>
+표본평균에서의 평균 분산 표준편차를 구합니다. 재밌는 이야기예요. 
+<Sync Start=450089><P Class=KRCC>
+표본평균들을 싹 다 모아서 평균을 낸대. 왜 그런 행동을. 
+<Sync Start=455851><P Class=KRCC>
+어쨌든 표본평균들을 한 번만 구하는 게 아니고, 
+<Sync Start=459902><P Class=KRCC>
+구할 수 있는 모든 표본평균을 구해서 싹 다 평균을 내요. 
+<Sync Start=464394><P Class=KRCC>
+그럼 다시 뭐가 되게요, 여러분? yes, 모평균이 됩니다. 이런 거죠. 기억나? 
+<Sync Start=470853><P Class=KRCC>
+그리고 분산은요? 모분산을, 얘가 모분산이에요. 
+<Sync Start=474739><P Class=KRCC>
+
+<Sync Start=476854><P Class=KRCC>
+모분산, 모평균, 이러면 되게 대단해 보이겠지만, 
+<Sync Start=479497><P Class=KRCC>
+문제에 주어져 있는 기본 확률변수에 평균과 분산이 있겠죠. 
+<Sync Start=483506><P Class=KRCC>
+그것을 무엇으로? 표본의 크기로 나눕니다. 그렇죠? 
+<Sync Start=488519><P Class=KRCC>
+얘는요? 거기다 루트를 씌우니까 √n분의 σ가 되죠. 
+<Sync Start=493698><P Class=KRCC>
+그다음 흐름 따라가요. 여긴 진짜 흐름이야. 평균 있죠. 표준편차 있죠. 
+<Sync Start=499148><P Class=KRCC>
+얘네 둘을 들고 어디로 가요? 정규분포로 가요. 맞네. 그렇지? 
+<Sync Start=505562><P Class=KRCC>
+그래서 X바를 달고 있으면서 정규분포 흐름을 가는 문제들이 등장을 할 겁니다. 
+<Sync Start=512666><P Class=KRCC>
+이따 문제에서 다시 한번 볼 거예요. 그 흐름을 타고 가자고. 
+<Sync Start=515386><P Class=KRCC>
+어떤 유형이 나오는지만 알고 있어도,
+<Sync Start=518154><P Class=KRCC>
+개념에서 흐름만 타고 가셔도 여러분들이 문제를 풀 때 그걸 떠올리기가 좋아요. 
+<Sync Start=523153><P Class=KRCC>
+여기까지가 표본평균이 하는 일이에요. 그다음 마지막 마무리가 뭐겠어? 
+<Sync Start=527521><P Class=KRCC>
+정규분포에서 확률 구해야지. 어떻게? 정규분포가 뭐예요? 
+<Sync Start=532199><P Class=KRCC>
+연속확률, 제가 아까 뭐라고 했어요? 확률변수라고 그랬잖아요, X바가. 
+<Sync Start=535938><P Class=KRCC>
+그러다 보니까 이산확률변수가 하는 일들은 이런 식으로 구하고, 
+<Sync Start=539616><P Class=KRCC>
+연속확률변수에서는 우리 뭐 배웠어? 확률밀도함수, 정규분포. 
+<Sync Start=543390><P Class=KRCC>
+정규분포 흐름을 타고 가는 겁니다. 그러면 X바에서 정규분포를 따른다. 
+<Sync Start=547652><P Class=KRCC>
+정규분포에서 확률 구하기, 어디부터 어디까지의 넓이 구하기, 그걸로 가는 거예요. 
+<Sync Start=551874><P Class=KRCC>
+그럼 다시 뭐 하겠어? Z로 가야지. 
+<Sync Start=554303><P Class=KRCC>
+표준화 작업하셔서, 표 이용해서 넓이를 구하는 문제,
+<Sync Start=558666><P Class=KRCC>
+지난 시간까지 하던 내용이 또 한 번 더 등장을 할 수밖에 없어요. 됐죠?  
+<Sync Start=562854><P Class=KRCC>
+마지막, 신뢰도와 신뢰구간은 굉장히 쉽죠. 
+<Sync Start=566563><P Class=KRCC>
+그건 마지막 문제 풀 때 하나씩 설명을 하도록 할게요. 
+<Sync Start=569495><P Class=KRCC>
+오늘은 간단하게 본 다음에 문제에서 제가 하나하나 조금 더 열심히 가보도록 할게요.
+<Sync Start=574843><P Class=KRCC>
+문제를 봐야 여러분이 얘기하기가 좋거든. 이렇게 나온다고. 
+<Sync Start=579479><P Class=KRCC>
+되었어요. 가보도록 합시다. 일단 첫 번째 문제를 보시면 이렇게 되어 있어요. 
+<Sync Start=586673><P Class=KRCC>
+수능 완성에 있는 문제이고, 이것들을 제가 문제 표현은 놔뒀지만, 
+<Sync Start=592293><P Class=KRCC>
+일일이 교재 두 개 들고 특수한, 펼치면서 하는 거 아니죠? 
+<Sync Start=597663><P Class=KRCC>
+기출문제 뽑아서 그렇게 안 해도 되게 제가 올려놨어요, 자료실에. 그걸로 해요. 
+<Sync Start=602761><P Class=KRCC>
+우리의 시간은 소중하니까 제가 다 올려놓은 그 교재를 뽑아서 와요. 그렇죠? 
+<Sync Start=607031><P Class=KRCC>
+언제 찾아봐. 이거 갈게요. 이 문제 있잖아, 교재에. 그거부터 시작할게요. 
+<Sync Start=612707><P Class=KRCC>
+어느 모집단에 확률변수가 있어요, X. 
+<Sync Start=615256><P Class=KRCC>
+여기서 확률분포가 다음 표와 같다, 이렇게 나와 있습니다. 
+<Sync Start=617963><P Class=KRCC>
+여기까지 읽으시면, 내가 이걸 가리는 게 의미가 있는 거지, 내 손 위로 보이잖아. 
+<Sync Start=622450><P Class=KRCC>
+근데 어쨌든 여기 표까지만 읽으시면 어때요? 그냥 이산확률변수 문제예요. 
+<Sync Start=629507><P Class=KRCC>
+맞아, 진짜야. 근데 거기서 뭐라고 했냐면 거기서 크기가 3인 표본, 
+<Sync Start=635668><P Class=KRCC>
+크기가 3, 이미 수상해야 돼. 제가 팁을 드렸어요. 
+<Sync Start=639736><P Class=KRCC>
+크기가 2, 3, 4 정도일 때는, 꼭 그런 건 아니야, 4는. 4는 또 경계야. 
+<Sync Start=646113><P Class=KRCC>
+2나 3일 때 특히 그래요. 
+<Sync Start=648245><P Class=KRCC>
+2나 3일 때 표본평균에 정말 그 값이 얼마가 나오는 확률을 구하라고 한다면 
+<Sync Start=655985><P Class=KRCC>
+이 유형이에요, 100%. 일단 가볼게요. X바의 확률을 구하는 겁니다. 
+<Sync Start=663035><P Class=KRCC>
+X바가 1이 나올 때랑 X바가 2가 나올 때의 이야기인데요. 
+<Sync Start=667200><P Class=KRCC>
+여러분들이 좀 쉽게 계산하게 하기 위해서 
+<Sync Start=670537><P Class=KRCC>
+문제 변형을 먼저 한 다음에 들어오도록 할게요. 
+<Sync Start=673193><P Class=KRCC>
+크기가 3인 게 조금 더 어렵고요. 크기가 2인 것부터 시작해 볼게요. 
+<Sync Start=677106><P Class=KRCC>
+
+<Sync Start=680135><P Class=KRCC>
+이 문제랑은 전혀 관계가 없이 크기가 2인 표본을 뽑아서 
+<Sync Start=685285><P Class=KRCC>
+내가 여기서 살림을 차려보겠습니다. 알았죠? 
+<Sync Start=687870><P Class=KRCC>
+크기가 2인 표본에 대한 것들을 조금 정리를 해가겠다는 이야기예요. 얘랑은 별개야. 
+<Sync Start=692805><P Class=KRCC>
+이 문제 아직 시작도 안 했고, 이 표만 가지고 저 X에 대한 거, 
+<Sync Start=696402><P Class=KRCC>
+모집단을 가지고 크기가 2인 표본에 대해서 우리가 만들어 보자는 거지. 그렇지? 
+<Sync Start=703018><P Class=KRCC>
+이게 무슨 이야기냐면 X바가 구해져요. 뭐를 이용해서? 
+<Sync Start=708872><P Class=KRCC>
+크기가 두 개밖에 안 되기 때문에. X바를 어떻게 구하느냐? 
+<Sync Start=714084><P Class=KRCC>
+2분의, 내가 뽑은 표본 2개를 더해서 나누면 된다는 이야기거든요. 그럼 생각해 보자.
+<Sync Start=721099><P Class=KRCC>
+X₁, X₂로 나올 수 있는 값이 -1, 0, 2, 총 3가지예요. 그렇죠? 
+<Sync Start=728844><P Class=KRCC>
+크기가 2가 되면 얼마나 좋으냐? 봐봐요. 
+<Sync Start=731548><P Class=KRCC>
+제일 쉬운 X바로 나올 수 있는 거는 뭐 있어? -1만 2개 뽑아서 평균 내면 -1. 
+<Sync Start=737221><P Class=KRCC>
+
+<Sync Start=739539><P Class=KRCC>
+얘네 둘 뽑아서 평균 내면 -½. 
+<Sync Start=742263><P Class=KRCC>
+
+<Sync Start=744194><P Class=KRCC>
+그다음에 얘만 가지고 평균 내면,
+<Sync Start=746992><P Class=KRCC>
+또는 이렇게 둘 가지고 평균 내면, 이런 것들을 하나하나 찾는 거예요. 
+<Sync Start=750920><P Class=KRCC>
+차근차근 생각을 해봐. 어차피 -1과 -1 뽑은 거, 얘는 -1과 0을 뽑은 거,
+<Sync Start=758730><P Class=KRCC>
+-1과 2를 뽑은 거 또는 0만 2개 뽑은 거, 어느 게 더 작아요? 
+<Sync Start=765196><P Class=KRCC>
+0만 2개 뽑은 게 작아. 
+<Sync Start=766372><P Class=KRCC>
+
+<Sync Start=768859><P Class=KRCC>
+이렇게 되면 평균이 0이니까. 그렇지? 이런 걸 하나하나 쓰는 거예요. 
+<Sync Start=772163><P Class=KRCC>
+결국 이게 모든 경우의 수가 몇 가지가 나오냐면 
+<Sync Start=775210><P Class=KRCC>
+첫 번째, X₁로 나올 수 있는 게 -1, 0, 2, 3가지. 
+<Sync Start=778734><P Class=KRCC>
+두 번째, -1, 0, 2, 3가지. 총 9가지가 있을 거거든요. 
+<Sync Start=781996><P Class=KRCC>
+이것도 순서 바꾼 것까지 쓸게요. 
+<Sync Start=783742><P Class=KRCC>
+내가 혹시 빼먹는 게 있으면 안 되니까, 얘네는 순서 바꾸는 게 없을 거고, 그렇지? 
+<Sync Start=787495><P Class=KRCC>
+그리고 또 나올 수 있는 게 뭐겠어요, 평균 낼 때? 
+<Sync Start=790440><P Class=KRCC>
+0 다음에, 이제 이거. 이거, 이거 가면 합이 1이 되니까 ½. 
+<Sync Start=795849><P Class=KRCC>
+순서도 이뻐. 이렇게 되려면 어떻게 돼요? 
+<Sync Start=798686><P Class=KRCC>
+그렇지, -1과 2, 2와 1, 2와 -1, 이런 게 있을 수 있고, 
+<Sync Start=803989><P Class=KRCC>
+또 한 번 더는? 0과 2로 갈까요? 그러면 어떻게 돼요? 평균은 1이 되겠죠. 
+<Sync Start=809129><P Class=KRCC>
+딱 스타일이 좋죠. 
+<Sync Start=810467><P Class=KRCC>
+0과 2, 2와 0, 마지막에 2와 2만 뽑으면 평균이 그냥 바로 2로 갑니다. 
+<Sync Start=817026><P Class=KRCC>
+이 중간은 있을 수가 없더라고. 개수 맞나 세어봐요. 
+<Sync Start=819934><P Class=KRCC>
+하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉 개, 딱 됐죠. 
+<Sync Start=823387><P Class=KRCC>
+이러면 어떻게 하느냐? 확률분포표를 그릴 수가 있어요. 
+<Sync Start=827120><P Class=KRCC>
+그걸 그리라고까지 안 해. 이 문제가 더 쉬워. 
+<Sync Start=829908><P Class=KRCC>
+그리라고까지도 안 하는데 우리는 지금 새로운 곳에 
+<Sync Start=833802><P Class=KRCC>
+새로운 땅을 개척 중이니까 한번 만들어 봅시다. X바는 그러면 어떻게 돼? 
+<Sync Start=837435><P Class=KRCC>
+
+<Sync Start=841205><P Class=KRCC>
+이렇게 놓으시고, -1, -½, 0, ½, 1, 2까지 가능하고요. 
+<Sync Start=850631><P Class=KRCC>
+그때 해당하는 확률은 9개 중의 1가지 했었고요. 얘는 9개 중의 2가지, 
+<Sync Start=854781><P Class=KRCC>
+9개 중의 1가지, 9개 중의 2가지, 9개 중의 2가지, 9개 중의 1가지, 이렇게 됩니다. 
+<Sync Start=860773><P Class=KRCC>
+당연히 확률의 합은 1일 것이고요. 어때? 완벽한 확률분포표예요. 
+<Sync Start=866880><P Class=KRCC>
+그래서 이걸 그린 다음에 여기서 '곱해, 곱해, 싹 다 더해.'를 하면 
+<Sync Start=870411><P Class=KRCC>
+E(X바)가 될 거 아니야. 그런 행동을 할까? 안 하지, 이거 뭐 하려 해? 
+<Sync Start=874808><P Class=KRCC>
+이거 뭐예요? 모평균인걸. 
+<Sync Start=877266><P Class=KRCC>
+저거 해서 그냥 평균 구하면 되는데 굳이, 굳이 우리가 이런 거, 
+<Sync Start=879818><P Class=KRCC>
+이건 안 하고 얘는 왜 했냐면 여러분들, 이렇게 구하고서 문제에서 이런 걸 물어봐요.
+<Sync Start=884727><P Class=KRCC>
+이를테면 크기가 2인 표본에서 X바가 ½일 확률은? 이렇게 물어봤다고 하면 어때요? 
+<Sync Start=892407><P Class=KRCC>
+난 얘만 찾으면 돼, 9분의 2. 
+<Sync Start=894443><P Class=KRCC>
+
+<Sync Start=896530><P Class=KRCC>
+다시 돌려서 생각해 봐. 그렇다는 말은 내가 일일이 이걸 다 찾아야 돼? 아니야. 
+<Sync Start=902831><P Class=KRCC>
+얘네가 ½이 되는 것만 찾으면 돼. 
+<Sync Start=904999><P Class=KRCC>
+다시, 얘네 둘의 합이 뭐인 것만 찾으면 돼? 1인 것만 찾으면 돼. 
+<Sync Start=908301><P Class=KRCC>
+그렇다면 다시 돌아가서 생각할 때 
+<Sync Start=910065><P Class=KRCC>
+얘네의 합이 1이 나올 수 있는 경우가 뭐가 있을까? 이렇게 가는 거잖아. 
+<Sync Start=913554><P Class=KRCC>
+합이 나올 수 있는 거 뭐 있어요? -1이랑 2만 있네. 
+<Sync Start=916370><P Class=KRCC>
+그러면 -1이랑 2인 경우를 해서 총 9가지 중의 2가지구나. 
+<Sync Start=921142><P Class=KRCC>
+확률은 9분의 2, 이렇게 가요. 이거 뭐야? 확률 문제잖아, 이렇게 되는 거예요. 
+<Sync Start=926960><P Class=KRCC>
+알겠죠? 표본평균의 탈을 쓴 확률 문제이고요. 
+<Sync Start=930522><P Class=KRCC>
+여러분들은 거기에 맞게 표본 구성을 잘해주시면 되는 겁니다. 
+<Sync Start=934822><P Class=KRCC>
+확률만 찾아주면 돼요. 크기가 3이면 확률분포표를 그릴 생각은 전혀 없어요. 
+<Sync Start=940763><P Class=KRCC>
+너무 복잡해. 2개일 때여서 제가 표 한번 그려봤는데, 
+<Sync Start=944115><P Class=KRCC>
+실전에서 여러분들도 표를 그릴 일은 없어. 뭐만 하면 돼, 이걸 가지고? 
+<Sync Start=948201><P Class=KRCC>
+크기가 3개니까 X바가 어떻게 구성이 되느냐? 
+<Sync Start=952380><P Class=KRCC>
+3분의, 내가 뽑은 3개를 가지고 이렇게 구성을 한단 말이지. 
+<Sync Start=957714><P Class=KRCC>
+근데 이게 1이거나 또는 2가 되는 확률을 구하라는 이야기잖아. 완벽하죠. 그렇죠? 
+<Sync Start=964233><P Class=KRCC>
+그럼 어떻게 쓰면 돼? 그렇다면 X₁, X₂, X₃, 3개를 뽑아서 
+<Sync Start=971261><P Class=KRCC>
+3이 되거나 또는 6이 되면 된다, 이렇게 씁니다. 
+<Sync Start=975683><P Class=KRCC>
+중요한 건 X₁에서 뽑은 것이 X₂에서 또 뽑힐 수도 있어요. 시행을 3번, 
+<Sync Start=982763><P Class=KRCC>
+그러니까 크기가 3인 표본을 뽑는다는 말을 할 때 여러분이 잘못 오해하는 게, 
+<Sync Start=986711><P Class=KRCC>
+마치 -1, 0, 2가 들어있는 공, 이렇게. 
+<Sync Start=992715><P Class=KRCC>
+물론 확률은 다르지만, 이 중에서 3개를 동시에 뽑는다, 아니야. 
+<Sync Start=996266><P Class=KRCC>
+그거 아니고, 그런 거 전혀 아니고, 3번을 뽑기 때문에 
+<Sync Start=1000991><P Class=KRCC>
+-1이 나올 수도 있고, 0이 나올 수도 있고, 2가 나올 수도 있고, 
+<Sync Start=1004145><P Class=KRCC>
+-1이 또 나올 수도 있고, 이렇습니다. 알았죠? 
+<Sync Start=1006656><P Class=KRCC>
+그래서 그 -1과 0과 2로 구성돼서 3개를 합해서 3이 나오는 경우, 
+<Sync Start=1012297><P Class=KRCC>
+6이 나오는 그 구성을 먼저 찾아주세요. 오케이? 그 구성을 한번 찾아볼게요. 
+<Sync Start=1017659><P Class=KRCC>
+3이 나오려면 어떻게 돼야 될까? 합이 3이려면. 
+<Sync Start=1019493><P Class=KRCC>
+
+<Sync Start=1021581><P Class=KRCC>
+(-1, 2, 2)이면 될 것 같아. 
+<Sync Start=1025555><P Class=KRCC>
+이거 은근히 합이 3이 나오는 구성을 찾기가 쉽지 않더라고, 제가 생각을 했더니. 
+<Sync Start=1030901><P Class=KRCC>
+그렇지? 이거 말고 있어요, 없어요? 더 없어요. 은근히 헷갈려. 
+<Sync Start=1035468><P Class=KRCC>
+보통은 -1, 0, 1 이런 식으로 줘서 좀 쉬워지는데, 
+<Sync Start=1039780><P Class=KRCC>
+갑자기 뜬금 2로 점프를 하는 바람에 헷갈려 하더라고. 
+<Sync Start=1043808><P Class=KRCC>
+합이 3인 경우는 일단 쟤네 말고 없어. 
+<Sync Start=1047764><P Class=KRCC>
+변형 0, 없어. -1 더 생겨, 없어. 그렇지? 얘가 다야. 
+<Sync Start=1051345><P Class=KRCC>
+그러면 이렇게 나올 수 있는 확률이 얼마게요? 
+<Sync Start=1056587><P Class=KRCC>
+-1이 나오는 확률 6분의 1, 2가 나오는 확률 ⅓, 다시 2가 나오는 확률은 ⅓이고, 
+<Sync Start=1063179><P Class=KRCC>
+이 앞에 얘네의 배열이 바뀌죠. 
+<Sync Start=1068780><P Class=KRCC>
+X₁이 -1일 때랑 X₂가 -1일 때랑 X₃이 1일 때랑 3가지가 나오잖아요. 
+<Sync Start=1074302><P Class=KRCC>
+그들의 배열까지 생각해 주셔야 됩니다. 됐어? 
+<Sync Start=1078035><P Class=KRCC>
+두 번째, 얘가 나오는 확률은? 6이 나오려면 어떻게 돼야 될까? 
+<Sync Start=1081114><P Class=KRCC>
+합이 6이려면 무조건이지. 배열도 없고요, 그냥 (⅓)³입니다. 27분의 1. 
+<Sync Start=1089776><P Class=KRCC>
+여기는요? 18분의 1. 그럼 답은 뭐라고 써요? 
+<Sync Start=1095152><P Class=KRCC>
+케이스가 나뉜 것이고요. 그 확률들을 각각 어떻게? 더해야지. 
+<Sync Start=1099418><P Class=KRCC>
+그러면 54. 통분하기 그래도 좋은 형태네. 54분의 3+2, 정답은 54분의 5가 됩니다. 
+<Sync Start=1109606><P Class=KRCC>
+2개일 때보다 구성원을 뽑는 게 더 어려워요, 3개가 되면. 그렇잖아. 그렇지? 
+<Sync Start=1115589><P Class=KRCC>
+그래서 좀 더 어렵다는 이야기였어요. 됐어? 
+<Sync Start=1118413><P Class=KRCC>
+이런 식으로 여러분들이 일일이 체크해 나갈 수가 있습니다. 
+<Sync Start=1121320><P Class=KRCC>
+크기가 4개가 되면 좀 더 복잡해지겠지. 그렇지? 그런 생각은 할 수 있겠지. 
+<Sync Start=1125635><P Class=KRCC>
+오케이. 그렇습니다. 
+<Sync Start=1127285><P Class=KRCC>
+그래서 이거 하나하나 찾아가는 연습을 좀 해주셔야 될 것 같아요. 
+<Sync Start=1131074><P Class=KRCC>
+왜 가만히 있는데 목걸이를 자꾸 내 뒤로 누가 당기는 기분이 들지? 
+<Sync Start=1135456><P Class=KRCC>
+머리카락이 혹시 자아가 있어서 당기는 건가? 가끔 그런 생각을 할 때가 있어. 
+<Sync Start=1140684><P Class=KRCC>
+목걸이를 왜 하고 있는지에 대해서 물어볼 때가 있는데, 안 빼서 하고 있어요. 
+<Sync Start=1146587><P Class=KRCC>
+내 성격상 그렇잖아. 그렇지? 안 빼서. 빼면 잃어버려. 
+<Sync Start=1151921><P Class=KRCC>
+뭐든 잘 안 빼서 그냥 하고 있는 거야. 별 의미도 없고요. 
+<Sync Start=1156149><P Class=KRCC>
+어쨌든, 알겠죠? 이런 느낌으로 가는 겁니다. 
+<Sync Start=1159085><P Class=KRCC>
+그래서 이 표현이 등장을 할 때 여러분들이 더 이상 긴장을 해서는 안 돼요. 
+<Sync Start=1163619><P Class=KRCC>
+이게 그리고 약간 난도가 있는 편의 문제잖아요. 
+<Sync Start=1166682><P Class=KRCC>
+어떻게 해결하는지 이제 보이죠, 그렇죠? 
+<Sync Start=1168744><P Class=KRCC>
+두 번째는, 얘가 우리한테 익숙한 형태야. 그렇지? 어디, 어디? 봐봐. 
+<Sync Start=1175878><P Class=KRCC>
+모집단에 대한 이야기가 똑같이 나와요. 
+<Sync Start=1177882><P Class=KRCC>
+모집단에 대한 확률분포가 그냥 떠 있는 거예요. 
+<Sync Start=1180430><P Class=KRCC>
+그다음에 이 모집단에서 크기가 14인, 이미 크기가 14인 표본이라고 하는 순간 
+<Sync Start=1187231><P Class=KRCC>
+X바가 정확히 얼마가 될 확률을 물어볼 리는 없어요. 그렇죠? 
+<Sync Start=1192028><P Class=KRCC>
+'이 중에 14개를 뽑아서 표본평균이 얼마가 나올 확률' 이렇게 안 나온다고. 그렇지? 
+<Sync Start=1197443><P Class=KRCC>
+어찌 됐든 14개에 대한 이야기를 하는 데다가 이런 말이 나왔어요. 
+<Sync Start=1203245><P Class=KRCC>
+그리고 얘를 구하래요. 일단 표본평균의 평균은 뭐랑 같아요? 
+<Sync Start=1208903><P Class=KRCC>
+저걸 보고 다시 쓰세요. 뭐라고 쓰셔야 돼요? 모평균. 이걸로 바꿔요. 
+<Sync Start=1217236><P Class=KRCC>
+그러니까 마치 전혀 같은 의미는 아니지만, 이런 거랑 비슷해. 
+<Sync Start=1224487><P Class=KRCC>
+우리가 배울 때는 어마어마한 의미를 가졌지만, 
+<Sync Start=1229062><P Class=KRCC>
+실제로 계산을 할 때는 이 정도의 도움을 주는 용도로 쓰죠. 
+<Sync Start=1236197><P Class=KRCC>
+이 안에 있는 변수의 변환 말이야. 
+<Sync Start=1238686><P Class=KRCC>
+만약에 이렇게 되어 있으면 4V(X)구나, 이런 식으로. 
+<Sync Start=1242655><P Class=KRCC>
+우리가 이게 주어졌을 때 이렇게 바꿔서 문제 푸는 정도의 아주 자잘한, 
+<Sync Start=1248547><P Class=KRCC>
+이렇게 표현하면 그렇지만, 아주 귀여운, 그렇죠? 좋은 표현이다. 
+<Sync Start=1251804><P Class=KRCC>
+귀여운 정도의 노력만 하면 대개 나오잖아요, 솔직히 문제로 나올 때는. 
+<Sync Start=1256697><P Class=KRCC>
+배울 때에 비해서 문제가 훨씬 쉽게 느껴지는 거잖아. 그거랑 똑같아요. 
+<Sync Start=1260989><P Class=KRCC>
+얘네도 마찬가지로 모평균과 표본평균의 평균의 관계, 그러면 되게 대단해 보였으나 
+<Sync Start=1268092><P Class=KRCC>
+이렇게 나와요. 알겠죠? 그걸 변화시킬 수 있으면 돼. 얘도 어떻게 하면 돼? 
+<Sync Start=1272318><P Class=KRCC>
+
+<Sync Start=1275342><P Class=KRCC>
+이거 어떻게 구한다고 했지? √n분의 σ, 이걸 떠올려 봐. 그래서 뭐예요? 
+<Sync Start=1280743><P Class=KRCC>
+√n은 14죠. 그렇죠? 그러면 14를 루트 씌우고 모집단에서의 표준편차를 구하면 돼. 
+<Sync Start=1289849><P Class=KRCC>
+조금 더 가봐요, 그거부터 하지 말고. 
+<Sync Start=1292194><P Class=KRCC>
+5부터 처리해. 얘는요 5σ(X바)입니다. 이거부터 시작하세요. 
+<Sync Start=1299855><P Class=KRCC>
+시그마가 너무 겹쳐서, 그렇지? 5부터 뱉어내야지, 얘랑 똑같잖아. 
+<Sync Start=1305704><P Class=KRCC>
+제곱배 하죠, V는. 대신에 σ는 그만큼만 곱하면 되죠. 
+<Sync Start=1311125><P Class=KRCC>
+그래서 5σX바가 된 것에다가 얘에서 한 번 더 변화해요. 어떻게 돼요? 
+<Sync Start=1315639><P Class=KRCC>
+5√14분의 σ가 되겠죠. X의 표준편차라고 할게요. 됐어? 
+<Sync Start=1325122><P Class=KRCC>
+그럼 나한테 이제 필요한 건 뭐예요? 오로지 X예요. 
+<Sync Start=1329702><P Class=KRCC>
+오로지 모집단에 관련된 내용만 알면 됩니다, 이거예요. 
+<Sync Start=1332902><P Class=KRCC>
+그래서 표본평균이 하는 역할은 생각보다 되게 미비합니다, 
+<Sync Start=1336654><P Class=KRCC>
+우리가 문제를 풀 때 있어서는요. 
+<Sync Start=1339000><P Class=KRCC>
+그래서 아까 1번 같은, 첫 번째 문제 같은 유형이 등장을 하게 되는 거죠. 
+<Sync Start=1342877><P Class=KRCC>
+표본평균이 주인공이야. '나야, 나!' 약간 이렇게 나오잖아. 그렇지? 
+<Sync Start=1346678><P Class=KRCC>
+마무리 지어볼게요. 이 문제에서 표가 나왔어. 보자마자 뭐부터 해요? 
+<Sync Start=1351394><P Class=KRCC>
+얘네 둘의 합부터 가야 되지 않을까? a+b=5분의 3이고요. 
+<Sync Start=1355834><P Class=KRCC>
+그다음에 평균이 5분의 1이래. '곱해, 곱해, 싹 다 더해.' 하는 거죠. 
+<Sync Start=1359478><P Class=KRCC>
+-a, 0, 됐다, 그렇지? 얘네 둘을 더하면 5분의 2. 
+<Sync Start=1364057><P Class=KRCC>
+이게 얼마래요? 평균 5분의 1이래요. 그러면 a는 얼마예요? 5분의 1이요. 
+<Sync Start=1369479><P Class=KRCC>
+a가 5분의 1이니까 b는 얼마예요? 5분의 2요, 이렇게 되겠죠? 됐어요? 
+<Sync Start=1376773><P Class=KRCC>
+마무리, 시그마는 어떻게 구해요? 표준편차는 분산부터 구해야지. 분산부터 구해야지.
+<Sync Start=1383145><P Class=KRCC>
+평균이 예쁘지 않아. 
+<Sync Start=1385321><P Class=KRCC>
+평균이 0이나 1이나 이렇게 해서 편차 제곱의 평균으로 분산을 구하는 게 좋은가 
+<Sync Start=1390373><P Class=KRCC>
+한 번쯤은 체크를 하는데, 아니더라고. 그래서 어떻게 해요? 
+<Sync Start=1393478><P Class=KRCC>
+
+<Sync Start=1395686><P Class=KRCC>
+제평평제를 이용합니다. 
+<Sync Start=1397253><P Class=KRCC>
+
+<Sync Start=1399658><P Class=KRCC>
+제곱의 평균에서 평균의 제곱을 빼야 되겠죠. 
+<Sync Start=1403004><P Class=KRCC>
+그래서 여기 단원이 사실은 그 앞에 배웠던 이산확률변수, 
+<Sync Start=1408243><P Class=KRCC>
+아니면 이 뒤에 정규분포도 하니까, 연속확률변수, 
+<Sync Start=1411736><P Class=KRCC>
+모두를 다시 한번 복습하는 계기가 돼요. 
+<Sync Start=1415768><P Class=KRCC>
+더 복잡한 것이 아니고 했던 것들을 끌고 와요. 
+<Sync Start=1418746><P Class=KRCC>
+했던 것들만 다 다시 이용하는 정도지, 새롭지 않아. 그렇게 생각하세요. 
+<Sync Start=1423972><P Class=KRCC>
+그럼 제곱의 평균은 어떻게 구하죠? 제곱해서 써야지. 
+<Sync Start=1427876><P Class=KRCC>
+동그라미 잠깐 치워주겠니? 그렇죠? 제곱한 거 위에다 적어야 되잖아. 
+<Sync Start=1432756><P Class=KRCC>
+제곱하면 1, 0, 1이고요. 제곱해서 '곱해, 곱해, 싹 다 더해.'를 하시면 
+<Sync Start=1437707><P Class=KRCC>
+5분의 얼마냐면, 5분의 1, 5분의 2를 더하니까 5분의 3-, 
+<Sync Start=1443774><P Class=KRCC>
+평균의 제곱, 25로 통분하시면 14, 이렇게 되겠죠. 됐어? 나 너무 잘 푼 것 같아요. 
+<Sync Start=1451546><P Class=KRCC>
+왜? 시그마는 그럼 얼마야? √14분의 5×σ(x)인데, σ(x)가 얼마가 되죠, 여러분? 
+<Sync Start=1460801><P Class=KRCC>
+여기다가 루트 씌우면 되잖아. 5분의 √14야. 뭐야? 1이야. 
+<Sync Start=1468534><P Class=KRCC>
+정답은 그래서 얼마예요? 1이 됩니다. 이럴 수도 있지. 답이 1이어도 돼. 
+<Sync Start=1474432><P Class=KRCC>
+그럴 수도 있는 거예요, 여러분들. 알았죠? 이 문제 느껴보시면 어떤 느낌이냐면 
+<Sync Start=1479851><P Class=KRCC>
+이산확률변수 때 나오던 확률분포표 문제의 총체적 복습. 맞아? 그렇죠? 
+<Sync Start=1487600><P Class=KRCC>
+제평평제까지 등장을 했어요. 그러면 대체 표본평균이 하는 역할은 뭐였나요? 
+<Sync Start=1493414><P Class=KRCC>
+여기요, 노란색. 이거, 이 정도. 그렇죠? 
+<Sync Start=1498232><P Class=KRCC>
+그래서 항상 표본평균이 이 정도의 위치를 차지하고 있었다니까. 
+<Sync Start=1502681><P Class=KRCC>
+얼마나 속상했겠어, 의미가 엄청 있는 부분인데. 
+<Sync Start=1506389><P Class=KRCC>
+그래서 이산확률변수와의 콜라보에서는 1번 같은 형태랑 같이 등장을 하게 된 거죠. 
+<Sync Start=1513567><P Class=KRCC>
+그런 생각들을 해주도록 하세요. 
+<Sync Start=1515661><P Class=KRCC>
+이제는 이산확률변수와의 콜라보를 넘어서 
+<Sync Start=1519948><P Class=KRCC>
+이번에는 연속확률변수와의 콜라보로 가겠습니다. 
+<Sync Start=1524126><P Class=KRCC>
+어찌 됐든 간에 표본평균은 확률변수잖아요. 그렇죠? 
+<Sync Start=1529432><P Class=KRCC>
+그러다 보니까 표본평균을 가지고 어떻게? 
+<Sync Start=1532153><P Class=KRCC>
+이산확률변수, 즉 확률분포표에서 하던 일들을 어떤 식으로 했는가? 
+<Sync Start=1535464><P Class=KRCC>
+그다음에 연속확률변수, 
+<Sync Start=1537081><P Class=KRCC>
+특히나 정규분포와의 관계 흐름, 이런 형태로 생각하시면 좋을 것 같아요. 
+<Sync Start=1542014><P Class=KRCC>
+3번 보세요. 수Ⅰ에 있는 문제 3번입니다. 그렇죠? 이거 세 번째 문제이고요. 
+<Sync Start=1547384><P Class=KRCC>
+'평균이 10, 표준편차가 σ인 정규분포에 따르는 모집단에서 
+<Sync Start=1551125><P Class=KRCC>
+크기가 9인 표본을 추출해서 표본평균을 X바라고 하는데, 
+<Sync Start=1554143><P Class=KRCC>
+여기서 모집단' 이렇게 읽으시면 아무것도 이해가 안 돼요. 
+<Sync Start=1558097><P Class=KRCC>
+그래서 이런 문제의 유형, 
+<Sync Start=1560981><P Class=KRCC>
+이거는 대놓고 그냥 '표본평균은 X바라고 해. 확률변수가 X' 이렇게 쓰여 있잖아. 
+<Sync Start=1568098><P Class=KRCC>
+근데 이다음 문제 같은 형태를 보면 이렇게 나와요. 
+<Sync Start=1571066><P Class=KRCC>
+제과점에서 빵의 무게, 이렇게 나온단 말이야. 
+<Sync Start=1575677><P Class=KRCC>
+그런 걸 대비하여서 우리 지금부터는 조금 표시를 해볼게요, 그냥 읽지 마시고.
+<Sync Start=1581682><P Class=KRCC>
+모집단에, 모집단의 확률변수가 X야. 
+<Sync Start=1587593><P Class=KRCC>
+그래? 그러면 봐봐. 모집단이 이걸 따른다고 했어. 끊어, 그냥 읽지 말고. 
+<Sync Start=1593107><P Class=KRCC>
+모집단 뭘 따른다고? 정규분포를 따르는데, 
+<Sync Start=1597278><P Class=KRCC>
+평균이 10이고, 표준편차가 σ인 정규분포를 따릅니다. 
+<Sync Start=1602362><P Class=KRCC>
+그전에 잠깐 정리! 아까 그런 이야기는 했어요. 
+<Sync Start=1607340><P Class=KRCC>
+"X바에 대해서 평균과 표준편차를 구하기가 참 좋은 아이입니다. 
+<Sync Start=1613472><P Class=KRCC>
+평균은 모평균과 같고요. 표준편차는 √n분의 σ와 같아요. 
+<Sync Start=1619226><P Class=KRCC>
+그래서 이걸 이용해서 정규분포를 사용할 겁니다."라고 했는데, 문제는 그거야. 
+<Sync Start=1625304><P Class=KRCC>
+이걸 구하기 쉬운 건 알겠어요. 근데 왜 얘가 정규분포를 따르죠? 그렇죠? 
+<Sync Start=1630411><P Class=KRCC>
+
+<Sync Start=1634776><P Class=KRCC>
+(평, 표)²으로 쓸게요, 저기 있는 것들을 쓰면 되니까. 왜 따르죠? 
+<Sync Start=1642524><P Class=KRCC>
+이걸 생각해야 되잖아. 일단은 교과서적인 표현으로는 뭐라고 되어 있느냐? 
+<Sync Start=1648838><P Class=KRCC>
+모집단이 정규분포를 따르면 거기서 내가 표본을 뽑아서 만들어 낸 표본평균 또한 
+<Sync Start=1655028><P Class=KRCC>
+정규분포를 따른다고 되어 있습니다. 
+<Sync Start=1658137><P Class=KRCC>
+거의 대부분의 문제들은요. 모집단 자체가 정규분포를 따르고 있어요. 
+<Sync Start=1663145><P Class=KRCC>
+그러니까 모집단이 정규분포를 따르니까 자연스럽게 
+<Sync Start=1666631><P Class=KRCC>
+표본평균도 정규분포를 따른다고 생각하시면 돼요. 
+<Sync Start=1670911><P Class=KRCC>
+그러나 모집단이 정규분포를 따르지 않는 순간에도 
+<Sync Start=1675837><P Class=KRCC>
+표본의 크기가 적당히 크면 표본평균은 정규분포를 따릅니다, 이렇게 이야기를 해요. 
+<Sync Start=1683500><P Class=KRCC>
+'무슨 이야기야!' 이런 생각이 들잖아. 그렇지? 다시 한번 볼게요. 
+<Sync Start=1687997><P Class=KRCC>
+거의 대부분의 문제는 모집단이 정규분포를 따르고 있습니다. 
+<Sync Start=1692144><P Class=KRCC>
+하지만 내가 표본을 뽑아. 이게 따르지 않는다 하더라도 내가 표본을 뽑아. 
+<Sync Start=1697241><P Class=KRCC>
+표본의 크기가 꽤나 커. 30개, 이렇게 뽑았어요. 
+<Sync Start=1700626><P Class=KRCC>
+30개를 뽑아서 표본평균의 평균을 내고, 
+<Sync Start=1704030><P Class=KRCC>
+표본평균의 표준편차를 구하고, 이렇게 한 거잖아요. 그렇죠? 그 표본평균들의. 
+<Sync Start=1708159><P Class=KRCC>
+그러다 보면 얘들은 표본평균들 자체도, 우리 마치 그런 생각을 하면 돼요. 
+<Sync Start=1714082><P Class=KRCC>
+이항분포가 정규분포를 따르던 거 기억나요? 이항분포는 뭐야? 
+<Sync Start=1719339><P Class=KRCC>
+내가 주사위를 100번 던졌어. 그래서 1의 눈이 나올 확률은 6분의 1, 
+<Sync Start=1723537><P Class=KRCC>
+그럼 (100,6분의 1) 해서 B, 이렇게 썼던 거 있잖아. 
+<Sync Start=1726543><P Class=KRCC>
+거기서 우리 어디로 갔어요? 정규분포로 갔어요. 왜? 
+<Sync Start=1730803><P Class=KRCC>
+내가 시행 횟수가 충분히 크면 내가 구한 확률들을 구해봤더니 뭐를 따른다고? 
+<Sync Start=1736440><P Class=KRCC>
+평균을 기준으로 좌우대칭인 종 모양을 따른다, 
+<Sync Start=1738704><P Class=KRCC>
+이런 이야기가 나왔던 거랑 비슷한 흐름이에요. 적당히 표본의 크기가 크잖아?
+<Sync Start=1743262><P Class=KRCC>
+그러면 얘는 정규분포를 따른다고 할 수 있다고 하고요.
+<Sync Start=1747032><P Class=KRCC>
+이제 시험까지 가까이 왔는데 우리가 노골적인 표현을 써볼까요? 
+<Sync Start=1750061><P Class=KRCC>
+
+<Sync Start=1753514><P Class=KRCC>
+여러분, 표준 정규분포를 이용하라고 표까지 줬어. 
+<Sync Start=1757542><P Class=KRCC>
+그런데 얘는 당연히 정규분포를 따르겠지. 그렇죠? 그렇게 가시면 됩니다. 
+<Sync Start=1763822><P Class=KRCC>
+그래서 어떻게 푸느냐? 일단은 봐요. 이거를 들고 갈게요. 
+<Sync Start=1768266><P Class=KRCC>
+이미 X, 즉 모집단 자체가 정규분포를 따르고 있어요. 
+<Sync Start=1772077><P Class=KRCC>
+그다음에 문제에서 뭐라고 했냐면 크기가 9라고 했습니다. 그때 이렇게 써요. 
+<Sync Start=1775925><P Class=KRCC>
+
+<Sync Start=1778453><P Class=KRCC>
+크기가 9인 표본을 뽑았다. 그럼 어떻게 돼? 
+<Sync Start=1781231><P Class=KRCC>
+자연스럽게 문제를 읽지 않아도 표본평균은 정규분포를 따르는 거고, 
+<Sync Start=1785458><P Class=KRCC>
+평균은 어떻게 구해? 모평균 그대로. 
+<Sync Start=1788740><P Class=KRCC>
+표준편차는 어떻게 구해? 표준편차는 여기다가 루트를 씌우세요. 
+<Sync Start=1793294><P Class=KRCC>
+그러면 3분의, 그리고 σ. 이거 그대로. 그리고 제곱으로 쓰시면 돼요. 
+<Sync Start=1800661><P Class=KRCC>
+문제 읽기 전에. 그렇죠? 
+<Sync Start=1803009><P Class=KRCC>
+문제를 읽기 전에, 시작하기 전에 이거부터 시작을 하는 거예요. 
+<Sync Start=1806437><P Class=KRCC>
+크기가 몇인 표본평균에 대하여 이런 느낌이 올 때 이거 먼저 해놓은 거예요. 
+<Sync Start=1811280><P Class=KRCC>
+우리는 표본평균에 대해서 물어보면 이제 이것만 보면 됩니다. 
+<Sync Start=1815060><P Class=KRCC>
+다른 건 다 필요 없어요. 
+<Sync Start=1816753><P Class=KRCC>
+이제 본격적으로 다시 문제로 넘어가 보도록 할게요. 봐봐요. 
+<Sync Start=1819553><P Class=KRCC>
+
+<Sync Start=1822433><P Class=KRCC>
+표본평균을 X바라고 했습니다. 여기까지 내가 저쪽에 다 해결을 해놓은 상태이고요. 
+<Sync Start=1827262><P Class=KRCC>
+여기서 뭐라고 했냐면 X가, 즉 모집단의 확률변수가 7보다 작거나 같고, 
+<Sync Start=1834534><P Class=KRCC>
+표본평균이 11보다 크거나 같은 확률의 합이 뭐? 이렇게 되어 있잖아. 봐요.
+<Sync Start=1841343><P Class=KRCC>
+X는 얘를 따르고, X바는 얘를 따라요. 
+<Sync Start=1844447><P Class=KRCC>
+그럼 여러분이 생각을 해도 이 둘은 평균은 같지만, 
+<Sync Start=1848907><P Class=KRCC>
+흩어진 정도가 다른, 종 모양이 다른 모양입니다. 
+<Sync Start=1852671><P Class=KRCC>
+종 모양이 다른 모양의 2개의 확률, 즉 넓이를 합하고 어떻게 구해요? 
+<Sync Start=1859544><P Class=KRCC>
+못하잖아. 그래서 뭐를 이용해요? 
+<Sync Start=1861079><P Class=KRCC>
+
+<Sync Start=1863423><P Class=KRCC>
+Z. 큰 Z, 이것으로 바꿔서 해결을 해야 되겠죠. 
+<Sync Start=1867153><P Class=KRCC>
+여기 있는 내용은 제가 이쪽으로 와서 쓸게요. 
+<Sync Start=1868969><P Class=KRCC>
+얘를 같이 보려고, 표만 있으면 되니까 이제. 
+<Sync Start=1871519><P Class=KRCC>
+P(X≤7)랑, 그다음에 더할 거예요. PX바≥11랑, 
+<Sync Start=1880714><P Class=KRCC>
+이들을 더해서 얼마가 나왔다고 문제에서 얘기했냐면 0.0456이라고 했습니다. 
+<Sync Start=1885806><P Class=KRCC>
+좀 더 가볼게요. 이걸 무엇으로 바꿔? Z로 바꿔서 해결하세요. Z로 바꾸는 방법은? 
+<Sync Start=1890994><P Class=KRCC>
+Z로 바꾸는 방법은 세상에서 제일 중요하죠. 그렇죠? 
+<Sync Start=1893637><P Class=KRCC>
+Z로 바꾸려면 "X에서 X의 평균을 빼고, X의 표준편차로 나눠요."라고 했는데, 
+<Sync Start=1900331><P Class=KRCC>
+이렇게 영어로 생각하지 말고, 여러분들, 봐요. 
+<Sync Start=1904198><P Class=KRCC>
+변수-그 평균/그 표준편차예요. 
+<Sync Start=1912518><P Class=KRCC>
+
+<Sync Start=1914973><P Class=KRCC>
+주인공 것만 보라는 거야. 한글로 생각해 봐요. 
+<Sync Start=1918822><P Class=KRCC>
+변수를 내가 X로 볼 거야? 그럼 X 것만 봐. 변수를 X바로 볼 거야? X바 것만 봐요. 
+<Sync Start=1924991><P Class=KRCC>
+그러면 X에 대해서 이야기하면 Z로 바꾸면서 X의 평균을 빼세요, 10. 
+<Sync Start=1930622><P Class=KRCC>
+X의 표준편차로 나누세요. 마찬가지로 얘를 Z로 바꾸는 대신에 X바의 평균,
+<Sync Start=1937727><P Class=KRCC>
+X바의 평균이 얼마예요? 10을 빼세요. 그리고 어떻게? X바의 표준편차로 나누세요. 
+<Sync Start=1944091><P Class=KRCC>
+됐어? 오케이. 그러면 끝난 거예요. 이제 정리. 이거 한번 해결해 봐. 
+<Sync Start=1949672><P Class=KRCC>
+어떻게 해? 모르겠고, 얘가 얼마래? -σ분의 3이에요. 그렇지? 
+<Sync Start=1956237><P Class=KRCC>
+얘는 어때요? σ분의 3이에요, 그냥. 
+<Sync Start=1960355><P Class=KRCC>
+그러면 얘는 모르겠고, 얘를 이용해야 되는데, 표로 나타내볼게요. 
+<Sync Start=1964051><P Class=KRCC>
+둘 다 같은 Z에 대해서가 됐으니까 이제 표준 정규분포에다가 한번 나타내보면, 
+<Sync Start=1969574><P Class=KRCC>
+그러니까 σ분의 3에 마이너스 붙은 거랑, σ분의 3이 있는 거, 이렇게 있죠. 
+<Sync Start=1975963><P Class=KRCC>
+얘는 뭐야? '이거보다 크다'인 거고, 얘는 뭐야? '이거보다 작다'. 
+<Sync Start=1979906><P Class=KRCC>
+어때요? 똑같은 넓이야. 그런 두 개를 합해서 0.0456이래요. 절반은 0.0228이겠죠. 
+<Sync Start=1991685><P Class=KRCC>
+이거 나한테 익숙한데. 여기서부터 시작해서 나머지가 0.0228이 되려면 
+<Sync Start=1996845><P Class=KRCC>
+이 부분의 넓이는 0.4772여야 될 것이고요. 표에 있죠, 여기 있습니다. 
+<Sync Start=2004433><P Class=KRCC>
+즉 우리가 구하고자 하는 이 부분이 뭐예요? 2가 되겠죠. 끝!
+<Sync Start=2010833><P Class=KRCC>
+그래서 얘도 -2일 건데 이쪽만 생각하면 되잖아, 절반만 생각하면 되니까. 
+<Sync Start=2015144><P Class=KRCC>
+그래서 마무리는 어떻게 해요? σ로 양변 곱하고 2로 나누니까 2분의 3이 됩니다. 
+<Sync Start=2020475><P Class=KRCC>
+'시그마를 구하시오.'지요? 
+<Sync Start=2021582><P Class=KRCC>
+그러니까 정답은 2분의 3이라고 해주시면 완벽하게 끝나는 거죠. 
+<Sync Start=2026900><P Class=KRCC>
+가장 기본형 문제예요. 가장 기본형 문제이고, 
+<Sync Start=2029897><P Class=KRCC>
+지금 제가 어떤 식으로 처리했는지 다시 한번 생각해 봐요. 
+<Sync Start=2034248><P Class=KRCC>
+X 자체에 대해서 먼저 쓰고, 크기가 9라고 되어 있으면 
+<Sync Start=2038248><P Class=KRCC>
+그 9에 의해서 √n분의 σ에 적용하셔서 
+<Sync Start=2041717><P Class=KRCC>
+X바가 따르는 표본평균에 대한 것을 설정해 주세요. 
+<Sync Start=2046317><P Class=KRCC>
+이걸 먼저 설정을 하신 다음에 어떻게? 
+<Sync Start=2048123><P Class=KRCC>
+얘를 가지고 여러분들이 확률, 주어진 확률에 대한 걸 생각을 하는데 
+<Sync Start=2051548><P Class=KRCC>
+여기서 진짜 주의하실 사항은 X를 볼 때는 X 것만, X바를 볼 때는 X바 것만 보세요. 
+<Sync Start=2059406><P Class=KRCC>
+그렇죠? 그래서 크로스로 다른 거 보시면 큰일 나는 거예요. 
+<Sync Start=2064310><P Class=KRCC>
+그래서 주인공이 누구인지를 계속 생각을 하면서 문제를 풀어주셔야 되겠죠. 
+<Sync Start=2068138><P Class=KRCC>
+그리고 마무리까지 Z를 이용해서 그 확률에 대한 거 계산해 주고, 정리해 주고, 
+<Sync Start=2072460><P Class=KRCC>
+됐어요? 이게 다예요. 그래서 이렇게 이 문제가 쉬운 문제냐? 아니고요. 
+<Sync Start=2079044><P Class=KRCC>
+대신에 표현이 좀 노골적인 X, X바, 이렇게 주니까 얼마나 쉬워. 
+<Sync Start=2085025><P Class=KRCC>
+그러면 이렇게 표현을 주지 않으면 어떻게 나오느냐? 보여드릴게요. 보세요. 
+<Sync Start=2089579><P Class=KRCC>
+
+<Sync Start=2093690><P Class=KRCC>
+이게 참 그렇죠? 이게 참 읽고 싶지 않게 생겼어요. 
+<Sync Start=2098268><P Class=KRCC>
+근데 이런 문제들 중에서 사실은 제가 조금 어려운 문제로 갖고 왔어요. 
+<Sync Start=2103715><P Class=KRCC>
+어차피 마지막이니까. 그렇지? 그래도 좀 어려운 문제로 갖고 왔어요. 
+<Sync Start=2108605><P Class=KRCC>
+이해할 수 있으면 다 할 수 있어. 
+<Sync Start=2110308><P Class=KRCC>
+근데 미리 말하지만 통계 파트는 어려운 문제라는 게 없어요. 
+<Sync Start=2114891><P Class=KRCC>
+정말 기를 쓰고 어렵게 만들려고 하면 이 정도인 거예요. 가볼게요. 
+<Sync Start=2120181><P Class=KRCC>
+일단 어느 제과점에서 생산하는 빵 한 개의 무게는 평균이, 좀 내려놓을까? 
+<Sync Start=2127288><P Class=KRCC>
+평균이 15, 표준편차가 1인 정규분포를 따른다. 아까 얘기했죠, 그냥 읽지 말래. 
+<Sync Start=2132196><P Class=KRCC>
+어떻게 하랬지? 잠깐 끊어. 쟤가 정규분포를 따른다고 하고 싶어. 
+<Sync Start=2136976><P Class=KRCC>
+얘의 변수에 이름을 한번 지어볼까? 뭐라고 할래요? 
+<Sync Start=2140360><P Class=KRCC>
+제과점에서 생산하는 빵이잖아. 내가 뽑은 표본은 아니야. 
+<Sync Start=2143497><P Class=KRCC>
+그럼 쟤를 X라고 놓을까? 오케이. 
+<Sync Start=2146071><P Class=KRCC>
+그래서 생산하는 빵 한 개의 무게를 내가 X라고 해볼게요. 
+<Sync Start=2150079><P Class=KRCC>
+그러면 그 X는 정규분포를 따릅니다. 평균이 15, 표준편차가 1이에요, 이렇게. 
+<Sync Start=2160524><P Class=KRCC>
+괜찮고요? 오케이. 그다음에 여기서 빵을 4개씩, 
+<Sync Start=2167975><P Class=KRCC>
+여기서 마음에 들었어. 잘 봐. 이제 큰일 나는 상황이야. 4개씩, 
+<Sync Start=2171323><P Class=KRCC>
+
+<Sync Start=2173898><P Class=KRCC>
+그러면 아까 얘기했죠? 
+<Sync Start=2176195><P Class=KRCC>
+이렇게 나오자마자 X바에 대한 이야기일 거 아니냐? 이렇게 생각을 딱 했어. 
+<Sync Start=2180080><P Class=KRCC>
+그래서 여기서 이렇게 갑니다. 15, 그다음에 여기에다가 루트를 씌우면 2, ½,
+<Sync Start=2186010><P Class=KRCC>
+ 
+<Sync Start=2188373><P Class=KRCC>
+표준편차를 딱 구해서 이렇게 썼어. 신났어. 그렇지? 읽어봐. 
+<Sync Start=2193640><P Class=KRCC>
+빵의 무게의 합이 a보다 크면 정상 가격, a 이하이면 할인된 가격으로 판매해. 
+<Sync Start=2197826><P Class=KRCC>
+여기서부터 이제 벌써 멘붕. 근데 좀 더 가요. 
+<Sync Start=2201949><P Class=KRCC>
+4개씩 담아서 하는 상자 중에서 
+<Sync Start=2203766><P Class=KRCC>
+임의로 선택한 상자가 할인된 가격으로 판매될 상자의 확률, 
+<Sync Start=2206807><P Class=KRCC>
+어? 0.1, 어? 그렇게 되는 거죠. 그렇지? 여기서부터 이제 난리가 나는 겁니다. 
+<Sync Start=2212657><P Class=KRCC>
+여기서 중요한 건, 우리한테 필요한 건 뭐냐면 
+<Sync Start=2216766><P Class=KRCC>
+내가 어쨌든 간에 4개씩 담아서 판매하는 상자에서 하나를 선택했는데, 
+<Sync Start=2221567><P Class=KRCC>
+그게 할인된 가격으로 판매될 확률은 이것이라는 거예요. 
+<Sync Start=2226887><P Class=KRCC>
+할인된 가격으로 판매된다면, 제가 일단 한글로 적어볼게요. 
+<Sync Start=2231110><P Class=KRCC>
+4개씩 한 상자를 뽑았어. 임의로 택해. 
+<Sync Start=2239540><P Class=KRCC>
+
+<Sync Start=2242090><P Class=KRCC>
+임의로 택했는데, 그 상자가 a보다 어때야 돼요? 이하여야 되겠지. 
+<Sync Start=2247021><P Class=KRCC>
+그래야 할인된 가격일 거 아니야. 이렇게 뽑힐 확률이 0.1587이래요. 
+<Sync Start=2254821><P Class=KRCC>
+여기까지 해석하는 데도 굉장히 난도가 있어요. 
+<Sync Start=2260356><P Class=KRCC>
+그다음 문제가 뭔 줄 알아? 연결이 안 보여. 
+<Sync Start=2263157><P Class=KRCC>
+
+<Sync Start=2265469><P Class=KRCC>
+그렇죠? 얘는 뭘 의미하냐면 4개를 뽑아서 낸 평균이에요. 
+<Sync Start=2271447><P Class=KRCC>
+다시, 표본평균에 대해서 아까 우리 문제 풀 때 생각해 봐. 
+<Sync Start=2275803><P Class=KRCC>
+"4개까지는 직접 구할 수도 있으니까" 이런 말 하면서 제가 어떻게 쓸 수 있었냐면 
+<Sync Start=2279890><P Class=KRCC>
+
+<Sync Start=2282736><P Class=KRCC>
+4개를 더해서 4로 나누었을 때가 X바예요. 그렇죠? 
+<Sync Start=2289723><P Class=KRCC>
+여기서는 뭐라고 했냐면 상자의 무게는 무시할 거고요. 4개를 담았어요. 
+<Sync Start=2296855><P Class=KRCC>
+4개를 담아. 그리고 어떤 한 상자를 뽑을 거야. 4개를 담으면 어떻게 되느냐? 
+<Sync Start=2303033><P Class=KRCC>
+내가 표본으로 뽑을 거잖아, 누군가 4개씩을. X₁, X₂, X₃, X₄. 
+<Sync Start=2307282><P Class=KRCC>
+X₁, X₂, X₃, X₄를 뽑으면 그걸 뭐라고 할 수 있느냐? 4×X바가 돼요. 
+<Sync Start=2313161><P Class=KRCC>
+
+<Sync Start=2317055><P Class=KRCC>
+이게 이 문제의 하이라이트예요. 
+<Sync Start=2318859><P Class=KRCC>
+
+<Sync Start=2320921><P Class=KRCC>
+이거까지 이해할 수 있으면 여러분 이 유형은 전부 다 이해하는 거예요. 
+<Sync Start=2325104><P Class=KRCC>
+뭐라고요? 다시, 4개의 합에 대한 이야기를 하는데, 
+<Sync Start=2329094><P Class=KRCC>
+우리는 4개의 평균에 대한 이야기만 알잖아요. 
+<Sync Start=2331837><P Class=KRCC>
+그럼 4개의 평균을 이용해서 4개의 합을 표현하면 되는 거야. 
+<Sync Start=2335034><P Class=KRCC>
+왜? 우리가 원하는 건 X바니까.
+<Sync Start=2336968><P Class=KRCC>
+즉, 내가 구하고자 하는 확률이 X바에 대한 것을 이용해서 표현하면 되는 거잖아요. 
+<Sync Start=2342893><P Class=KRCC>
+한글로 일부러 적었어. 4개씩 한 상자야. 그럼 4개의 합이 필요해. 
+<Sync Start=2347305><P Class=KRCC>
+난 4개의 합의 평균을 알아. 4개의 합을 구해서 4로 나눈 값을 안다는 거잖아요. 
+<Sync Start=2351904><P Class=KRCC>
+그럼 이렇게 써야 되겠다고 됩니다. 돼요? 그래서 마무리는 뭐가 되느냐? 봐요. 
+<Sync Start=2357064><P Class=KRCC>
+그러므로 4X바가 a보다 작거나 같아요. 
+<Sync Start=2360231><P Class=KRCC>
+다시, X바가 뭐보다? '4분의 a보다 작거나 같을 확률이 0.1587입니다.'를 이용하면 
+<Sync Start=2367536><P Class=KRCC>
+이제 나머지 다 풀어낼 수가 있죠. 
+<Sync Start=2369676><P Class=KRCC>
+이제는 더 이상 글씨 필요 없죠. 표만 있으면 되겠네요. 이거 가지고 가봅시다. 
+<Sync Start=2373968><P Class=KRCC>
+위로 올려. 나 얘가 필요하잖아. 그렇지? 얘의 주변에서 시작할게요. 
+<Sync Start=2378324><P Class=KRCC>
+어차피 내가 원하는 건 X바니까, 이제는. 이렇게 두 개만 있으면 되는 거지. 그렇지? 
+<Sync Start=2382659><P Class=KRCC>
+P(Z, 어떻게 돼요? Z로 바꿔야지 뭔가 계산을 하니까. 
+<Sync Start=2387062><P Class=KRCC>
+Z로 바꾸려면 4분의 a에서, 이게 a야, 9처럼 보일까 봐. 
+<Sync Start=2394959><P Class=KRCC>
+4분의 a에서 평균을 뺍니다. 누구? X바의 평균을 빼요. 
+<Sync Start=2399059><P Class=KRCC>
+그리고 누구의 표준편차? X바의 표준편차로 나누었더니 0.1587이래요. 
+<Sync Start=2406011><P Class=KRCC>
+무언가보다 작거나 같을 확률이 0.1587이 된다면 
+<Sync Start=2409918><P Class=KRCC>
+얘를 먼저 계산하려고 하지 말고 모양을 먼저 봐요. 
+<Sync Start=2412526><P Class=KRCC>
+이 넓이가 0.1587이어야 될 거 아니야. 
+<Sync Start=2416541><P Class=KRCC>
+왜 이쪽은 안 돼요? 이쪽이면 0.5보다 크겠지. 작거나 같으니. 그렇지? 
+<Sync Start=2420637><P Class=KRCC>
+그러니까 저쪽 끄트머리에 0.1587일 것이고, 그다음에 이 넓이가 그럼 얼마가 돼요? 
+<Sync Start=2425450><P Class=KRCC>
+우린 0부터 어디까지의 넓이를 아는 거니까? 
+<Sync Start=2427643><P Class=KRCC>
+0.1587과 서로를 도와주는 값은 0.3413. 딱 좋죠? 여기는 얼마예요? -1. 
+<Sync Start=2437740><P Class=KRCC>
+즉, 얘가 얼마다? -1이다. 이렇게 가서 계산만 마무리 지어주면 되겠습니다. 
+<Sync Start=2443048><P Class=KRCC>
+정리! 4분의 a-15가 그럼 -½이 되는 거고요. 
+<Sync Start=2448354><P Class=KRCC>
+4를 곱할까요? 나는 어차피 a를 구하고 싶으니까. 이렇게 되겠죠. 
+<Sync Start=2453345><P Class=KRCC>
+그래서 a는 넘어오니까 얼마가 되는 거예요? 58. 
+<Sync Start=2456407><P Class=KRCC>
+끝! 정답은 a=58입니다, 이렇게 되겠죠. 
+<Sync Start=2462038><P Class=KRCC>
+괜찮아? 이런 흐름이야. 이거 할 수 있으면 전부 다 하는 거예요. 
+<Sync Start=2466750><P Class=KRCC>
+한글로 표현한 것들을 다 이해를 해봐야 돼. 
+<Sync Start=2469436><P Class=KRCC>
+4개를 한 상자 임의로 내가 뽑았어. 4개의 합이 필요하네. 
+<Sync Start=2473428><P Class=KRCC>
+빵 4개의 합을 구해야 되는데 내가 알고 있는 건 4개의 평균이에요. 
+<Sync Start=2477240><P Class=KRCC>
+어떻게? 적어 봐, 평균이라는 표현을. 
+<Sync Start=2480887><P Class=KRCC>
+X₁, X₂, X₃, X₄, 그들을 합한 다음에 4로 나누었어. 끝나는 거죠. 됐어? 
+<Sync Start=2488071><P Class=KRCC>
+진짜, 진짜 최종 마지막 문제, 우리 이것. 알겠죠? 뭐예요? 
+<Sync Start=2495514><P Class=KRCC>
+신뢰도와 신뢰구간의 문제이고요. 
+<Sync Start=2497428><P Class=KRCC>
+여기 파트의 문제는 사실상 이제 마지막 마무리니까,
+<Sync Start=2500901><P Class=KRCC>
+여기는 유도하는 과정을 수능 개념 때, 수특 때 수없이 했으나 
+<Sync Start=2504765><P Class=KRCC>
+이제는 더 이상 유도까지 안 갈게요. 파이널인데요, 뭐. 골격을 기억하세요. 
+<Sync Start=2509775><P Class=KRCC>
+여기 지금 통계적 추정으로 넘어와서 우리가 하는 일이 뭔 줄 알아요? 
+<Sync Start=2514407><P Class=KRCC>
+다시 생각해 봐. 모집단을 못 구해서, 
+<Sync Start=2518416><P Class=KRCC>
+모집단에 대한 성질을 알아내는 게 너무 어려워서 표본을 구한 거잖아요. 
+<Sync Start=2522800><P Class=KRCC>
+그래서 그 원칙이 쓰이는 게 여기 파트예요. 
+<Sync Start=2525584><P Class=KRCC>
+내가 구한 표본이 있겠죠, 표본평균 아니야. 
+<Sync Start=2530037><P Class=KRCC>
+그냥 유빈이가 단독으로 한 번 구한 표본이야. 얘는 모평균과 같을까? 아니지. 
+<Sync Start=2535354><P Class=KRCC>
+얘를 이용해서 무언가를 빼고, 더해서 모평균을 추측하는 겁니다. 
+<Sync Start=2542205><P Class=KRCC>
+빼고, 더하게 되는 모양은 뭐냐? 잘 봐요. 
+<Sync Start=2544530><P Class=KRCC>
+
+<Sync Start=2547065><P Class=KRCC>
+이렇게 쓸게요.
+<Sync Start=2547874><P Class=KRCC>
+
+<Sync Start=2550112><P Class=KRCC>
+이것만 알면 모든 문제를 풀 수 있어요. k가 뭐예요? 신뢰도에 의한 값. 
+<Sync Start=2555811><P Class=KRCC>
+
+<Sync Start=2559928><P Class=KRCC>
+그다음에 n은 표본의 크기. 
+<Sync Start=2562951><P Class=KRCC>
+
+<Sync Start=2566093><P Class=KRCC>
+σ는? 문제 속 σ, 사실은 모표준편차거든요. 
+<Sync Start=2570962><P Class=KRCC>
+근데 어쨌든 문제 속에 표준편차가 주어지니까 
+<Sync Start=2574232><P Class=KRCC>
+우리는 모표준편차, 이렇게 가겠습니다. 저기다 집어넣기만 하면 돼요. 
+<Sync Start=2578884><P Class=KRCC>
+문제 스르륵 봐요. 모평균이 m, 모표준편차가 4인, 이거 봐, 나오잖아. 
+<Sync Start=2584327><P Class=KRCC>
+정규분포를 따르는 모집단에서 크기가 25인 표본을 추출해서, 그렇죠? 
+<Sync Start=2588174><P Class=KRCC>
+여기까지는 표본평균에 대한 확률 문제일 줄 알고 
+<Sync Start=2591779><P Class=KRCC>
+아까처럼 X는 모평균을 따르고, 이렇게 썼을지도 몰라. 근데 여기서 봐요. 
+<Sync Start=2596974><P Class=KRCC>
+쓱 곁눈질로 봐도 신뢰도 95%, 이거 신뢰구간 문제입니다. 그렇죠? 
+<Sync Start=2601255><P Class=KRCC>
+이럴 때는 모든 쓰기를 멈추시고 대입할 준비만 하세요. 그럼 그대로 넣어볼게요. 
+<Sync Start=2607686><P Class=KRCC>
+표본평균 x바가 ₁일 때, x₁바에서 뭘 빼? 
+<Sync Start=2613628><P Class=KRCC>
+k, 신뢰도에 의한 값인데 신뢰도가 95%래요. 어디를 찾냐면 이쪽으로 와요. 
+<Sync Start=2619091><P Class=KRCC>
+얘가 0.95가 되기 위한 값이 주어지죠. 이런 걸 내가 k라고 하는 거예요. 오케이? 
+<Sync Start=2625107><P Class=KRCC>
+그럼 k 자리에 집어넣어요. 1.96, 표본의 크기는 얼마야? 
+<Sync Start=2629635><P Class=KRCC>
+25, 이런 거 동그라미만 잘 치면 돼요. σ는 얼마야? 4. 
+<Sync Start=2633197><P Class=KRCC>
+그러면 √25분의 4, 이렇게 해서 m, 그리고 그걸 다시 더하기 합니다. 
+<Sync Start=2641297><P Class=KRCC>
+
+<Sync Start=2644183><P Class=KRCC>
+이렇게 구하는 거예요. 이랬을 때에 대해서 어쩌고저쩌고 문제가 있는 거잖아. 
+<Sync Start=2650021><P Class=KRCC>
+오케이. 얘가 a이고, 얘가 b예요. 이게 a, 이게 b, 한 번 더 갑니다. 
+<Sync Start=2657449><P Class=KRCC>
+이번에 400을 뽑아요. 그리고 그때의 표본평균은 x₂바래. 
+<Sync Start=2662134><P Class=KRCC>
+
+<Sync Start=2664108><P Class=KRCC>
+복잡해 보이지만, 진짜 별거 없어. 
+<Sync Start=2665822><P Class=KRCC>
+이때도 95%니까 똑같이 1.96, 400이니까 20, 루트 씌우면. 그렇지? 이제는 바로 갈게.
+<Sync Start=2674168><P Class=KRCC>
+20분의, σ는 똑같이 4예요. m≤x₂바+1.96·20분의 4, 되었어?
+<Sync Start=2684015><P Class=KRCC>
+이렇게 했더니 이게 c, 이게 d예요. 끝났죠, 그렇죠? 
+<Sync Start=2689363><P Class=KRCC>
+여기서 뭐라고 했냐면 a와 b를 더했을 때 70이야. 
+<Sync Start=2692839><P Class=KRCC>
+얘네 둘이 더했을 때라고 하잖아요. 그럼 뭐가 돼요? 얘가 사라지는 거죠. 그렇죠? 
+<Sync Start=2697679><P Class=KRCC>
+얘네들이 사라져. x₁바가 2개 있을 때 70, 
+<Sync Start=2708279><P Class=KRCC>
+그러니까 'x₁바=35입니다.'를 하나 구할 수가 있고요. 
+<Sync Start=2714659><P Class=KRCC>
+그다음에 시작을 할게요. x₂는 그럼 얼마겠어? 이게 35니까 이게 37이겠지. 
+<Sync Start=2721619><P Class=KRCC>
+그다음 나한테 d-a를 구하래. 
+<Sync Start=2725043><P Class=KRCC>
+그렇죠? 오케이. 그러면 마무리를 계산해 보도록 할게요. 
+<Sync Start=2728243><P Class=KRCC>
+여기가 35, 얘는 37. 
+<Sync Start=2729988><P Class=KRCC>
+
+<Sync Start=2732985><P Class=KRCC>
+그리고 시키는 대로 계산만 하면 돼요. 정리! d-a는요. 
+<Sync Start=2735945><P Class=KRCC>
+
+<Sync Start=2739367><P Class=KRCC>
+37에서 35 먼저 뺄게요, 자연수니까. 2가 남고요. 
+<Sync Start=2743825><P Class=KRCC>
+그다음에 얘는 더하기로 그대로 두시고, 
+<Sync Start=2745658><P Class=KRCC>
+
+<Sync Start=2748520><P Class=KRCC>
+빼기, 얘는요? 빼기, 빼기가 되니까 어때? 더하기로 바뀌어. 
+<Sync Start=2753137><P Class=KRCC>
+얘도 더하기다. 그렇지? +1.96, 이번에는 √25니까 5분의 4로 쓸게요. 
+<Sync Start=2760757><P Class=KRCC>
+잘 봐요, 얼마나 좋은가. 얘도 5분의 1인걸. 
+<Sync Start=2764594><P Class=KRCC>
+그러면 1.96으로 묶으면 5분의 1+5분의 4 하면 1이에요. 그렇죠? 
+<Sync Start=2769477><P Class=KRCC>
+마무리, 2+1.96이 되겠죠. 정답은 3.96. 
+<Sync Start=2775044><P Class=KRCC>
+그러니까 여러분들이 계산을 최선을 다해서 덜 할 수 있게끔 
+<Sync Start=2778811><P Class=KRCC>
+최대한 깔끔하게 출제가 된 문제입니다. 제가 가지고 온 이유이기도 하고요. 그렇죠? 
+<Sync Start=2783891><P Class=KRCC>
+그러니까 두 개의 신뢰구간을 쓰시고, 문제가 시키는 대로 계산만 하면 돼요, 정말! 
+<Sync Start=2789719><P Class=KRCC>
+그러니까 이 골격을 잘 알아두시고, 이 구조에 맞게 잘 집어만 넣어주세요. 
+<Sync Start=2795107><P Class=KRCC>
+문제에 있는 표현에서 동그라미 쳐서. 
+<Sync Start=2797283><P Class=KRCC>
+그래서 여러분들 시험 현장에서 신뢰구간 문제가 등장을 했다. 
+<Sync Start=2800495><P Class=KRCC>
+그럼 어떻게 해야 돼? '오예!' 이렇게 하셔야 됩니다. 꼭 하세요. 
+<Sync Start=2805479><P Class=KRCC>
+그 '오예!' 한 번이 여러분들의 긴장을 풀어줄 거거든요. 
+<Sync Start=2808207><P Class=KRCC>
+그런 생각을 하도록 하시고요. 
+<Sync Start=2809914><P Class=KRCC>
+확통은 절대적으로 여러분들의 힐링 포인트가 될 겁니다. 
+<Sync Start=2814587><P Class=KRCC>
+지금부터는 내가 어떤 시간에 이 힐링 포인트의 확통을 잘 이용해서 
+<Sync Start=2819926><P Class=KRCC>
+내 마음의 안정을 잘 갖고 올 것인지에 대한 연습도 하셔야 되니까요. 
+<Sync Start=2823645><P Class=KRCC>
+파이널로서 여러분들 모의고사 형태의 문제를 
+<Sync Start=2826205><P Class=KRCC>
+꼭 다시 한번 풀어보시면서 준비하시고요. 
+<Sync Start=2828485><P Class=KRCC>
+지금까지 여러분이 열심히 한 것들에 대한 결과가 좋게 나올 겁니다. 
+<Sync Start=2831697><P Class=KRCC>
+결과에 대한 걱정은 하지 말고, 남은 기간을 끝까지 가도록 하세요. 
+<Sync Start=2835314><P Class=KRCC>
+저는 그 '열심히'를 응원하고 있도록 할게요. 알았죠? 결과는 따라오겠지. 알았지? 
+<Sync Start=2839810><P Class=KRCC>
+오늘도 고생 많았고요. 우리는 다음에 언젠가 또 만나겠죠. 
+<Sync Start=2843682><P Class=KRCC>
+안 만나도 좋아요. 아무튼 여러분 열심히 해요. 파이팅!
+</BODY>
+</SAMI>

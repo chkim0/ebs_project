@@ -1,0 +1,1145 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=8039><P Class=KRCC>
+-정말 잘될 거거든. 하루하루, 하루하루 열심히 하면 성공하겠지라는 느낌보다 
+<Sync Start=17546><P Class=KRCC>
+하루하루를 대책 없이 자지 말자. 
+<Sync Start=22053><P Class=KRCC>
+
+<Sync Start=24142><P Class=KRCC>
+오늘 반드시 하고 잘 일들을 끝까지 지키면 
+<Sync Start=29828><P Class=KRCC>
+그런 하루하루가 쌓여서 여러분, 여러분 사는 동네에서 가장 열심히 하는 친구가 되는 거거든요. <br>
+<Sync Start=38668><P Class=KRCC>
+그런 게 쌓여서 다 되는 거니까 그때 맛볼 수 있는 성취감. 
+<Sync Start=42372><P Class=KRCC>
+같이 한번 느껴보는 여러분이 되셨으면 좋겠습니다. 좀 어렵죠, 지금. <br>
+<Sync Start=46067><P Class=KRCC>
+문제 수준이 조금 높긴 해요. 지금 이거, 이거, 확률 단원 쓰신 분이 
+<Sync Start=51052><P Class=KRCC>
+좀 이렇게 내가 성격을 알 것 같아. 성격이 약간 좀 마르신 분이야. 
+<Sync Start=58840><P Class=KRCC>
+약간 마르셨고 좀 이렇게 손발이 차. 딱 보면 알아. 
+<Sync Start=66078><P Class=KRCC>
+그런 분이 출제한 문제들이 이렇게 많이 들어가 있고 
+<Sync Start=69897><P Class=KRCC>
+그리고 1부터 10까지 자연수 너무 좋아하시고 막 이렇거든요. <br>
+<Sync Start=74920><P Class=KRCC>
+아무튼. 그래도 여러분, 문제 수준은 상당히 다 좋은 편이니까 자신감을 잃지 말고. 
+<Sync Start=81912><P Class=KRCC>
+저희 설명 들으면 또 다 이해되잖아요. <br>
+<Sync Start=83809><P Class=KRCC>
+그러면 여러분 뇌도 그렇게 바꾸기 위해서 계속 연습하시면 되는 거니까. 
+<Sync Start=88610><P Class=KRCC>
+우리 저번 시간에 level 3의 세 문제 중에 한 문제 풀었죠. 우리 두 문제 남았거든요. 
+<Sync Start=92742><P Class=KRCC>
+두 문제 중에 함수의 계수. 합성 함수가 항등함수. 이거 참 유명한 문제거든, 이것도. 
+<Sync Start=98972><P Class=KRCC>
+이거 어려운 문제예요. 직접 한번 찾아보자. 
+<Sync Start=102660><P Class=KRCC>
+X에서 X로의 일대일대응인 모든 함수 중에서 이랬거든요. 일대일대응이래. 
+<Sync Start=107536><P Class=KRCC>
+1, 2, 3, 4. 일대일대응의 개수는 총 몇 개 있어요? 
+<Sync Start=110420><P Class=KRCC>
+얘가 선택할 수 있는 함숫값 4가지. 일대일이니까 얘는 하나 줄지. 
+<Sync Start=116018><P Class=KRCC>
+얘가 쐈던 애한테 못 쏘니까 4가지, 3가지, 2가지, 1가지 그래서 4!가지. 
+<Sync Start=121940><P Class=KRCC>
+24가지가 일대일대응의 개수가 될 텐데 그중에서 하나를 선택했을 때 
+<Sync Start=129318><P Class=KRCC>
+이렇게 합성 함수랑 이렇게 합성 함수가 항등함수가 될 확률을 구하라, 이렇게 돼 있거든요. <br>
+<Sync Start=135606><P Class=KRCC>
+그러면 어떻게 풀릴 것 같아? 얘 또는 얘가 항등함수가 되는 거니까 당연히 분류해야죠. 
+<Sync Start=140669><P Class=KRCC>
+첫 번째 시작. 얘가 항등함수 이렇게. 두 번째는 시작. 세 개짜리, 하나, 둘, 세 개짜리가 항등함수. 
+<Sync Start=149901><P Class=KRCC>
+
+<Sync Start=151949><P Class=KRCC>
+그다음에 세 번째 뭐야? 시작. 동시에 일어날 수 있는지 봐서 
+<Sync Start=155274><P Class=KRCC>
+동시에 일어날 수 있으면 빼야죠. 그렇죠? <br>
+<Sync Start=157269><P Class=KRCC>
+
+<Sync Start=159925><P Class=KRCC>
+여러분 항등함수가 뭔지 알아? 항등함수가 뭐야? 
+<Sync Start=163002><P Class=KRCC>
+자기 자신한테 화살을 쏘는 걸 항등함수라고 그러잖아요. 
+<Sync Start=165853><P Class=KRCC>
+X가 다시 X한테 화살을 쏘는 걸 사람들은 항등함수라 그래요. 
+<Sync Start=168575><P Class=KRCC>
+첫 번째는 2개짜리 합성한 게 항등함수가 되려면 어떻게 해야 되느냐? 
+<Sync Start=175123><P Class=KRCC>
+여러분 합성한 함수는 이거잖아요, 이렇게, 이렇게. <br>
+<Sync Start=177904><P Class=KRCC>
+1, 2, 3, 4, 한 번 더 가면 되지. 그렇지? 이렇게. 
+<Sync Start=181122><P Class=KRCC>
+이쪽의 함수와 이쪽의 함수는 완전히 똑같은 함수예요. 
+<Sync Start=183008><P Class=KRCC>
+똑같은 함수 f라는 함수인데 결국 여기서 최종적으로 어디까지 간 거? 여기까지 간 거. 
+<Sync Start=188925><P Class=KRCC>
+여기서 이쪽으로 간 걸 사람들은 f 동그라미 f라고 얘기하니까 1이 1한테 쏴야 되고요. 
+<Sync Start=193725><P Class=KRCC>
+2가 2한테 쏴야 되고요. 3이 3한테 쏴야 되고요. 4가 4한테 쏴야지. 
+<Sync Start=196982><P Class=KRCC>
+
+<Sync Start=198827><P Class=KRCC>
+그러면 항등함수가 되는 거야. 여기는 자기한테 안 쏴도 돼. 물론 
+<Sync Start=202818><P Class=KRCC>
+
+<Sync Start=205040><P Class=KRCC>
+f라는 함수 자체가 원래 항등함수였으면 얘랑 똑같이 이쪽으로 복사해야 되니까 
+<Sync Start=210865><P Class=KRCC>
+합성 함수도 함등함수죠. 1이 최종적으로 1위한테 쏘고 2가 2한테 쏘고 3이 3한테 쏘고 
+<Sync Start=216266><P Class=KRCC>
+4가 4한테 쏘니까요. 그러니까 자기 자신한테 쏘는 거. 
+<Sync Start=220116><P Class=KRCC>
+f라는 놈 자체가 어떻게 생겨야 되냐면 자신한테 쏘는 거는 무조건 항등함수가 돼. 
+<Sync Start=226302><P Class=KRCC>
+그런데 자기 자신한테 쏘지 않더라도 합성해서 항등함수가 되려면 어떻게 해야 되느냐? 
+<Sync Start=231260><P Class=KRCC>
+예를 들어서 1이 2한테 쐈잖아. 
+<Sync Start=232501><P Class=KRCC>
+
+<Sync Start=234287><P Class=KRCC>
+그럼 보세요. 1이 2한테 쐈으면 이 중간 정거장을 거쳐서 결국은 1이 최종적으로 1한테 쏴야 되니까 
+<Sync Start=240595><P Class=KRCC>
+2는 누구한테 쏴야 돼요? 1한테. 그러니까 크로스 시켜야죠. 
+<Sync Start=243506><P Class=KRCC>
+
+<Sync Start=245559><P Class=KRCC>
+2가 1한테 쏜다. 어차피 똑같은 함수니까 얘를 그대로 복사해서 이렇게 쏴야 된다는 거야. 
+<Sync Start=250819><P Class=KRCC>
+그러니까 예를 들어서 일이 3한테 쐈잖아요. 그럼 3은 1한테 쏴야 된다는 거야. 
+<Sync Start=255976><P Class=KRCC>
+
+<Sync Start=259587><P Class=KRCC>
+그러니까 합성 함수가 항등함수가 되려면 어떻게 해야 되느냐? 
+<Sync Start=265248><P Class=KRCC>
+애당초 f가 어떤 대응 관계를 가져야 되냐면 자기 자신한테 쏘는 거는 무조건 허용이고 
+<Sync Start=271926><P Class=KRCC>
+그럼 이쪽도 그대로 복사할 테니까. 
+<Sync Start=274425><P Class=KRCC>
+자기한테 쏘지 않으려면 그 맞은 애가 다시 쏜 애한테 화살을 쏴야 돼요. 
+<Sync Start=281026><P Class=KRCC>
+그러니까 1이 3한테 쐈다고 하면 3이 1한테 쏴야 되고 2가 4한테 쐈다고 하면 3이 2한테 쏴야 돼. 
+<Sync Start=285940><P Class=KRCC>
+그러면 무조건 합성 함수는 항등함수에요. 합성 함수를 항등함수로 만드는 방법은 그거밖에 없어. 
+<Sync Start=293087><P Class=KRCC>
+그러니까 1이 쏘는 방법은 자기한테 쏘는 건 무조건 허용. 
+<Sync Start=297785><P Class=KRCC>
+단, 2한테 쏠 거면 2도 1한테 쏴야 되고 3한테 쏠 거면 3이 1한테 쏴야 되고 
+<Sync Start=301976><P Class=KRCC>
+4한테 쏠 거면 4가 1한테 쏴야 된다. 
+<Sync Start=304040><P Class=KRCC>
+
+<Sync Start=306408><P Class=KRCC>
+무슨 말인지 알겠지? 예를 들어서 1이 2한테 쏘고 2가 1한테 쏘고, 3이 3한테 이거 가능. 
+<Sync Start=313241><P Class=KRCC>
+
+<Sync Start=315509><P Class=KRCC>
+자기 자신한테 쏘는 거는 그대로 복사하면 결국 3이 3한테 쏘고 4가 4한테. OK. 
+<Sync Start=320066><P Class=KRCC>
+이렇게 되고 이렇게 되니까 2가 2한테 쏘고 항등함수 맞음. 그렇지? 
+<Sync Start=325455><P Class=KRCC>
+
+<Sync Start=327276><P Class=KRCC>
+여기서 자기 자신한테 쏘지 않고 이렇게 쏴도 어떻게 돼요? 항등함수 됨. 
+<Sync Start=332238><P Class=KRCC>
+왜? 그대로 복사해서 이쪽도 갖다 놓으면 4가 4한테, 3이 3한테. 그럼 얘도 항등함수 되잖아요. <br>
+<Sync Start=339072><P Class=KRCC>
+
+<Sync Start=340992><P Class=KRCC>
+그러니까 2개짜리가 f 동그라미 f, 한 번 합성한 거. 
+<Sync Start=346843><P Class=KRCC>
+내가 지금 왜 2개짜리, 이거를 두 번 합성한 거죠. 근데 3개짜리. 
+<Sync Start=353979><P Class=KRCC>
+그냥 이걸 2개짜리라고 할게. 2개짜리가 아니 한 번 합성이라고 하자. 
+<Sync Start=358507><P Class=KRCC>
+한 번 합성한 게 항등함수가 되려면 애당초 f라는 함수는 어떻게 대응 관계를 이루어야 돼? 
+<Sync Start=365850><P Class=KRCC>
+자기 자신한테 쏘는 거는 무조건 허용이고 남한테 쏠려면 맞은 애가 다시 나한테 쏴야 된다. 
+<Sync Start=373389><P Class=KRCC>
+
+<Sync Start=375953><P Class=KRCC>
+그러니까 총 네 명이 화살을 쏴야 되는데, 
+<Sync Start=378616><P Class=KRCC>
+
+<Sync Start=382519><P Class=KRCC>
+크로스로 쏜다 그럴까요, 얘를? 크로스로 쏘는 게 1, 2, 3, 4 중에서 두 쌍일 수도 있고 
+<Sync Start=390327><P Class=KRCC>
+아니면 시작, 한 쌍만일 수도 있고 아니면 없을 수 있지. 
+<Sync Start=393304><P Class=KRCC>
+
+<Sync Start=398525><P Class=KRCC>
+이거를 크로스로 쓰는 거라 그러자고. 크로스 대응 관계가 한 쌍, 두 쌍, 없다. 
+<Sync Start=404108><P Class=KRCC>
+
+<Sync Start=406734><P Class=KRCC>
+크로스 대응 관계가 없을 수도 있고 하나가 존재할 수도 있고 두 개 존재하든 다 항등함수가 된다고. 
+<Sync Start=417163><P Class=KRCC>
+그래서 3가지로 뭐 해서 풀자? 시작. 분류해서 풀자. 
+<Sync Start=420924><P Class=KRCC>
+크로스 되는 게 하나도 없는 함수를 구하라. 그러면 다 누구한테 쏴야 돼? 
+<Sync Start=426760><P Class=KRCC>
+다 자기 자신한테 쏴야 돼. 이거밖에 없어. 크로스가 하나도 없다잖아. 
+<Sync Start=430972><P Class=KRCC>
+그러면 당연히 합성 함수는 항등함수가 되니까 그런 거 몇 가지 있다? 시작. 한 가지. 
+<Sync Start=438569><P Class=KRCC>
+자기 자신을 쏘는 것밖에 없으니까. 두 번째, 크로스 되는 거 하나 그럴까. 
+<Sync Start=442937><P Class=KRCC>
+크로스 되는 게 하나라는 이야기 무슨 말이에요? <br>
+<Sync Start=444229><P Class=KRCC>
+
+<Sync Start=446260><P Class=KRCC>
+크로스에 참여해. 두 개의 원소를 선택해야 되겠지. 
+<Sync Start=452438><P Class=KRCC>
+이 4개 중에서 2개의 원소를 선택하자고. 예컨대 1, 2가 선택됐다 그러면 
+<Sync Start=459392><P Class=KRCC>
+얘들을 가지고 크로스를 만드는 방법을 수는 몇 가지야? 시작. 한 가지밖에 없죠. <br>
+<Sync Start=463322><P Class=KRCC>
+자기 자신한테 못 쓰고 딴 애한테 쏴야 되니까 서로 상대방한테 쏴야 되는 거니까 
+<Sync Start=467610><P Class=KRCC>
+쏘는 방법은 한 가지 and 나머지 두 명이 화살을 쏘는 방법은 누구한테 쏴야 돼요? 
+<Sync Start=473031><P Class=KRCC>
+자기 자신한테 화살을 쏘는 방법밖에 없잖아. 왜? 
+<Sync Start=475367><P Class=KRCC>
+크로스가 한 쌍만 존재하려면. 그래서 여기서는 여섯 가지가 되고요. 
+<Sync Start=483053><P Class=KRCC>
+크로스가 두 쌍 만드는 경우의 수를 세라 그러면 크로스 두 쌍, 그럼 어떻게 만들어야 돼? 
+<Sync Start=489746><P Class=KRCC>
+
+<Sync Start=493610><P Class=KRCC>
+화살 쏘려고 준비하고 있는 얘들을 이거 아니야? 전형적으로 2명, 2명이 2개 조로 나누면 되죠. 
+<Sync Start=499337><P Class=KRCC>
+조 이름은 만들 필요 없잖아. 
+<Sync Start=500538><P Class=KRCC>
+
+<Sync Start=503489><P Class=KRCC>
+같은 조끼리 서로 크로스로 쏘면 되는 거니까. 그렇지? 
+<Sync Start=507094><P Class=KRCC>
+4명을 2명, 2명, 2개 조로 나누기, 조 나누기. 너, 너, 나와. 시작. 
+<Sync Start=511805><P Class=KRCC>
+4C and 너, 너, 나와. 시작. 2C2 나누기 2!. 왜 2!로 나눈다? 
+<Sync Start=516707><P Class=KRCC>
+인원수가 같은 조가 있을 때는 걔들이 자리바꿈하는 경우의 수로 나눠줘야 된다. 
+<Sync Start=521460><P Class=KRCC>
+얘가 6이거든요. 그걸 반으로 쪼개거든요. 몇 가지예요? 시작. 세 가지. 
+<Sync Start=527734><P Class=KRCC>
+그게 바로 뭐야? 두 명, 두 명으로 나눈 거야. 이렇게. 
+<Sync Start=531718><P Class=KRCC>
+그런 다음에 화살 쏘는 방법 몇 가지야? 한 가지밖에 없어. 왜? 자기 자신한테는 못 쏘니까. 
+<Sync Start=535877><P Class=KRCC>
+같은 조끼리 서로 상대방한테 화살을 쏘는 방법밖에 없다. 그래서 한 가지. 
+<Sync Start=539954><P Class=KRCC>
+그래서 여기 몇 가지? 시작. 3가지가 된다. <br>
+<Sync Start=542614><P Class=KRCC>
+그래서 3가지와 6가지와 1가지를 다 더하면 총 몇 가지가? 시작. 10가지가 된다. <br>
+<Sync Start=549080><P Class=KRCC>
+따라서 한 번 합성한 게 항등함수가 되는 총 경우의 수를 세시오. 그럼 몇 가지? 시작. 
+<Sync Start=556154><P Class=KRCC>
+10가지. 됐어? <br>
+<Sync Start=557730><P Class=KRCC>
+
+<Sync Start=559846><P Class=KRCC>
+괜찮아? 다음 두 번째. 
+<Sync Start=563274><P Class=KRCC>
+
+<Sync Start=568743><P Class=KRCC>
+얘는 어때야 돼? 
+<Sync Start=569926><P Class=KRCC>
+
+<Sync Start=572173><P Class=KRCC>
+2번 합성한 거거든요. 그러니까 얘는 이거야. 봐봐. 언제 항등함수가 되는지 또 볼게. <br>
+<Sync Start=577222><P Class=KRCC>
+와우. 1, 2, 3, 4. 와우. 1, 2, 3, 4. 와우. 1, 2, 3, 4. <br>
+<Sync Start=584442><P Class=KRCC>
+
+<Sync Start=588386><P Class=KRCC>
+이게 f. 똑같은 함수, 똑같은 함수. 두 번 합성해서 여기서부터 여기까지가 항등함수가 되려면 
+<Sync Start=596431><P Class=KRCC>
+1은 1한테, 2는 2한테, 3은 3한테, 4는 결론적으로 4한테 화살을 쏴야 되는데 
+<Sync Start=601501><P Class=KRCC>
+아까 조금 전처럼 1이 2한테 쏘고 2가 1한테 쏘잖아요. 
+<Sync Start=605371><P Class=KRCC>
+그러면 어떤 일이 발생하는지 봐봐. 얘네는 어차피 다 똑같은 함수니까 1이 어디한테 쏘니? 
+<Sync Start=609709><P Class=KRCC>
+2한테 쏘니까 탈락. 아까처럼 크로스, 크로스는 불가능해. 
+<Sync Start=615633><P Class=KRCC>
+크로스 크로스는 불가능하다고. 물론 자기 자신한테 쏘는 건 언제든지 허용되지. 그렇지? 
+<Sync Start=621453><P Class=KRCC>
+근데 크로스 크로스는 아까 두 개짜리 항등함수. 
+<Sync Start=625902><P Class=KRCC>
+한 번 합성했을 때 항등함수가 되는 방법이고 지금은 1이 3한테 쏘잖아요. <br>
+<Sync Start=633115><P Class=KRCC>
+그럼 3이 1한테 쏘면 안 된다 그랬잖아. 어떻게 쏴야 되느냐? <br>
+<Sync Start=636632><P Class=KRCC>
+
+<Sync Start=639652><P Class=KRCC>
+1이 2한테 쏜다고 했잖아, 이거보다. 1이 2한테 쏘잖아? 그럼 2는 1한테 쏘면 안 된다니까. 
+<Sync Start=645948><P Class=KRCC>
+
+<Sync Start=647589><P Class=KRCC>
+2는 1한테 쏘면 안 돼. 그럼 2는 누구한테 밖에 못 쏴? 얘한테밖에 못 쏴. 
+<Sync Start=653397><P Class=KRCC>
+그리고 얘가 이쪽으로 쏴볼까? 그러니까 아까는 크로스, 크로스지. 지금은 찍찍짠. 
+<Sync Start=659053><P Class=KRCC>
+찍찍짠은 뭐라고 그러지? 
+<Sync Start=660264><P Class=KRCC>
+
+<Sync Start=662508><P Class=KRCC>
+서로 꼬리에 꼬리를 물죠. 1은 2한테, 2는 3한테, 3은 1한테. 
+<Sync Start=666392><P Class=KRCC>
+3단, 3단. 3단, 여기는 2단, 3단. 
+<Sync Start=672029><P Class=KRCC>
+얘를 그대로 복사해 볼게. 1은 2한테, 2는 3한테, 3은 1한테. 1은 2한테, 2는 3한테, 3은 1한테. 
+<Sync Start=679368><P Class=KRCC>
+그럼 결국 1이 1한테, 2는 2한테, 3은 3한테 쏘는 거야. 
+<Sync Start=686835><P Class=KRCC>
+
+<Sync Start=689426><P Class=KRCC>
+이렇게 두 번 합성한 경우는 
+<Sync Start=692541><P Class=KRCC>
+
+<Sync Start=694602><P Class=KRCC>
+꼬리에 꼬리를 무는, 3단으로 꼬리에 꼬리를 물어야 된다 이거야. 
+<Sync Start=699508><P Class=KRCC>
+이거를 3단 대응이라 그럴게. 우리끼리 그냥 3단 대응이라 그럴게, 3단 대응. 
+<Sync Start=704262><P Class=KRCC>
+3단 대응 그럴게. 3단 대응은 많아 봤자 몇 번 가능해요? 시작. <br>
+<Sync Start=710484><P Class=KRCC>
+한 번만 가능해. 왜? 원소가 4개밖에 없으니까. 
+<Sync Start=714126><P Class=KRCC>
+그럼 나머지 하나는 누구한테 쏘면 돼요? 자기 자신한테 쏴버리면 되거든. 
+<Sync Start=717661><P Class=KRCC>
+그러니까 얘는 몇 가지로 분류해서 생각할 수 있을까? 3단 대응이, 이름 참 잘 지었다. 
+<Sync Start=724579><P Class=KRCC>
+3단 대응이 한 번 존재하는 경우 아니면 0번 존재하는 경우를 생각해주면 되겠다. 
+<Sync Start=731030><P Class=KRCC>
+
+<Sync Start=733541><P Class=KRCC>
+3단 대응이 한 번 존재하는 방법의 수를 계산하시오 그러면 원소 몇 개 만들어야 돼? 시작. 
+<Sync Start=738818><P Class=KRCC>
+3개를 먼저 뽑아야 되니까 4개 중에 3단 대응을 할 4개 중에서 3개를 뽑읍시다, and. 
+<Sync Start=746429><P Class=KRCC>
+뽑은 다음에 얘들이 대응하는 방법 몇 가지냐? 
+<Sync Start=748522><P Class=KRCC>
+우리 조금 전에 1이 1한테는 대응 못 하죠. 자기 자신한테 대응하는 건 탈락이니까. 
+<Sync Start=752759><P Class=KRCC>
+그러면 1은 2한테 대응할 수도 있고 뭐한테 대응할 수도 있어요? <br>
+<Sync Start=755634><P Class=KRCC>
+3한테 대응할 수도 있거든. 그러면 또 꼬리에 꼬리를 물면 돼. 
+<Sync Start=758235><P Class=KRCC>
+1이 3한테 그럼 3은 2한테 2는 1한테 대응하면 마찬가지로 항등함수가 될 수밖에 없거든요. 
+<Sync Start=764317><P Class=KRCC>
+그러니까 최초에 1이 대응하는 방법이 2 아니면 3이니까 3개의 원소가 선택됐을 때 
+<Sync Start=771578><P Class=KRCC>
+걔들끼리 3단 대응을 하는 방법의 수는 두 가지밖에 없는 거야, 각각이. 그렇지?<br>
+<Sync Start=775539><P Class=KRCC>
+
+<Sync Start=777983><P Class=KRCC>
+맞잖아요. 그런 다음에 나머지 하나는 자기 자신한테 쏴야 된다. 
+<Sync Start=784409><P Class=KRCC>
+그래서 몇 가지? 4×2 여덟 가지가 돼. 
+<Sync Start=788201><P Class=KRCC>
+3단 대응이 하나도 없어. 그럼 누구한테 쏴야 돼? 다 자기 자신을 쏴야 돼. 
+<Sync Start=792236><P Class=KRCC>
+그래서 여기 몇 가지? 시작. 한 가지인 거야. 
+<Sync Start=794237><P Class=KRCC>
+
+<Sync Start=796685><P Class=KRCC>
+그럼 느끼시겠지만 동시에 일어나는 경우는 몇 가지? 한 가지. 뭐? 
+<Sync Start=800408><P Class=KRCC>
+아까 다 자기 자신에서 쏘는 이거 한 가지. 
+<Sync Start=803722><P Class=KRCC>
+그래서 최종적인 경우의 수는 10가지+9가지. 
+<Sync Start=812968><P Class=KRCC>
+19가지 해서 1가지를 빼야 되겠다, 동시에 일어나는 경우. <br>
+<Sync Start=818076><P Class=KRCC>
+그래서 18가지가 된다. 전체 경우의 수는 4!가지니까 일대일대응의 개수죠. 
+<Sync Start=825947><P Class=KRCC>
+그중에 18가지만 해당되는구나. 4!은 4×3×2×1이고요. <br>
+<Sync Start=834087><P Class=KRCC>
+3×6=18. 2×3=6이니까 결국 몇분의 몇? 시작. 4분의 3이 될 것이다. <br>
+<Sync Start=841496><P Class=KRCC>
+최종적인 답은 ①번 이렇게 체크할 수 있다. 편하게 생각하십시오. <br>
+<Sync Start=845097><P Class=KRCC>
+
+<Sync Start=846901><P Class=KRCC>
+문제가 하나짜리 두 개짜리 한번 풀어봤는데 각각 항등함수의 개수. 여기서는 지금 
+<Sync Start=853266><P Class=KRCC>
+
+<Sync Start=856268><P Class=KRCC>
+한 번 합성한 것 또는 두 번 합성한 게 항등함수가 될 확률을 구하라 그랬지만 
+<Sync Start=860992><P Class=KRCC>
+또 어떤 문제는 그냥 두 번 합성한 것만 항등함수가 돼라. 이런 문제가 나올 수도 있으니까 
+<Sync Start=865382><P Class=KRCC>
+각각 구할 줄 알아야 된다는 거야. 
+<Sync Start=866979><P Class=KRCC>
+그래서 생각하는 방식을 다시 한번 생각해보면 충분히 알아낼 수 있지 않을까 이렇게 생각을 합니다. 
+<Sync Start=873857><P Class=KRCC>
+실력 완성 3번인데요. 하지 않았던 언제? 
+<Sync Start=878789><P Class=KRCC>
+앞 부분에서 하지 않았던 또 새로운 개념. 내가 들어간다고 했잖아, 새로운 개념. 
+<Sync Start=882603><P Class=KRCC>
+그게 바로 뭐냐? 이거 우리끼리 용어예요. 따라 해 봐. 부정 방정식. 
+<Sync Start=887091><P Class=KRCC>
+-부정 방정식. <br>
+<Sync Start=888867><P Class=KRCC>
+-부정 방정식, 여기 왜 부정이 들어갔는지 알아? 
+<Sync Start=892698><P Class=KRCC>
+정해질 수 없다야. 미지수의 개수가 너무 많아서, 식의 개수보다. 
+<Sync Start=897471><P Class=KRCC>
+이런 거였잖아요. 가장 기본적인 부정 방정식, 이거였지. 
+<Sync Start=901394><P Class=KRCC>
+얘를 만족시키는 음이 아닌 정수의 개수. 4가지 맛 아이스크림 중에서 8개를 선택하는 방법. 시작. 
+<Sync Start=905804><P Class=KRCC>
+4H8. 이러면 되거든. 맞지? 
+<Sync Start=910120><P Class=KRCC>
+
+<Sync Start=913860><P Class=KRCC>
+나이스. 
+<Sync Start=914740><P Class=KRCC>
+
+<Sync Start=917410><P Class=KRCC>
+그래, 8 좋아. 되지? 여기서 이상 조건은 어떻게 했어? 얘 2 이상 얘 3 이상 그러면? 
+<Sync Start=923243><P Class=KRCC>
+아저씨한테 전화해서 두 개, 세 개 먼저 뽑아달라고 그러고 
+<Sync Start=925933><P Class=KRCC>
+뽑힌 거 말고 나머지만 아이스크림 집에서 뽑아주시면 된다. 그렇지? 
+<Sync Start=931119><P Class=KRCC>
+이하 조건은 여사건으로 푼다. 됐지? 그게 제일 어려웠었던 거예요. 
+<Sync Start=935766><P Class=KRCC>
+그리고 특정 문자의 계수가 1이 아닐 때는 걔를 기준으로 분류해서 풀면 되고 
+<Sync Start=943778><P Class=KRCC>
+짝수, 홀수는 치환해서 풀면 된다. 됐지? 아직 안 한 게 뭐게? 이거야. 봐봐. 
+<Sync Start=949720><P Class=KRCC>
+따라 해 봐. 부정부등식. <br>
+<Sync Start=951550><P Class=KRCC>
+-부정부등식. 
+<Sync Start=952880><P Class=KRCC>
+
+<Sync Start=954810><P Class=KRCC>
+-이런 용어가 없어. 우리끼리야. 이런 용어 없어. 
+<Sync Start=959284><P Class=KRCC>
+
+<Sync Start=963150><P Class=KRCC>
+얘를 만족시키는 음이 아닌 정수해의 개수를 구하시오. 이런 문제가 나왔어요. 
+<Sync Start=967730><P Class=KRCC>
+
+<Sync Start=970315><P Class=KRCC>
+음이 아닌 정수해의 개수. 등호 있는 거부터 시작해 볼까? 
+<Sync Start=974117><P Class=KRCC>
+정수해의 개수를 구하시오 이렇게 되어 있는 거예요. 부등식 꼴이에요, 방정식이 아니라. 
+<Sync Start=978836><P Class=KRCC>
+그러면 가장 기본적으로 생각할 수 있는 아이디어가 뭐냐 하면 부등식을 방정식으로 바꾸는 거야. 
+<Sync Start=983528><P Class=KRCC>
+어떻게? 여러 개로. 8보다 작거나 같다는 얘기는 얘들이 다 정수니까 결과적으로 정수가 될 테니까 
+<Sync Start=988871><P Class=KRCC>
+8보다 작거나 같다. 시작. 8 또는 7 또는 6 또는 5 또는 4 또는 3 또는 2 또는. 
+<Sync Start=994295><P Class=KRCC>
+
+<Sync Start=996689><P Class=KRCC>
+그래서 부정 방정식 여러 개를 풀어서 맨 마지막에 다 뭐 하는 거야? 더 하는 거죠. 
+<Sync Start=999724><P Class=KRCC>
+또는으로 연결되어 있으니까 동시에 일어날 수 없으니까. 
+<Sync Start=1002841><P Class=KRCC>
+이 테이크에서 so long time. 
+<Sync Start=1004421><P Class=KRCC>
+
+<Sync Start=1007367><P Class=KRCC>
+so better to give up. 
+<Sync Start=1010698><P Class=KRCC>
+
+<Sync Start=1017102><P Class=KRCC>
+포기하는 게 낫지. 어떻게 이렇게 풀겠어요. 너무 어렵다. <br>
+<Sync Start=1021644><P Class=KRCC>
+그래서 생각한 게 바로 뭐냐 하면 한방에 방정식으로 바꾸는 방법이에요. <br>
+<Sync Start=1027792><P Class=KRCC>
+무슨 말이냐? 이걸 해석하면 더해서 8보다 작다며. 그러니까 얘는 8보다 작죠. 
+<Sync Start=1033185><P Class=KRCC>
+
+<Sync Start=1035797><P Class=KRCC>
+얘는 8보다 작잖아. 다시. 얘는 8보다 작잖아. 그렇다며. 8보다 작다며. 
+<Sync Start=1043075><P Class=KRCC>
+8보다 작아, 얘는. 얘가 8보다 작다니까. 얘 8 됐어? 안 됐어. 뭣보다 작아? 8보다 작아. 
+<Sync Start=1049763><P Class=KRCC>
+그러니까 8이 되려면 어떻게 해야 돼? 얼마를 더 해야지 8이 되겠지. 
+<Sync Start=1053864><P Class=KRCC>
+
+<Sync Start=1057689><P Class=KRCC>
+플러스 α를 해야지 8이 될 거 아니야. 얘가 8보다 적으니까. 
+<Sync Start=1060830><P Class=KRCC>
+
+<Sync Start=1063210><P Class=KRCC>
+그러네요. <br>
+<Sync Start=1064280><P Class=KRCC>
+
+<Sync Start=1071252><P Class=KRCC>
+단, α는 뭐다? 시작. 음이 아닌 정수. 왜? 8이 돼도 되니까 얘가 0 돼도 되거든. 
+<Sync Start=1077981><P Class=KRCC>
+1이 돼도 되고. 8보다 작으려면 1, 2, 3, 4 이러면 되니까. 
+<Sync Start=1080756><P Class=KRCC>
+
+<Sync Start=1082696><P Class=KRCC>
+결국 얘를 만족시키는 a, b, c, d 순서쌍의 개수라는 것은 
+<Sync Start=1086388><P Class=KRCC>
+얘를 만족시키는 a, b, c, d α의 순서쌍 개수랑, 시작. 일치하더라. <br>
+<Sync Start=1090988><P Class=KRCC>
+
+<Sync Start=1096639><P Class=KRCC>
+이해되세요? 끝났네. 답. 시작. 5가지 맛 아이스크림 중에서 8개를 뽑아. 시작. 이게 답이에요. <br>
+<Sync Start=1104977><P Class=KRCC>
+너무 쉽지? 부정부등식은 부정 방정식으로 푼다. 무슨 개념? 플러스 α 개념이야. 
+<Sync Start=1111348><P Class=KRCC>
+그랬더니 또 어떤 애들이, 이런 게 나오겠니, 사람아? 1억도 되는데. 
+<Sync Start=1117254><P Class=KRCC>
+작다 기준으로 가장 많이 나오니까. 만약에 얘가 작다라고 돼 있어요. <br>
+<Sync Start=1120513><P Class=KRCC>
+그러면 이건 뭐라고 처리하시면 될까? 
+<Sync Start=1123096><P Class=KRCC>
+얘가 8보다 작으니까 8보다 작은 거에다가 좀 더해야지만 8이 된다 이건데, 얘가 0 될 순 없죠. <br>
+<Sync Start=1129104><P Class=KRCC>
+0 되면 a+b+c+d가 8 되니까 8이 될 수 없다는 것은 α만 뭐다? 시작. 1 이상. 
+<Sync Start=1135169><P Class=KRCC>
+아이스크림 집 이야기를 이용해 주시면 되는 거야. 
+<Sync Start=1138694><P Class=KRCC>
+얘를 만족시키는 음이 아닌 정수의 개수. 단, α만 자연수 정수의 개수. 
+<Sync Start=1142928><P Class=KRCC>
+여기 등호가 없으니까 α는 0 될 수 없다, 이렇게 해석하시면 돼요. <br>
+<Sync Start=1148081><P Class=KRCC>
+그러니까 결국 5가지 맛 아이스크림 중에서 8개를 뽑지 않고 시작. 
+<Sync Start=1152448><P Class=KRCC>
+7개만 뽑으면 된다. 왜? 아저씨한테 전화해서 
+<Sync Start=1155324><P Class=KRCC>
+‘아저씨, 그 α 요즘 나왔다며요? 그거 하나 먼저 좀 담아주세요.’ <br>
+<Sync Start=1159141><P Class=KRCC>
+
+<Sync Start=1165720><P Class=KRCC>
+됐습니까? 알아두세요. 출발해보자. 어떤 문제입니까? 
+<Sync Start=1171506><P Class=KRCC>
+
+<Sync Start=1173876><P Class=KRCC>
+level 3. 부등식, 또 여기도 8이야. x+y+z가 8보다 작거나 같다를 만족시키는 
+<Sync Start=1182107><P Class=KRCC>
+음이 아닌 정수해의 개수 중에, 곧바로 바꾸자. 
+<Sync Start=1187491><P Class=KRCC>
+부등식을 뭐로? 방정식으로 바꾸려면 α까지 추가해야지 8이다. 8이 돼도 된다. 
+<Sync Start=1192821><P Class=KRCC>
+다른 말로 얘만 8이 돼도 된다니까 α는 0 돼도 된다. 따라서 α 역시 음이 아닌 정수. 
+<Sync Start=1198227><P Class=KRCC>
+결국은 음이 아닌 정수 x, y, z, α의 개수를 구해주시면 
+<Sync Start=1203657><P Class=KRCC>
+이 부등식을 만족시키는 x, y, z의 개수랑 일치하게 된다. <br>
+<Sync Start=1208861><P Class=KRCC>
+몇 가지 맛 아이스크림 중에? 네 가지 맛 아이스크림 중에 8개를 뽑는 거니까 경우의 수는 시작. 
+<Sync Start=1214839><P Class=KRCC>
+4H8. C8이고요. 2개 더한 다음에 1 빼니까 11C8이고요. 
+<Sync Start=1219555><P Class=KRCC>
+11개에서 3개 뽑는 방법의 수랑 똑같네. 
+<Sync Start=1223143><P Class=KRCC>
+11C8은 11×10×9 나누기 3!, 3×2×1이고요. 3은 여기 4가 되고요. 얘는 5가 되니까요. 
+<Sync Start=1233225><P Class=KRCC>
+
+<Sync Start=1235501><P Class=KRCC>
+3이구나. 165네요. 결국 전체 165가지 순서쌍이 있구나. <br>
+<Sync Start=1242845><P Class=KRCC>
+
+<Sync Start=1247392><P Class=KRCC>
+165가지가 되는 이게 전체 경우의 수야. 우리 확률 구할 거니까 전체 경우의 수는 165가지구나. 
+<Sync Start=1253589><P Class=KRCC>
+그중에서 얘를 만족시킬 확률을 구하래. <br>
+<Sync Start=1257096><P Class=KRCC>
+
+<Sync Start=1262787><P Class=KRCC>
+그게 무슨 말이야? 수학에서 곱해서 0이 아니라면 얘가 0이 아니고 and 얘도 0이 아니어야 되잖아요. 
+<Sync Start=1274187><P Class=KRCC>
+그러니까 결국 무슨 말이냐면 x랑 y랑 같지 않으면서 z는 1이 아니다. 
+<Sync Start=1285640><P Class=KRCC>
+우리 지금 x, y, z 구해놨잖아. 그러니까 우리 지금 뭐 푼 건데? 
+<Sync Start=1290830><P Class=KRCC>
+x+y+z+α=8이라는 음이 아닌 정수의 개수를 구하고 있는데 
+<Sync Start=1298567><P Class=KRCC>
+얘는 얘랑 다르대. 너무 어려워. 다르다 너무 어려워. 같다는 쉬운데. 
+<Sync Start=1306532><P Class=KRCC>
+같은 거는 너무 쉬운데 다르다 어려워. 또 z도 1이다는 쉬운데 1이 아니다 너무 어려워. 
+<Sync Start=1313172><P Class=KRCC>
+이거 아니다 싫은데 뭐 하고 싶어? 이거 부정하고 싶거든. 
+<Sync Start=1316897><P Class=KRCC>
+그럼 차라리 뭘 이용하자? 여사건. 그래. 차라리 애당초 주어진 얘의 여사건을 얘기하세요. 
+<Sync Start=1325223><P Class=KRCC>
+1에서 빼주면 되니까 그것만 조심하자. 
+<Sync Start=1327221><P Class=KRCC>
+
+<Sync Start=1329601><P Class=KRCC>
+이거의 여사건. 얘 부정하면 돼. 부정이란 게 뭐야? 같지 않다의 부정은 같다니까 
+<Sync Start=1335051><P Class=KRCC>
+차라리 무슨 확률 구하자? (x-y)(z-1)이 0이 될 확률을 이걸 구하자 이거야, 차라리. 
+<Sync Start=1345387><P Class=KRCC>
+왜? 1에서 빼면 되니까. 수학에서 곱해서 0이라는 것은 얘가 0 또는이야. 
+<Sync Start=1350446><P Class=KRCC>
+얘가 0이니까 또는의 확률이 나왔다. 
+<Sync Start=1353193><P Class=KRCC>
+x랑 y랑 같거나 z가 1일 확률이니까 각각의 확률을 구한 다음에 
+<Sync Start=1358743><P Class=KRCC>
+동시에 일어날 확률을 빼주면 답이겠구나. 그래서 얘도 3가지로 풀어야 되는구나. 
+<Sync Start=1365621><P Class=KRCC>
+이럴 확률, 다른 말로 시작. x랑 y랑 같은 순서쌍의 개수. 
+<Sync Start=1369907><P Class=KRCC>
+두 번째는 z가 1인 순서쌍의 개수를 구하고 
+<Sync Start=1372697><P Class=KRCC>
+세 번째는 동시에 일어나는 순서쌍의 개수를 구한 다음에 빼주면 되고 
+<Sync Start=1377528><P Class=KRCC>
+아니면 확률 높인다 그래도 각각의 확률을 더한 다음에 
+<Sync Start=1380793><P Class=KRCC>
+맨 마지막에 동시에 일어날 확률을 빼주면 된다 이런 얘기입니다. 경우의 수로 가죠. <br>
+<Sync Start=1386083><P Class=KRCC>
+첫 번째, x랑 y랑 같도록 만드는 x, y, z, α의 순서쌍 개수를 구하라. 
+<Sync Start=1393745><P Class=KRCC>
+그럼 얘랑 얘랑 똑같으니까 얘 대신 뭐 대입해? x. 그럼 얼마야? 시작. 
+<Sync Start=1397935><P Class=KRCC>
+2x+z+α=8을 만족시키는 순서쌍의 개수를 구해주시면 되거든요. 
+<Sync Start=1403331><P Class=KRCC>
+그러면 결국 x가 정해짐에 따라 y도 결정되니까 4개 문자 모두 다 결정되는 방법의 수가 된다. 
+<Sync Start=1408908><P Class=KRCC>
+이렇게 특정 문자의 계수가 1이 아닐 때 뭐 하라고? 분류, 분류하자. 
+<Sync Start=1415043><P Class=KRCC>
+x가 될 수 있는 건 뭐부터야? x는 시작. 8이 될 수 있고요. x는 시작. 7이 될 수 있고, 뭐 8? 
+<Sync Start=1423310><P Class=KRCC>
+4가 될 수 있고요. 3 될 수 있고요. 2 될 수 있고요. 1 될 수 있고요. 0 될 수 있죠. 
+<Sync Start=1429653><P Class=KRCC>
+음이 아닌 정수니까 그렇지? 음이 아닌 정수니까. 
+<Sync Start=1432911><P Class=KRCC>
+여러분, x가 4라면 어떻게 돼? 이 2개도 더한 게 0 돼야죠. 이게 벌써 8이니까 넘어가면 0. 
+<Sync Start=1438559><P Class=KRCC>
+그래서 z+α=0이 되고요. z+α=2 되고요. z+α=4 되고요. 
+<Sync Start=1447068><P Class=KRCC>
+z+α, 지금 무슨 말인지 알아? x가 1이면 넘어가니까 6 나오잖아. 
+<Sync Start=1451945><P Class=KRCC>
+z+α=8. 음이 아닌 정수의 개수거든. 채민아, 불러봐. 이거 얼마야? 
+<Sync Start=1458186><P Class=KRCC>
+2H0. 2가지 맛 아이스크림을 가지고 2H2. <br>
+<Sync Start=1462134><P Class=KRCC>
+
+<Sync Start=1470151><P Class=KRCC>
+됐어? 
+<Sync Start=1471580><P Class=KRCC>
+
+<Sync Start=1474457><P Class=KRCC>
+천천히, 천천히. 뭐가 두렵다고. C0, 뒤에 거는 어차피 일치하니까. 
+<Sync Start=1479450><P Class=KRCC>
+C6, C8. 그런데 앞에 거 봐라. 신기하다. 더해서 1 빼면 1. 3, 5, 7, 9. 
+<Sync Start=1486075><P Class=KRCC>
+가만히 봤더니 이게 다 1, 3, 5. 이게 7C1이니까 이게 9. 이게 25야. <br>
+<Sync Start=1495783><P Class=KRCC>
+
+<Sync Start=1498907><P Class=KRCC>
+그러니까 첫 번째, x랑 y랑 같도록 만드는 순서쌍의 개수. 시작. 25개. 
+<Sync Start=1504253><P Class=KRCC>
+
+<Sync Start=1506699><P Class=KRCC>
+됐지? <br>
+<Sync Start=1507936><P Class=KRCC>
+
+<Sync Start=1514727><P Class=KRCC>
+뭐 어렵지 않잖아. 왜 그러셔. 
+<Sync Start=1518978><P Class=KRCC>
+두 번째, z가 1. 1 대입해. x+y+α= 뭐만 남아? 7. 그럼 뭐야? 3H7. 더 쉬워. 
+<Sync Start=1528494><P Class=KRCC>
+얘는 C7, 9C7, 9C2. 9, 4. 9×8=72 나누기 2니까 시작. 
+<Sync Start=1535453><P Class=KRCC>
+36가지. 대박. 36가지. <br>
+<Sync Start=1537599><P Class=KRCC>
+
+<Sync Start=1541031><P Class=KRCC>
+맨 마지막에 동시에 두 개를 다 만족시키래. 여러분, z에 7을 대입해. 얘 대신 x 대입해. 시작. 
+<Sync Start=1547986><P Class=KRCC>
+2x+α=, 시작. 7. 
+<Sync Start=1550655><P Class=KRCC>
+
+<Sync Start=1552670><P Class=KRCC>
+그러면 마찬가지야. 뭐야? 
+<Sync Start=1556589><P Class=KRCC>
+특정 문자의 계수가 1이 아닐 때는 분류해라. 그러면 x가 될 수 있는 거, 제일 큰 거 뭐야? 
+<Sync Start=1561776><P Class=KRCC>
+3이죠. 4는 8이니까 넘었으니까 음이 아닌 정수가 되려면 3. 
+<Sync Start=1567553><P Class=KRCC>
+2, 1, 0인데 잘 봐. 하는 말 봐봐. 얘가 3이면 α는 하나밖에 없어, 그냥 넘기면 되니까. 
+<Sync Start=1576054><P Class=KRCC>
+α는 항상 이렇게 정해지지. 얘도 정해질 거 아니야. 3, 2, 시작. 뭐야? 
+<Sync Start=1584421><P Class=KRCC>
+
+<Sync Start=1590000><P Class=KRCC>
+x가 아니라 α. 
+<Sync Start=1591792><P Class=KRCC>
+
+<Sync Start=1594169><P Class=KRCC>
+4가 아니라 뭐야? 1, 2, 3, 4지. 아니지. 1, 3, 5, 7이네. 1, 3, 5, 7이지. 
+<Sync Start=1602985><P Class=KRCC>
+지금 무슨 말인지 알겠지? 그렇지? 아무튼 몇 쌍이야? 그냥 네 쌍. 
+<Sync Start=1608743><P Class=KRCC>
+그냥 4개. 끝났잖아. 2 개는 더하고 동시에를 뺀다. <br>
+<Sync Start=1614915><P Class=KRCC>
+더 하면 61. 61에서 4 빼면 57. 그래서 최종적인 답은 165분의 57이 답인데 
+<Sync Start=1623739><P Class=KRCC>
+가만히 봤더니 다 더하면 3의 배수, 다 더하면 3의 배수니까 3으로 약분돼. 
+<Sync Start=1628149><P Class=KRCC>
+3×5=15. 3×5=15. 3×1=3, 3×9=27. 그래서 최종적인 답 시작. 55분의 19가 최종적인 답이에요. 
+<Sync Start=1635629><P Class=KRCC>
+
+<Sync Start=1637939><P Class=KRCC>
+최종적인 답 아니에요. 이러다가 대학 못 가요. 
+<Sync Start=1641278><P Class=KRCC>
+
+<Sync Start=1647121><P Class=KRCC>
+어디서 빼줘야 돼요? 1에서 빼줘야 돼요. 최종적인 답은 55에서 19 빼면 얼마니? 
+<Sync Start=1652418><P Class=KRCC>
+-36. <br>
+<Sync Start=1653466><P Class=KRCC>
+-36이니? 55분의 36. 없네. 얘가 최종적인 답. p+q를 구하는 거니까 91이 답이야? 
+<Sync Start=1661374><P Class=KRCC>
+답은 91 끝. 이렇게 마무리 지어주시면 됩니다. 깔끔하게 풀었네요. <br>
+<Sync Start=1666598><P Class=KRCC>
+
+<Sync Start=1670235><P Class=KRCC>
+괜찮아? 이제 새로운 단원으로 확률의 두 번째 단원이자 확률의 마지막 단원. 
+<Sync Start=1677570><P Class=KRCC>
+지금까지 공부했던 거는 중학생들도 심화 과정했던 친구들은 풀 수 있었던 내용이라면 
+<Sync Start=1683456><P Class=KRCC>
+지금부터는 순수 고등학교 과정, 조건부 확률이라는 것을 공부하게 됩니다. 
+<Sync Start=1689037><P Class=KRCC>
+그리고 독립 사건, 종속 사건, 확률의 곱셈 정리. 여러분 오해하고 있는 부분이 되게 많거든. 
+<Sync Start=1694536><P Class=KRCC>
+그런 이야기를 내가 허심탄회하게 슬슬 이야기를 풀어드리도록 할 테니까 한번 또 잘 들어보세요. 
+<Sync Start=1700505><P Class=KRCC>
+맨 처음에 나오는 게 조건부 확률이에요. 
+<Sync Start=1702659><P Class=KRCC>
+
+<Sync Start=1704751><P Class=KRCC>
+무슨 확률이요? 조건부 확률이야. 
+<Sync Start=1708291><P Class=KRCC>
+조건이 들어있는 확률. 시한부 인생. 우리 모두 다 시한부 인생이죠. <br>
+<Sync Start=1712675><P Class=KRCC>
+영원히 살 수 있는 사람은 없잖아요. 
+<Sync Start=1715697><P Class=KRCC>
+또 종교적으로 영생을 얻을 수 있습니다. 이런 이야기 하지 말고. 
+<Sync Start=1719069><P Class=KRCC>
+
+<Sync Start=1724433><P Class=KRCC>
+특정 종교를 부정하는 건 아니에요, 그렇다고. <br>
+<Sync Start=1726558><P Class=KRCC>
+
+<Sync Start=1729093><P Class=KRCC>
+조건부 확률. 
+<Sync Start=1730483><P Class=KRCC>
+
+<Sync Start=1743899><P Class=KRCC>
+조건부 확률. 조건이 들어있는 확률인데 이게 무슨 확률이냐면 일단 뜻부터 잘 들어봐. 
+<Sync Start=1750706><P Class=KRCC>
+어떤 사건이 이미 일어난 상태에서, 
+<Sync Start=1753691><P Class=KRCC>
+
+<Sync Start=1756164><P Class=KRCC>
+그러니까 이런 거야. 어떤 사건이 이미 일어났어. 
+<Sync Start=1758885><P Class=KRCC>
+
+<Sync Start=1765705><P Class=KRCC>
+그 상황하에서 푸는 확률을 조건부 확률이라고 해. 
+<Sync Start=1769298><P Class=KRCC>
+조금 더 자세히 얘기하자면 영화의 한 장면을 생각해볼까? 
+<Sync Start=1773073><P Class=KRCC>
+경찰이 왔어. 집에 왔더니 경찰. 경찰이 우리 집 앞을 막고 있어. 
+<Sync Start=1778950><P Class=KRCC>
+이게 뭐야, 이거? 뭐야 이거? <br>
+<Sync Start=1782780><P Class=KRCC>
+-폴리스 라인. <br>
+<Sync Start=1783780><P Class=KRCC>
+-폴리스 라인. 이거 어떻게 알아? 
+<Sync Start=1785431><P Class=KRCC>
+
+<Sync Start=1787740><P Class=KRCC>
+여러분. 죄지으면 안 돼. 폴리스 라인. 집에 와보니까 이렇게 돼 있어. <br>
+<Sync Start=1796452><P Class=KRCC>
+
+<Sync Start=1802533><P Class=KRCC>
+우리 집에 무슨 일이 일어난 거야? 딱 들어가려고 하니까 경찰 아저씨가 막아. 
+<Sync Start=1807449><P Class=KRCC>
+그래서 ‘여기 사는 사람입니다.’ 그래서 올리고 딱 들어갔어요. 
+<Sync Start=1812039><P Class=KRCC>
+
+<Sync Start=1814909><P Class=KRCC>
+들어갔더니 식탁 위에 내가 먹으려고 준비해놨던 이거. 
+<Sync Start=1825559><P Class=KRCC>
+내가 양산에서 시키거든. 이거 얼려놓는다고. 뭔데, 이게? 
+<Sync Start=1831238><P Class=KRCC>
+돼지국밥. 순대국밥이랑 돼지국밥의 차이 알아요? 
+<Sync Start=1835789><P Class=KRCC>
+순대가 안 들어간 걸 돼지국밥이라 그러지, 돼지국밥. 
+<Sync Start=1839757><P Class=KRCC>
+돼지국밥, 이거 올려놓고 왔거든, 갔다 와서 먹으려고. 그런데 이게 없어진 거야. 
+<Sync Start=1845785><P Class=KRCC>
+
+<Sync Start=1848466><P Class=KRCC>
+무슨 사건? 희대의 절도 사건. 돼지국밥 절도 사건이 일어난 거지. 경찰이 왔어. 
+<Sync Start=1856772><P Class=KRCC>
+그런데 CCTV를 돌려봤더니 외부 침입자들은 없어. 
+<Sync Start=1861385><P Class=KRCC>
+그러면 이 돼지국밥을 누가 먹었을 수가 있느냐. 
+<Sync Start=1864283><P Class=KRCC>
+첫 번째, 유옥자 씨. 누구야? 정승제 엄마. 44년생. 80살. 
+<Sync Start=1872402><P Class=KRCC>
+
+<Sync Start=1875558><P Class=KRCC>
+그 나이에 돼지국밥 좋지 않습니다. 
+<Sync Start=1879106><P Class=KRCC>
+
+<Sync Start=1881545><P Class=KRCC>
+유옥자 씨가 있었고 그다음에 또 집에 코델리아가 있었다고 그러자. 
+<Sync Start=1885953><P Class=KRCC>
+
+<Sync Start=1890343><P Class=KRCC>
+그다음에 누가 있다고 그럴까? 사생팬이 있다. <br>
+<Sync Start=1896349><P Class=KRCC>
+누군지 몰라, 얼굴도 못 봤지만. 
+<Sync Start=1899038><P Class=KRCC>
+유옥자 씨와 코델리아와 사생팬은 한 번도 못 봤는데 있을 것 같아, 사생팬이라서. 
+<Sync Start=1907561><P Class=KRCC>
+유옥자 씨가 돼지국밥을 훔쳐 먹을 확률이 0래. 
+<Sync Start=1914958><P Class=KRCC>
+코델리아가 돼지국밥을 훔쳐 먹을 확률이 0. 사생팬이 먹을 확률이 0이라고 하자. 
+<Sync Start=1923521><P Class=KRCC>
+CCTV를 돌려봤더니 이 3명 중의 1명이 범인이에요. 
+<Sync Start=1926886><P Class=KRCC>
+그런데 나는 뭐 하고 있었어? EBS 수능특강을 찍고 있었어. 
+<Sync Start=1931972><P Class=KRCC>
+절도 사건이 일어나는 그 당시 나는 EBS 수능특강을 찍고 있었어. 
+<Sync Start=1938016><P Class=KRCC>
+그래서 누가 훔쳐 갔는지 몰라. 그런 상황이야, 지금. 
+<Sync Start=1941679><P Class=KRCC>
+
+<Sync Start=1944423><P Class=KRCC>
+조건부 확률이라는 게 뭐냐 하면 두 가지 문제를 비교해 주세요. 
+<Sync Start=1949387><P Class=KRCC>
+이거를 잘 이해하시면 조건부 확률이 뭔지 가슴 깊이 이해하실 수 있어요. 
+<Sync Start=1953483><P Class=KRCC>
+조건부 확률과 독립 시행 확률은 가슴으로 공부하셔야 돼요. 읽자마자 느끼셔야 돼. 
+<Sync Start=1959925><P Class=KRCC>
+첫 번째 문제가 뭐냐? 오늘, 
+<Sync Start=1961775><P Class=KRCC>
+
+<Sync Start=1966088><P Class=KRCC>
+사생팬이 
+<Sync Start=1967410><P Class=KRCC>
+
+<Sync Start=1970880><P Class=KRCC>
+돼지국밥을 훔쳐 먹을 
+<Sync Start=1974988><P Class=KRCC>
+
+<Sync Start=1978495><P Class=KRCC>
+확률을 구하라. 이게 1번 문제. 이게 보통 일반적인 확률 문제예요. 2번 문제를 또 읽어볼게. 
+<Sync Start=1985224><P Class=KRCC>
+집에 와보니 
+<Sync Start=1987527><P Class=KRCC>
+
+<Sync Start=1993477><P Class=KRCC>
+국밥이 영어로 뭐라 그래? 
+<Sync Start=1994801><P Class=KRCC>
+
+<Sync Start=1999657><P Class=KRCC>
+rice in the soup. <br>
+<Sync Start=2001989><P Class=KRCC>
+
+<Sync Start=2008652><P Class=KRCC>
+라이스가 r이죠? rice in the soup. RiS. 
+<Sync Start=2017159><P Class=KRCC>
+
+<Sync Start=2020689><P Class=KRCC>
+국밥 RiS is gone. 국밥이 갔다. 갔다? 갔다라기보다 뭐라고 표현할까? <br>
+<Sync Start=2029430><P Class=KRCC>
+
+<Sync Start=2032016><P Class=KRCC>
+is stolen. 
+<Sync Start=2033581><P Class=KRCC>
+
+<Sync Start=2040510><P Class=KRCC>
+steal, stole, stolen. 불규칙 3단 변화. 
+<Sync Start=2046696><P Class=KRCC>
+
+<Sync Start=2050636><P Class=KRCC>
+집에 와보니 국밥이 사라졌어. 
+<Sync Start=2054862><P Class=KRCC>
+
+<Sync Start=2057494><P Class=KRCC>
+이 국밥을 사생팬이 훔쳐 갔을, 
+<Sync Start=2067121><P Class=KRCC>
+여기 항상 ‘갔을’, ‘~였을’ 왜? 
+<Sync Start=2070378><P Class=KRCC>
+
+<Sync Start=2072518><P Class=KRCC>
+이미 절도 사건이 일어난 후에 푸는 확률이거든. 
+<Sync Start=2077931><P Class=KRCC>
+그러니까 세 명의 용의자 중에 유옥자 씨, 코델리아, 사생팬 세 명 중에 
+<Sync Start=2085922><P Class=KRCC>
+사생팬이 훔쳐 갔을 확률을 구하라. 
+<Sync Start=2088922><P Class=KRCC>
+
+<Sync Start=2091465><P Class=KRCC>
+얘를 조건부 확률이라 그래요. 
+<Sync Start=2094725><P Class=KRCC>
+어떤 조건하에? 이미 절도 사건이 일어난 조건하에 사생팬이 그랬을 확률. 
+<Sync Start=2103892><P Class=KRCC>
+1번은 아침에 푸는 거야, 아침에. 
+<Sync Start=2108108><P Class=KRCC>
+1번은 국밥이 내 눈앞에 있는 상태에서 푸는 거야. 
+<Sync Start=2113742><P Class=KRCC>
+오늘 사생팬이 훔쳐 갈 확률을 구하라. 
+<Sync Start=2119391><P Class=KRCC>
+그러니까 무슨 말이냐? 1번 문제 풀 때는 오늘 국밥이, 
+<Sync Start=2124282><P Class=KRCC>
+
+<Sync Start=2129315><P Class=KRCC>
+없어져 아니면 그대로 있을 수도 있어? 그대로 있을 수도 있어. 
+<Sync Start=2134576><P Class=KRCC>
+1번 문제를 풀 때는 아무리 확률을 더해봤자 0밖에 안 되잖아. 
+<Sync Start=2142278><P Class=KRCC>
+그러니까 국밥을 누군가가 훔쳐 갈 확률은 0밖에 안 되니까 0의 확률로 도둑맞지 않을 수도 있거든. 
+<Sync Start=2151166><P Class=KRCC>
+그 상태에서 사생팬이 훔칠 확률을 구하라니까 얘는 0이 답입니다. 그런데 2번은, 
+<Sync Start=2159238><P Class=KRCC>
+
+<Sync Start=2164373><P Class=KRCC>
+이미 국밥 is stolen. 없어진 상황이야. 
+<Sync Start=2171397><P Class=KRCC>
+이미 폴리스 라인, 이게 참 좋은 표현인데 항상 조건부 확률은 이미 사건이 터졌는데, 
+<Sync Start=2179142><P Class=KRCC>
+내 말은 영화의 한 장면 생각해보세요. <br>
+<Sync Start=2181939><P Class=KRCC>
+
+<Sync Start=2183867><P Class=KRCC>
+거기 설경구 아저씨 같은 분이 딱 들어가서 약간 이렇게, 항상 강력계에서 교통계로 갔다가 
+<Sync Start=2194032><P Class=KRCC>
+다시 복귀한 지 한 일주일 되고 막 이러잖아. 보통 그렇지 않니? 그렇지? 
+<Sync Start=2199811><P Class=KRCC>
+그러면 항상 단장 역할 하시는 분이 있는데 거기. 그분이 막 이렇게, 
+<Sync Start=2206237><P Class=KRCC>
+
+<Sync Start=2210028><P Class=KRCC>
+‘야, 광역수사대’ 막 이러면서 얘기하잖아. 
+<Sync Start=2213876><P Class=KRCC>
+그 사람이 부스스 깬 다음에 들어가서 절도 사건을 보면 ‘CCTV 다 확보했어?’ 이러잖아. 그렇지? 
+<Sync Start=2223670><P Class=KRCC>
+그게 영화의 시작이잖아. 그때 뭐를 조사하냐면 시작. 
+<Sync Start=2230465><P Class=KRCC>
+용의자들을 수집한다고. 그중에서 1명의 용의자를 특정한다고. 그렇지? <br>
+<Sync Start=2235344><P Class=KRCC>
+
+<Sync Start=2238270><P Class=KRCC>
+그러니까 딱 그 느낌이 조건부 확률. 일은 터졌는데, 
+<Sync Start=2242052><P Class=KRCC>
+그 일이 일어났을 당시에는 내가 현장에 없었기 때문에 누가 이런 일을 저질렀는지 모르는 느낌. 
+<Sync Start=2250307><P Class=KRCC>
+뭐만 안다? 용의자 1, 용의자 2, 용의자 3만 알고 있는 상황. 
+<Sync Start=2255790><P Class=KRCC>
+그 세 명 중에 얘가 범인이었을 확률을 구하는 게 바로 조건부 확률이에요. <br>
+<Sync Start=2262667><P Class=KRCC>
+그러니까 똑같이 사생팬이 훔쳐 갈 확률은 0인데 
+<Sync Start=2267815><P Class=KRCC>
+이때는 전체가 뭐야? 훔쳐 갈 수도 있고 안 훔쳐 갈 수도 있고, 
+<Sync Start=2273369><P Class=KRCC>
+도둑맞을 수도 있고 도둑 안 맞을 수도 있으니까 전체가 1인 데 반해, 
+<Sync Start=2277754><P Class=KRCC>
+
+<Sync Start=2279875><P Class=KRCC>
+얘는 전체가 1이 아니야. 왜? 이미 폴리스 라인이 쳐져 있거든. 
+<Sync Start=2286140><P Class=KRCC>
+이미 얘 또는 얘 또는 얘가 훔쳐 갔거든. 그러니까 전체가 뭐야? 시작. 
+<Sync Start=2292860><P Class=KRCC>
+훔쳐 갈 확률이 전체인 거야. 그런데 훔쳐 갈 확률은 얘 아니면 얘 아니면 얘라고 그랬으니까 
+<Sync Start=2299164><P Class=KRCC>
+0+0+0이라고. 그러니까 얘는 뭐가 돼요? 
+<Sync Start=2303581><P Class=KRCC>
+2분의 1이 되고 얘는 10분의 3이 되는 거야. 이렇게 답이 달라진다고. 
+<Sync Start=2307796><P Class=KRCC>
+얘를 가지고 뭐라 그러죠? 시작. 조건부 확률이라고 부르는 거예요. 
+<Sync Start=2311236><P Class=KRCC>
+
+<Sync Start=2318931><P Class=KRCC>
+전체가 1이 아니라 어떤 사건이 이미 일어났기 때문에 전체가 그 사건이 일어날 확률이 되는 거라고요. 
+<Sync Start=2326267><P Class=KRCC>
+
+<Sync Start=2328355><P Class=KRCC>
+구조를 살펴보면 그 사건을 일으킬 용의자들이 3명이니까 얘가 바로 시작. 
+<Sync Start=2333907><P Class=KRCC>
+용의자 1, 용의자 2, 용의자 3분의 범인으로 특정된 용의자 3. 
+<Sync Start=2340896><P Class=KRCC>
+그러니까 용의자 1이 그런 일을 저지를 확률, 용의자 2가 저지를 확률, 
+<Sync Start=2345900><P Class=KRCC>
+용의자 3이 저지를 확률을 다 더한 게 바로 분모. 
+<Sync Start=2350382><P Class=KRCC>
+분자는 그중에 하나를 그대로 시작. 복사해 주면 된다 이 얘기에요. 
+<Sync Start=2355102><P Class=KRCC>
+그러니까 전체가 주는 거죠. 원래 1이었는데 0으로 줄어드는 거지. 
+<Sync Start=2359154><P Class=KRCC>
+왜 그러겠니? 이미 어떤 사건이 터진 그 협소한 부분에서 푸는 거니까. 
+<Sync Start=2364663><P Class=KRCC>
+그 느낌을 이렇게 표현할게. 절도 사건을 A라 그러자고. 
+<Sync Start=2372183><P Class=KRCC>
+사건 A. 국밥이 도둑맞는 사건을 A라 그러면 사건 A가 일어났다. 
+<Sync Start=2381833><P Class=KRCC>
+이미 일어난 거야. 조건하에 푸는 거야. 
+<Sync Start=2384964><P Class=KRCC>
+
+<Sync Start=2388975><P Class=KRCC>
+사건 B가 일어날 확률. 이런 것들을 사람들은 뭐라고 그런다? 시작. 조건부 확률이라고 하는구나. 
+<Sync Start=2398444><P Class=KRCC>
+어떤 사건이 이미 일어난 상황하에서 
+<Sync Start=2401072><P Class=KRCC>
+그 사건이 일어났을 때 내가 현장에 없었기 때문에 누가 범인인지 모르는 상황하에서 
+<Sync Start=2405164><P Class=KRCC>
+얘가 범인일 확률을 구하라. 그게 바로 조건부 확률. 
+<Sync Start=2408020><P Class=KRCC>
+오늘은 그렇게 느낌만 알고 계시면 돼요. 다음 시간에 
+<Sync Start=2410710><P Class=KRCC>
+
+<Sync Start=2414457><P Class=KRCC>
+여러 가지 예제 문제를 통해서 조건부 확률을 완전히 씹어 삼켜보도록 하겠어요. <br>
+<Sync Start=2419490><P Class=KRCC>
+
+<Sync Start=2423116><P Class=KRCC>
+어떤 사건이 이미 일어났다는 조건하에 B가 일어날 확률. 여러분, 주인공은 A야? B야? 
+<Sync Start=2428399><P Class=KRCC>
+
+<Sync Start=2429790><P Class=KRCC>
+B지. 왜? B가 일어날 확률을 계산해야 되잖아. 
+<Sync Start=2432813><P Class=KRCC>
+A가 일어날 확률을 구하는 게 아니라 B가 일어날 확률을 구하는 거니까 쓸 때는 어떻게 쓰냐? 
+<Sync Start=2437198><P Class=KRCC>
+P(B) 이렇게 쓰는 거예요. B가 일어날 확률이라는 얘기야. 
+<Sync Start=2442087><P Class=KRCC>
+그런데 무슨 조건하에? A가 일어났다는 조건하에 푸는 거잖아. 
+<Sync Start=2445050><P Class=KRCC>
+이미 일어난 사건을 조그맣게 여기다 A. 
+<Sync Start=2447557><P Class=KRCC>
+옛날에는 이렇게도 썼었는데 요즘에는 이 표현을 아예 안 쓰고 무조건 이렇게 써요. 
+<Sync Start=2451968><P Class=KRCC>
+막대기를 하나 그어요. 막대기는 bar라고 읽습니다. 그런 다음에 A 이렇게 붙여요. 
+<Sync Start=2457487><P Class=KRCC>
+읽을 때는 B bar A 이렇게 읽어요. 
+<Sync Start=2460787><P Class=KRCC>
+해석할 때는 B가 일어날 확률. P가 확률이라는 뜻이고 바로 옆에 있는 게 주인공이에요. 
+<Sync Start=2466645><P Class=KRCC>
+B가 일어날 확률인데 뭐가 일어났다는 조건하에? 
+<Sync Start=2468611><P Class=KRCC>
+A가 일어났다는 조건하에 B가 일어날 확률, 이렇게 읽습니다. 
+<Sync Start=2472476><P Class=KRCC>
+그러니까 사건 A가 여기 있어. 사건 B가 여기 있어. 
+<Sync Start=2478610><P Class=KRCC>
+표본 공간이 이렇게 있다고 생각을 해 보면 전체 확률이 얼마야? 시작. 1이잖아. 
+<Sync Start=2484483><P Class=KRCC>
+
+<Sync Start=2486651><P Class=KRCC>
+그냥 사건 B가 일어날 확률은 이게 바로 사건 B가 일어날 확률이잖아. 그렇지? 
+<Sync Start=2491439><P Class=KRCC>
+그런데 이거 구하는 게 아니라 잘 들어봐. a가 이미 일어났거든. 
+<Sync Start=2497814><P Class=KRCC>
+그러니까 원래는 얘가 전체 집합이잖아. 그게 아니라 이미 A가 일어났어. 
+<Sync Start=2503891><P Class=KRCC>
+폴리스 라인이 쳐져 있으니까 얘가 전체야. 이게 전체라고. 노란색 테두리가 전체라고. 
+<Sync Start=2510776><P Class=KRCC>
+
+<Sync Start=2517772><P Class=KRCC>
+얘는 고려할 대상이 아니야. 왜? 얘들은 A가 일어나지 않았잖아. 
+<Sync Start=2522540><P Class=KRCC>
+A가 일어났다는 조건하에 푸는 거니까 얘가 전체라고. 
+<Sync Start=2527760><P Class=KRCC>
+다른 말로 사건 A의 원석이 원래는 분모에 뭐 들어가는데? 
+<Sync Start=2533230><P Class=KRCC>
+표본 공간에 원소 개수가 들어가는 게 수학적 확률의 정의지만 
+<Sync Start=2536963><P Class=KRCC>
+조건부 확률은 A가 이미 일어났다는 조건하에 푸는 거니까 얘가 전체라니까. 
+<Sync Start=2541300><P Class=KRCC>
+
+<Sync Start=2543635><P Class=KRCC>
+그래서 A라는 사건의 원소 개수를 분모에 쓰는 거예요. 
+<Sync Start=2549290><P Class=KRCC>
+다른 말로 A가 일어나는 경우의 수를 분모에 쓰는 거야, 전체 자리에다가. 
+<Sync Start=2554077><P Class=KRCC>
+그럼 분자는 뭐겠어? 이 테두리 안에서 B 어딨어? 
+<Sync Start=2560012><P Class=KRCC>
+여기밖에 없잖아, 여기밖에 없잖아. 여기밖에 없잖아, 여기밖에. 
+<Sync Start=2566025><P Class=KRCC>
+그러니까 이 안에 들어있는 놈들 중에 B. 그걸 뭐라고 불러? 
+<Sync Start=2570964><P Class=KRCC>
+곱사건이라고 부르지. 동시에 일어나는 경우의 수를 분자에다 써주면 걔가 바로 뭐다? 시작. 
+<Sync Start=2579079><P Class=KRCC>
+A가 일어났다는 조건하에 B가 일어날 확률이 된다. 
+<Sync Start=2582844><P Class=KRCC>
+그런데 여러분, 분자 분모를 똑같이 표본 공간의 원소 개수로 나눠도 C의 값에 변화가 없을 텐데 
+<Sync Start=2589425><P Class=KRCC>
+그러자마자 얘는 일반적일 확률, 무슨 확률? 시작. A가 일어날 확률로 바뀌죠. 
+<Sync Start=2595642><P Class=KRCC>
+경우의 수가 확률로 바뀌고요. 얘도 시작. A와 B가 동시에 일어날 확률로 바뀌니까 
+<Sync Start=2602029><P Class=KRCC>
+교과서에 나오는 조건부 확률의 공식이 바로 뭐냐? 
+<Sync Start=2607083><P Class=KRCC>
+
+<Sync Start=2611719><P Class=KRCC>
+얘를 그대로 써서 P(A) 분의 P에 대해서 A∩B, 이렇게 나와 있는 거예요. <br>
+<Sync Start=2618856><P Class=KRCC>
+이 공식을 기억하고 계셔야 된다, 이런 얘기야. 
+<Sync Start=2621610><P Class=KRCC>
+
+<Sync Start=2624444><P Class=KRCC>
+너무 당연한 얘기다. 뭐가 이미 일어났으니까? 
+<Sync Start=2626944><P Class=KRCC>
+A가 이미 일어났으니까 걔가 분모구나, 이렇게 해석하시면 되고 
+<Sync Start=2632248><P Class=KRCC>
+그중에서 B니까 A가 일어난 것 중에서 B라는 것은 다른 말로 A와 B가 동시에 일어날 확률. 
+<Sync Start=2637859><P Class=KRCC>
+그러니까 막대기 뒤에 있는 게 분모, 분자는 막대기를 살짝 구부려서 B와 A의 시작. 
+<Sync Start=2646235><P Class=KRCC>
+곱사건, 교집합을 분자에다가 써주면 된다. <br>
+<Sync Start=2649660><P Class=KRCC>
+
+<Sync Start=2659988><P Class=KRCC>
+세 가지를 다 기억했으면 좋겠어요. 첫 번째, 조건부 확률의, 
+<Sync Start=2663775><P Class=KRCC>
+
+<Sync Start=2668236><P Class=KRCC>
+뭐라 그래? 환경, 분위기. 뭐야? 
+<Sync Start=2672972><P Class=KRCC>
+어떤 사건이 일어날 수도 있고 안 일어날 수 있는 상황에서 어떤 사건이 이미 일어나버렸어. 
+<Sync Start=2677684><P Class=KRCC>
+난 그때 현장에 없어서 누가 이런 일을 저질렀는지 범인이 누군지 몰라. 
+<Sync Start=2682346><P Class=KRCC>
+하지만 용의자는 용의자 1, 용의자 2, 용의자 3이 있어. 
+<Sync Start=2685878><P Class=KRCC>
+그중에서 용의자 1이 이랬을 확률. 그걸 뭐라고 하자? 조건부 확률. 
+<Sync Start=2690500><P Class=KRCC>
+두 번째로 또 기억해야 할 사항은 A가 일어났다는 조건하에 B가 일어날 확률은? 
+<Sync Start=2694723><P Class=KRCC>
+너무 당연한 거지. 안 외워도 되지 않니? 외우는 게 아니잖아. 
+<Sync Start=2698173><P Class=KRCC>
+이 중에서 얘가 될 확률이니까 얘가 분모, 얘가 분자. 
+<Sync Start=2703427><P Class=KRCC>
+이거분의 이거를 조건부 확률이라고 하는데 오늘은 조건부 확률의 뜻까지만 봤잖아요. <br>
+<Sync Start=2711758><P Class=KRCC>
+다음 시간에 진짜 본격적으로 조건부 확률 문제를 풀어보도록 하겠습니다. 수고하셨습니다.
+
+
+</BODY>
+</SAMI>

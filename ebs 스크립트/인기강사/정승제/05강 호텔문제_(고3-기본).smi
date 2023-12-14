@@ -1,0 +1,962 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+
+
+
+<Sync Start=4190><P Class=KRCC>
+조금 전에 타이틀에 호텔 문제, 함수의 개수 이렇게 써져 있는 것을 여러분, 보셨을 거예요. 
+<Sync Start=17512><P Class=KRCC>
+오늘 우리는 California로 떠납니다. 호텔 California. Eagles의 노래. 
+<Sync Start=24540><P Class=KRCC>
+작년까지만 해도 직접 제가 배경 음악을 깔아드렸는데 
+<Sync Start=27236><P Class=KRCC>
+올해는 최민 조교가 직접 불러준다는 얘기를 해서 최민 조교와 함께 
+<Sync Start=33807><P Class=KRCC>
+호텔 이야기를 들어가도록 할 거예요. 잘 봐. 호텔 문제 이게 뭔지 모르겠잖아? 
+<Sync Start=40322><P Class=KRCC>
+이게 진짜 중요한 문제거든. 또 하나는 함수의 개수 문제예요. 
+<Sync Start=48294><P Class=KRCC>
+이거 2개가 오늘 공부하게 될 중복 순열의 가장 대표적인 2가지 유형이에요. 
+<Sync Start=55108><P Class=KRCC>
+중복 순열의 가장 대표적인 게 하나는 호텔, 하나는 함수의 개수. 
+<Sync Start=59235><P Class=KRCC>
+결국은 똑같은 문제이긴 한데 이렇게 호텔 문제와 함수의 개수 문제. 
+<Sync Start=63118><P Class=KRCC>
+그래서 여러분들이 앞으로 어떤 어려운 문제를 만나더라도 냄새가 나는 거야. 
+<Sync Start=69394><P Class=KRCC>
+문제를 읽자마자 이건 호텔 문제랑 똑같겠구나라는 느낌이 들도록 만들 거거든요. 
+<Sync Start=76256><P Class=KRCC>
+어쩔 때는 뒤에서 공부하게 될 뒤뜰 야영 문제도 있고 호텔 문제도 있고 여러 가지가 있는데 
+<Sync Start=82066><P Class=KRCC>
+그중에서 오늘은 호텔 문제와 함수의 개수 문제. 결국 중복 순열을 공부하는 날이다. 
+<Sync Start=86720><P Class=KRCC>
+이렇게 보시면 돼요. 저번 시간에 뭐 배웠어요? 
+<Sync Start=91654><P Class=KRCC>
+이번 시간에는 중복 순열, 다음 시간은 같은 것을 포함하는 순열. 
+<Sync Start=100592><P Class=KRCC>
+그래서 이 3가지가 순열의 응용 파트. 이전에 순열의 뜻, 순열 Top5 공부한 거고. 됐어? 
+<Sync Start=111049><P Class=KRCC>
+그다음에 이제 이거 끝나면 조합 Top5. 그런데 이걸 이미 공부했었잖아. 
+<Sync Start=115542><P Class=KRCC>
+그래서 조합에서는 응용된 게 하나밖에 없어요. 그게 뭐게? 중복 조합 하나가 있어요. 
+<Sync Start=122092><P Class=KRCC>
+그래서 응용된 순열과 조합 4개 중에 두 번째 시간, 중복 순열에 대해서 공부하도록 하겠습니다. 
+<Sync Start=131358><P Class=KRCC>
+중복 순열은 일반적인 순혈이랑 뭐가 다르냐? 
+<Sync Start=134403><P Class=KRCC>
+중복 순열이라는 게 뭐냐 하면 중복을 해야 된다가 아니라 중복을 허락하는 거예요. 
+<Sync Start=141431><P Class=KRCC>
+중복을 허용하는 거야. 지금까지는 중복이 허용이 안 돼. 이게 무슨 말이냐? 
+<Sync Start=147531><P Class=KRCC>
+사람으로 예를 들었잖아요? 7명 중에서 3명을 뽑아서 줄 세우는 방법이 있어. ?P₃ 이렇게 썼지? 
+<Sync Start=155523><P Class=KRCC>
+이유가 뭐야? 3명을 뽑아서 줄을 세우려면 이 첫 번째 자리에 올 수 있는 방법의 수 몇 가지? 7가지. 
+<Sync Start=162868><P Class=KRCC>
+1명이 왔어. 그러면 이 두 번째 자리에 올 수 있는 방법의 수 몇 가지? 6가지였어. 왜? 
+<Sync Start=170675><P Class=KRCC>
+여기 승우가 앉아 있다면, 이미 왔다면 이 자리에 승우가 중복하게 또 올 수 있어, 없어? 없어. 
+<Sync Start=179138><P Class=KRCC>
+또 올 수 있는 거를 중복 순열이라 그래요. 그러니까 사람은 불가능하잖아요.
+<Sync Start=183987><P Class=KRCC>
+그래서 이 중복 순열은 보통 문자를 가지고 얘기해요. 
+<Sync Start=188465><P Class=KRCC>
+a, b, c, d, e, f, g 하나, 둘, 셋, 넷, 다섯, 여섯, 일곱. 
+<Sync Start=195749><P Class=KRCC>
+7개의 문자들을 중복을 허용해서 나열을 할 때 세 자리 문자열의 개수를 구하시오. 
+<Sync Start=206944><P Class=KRCC>
+이게 바로 중복 순열이야. 서로 다른 7개 문자, 1번 왔던 건 또 와도 된다. 중복이 허용된다. 
+<Sync Start=216357><P Class=KRCC>
+7개의 문자 중에서 몇 개를? 3개를 뽑아서 나열한다. 이런 걸 사람들은 문자 열 그래요. 
+<Sync Start=223030><P Class=KRCC>
+문자들을 나열했다고 그래서. 
+<Sync Start=227647><P Class=KRCC>
+7개의 문자들을 가지고 3개를 나열할 때 중복을 허용해서 나열하는 방법의 수를 구하시오를 
+<Sync Start=237462><P Class=KRCC>
+사람들은 뭐라 그래? 중복순이라 그래요. 그러면 아까는 이 자리에 올 수 있는 경우에서 7가지. 
+<Sync Start=242894><P Class=KRCC>
+지금도 7가지. 왜? a, b, c, d, e, f, g 중에 하나. 아직 끝나지 않았고. 
+<Sync Start=247959><P Class=KRCC>
+두 번째 자리에 올 수 있는 의 수 몇 가지야? 7가지지. 왜? 왔던 거 또 와도 되니까. 
+<Sync Start=253334><P Class=KRCC>
+여기에 a 썼는데 다시 써도 상관없어. 그러면 여기 올 수 있는 방법이 지금 몇 가지? 채민아, 시작. 
+<Sync Start=259732><P Class=KRCC>
+-7가지. 
+<Sync Start=259851><P Class=KRCC>
+-그래요, 7가지. 그래서 얘가 답이라는 거야. 
+<Sync Start=264794><P Class=KRCC>
+중복을 허용하지 않으면 7명 중에서 3명을 뽑아서 줄 세우는 방법에서는 ?P₃인데 중복을 허용해서 
+<Sync Start=278849><P Class=KRCC>
+3개를 뽑아서 배열하는 방법의 수를 앞으로는 중복 순열이라 그러고 P를 사용하는 것이 아니라 
+<Sync Start=288560><P Class=KRCC>
+π를 사용할 거예요. 그래서 그걸 뭐라 그러냐면 7π3 그래요. nπr이 뭐겠어요? 
+<Sync Start=296104><P Class=KRCC>
+서로 다른 n개의 문자 중에서 r개를 뽑아서 배열하는 방법의 수인데 중복을 허용해서 뽑을 수 있다. 
+<Sync Start=306081><P Class=KRCC>
+이런 걸 뭐라 그런다고? 중복 순열이 된다. 그러면 조금 전에 했던 거나 마찬가지잖아요. 
+<Sync Start=310432><P Class=KRCC>
+결국 최종적인 답은 뭐니까? 7x7. 왔던 거 또 오를 수 있으니까. 그러면 이게 얼마야? 7³이죠? 
+<Sync Start=319535><P Class=KRCC>
+그래서 이렇게 외운다고. 지금 π 이렇게 생겼잖아요? 3을 여기에 태워요. 
+<Sync Start=331567><P Class=KRCC>
+그다음에 탄성을 이용하는 거지. 여기를 딱 잡고 이렇게 밑으로 내려. 
+<Sync Start=336294><P Class=KRCC>
+놓으면 3이 팍 올라가서 7 위에 팍 앉는다고 내가 참 20대 때 수업할 때 그렇게 했다. 
+<Sync Start=344718><P Class=KRCC>
+참 유치하게도 수업했지? 반성을 많이 했어, 내가. 
+<Sync Start=353787><P Class=KRCC>
+그래서 n개의 문자를 가지고 r개를 뽑아서 중복을 허용해서 배열하는 방법의 수를 구하라고 그러면 
+<Sync Start=359742><P Class=KRCC>
+nπr이고 r을 이 위에 살짝 올리는 거니까 n의 r제곱이 되는데 제발 이렇게 하지 마요가 
+<Sync Start=370029><P Class=KRCC>
+내가 여러분한테 당부드리고 싶은 말씀이에요. 
+<Sync Start=374805><P Class=KRCC>
+π라는 표현을 쓴다까지는 알아두되 실제로는 π를 쓰지 말라고. 왜? 
+<Sync Start=380664><P Class=KRCC>
+π를 쓸 수 있는 경우가 그렇게 많지가 않아요. 
+<Sync Start=383561><P Class=KRCC>
+어떻게 하는 게 훨씬 나은 방법이냐면 앞으로 중복을 허용한다는 얘기가 있잖아. 
+<Sync Start=389489><P Class=KRCC>
+그러면 P을 사용하지 않고 무조건 곱의 법칙으로 푼다. 다른 말로 인터뷰를 하는 거야. 
+<Sync Start=397564><P Class=KRCC>
+첫 번째 자리에 올 수 있는 경우 세고 두 번째 자리에 올 수 있는 경우 세고, 
+<Sync Start=402947><P Class=KRCC>
+세 번째 자리에 올 수 있는 경우를 직접 세서 곱한다. 다른 말로 인터뷰한다. 
+<Sync Start=407755><P Class=KRCC>
+중복을 허용한다 그러면 무조건 곱의 법칙으로 푼다. 그게 끝이에요. 
+<Sync Start=410679><P Class=KRCC>
+π라는 말 자체를 하지 말라니까? 
+<Sync Start=414669><P Class=KRCC>
+설명은 했으니까 알아는 두되 중복 순열 문제를 π로 실제로 사용하는 경우는 거의 없다고. 왜? 
+<Sync Start=422410><P Class=KRCC>
+여러 가지 조건이 들어가면 이렇게 단순하게 n의 r제곱으로 끝날 문제들은 안 나온다고 보는 게 맞아.
+<Sync Start=429340><P Class=KRCC>
+그래서 뭐가 더 현실적이고 좋은 방법이냐면 중복을 허용한다는 얘기가 있으면 무조건 인터뷰하자. 
+<Sync Start=437130><P Class=KRCC>
+첫 번째 자리에 올 수 있는 경우의 수 세고 두 번째 자리에 올 수 있는 경우의 수 세고, 
+<Sync Start=441975><P Class=KRCC>
+세 번째 자리에 올 수 있는 경우의 수 다 곱해버리면 끝이라는 거. 그렇게 풀자 이거예요.
+<Sync Start=449440><P Class=KRCC>
+
+<Sync Start=464896><P Class=KRCC>
+모스 부호 알아요? 얘랑 얘로만 이루어지는 거야. SOS 이런 거. 
+<Sync Start=473829><P Class=KRCC>
+예전에 휴대폰 없던 시절일 텐데 조난 신호 이런 거. 
+<Sync Start=479933><P Class=KRCC>
+그래서 종류가 2개야. -랑 ·이 있어. -를 찍이라고 읽을게. 우리끼리 찍. 그다음에 짠. 
+<Sync Start=488251><P Class=KRCC>
+이거를 이용해서 -·-는 지금 신호 몇 개짜리야? 3개짜리잖아. 
+<Sync Start=493450><P Class=KRCC>
+5개 이하로 이루어진 총신호의 가지 수를 구하시오. 뭐라고 그랬어, 내가? 
+<Sync Start=500553><P Class=KRCC>
+5개 이하로 만들 수 있는. 그러면 분류하는 거야. 선생님, 분류하는 게 뭡니까? 
+<Sync Start=507001><P Class=KRCC>
+첫 번째 다섯 자리 신호의 개수, 두 번째 네 자리 신호의 개수, 세 번째 세 자리 신호의 개수. 
+<Sync Start=515393><P Class=KRCC>
+다섯 자리 이하라 그랬으니까 두 자리 신호의 개수, 
+<Sync Start=519764><P Class=KRCC>
+한 자리 신호의 개수를 각각 센 다음에 맨 마지막에 뭐 하자? 더하자. 
+<Sync Start=523739><P Class=KRCC>
+다섯 자리 이하는 이거밖에 없으니까 동시에 일어날 수 없도록 빠짐없이 만족하는 거야. 
+<Sync Start=529610><P Class=KRCC>
+그러면 다섯 자리 신호의 개수를 세라 그러면 어떻게 하면 되나? 
+<Sync Start=533170><P Class=KRCC>
+이 자리에 올 수 있는 경우의 수? 뭐 아니면 뭐야? 찍 아니면 짠이라니까. 
+<Sync Start=538500><P Class=KRCC>
+그러니까 몇 가지? 2가지. 여기는? 2가지. 이게 바로 곱의 법칙. 이게 바로 인터뷰하는 거라고. 
+<Sync Start=543946><P Class=KRCC>
+π를 쓰지 말라고 이렇게 그냥 풀라고요. 여기 2가지. 그래서 얘는 몇 가지? 2의 5제곱 가지. 돼요? 
+<Sync Start=553576><P Class=KRCC>
+이 자리에 올 수 있는 거 찍 아니면 짠, 찍 아니면 짠, 찍 아니면 짠, 2⁴. 됐지? 
+<Sync Start=564449><P Class=KRCC>
+이거를 더하면 답이지. 왜? 합의 법칙. 분류한 다음에는 더하라 그랬으니까. 
+<Sync Start=569560><P Class=KRCC>
+그런데 어떻게 더하는 게 좋겠어요? 이건 간단하니까. 그냥 직접 더해도 되는데요. 등비수열이잖아. 
+<Sync Start=574488><P Class=KRCC>
+첫째 항이 2고 공비가 2인 등비수열이니까 공비-1, 공비-1. 항은 5개, 첫째 항은 2. 
+<Sync Start=581969><P Class=KRCC>
+그래서 얘를 계산해 주시면 되죠? 32-하니까 31. 31x2배 하니까 답은 62가지 신호의 개수가 생긴다. 
+<Sync Start=591088><P Class=KRCC>
+이렇게 중복을 허용한다는 얘기가 나오면 무조건 인터뷰하라가 끝입니다. 인터뷰하라. 
+<Sync Start=598469><P Class=KRCC>
+여기까지 듣고 일반적인 중복 순열 문제를 지금부터 풀 텐데 가지고 있는 교재의 순서를 살짝 바꿀게.
+<Sync Start=605612><P Class=KRCC>
+가장 밑에 있는 7페이지 가장 밑에 있는 유제 4번 문제부터 풀겠습니다. 
+<Sync Start=609403><P Class=KRCC>
+얘가 일반적인 중복 순열 문제고요. 그 위에 있는 예제 유제 3번이 호텔 문제고요. 
+<Sync Start=620261><P Class=KRCC>
+그 위에 있는 게 함수의 개수 문제입니다. 그래서 일단 얘 먼저 풀겠습니다. 
+<Sync Start=625217><P Class=KRCC>
+6개의 숫자 읽어볼게. 1, 2, 3, 4, 5, 6 중에서 중복을 허락해서 택한 3개의 수를 일렬로 나열하여 
+<Sync Start=632684><P Class=KRCC>
+세 자리 자연수를 만든대. 아무 얘기하지 마 봐. 여기까지만 문제가 나왔다고 생각해 봐. 
+<Sync Start=638583><P Class=KRCC>
+그러면 답을 써보자. 여기까지만 문제야. 중복을 허락해서 세 자리 자연수를 만든대. 
+<Sync Start=642930><P Class=KRCC>
+예를 들어서 이렇게 돼 있으면 232라는 자연수가 생기는 거야. 지금 무슨 말인지 알겠지? 
+<Sync Start=647850><P Class=KRCC>
+100의 자리에 올 수 있는 방법의 수 몇 가지? 6가지. 왜? 1, 2, 3, 4, 5, 6 아무거나 올 수 있잖아. 
+<Sync Start=653450><P Class=KRCC>
+이 자리에 올 수 있는 것이 6가지, 이 자리에 올 수 있는 것이 6가지. 
+<Sync Start=656776><P Class=KRCC>
+무조건 곱의 법칙 인터뷰하라고. 언제? 중복이 허용된다는 말만 있으면 무조건 곱의 법칙으로 푼다. 
+<Sync Start=664462><P Class=KRCC>
+P이라는 기호를 사용하지 않는다. 무조건 곱의 법칙으로 푼다. 6³, 216 가지가 답이었을 거야. 
+<Sync Start=674374><P Class=KRCC>
+그런데 문제가 뭔지 아니? 1이 반드시 들어있는. 1이 반드시 들어있는 자연수의 개수 구하래. 
+<Sync Start=683023><P Class=KRCC>
+세 자리 자연수의 개수. 1이 반드시 포함돼야 돼. 
+<Sync Start=685861><P Class=KRCC>
+그러면 이거를 1이 반드시 포함되라고 그랬으니까 잘 들어봐. 
+<Sync Start=690032><P Class=KRCC>
+1이 하나 포함될 수도 있고 2개 포함될 수 있고 3개 포함될 수도 있겠지? 
+<Sync Start=693828><P Class=KRCC>
+그래서 분류해서 푸는 방법이 있어. 그런데 난 그렇게 안 할 거야. 더 좋은 방법 뭐게? 여사건. 
+<Sync Start=703704><P Class=KRCC>
+1이 제발 포함돼 주세요. 이러고 있잖아. 여사건이 뭐야? 1이 없는 세 자리 자연수. 
+<Sync Start=710749><P Class=KRCC>
+이게 어차피 전체의 경우의 수니까 여기서 빼는 거지. 
+<Sync Start=716133><P Class=KRCC>
+1이 사용되지 않는 세 자리를 빼면, 전체에서 1이 하나도 없는 걸 다 빼면 1은 들어있을 거 아니에요.
+<Sync Start=725066><P Class=KRCC>
+그렇게 여사건을 이용하자. 적어도라는 말이 없지만. 여사건을 이용하자, 1을. 
+<Sync Start=733456><P Class=KRCC>
+그러면 1을 안 써서 만드는 세 자리 자연수의 개수를 세라. 그럼 1을 집에 보내. 
+<Sync Start=742129><P Class=KRCC>
+그러면 숫자 몇 개 있어요? 5개. 100의 자리에 올 수 있는 방법의 수. 5가지. 10의 자리? 5가지. 
+<Sync Start=748275><P Class=KRCC>
+1의 자리? 5가지. 그래서 최종적인 답은 6의³, 216-5³=125가 돼서 1이 되고 9가 되고요. 
+<Sync Start=757286><P Class=KRCC>
+최종적인 답은 91. 답은 ③번 처리하시면 되죠? 재밌습니까? 여기까지가 중복 순열 문제입니다.
+<Sync Start=772134><P Class=KRCC>
+가장 기본적인 중복 순열이었고 이제 본격적으로 들어갈게. 무슨 문제로? 호텔 문제. 
+<Sync Start=777701><P Class=KRCC>
+지금부터 초집중하셔야 돼. 교재에는 없는 이야기야. 호텔 문제가 뭐지? 
+<Sync Start=782712><P Class=KRCC>
+여러분을 세뇌시키도록 하는 겁니다. 내가 그랬잖아요. 
+<Sync Start=787441><P Class=KRCC>
+이거 경우의 수 못하는 친구들은 대부분 서로 같은 n개를 같은 표로 만들어서 
+<Sync Start=792308><P Class=KRCC>
+이때는 얘를 이용하고 이때는, 막 문제를 보자마자 이 중에 뭐지? 
+<Sync Start=795419><P Class=KRCC>
+이렇게 계산하는 애들은 조금이라도 신유형 문제 나오고 여러 가지를 따져보는 문제 나오면 못해.
+<Sync Start=802619><P Class=KRCC>
+가슴으로 풀어야 돼. 외워서 유형을 분류해서 풀면 안 된다고. 
+<Sync Start=809230><P Class=KRCC>
+문제를 읽자마자 지금과 같은 느낌이 오면 무조건 호텔 문제입니다. 
+<Sync Start=814721><P Class=KRCC>
+
+<Sync Start=820447><P Class=KRCC>
+음악 깔자. 난 안 하려고 그랬는데 그래도 섭섭하네. 
+<Sync Start=825974><P Class=KRCC>
+여러분, Eagles라는 그룹이 여러 가지 버전이 있는데 제가 제일 좋아하는 버전이 뭐냐 하면 
+<Sync Start=842208><P Class=KRCC>
+1994년도 버전이거든요? 내가 살짝 그림을 그려야 되거든, 지금부터? 
+<Sync Start=848370><P Class=KRCC>
+그동안 이 음악을 제가 좋아하는 1994년 버전으로 한번 들어보시길 바랍니다. 좋다. 
+<Sync Start=865448><P Class=KRCC>
+
+<Sync Start=912157><P Class=KRCC>
+음악, 너무 좋지 않니? 그런데 이분들 공연 실황 보면 슬리퍼 신고 반바지 입고 그냥 이렇게 해. 
+<Sync Start=923478><P Class=KRCC>
+앞에 관객은 10만 명이 쫙 깔려 있고, 동네 아저씨같이 생겼어. 
+<Sync Start=930032><P Class=KRCC>
+그런데 지금 이 노래하시는 분은 드러머야. 
+<Sync Start=932486><P Class=KRCC>
+드럼 치면서 이거를 음 하나도 안 틀리고 완벽하게 하는 사람이. 정말 놀랍습니다. 
+<Sync Start=939943><P Class=KRCC>
+이거 영상으로 보셔야 됩니다. 
+<Sync Start=942692><P Class=KRCC>
+
+<Sync Start=1001704><P Class=KRCC>
+내가 그림을 못 그려서. 
+<Sync Start=1004466><P Class=KRCC>
+
+<Sync Start=1088795><P Class=KRCC>
+배경 설명을 하자면 여기는 California 주에 있는 Los Angeles. 그 언덕 무슨 언덕이지? 
+<Sync Start=1100670><P Class=KRCC>
+Beverly Hills에서 조금 서쪽으로 쭉 가다 보면 Hollywood 표지가 있는 큰 산. 
+<Sync Start=1111680><P Class=KRCC>
+Hollywood 거기 아카데미 시상식 하는 데 거기 끝에 w 호텔에서 이렇게 램프로 빠진 다음에 
+<Sync Start=1122870><P Class=KRCC>
+조금만 더 가면 LA 다저스 홈구장이 나와. 거기에서 내가 그때 w 호텔에 묵고 있었거든? 
+<Sync Start=1129458><P Class=KRCC>
+w 호텔을 살짝 들러서, 가평 분위기야. 나 깜짝 놀랐어. 나는 뉴욕에만 가봤었거든, 미국을? 
+<Sync Start=1142495><P Class=KRCC>
+뉴욕은 높은 건물 막 이러잖아. 
+<Sync Start=1144514><P Class=KRCC>
+그런데 LA는 거기 신시가지 그쪽은 물론 높은 빌딩이 아주 협소한 구역 안에 있는데 
+<Sync Start=1151686><P Class=KRCC>
+그 유명한 Hollywood, 나는 Hollywood 그러면 완전 미국 냄새나고 막 이럴 줄 알았는데. 
+<Sync Start=1158494><P Class=KRCC>
+내가 군 생활을 가평에서 했거든? 가평이랑 똑같아. 가평군청 앞. 왜? 모든 건물이 다 3, 4, 5층. 
+<Sync Start=1166313><P Class=KRCC>
+그 정도 된 게 시골에 쫙 깔려 있어요. 
+<Sync Start=1169004><P Class=KRCC>
+그리고 바닥에는 Moviestar들 손바닥 찍은 게 도로에 쫙. 
+<Sync Start=1179809><P Class=KRCC>
+거기에서 한참 더 가면 고급스러운 분위기가 보여요. 아마 Beverly Hills였던 것 같아. 
+<Sync Start=1186360><P Class=KRCC>
+바로 앞에 명품거리가 쫙 나와. 
+<Sync Start=1192446><P Class=KRCC>
+내가 그때 구경을 하려고 들어가려고 그랬는데 문 앞을 지키고 있던 사람이 
+<Sync Start=1199994><P Class=KRCC>
+아무 말 안 하고 이랬었던 기억이 나. 왜 못 들어가게 해? 나는 항상 그래. 그 얘기도 했었죠? 
+<Sync Start=1208087><P Class=KRCC>
+예전에 신사역에서 킹크랩 먹으려고, 지금 비싸잖아. 
+<Sync Start=1215781><P Class=KRCC>
+그런데 킹크랩 먹으려고 내가 딱 들어갔는데 "어서 오십시오." 그래야 되잖아? 
+<Sync Start=1220620><P Class=KRCC>
+그런데 날 보자마자 "어떻게 오셨어요?" 이러는 거야. "저 게 먹으러 왔죠." 
+<Sync Start=1228795><P Class=KRCC>
+"아~" 그러더니 아래위로 막 훑어. "들어가세요." 이러시더라고. 
+<Sync Start=1235259><P Class=KRCC>
+그런데 미국 사람은 외국 영화에 나오는 것처럼 이렇게 흑인이었는데, 아주 몸 좋은 사람 있잖아. 
+<Sync Start=1244471><P Class=KRCC>
+내가 들어가려고 그러니까. 못 들어갔어요. 
+<Sync Start=1249693><P Class=KRCC>
+그 상태에서 곧바로 차를 몰고 바닷가 쪽을 갔는데 주차장에 딱 세워놓고 이제 "바다네." 
+<Sync Start=1260372><P Class=KRCC>
+그러고 딱 나왔더니 이 광경이 펼쳐진 거야. 저 멀리 대관람차가 저렇게 쫙 있었고요. 
+<Sync Start=1276049><P Class=KRCC>
+이게 나무로 돼 있어요. 여기가 지금 바닷물이야, 밑에는. 
+<Sync Start=1279763><P Class=KRCC>
+여기 지금 바다를 나무로 된 구조물 위에 여기 놀이동산처럼 대관람차가 있고 
+<Sync Start=1286078><P Class=KRCC>
+여기에 건물 있고 여기 샌드위치도 팔고 여기 맥주랑 안주 같은 거 팔고 이런 길이 
+<Sync Start=1292234><P Class=KRCC>
+이렇게 가운데 쫙 나와 있어. 저기를 가야겠다는 생각을 했어. 여기 나오네요. 
+<Sync Start=1299768><P Class=KRCC>
+이거 학생들한테 보여줄 수 있나? 여기야. 이게 지금 다 나무로 된 거야. 
+<Sync Start=1307523><P Class=KRCC>
+이거 나무로 돼 있고 여기 대관람차 보이잖아요. 여기가 이렇게 쭉 이렇게 나와 있는 거야. 
+<Sync Start=1315971><P Class=KRCC>
+그러니까 내가 이쪽에서. 여기 있다, 대관람차. 여기에서 이쪽으로 더 가면 음악 소리가 계속 들려. 
+<Sync Start=1326927><P Class=KRCC>
+이때 내가 뭘 들었었냐면 싸이의 강남 스타일이 이때 여기서 들렸어요. 어디 있어? 
+<Sync Start=1333123><P Class=KRCC>
+조금 전에 그 그림. 여기에서 생맥주 한 잔 했어요, 이 자리에서. 
+<Sync Start=1344980><P Class=KRCC>
+그리고 여기서 다시 와서 이렇게 딱 걸어서. 내가 주차는 이쪽에다가 해놨었거든. 
+<Sync Start=1350283><P Class=KRCC>
+하여간 Santa Monica가 아주 유명한 해변이거든요. 거기에 호텔이 3개가 있다. 여기 보이잖아.
+<Sync Start=1359230><P Class=KRCC>
+여기, 이게 바로 호텔 California. 호텔 3개 비슷하게 생겼잖아요. 하나, 둘, 셋. 이렇게 생겼다니까?
+<Sync Start=1365436><P Class=KRCC>
+이렇게 생긴 호텔 보이죠? 호텔 3개가 이렇게 놓여져 있다. 지금 이 느낌을 얻어야 돼. 
+<Sync Start=1370954><P Class=KRCC>
+내가 일부러 지금 시각적으로, 청각적으로 시청각 교육을 하고 있는 거야. 냄새가 확 나도록. 
+<Sync Start=1379504><P Class=KRCC>
+여기에 5명이 놀러 온 거야. 이름 뭐야? p, q, r, s, t. 
+<Sync Start=1385256><P Class=KRCC>
+5명의 학생이 Santa Monica 해변에 있는 호텔 3개가 보이는 아름다운 해변가를 걷고 있었어요.
+<Sync Start=1396543><P Class=KRCC>
+5명이 3개의 호텔. 문제다. p, q, r, s, t 5명이 3개의 호텔 A, B, C에 나누어 투숙. 
+<Sync Start=1413473><P Class=KRCC>
+이게 아주 유명한 말이거든? 나누어 투숙하는 방법의 수를 계산하시오. 
+<Sync Start=1418801><P Class=KRCC>
+이거를 우리끼리 호텔 문제라 그러자고. p, q, r, s, t 5명이 여기서 자려고 그러는 거야. 
+<Sync Start=1431467><P Class=KRCC>
+그런데 호텔이다 보니까 얘네 둘이 같은 호텔에 자도 되죠? 
+<Sync Start=1436508><P Class=KRCC>
+그러니까 5명 전체가 A에서 자도 돼. 5명 전체가 B에서 자도 돼. 
+<Sync Start=1442172><P Class=KRCC>
+1명은 여기, 2명은 여기, 2명은 여기 이렇게 자도 돼. 그러니까 빈 호텔이 있어도 상관없어. 
+<Sync Start=1450869><P Class=KRCC>
+호텔을 이용하지 않아도 돼. 단 5명이 반드시 3개 호텔 구역 안에서만 투숙해야 돼. 
+<Sync Start=1459297><P Class=KRCC>
+그런 방법의 수를 계산하시오가 호텔 문제예요. 여기서 얘기하는 나누어 투숙이라는 게 뭐라고요? 
+<Sync Start=1467993><P Class=KRCC>
+빈 호텔이 있어도 좋은 거야. 그게 디폴트값이야. 이게 호텔 문제의 가장 정상적인 이야기야. 
+<Sync Start=1475106><P Class=KRCC>
+5명이 3개 호텔에 나누어 투숙한다. 내가 꼭 이렇게 그렸잖아, 지금. 그림도 5명이 다 다르죠? 
+<Sync Start=1484218><P Class=KRCC>
+호텔도 내가 다 다르게 그렸지? 
+<Sync Start=1487647><P Class=KRCC>
+여러분에게 서로 다른, 서로 같은 이런 얘기 따로 안 하려고 
+<Sync Start=1493406><P Class=KRCC>
+자연스럽게 가슴으로 느낄 수 있도록 만들기 위해서 이렇게 설명하고 있는 중입니다. 
+<Sync Start=1499762><P Class=KRCC>
+언제든지 얘기할 수 있도록 하자고. p, q, r, s, t 5명이 서로 다른 호텔 A, B, C,
+<Sync Start=1504497><P Class=KRCC>
+3개 호텔에 나눠 투숙한다. 한 호텔에 몰빵해도 되고요. 2개 호텔을 자도 되고요. 
+<Sync Start=1509821><P Class=KRCC>
+3개의 호텔에 자도 됩니다. 방법의 수를 계산하시오 이렇게 돼 있어요. 어떻게 하면 되게요? 
+<Sync Start=1516747><P Class=KRCC>
+얘가 A에서 잤다고 해서 얘가 A에서 못 자는 건 아니잖아. 중복해서 계속 잘 수 있기 때문에. 
+<Sync Start=1521139><P Class=KRCC>
+이런 것을 사람들이 뭐라 그러냐면 중복 순열이라 그러는데 중복 순열 어떻게 푼다 그랬어요? 
+<Sync Start=1525204><P Class=KRCC>
+인터뷰한다 그랬잖아요. 누구랑 인터뷰하느냐? 잘 들어봐. 사람이랑 인터뷰하면 돼. 
+<Sync Start=1533021><P Class=KRCC>
+호텔이랑 인터뷰하는 게 아니라 사람이랑 인터뷰하시면 돼요. 어떻게 해? 
+<Sync Start=1537870><P Class=KRCC>
+네가 투숙하는 방법의 수는 몇 가지냐? 네가 투숙하는 방법의 수는 몇 가지냐? 
+<Sync Start=1544558><P Class=KRCC>
+너는 몇 가지며 너는 몇 가지고, 너는 몇 가지냐? 
+<Sync Start=1550063><P Class=KRCC>
+얘네들한테 인터뷰하면 네가 받을 수 있는 손님의 가지 수는 몇 가지?  
+<Sync Start=1554516><P Class=KRCC>
+이게 아니라 누구랑? 사람이랑. 호텔은 고정되어 있고 사람이 들어가잖아요. 
+<Sync Start=1563952><P Class=KRCC>
+움직여서 들어가는 놈, 사람들이랑 인터뷰한다고. 이거 똑같은 문제. 잘 들어봐. 
+<Sync Start=1569399><P Class=KRCC>
+내가 지금 하는 말 잘 들어봐. 
+<Sync Start=1571249><P Class=KRCC>
+서로 다른 다섯 송이의 꽃을 서로 다른 3개의 꽃병에 나누어 꽂는 경우의 수. 100% 같은 말. 
+<Sync Start=1583598><P Class=KRCC>
+그러니까 그 느낌이 딱 들면 호텔 문제구나 이러셔야 된다고. 어떤 문제는 이럴 수도 있어요. 
+<Sync Start=1595007><P Class=KRCC>
+어떻게 나오냐면 A, B, C 3명이 서로 다른 5개의 사탕을 나누어 먹는 경우의 수. 같은 말. 
+<Sync Start=1606227><P Class=KRCC>
+왜? 사람은 아~ 벌리고 있고 누가 움직여? 사탕이 움직이잖아. 그러면 사탕이랑 인터뷰하는 거야. 
+<Sync Start=1615027><P Class=KRCC>
+그런데 어떨 땐 이런 문제가 나올 수 있어. 
+<Sync Start=1619576><P Class=KRCC>
+서로 다른 3명에게 서로 같은, 구별하지 않는 5개의 초콜릿을 나눠주는 방법의 수를 구하시오. 
+<Sync Start=1628398><P Class=KRCC>
+이런 문제도 나오거든? 그건 호텔 문제가 아니라는 거지. 
+<Sync Start=1631712><P Class=KRCC>
+내가 지금 여러분한테 말씀드리고 싶은 호텔 문제의 분위기는 바로 이 분위기. 
+<Sync Start=1637178><P Class=KRCC>
+전부 다르게 생긴 5명이 전부 다르게 생긴 3개의 호텔에 나누어 투숙한다. 
+<Sync Start=1643088><P Class=KRCC>
+단 빈 호텔이 있어도 된다, 안 된다? 된다. 이럴 때 누구랑 인터뷰한다? 
+<Sync Start=1649343><P Class=KRCC>
+움직이는 애들이랑 인터뷰한다. p, q, r, s, t 5명 사람이랑 인터뷰한다. 
+<Sync Start=1655227><P Class=KRCC>
+네가 선택할 수 있는 호텔 얘 A에서 잘 수 있고 B에서 잘 수 있고, C에서 잘 수도 있으니까 3가지. 
+<Sync Start=1660612><P Class=KRCC>
+얘는? 마찬가지로 3가지. 그래서 중복 순열이에요. 얘가 선택한 거를 또 선택해도 되니까, 중복. 
+<Sync Start=1669966><P Class=KRCC>
+r도 몇 가지? 3가지. s도 몇 가지? 3가지. t도 몇 가지? 3가지. 
+<Sync Start=1673202><P Class=KRCC>
+그래서 최종적인 답은 3의 5제곱 가지니까 243가지다. 이게 바로 호텔 문제라는 겁니다. 
+<Sync Start=1682118><P Class=KRCC>
+①번 조금 이벤트를 줄게. 
+<Sync Start=1688833><P Class=KRCC>
+p, q, r, s, t 5명이 3개 호텔 A, B, C에 나누어 투숙하도록 할 때 
+<Sync Start=1695959><P Class=KRCC>
+①번 p와 q가 같은 호텔에 투숙하는 방법의 수를 구하시오. 
+<Sync Start=1709445><P Class=KRCC>
+②번 p와 q가 다른 호텔에 투숙하는 방법의 수를 구하시오. 마찬가지로 호텔 문제니까. 
+<Sync Start=1719394><P Class=KRCC>
+왜 호텔 문제야? 5명이 서로 다른 3개 호텔이니까 호텔 문제라니까. 누구랑 인터뷰한다? 
+<Sync Start=1726396><P Class=KRCC>
+움직이는 사람이랑 인터뷰한다. p한테 물어보겠어. p가 선택할 수 있는 호텔의 개수 몇 가지? 3가지.
+<Sync Start=1734842><P Class=KRCC>
+q가 투숙하는 방법의 수 몇 가지? 1가지. 왜? p와 q가 같은 호텔에 투숙하라 그랬으니까. 
+<Sync Start=1747587><P Class=KRCC>
+남편이야. 3가지라고, 채민이. 큰일 나려고. 남편이 지금 여기로 들어갔다고, A호텔에. 따라가세요. 
+<Sync Start=1762394><P Class=KRCC>
+같은 호텔. 아니, p가 지금 들어갔잖아. 확정 지어도 돼. 
+<Sync Start=1766223><P Class=KRCC>
+p는 A, B, C 3가지지만 그중에 하나가 확정된 거야, 지금. 그러면 q는 똑같이 따라가야 돼. 
+<Sync Start=1774186><P Class=KRCC>
+왜? 같은 호텔에 투숙하라고 그랬으니까, 1명당 1가지고. r, s, t 3명은 자유가 있잖아요. 
+<Sync Start=1779880><P Class=KRCC>
+그러니까 A, B, C 아무 데나 자면 된다 이 얘기예요. 그래서 3⁴ 가지니까 81 가지가 돼요. 
+<Sync Start=1786170><P Class=KRCC>
+여기까지 동의해요? 이렇게 푸는 거야. 이게 바로 호텔 문제다. 
+<Sync Start=1792819><P Class=KRCC>
+두 번째 p와 q가 다른 호텔에 투숙하는 방법의 수. 마찬가지로 다시 인터뷰 시작하시면 돼. 
+<Sync Start=1798951><P Class=KRCC>
+p가 투숙하는 방법의 수. A, B, C 3가지. q는 2가지. 
+<Sync Start=1804986><P Class=KRCC>
+이번에는 서로 다른 호텔이니까 조금 전에 q가 들어갔잖아? 
+<Sync Start=1808132><P Class=KRCC>
+A에 들어갔다면 다른 호텔은 B와 C밖에 없으니까 q가 선택할 수 있는 것은 B, C 2가지다. 
+<Sync Start=1816371><P Class=KRCC>
+일 끝나지 않았고 r은 자유가 있지? 그래서 답은 81의 2배니까 162가지다. 이렇게 처리하시는 거예요.
+<Sync Start=1824284><P Class=KRCC>
+이게 바로 호텔 문제다. 문제를 좀 바꿔서 얘기할게. 이게 호텔 문제인지 아닌지 봐봐. 
+<Sync Start=1832012><P Class=KRCC>
+같은 종류의 장미꽃 다섯 송이를 서로 다른 꽃병에 나누어 담는 방법의 수를 계산하시오. 
+<Sync Start=1840187><P Class=KRCC>
+호텔 문제야? 아니야. p, q, r, s, t 서로 다른 5명이 서로 다른 3개 호텔이야. 
+<Sync Start=1851526><P Class=KRCC>
+서로 다른 편지 다섯 통을 서로 다른 우체통 3개에 나누어 담는 경우의 수를 구하시오. 
+<Sync Start=1863823><P Class=KRCC>
+뭐야? 호텔 문제. 그렇게 문제를 읽자마자 이거 호텔이구나라는 것을 느끼셔야 됩니다. 
+<Sync Start=1869967><P Class=KRCC>
+그러면 편지가 움직이니, 우체통이 움직이니? 편지가 움직이잖아요. 
+<Sync Start=1875473><P Class=KRCC>
+그러면 누구랑 인터뷰한다? 편지 다섯 통이랑 인터뷰하는 거야. 
+<Sync Start=1879503><P Class=KRCC>
+네가 선택할 수 있는 우체통 몇 가지? 3가지, 3가지, 3가지, 3가지. 이렇게 처리하시면 됩니다. 
+<Sync Start=1887064><P Class=KRCC>
+한 학급에 10명이 있다. 아니다. 전교생 10명을. 10명 싫다. 
+<Sync Start=1900478><P Class=KRCC>
+전교생 5명을 스타렉스, 카니발 12인승, 스프린터에 나누어 태우는 방법의 수를 계산하시오. 
+<Sync Start=1917449><P Class=KRCC>
+자동차가 다 다르잖아요. 사람 5명이라니까 어차피 다 다르잖아요. 
+<Sync Start=1922859><P Class=KRCC>
+얘네들이 자동차 안으로 들어가고 있잖아요. 무슨 문제? 호텔 문제. 누구랑 인터뷰? 자동차? 아니. 
+<Sync Start=1929752><P Class=KRCC>
+움직이는 사람이랑 인터뷰하시면 된다. 
+<Sync Start=1934652><P Class=KRCC>
+
+<Sync Start=1945198><P Class=KRCC>
+구별하지 않는 똑같이 생긴 지우개 5개를 빨간 바구니, 노란 바구니, 
+<Sync Start=1955226><P Class=KRCC>
+파란 바구니에 나누어 담는 방법의 수. 이건 호텔 문제가 아니다. 아시겠죠? 좋아요. 
+<Sync Start=1961871><P Class=KRCC>
+여기까지가 호텔 문제의 시작이야. 여기다가 한 얘기를 내가 더 할게. 
+<Sync Start=1968078><P Class=KRCC>
+뭐냐 하면 여기서 끝날 우리들이 아니야. 정작 중요한 것은 여기야. 
+<Sync Start=1974997><P Class=KRCC>
+뭐냐 하면 호텔 문제의 기본 p, q, r, s, t 5명이 3개의 호텔에 투숙하는 방법의 수를 구하시오에서는
+<Sync Start=1984857><P Class=KRCC>
+빈 호텔이 있어도 된다 그랬어, 안 된다고 그랬어? 된다 그랬지? 왜? 
+<Sync Start=1988255><P Class=KRCC>
+각각에게 자유를 주면 5명 모두 A 호텔에 들어갈 수도 있고 B와 C에서만 잘 수도 있고, 
+<Sync Start=1996232><P Class=KRCC>
+C에서만 몰빵을 시킬 수 있고 아니면 세 군데를 다 나누어 담을 수도 있는 거야. 
+<Sync Start=2002203><P Class=KRCC>
+그게 호텔 문제였거든? 그런데 이번에는 이 문제를 풀자고. 
+<Sync Start=2009783><P Class=KRCC>
+p, q, r, s, t 5명을 A, B, C 3개의 호텔에 나누어 투숙하는 방법의 수를 계산하시오. 
+<Sync Start=2017744><P Class=KRCC>
+단 빈 호텔은 존재하지 않는다. 빈 호텔이 없다. 
+<Sync Start=2031947><P Class=KRCC>
+그 얘기는 여기서도 자야 되고 여기도 1명 이상 투숙시켜야 되고 
+<Sync Start=2036314><P Class=KRCC>
+여기도 1명 이상 투숙시켜야 된다는 얘기거든. 이때도 마찬가지로 호텔 문제 아니에요. 왜? 
+<Sync Start=2044140><P Class=KRCC>
+5명이 3개 호텔에 투숙하는 방법의 수니까. 그러면 뭐 하라 그랬어요? 인터뷰하라 그랬잖아. 
+<Sync Start=2050722><P Class=KRCC>
+그런데 아까처럼 다 3가지, 3가지, 3가지 자유를 주면 한 곳에 몰빵 시킬 수 있으니까 
+<Sync Start=2056080><P Class=KRCC>
+빈 호텔이 발생할 수 있거든. 그런데 그러지 마래. 그러면 어떻게 하고 싶어? 
+<Sync Start=2059976><P Class=KRCC>
+어떤 애가 이러더라고 "선생님, 그러면 제가 좀 생각을 해봤는데요. 
+<Sync Start=2065929><P Class=KRCC>
+빈 호텔을 없애라고 그랬으니까 선생님, 이러면 될 것 같아요." 
+<Sync Start=2071661><P Class=KRCC>
+어떻게 해? "5명 중에서 1명씩은 다 담으라는 얘기니까 3명을 뽑아서 이 앞에다가 줄을 세워요. 
+<Sync Start=2080320><P Class=KRCC>
+그런 다음에 자기 앞에 있는 호텔에 먼저 투숙시켜요. 
+<Sync Start=2082362><P Class=KRCC>
+그러니까 적어도 1명씩은 투숙시키는 거니까 1명씩 먼저 채워넣자." 
+<Sync Start=2086616><P Class=KRCC>
+그러니까 이렇게 계산하자는 거지. p, q, r, s, t 5명 중에서 3명을 뽑아서 줄 세운다니까? 
+<Sync Start=2091248><P Class=KRCC>
+이 호텔 앞에, 3명을 뽑아서. 거기에 일단 투숙시키면 몇 명 남았겠니? 
+<Sync Start=2099250><P Class=KRCC>
+2명 남았으니까 걔네들한테는 자유를 주면 되잖아. 예를 들어서 이 2명이 남았어. 
+<Sync Start=2105803><P Class=KRCC>
+그러면 얘가 투숙할 수 있는 방법의 수는 몇 가지야? 다시 3가지. 얘도 몇 가지? 3가지. 
+<Sync Start=2112705><P Class=KRCC>
+그래서 얘가 최종적인 답이 아니겠습니까? 땡. 이게 틀리거든. 이렇게 풀면 큰일 나거든. 
+<Sync Start=2122647><P Class=KRCC>
+오늘 이 시간의 핵심사항은 이게 왜 틀리는지를 완벽하게 파악해서 앞으로 여러분이 수능에서 
+<Sync Start=2134927><P Class=KRCC>
+경우의 수 문제를 틀린다면 이 느낌으로 틀리는 거야. 이게 Over Counting이야. 
+<Sync Start=2145644><P Class=KRCC>
+Over해서 Counting. 너무 많이 센 거야. 
+<Sync Start=2148803><P Class=KRCC>
+이게 왜 틀렸는지를 내가 지금부터 설명을 해볼 테니까, 자신은 없어요. 
+<Sync Start=2154700><P Class=KRCC>
+이해 못하는 애들이 꼭 있더라고요. 
+<Sync Start=2157127><P Class=KRCC>
+내가 최선을 다해서 설명을 해볼 테니까 그거를 느끼는 게 이번 시간의 핵심이라고. 
+<Sync Start=2160608><P Class=KRCC>
+그러니까 여러분이 틀리면 정말 정확하게 딱 이 부분에서 틀리거든. 
+<Sync Start=2166060><P Class=KRCC>
+어떤 문제가 나오더라도 이게 Over Counting 느낌이거든? 
+<Sync Start=2169747><P Class=KRCC>
+이렇게 계산하면 안 되겠다는 생각이 들어야 돼. 그럴듯해 보이잖아요? 
+<Sync Start=2174223><P Class=KRCC>
+이게 왜 안 되는지를 내가 지금 설명을 해볼게. 이렇게 풀면 왜 안 되냐면 잘 봐. 
+<Sync Start=2180495><P Class=KRCC>
+지금 최초에 p, q, r, s, t 5명 중에 3명을 뽑아서 1명씩 그냥 갖다 박아놨지? 
+<Sync Start=2191840><P Class=KRCC>
+최초에 p, q, r, s, t 5명 중에서 3명을 갖다 박았는데 여기 p가 자고 여기 q, 
+<Sync Start=2199879><P Class=KRCC>
+여기 r이 들어왔다 그래보자고. 뭐에 의해서? 3명을 뽑아서 줄 세우는 방법에 의해서. 
+<Sync Start=2212927><P Class=KRCC>
+그러면 이제 몇 명 남았어요? s, t 2명 남았잖아요. 걔네들에게 자유를 줬잖아. 
+<Sync Start=2218866><P Class=KRCC>
+네가 선택할 수 있는 방법의 수는 몇 가지?  3가지인데 s가 여기서 잤대. 
+<Sync Start=2223938><P Class=KRCC>
+네가 선택할 수 있는 방법의 수 몇 가지? 3가지인데 t는 여기서 잤대. 
+<Sync Start=2228644><P Class=KRCC>
+예를 들어서 그런 경우도 이 식 안에 포함되어 있겠지만. 
+<Sync Start=2236343><P Class=KRCC>
+
+<Sync Start=2243206><P Class=KRCC>
+최초에 5명 중에서 3명을 뽑아서 잘 때 t, s, r을 안 넣은 거야. 그러면 아까랑 다르잖아. 
+<Sync Start=2254044><P Class=KRCC>
+얘랑 다르잖아. 왜? 아까는 최초의 p, q, r. 이번에는 최초의 t, s, r. 
+<Sync Start=2259689><P Class=KRCC>
+왜? ?P₃, 이 가지 수 안에 얘도 들어있고 얘도 들어있잖아. 다르게 인식을 하고 있잖아. 
+<Sync Start=2267493><P Class=KRCC>
+이 경우랑 이 경우를 다르게 인식을 하고 있다고. 당연히 다르지. 왜? 
+<Sync Start=2270585><P Class=KRCC>
+아까는 p, q, r이 들어갔고 지금은 t, s, r이 들어갔어. 그리고 t, s, r이 들어갔어. 
+<Sync Start=2275525><P Class=KRCC>
+그리고 나머지 2명 이번에는 누가 남았니? p랑 q랑 남았잖아. p한테 인터뷰. 3가지. 
+<Sync Start=2282474><P Class=KRCC>
+q한테 인터뷰. 3가지인데 p가 여기서 자더래. q가 여기서 자더래. 
+<Sync Start=2290268><P Class=KRCC>
+당연히 이렇게 투숙하는 방법의 수도 여기에 Countig이 돼 있고 
+<Sync Start=2294788><P Class=KRCC>
+이렇게 투숙하는 방법의 수도 여기에 Countig이 돼 있는데 
+<Sync Start=2298116><P Class=KRCC>
+사실 알고 봤더니 2개가 무슨 경우다? 같은 경우다. 왜? A 호텔에 누구 자? p, t. 
+<Sync Start=2305575><P Class=KRCC>
+여기도 A 호텔에 누구 자? p, t. B 호텔에 누구 자? q, s. 여기도 q, s. r, r. 
+<Sync Start=2313691><P Class=KRCC>
+완전히 같은데도 불구하고 얘도 Countig이 되고 얘도 Countig이 돼. 
+<Sync Start=2318202><P Class=KRCC>
+그러니까 같은 경우니까 이 2개는 1가지인데도 불구하고 이 안에는 몇 가지로 계산하는 거예요? 
+<Sync Start=2324226><P Class=KRCC>
+2가지로 Over Countig이 된다 이거지. 이 느낌 이거를 뼈저리게 느끼셔야 돼요. 
+<Sync Start=2333279><P Class=KRCC>
+오늘 진짜 그거 느끼는 날이야. 그러면 앞으로 느낌이 와. 문제를 풀다가 이거 이상한데? 
+<Sync Start=2340155><P Class=KRCC>
+겹칠 것 같은데? 이거 Over Countig일 것 같은데?라는 생각이 들 때가 온다고. 
+<Sync Start=2344424><P Class=KRCC>
+이거 틀렸다는 거는 금방 알아낼 수 있어. 왜? ?P₃이 얼마야? 5x4x3이죠? 
+<Sync Start=2350884><P Class=KRCC>
+아까 전체 경우의 수가 몇 가지였어? 전체 경우의 수가 3가지 3의 5제곱 가지였는데. 
+<Sync Start=2356053><P Class=KRCC>
+오히려 더 클 수가 있니? 제한 조건을 더 줬는데? 말도 안 되잖아. 
+<Sync Start=2360039><P Class=KRCC>
+이렇게 Over Countig이 된 이유를 느끼셔야 된다 이거예요. 
+<Sync Start=2363844><P Class=KRCC>
+최초에 앉고 나중에 앉다. 
+<Sync Start=2366012><P Class=KRCC>
+본의 아니게 일을 순서대로 진행하기 때문에 걔네들의 순서가 바뀌면 결국은 같은 놈이 되는데 
+<Sync Start=2371930><P Class=KRCC>
+계산할 때는 뭐가 돼? 다른 놈으로 인식하게 돼서 결국은 Over Countig 된다 이거예요. 
+<Sync Start=2380728><P Class=KRCC>
+이 느낌이 진짜 중요한 느낌이야. 그러면 어떻게 해결할 것이냐? 
+<Sync Start=2388284><P Class=KRCC>
+3명을 먼저 한 호텔씩 1명씩 갖다 박아놓은 다음에 나머지 애들한테 자유를 준다. 
+<Sync Start=2395429><P Class=KRCC>
+그러면 Over Countig이라니까? 그러면 어떻게 해야 되느냐? 따라 해 봐, 여사건. 
+<Sync Start=2402436><P Class=KRCC>
+푸는 방법이 여사건으로 풀어도 되고요. 또 다른 방법으로 풀어도 되거든요. 
+<Sync Start=2408958><P Class=KRCC>
+뒤쪽에서 내가 또 설명을 해줄 건데, 그런데 지금은 그 얘기 안 할 거야. 
+<Sync Start=2412190><P Class=KRCC>
+여사건으로 푸는 게 너무 중요해. 여사건으로 푸는 방법을 내가 지금 설명할 텐데. 
+<Sync Start=2417620><P Class=KRCC>
+빈 호텔이 존재하지 않는다 그랬으니까 전체 경우의 수에서 뺄 거야. 뭐를? 
+<Sync Start=2427440><P Class=KRCC>
+빈 호텔 발생하는 방법을 뺄 거야. 그러면 빈 호텔이 발생하지 않을 거 아니야. 
+<Sync Start=2434346><P Class=KRCC>
+이렇게 여사건으로 풀 거고 전체 경우의 수는 p, q, r, s, t 5명한테 인터뷰를 하니까 3가지, 
+<Sync Start=2442437><P Class=KRCC>
+3가지, 3가지, 3가지, 3가지. 3의 5제곱 가지가 됐잖아. 뺄 거라고. 뭐를? 빈 호텔 발생. 
+<Sync Start=2451427><P Class=KRCC>
+빈 호텔이 발생하는 방법의 수를 뺄 건데 잘 들어봐. 
+<Sync Start=2455028><P Class=KRCC>
+빈 호텔이 발생하는 방법은 한 호텔이 빌 수도 있고 2개 호텔이 빌 수도 있지. 그걸 어떻게 쓸까? 
+<Sync Start=2464556><P Class=KRCC>
+
+<Sync Start=2468488><P Class=KRCC>
+2개 호텔에 투숙. 두개투숙. 그 얘기는 몇 개가 비어? 
+<Sync Start=2480097><P Class=KRCC>
+한 호텔이 비는 방법과 1개에 몰빵해서 투숙하는 거, 5명이 다 같은 호텔에 투숙하는 거. 
+<Sync Start=2487997><P Class=KRCC>
+그러면 두 호텔이 비지? 한 호텔이 빈다, 두 호텔이 빈다? 
+<Sync Start=2491487><P Class=KRCC>
+투숙으로 얘기하면 2개 호텔에 투속, 1개 호텔에 투숙. 
+<Sync Start=2495977><P Class=KRCC>
+2개를 합친 거를 얘도 빈 호텔, 얘도 빈 호텔이 발생하는 경우니까 
+<Sync Start=2500966><P Class=KRCC>
+전체에서 한꺼번에 빼주면 답, 동의해? 
+<Sync Start=2507054><P Class=KRCC>
+
+<Sync Start=2514106><P Class=KRCC>
+1개의 호텔에 투숙하는 방법은 너무 쉬워요. 3가지예요. 왜? 얘네들이 다 여기서 잔다, 1가지. 
+<Sync Start=2522206><P Class=KRCC>
+모두 여기서 잔다, 모두 여기서 잔다. 총 3가지죠? 그거는 3가지 너무 쉬워요.
+<Sync Start=2528185><P Class=KRCC>
+이제 2개 호텔에 자는 방법을 얘기하자고. p, q, r, s, t가 3개 호텔이 아니라 2개의 호텔, 
+<Sync Start=2534374><P Class=KRCC>
+한 호텔을 비도록 만드는 거야. 편의상 A와 B 호텔에 투숙을 시키자고, C 호텔을 비우고. 
+<Sync Start=2545835><P Class=KRCC>
+2개 호텔에 투숙하는 거야. 그러면 C는 없다고 생각하면 되니까. 
+<Sync Start=2552290><P Class=KRCC>
+p가 선택할 수 있는 호텔의 개수는 몇 가지? 2가지. q는 2가지, r은 2가지, s도 2가지, t도 2가지지?
+<Sync Start=2559323><P Class=KRCC>
+그러면 C를 사용하지 않을 테니까 C는 무조건 비우고 A, B에 몰빵할 거 아니야. 
+<Sync Start=2564641><P Class=KRCC>
+그게 2x2x2x2x2니까 이게 2의 5제곱 가지인데 내 말은 2의 5제곱 가지를 안 해도 
+<Sync Start=2573490><P Class=KRCC>
+자유를 준 거기 때문에 p, q, r, s, t가 A에 몰빵할 수도 있고 B에 몰빵할 수도 있잖아. 
+<Sync Start=2580626><P Class=KRCC>
+이렇게 각각에게 자유를 주면 2의 5제곱 가지라는 이 안에는 네가 잘 수 있는 곳 2가지, 2가지, 
+<Sync Start=2588191><P Class=KRCC>
+2가지, 2가지, 2가지 이거니까 5명이 다 A 호텔, 5명이 다 B 호텔에 투숙하는 경우가 들어있잖아. 
+<Sync Start=2595910><P Class=KRCC>
+그런데 그거는 여기서 따로 셌으니까 그 2가지를 빼야 돼. 2의 5제곱에서 그 2가지를 빼야 한다고. 
+<Sync Start=2604607><P Class=KRCC>
+한 호텔에 투숙하는 거는 따로 계산했으니까. 이게 바로 뭐야? A, B 2개 호텔에 투숙하는 방법이야. 
+<Sync Start=2615668><P Class=KRCC>
+그런데 지금은 A, B 2개 호텔에 투숙한다 그랬지만 B, C에 투숙할 수도 있고 
+<Sync Start=2623072><P Class=KRCC>
+A, C에 투숙할 수도 있으니까 그 2개의 호텔을 선택하는 방법의 수가 A, B, 
+<Sync Start=2629261><P Class=KRCC>
+C 3개 호텔 중에서 2개를 뽑아야지. 여기에 Combination이 들어온다는 거야. 
+<Sync Start=2636239><P Class=KRCC>
+
+<Sync Start=2639987><P Class=KRCC>
+이게 답이에요. 이거 연습 많이 하셔야 돼요. 이게 빈 호텔 존재하지 않는 않는 방법의 수야. 
+<Sync Start=2649002><P Class=KRCC>
+빈 호텔을 존재하도록 하는 게 바로 일반적인 호텔 문제, 
+<Sync Start=2651975><P Class=KRCC>
+그냥 곱의 법칙으로 해결할 수 있는 문제인데 빈 호텔이 존재하지 않도록 해라 그러면 어떻게 한다고?
+<Sync Start=2659545><P Class=KRCC>
+전체 경우의 수에서 여사건으로 푼다. 3가지, 3가지, 3가지, 3가지, 3가지, 3의 5제곱 가지에서 뺀다.
+<Sync Start=2666498><P Class=KRCC>
+뭐를? 빈 호텔이 발생한 거를 다 빼고 나면 빈 호텔이 발생하지 않을 않을 것이다. 
+<Sync Start=2672403><P Class=KRCC>
+빈 호텔이 발생한다는 얘기는 2개 호텔에 나누어 잔다, 1개 호텔에서만 잔다. 
+<Sync Start=2676718><P Class=KRCC>
+1개 호텔에만 자는 방법은 A에 몰빵, B에 몰빵, C에 몰빵 3가지. 
+<Sync Start=2680780><P Class=KRCC>
+2개의 호텔에 나눠 자는 방법은 A, B 2개의 호텔이라 그러면 얘네들은 인터뷰를 어떻게 하면 돼? 
+<Sync Start=2686357><P Class=KRCC>
+네가 잘 수 있는 방법의 수. A, B 2가지, 2가지, 2가지, 2가지, 2가지. 
+<Sync Start=2690172><P Class=KRCC>
+그게 2의 5제곱 가지인데 그중에서 이렇게 자유를 줬으니까 또 그 안에 뭐가 생긴다? 
+<Sync Start=2695136><P Class=KRCC>
+A에 몰빵, B에만 몰빵 걔네들은 어차피 따로 셀 거니까 2가지를 뺀 거 괄호를 친 다음에 
+<Sync Start=2701225><P Class=KRCC>
+거기에다가 얘는 A, B에 투숙하는 방법의 수니까 B, C에도 포함. 
+<Sync Start=2707166><P Class=KRCC>
+그 2개의 호텔을 결정하는 방법의 수. 
+<Sync Start=2709878><P Class=KRCC>
+3개의 호텔 A, B, C 중에 2개를 뽑는 방법의 수를 여기다가는 곱해야 된다. 
+<Sync Start=2716741><P Class=KRCC>
+그래서 30. 왜? 32에서 2 빼면 30x3이니까 90+3이니까 93가지가 빈 호텔이 발생하는 경우의 수. 
+<Sync Start=2727303><P Class=KRCC>
+243가지에서 93가지를 빼니까 최종적인 답은 150가지가 답입니다. 여기까지가 호텔 이야기 끝난 거야.
+<Sync Start=2738987><P Class=KRCC>
+
+<Sync Start=2761154><P Class=KRCC>
+언제든지 이야기할 수 있도록 만들어라. 호텔 이야기가 끝났다. 
+<Sync Start=2766289><P Class=KRCC>
+언제든지 이야기할 수 있도록 만들어라. 
+<Sync Start=2769444><P Class=KRCC>
+빈 호텔이 발생하지 않는 것은 나중에 다른 방법도 또 소개를 해드릴 텐데, 
+<Sync Start=2776270><P Class=KRCC>
+지금은 뭐로? 여사건으로 해결했다. 여러분, 이렇게도 출제할 수 있어요. 
+<Sync Start=2788478><P Class=KRCC>
+U이 1, 2, 3, 4, 5, 6 6개의 원소를 가지고 있는 U가 있는데 얘의 두 부분집합. 
+<Sync Start=2803269><P Class=KRCC>
+U의 두 부분집합. A와 B의 순서쌍의 개수를 구하시오. 이런 문제가 나왔다고 해봐. 
+<Sync Start=2814126><P Class=KRCC>
+1, 2, 3, 4, 5, 6 6개의 원소를 가지고 있는 U의 두 부분집합. 
+<Sync Start=2822958><P Class=KRCC>
+그러니까 A가 될 수 있는 건 몇 가지야? 2의 여섯 가지. 이거는 언제 배웠어? 고1 때. 
+<Sync Start=2833247><P Class=KRCC>
+2의 원소의 개수의 가지 수. 원소 개수를 지수를 올린다. 이것도 이유를 알겠어요? 
+<Sync Start=2839659><P Class=KRCC>
+어떻게 하는 거야? A, 다른 말로 부분집합을 만들 수 있는 방법은 부분집합은 뭔데? 
+<Sync Start=2844078><P Class=KRCC>
+이 전체 집합의 원소로만 만들어진 집합을 부분집합이라고 해. 
+<Sync Start=2847412><P Class=KRCC>
+그러니까 1, 2도 부분집합, 2, 3되부분집합, 2, 3, 4 부분집합. 1, 2, 5도 부분집합, 
+<Sync Start=2851137><P Class=KRCC>
+1, 2, 3, 4, 5도 부분집합. 전체를 다 가지고 있어도 부분집합. 
+<Sync Start=2854482><P Class=KRCC>
+그 얘기는 1, 2, 3, 4, 5 각각은 부분집합의 원소로 포함돼도 되고 포함되지 않아도 되는 거니까 
+<Sync Start=2861601><P Class=KRCC>
+각각의 원소가 취할 수 있는 액션이 2가지씩이에요. 
+<Sync Start=2864819><P Class=KRCC>
+부분집합을 만드는 방법의 수는 1을 가지고 부분집합의 취수 있는 액션은 2가지야. 왜? 
+<Sync Start=2875672><P Class=KRCC>
+1은 부분집합에 포함돼도 되고 안 돼도 되니까. 1을 가지고 취할 수 있는 액션 2가지. 
+<Sync Start=2881204><P Class=KRCC>
+2를 가지고 취할 수 있는 액션 2가지, 3을 가지고 취할 수 있는 액션 2가지. 
+<Sync Start=2883832><P Class=KRCC>
+포함돼도 되고 안 포함돼도 되니까 다 2가지라서 이거 역시 중복 순열에서 나온 거야. 
+<Sync Start=2889295><P Class=KRCC>
+그런데 고1 때는 중복 순열 이런 얘기를 안 배우니까 그냥 2의 6제곱 가지라고 공부했었던 거야. 
+<Sync Start=2895753><P Class=KRCC>
+그러면 A를 만드는 방법의 수 몇 가지?  2의 6제곱 가지. 일 끝나지 않았어. 
+<Sync Start=2899434><P Class=KRCC>
+B를 만드는 방법의 수? 2의 6가지. 그래서 최종적인 답이 뭐게? 
+<Sync Start=2903158><P Class=KRCC>
+2의 12가지가 최종적인 두 부분집합 A와 B의 순서쌍의 개수라는 거예요. 
+<Sync Start=2911331><P Class=KRCC>
+
+<Sync Start=2915077><P Class=KRCC>
+이건 쉽잖아요. 이렇게 A가 될 수 있는 가지 수, 다른 말로 부분집합의 개수. 
+<Sync Start=2923732><P Class=KRCC>
+B가 될 수 있는 가지 수를 각각 구해서 곱하는 방법도 있겠습니다만 
+<Sync Start=2927126><P Class=KRCC>
+이 문제를 호텔 문제로도 풀 수 있습니다. 호텔 문제를 푼다고요. 
+<Sync Start=2934102><P Class=KRCC>
+무슨 말이냐면 얘가 전체 집합 벤다이어그램을 만들고 얘의 부분집합이 이 안에 들어있으니까 
+<Sync Start=2939858><P Class=KRCC>
+A와 B를 벤다이어그램을 만들 때는 이렇게 만드는 거 알지? 
+<Sync Start=2944438><P Class=KRCC>
+
+<Sync Start=2950142><P Class=KRCC>
+여러분, 두 부분집합 A와 B의 순서쌍의 개수는 1, 2, 3, 4, 5, 6 있잖아. 
+<Sync Start=2957824><P Class=KRCC>
+이 원소를 방이라고 봐. 하나, 둘, 셋, 넷. 
+<Sync Start=2967504><P Class=KRCC>
+그러니까 1이 올 수 있는 것은 여기 아니면 여기 아니면 여기 아니면 여기지? 
+<Sync Start=2973941><P Class=KRCC>
+무슨 말이냐면 전체 집합 이 테두리 안에 1, 2, 3, 4, 5, 6, 
+<Sync Start=2979171><P Class=KRCC>
+6명은 무조건 이 안에 들어 있어야 되는데 1은 여기 쓸 수 있고 여기 쓸 수도 있고 
+<Sync Start=2982435><P Class=KRCC>
+여기도 쓸 수 있고 여기도 쓸 수 있느냐? 이거를 방으로 보는 거야. 
+<Sync Start=2985709><P Class=KRCC>
+그런데 이 방과 이 방과 이 방과 이 방 완전히 다 다른 방. 
+<Sync Start=2988422><P Class=KRCC>
+얘는 무슨 방? A-B라는 차집합방. 이 부분은 A, B의 교집합방, 여기는 B-A방, 
+<Sync Start=2996412><P Class=KRCC>
+여기는 A와 B의 합집합의 전체 여집합방. 서로 다른 4개 방에 6명이 투숙하는 방법의 수예요.
+<Sync Start=3005570><P Class=KRCC>
+왜? 1, 2, 3, 4, 5, 6이 예를 들어서 이렇게 투숙했다고 보자. 
+<Sync Start=3012018><P Class=KRCC>
+그러면 벌써 A와 B의 순서쌍이 하나 만들어진 거야. 뭐야? 
+<Sync Start=3015050><P Class=KRCC>
+A는 뭐? 1, 2, 3. B는? 3, 4라는 순서쌍이 하나 만들어졌잖아. 
+<Sync Start=3020501><P Class=KRCC>
+순서쌍이라는 게 A가 뭐 일 때 B는 뭐. 이게 순서쌍이 아니에요. 
+<Sync Start=3023443><P Class=KRCC>
+그러니까 1, 2, 3, 4, 5, 6이라는 6명이 방 4개의 투숙하는 방법을 바꿀 때마다 
+<Sync Start=3029764><P Class=KRCC>
+순서쌍이 바뀌는 거니까 결국 두 부분집합 A와 B의 순서쌍의 개수라는 것은 1, 2, 3, 
+<Sync Start=3036378><P Class=KRCC>
+4, 5, 6이라는 6명의 사람을 네 군데의 방에 투숙시키는 방법의 수다. 
+<Sync Start=3042881><P Class=KRCC>
+읽자마자 호텔 문제 이렇게 나오는 거라니까. 호텔 문제랑 똑같잖아요. 
+<Sync Start=3047789><P Class=KRCC>
+누구랑 인터뷰해요? 움직일 수 있는 사람들, 원소랑 인터뷰하자. 방은 가만히 있는 거니까. 
+<Sync Start=3054310><P Class=KRCC>
+네가 선택할 수 있는 방법의 수 몇 가지?  4가지, 4가지, 4가지, 4가지. 
+<Sync Start=3058710><P Class=KRCC>
+그러니까 답은 몇 가지?  4의 6가지. 이렇게 푸셔도 된다는 말이야. 뭐로 풀었어? 
+<Sync Start=3063870><P Class=KRCC>
+호텔 문제로 풀었다. 
+<Sync Start=3066028><P Class=KRCC>
+
+<Sync Start=3071594><P Class=KRCC>
+믿기지 않는 사람은 4의 6. 똑같은 말이잖아요, 같은 말이잖아. 
+<Sync Start=3076524><P Class=KRCC>
+"선생님, 그냥 나는 아까처럼 풀래요." 
+<Sync Start=3080252><P Class=KRCC>
+그러면 내가 이렇게 51분을 오버했는데도 내가 지금 이렇게 설명하고 있을까? 
+<Sync Start=3084770><P Class=KRCC>
+이런 문제가 나올까 봐 그러는 거야. 무슨 말이냐면 이러면 어떡할 건데? 
+<Sync Start=3092310><P Class=KRCC>
+단 A∩B=φ. A라는 부분집합 만들 수 있잖아. 뭐 φ부터 자기 자신까지. 
+<Sync Start=3107291><P Class=KRCC>
+B도 만들 수 있는데 교집합이 없대. 그니까 예를 들어서 1, 2 이러면 되지? 
+<Sync Start=3114815><P Class=KRCC>
+1, 2, 3, 4 이것도 되고 1, 5. 2, 4. 이것도 되지? 교집합이 없대. 
+<Sync Start=3122552><P Class=KRCC>
+그러면 아까 같은 첫 번째 방법으로 못 풀어, 이거 어떻게 풀어. 
+<Sync Start=3125994><P Class=KRCC>
+A가 될 수 있는 방법의 수는 2의 6가지, 
+<Sync Start=3127915><P Class=KRCC>
+B도 2의 여섯제곱이 있는데 걔네들이 교집합이 있는지 하나하나씩 다 체크해야 될 거 아니야. 
+<Sync Start=3133606><P Class=KRCC>
+아까처럼 못 풀어. 그런데 뭘로는 풀 수 있게 해? 호텔로 풀면 1초만에 풀어. 
+<Sync Start=3143659><P Class=KRCC>
+벤다이어그램만 얘에 맞춰서 그리면 되거든. 
+<Sync Start=3146584><P Class=KRCC>
+무슨 말이냐면 전체 집합이라는 테두리 안에 아무 얘기 없으면 아까처럼 A와 B를 만들겠지만 
+<Sync Start=3152733><P Class=KRCC>
+교집합이 없다는 얘기는 A와 B가 따로 떨어져 있다는 얘기거든. 
+<Sync Start=3158472><P Class=KRCC>
+이래야지 교집합이 발생하지 않을 거 아니에요. 
+<Sync Start=3162020><P Class=KRCC>
+그러면 결국 A와 B 이렇게 되도록 하는 부분집합 A와 B의 순서쌍의 개수라는 것은 
+<Sync Start=3167080><P Class=KRCC>
+1, 2, 3, 4, 5, 6 5명을 어디에? A방, B방, 여집합방 3개의 방. 
+<Sync Start=3175530><P Class=KRCC>
+투숙할 수 있는 공간이 3개니까 3개의 방에 투숙하는 방법의 수와 똑같다. 
+<Sync Start=3179486><P Class=KRCC>
+그래서 1이 투숙하는 방법의 수, 인터뷰. 3가지, 3가지, 3가지, 3가지, 3가지니까 답은 3의 6가지다. 
+<Sync Start=3190969><P Class=KRCC>
+
+<Sync Start=3194602><P Class=KRCC>
+호텔로 풀면 간단해. 호텔이 요긴하구나. 호텔이 요긴해. 
+<Sync Start=3199428><P Class=KRCC>
+부분집합 문제도 풀 수 있는 게 호텔이구나. 오늘의 마지막 문제, 유제 3번 보십시오. 
+<Sync Start=3209673><P Class=KRCC>
+우리 아까 유제 4번 풀었잖아. 바로 위의 겁니다. 
+<Sync Start=3214970><P Class=KRCC>
+집합U={1, 2, 3, 4, 5, 6}의 두 부분집합 A와 B가 다음 조건을 만족시킨다. 
+<Sync Start=3221460><P Class=KRCC>
+두 집합 A와 B의 순서쌍의 개수를 구하시오. 
+<Sync Start=3225760><P Class=KRCC>
+그런데 어떻게 되어 있냐면 합집합이 전체 집합이래. 그러면 이렇게만 만들면 되지 않겠니? 
+<Sync Start=3235510><P Class=KRCC>
+이렇게 만들면 안 되지 않겠니? 왜? 여기에 누가 투숙하면? 
+<Sync Start=3241583><P Class=KRCC>
+합집합이 전체 집합이 안 되잖아. 여기에 아무도 없다는 얘기잖아. 
+<Sync Start=3246466><P Class=KRCC>
+그러니까 1, 2, 3, 4, 5, 6이 어디에만 투숙시켜야 되냐면 이 방과 이 방과 이 방. 
+<Sync Start=3252650><P Class=KRCC>
+방은 3개 있는 거야. 3개 투숙하면 되잖아. 그런데 조건 하나가 더 있네? 
+<Sync Start=3261621><P Class=KRCC>
+A라는 집합의 집합의 원소 개수가 몇 개래? 4개. 그러면 이렇게 하죠? 어떻게 할 건지 아세요? 
+<Sync Start=3270164><P Class=KRCC>
+A라는 집합의 원소를 먼저 만들어. 전체 6명 중에서 A에 들어갈 4명을 뽑아. 
+<Sync Start=3277074><P Class=KRCC>
+예를 들어서 1, 2, 3, 4가 뽑혔다 그럴게. 1, 2, 3, 4를 먼저 A의 원소가 되도록 만들어. 
+<Sync Start=3285257><P Class=KRCC>
+아직 투숙시키지 않았다, 방 3개에. A라는 집합의 원소의 개수, 
+<Sync Start=3291363><P Class=KRCC>
+이 안에 원소가 4개 있어야 되니까 이 안에 들어갈 4명을 뽑았어. 1, 2, 3, 4가 뽑혔다고 그럴게. 
+<Sync Start=3300045><P Class=KRCC>
+걔네들이 몇 개 방에 자야 돼요? 2개 방에 자야 돼. 여기 있어도 A고 여기 있어도 A니까. 
+<Sync Start=3306874><P Class=KRCC>
+1이 선택할 수 있는 투숙 방법 2가지, 2도 2가지, 3도 2가지, 4도 2가지, 5도 2가지니까 2⁴가지. 
+<Sync Start=3316322><P Class=KRCC>
+그런데 아직도 안 끝났어. 왜? 그중에 어느 하나를 확정 지어 볼게. 
+<Sync Start=3321894><P Class=KRCC>
+지금 이렇게 돼 있는 상황이야. 여기까지가 뭐냐 하면 4명이 A 집합의 원소가 된 거야. 
+<Sync Start=3333306><P Class=KRCC>
+그러니까 A 집합의 원소의 개수가 4이다까지 마련해놨잖아. 이제 누구만 더 자면 돼? 
+<Sync Start=3340676><P Class=KRCC>
+5, 6만 더 자면 되는데 5, 6은 여기 자야 돼, 여기 자야 돼, 여기 자야 돼, 자유가 있어? 
+<Sync Start=3348306><P Class=KRCC>
+무조건 여기 자야 돼. 왜? 여기에 조금이라도 들어가면 A 집합의 원소의 개수가 더 늘어나잖아. 
+<Sync Start=3354559><P Class=KRCC>
+딱 4개 만들어 놨으니까 5, 6은 무조건 어디? 이 방에 가야 돼. 
+<Sync Start=3360548><P Class=KRCC>
+그러니까 5가 투숙할 수 있는 방법의 수 1가지고 6도 1가지라서 여기서 끝나는 거야. 
+<Sync Start=3369110><P Class=KRCC>
+그래서 최종적인 답은 15x16이 되니까 뭐예요, 이런 거? 240가지. 이렇게 처리하셔야 됩니다. 
+<Sync Start=3383170><P Class=KRCC>
+재밌습니까? 오늘은 여기까지. 다음 시간에 함수의 개수로 들어가도록 하겠습니다. 수고하셨습니다. 
+<Sync Start=3392320><P Class=KRCC>
+
+<Sync Start=3392310><P Class=KRCC>
+
+
+
+
+
+
+</BODY>
+</SAMI>

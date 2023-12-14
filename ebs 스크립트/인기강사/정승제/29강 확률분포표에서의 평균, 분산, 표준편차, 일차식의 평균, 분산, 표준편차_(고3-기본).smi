@@ -1,0 +1,897 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=3340><P Class=KRCC>
+
+<Sync Start=11786><P Class=KRCC>
+우리 아주 짧은 문제 하나를 가지고 확률분포표에서 평균 구하는 방법, 분산 구하는 방법,
+<Sync Start=16285><P Class=KRCC>
+표준편차 구하는 방법 딱 하나만 알면 되죠. 통계는 뭐한다고? 시작. 긁는다.
+<Sync Start=20966><P Class=KRCC>
+왜? 결국 분산도 제곱한 것들의 평균 마이너스 평균의 제곱이니까
+<Sync Start=26155><P Class=KRCC>
+평균 구하는 방법만 알면 언제든지 분산도 구할 수 있고 루트 씌우면 표준편차도 구할 수 있는 것
+<Sync Start=31723><P Class=KRCC>
+그걸 확실하게 잘 정리하시길 바라겠습니다. 예를 들어서 한번 설명해 보죠.
+<Sync Start=38704><P Class=KRCC>
+예를 하나만 더 들어볼까? 뭘로 해볼까? 뭐 좋아하니?
+<Sync Start=45026><P Class=KRCC>
+
+<Sync Start=49084><P Class=KRCC>
+뭐 이런 것, 출제자가 좋아하는 거 흰 공, 검은 공 얘기할까?
+<Sync Start=55807><P Class=KRCC>
+흰 공이 2개, 검은 공 하나가 들어있는 주머니에서 2개의 공을 꺼낼 때 그 안에 들어있는
+<Sync Start=64888><P Class=KRCC>
+흰 공의 개수를 x라고 하자. 지난 시간에 배웠어. 이걸 뭐라고 읽는다고?
+<Sync Start=71987><P Class=KRCC>
+평균 X의 분산, X의 표준편차를 구하시오. 해보자고. 어떻게 한다고? 표를 만든다.
+<Sync Start=81765><P Class=KRCC>
+만드는 방법 시작. 윗줄 X, 아랫줄 P, 위는 확률변수, 아랫줄은 P. 어떻게 만들라고 그랬지?
+<Sync Start=89474><P Class=KRCC>
+먼저 X가 될 수 있는 걸 다 나열하라고 그랬죠. 제일 작은 것부터 제일 큰 것까지.
+<Sync Start=93014><P Class=KRCC>
+2개를 꺼냈는데 그 안에 들어 있는 흰 공의 개수는 제일 작으면 몇 개야? 시작. 1개.
+<Sync Start=98093><P Class=KRCC>
+제일 많으면 2개. 2줄밖에 없다. 그렇지?
+<Sync Start=101574><P Class=KRCC>
+
+<Sync Start=104003><P Class=KRCC>
+이거밖에 없잖아. 0이 될 수 없잖아. 왜 0이 될 수 없어요? 검은 공이 하나밖에 없으니까.
+<Sync Start=111185><P Class=KRCC>
+두 개를 꺼낼 때 흰 공 하나도 안 꺼내고 검은 공만 뽑을 수 없어서 1 아니면 2예요.
+<Sync Start=118351><P Class=KRCC>
+각각의 확률을 아랫줄에 써주면 된다. x가 1일 확률을 써볼까?
+<Sync Start=124166><P Class=KRCC>
+x가 1이라는 것은 2개를 어떻게 꺼내야 돼? 흰 공에서 하나 꺼내고 검은 공에서 하나 꺼내죠.
+<Sync Start=128914><P Class=KRCC>
+전체 경우에서 3개 중에 2개 꺼낼 때 흰 공 2개 중에서 하나 꺼내고
+<Sync Start=132601><P Class=KRCC>
+and 검은 공 1개 중에서 하나 뽑으면 됩니다. 3분의 2 얘는 더 이상 할 필요 있어, 없어? 없어. 왜?
+<Sync Start=140118><P Class=KRCC>
+다 더하면 항상 얼마니까? 시작. 1이니까 둘 중에 하나만 구하시면 된다는 얘기야. 끝났네.
+<Sync Start=148020><P Class=KRCC>
+평균, 분산, 표준편차 해보자. 평균을 구하라고 그러면 어떻게 하면 돼? 시작.
+<Sync Start=152894><P Class=KRCC>
+곱한다. 곱한다기보다 긁는다. 긁는다. 잊지 마요. 이렇게 긁어서 싹 다 더하면 돼요.
+<Sync Start=159838><P Class=KRCC>
+분모는 3으로 해놓고 긁으면 되니까 긁어봐요. 1x2=2, 2x1=2.
+<Sync Start=168844><P Class=KRCC>
+그래서 얼마다? 시작. 3분의 4. 분산을 구하라. 시작. 제곱한 것들의 평균-m²
+<Sync Start=177264><P Class=KRCC>
+그래서 이 얘기를 꼭 써놓고 가는 게 나아. 여기는 제곱한 것들의 평균이고요.
+<Sync Start=182305><P Class=KRCC>
+마이너스 m², 제곱한 다음에 긁으면 제곱한 것들의 평균.
+<Sync Start=187205><P Class=KRCC>
+긁는 게 평균이니까 제곱한 다음에 긁자. 2네요. 4네요. 이렇게 되겠지. 그렇지?
+<Sync Start=196063><P Class=KRCC>
+그러면 3분의 6이니까 2-9분의 16, 2는 9분의 18 빼기 9분의 16 시작. 9분의 2. 여기까지가 뭐야?
+<Sync Start=208221><P Class=KRCC>
+분산, 표준편차 루트 씌우면 돼. 3분의 √2 이렇게 처리하시면 평균, 분산, 표준편차를 구할 수 있다.
+<Sync Start=216020><P Class=KRCC>
+지난 시간 맨 마지막에 연습했으니까 여러분이 확실하게 잘 정리하시면 되겠고
+<Sync Start=222301><P Class=KRCC>
+분산 구하는 것은 지난 시간에 내가 반드시 기억하라고 그러면서
+<Sync Start=226639><P Class=KRCC>
+제곱한 것들이 평균-m²이었잖아요. 그거 하나만 기억하고 있으면
+<Sync Start=231153><P Class=KRCC>
+평균, 분산, 표준편차 구하는데 전혀 어렵지 않다. 평균은 뭐 해라? 긁어라.
+<Sync Start=237006><P Class=KRCC>
+분산은 제곱한 것들의 평균-m². 첫 번째 문제, 확률 구하는 문제부터 한번 시작해 보도록 하시죠.
+<Sync Start=244458><P Class=KRCC>
+여러분이 가지고 있는 교재 59페이지부터 시작합니다.
+<Sync Start=248047><P Class=KRCC>
+두 개의 주사위 A, B를 동시에 던져서 나오는 두 눈의 수의 평균을 확률변수 X라고 하자.
+<Sync Start=253795><P Class=KRCC>
+
+<Sync Start=260237><P Class=KRCC>
+담이 될 확률을 구하라.
+<Sync Start=262112><P Class=KRCC>
+
+<Sync Start=266443><P Class=KRCC>
+4x2=8 시작. (X-4)(X-2)<0. X는 시작. 2<X<4.
+<Sync Start=274864><P Class=KRCC>
+여러분, 주사위 두 개짜리는 전체 경우의 수가 36인 거 아세요?
+<Sync Start=279738><P Class=KRCC>
+그중에 얘를 만족시키는 이게 뭔데? 두 개 평균이 2와 4 사이에 있을
+<Sync Start=285520><P Class=KRCC>
+경우의 수를 여기에 써주면 되는데 내가 주사위 두 개짜리를 항상 어떻게 쓰라고 그랬어?
+<Sync Start=289999><P Class=KRCC>
+어떻게 하라고? 맨 윗줄부터 체크하라고 그랬는데.
+<Sync Start=293827><P Class=KRCC>
+평균으로 구하는 것보다는 평균을 알면 우린 뭘 구할 수 있어? 합을 구할 수 있잖아.
+<Sync Start=298494><P Class=KRCC>
+두 개의 평균이 2와 4 사이래. 합은 뭐야? 양변에 2 곱하면 되지.
+<Sync Start=304452><P Class=KRCC>
+양변에 2 곱하면 2X 가 바로 두 눈의 합이잖아요.
+<Sync Start=309583><P Class=KRCC>
+
+<Sync Start=311530><P Class=KRCC>
+됐어? 두 눈의 합이 4와 8 사이. 그 얘기는 두 눈의 합이 뭐가 되라는 얘기야?
+<Sync Start=316488><P Class=KRCC>
+5 또는 6 또는 7이 될 확률을 구하라고 그랬어. 우리 주사위 두 개짜리 꽉 잡고 있는 거 알지?
+<Sync Start=324177><P Class=KRCC>
+주사위 두 개를 던져서 두 눈의 합이 5인 경우의 수는 몇 가지야?
+<Sync Start=327569><P Class=KRCC>
+네 가지. 하나만 빼주면 된다고 그랬지? 6인 경우 다섯 가지, 7인 경우 여섯 가지.
+<Sync Start=332926><P Class=KRCC>
+다 더하면 열다섯 가지. 그래서 최종적인 답은 36분의 15가 된다.
+<Sync Start=339339><P Class=KRCC>
+12분의 3x5=15니까 12분의 5. 답은 몇 번이야? 4번. 끝. 이렇게 정리하시면 되죠.
+<Sync Start=347727><P Class=KRCC>
+유제를 보자. 표를 만들게. 물론 표 안 만들어도 되는 문제인데 연습할 겸 표 만들게.
+<Sync Start=354236><P Class=KRCC>
+무슨 말이냐면 이산확률변수 X가 갖는 값이 1,2,3,4라고 그랬으니까
+<Sync Start=362521><P Class=KRCC>
+표 만들 때 X가 될 수 있는 걸 다 나열하라고 그랬잖아요. 이렇게 나열하는 거야.
+<Sync Start=366720><P Class=KRCC>
+1,2,3,4,5,6,7,8. 5,6,7,8은 없네요. 각각의 확률을 구하라.
+<Sync Start=385218><P Class=KRCC>
+라지 X가 1일 확률. 봐, 라지 X가 1일 확률 그러면 스몰 x 대신 1 대입하면 되니까 얼마야?
+<Sync Start=390454><P Class=KRCC>
+16분의 7. 2 빼니까 16분의 5. 2 빼니까 16분의 3. 2 빼니까 16분의 1.
+<Sync Start=399593><P Class=KRCC>
+
+<Sync Start=401354><P Class=KRCC>
+공차가 마이너스인 등차수열이라서 분자를 이렇게 썼습니다. 잘했습니다.
+<Sync Start=407364><P Class=KRCC>
+다음에 확률을 구하라고 하네. 여기에 조금 전에는 이차방정식이 나왔고
+<Sync Start=411583><P Class=KRCC>
+지금은 절대값 방정식 풀어주시면 돼요. 어떻게? 시작.
+<Sync Start=415427><P Class=KRCC>
+알맹이는 플러스 마이너스 우변, 2X=5±1, 5±1이라는 건 시작. 6 또는 4.
+<Sync Start=426514><P Class=KRCC>
+2X가 그놈이니까 따라서 X는 2로 나눠. 시작. 3 또는 2일 확률. 얘 또는 얘가 될 확률을 구하라.
+<Sync Start=434656><P Class=KRCC>
+답은 16분의 8. 이 2개를 더하면 되잖아요. 16분의 8. X가 2가 될 확률은 16분의 5.
+<Sync Start=444254><P Class=KRCC>
+X가 3이 될 확률은 16분의 3이라고 표에 쓰여 있잖아요.
+<Sync Start=448114><P Class=KRCC>
+따라서 X가 2 또는 3일 확률을 구하라고 하면 2 밑에 있는 확률, 3 밑에 있는 확률을 더해주면 답이다.
+<Sync Start=456027><P Class=KRCC>
+유제 2번입니다. 1,1,2,2,4 공 5개가 들어 있는 주머니가 있는데
+<Sync Start=462872><P Class=KRCC>
+이 주머니에서 임의로 2개 공을 꺼낼 때 2개의 공에 적혀 있는
+<Sync Start=468997><P Class=KRCC>
+두 수의 합을 확률변수 X. 마찬가지로 뭐 구하는 거야? 확률분포표 작성하는 문제야.
+<Sync Start=478056><P Class=KRCC>
+
+<Sync Start=481950><P Class=KRCC>
+여러분, 합이 제일 작으면 얼마야? 2. 제일 크면 얼마야? 6.
+<Sync Start=489669><P Class=KRCC>
+2 아니면 3 아니면 4 아니면 5 아니면 6이요. 잘한다. 이제 밑에 확률만 쳐주면 되지.
+<Sync Start=501230><P Class=KRCC>
+여러분, 너무 잘하고 있어요. 첫 번째, X가 2일 확률부터 구하자.
+<Sync Start=507260><P Class=KRCC>
+여러분, 얘 구하고 얘 구하고 얘 구하고 얘 구하고 가운데는 구하지 말까?
+<Sync Start=511802><P Class=KRCC>
+
+<Sync Start=514691><P Class=KRCC>
+X가 2 확률, 합이 2가 되려면 어떻게 나와야 돼요? 1에서만 2개 뽑으면 되잖아요.
+<Sync Start=519941><P Class=KRCC>
+그러니까 전체 5개 중에서 2개 뽑을 때 1이 적혀 있는 2개 중에 2개 뽑아야 되니까 시작. 10분의 1.
+<Sync Start=527964><P Class=KRCC>
+여러분, 6이 되려면 어떻게 뽑아야 돼?
+<Sync Start=530413><P Class=KRCC>
+
+<Sync Start=533779><P Class=KRCC>
+2에서 하나, 4에서 하나 뽑아야지. 2에서 하나, 4에서 하나.
+<Sync Start=538087><P Class=KRCC>
+2가 적혀 있는 2개 중에 하나 and 4가 적혀 있는 하나 중에 하나. 얼마야? 10분의 2.
+<Sync Start=544714><P Class=KRCC>
+이거 약분하지 마. 왜? 어차피 평균, 분산, 표준편차 구할 때나 확률의 합 구할 때나
+<Sync Start=550901><P Class=KRCC>
+통분하는 게 좋아서 이대로 놔두는 게 좋은 것 같아요.
+<Sync Start=554220><P Class=KRCC>
+
+<Sync Start=557964><P Class=KRCC>
+X가 3이 되려면 어떻게 해야 돼? 1 하나, 2 하나 나와야지.
+<Sync Start=562602><P Class=KRCC>
+그러니까 전체 5개 중에 2개 뽑을 때 전체 경우의 수분의 1 하나, 2 하나가 나와야 되니까
+<Sync Start=570030><P Class=KRCC>
+1이 적혀 있는 2개 중에 하나 뽑고 and 2가 적혀 있는 2개 중에 하나 뽑자. 10분의 얼마? 10분의 4.
+<Sync Start=578017><P Class=KRCC>
+
+<Sync Start=584259><P Class=KRCC>
+4가 되는 거 구하자. 4가 되려면 어떻게 구합니까? 4 되려면 어떻게 해야 돼?
+<Sync Start=590196><P Class=KRCC>
+2개를 어떻게 뽑아야 돼? 2 밖에 없네. 서로 다른 2개를 뽑아야 되니까 2 밖에 없어. 왜?
+<Sync Start=597509><P Class=KRCC>
+10분의 시작. 2개 중에서 2개 뽑아야 돼. 뭐가 되려면? 4 되려면. 10분의 1.
+<Sync Start=605472><P Class=KRCC>
+그럼 여러분, 이거 다 더하면 얼마야? 10분의 8. 따라서 여기를 뭐야? 10분의 2. 끝.
+<Sync Start=616137><P Class=KRCC>
+이렇게 전체 합이 1이 되도록 나머지 하나는 구하지 않아도 좋다.
+<Sync Start=621193><P Class=KRCC>
+문제 시작. X가 3보다 크거나 같을 확률을 구하라. 이 확률을 구하래.
+<Sync Start=628304><P Class=KRCC>
+근데 이거 더하는 것보다 뭐가 더 나아?
+<Sync Start=630393><P Class=KRCC>
+전체가 1이니까 1에서 10분의 1을 빼주면 저쪽에 합이 나오겠죠.
+<Sync Start=636024><P Class=KRCC>
+답은 10분의 9, 5번. 이렇게 처리하시면 되겠습니다. 너무 쉬워? 네, 쌤.
+<Sync Start=644895><P Class=KRCC>
+쉽지? 통계는 틀릴 게 없어. 이산확률변수 X의 확률분포를 표로 나타내면 오른쪽과 같다.
+<Sync Start=653781><P Class=KRCC>
+평균이 3분의 8일 때 a분의 b를 구하래. 여러분, a와 b 값 찾는 거거든.
+<Sync Start=657233><P Class=KRCC>
+식 2개 세워야 되거든. 하나는 보이지 않니? 왜? 다 더하면 얼마야? 1이니까.
+<Sync Start=662405><P Class=KRCC>
+이런 거 좀 이제 안 써줬으면 좋겠어. 이거 좀 쓰지 마.
+<Sync Start=665730><P Class=KRCC>
+
+<Sync Start=667409><P Class=KRCC>
+이거면 충분하지? 다 더해서 이런 거 모르는 사람이 어디 있어.
+<Sync Start=671303><P Class=KRCC>
+이렇게 더하면 6분의 2. 따라서 이렇게 더하면 6분의 4, 3분의 2.
+<Sync Start=676314><P Class=KRCC>
+a+b는 3분의 2입니다. 식 하나만 더 찾으면 되겠다. 그게 뭐야? 평균식이에요.
+<Sync Start=681810><P Class=KRCC>
+평균. 1번 간지럽힌다, 2번 문지른다, 3번 때린다, 4번 밟는다, 5번 긁는다 시작. 긁는다.
+<Sync Start=692404><P Class=KRCC>
+
+<Sync Start=694748><P Class=KRCC>
+곱하면 a야. 곱하면 3분의 1. 이걸 다 더하는 거야. 긁은 거야.
+<Sync Start=701900><P Class=KRCC>
+3b 곱하라니까. 3분의 2. 이러면 평균이 얼마래? 3분의 8이래.
+<Sync Start=710900><P Class=KRCC>
+이게 3분의 3이니까 넘어가면 3분의 5래. 뭐가? a+3b는 3분의 5.
+<Sync Start=718020><P Class=KRCC>
+a+3b는 3분의 5.
+<Sync Start=723185><P Class=KRCC>
+
+<Sync Start=725600><P Class=KRCC>
+아랫줄 3을 곱해. 3a+9b=5. 3을 더하고 빼. 3a+3b=2 뭐 하고 싶어? 빼고 싶어. 빼.
+<Sync Start=734761><P Class=KRCC>
+밑에 거에서 위에 거 빼. 6b는 빼면 3. 따라서 b는 얼마야? 2분의 1.
+<Sync Start=740541><P Class=KRCC>
+a는. 아까 a+b가 3분의 2이었잖아. 그렇지?
+<Sync Start=757387><P Class=KRCC>
+따라서 a가 2분의 1이면 넘어가면 b는 6분의 4-3, 6분의 1 이렇게 처리할 수 있죠. 맞죠?
+<Sync Start=768435><P Class=KRCC>
+따라서 a와 b 값 다 찾았어. a분의 b의 값을 구하라고 그랬으니까 답은 2분의 6, 2분의 6이면 얼마야?
+<Sync Start=774334><P Class=KRCC>
+3. 끝. 답은 5번 이렇게 체크하시면 되죠. 어렵지 않아. 평균은 긁어라. 평균은 제발 긁어라.
+<Sync Start=782543><P Class=KRCC>
+제발 유제 3번 같은 문제 풀 때는 제발 뭐 해라? 확률분포표를 작성하라.
+<Sync Start=789429><P Class=KRCC>
+표를 작성하라, 작성하라. X가 갖는 범위가 시작. -2,-1,0,1,2 이렇게 돼요.
+<Sync Start=801536><P Class=KRCC>
+
+<Sync Start=804369><P Class=KRCC>
+이제 확률만 채워놓으면 표 작성 끝.
+<Sync Start=809033><P Class=KRCC>
+
+<Sync Start=811423><P Class=KRCC>
+해볼까? 뭐야 이게? X가 -2, 5분의 k. -1을 대입해 봐. 2분의 k.
+<Sync Start=822909><P Class=KRCC>
+k, 2분의 k, 5분의 k 이거네. 그럼 k를 좀 찾아야 될 것 같은데 k를 어떻게 찾을까?
+<Sync Start=833082><P Class=KRCC>
+아랫줄의 총합이 1이라는 걸 이용하면 돼요. 10분의 다 더해봐. 그냥 아랫줄만 다 더해봐. 시작.
+<Sync Start=841016><P Class=KRCC>
+2k+5k+10k+5k+2k=1. 그럼 분자는 24. 10분의 24k가 1이니까 k는 24분의 10.
+<Sync Start=859966><P Class=KRCC>
+24분의 10이니까 12, 5. 결국 k는 얼마다? 시작. 12분의 5가 되는구나.
+<Sync Start=869005><P Class=KRCC>
+
+<Sync Start=875382><P Class=KRCC>
+뭘 이렇게 복잡하게. 뭘 구하는 거야? 시작. X가 0보다 클 확률.
+<Sync Start=879850><P Class=KRCC>
+0은 여기 있으니까 크거나 같은이 아니지. 0보다 크다고 그랬으니까 2개를 더하면 얼마야?
+<Sync Start=884674><P Class=KRCC>
+10분의 7k. 근데 k가 얼마야? 12분의 5. 5는 어딨어? 2. 답은 24분의 7.
+<Sync Start=895241><P Class=KRCC>
+답은 4번. 틀리고 싶어 죽겠는데 틀릴 게 없네. 이거 난감하네.
+<Sync Start=905641><P Class=KRCC>
+
+<Sync Start=909926><P Class=KRCC>
+흰 공 3개와 검은 공 3개가 들어있는 주머니가 있대요. 흰3, 검3.
+<Sync Start=916442><P Class=KRCC>
+흰 공 3개와 검은 공 3개가 들어있는 주머니에서 임의로 3개의 공을 동시에 꺼냈대.
+<Sync Start=921290><P Class=KRCC>
+꺼낸 공 중 흰 공의 개수. 지금 3개를 꺼내는데 그중에서 흰 공의 개수를 a,
+<Sync Start=927295><P Class=KRCC>
+검은 공의 개수를 b라고 하자. 그럼 될 수 있는 거 다 얘기해 봐.
+<Sync Start=932466><P Class=KRCC>
+흰 공 제일 많으면 3개, 0개, 2개, 1개, 1개, 2개, 0개, 3개 이거밖에 더 있어?
+<Sync Start=940210><P Class=KRCC>
+
+<Sync Start=941926><P Class=KRCC>
+근데 뭐 하래? a,b를 곱한 걸 확률변수 X라고 했어. 신기하네.
+<Sync Start=947396><P Class=KRCC>
+곱하면 0, 2, 2, 0이니까 0과 2밖에 없잖아요. 확률변수 X가 0과 2밖에 없어요. 왜?
+<Sync Start=954797><P Class=KRCC>
+a,b 곱한 게 확률변수 X라고 그랬다니까요.
+<Sync Start=959096><P Class=KRCC>
+a,b의 순서쌍은 총 네 가지지만 곱한 건 두 개밖에 없으니까. 그렇지?
+<Sync Start=964840><P Class=KRCC>
+X가 0일 확률. X가 0이라는 게 뭐야? 이거 또는 이거.
+<Sync Start=968716><P Class=KRCC>
+그 얘기는 흰 공만 3개 뽑거나 검은 공만 3개 뽑을 확률.
+<Sync Start=973856><P Class=KRCC>
+그럼 전체 6개 중에서 3개 뽑을 때 흰 공에서만 3개 또는, 또는이니까 더하는 거야.
+<Sync Start=981660><P Class=KRCC>
+정확하게 얘기하면 분류해서 푼 거야. 검은 공 3개에서만 3개 뽑는다.
+<Sync Start=987867><P Class=KRCC>
+20분의 1, 20분의 1 더하니까 20분의 2, 10분의 1, 10분의 9. 왜? 다 더하면 1이니까.
+<Sync Start=996919><P Class=KRCC>
+아랫줄의 총합은 언제나 1이니까. 뭘 구하라고? X의 평균 구하라. 평균은 시작. 다 긁어라.
+<Sync Start=1004761><P Class=KRCC>
+평균은 긁어라. 긁으면 0, 긁으면 10분의 18, 5분의 9. 답은 5번. 너무 쉬워서 할 말이 없어.
+<Sync Start=1015261><P Class=KRCC>
+아이 돈트 헤브 어 메시지 투 세이. 할 말이 없어.
+<Sync Start=1024937><P Class=KRCC>
+
+<Sync Start=1027753><P Class=KRCC>
+이산확률변수 X의 확률분포를 표로 나타내면 오른쪽과 같다.
+<Sync Start=1033940><P Class=KRCC>
+
+<Sync Start=1036884><P Class=KRCC>
+X가 1일 확률. 여기 아주 중요한 게 있네. -1일 때 확률, 0일 때 확률, 1일 때 확률
+<Sync Start=1042201><P Class=KRCC>
+이 3개가 이 순서로 등차수열. 가운데의 2배는 양 사이드의 합과 같다.
+<Sync Start=1049244><P Class=KRCC>
+식 하나 세웠고. 식 하나는 또 뭘로 세우면 돼요? 다 더해서 1이라는 걸 이용하시면 되니까
+<Sync Start=1055376><P Class=KRCC>
+a+b 그냥 2개 다 더하면 이거 더하면 얼마니? 14분의 9니까 14분의 5. 14분의 5가 되겠지.
+<Sync Start=1065791><P Class=KRCC>
+이럴 것 같은데 이게 14분의 9니까. 그렇지? 2개 연립해서 a값과 b값 찾으면 집에 갈 것 같아요.
+<Sync Start=1073189><P Class=KRCC>
+
+<Sync Start=1075379><P Class=KRCC>
+어떻게 갈래요? 너무 복잡해요. 무서워요.
+<Sync Start=1083017><P Class=KRCC>
+
+<Sync Start=1085797><P Class=KRCC>
+누가 좀 대신해 주면 너무 좋겠다. 챗GPT 이런 거 없나?
+<Sync Start=1092156><P Class=KRCC>
+요즘 같은 챗GPT의 시대에 내가 연립을 해야겠니?
+<Sync Start=1098844><P Class=KRCC>
+
+<Sync Start=1104746><P Class=KRCC>
+치매 예방에는 도움이 될 거야.
+<Sync Start=1107411><P Class=KRCC>
+
+<Sync Start=1109580><P Class=KRCC>
+a는 얼마 나와?
+<Sync Start=1111066><P Class=KRCC>
+-14분의 1.
+<Sync Start=1111932><P Class=KRCC>
+-14분의 1. b는?
+<Sync Start=1113940><P Class=KRCC>
+-7분의 2.
+<Sync Start=1115663><P Class=KRCC>
+
+<Sync Start=1118412><P Class=KRCC>
+-그래서 a가 14분의 1 나오고요. b는 7분의 2니까 14분의 4 나오고요.
+<Sync Start=1127600><P Class=KRCC>
+2분의 1이면 14분의 7 나오고요. 7분의 1이면 14분의 2 나와요.
+<Sync Start=1133771><P Class=KRCC>
+
+<Sync Start=1136401><P Class=KRCC>
+됐어? 이제 k만 찾으면 집에 가겠다. k는 어떻게 찾아? X 자리에 미지수 아직까지 하나 또 있어.
+<Sync Start=1144154><P Class=KRCC>
+어떻게 찾아? 뭐 있을 텐데. 여기 있다. 평균이 1. 다 긁으면 1. 긁어볼까? 긁어볼게.
+<Sync Start=1152202><P Class=KRCC>
+분모는 다 14니까 내가 왜 약분하지 말라고 했는지 알겠지? 분모가 통일돼 있어야지 편하다고.
+<Sync Start=1158439><P Class=KRCC>
+왜? 분자끼리 곱하면 되잖아. -1+0+7+2k=1이다. 얘가 8이니까 분자도 14가 돼야지 1 될 거 아니에요.
+<Sync Start=1169936><P Class=KRCC>
+8에 6 더하면. 따라서 얘는 뭐다? 6. 2k가 6이니까 k는 얼마야? 시작. 3. k값까지 찾았어.
+<Sync Start=1177800><P Class=KRCC>
+이제 뭐 찾아라? 왜?
+<Sync Start=1179264><P Class=KRCC>
+-분자가.
+<Sync Start=1180364><P Class=KRCC>
+-분자 잘못했습니까?
+<Sync Start=1182223><P Class=KRCC>
+-8이 아니라 6이요.
+<Sync Start=1183968><P Class=KRCC>
+-6이구나. 6이니까 얘가 뭐가 돼야 돼? 8. 따라서 k는 뭐 돼야 된다? 시작. 4 돼야 된다.
+<Sync Start=1190197><P Class=KRCC>
+여러분, 대학교 잘 가셔야 돼. 나처럼 이러면 대학도 못 가고 결혼도 못하고
+<Sync Start=1199451><P Class=KRCC>
+최악의 인생으로 갈 수가 있어요. 여러분, 정신 바짝 차리셔야 된다.
+<Sync Start=1205854><P Class=KRCC>
+바짝 안 차리면 금세 마흔 되고요. 쉰 되고 예순 되고 끝나. 정신 바짝 차려. 이제 집에 가자. 왜?
+<Sync Start=1221895><P Class=KRCC>
+분산 구하라고 그랬으니까 분산 구하는 공식 시작. 제곱한 것들의 평균-m²
+<Sync Start=1227978><P Class=KRCC>
+분산 보라고. 제곱한 것들의 평균-m², m은 여기 있잖아요. 평균이 1이라 그랬으니까.
+<Sync Start=1235229><P Class=KRCC>
+그럼 여기에 제곱한 것들의 평균 구하시면 되니까 제곱한 것들의 평균 X를 이렇게 다 제곱하는 거예요.
+<Sync Start=1242213><P Class=KRCC>
+그런 다음에 긁으면 분모는 어차피 14니까 1+0+7+32 이거죠.
+<Sync Start=1254041><P Class=KRCC>
+분자 다 더하면 14분의 40이야. 14분의 40은 7분의 20-1이니까 7분의 13 이게 바로 X의 분산이 된다.
+<Sync Start=1264972><P Class=KRCC>
+답은 몇 번? 4번 이렇게 체크하시면 되죠. 우리 표 만드는 거 지난 시간에 다 연습했으니까
+<Sync Start=1272566><P Class=KRCC>
+아주 손쉽게 문제를 우수수 풀 수 있습니다. 얘를 푸는 방법은 두 가지인데요.
+<Sync Start=1279223><P Class=KRCC>
+지금은 이 방법밖에 없다. 따라 해 봐. 자기 자신에서.
+<Sync Start=1284260><P Class=KRCC>
+-자기 자신에서.
+<Sync Start=1285554><P Class=KRCC>
+-평균을.
+<Sync Start=1286667><P Class=KRCC>
+-평균을.
+<Sync Start=1287728><P Class=KRCC>
+-뺐네.
+<Sync Start=1288316><P Class=KRCC>
+-뺐네.
+<Sync Start=1289605><P Class=KRCC>
+-따라 해 봐. 편차.
+<Sync Start=1290753><P Class=KRCC>
+-편차.
+<Sync Start=1291559><P Class=KRCC>
+-제곱한 것들의.
+<Sync Start=1292793><P Class=KRCC>
+-제곱한 것들의.
+<Sync Start=1293453><P Class=KRCC>
+-평균.
+<Sync Start=1293970><P Class=KRCC>
+-평균.
+<Sync Start=1294592><P Class=KRCC>
+-그러니까 얘는 뭐야? 분산, 분산이 9라는 뜻이에요. 이 문제는 이렇게밖에 못 풀어.
+<Sync Start=1301018><P Class=KRCC>
+원래는 딴 방법도 있어. 그건 내가 금방 설명해 드릴 거야.
+<Sync Start=1304729><P Class=KRCC>
+여기서는 지금 배운 게 이거밖에 없어서 이거밖에 못 푼다고.
+<Sync Start=1308582><P Class=KRCC>
+얘는 뭐야? 시작. X의 평균은 4다. 이때 다음을 구하시오. 따라 해 봐. 제곱한 것들의 평균.
+<Sync Start=1316435><P Class=KRCC>
+-제곱한 것들의 평균.
+<Sync Start=1319346><P Class=KRCC>
+-제곱한 것들의 평균 어떻게 구해?
+<Sync Start=1321655><P Class=KRCC>
+-m²+σ²
+<Sync Start=1322734><P Class=KRCC>
+-잘했어요. m²+σ²-σ 이거네요. 맨 마지막에 -σ까지 했으니까. 그럼 끝났지 뭐.
+<Sync Start=1333223><P Class=KRCC>
+얘가 m, 평균에 해당되는 거잖아. 평균이 4니까 제곱하면 시작. 16 더하기
+<Sync Start=1338146><P Class=KRCC>
+얘를 통째로 분산이니까 시작. 9 빼기 표준편차인데 여기다 뭐 씌우는 거니까?
+<Sync Start=1343538><P Class=KRCC>
+여기다 루트 씌운 게 표준편차니까 3, 얘를 계산해 주시면 되지. 22 맞니?
+<Sync Start=1349177><P Class=KRCC>
+그래서 최종적인 답 시작. 22 이렇게 처리하시면 최종적인 답입니다.
+<Sync Start=1355254><P Class=KRCC>
+다시 말씀드리지만 다음 과정까지 공부하면 이것도 손쉽게 구할 수 있는.
+<Sync Start=1362715><P Class=KRCC>
+손쉽게는 아니지, 얘가 제일 손쉬운 방법이긴 하지. 다른 방법으로 구할 수 있는 방법도 있거든.
+<Sync Start=1368885><P Class=KRCC>
+전개해 줘도 되는데 지금은 배우지 않았기 때문에
+<Sync Start=1372469><P Class=KRCC>
+1차식의 평균, 1차식 분산 이런 걸 배우지 않았기 때문에 어떻게 하는 거냐면
+<Sync Start=1379352><P Class=KRCC>
+자기 자신에서 평균이 4라고 그랬으니까 평균을 뺐구나.
+<Sync Start=1384034><P Class=KRCC>
+이걸 편차라고 하고 편차를 제곱한 거고 편차를 제곱한 것들의 평균이니까 이게 바로 분산이구나.
+<Sync Start=1390571><P Class=KRCC>
+이렇게 해석해서 푼다는 것 잊지 마시길 바라면서 유제에 들어갑니다.
+<Sync Start=1399353><P Class=KRCC>
+이산확률변수 X가 갖는 값이 1,2,3,4다. 뭐 하자고? 표 만들자.
+<Sync Start=1406047><P Class=KRCC>
+여기에 만들까? X가 될 수 있는 것이 1,2,3,4래요. 1,2,3,4,5,6,7,8. 여기.
+<Sync Start=1421328><P Class=KRCC>
+
+<Sync Start=1426846><P Class=KRCC>
+X가 1일 확률 시작. 2a, 3a, 4a, 5a 그럼 결국 확률은 다 더하면 얼마니까?
+<Sync Start=1437019><P Class=KRCC>
+1이니까 여러분이 이렇게 보시면 되잖아. 7a, 7a 다 더하면 14a가 1이니까 a가 얼마다? 14분의 1.
+<Sync Start=1447660><P Class=KRCC>
+
+<Sync Start=1454522><P Class=KRCC>
+14분의 1을 다 곱하면 14분의 5까지 이렇게 만들어지겠죠. 뭐 구하는 거야? 분산 구하라고 그랬네.
+<Sync Start=1464249><P Class=KRCC>
+분산 구하려면 일단 뭐부터 알아야 돼? 평균부터 알아야 돼. 뭐부터 구하자고? 평균.
+<Sync Start=1468280><P Class=KRCC>
+이거 잊지 마요. 평균 먼저 구해야 된다고. 평균 어떻게 구한다고? 시작. 다 긁어라.
+<Sync Start=1475986><P Class=KRCC>
+평균 다 긁어라. 분모 14, 분자는 긁으면 되잖아. 2+6+12+20=50 14분의 50, 14분의 50.
+<Sync Start=1498372><P Class=KRCC>
+-40.
+<Sync Start=1499121><P Class=KRCC>
+-14분의 40이야. 14분의 40. 7분의 20.
+<Sync Start=1508039><P Class=KRCC>
+분산을 ***. 제곱한 것들의 평균-m².
+<Sync Start=1516908><P Class=KRCC>
+제곱한 것들의 평균은 X를 제곱한 다음에 긁으면 제곱한 것들의 평균입니다.
+<Sync Start=1523444><P Class=KRCC>
+시작 14분의 2+12+36, 16 곱하기 5가 뭐야? 80 맞지? 이거 더하면 이게 48+2니까 50,
+<Sync Start=1544016><P Class=KRCC>
+더하면 130, 14분의 130.
+<Sync Start=1547970><P Class=KRCC>
+
+<Sync Start=1552489><P Class=KRCC>
+2x7=14, 130, 65 빼기 7x7=49분의 400, 49분의 똑같이 7 곱하자.봐 봐 확률이
+<Sync Start=1567032><P Class=KRCC>
+7x5=35, 7x6, 45, 400 빼니까 55. 따라서 X의 분산 시작. 49분의 55까지 잘했는데
+<Sync Start=1579431><P Class=KRCC>
+a²분의 1을 곱하라 그랬으니까 a분의 1이 뭐야? 14. 그러니까 제곱하면 시작.
+<Sync Start=1588652><P Class=KRCC>
+a가 14분의 1이니까 14에 제곱을 곱한다.
+<Sync Start=1597062><P Class=KRCC>
+
+<Sync Start=1602093><P Class=KRCC>
+7x7=49 얘는 7,2,7,2니까 7,7 날아가면 2,2,4 여기에 4만 곱하면 되는구나. 4x5=20, 4,5,22.
+<Sync Start=1614991><P Class=KRCC>
+그래서 최종적인 답은 시작. 220. 여기까지가 유제 6번이었습니다.
+<Sync Start=1621126><P Class=KRCC>
+새로운 이야기 하나 하고 이 시간 마치도록 하겠습니다.
+<Sync Start=1625816><P Class=KRCC>
+새로운 이야기 하나 하자. 아주 즐거운 새로운 이야기,
+<Sync Start=1629707><P Class=KRCC>
+일명 1차식의 평균, 1차식의 분산, 1차식의 표준편차에 관련된 이야기입니다.
+<Sync Start=1637889><P Class=KRCC>
+쉽습니다. 어렵지 않습니다. 시그마의 성질만 가지고 충분히 알아낼 수 있는데요.
+<Sync Start=1642126><P Class=KRCC>
+이건 이렇게 좀 얘기했으면 좋겠어. 여러분, 예를 들어서 이렇게 돼 있다고 해 봐. 봐 봐.
+<Sync Start=1648051><P Class=KRCC>
+표가 이렇게 돼 있대. 예를 하나 들어주는 거야. 2,3 이렇게 돼있어. 봐 봐.
+<Sync Start=1654734><P Class=KRCC>
+확률이 얘가 2분의 1, 4분의 1, 4분의 1이라고 해보자. 봐 봐.
+<Sync Start=1661956><P Class=KRCC>
+이런 확률분포표가 있대. 봐 봐. 여러분, 편하게 들어. 편하게.
+<Sync Start=1669216><P Class=KRCC>
+여러분, 여기서 X의 평균을 구하라고 그러면 당연히 긁으면 되죠.
+<Sync Start=1674333><P Class=KRCC>
+X의 평균을 어떻게 구한다고요? 긁으면 되죠. 긁으니까 4분의 2로 하자.
+<Sync Start=1682004><P Class=KRCC>
+긁으면 돼, 이거. 긁어봐. 시작. 긁으면 4분의 2+2+3이니까 얼마야? 시작. 4분의 7.
+<Sync Start=1689444><P Class=KRCC>
+잘했거든. 정말 잘했어. 그런데 만약에 (10X-5)의 평균을 구하라고 그러잖아. 따라 해 봐.
+<Sync Start=1698706><P Class=KRCC>
+1차식의 평균.
+<Sync Start=1699812><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1700692><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1701684><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1702875><P Class=KRCC>
+-봐 봐. 여러분들은 X의 평균을 구하라고 그러면 X랑 확률이랑 곱해서 더하면 돼.
+<Sync Start=1709051><P Class=KRCC>
+X랑 확률이랑 곱하면 돼. 근데 지금은 (10X-5)의 평균을 구하라 그랬잖아.
+<Sync Start=1715532><P Class=KRCC>
+그러면 X의 평균이 아니라 (10X-5)의 평균이기 때문에 탭을 하나 더 만드는 거야.
+<Sync Start=1722494><P Class=KRCC>
+(10X-5)랑 확률이랑 긁으면 답이야.
+<Sync Start=1726209><P Class=KRCC>
+
+<Sync Start=1729164><P Class=KRCC>
+(10X-5)의 평균을 구하라. X의 평균을 구하라고 그러면 X랑 확률이랑 곱해서 더했지만
+<Sync Start=1735525><P Class=KRCC>
+(10X-5)의 평균을 구하라고 그러면 (10X-5)를 구해야 돼. 어떻게 하면 돼?
+<Sync Start=1740775><P Class=KRCC>
+X에 10배 한 다음에 5를 빼. 10배 한 다음에 5 빼면 5, 10배 한 다음에 5 빼면 15,
+<Sync Start=1745237><P Class=KRCC>
+10배 한 다음에 5 빼면 25. 됐니? 그래서 답은 뭐냐. 긁으면 되지. 뭐랑?
+<Sync Start=1758165><P Class=KRCC>
+(10X-5)랑 이렇게 긁는 거야. 이렇게 긁는 거야. 이렇게 긁는 거야.
+<Sync Start=1763434><P Class=KRCC>
+그래서 4분의 5랑 2랑 곱하니까 10, 15랑 1이랑 곱하고 25랑 1이랑 곱하는 거야.
+<Sync Start=1774149><P Class=KRCC>
+그래서 4분의 50이 된다. 됐나? 2분의 25가 답이다. 됐어? 따라 해 봐. 1차식의 평균.
+<Sync Start=1787442><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1788224><P Class=KRCC>
+-어떻게 하면 돼? 확률이랑 뭐랑 곱하면 돼? (10X-5)라는 탭을 하나 더 만들어서 긁으면 돼.
+<Sync Start=1796740><P Class=KRCC>
+벗 잇 테이크 쏘 롱 타임. 왓? 잇 테이크 쏘 롱 타임. 왓? 잇 테이크 쏘 롱 타임.
+<Sync Start=1806203><P Class=KRCC>
+시간이 너무 오래 걸립니다. 어떻게 하면 되느냐? 이럴 수 있으면 너무 행복할 것 같지 않니?
+<Sync Start=1811469><P Class=KRCC>
+어쩔 수 있으면? (10X-5)의 평균을 그냥 X의 평균에 곱한 것만큼 곱하고 뺀 것만큼 빼.
+<Sync Start=1822080><P Class=KRCC>
+상상만큼 더할 수 있으면 얼마나 좋겠니? 그래서 그냥 이렇게 쓰는 거지.
+<Sync Start=1828412><P Class=KRCC>
+10 곱하기 X의 평균이 여기 있잖아. 4분의 7 이렇게 쓸 수 있으면 얼마나 좋을까?
+<Sync Start=1833991><P Class=KRCC>
+
+<Sync Start=1836166><P Class=KRCC>
+4분의 70 빼기 4분의 20, 4분의 50. 똑같네.
+<Sync Start=1843434><P Class=KRCC>
+그걸 공부하자는 거예요. 뭔데? 학습목표가 뭐냐면
+<Sync Start=1848071><P Class=KRCC>
+원래 1차식의 평균을 구할 때는 1차식과 확률을 곱해서 답을 써줘야 되는데 그렇게 하기 싫다는 거지.
+<Sync Start=1857176><P Class=KRCC>
+그냥 새로운 탭 만들지 않고 있는 그대로 X의 평균만 가지고도 풀 수 있는 방법이 있느냐.
+<Sync Start=1868532><P Class=KRCC>
+
+<Sync Start=1871864><P Class=KRCC>
+만약에 평균이 매우 센스티브하다면 각각의 변수에다가 10 곱하고 5 뺀 것의 평균이
+<Sync Start=1880426><P Class=KRCC>
+원래 평균에다가 10 곱한 다음에 5 빼준 거랑 같다면 얼마나 인생이 행복할까 이거지.
+<Sync Start=1886973><P Class=KRCC>
+
+<Sync Start=1889500><P Class=KRCC>
+얼마나 인생이 행복할까. 그래서 이런 식으로 한번 따져보자. 뭐냐면 따라 해 봐.
+<Sync Start=1896233><P Class=KRCC>
+1차식의 평균.
+<Sync Start=1897209><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1898378><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1899318><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=1900281><P Class=KRCC>
+-1차식의 평균을 다음과 같이 쓸게요. 여러분, 평균이 뭔데?
+<Sync Start=1903587><P Class=KRCC>
+다 더한 다음에 개수로 나눈 거 기억나요? 다 더한 다음에 개수로 나눈 것.
+<Sync Start=1909535><P Class=KRCC>
+하지만 확률분포표에는 윗줄과 아랫줄을 곱해서 더한 것.
+<Sync Start=1914810><P Class=KRCC>
+아랫줄은 무조건 확률, 윗줄은 aX+b라는 탭 하나를 더 만들라고 그랬잖아. 그렇지?
+<Sync Start=1921165><P Class=KRCC>
+그러니까 윗줄은 aXib입니다. 그거랑 아랫줄 Pi랑 곱해서 싹 다 더하면
+<Sync Start=1930500><P Class=KRCC>
+그것이 바로 1차식의 평균입니다. X랑 곱하는 게 아니라 aX+b랑 곱하는 거지.
+<Sync Start=1939468><P Class=KRCC>
+근데 여러분, 이거 전개하니까 뭐라고요? 전개하니까 이렇게 곱하면
+<Sync Start=1947372><P Class=KRCC>
+axi+bPi가 되거든. 각 항 시그마, 각 항 시그마 이런 거 아니?
+<Sync Start=1954666><P Class=KRCC>
+a 앞으로 튀어나오고 시그마 i는 일부터 n까지 xi 맞잖아. 얘 따로 시그마.
+<Sync Start=1961644><P Class=KRCC>
+
+<Sync Start=1965239><P Class=KRCC>
+Pi가 없네. 미쳤나 보다. Pi. 여기에 대해서 시그마, 시그마 i는 1부터 n까지 bPi.
+<Sync Start=1981457><P Class=KRCC>
+그런데 뭐 앞으로 튀어 나와? 시작. b 앞으로 튀어나갈 수 있다. 이거잖아. 그렇지?
+<Sync Start=1986769><P Class=KRCC>
+왜? 변수 아닌 개수는 앞으로 튀어나갈 수 있다. 여러분, 이거 무슨 뜻이야?
+<Sync Start=1992952><P Class=KRCC>
+윗줄과 아랫줄을 곱한 다음에 더한 것. 이걸 뭐라고 그래? 이게 바로 원래 X의 평균이야.
+<Sync Start=2000729><P Class=KRCC>
+
+<Sync Start=2002583><P Class=KRCC>
+얘가 뭐야? 아랫줄의 총합, 1이야. 확률의 합은 1.
+<Sync Start=2009570><P Class=KRCC>
+그러면 거기에다 뭘 곱해? a를 곱하고 뭐를 더해? 1 곱하기 bPi. 대박. 중간 과정 생략.
+<Sync Start=2017436><P Class=KRCC>
+생략, 중간 생략, 생략 중간 생략, 그게 뭐게? 모르지? 생략 중간 생략.
+<Sync Start=2027132><P Class=KRCC>
+그게 1983년도 청춘만만세에서 나왔었던 유행어야. 생략 중간 생략 이거.
+<Sync Start=2036600><P Class=KRCC>
+
+<Sync Start=2038997><P Class=KRCC>
+어떤 분이었는지 기억은 안 나는데 그 당시에도 이경규 아저씨가 있었어. 지금도 있잖아요.
+<Sync Start=2045878><P Class=KRCC>
+근데 친구들은 김정렬 아저씨, 조정현 아저씨 알아요? 뭐 이런 거 있는데. 이런 거 몰라?
+<Sync Start=2054876><P Class=KRCC>
+내가 초등학교 때 봤던 거라서. 83년은 내가 그냥 해본 말이고 아마 80년대는 맞을 거야.
+<Sync Start=2061497><P Class=KRCC>
+90년대인가? 모르겠다. 보세요.
+<Sync Start=2065746><P Class=KRCC>
+
+<Sync Start=2068916><P Class=KRCC>
+유행어가 무서운 거지. 그러니까 여러분, 절대 유행어 막 따라 하고 그러지 마요.
+<Sync Start=2075159><P Class=KRCC>
+평생 입에 배잖아요. 내가 ebsi 찍다가 어떻게 알았겠냐고.
+<Sync Start=2080592><P Class=KRCC>
+
+<Sync Start=2083005><P Class=KRCC>
+이게 뭐야? 1차식의 평균은 그냥 X의 평균 이게 훨씬 더 편하다는 거지.
+<Sync Start=2091848><P Class=KRCC>
+뭐를 곱하고? 개수만큼 곱하고 상수항만큼 더한 거 시작. 같다. 이걸 우리끼리 얘기하죠.
+<Sync Start=2099771><P Class=KRCC>
+평균은 민감하다. 베리 센서티브.
+<Sync Start=2106691><P Class=KRCC>
+X 앞에 곱한 것 b를 더한 것들이 그대로 최종적인 결과물에 묻어 나오는구나.
+<Sync Start=2113826><P Class=KRCC>
+그럼 이제 뭐만 할 줄 알면 돼? 분산만 1차식에 분산은 어떻게 될지만 기억하시면 되거든.
+<Sync Start=2121198><P Class=KRCC>
+근데 분산 구하는 공식이 뭐야? 공식이라기보다 분산의 정의가 뭐야?
+<Sync Start=2126450><P Class=KRCC>
+편차를 제곱한 것들의 평균. 여러분, 평균은 이거였잖아. 평균은 이거 아니야?
+<Sync Start=2135189><P Class=KRCC>
+윗줄과 아랫줄을 곱한다. 근데 윗줄이 뭐냐? 편차를 제곱한 것.
+<Sync Start=2143674><P Class=KRCC>
+편차는 뭐야? 이게 자기 자신이잖아. 자기 자신에서 뭘 뺀 거야? 평균.
+<Sync Start=2155267><P Class=KRCC>
+이것의 평균이 뭐야? 그게 이거잖니. 그러니까 X의 평균이 m이라고 하면 이것을 뺀 것.
+<Sync Start=2166804><P Class=KRCC>
+자기 자신에서, 여기에서 이것의 평균을 뺀 편차를 제곱한 것들이 평균이지. 왜?
+<Sync Start=2181130><P Class=KRCC>
+이것과 확률이랑 곱했으니까 이것의 평균. 얘는 뭔데? 편차를 제곱한 것들.
+<Sync Start=2187938><P Class=KRCC>
+가만히 봤더니 b와 b가 날아가. 여기 a가 있고요. Xi-am이니까 a로 끌어내면 a(Xi-m)이에요.
+<Sync Start=2201626><P Class=KRCC>
+제곱하라고 했으니까 a도 제곱하고 얘도 제곱할 수 있어.
+<Sync Start=2205703><P Class=KRCC>
+그런 다음에 시그마를 그대로 갖다 붙이면 시그마 i는 1부터 n까지 이렇게 되고
+<Sync Start=2210953><P Class=KRCC>
+옆에 Pi만 곱하는 거야. 그렇다면 여기에 있는 뭐를 앞으로 튀어나가자고?
+<Sync Start=2215677><P Class=KRCC>
+a 제곱을 앞으로 튀어나갈 수 있은 다음에 읽어보니까. 이제 읽어봐, 이거 뭐야?
+<Sync Start=2221513><P Class=KRCC>
+그냥 X를 기준으로 평균을 뺐으니까 편차를 제곱한 다음에 아랫줄 곱한 다음에 더해준 게
+<Sync Start=2230389><P Class=KRCC>
+편차를 제곱한 것들의 평균, 다른 말로 분산인데 그냥 X에서 그냥 X의 평균을 뺀 거니까
+<Sync Start=2238253><P Class=KRCC>
+X의 분산을 구하는 공식이라는 거야. 왜? 편차를 제곱한 것들의 평균이니까.
+<Sync Start=2245984><P Class=KRCC>
+거기에 뭐만 붙였다고? a²만 갖다 붙인 결과로구나.
+<Sync Start=2257213><P Class=KRCC>
+그래서 얘는 센스티브하지가 않구나. 상상이 붙어있는 것이 아예 날아간다.
+<Sync Start=2264754><P Class=KRCC>
+어디서는? 분산에서는. 여러분, 표준편차 구하라고 하면 분산에다 뭐 하시면 돼요?
+<Sync Start=2270951><P Class=KRCC>
+루트 씌우면 되니까 여기에 이제 루트 씌우면 되거든요. √a²에 루트 씌우는 거야.
+<Sync Start=2276184><P Class=KRCC>
+안쪽으로의 제곱을 뭐라고 하죠? 절대값. 분산에 루트 씌우는 게 뭐야? 표준편차.
+<Sync Start=2281451><P Class=KRCC>
+그래서 이렇게 나오거든. 이게 바로 그 유명한 1차식의 평균, 1차 분산, 1차식의 표준편차야.
+<Sync Start=2292272><P Class=KRCC>
+생김새 잘 보세요. 1차식의 평균은 a만큼 곱하고 b를 더했지만 분산은 상수항이 없어져.
+<Sync Start=2302728><P Class=KRCC>
+표준편차도 상수항이 아예 사라지지. 이유가 뭐냐면 봐 봐.
+<Sync Start=2309604><P Class=KRCC>
+X에 상수항을 뭐라고 할까? 10을 더한 것들의 분산이나 그냥 X의 분산 이건 같아.
+<Sync Start=2316542><P Class=KRCC>
+아무리 더해봤자 상수항을 더해봤자 그냥 분산이랑 똑같아. 왜 그러냐면 이건 이렇게 볼 수 있어.
+<Sync Start=2322212><P Class=KRCC>
+이건 식으로 얘기 안 하고 내가 그림으로 설명해 줄게. 내가 분산을 뭐라고 했니?
+<Sync Start=2327776><P Class=KRCC>
+평균을 기준으로 흩어진 정도가 분산이거든.
+<Sync Start=2330502><P Class=KRCC>
+얘가 평균이라면 평균을 기준으로 이 흩어진 정도가 바로 분산이야.
+<Sync Start=2335721><P Class=KRCC>
+그러니까 X의 분산을 구하라고 하면 X1, X2, X3, X4, X5라면
+<Sync Start=2347523><P Class=KRCC>
+평균을 기준으로 흩어진 정도가 바로 분산이야. 근데 여러분, X+10은 뭘까?
+<Sync Start=2355926><P Class=KRCC>
+얘네들이 X1이라면 거기에 10을 평행 이동한 거잖아.
+<Sync Start=2360627><P Class=KRCC>
+10을 평행이동, 10을 평행이동, 10을 평행이동, 10을 평행이동했잖아. 그럼 봐 봐.
+<Sync Start=2370645><P Class=KRCC>
+아까 1차식의 평균에서 b를 더한 것들의 평균은 원래 평균에 b를 더한 거니까
+<Sync Start=2376057><P Class=KRCC>
+평균도 그만큼 올라가거든. 그럼 얘가 바로 뭐냐?
+<Sync Start=2380422><P Class=KRCC>
+새로운 값인 X+10이라는 얘네들의 평균이 여기 있는 거니까
+<Sync Start=2386608><P Class=KRCC>
+X+10에서 분산, 흩어진 정도를 구하라는 것은 여기에서 새로운 평균, 여기에서 흩어진 정도지.
+<Sync Start=2393639><P Class=KRCC>
+여러분, 여기서 평균을 기준으로 흩어진 정도, 여기서 평균을 기준으로 흐트러진 정도는 뭐 하겠니?
+<Sync Start=2398752><P Class=KRCC>
+그대로 올린 거니까 같을 수밖에 없지 않겠니?
+<Sync Start=2402399><P Class=KRCC>
+그래서 흩어진 정도를 따질 때는 평균도 평행이동하기 때문에 
+<Sync Start=2407588><P Class=KRCC>
+맨 마지막에 붙어 있는 이 상수는 의미가 없어지는 거예요.
+<Sync Start=2412744><P Class=KRCC>
+그래서 앞으로는 이걸 기억하자. 1차식의 평균은 개수만큼 곱하고 상수만큼 더하지만
+<Sync Start=2420249><P Class=KRCC>
+1차식의 분산과 1차식의 표준편차 산포도들은 상수항 무시하고 X의 개수만 보시면 되는데
+<Sync Start=2427904><P Class=KRCC>
+따라 해 봐. 제곱배.
+<Sync Start=2429578><P Class=KRCC>
+-제곱배.
+<Sync Start=2430433><P Class=KRCC>
+-절대값배.
+<Sync Start=2431533><P Class=KRCC>
+-절대값배.
+<Sync Start=2432500><P Class=KRCC>
+-이렇게 기억해 줬으면 좋겠어. 제곱배와 절대값배.
+<Sync Start=2437848><P Class=KRCC>
+개수의 제곱, 개수의 절대값.
+<Sync Start=2440923><P Class=KRCC>
+여러분, 평균은 양수가 될 수도 있고 음수가 될 수도 있지만 잘 들으세요.
+<Sync Start=2446319><P Class=KRCC>
+평균은 양수가 될 수도 있고 음수가 될 수도 있지만 왜?
+<Sync Start=2449922><P Class=KRCC>
+변량들이 다 음수면 모든 자료들이 다 음수야. 그럼 평균도 음수겠죠.
+<Sync Start=2454794><P Class=KRCC>
+그러니까 평균은 음수, 0, 양수 다 돼요. 하지만 분산과 표준편차는 항상 양수 개념이에요. 왜?
+<Sync Start=2461524><P Class=KRCC>
+편차를 곱한 것들의 평균이잖아. 편차는 음수가 될 수 있을지 언정
+<Sync Start=2467356><P Class=KRCC>
+제곱하면 0보다 크거나 같으니까 0보다 크거나 같은 것끼리 평균 구해봤자 0보다 크다.
+<Sync Start=2473306><P Class=KRCC>
+그래서 분산과 표준편차는 항상 양수 개념이야. 그래서 절대값이 온다고 생각하고
+<Sync Start=2478683><P Class=KRCC>
+그래서 제곱이 온다고 생각해 주세요.
+<Sync Start=2482141><P Class=KRCC>
+이 개수는 음수가 올 수 있을지 언정 예를 들어서 -3X+1 뭐 한 거야?
+<Sync Start=2488174><P Class=KRCC>
+원래 X에 -3 곱하고 1 더한 것들에 분산을 구하라고 그러면 그냥 원래 분산에 따라 해 봐.
+<Sync Start=2495240><P Class=KRCC>
+제곱배.
+<Sync Start=2496185><P Class=KRCC>
+-제곱배.
+<Sync Start=2496873><P Class=KRCC>
+-제곱배.
+<Sync Start=2497487><P Class=KRCC>
+-제곱배.
+<Sync Start=2498556><P Class=KRCC>
+-개수의 제곱, 9배를 해주는 게 답이라는 거야.
+<Sync Start=2503679><P Class=KRCC>
+
+<Sync Start=2505662><P Class=KRCC>
+붙어져 있는 상수항은 의미가 없다. -3X+1의 표준편차를 구하라고 그러면
+<Sync Start=2513316><P Class=KRCC>
+원래 표준편차 X의 표준편차이다. 개수의 절대값배 이렇게 기억하고 계십니다.
+<Sync Start=2521574><P Class=KRCC>
+3배 해 주시면 된다. 이유까지 알았더니 너무 즐겁잖아요. 따라 해 봐, 제곱배.
+<Sync Start=2528023><P Class=KRCC>
+-제곱배.
+<Sync Start=2528700><P Class=KRCC>
+-절대값배.
+<Sync Start=2529334><P Class=KRCC>
+-절대값배.
+<Sync Start=2529942><P Class=KRCC>
+-여기까지가 1차식의 평균, 1차식의 분산, 1차식의 표준편차에 관련된 이야기였습니다.
+<Sync Start=2541667><P Class=KRCC>
+65쪽에 예제 4번 풀어보시죠. 갑니다. 이산확률변수 X값이 갖는 값이. 표 만들어.
+<Sync Start=2554993><P Class=KRCC>
+뭐가 두려우세요? 표 만드세요. 불러봐. -1도 되고 0도 되고 1도 되고 2도 되는데 거기 써 있잖아.
+<Sync Start=2562060><P Class=KRCC>
+첫 번째 줄에 여기 써 있잖아. 그래서 이렇게 나열하는 거야. X가 될 수 있는 것들을 나열하기.
+<Sync Start=2568083><P Class=KRCC>
+그런 다음에 확률은 여기 나왔네. 봐 봐. X 대신 1 대입하면 2가 될 확률은 1이 될 확률의 절반.
+<Sync Start=2576765><P Class=KRCC>
+얘가 a면 거기의 절반,
+<Sync Start=2579120><P Class=KRCC>
+
+<Sync Start=2584099><P Class=KRCC>
+0 대입하면 1이 될 확률은 0의 절반. -1 대입할 때는, 0 대입할 때는, 마이너스 일 때
+<Sync Start=2592598><P Class=KRCC>
+그러니까 여기의 절반, 여기의 절반, 여기의 절반.
+<Sync Start=2596196><P Class=KRCC>
+2분의 1 곱해봐. 시작. 4분의 a, 2분의 1 곱해. 시작. 8분의 a. a 먼저 구하자.
+<Sync Start=2601408><P Class=KRCC>
+다 더하면 얼마야? 시작. 1. 등비수열의  합 공식 이용할까?
+<Sync Start=2608818><P Class=KRCC>
+나 같으면 얘를 첫 장이라고 본다. 왜? 그러면 공비가 2잖아. 그렇지?
+<Sync Start=2613435><P Class=KRCC>
+2-1, 2-1. 항은 시작. 4개. 전체의 첫째항 8분의 a. 이러면 1이래.
+<Sync Start=2621177><P Class=KRCC>
+이거 어차피 1이고 얘는 15니까 a는 얼마야? 15분의 8이지.
+<Sync Start=2626807><P Class=KRCC>
+a가 15분의 8이구나. 맨 처음에 있는 게 15분의 8인데 계속 2분의 1을 곱하래.
+<Sync Start=2632289><P Class=KRCC>
+15분의 8이었으면 15분의 4가 되고 15분의 2분의 1 곱하기가 2고 15분의 1이 돼요.
+<Sync Start=2639232><P Class=KRCC>
+여기까지가 바로 주어진 확률분포표인데 뭐 구하라 그랬어?
+<Sync Start=2645403><P Class=KRCC>
+6-15X의 평균을 구하래. 따라 해 봐, 1차식의 평균.
+<Sync Start=2650115><P Class=KRCC>
+-1차식의 평균.
+<Sync Start=2650864><P Class=KRCC>
+-원래 어떻게 하냐면 6-15X를 각각 다 만들어야 된다니까.
+<Sync Start=2657009><P Class=KRCC>
+21 되고 여기는 6이 되고 이거 얼마나 복잡해. 그렇지? 그렇게 하지 말자니까.
+<Sync Start=2663512><P Class=KRCC>
+그냥 우리는 뭐만 구하자고요? 그냥 주어진 대로 X의 평균만 구하고 끝내버리자고요.
+<Sync Start=2669529><P Class=KRCC>
+여기서 그냥 긁어버리고 끝내자고요. 분자 계산하세요. -8+0+2+2 그러니까 얼마야?
+<Sync Start=2678202><P Class=KRCC>
+-15분의 4가 되잖니. 이게 그냥 X의 평균인데 거기에다가 시작.
+<Sync Start=2688864><P Class=KRCC>
+개수만큼 곱하고 상수항만큼 더하면 되니까 여기이 개수 마이너스 15를 곱하고 상수항을 더하면
+<Sync Start=2696955><P Class=KRCC>
+-15 사라지고 4 더하기 6이니까 답은 아주 간단해. 시작. 10.
+<Sync Start=2703844><P Class=KRCC>
+새로운 탭을 만들지 말고 뭐 하자고? 1차식의 평균의 성질을 이용해서 쓰자는
+<Sync Start=2713228><P Class=KRCC>
+아주 훌륭한 이야기를 이번 시간에 공부했었습니다. 이제 다음 시간에는 이항분포 들어갈 거거든요.
+<Sync Start=2721620><P Class=KRCC>
+흥미진진한 이항분포의 세계로 흠뻑 빠져보시길 추천드립니다. 오늘은 여기까지.
+</BODY>
+</SAMI>

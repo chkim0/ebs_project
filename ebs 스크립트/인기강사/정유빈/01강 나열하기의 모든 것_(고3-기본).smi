@@ -1,0 +1,1101 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=8150><P Class=KRCC>
+여러분, 안녕하세요? 수학이 말랑말랑해지는 시간 
+<Sync Start=10526><P Class=KRCC>
+저는 여러분과 함께 공부하고 있는 정유빈입니다. 
+<Sync Start=13807><P Class=KRCC>
+이제 벌써 파이널 체크포인트까지 들어왔습니다. 
+<Sync Start=17881><P Class=KRCC>
+이게 막 파이널이라고 하면 엄청난 긴장이 되잖아요. 
+<Sync Start=20926><P Class=KRCC>
+이제 진짜 최종인 것 같고, 여러분 뭐 숙제 같은 거 해봐도 알잖아요. 그렇죠? 
+<Sync Start=26196><P Class=KRCC>
+최종, 완성, 최종의 최종, 진짜 최종, 최최종 그렇게 아직 우리한테 여러분 
+<Sync Start=33799><P Class=KRCC>
+충분한 시간들은 있습니다. 내가 앞으로 어떻게 사용을 하느냐에 따라서 
+<Sync Start=37238><P Class=KRCC>
+남은 시간은 달라지는 거거든요. 그러니까 불안해하지 말라고 
+<Sync Start=40685><P Class=KRCC>
+조급해하지 말라는 이야기를 꼭 하고 싶고 파이널, final, 그렇죠? 
+<Sync Start=45898><P Class=KRCC>
+파이널이라고 하니까 좀 그렇다. 그렇죠? 파이널까지 왔습니다. 
+<Sync Start=49209><P Class=KRCC>
+이제 파이널이지만 그렇지만 우리가 정리를 쭉 해나가면서 다시 한번 
+<Sync Start=52964><P Class=KRCC>
+여러분 알고 있는 내용 다시 볼 거고요. 그리고 여기서의 특징이 한 가지는 있어. 
+<Sync Start=57074><P Class=KRCC>
+되게 한 권이잖아요. 확통이 한 권. 근데 그 한 권이었던 것이 엄청 많이 줄어들어서 
+<Sync Start=63776><P Class=KRCC>
+이렇게 작아 보이게 정리가 되어 갈 겁니다. 
+<Sync Start=66890><P Class=KRCC>
+그래서 그런 느낌으로 문제로 바로 넘어가서 내가 그냥 의식하지 않아도 
+<Sync Start=72339><P Class=KRCC>
+알아서 내 머릿속에서 그냥 슈르륵 필요한 내용들을 가지고 와서 문제를 푸는 
+<Sync Start=77665><P Class=KRCC>
+그런 연습들을 좀 해보도록 할게요. 알았죠? 파이널은 딱 5번, 
+<Sync Start=81957><P Class=KRCC>
+우리가 체크 포인트 하는 딱 5번 동안은 제가 여러분이랑 같이 좀 세뇌 타임 같은 걸 
+<Sync Start=88281><P Class=KRCC>
+가져볼까 해요. 그래서 오늘의 이야기는 이것으로 가지고 왔습니다. 
+<Sync Start=92554><P Class=KRCC>
+5번만 세뇌하기의 그 첫 번째 시간입니다. 두둥! 당신을 믿지 않아. 나는 나를 믿어. 
+<Sync Start=99020><P Class=KRCC>
+그렇죠? 남들을 믿지 말고요. 여러분 스스로를 믿으세요. 
+<Sync Start=102609><P Class=KRCC>
+여러분이 받아놓은 성적 같은 거 믿지 말고요. 
+<Sync Start=105858><P Class=KRCC>
+내가 지금까지 어떠했고 그거 믿지 말고요. 
+<Sync Start=108187><P Class=KRCC>
+여러분이 지금 해놓은 내 스스로가 알고 있는 나의 실력 있잖아요. 그걸 믿으세요. 
+<Sync Start=113522><P Class=KRCC>
+적나라한 나의 실력을. 만약에 그게 부족하다면 열심히 하면 되지. 
+<Sync Start=117706><P Class=KRCC>
+그럼 무조건 올라가겠지, 그렇죠? 주변에서 뭐 어떻다더라, 지금은 뭐 어떻다더라 
+<Sync Start=121843><P Class=KRCC>
+이런 이야기들보다는 현재는 내가 어떻게 해나가고 있고 지금의 나는 어떠하고 
+<Sync Start=128044><P Class=KRCC>
+남은 기간 동안에 내가 어떠할지 내 스스로를 믿는 게 되게 중요하더라고요. 
+<Sync Start=132284><P Class=KRCC>
+안 그러면 계속 흔들리게 돼. 계속 흔들리게 돼요. 그래서 사실 막 이제 아시안게임 
+<Sync Start=138577><P Class=KRCC>
+이런 거 하고 있었거든? 보통 그런 거 있잖아요. 유망주, 이 사람이 되게 잘 될 거야.
+<Sync Start=142971><P Class=KRCC>
+그래서 막 주목을 누군가가 받아요. 그런데 이 선수가 아닌 다른 선수는 
+<Sync Start=146710><P Class=KRCC>
+그럼 포기할까? 나는 주목받는 대상이 아니니까? 절대 그렇지 않아요. 
+<Sync Start=150745><P Class=KRCC>
+그때마다 여러분 새로운 주인공들이 탄생하잖아요. 
+<Sync Start=154273><P Class=KRCC>
+그래서 우리가 스포츠를 좋아하는 거기도 하고요. 그 주인공이 여러분이 될 거예요. 
+<Sync Start=158480><P Class=KRCC>
+그래서 그런 생각들을 꼭 가지고 남은 시간이 우리한테는 바뀌는 
+<Sync Start=163792><P Class=KRCC>
+엄청난 변화의 시간이 되는 거니까, 알았죠? 그렇다면 스스로를 믿고 
+<Sync Start=168231><P Class=KRCC>
+시작을 해보도록 하겠습니다. 이번에는요. 
+<Sync Start=170767><P Class=KRCC>
+제가 좀 귀엽게 그림을, 사실 저는 이렇게 키워드를 드리고 
+<Sync Start=179296><P Class=KRCC>
+CG 감독님께 기차처럼 나열해주세요, 라고 썼어요. 
+<Sync Start=183438><P Class=KRCC>
+저의 한계, 저의 능력치는 거기까지인데 이렇게 귀엽게 나타내주셨어. 
+<Sync Start=188836><P Class=KRCC>
+있어요, 여러분. 그림을 잘 못 그리고 스스로가 디자인을 잘 못하는 사람의 특징은 
+<Sync Start=194186><P Class=KRCC>
+귀여운 거 좋아해. 잘 완성된 거 보면 되게 신나해요. 
+<Sync Start=198200><P Class=KRCC>
+내가 마치 한 양 막 신나 가지고 자랑을 하고 있는데, 
+<Sync Start=201428><P Class=KRCC>
+쭉 이번에는 나열하면서 여러분 의식의 흐름대로 우리가 나가는 것들 
+<Sync Start=205320><P Class=KRCC>
+공부를 한번 해볼 건데요. 길게 가지 않을 거고요. 
+<Sync Start=207976><P Class=KRCC>
+얘를 보고 이번 파트는 다짜고짜 문제 풀이로 갈 겁니다. 
+<Sync Start=211944><P Class=KRCC>
+문제 안에서 여러분 필요한 개념 그때그때 끌고 올 거거든요. 
+<Sync Start=214877><P Class=KRCC>
+일단 우리가 지금 나열 파트, 순열이라는 이름을 쓰지는 않았어요. 
+<Sync Start=219295><P Class=KRCC>
+나열이라고 했습니다. 그냥 순서대로 나열하기가 나열이잖아. 
+<Sync Start=223197><P Class=KRCC>
+순서대로 나열하지 않을 때가 있잖아. 여기 나열, 여기 나열 이럴 때도 있잖아. 
+<Sync Start=227420><P Class=KRCC>
+그치? 그래서 그냥 나열이라고 이야기를 할게요. 
+<Sync Start=229844><P Class=KRCC>
+우리가 처음 배웠던 나열이 이제 그 P라는 순열인데, 
+<Sync Start=233827><P Class=KRCC>
+저는 그거 사용 안 한다고 그랬어요. 그렇죠? 
+<Sync Start=236281><P Class=KRCC>
+뭐 하러 그렇게 해. 순서대로 나열할 건 곱의 법칙이라는 표현이 중요합니다. 
+<Sync Start=241206><P Class=KRCC>
+잠깐 떠올려봐요. 천의 자리, 백의 자리, 십의 자리, 일의 자리에 
+<Sync Start=245810><P Class=KRCC>
+어떠한 수들이 들어간다. 그럼 각 자리에 들어갈 수 있는 경우의 수를 구해서 곱한다.
+<Sync Start=251067><P Class=KRCC>
+그게 곱의 법칙이잖아요. 그렇죠? 그것만 알고 있으면 전부 다 가능해요. 
+<Sync Start=256420><P Class=KRCC>
+근데 순서대로 나열만 하지는 않겠죠. 지금 보는 것처럼. 
+<Sync Start=260516><P Class=KRCC>
+만약에 순서대로 나열인데 1번, 2번, 3번, 4번 자리에 내가 4장의 카드를 들고 
+<Sync Start=266537><P Class=KRCC>
+나열한다고 할 때는 1번 자리에 앉히고 나면 2번 자리에 또 앉을 수는 없잖아요. 
+<Sync Start=271250><P Class=KRCC>
+카드가 없으니까. 그렇지? 사라지니까. 그게 순서대로 나열하기였다면 
+<Sync Start=276171><P Class=KRCC>
+카드는 충분히 있어. 이게 중복이 가능한 거예요. 천의 자리에 1을 사용했다. 
+<Sync Start=281956><P Class=KRCC>
+십의 자리에도 1을 또 쓸 수 있어요. 백의 자리에도 1 쓰고 
+<Sync Start=285049><P Class=KRCC>
+일의 자리에도 1 다 쓸 수 있는 그런 경우들이 있잖아요. 그게 중복순열인 건데요. 
+<Sync Start=291612><P Class=KRCC>
+여기까지 전부 다 그냥 뭐라고 부르면 되느냐? 각 자리에 앉을 수 있는 경우의 수를 
+<Sync Start=298719><P Class=KRCC>
+구해서 곱한다. 한 줄 요약이 되는 거예요. 맞죠? 
+<Sync Start=303250><P Class=KRCC>
+그래서 여기까지 여러분 사실은 딱히 뭐 내가 어떤 개념을 갖고 와서 푼다? 
+<Sync Start=311193><P Class=KRCC>
+이런 느낌이 들지 않아요. 다만 여기서는 기호 하나만 생각은 해 둡시다. 
+<Sync Start=316218><P Class=KRCC>
+이거 기억나요? 많이들 잊었을까 봐. 수능에는 잘 출제가 되지 않지만 
+<Sync Start=321672><P Class=KRCC>
+3월달, 3월 학평 보던 때에는 여러분 얘가 23번의 주인공이기도 했습니다. 
+<Sync Start=327391><P Class=KRCC>
+이런 거. n의 r제곱으로 π가 표현되어 있을 때도 계산할 수 있으면 되는 거. 그렇죠?
+<Sync Start=333093><P Class=KRCC>
+그러나 실제로 우리가 풀 때는 π라는 기호를 활용할 일은 거의 없어요. 
+<Sync Start=337427><P Class=KRCC>
+아니, 99.9%로 없어요. 그렇죠? 그냥 곱의 법칙으로 갈 거고요. 
+<Sync Start=342148><P Class=KRCC>
+여기는 겹치는 경우 나누기가 지금부터 시작입니다. 
+<Sync Start=346126><P Class=KRCC>
+사실 여기서부터가 이제 또 메인이 되는 거죠. 왜냐하면 내가 나열을 해 나갔어. 
+<Sync Start=349893><P Class=KRCC>
+각 자리가 다른 경우라고 생각을 하고 나열을 했어요. 
+<Sync Start=352729><P Class=KRCC>
+근데 어머! 회전하면서 겹쳐요. 그게 누구야? 원순열. 그렇죠? 
+<Sync Start=358129><P Class=KRCC>
+또는 같은 것이 있어 가지고 배열하면서 겹쳐요. 이를테면 우리 이런 거. 
+<Sync Start=363894><P Class=KRCC>
+아주 간단한 거 1, 1, 1, 2, 2를 나열합니다, 라고 했어요. 
+<Sync Start=367681><P Class=KRCC>
+1, 1, 1, 2, 2를 나열해요. 5개를 다 다른 것으로 보고 순서대로 나열하기라고 하면 
+<Sync Start=372626><P Class=KRCC>
+그냥 5!이잖아요. 근데 뭐가 있었지? 얘네 나열할 때마다 겹치고 
+<Sync Start=377250><P Class=KRCC>
+얘네 나열할 때마다 겹쳐서 나누어줬었죠. 그렇죠? 그게 같있순이에요. 
+<Sync Start=382780><P Class=KRCC>
+결국은 겹치는 경우를 나누어 주는 경우가 이렇게 두 가지로 연결이 되는 거겠죠. 
+<Sync Start=387140><P Class=KRCC>
+그렇죠? 원형으로 배열하는 것도 마찬가지입니다. 
+<Sync Start=390028><P Class=KRCC>
+내가 n명을 나열할 때 n!이라고 순서대로 나열하기를 사용했는데 
+<Sync Start=394123><P Class=KRCC>
+어머! 회전할 때마다 겹쳐요. 그래서 n번으로 나누어 주는 거 이런 것들. 
+<Sync Start=398537><P Class=KRCC>
+그래서 겹치는 경우는 나누어 줄 수가 있고요. 아니면 겹치는 경우가 생기지 않도록 
+<Sync Start=405935><P Class=KRCC>
+배열하는 방법도 있습니다. 그게 원순열에서 제가 문제 풀이하는 두 가지 방법이죠. 
+<Sync Start=410510><P Class=KRCC>
+이따 문제 풀 때 다시 한번 소개를 할 거고요. 그다음 마지막으로 얘는 사실 
+<Sync Start=415347><P Class=KRCC>
+같있순 중에 하나기는 한데요. 따로 뺐어요. 이유는? 
+<Sync Start=419978><P Class=KRCC>
+여러분 어렵다고 생각을 했었잖아. 어릴 때. 그렇죠? 지금은 아니에요. 
+<Sync Start=425448><P Class=KRCC>
+우리가 잘 모르던 시절에 그랬다는 것이고 이 최단거리의 경우에도 
+<Sync Start=428874><P Class=KRCC>
+결국은 우리가 어떤 자리를 찾아가는 방법을 같은 것이 있는 순열로 
+<Sync Start=433536><P Class=KRCC>
+해석을 하는 거죠. 그렇죠? 거기까지 가볼 겁니다. 이게 다였어요. 
+<Sync Start=438470><P Class=KRCC>
+이만큼의 기차만 타면 여러분이 얘기하던 순열 파트 다 끝났어요. 
+<Sync Start=444030><P Class=KRCC>
+원순열, 중복순열 같은 것이 있는 순열이 다 끝났어요. 그렇죠? 이거할 겁니다. 
+<Sync Start=449686><P Class=KRCC>
+이들끼리는 당연히 여러분 연결, 연결돼서 나올 수 있고요. 
+<Sync Start=452856><P Class=KRCC>
+게다가 여기는 잘 기억해 두셔야 되는 게 뒤쪽 파트에 가서 확률. 
+<Sync Start=457617><P Class=KRCC>
+확률할 때에도 이 경우의 수들은 쓰잖아요. 그게 중요합니다. 알아두세요. 알았죠? 
+<Sync Start=462726><P Class=KRCC>
+그럼 이제 기차에 내려서 우리 문제를 좀 풀어보도록 할게요. 봅시다. 
+<Sync Start=469632><P Class=KRCC>
+이것도 있어. 깨알 자랑. 차단기가 있더라고요. 그렇죠? 약간 신난 상태예요. 
+<Sync Start=475969><P Class=KRCC>
+보도록 합시다. 내가 약간 그 인생에 대한 만족도가 좀 높은 편인데, 
+<Sync Start=481797><P Class=KRCC>
+그 이유가 이런 것 같아요. 너무 즐거워요. 이런 거 하다 보면. 
+<Sync Start=486045><P Class=KRCC>
+왜 그러나? 이러지 말고 그렇게 여러분도 좀 실실 웃어봐요. 
+<Sync Start=490055><P Class=KRCC>
+그러면 갑자기 좀 사는 게 즐거워져요. 별거 없더라고. 
+<Sync Start=494012><P Class=KRCC>
+제가 생각을 했을 때 자꾸 실실 웃다 보면 좋은 일이 생기는 것 같아. 안 그래? 
+<Sync Start=499659><P Class=KRCC>
+그렇죠? 약간 그런 거 있어. 저랑 같이 공부하던 친구들이 같이 실실 웃게 되잖아요. 
+<Sync Start=504290><P Class=KRCC>
+그렇죠? 그러다 보면 좋은 일이 생기는 거예요. 문제도 얼마나 재밌어요? 보세요. 
+<Sync Start=509172><P Class=KRCC>
+우리 파이널체크에서는 제가 수특이나 수능완성에 있는 문제들을 
+<Sync Start=512695><P Class=KRCC>
+주로 가지고 왔습니다. 왜게요? 많이 까먹었을 거거든. 
+<Sync Start=516656><P Class=KRCC>
+연계에 대한 대비도 해야 되고요. 플러스로 여러분 많이 잊었을 만한 유형들은 
+<Sync Start=521044><P Class=KRCC>
+여기 다 들어있기 때문에 그 유형들 가지고 왔고 얘네가 어떤 식으로 출제가 되고 
+<Sync Start=525359><P Class=KRCC>
+어떤 식으로 변형도 되고 이런 포인트 하나하나 가지고 갈게요. 알았죠? 
+<Sync Start=529426><P Class=KRCC>
+문제 먼저 그냥 봐봐요. 여러분이 지금부터는 최면을 걸어야 되는 건 뭐냐면, 
+<Sync Start=534028><P Class=KRCC>
+내가 수능 시험장에서 이 문제를 만났어요. 몇 번에 배치가 되었을지 전혀 모르고요. 
+<Sync Start=539144><P Class=KRCC>
+3점일지 4점일지도 전혀 몰라요. 관심 밖이에요. 
+<Sync Start=542924><P Class=KRCC>
+그냥 문제는 문제 바이 문제로 해결을 할 거니까. 시험장에서 만났습니다. 짠! 시작. 
+<Sync Start=549373><P Class=KRCC>
+교사 2명, 1학년 2명, 2학년 2명, 3학년 2명인데 모두 둘러 원탁의, 
+<Sync Start=556633><P Class=KRCC>
+그래서 사실 좀 좋은 거는 원순열이잖아요. 
+<Sync Start=559813><P Class=KRCC>
+원순열은 대놓고 원순열임을 알려주고 있어요. 
+<Sync Start=562788><P Class=KRCC>
+그림이 있건 없건 표현 자체가 무조건 원형의 탁자에 둘러앉는다. 
+<Sync Start=568751><P Class=KRCC>
+이런 표현, 일정한 간격을 두고 둘러앉는다. 회전하여 일치하면 같은 것으로 본다. 
+<Sync Start=574525><P Class=KRCC>
+대놓고 나 원순열 문제야를 알려주죠. 근데 이것 또한 굉장히 쉽게 나오거나 
+<Sync Start=580109><P Class=KRCC>
+4명을 원탁에 앉힌다. 이런 식으로. 그럼 23번이 되는 거니까. 
+<Sync Start=583906><P Class=KRCC>
+그러거나 아니면 조금 더 이렇게 조건이 붙는 문제? 
+<Sync Start=587504><P Class=KRCC>
+(가) 보시면 1학년 2명은 서로 이웃하고요. 2학년 2명도 이웃 합니다. 
+<Sync Start=592827><P Class=KRCC>
+포인트 잡아볼까요? 기억해요. 만약에 총 몇 명이야? 지금. 
+<Sync Start=597495><P Class=KRCC>
+2명, 2명, 2명, 헷갈리더라고 2명, 2명, 2학년 2명, 3학년 2명입니다. 보이세요? 
+<Sync Start=606319><P Class=KRCC>
+8명 맞죠? 그렇죠? 8명을 원탁에 앉히는 방법이라고만 할게요. 
+<Sync Start=613342><P Class=KRCC>
+이 문제에서 하나씩 하나씩 포인트 잡아봅시다. 개념을 잡아가봅시다. 
+<Sync Start=617558><P Class=KRCC>
+8명을 원탁에 앉혀요. 그럼 어떻게 하면 돼요? YES, 7! 왜? 왜? 
+<Sync Start=624854><P Class=KRCC>
+대놓고 8명을 원탁이라고 되어 있으면 문제 풀이할 때 우리는 그냥 바로 
+<Sync Start=629630><P Class=KRCC>
+7!로 가면 되겠습니다. 이유는 이렇게 해결했죠. 
+<Sync Start=634042><P Class=KRCC>
+그냥 다 다른 자리라고 생각할 때 8!이고요. 
+<Sync Start=637382><P Class=KRCC>
+회전해서 겹치는 경우로 나누어 준다고 했습니다. 
+<Sync Start=641942><P Class=KRCC>
+회전해서 겹치는 경우. 각 자리마다 딸깍, 딸깍, 딸깍, 딸깍 8번 회전할 때마다 
+<Sync Start=647639><P Class=KRCC>
+같은 배열에 1, 2, 3, 4, 5, 6, 7, 8번이면 그대로 앉게 되죠. 
+<Sync Start=651575><P Class=KRCC>
+그래서 회전해서 겹치는 경우를 나누어 주는 것인데, 
+<Sync Start=654327><P Class=KRCC>
+문제의 난이도가 올라갈 때의 좋은 방법은 1명을 먼저 앉힌다고 생각하면 돼요. 
+<Sync Start=662678><P Class=KRCC>
+1명이 앉아. 이것만 이해해도 원순열 문제의 어려운 문제 다 풀 수 있어요. 
+<Sync Start=668304><P Class=KRCC>
+1명이 가서 앉는 방법의 수는? 기어이 그림을 그려야 되겠구먼. 
+<Sync Start=674940><P Class=KRCC>
+하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 8자리잖아. 나쁘지 않아. 
+<Sync Start=680797><P Class=KRCC>
+8자리가 있는데 8자리 중에 1명이 가서 앉으면 돼요. 
+<Sync Start=684495><P Class=KRCC>
+특정한 1명 아무나 뽑아. 눈 감고 아무나 뽑아. 잡힌 애가 하필이면 그래요. 
+<Sync Start=689852><P Class=KRCC>
+유빈이라고 해요. 유빈이가 뽑혔어. 유빈아, 너 가서 앉아. 아무 데나 앉혔어요. 
+<Sync Start=694440><P Class=KRCC>
+방법은 한 가지예요. 왜? 아무나 상관없기 때문에 유빈이건 누구건 
+<Sync Start=699430><P Class=KRCC>
+그 잡힌 사람이면 되니까 경우의 수 치지 않고요. 
+<Sync Start=702590><P Class=KRCC>
+그 사람이 가서 앉는 방법이 여기건 여기건 지금은 다 같은 자리예요. 그렇죠? 
+<Sync Start=706713><P Class=KRCC>
+그래서 1명이 가서 앉는 방법의 수는 한 가지고요. 
+<Sync Start=708842><P Class=KRCC>
+대신에 남은 7명은 다 다른 자리에 앉게 되는 거예요. 
+<Sync Start=717184><P Class=KRCC>
+이게 진짜 핵심 포인트가 되는 거지. 남은 7명이 다 다른 자리가 되었어. 완전 좋죠. 
+<Sync Start=721842><P Class=KRCC>
+그렇죠? 그러면 끝난 거예요. 나머지 7명은 가서 앉는 방법의 수 7! 
+<Sync Start=726031><P Class=KRCC>
+이렇게 해결을 하게 됩니다. 여기에 추가적으로 지금 어차피 이웃 한다, 
+<Sync Start=730095><P Class=KRCC>
+이웃 하지 않는다 나왔으니까요. 거기까지 가보도록 할게요. 
+<Sync Start=735780><P Class=KRCC>
+선은 긋지 않는 것으로. 이웃한다, 이웃 하지 않는다까지. 
+<Sync Start=740582><P Class=KRCC>
+이거는 원순열에만 쓰이는 건 아니고요. 순열 파트 어디에든 잘 들어가는 조미료죠. 
+<Sync Start=749795><P Class=KRCC>
+MSG, 그렇죠? 이웃 한 다음에 어떻게 하면 돼요? 다 묶어놔요. 
+<Sync Start=756170><P Class=KRCC>
+한 묶음으로 생각하세요. 한 묶음으로 생각해서 1명처럼 치고요. 
+<Sync Start=762590><P Class=KRCC>
+그다음 나중에는 그 끈으로 묶은 묶음 안의 배열을 생각합니다. 
+<Sync Start=767280><P Class=KRCC>
+
+<Sync Start=769969><P Class=KRCC>
+묶음 안의 배열까지 체크해 주셔야 돼요. 이거 기억하세요. 그렇죠? 
+<Sync Start=774630><P Class=KRCC>
+이웃하지 않는다면 어떻게 해요? 이웃 해도 되는 아이들 먼저 배치. 
+<Sync Start=783885><P Class=KRCC>
+되는 애들. 아주 적나라한 표현이죠. 이웃해도 되는 애들 먼저 배치하세요. 
+<Sync Start=790708><P Class=KRCC>
+먼저 앉고 그다음 뭐예요? 끼워넣기 하면 되죠. 또는 이런 방법도 있어요. 
+<Sync Start=799941><P Class=KRCC>
+이웃 한다를 이용하셔 가지고 전체의 경우에서 이웃 하는 경우들을 빼주는 방법. 
+<Sync Start=805509><P Class=KRCC>
+이렇게입니다. 원순열에서 배운 개념 딱 이게 다예요. 어머나, 세상에. 그렇죠? 
+<Sync Start=810463><P Class=KRCC>
+진짜야. 이것만 들고 문제 풀 수 있나 보도록 할게요. 문제 한번 보세요. 
+<Sync Start=815876><P Class=KRCC>
+그러면 일단 1학년 2명은 이웃한다고 하는 순간 여러분, 1학년 2명 앉혀. 묶어요. 
+<Sync Start=823080><P Class=KRCC>
+그렇죠? 2학년 2명도 이웃 한대. 그럼 2학년 2명도 묶어. 
+<Sync Start=827238><P Class=KRCC>
+남아있는 건 3학년, 그다음에 교사, 교사예요. 그렇죠? 맞아요? 
+<Sync Start=832975><P Class=KRCC>
+그런 다음에 이들을 앉히는데, 교사 2명은 서로 이웃하여 앉지 않는다고 하니까 
+<Sync Start=838372><P Class=KRCC>
+얘네를 제외시켜놓고, 맞아? 얘네를 제외시켜놓고 이들을 먼저 앉히고 
+<Sync Start=847230><P Class=KRCC>
+그다음에 얘네를 끼워넣기 하겠습니다. 맞죠? 그렇죠? 
+<Sync Start=852258><P Class=KRCC>
+그러니까 (가)를 읽고 먼저 해결을 한 게 아니고 (가)도 읽고 (나)도 읽고 
+<Sync Start=856401><P Class=KRCC>
+동시에 해결이 가능하면 지금처럼 하시면 되고 상황을 먼저 보는 거예요. 항상. 
+<Sync Start=862125><P Class=KRCC>
+그렇죠? (나)까지 읽었는데 내가 두 가지를 소화하기 어려워. 
+<Sync Start=865240><P Class=KRCC>
+그럴 때에는 일단 (가)부터 해결 이런 식으로 가면 되겠죠. 
+<Sync Start=868513><P Class=KRCC>
+이 문제의 경우에는 (가), (나)가 같이 해결이 돼야 되겠지. 왜? 
+<Sync Start=872787><P Class=KRCC>
+얘네를 나열을 하려고 했는데 아이고, 교사는 나열하지 마. (나)에서 멈췄잖아. 그치?
+<Sync Start=877823><P Class=KRCC>
+나중에 끼워넣을게요. 이런 뜻이 되는 거니까. 그래서 이렇게 가보겠습니다. 
+<Sync Start=881984><P Class=KRCC>
+시작을 해볼 거예요. 여기서 주의하실 사항. 
+<Sync Start=885624><P Class=KRCC>
+저기 제가 써놓은 1, 1은 같은 것이 있는 순열이 아닙니다. 여러분. 
+<Sync Start=891117><P Class=KRCC>
+1학년 사람 A와 1학년 사람 B예요. 다른 사람인데 숫자가 같다고 
+<Sync Start=896759><P Class=KRCC>
+갑자기 같은 것이 있는 순열이라는 그런 생각을 해서는 안 됩니다. 
+<Sync Start=900640><P Class=KRCC>
+자신의 표현에 속으시면 안 돼요. 1학년 1명, 1학년 두 번째 명, 
+<Sync Start=905782><P Class=KRCC>
+2학년 1명, 2학년 두 번째 명, 이런 뜻이에요. 다 다른 사람이야. 그치? 
+<Sync Start=910005><P Class=KRCC>
+그럼 이렇게를 먼저 앉혀봅시다. 몇 명이에요? 일단은 얘네 한 묶음이야. 
+<Sync Start=914242><P Class=KRCC>
+하나, 둘, 3명 4명을 앉혀요. 4명 앉는 방법의 수는 원순열인데? 3!야. 끝. 
+<Sync Start=923809><P Class=KRCC>
+대신에 뭐 하라 그랬죠? 그 자리 배열 생각하라 그랬죠. 
+<Sync Start=928089><P Class=KRCC>
+1학년 주머니 안 배열, 2학년 주머니 안 배열을 생각을 하겠습니다. 
+<Sync Start=932257><P Class=KRCC>
+그래서 여기에 ×2×2 이렇게 들어가요. 됐어? 됐죠? 
+<Sync Start=938616><P Class=KRCC>
+그런 다음에 교사 끼워넣기 할 건데, 그때는 그림을 한번 그려놔볼게요. 
+<Sync Start=942865><P Class=KRCC>
+어디에 끼워 넣어질지 봐야 되니까. 그다음에 3, 3 이렇게 앉았어. 잘 그렸죠? 
+<Sync Start=952829><P Class=KRCC>
+얘네는 주머니 안 배열을 물론 생각은 했지만 교사가 저 사이에 
+<Sync Start=956590><P Class=KRCC>
+끼어들어가면 돼요, 안 돼요? 안 되지. 1학년들끼리 이웃해서 앉는다잖아. 
+<Sync Start=961926><P Class=KRCC>
+그럼 선생님이 들어갈 수 있는 자리는 어디, 어디냐면 이런 자리거나 이런 자리거나 
+<Sync Start=967278><P Class=KRCC>
+이런 자리거나 이런 자리 4가지의 경우가 가능합니다. 
+<Sync Start=971396><P Class=KRCC>
+1, 1, 2, 2, 3, 3이 이렇게 배열된다는 보장은 없잖아요. 당연하지. 
+<Sync Start=975993><P Class=KRCC>
+그들이 배열되는 방법은 내가 여기다 셌잖아. 
+<Sync Start=979190><P Class=KRCC>
+그 배열마다 교사를 끼워넣는 방법은 이 네 자리 중에서 2명이 가서 앉으면 됩니다. 
+<Sync Start=984547><P Class=KRCC>
+첫 번째 선생님 어디 가서 앉으실래요? 했더니 나는 네 가지 중에 하나. 
+<Sync Start=989122><P Class=KRCC>
+여기서 했어요. 여기에 선생님 앉았어. 두 번째 교사는? 
+<Sync Start=992492><P Class=KRCC>
+세 자리 중에 한 자리 들어가면 되잖아요. 세 자리. 경우의 수 끝. 이렇게. 
+<Sync Start=996692><P Class=KRCC>
+이게 다예요. 그렇죠? 그러니까 풀이를 할 때 이거 결국 한 줄짜리 풀이에요. 
+<Sync Start=1003055><P Class=KRCC>
+이거 계산만 하면 끝나는 거예요. 정답을 쓰고 갑시다. 얼마예요? 
+<Sync Start=1007560><P Class=KRCC>
+4×6=24, ×12. 288 이렇게 되겠네요. 24×12를 왜 이렇게 잘하냐고요? 
+<Sync Start=1014892><P Class=KRCC>
+24는 12×12랑 2랑 곱하면 되거든. 이 정도는 그냥 할 수 있어요. 그렇죠? 
+<Sync Start=1020198><P Class=KRCC>
+많이 나오는 숫자들은 잘 압니다. 이렇게 해서 계산해 주시면 되는 거고 
+<Sync Start=1023861><P Class=KRCC>
+이런 것들 끊어 끊어서 어떻게 풀었는지에 대한 것들을 잘 한 번 더 봐주도록 하세요.
+<Sync Start=1028711><P Class=KRCC>
+재밌죠. 그렇죠? 이렇게. 누구 어떻게 앉힐 것인가 생각하고 넘어가는 거. 
+<Sync Start=1034340><P Class=KRCC>
+한 가지 더 해볼게요. 좀 재밌는 문제. 이번엔 수능완성에 있는 문제입니다. 
+<Sync Start=1040018><P Class=KRCC>
+이것도 한번 봐봐요. 결국은 원순열이 단독으로 출제가 된다면 
+<Sync Start=1045548><P Class=KRCC>
+이웃한다, 이웃 하지 않는다를 빼놓고 말하기가 어려워. 
+<Sync Start=1048618><P Class=KRCC>
+만약에 그게 없이 나온다면 세상 쉽게 나올 수밖에 없는 거잖아. 그렇죠? 
+<Sync Start=1052186><P Class=KRCC>
+그래서 이것도 마찬가지예요. 특히나 우리 수특, 수능완성에는 
+<Sync Start=1055719><P Class=KRCC>
+이웃한다, 이웃하지 않는다가 엄청 많이 등장을 합니다. 차근차근 보도록 할게요. 
+<Sync Start=1060421><P Class=KRCC>
+7개의 접시가 있는데 7개를 일정한 간격을 두고 배열을 한대요. 
+<Sync Start=1064441><P Class=KRCC>
+그러니까 사람을 앉히든 접시를 앉히든 1부터 7까지가 적혀 있는 다 다른 접시예요. 
+<Sync Start=1071916><P Class=KRCC>
+그렇죠? 이웃한 2개의 접시에 적힌 수의 곱이 홀수인, 
+<Sync Start=1077737><P Class=KRCC>
+곱이 홀수인 접시가 한 쌍만 존재한대요. 곱이 홀수인 접시가 한 쌍만 존재해야 돼요.
+<Sync Start=1085516><P Class=KRCC>
+이웃하는 애들 중에. 그러면 이것부터 어떻게 해결을 해야 되겠죠? 
+<Sync Start=1090057><P Class=KRCC>
+그리고 배열하는 방법에 대해 생각을 해야 되는 거잖아. 그렇죠? 그럼 일단 봅시다. 
+<Sync Start=1094122><P Class=KRCC>
+홀수가 포인트야. 어떤 식으로 접근을 하는지 봐요. 문제마다. 
+<Sync Start=1098881><P Class=KRCC>
+그냥 문제마다. 일단 홀수를 어떻게 하래. 홀수를 썼어. 1, 3, 5, 7. 4개가 있고요. 
+<Sync Start=1105663><P Class=KRCC>
+그다음에 2, 4, 6은 자유예요. free, 그렇죠? 자유예요. 그럼 이제 다시 한번 읽어봐요.
+<Sync Start=1114943><P Class=KRCC>
+쓰고 읽으면 마음가짐이 다르거든요. 이웃한 2개 중에서 곱이 홀수인 접시가 
+<Sync Start=1121632><P Class=KRCC>
+한 쌍만 존재해요. 제가 왜 홀수를 썼겠어요? 
+<Sync Start=1124360><P Class=KRCC>
+곱이 홀수이려면 둘 다 홀수와 홀수여야지만 가능해요. 
+<Sync Start=1128409><P Class=KRCC>
+짝수가 하나라도 섞여 들어가면 곱은 짝수가 됩니다. 맞아요? 
+<Sync Start=1132534><P Class=KRCC>
+그렇다면 다시 읽어볼게요. 홀수는 2개만 이웃한다는 뜻이에요. 
+<Sync Start=1137734><P Class=KRCC>
+맞아? 홀수는 2개만 이웃해요. 나머지 홀수들은 이웃 하면 안 된다는 이야기네요. 
+<Sync Start=1143888><P Class=KRCC>
+그럼 그렇게 갑시다. 이웃하는 홀수 2개를 뽑아볼게요. 
+<Sync Start=1151721><P Class=KRCC>
+홀수 2개를 뽑을게. 왜 내가 뽑는다는 표현까지 썼겠어요? 
+<Sync Start=1156110><P Class=KRCC>
+나열은 나중에 생각할 거 아니야? 분명히 이웃한다로 생각하니까 
+<Sync Start=1158998><P Class=KRCC>
+내가 동그라미로 묶을 거거든요. 그럼 주머니 안 배열을 또 생각할 것 같아서 
+<Sync Start=1163351><P Class=KRCC>
+그렇게 2번 곱할까 봐 뽑기만 했습니다. 지금은 그럼 4개 중에서 2개를 뽑았어요. 
+<Sync Start=1171384><P Class=KRCC>
+이 경우를 두고 시작을 할게요. 그럼 이제 상황은 바뀌었습니다. 
+<Sync Start=1174849><P Class=KRCC>
+1, 3을 뽑았다고 치면 1, 3을 주머니로 묶었고요. 얘네는 어때요? 이웃하지 않아요. 
+<Sync Start=1183506><P Class=KRCC>
+이렇게만 이웃하지 않을까? 아니? 여기랑도 이웃하면 안 돼요. 이웃하면 안 되잖아. 
+<Sync Start=1188835><P Class=KRCC>
+그렇지. 이렇게가 전부 다 이웃하지 않는 거예요. 1, 3끼리는 묶었잖아. 그치? 
+<Sync Start=1194274><P Class=KRCC>
+그다음에 1, 3 옆에 5가 오거나 7이 오거나 해도 3, 5도, 1, 7도 이런 식이 되니까 
+<Sync Start=1200199><P Class=KRCC>
+안 될 거 아니에요. 그 사이에 무조건 누가 들어가야 돼? 
+<Sync Start=1203742><P Class=KRCC>
+2, 4, 6이 들어가 줘야 되겠구나. 그 말이네요. 그러면 생각을 해보자. 
+<Sync Start=1208752><P Class=KRCC>
+자유로운 이웃 해도 되는 친구들은 2, 4, 6이잖아요. 
+<Sync Start=1212493><P Class=KRCC>
+2, 4, 6을 먼저 배열을 하겠죠. 문제 어디에도 그런 말은 없어요. 
+<Sync Start=1217345><P Class=KRCC>
+그러니까 문제를 읽으면서 상황을 생각을 해야 되는 거야. 
+<Sync Start=1220304><P Class=KRCC>
+1, 3끼리 이웃을 시켰다면 나머지 홀수들은 이웃하면 안 되겠네? 
+<Sync Start=1224930><P Class=KRCC>
+한 쌍만 존재한다잖아. OK. 그러면 이웃 해도 되는 자유로운 아이들을 
+<Sync Start=1230246><P Class=KRCC>
+먼저 배열을 할까요? 그 생각을 하셔야 돼요. 그럼 먼저 배열을 해볼게요. 
+<Sync Start=1234657><P Class=KRCC>
+누구? 누구? 누구? 2랑 4랑 6이랑. 이렇게 셋을 배열하는 거잖아요. 원탁에. 
+<Sync Start=1241446><P Class=KRCC>
+그러니까 여기서 2! 그렇죠? 원순열, 짝수 배열, 원순열. 이렇게 들어갈게요. 
+<Sync Start=1247630><P Class=KRCC>
+원순열, 이런 다음엔 어떻게 해요? 이제는 자유롭게 우리가 홀수들을 
+<Sync Start=1254569><P Class=KRCC>
+집어넣으면 되잖아요. 홀수 넣을 수 있는 자리는 여기거나 여기거나 딱 세 자리예요. 
+<Sync Start=1261502><P Class=KRCC>
+홀수는 몇 명인데? 몇 명? 3개. 그렇죠? 여기 1, 3 한 세트 둘, 셋, 3개를 
+<Sync Start=1267809><P Class=KRCC>
+세 자리에 집어넣는 방법입니다. 그냥 3!이 되겠죠. 홀수 끼워넣기. 맞아요? 그렇죠? 
+<Sync Start=1276577><P Class=KRCC>
+이렇게 들어가 주면 됩니다. 그리고 마지막에 아직 사용하지 않은 게 
+<Sync Start=1279892><P Class=KRCC>
+예를 들어 내가 여기다 1, 3 넣기로 하고 여기 5 넣기로 하고 여기 7 넣기로 했으면 
+<Sync Start=1283955><P Class=KRCC>
+그렇지. 얘네들 있잖아요. 1, 3 자리 배열을 아직 확인하지 않았습니다. 
+<Sync Start=1288808><P Class=KRCC>
+자리 배열 2까지 곱해주도록 할게요. 됐어요? 2!이지. 말하자면. 그렇죠? 
+<Sync Start=1296354><P Class=KRCC>
+이런 것들까지 주의를 잘해 주셔야 되겠습니다. 
+<Sync Start=1298639><P Class=KRCC>
+그런 다음에 마무리로 이제 계산만 쭉 해주면 되는 거죠. 그렇죠? 가보도록 할게요. 
+<Sync Start=1302614><P Class=KRCC>
+슈르륵 계산해 주시면 6×2×6×2=144 이렇게 나와주게 되겠습니다. 됐어요? 
+<Sync Start=1314263><P Class=KRCC>
+이런 식의 방법. 또는 똑같은 풀이의 두 번째 방법도 한번 생각은 해볼게요. 
+<Sync Start=1318822><P Class=KRCC>
+뭐냐 하면, 대체적으로 지금 나는 여기서 포인트를 1, 3을 많이 잡잖아요. 
+<Sync Start=1324119><P Class=KRCC>
+여기까지 아까 했듯이. 그치? 그러면 일단 1, 3을 먼저 자리를 줘요. 
+<Sync Start=1330310><P Class=KRCC>
+이웃하기로 한 아이들 먼저 자리를 주는 거예요. 
+<Sync Start=1332744><P Class=KRCC>
+그러면 나 1, 3을 여기다 이렇게 배열을 했어. 이들끼리 이웃하기로 했어요. 
+<Sync Start=1337368><P Class=KRCC>
+심지어 이 상태에서 우리 둘 자리 바꿔까지 하도록 할게요. 
+<Sync Start=1341262><P Class=KRCC>
+그러면 이웃하는 홀수 2개를 뽑는다고 하지 않고 배열하겠습니다. 이렇게 갈게요. 
+<Sync Start=1348260><P Class=KRCC>
+빈 자리에다가 배열을 하는 거기 때문에 여러분 차근차근만 잘 생각을 해 주면 돼요. 
+<Sync Start=1353037><P Class=KRCC>
+1, 3이 들어갈 자리는 어떻게? 우리 총 몇 개냐면 7개의 자리가 있어요. 
+<Sync Start=1357358><P Class=KRCC>
+제가 7개의 자리를 잘 그려보도록 할게요. 하나, 둘, 셋, 넷, 다섯, 여섯, 일곱. 
+<Sync Start=1365797><P Class=KRCC>
+나쁘지 않아. 7개의 자리가 있습니다. 나 일단 1과 3을 먼저 배열을 하고 싶어. 
+<Sync Start=1370927><P Class=KRCC>
+그래서 1을 여기다가 집어넣었어요. 1을 넣는 방법의 수는 한 가지예요. 맞죠? 
+<Sync Start=1376768><P Class=KRCC>
+3은 어디에 들어가요? 3이 여기 들어가거나 여기 들어가거나 
+<Sync Start=1379882><P Class=KRCC>
+두 가지의 방법이 있습니다. 그래서 두 가지가 돼요. 
+<Sync Start=1382900><P Class=KRCC>
+다만 아까 했던 대로 이렇게 들어가는 거지. 4C2가. 
+<Sync Start=1389112><P Class=KRCC>
+여기까지 하면 한꺼번에 배열에 대한 생각을 해 줄 수가 있어지잖아요. 이해되시죠? 
+<Sync Start=1393841><P Class=KRCC>
+내가 4개 중에서 2개를 일단 뽑고 배열까지 맞췄습니다. 
+<Sync Start=1397574><P Class=KRCC>
+그래서 여기에 3이 들어가기로 하였어요. 그럼 남은 친구들은 2, 4, 6, 5, 7인데요. 
+<Sync Start=1402640><P Class=KRCC>
+여러분이 판단했던 것처럼 2, 4, 6, 5, 7이 어디에 들어가야 되냐면, 
+<Sync Start=1406889><P Class=KRCC>
+이 자리에는 짝수가 들어가야 되고요. 여기도 짝수가 들어가야 되고요. 
+<Sync Start=1411464><P Class=KRCC>
+그런 다음에 짝수와 홀수들이 섞여 들어가는 게 가능해요. 그럼 이렇게 합시다. 
+<Sync Start=1416360><P Class=KRCC>
+이제 남아있어. 얘네는 이제 자리 배치하고 끝났어요. 그 상태에서 생각을 하세요. 
+<Sync Start=1420432><P Class=KRCC>
+짝수들을 어디에 들어갈 것인가? 홀수들 어디에 들어갈 것인가? 
+<Sync Start=1423812><P Class=KRCC>
+제일 좋은 방법 알려드릴게요. 이렇게 놓고 2, 4, 6을 먼저 배열을 해요. 
+<Sync Start=1430363><P Class=KRCC>
+2, 4, 6을 먼저 배열을 할게요. 이렇게. 그럼 2, 4, 6이 배열되는 방법은? 
+<Sync Start=1436268><P Class=KRCC>
+이미 얘네가 앉아 있어. 자리는 치워놨어요. 
+<Sync Start=1438931><P Class=KRCC>
+의자 나중에 끼워넣기 하면서 들고 들어가서 앉도록 할게. 
+<Sync Start=1442003><P Class=KRCC>
+1과 3은 이미 자리가 잡힌 상태고 3명을 앉히는 방법은 그냥 3!이에요. 짝수들. 
+<Sync Start=1450822><P Class=KRCC>
+되었어요? 홀수 남은 5, 7은? 그렇지. 얘는 여기밖에 못 들어가요. 이렇게밖에. 
+<Sync Start=1457968><P Class=KRCC>
+2, 6은 1, 3, 4 가까이에 붙어 있어야 되는 거잖아요. 
+<Sync Start=1461550><P Class=KRCC>
+남아 있는 자리 생각하면 홀수들끼리도 떨어져야 돼. 자리 배열 끝나지는 겁니다. 
+<Sync Start=1466367><P Class=KRCC>
+됐어요? 그래서 남은 5, 7에 대한 배열 이렇게 들어가실 수 있죠. 
+<Sync Start=1473018><P Class=KRCC>
+방법을 다르게 같지만 계산하는 것은 똑같이 나옵니다. 
+<Sync Start=1477149><P Class=KRCC>
+그래서 여기도 6×2×6×2=144. 내가 어떻게 접근을 해서 생각을 하느냐에 따라서 
+<Sync Start=1484418><P Class=KRCC>
+문제의 풀이법은 조금씩 달라질 수 있어요. 계산해서 정답은 똑같이 나오겠지. 
+<Sync Start=1488886><P Class=KRCC>
+그렇죠? 내가 1, 3 이웃하는 아이들을 주목하면 어떤 식으로 되고 
+<Sync Start=1492422><P Class=KRCC>
+이런 것들을 잘 판단해 주면 돼요. 원순열이 여러분 어려워지면 딱 이 정도? 
+<Sync Start=1497904><P Class=KRCC>
+그리고 어렵다고 느낀다면 딱 이 정도까지? 실제로 어려운 건 아니야. 
+<Sync Start=1503670><P Class=KRCC>
+방법이 좀 여러 가지고 헷갈릴 수 있고 내가 까먹는 ×2가 있을 수 있다는 
+<Sync Start=1507928><P Class=KRCC>
+그런 것들만 주의해 주시면 되는 거죠. 그렇죠? 원순열은 끝. 최최종입니다. 됐어요? 
+<Sync Start=1513280><P Class=KRCC>
+넘어가볼게요. 이거 뭐게? 모르겠고. 그렇죠? 모르겠고가 맞는 말이야. 
+<Sync Start=1519495><P Class=KRCC>
+모르겠고 함수네요. 시작을 할게요. 잘 봐요. 여러분. 긴장하지 마요. 시험이에요. 
+<Sync Start=1525913><P Class=KRCC>
+수능 날 만났어요. 짠! 1, 2, 3, 4, 5에 대하여 X에서 X로 쏘는 함수의 개수인데, 
+<Sync Start=1533956><P Class=KRCC>
+X의 모든 원소에 대하여 xf(x)는 짝수다. 이게 무슨 소리예요? 
+<Sync Start=1541044><P Class=KRCC>
+여러분 X라는 그 집합 안에 숫자는 달랑 5개밖에 없어요. 
+<Sync Start=1546477><P Class=KRCC>
+여러분이 절대 고민할 필요가 없다는 거야. 5개 집어넣어봐. 
+<Sync Start=1549542><P Class=KRCC>
+원소 1에 대하여 1×f(1)은 짝수여야 된대. 그렇죠? 
+<Sync Start=1558445><P Class=KRCC>
+또 2×f(2)도 짝수여야 된대 3×f(3)도 짝수여야 된대. 4×f(4)도 짝수여야 된대. 
+<Sync Start=1565792><P Class=KRCC>
+모르겠으면 있잖아요. 수능 날 넣어봐요. 넣어봐. 얘네가 다 짝수여야 된대. 
+<Sync Start=1571286><P Class=KRCC>
+그러면서 생각을 해봐요. 이미 짝수인 아이들이 한 번이라도 곱해지면 
+<Sync Start=1576989><P Class=KRCC>
+짝×짝은 무조건 짝이고요. 짝×홀만 돼도 짝수입니다. 
+<Sync Start=1582401><P Class=KRCC>
+즉 이미 x 자체가 짝수인 아이들은요. 무조건 짝수예요. 이해되죠? 무조건 짝수예요. 
+<Sync Start=1592205><P Class=KRCC>
+생각을 해보자. 그러면 x가 홀수인 1과 3과 5는 얘네가 홀수가 되어줬으니까 
+<Sync Start=1598760><P Class=KRCC>
+함숫값이 무조건 짝수여야 한다는 이야기죠. 써봐. 써보고 이해하면 돼요. 
+<Sync Start=1606028><P Class=KRCC>
+정리할게요. 그래서 여러분이 보통 만나는 그 정답지에는 어떤 형태로 되어 있냐면 
+<Sync Start=1610933><P Class=KRCC>
+홀수일 때와 짝수일 때로 나누는 거죠. x가 홀수인 1, 3, 5와 
+<Sync Start=1615791><P Class=KRCC>
+x가 짝수인 2, 4에 대해서 나누어서 문제를 풀이하게 되는 겁니다. 
+<Sync Start=1621419><P Class=KRCC>
+우린 뭐 굳이 그렇게 할 필요 없잖아. 그렇지? 상황 분석이 되었다면 그냥 바로 
+<Sync Start=1626098><P Class=KRCC>
+어디로 갈까요? 함수로 가요. 그렇죠? 1, 2, 3, 4, 5가 1, 2, 3, 4, 5를 쏘는 것이고 
+<Sync Start=1636103><P Class=KRCC>
+그렇죠? 중복 가능해요. 1이 쏜 건 2가 쏠 수도 있다는 이야기지. 그치? 
+<Sync Start=1641039><P Class=KRCC>
+일단 2랑 4가 편했죠. 2랑 4는 아무나 쏴도 됩니다. 2가 쏠 수 있는 경우의 수 5가지.
+<Sync Start=1649291><P Class=KRCC>
+4가 쏠 수 있는 경우의 수도 5가지입니다. 아무나 써도 돼. 그치? 
+<Sync Start=1655431><P Class=KRCC>
+홀수들은 이제 어때요? 이들은 2랑 4에서만 선택을 해야 됩니다. 
+<Sync Start=1661863><P Class=KRCC>
+선택권. 내가 갖고 있는 선택권이 나는 2랑 4 중에서만 쏴야 된대요. 
+<Sync Start=1667258><P Class=KRCC>
+그럼 경우의 수가 두 가지, 두 가지, 두 가지. 우리는 계산할 때 어떻게 하면 돼요? 
+<Sync Start=1672480><P Class=KRCC>
+곱의 법칙을 적용합니다. 각 자리에 그들이 각각 쏠 수 있는 경우의 수를 
+<Sync Start=1677226><P Class=KRCC>
+구한 다음에 싹 다 곱하면 되겠죠. 2를 3번 곱하고요. 5를 2번 곱합니다. 
+<Sync Start=1683515><P Class=KRCC>
+정답은 얼마예요? 200. 끝. 뭐가 쓰였냐고요? 중복순열이 쓰였어요. 
+<Sync Start=1692443><P Class=KRCC>
+근데 내가 π 같은 거 사용하나요? 놉. 절대 안 해요. 이런 걸 뭐라고 하느냐? 
+<Sync Start=1697048><P Class=KRCC>
+그냥 곱의 법칙이라고 해요. 그렇죠? 각 자리에 해당하는 것들에 대해서만 
+<Sync Start=1704769><P Class=KRCC>
+생각을 하면 됩니다. 각 자리에 해당하는 것들이 가지고 있는 
+<Sync Start=1708082><P Class=KRCC>
+경우의 수를 생각을 하는 거예요. 1이 쏠 수 있는 경우, 2가 쏠 수 있는, 
+<Sync Start=1711886><P Class=KRCC>
+3이 쏠 수 있는 이런 경우들을 생각해서 그들이 선택할 수 있는 
+<Sync Start=1715454><P Class=KRCC>
+선택권들을 싹 곱해만 주면 됩니다. 그게 끝이고요. 
+<Sync Start=1718770><P Class=KRCC>
+이런 것들을 풀이할 때 문제를 어떻게 해석했는지를 먼저 생각해야 돼요. 
+<Sync Start=1723376><P Class=KRCC>
+모르겠고 그러니까 xf(x) 이렇게 적혀 있으면 나는 힘들어. 난 오히려 몰라. 
+<Sync Start=1727278><P Class=KRCC>
+그럴 땐 어떻게 해요? 넣어봐요. 정의역에 해당하는 원소가 1부터 5까지야. 
+<Sync Start=1732355><P Class=KRCC>
+보통 있잖아. 함수의 개수를 물어보는 수능 문제의 스타일에서 
+<Sync Start=1735948><P Class=KRCC>
+우리 확통에서 다 정의역의 원소가 최대 5개, 6개 정도예요. 넣어봅시다. 
+<Sync Start=1744610><P Class=KRCC>
+뭔가 집어넣기만 해도 문제가 풀린다는, 그렇죠? 
+<Sync Start=1747300><P Class=KRCC>
+오늘의 어쨌든 파이널 체크포인트에서는 개념에 대한 이해 당연히 되지만 
+<Sync Start=1751812><P Class=KRCC>
+문제를 어떻게 푸는가가 훨씬 또 중요하잖아요. 뭐라고요? 일단 넣어봐요. 
+<Sync Start=1757565><P Class=KRCC>
+일단 넣어보면서 생각하세요. 이게 끝이에요. 
+<Sync Start=1760304><P Class=KRCC>
+중복순열은 따로 개념정리 안 할 겁니다. 할 필요가 없어요. 
+<Sync Start=1764006><P Class=KRCC>
+그냥 문제 바이 문제로 해결을 하면서 각각에 해당하는 경우의 수 구해서 
+<Sync Start=1768496><P Class=KRCC>
+곱한다, 라고만 정리해 두시면 이게 끝입니다. 쉽게 나오냐고요? 
+<Sync Start=1775297><P Class=KRCC>
+오히려 중복순열이 더 어렵게 나올 수도 있어요. 
+<Sync Start=1778619><P Class=KRCC>
+얘가 단독이 아니고 여러 가지랑 같이 섞여 들어간다면 
+<Sync Start=1782134><P Class=KRCC>
+여기는 29, 30번에도 잘 등장을 합니다. 특히나 함수의 개수 쪽에서 
+<Sync Start=1785946><P Class=KRCC>
+여기 같이 잘 등장하잖아요. 잘 알아두셔야 되겠죠. 그렇죠? 이런 내용들이에요. 
+<Sync Start=1791774><P Class=KRCC>
+뒤로 넘어와서 4번 좀 보세요. 우리의 교재에 있는 문제입니다. 
+<Sync Start=1796573><P Class=KRCC>
+밑에 있는 그다음 파이널입니다. 그렇죠? 네 번째 문제예요. 
+<Sync Start=1799918><P Class=KRCC>
+수특에 있던 문제고 이렇게 나와 있습니다. 말이 길어요. 
+<Sync Start=1803763><P Class=KRCC>
+뭔지 모르겠고 일단 들어가는 겁니다. 그렇죠? 
+<Sync Start=1806462><P Class=KRCC>
+좌표평면 위에 있는 점 P가 있는데 1개의 주사위를 한 번 던져서 눈의 수가 홀수이면 
+<Sync Start=1811677><P Class=KRCC>
+x축 방향으로 양의 방향만큼, 1개의 주사위, 이걸 읽으면서 솔직히 여러분이 
+<Sync Start=1819226><P Class=KRCC>
+뭘 떠올렸을 거냐 하면, 독립시행의 확률을 떠올렸다면 공부를 좀 해놓은 거예요. 
+<Sync Start=1826428><P Class=KRCC>
+그렇죠? 쓰지 않을게. 독립시행의 확률 문제가 아니거든요. 
+<Sync Start=1829178><P Class=KRCC>
+근데 이 포장지가 독립시행의 확률 포장지예요. 
+<Sync Start=1832490><P Class=KRCC>
+보통은 홀수가 나오면 얼마큼 이동하고 짝수가 나오면 얼마큼 이동하고 
+<Sync Start=1837271><P Class=KRCC>
+그걸 만들어서 (3, 4)가 가게 되는 건 7번의 시행 중에서 홀수 3번은, 
+<Sync Start=1842196><P Class=KRCC>
+4번은 짝수 이런 식으로 확률을 구하는 그렇게 생각을 하고 접근을 했다면 
+<Sync Start=1847164><P Class=KRCC>
+당황을 할 수 있습니다. 그거 전혀 아니에요. 포장지에 속지 말아요. 다시 봐봐. 
+<Sync Start=1853954><P Class=KRCC>
+그거 아니야. 그거 아니야. 홀수면 나온 눈의 수만큼 x축 방향으로의 이동을 합니다. 
+<Sync Start=1864468><P Class=KRCC>
+1 나오면 x축으로 1, 3 나오면 x축 방향으로 3, 5 나오면 x축 방향으로 5, 
+<Sync Start=1871458><P Class=KRCC>
+이렇게 이동한다는 이야기예요. 두 번째, 짝수가 나오면 y축 방향으로 
+<Sync Start=1877092><P Class=KRCC>
+나온 눈의 수만큼 이동을 한대요. 2가 나오면 위로 2칸, 4 나오면 위로 4칸, 
+<Sync Start=1882553><P Class=KRCC>
+6 나오면 위로 6칸 이런 식의 이야기인 겁니다. 됐죠? 그렇죠? OK. 
+<Sync Start=1887477><P Class=KRCC>
+이제 문제를 이해하는 게 엄청 중요한 거예요. 
+<Sync Start=1889988><P Class=KRCC>
+아직은 내가 이 문제를 읽으면서 무슨 내용인지 전혀 모르는 상황입니다. 
+<Sync Start=1893965><P Class=KRCC>
+시작할게요. 이 규칙을 반복해서 P가 원점에서 시작해서 (3, 4)로 
+<Sync Start=1899941><P Class=KRCC>
+이동하게 되는 경우의 수래. 그래? 그럼 생각해 봐요. 
+<Sync Start=1905397><P Class=KRCC>
+그래? 그러면 x축 방향으로 3칸 이동을 했다는 건 얘네가 처리할 일이고요. 
+<Sync Start=1911324><P Class=KRCC>
+y축 방향으로 4칸 이동했다는 건 얘네가 처리할 일입니다. 
+<Sync Start=1914968><P Class=KRCC>
+홀수 방향으로 홀수에 의해서 x축 방향으로는 1칸 이동하거나 3칸 이동하거나, 
+<Sync Start=1921001><P Class=KRCC>
+1칸 이동, 3칸 이동 또는 5칸 이동 가능. 근데 3이 나와요. 
+<Sync Start=1931136><P Class=KRCC>
+5는 아예 그냥 불가능. 그렇죠? 나는 (3, 4)로 가는 것만 생각하고 싶으니까 
+<Sync Start=1938168><P Class=KRCC>
+x축 방향으로 3 간 것만 생각하고 싶으니까 그럼 나올 수 있는 건 3만 있지 않잖아. 
+<Sync Start=1945415><P Class=KRCC>
+누구? 1씩 세 번 이동할 수도 있어요. 몇 번 시행했다는 말은 없잖아. 
+<Sync Start=1951458><P Class=KRCC>
+이런 느낌이에요. 그러니까 수능 스타일이라는 게 이런 느낌이에요. 
+<Sync Start=1954237><P Class=KRCC>
+여러분 지금까지 나 경우의 수 계산하는 거 언저리에도 아직 안 갔어요. 
+<Sync Start=1959608><P Class=KRCC>
+문제 해석만 하고 있어. 이 해석이 되어야 돼요. 그렇죠? 
+<Sync Start=1963262><P Class=KRCC>
+이런 식으로 OK. 그러면 짝수면 2, 4, 6 중에는 2칸 가거나 4칸 가거나 6칸 이동이 
+<Sync Start=1972751><P Class=KRCC>
+가능한데, 내가 원하는 건 딱 4만큼만 가고 싶어요. 
+<Sync Start=1976353><P Class=KRCC>
+그렇다면 한 번에 4를 가거나 또는 2칸씩 두 번 가거나 이거죠. 
+<Sync Start=1982676><P Class=KRCC>
+이걸 생각하셔야 돼요. 그러면 여기까지 하고 난 다음에도 쉽지 않아요. 
+<Sync Start=1986936><P Class=KRCC>
+그런 다음에는 어떻게 할 거야? 조합을 만들어야지. 
+<Sync Start=1991200><P Class=KRCC>
+x축 방향으로와 y축 방향으로가 동시에 일어나야지만 
+<Sync Start=1995267><P Class=KRCC>
+우리가 원하는 (3, 4)를 완성해요. 다시. 이를테면 3 나오고 4 나오거나 
+<Sync Start=2003375><P Class=KRCC>
+3 나오고 2, 2 나오거나 아니면 1, 1, 1 나오고 4 나오거나 
+<Sync Start=2006734><P Class=KRCC>
+1, 1, 1, 나오고 2, 2 나오거나 네 가지 케이스로 들어갑니다. 됐어요? 
+<Sync Start=2010548><P Class=KRCC>
+밑에다가 써볼게요. 여기다 쓰면 될 것 같아. 첫 번째 케이스는 누구라고요? 
+<Sync Start=2015848><P Class=KRCC>
+괄호로 쓸까? 그냥. 3 하나, 4하나. 이런 거지. 또? 3 하나, 2, 2 나오거나. 그렇죠? 
+<Sync Start=2023891><P Class=KRCC>
+또 1, 1, 1, 4거나 아니면 1, 1, 1, 2이거나 이렇게 나오는 것에 대해서 
+<Sync Start=2032295><P Class=KRCC>
+먼저 생각을 한다면 이제 마지막 뭘까요? 이 문제 같은 것이 있는 순열입니다. 와우. 
+<Sync Start=2040651><P Class=KRCC>
+그렇죠? 같있순 정말 많이 나오죠. 어디에? 29, 30번 우리가 생각하는, 
+<Sync Start=2047169><P Class=KRCC>
+28, 29, 30번 난이도 높은 곳에 잘 등장합니다. 알게 모르게 등장하고요. 
+<Sync Start=2052157><P Class=KRCC>
+혼자 등장하지 않아요. 절대. 같있순이 나오는 데까지 
+<Sync Start=2056125><P Class=KRCC>
+사실 이 문제는 분석이 다 했다. 그렇죠? 분석이 다 했다. 
+<Sync Start=2061054><P Class=KRCC>
+여기서 같있순으로 계산 못하는 친구들이 어디 있어? 배열하는 방법의 수는 두 가지. 
+<Sync Start=2065588><P Class=KRCC>
+3과 4 어이쿠, 2! 그렇죠? 이거 두 가지. 얘는요? 같있순으로 쓰자면 2!분의 3!인데, 
+<Sync Start=2075922><P Class=KRCC>
+나는 이렇게 쓰기를 원치 않아요. 3위 첫 번째에 나올까, 두 번째에 나올까, 
+<Sync Start=2080008><P Class=KRCC>
+세 번째에 나올까만 결정하면 되죠. 세 가지. 그렇죠? 이렇게 하면 되지. 
+<Sync Start=2085277><P Class=KRCC>
+세 가지, 두 가지. 여기는요? 4가 여기, 여기, 여기, 여기 네 가지. 
+<Sync Start=2090705><P Class=KRCC>
+얘만 같있순을 생각할까요? 같있순의 가장 대표 주자가 여기 등장했더라고. 
+<Sync Start=2096948><P Class=KRCC>
+1, 1, 1, 2, 2를 배열하는 방법은? 5개를 다 다른 것으로 보고 배열을 합니다. 
+<Sync Start=2101245><P Class=KRCC>
+이게 5!이라면 거기에서 생각하는 거예요. 
+<Sync Start=2104383><P Class=KRCC>
+이 1들을 배열할 때마다 같은 배열을 내가 중복해서 계속 세어낸 거잖아요. 
+<Sync Start=2109844><P Class=KRCC>
+그만큼 나누어 줍니다. 1들 3개를 배열하는 방법의 수, 
+<Sync Start=2113869><P Class=KRCC>
+2들 2개를 배열하는 방법의 수로 나누어 주는 거죠. 
+<Sync Start=2117923><P Class=KRCC>
+그래서 5C3이 되고 5C2가 되기도 합니다. 종류가 2개일 때는 조합으로 해결이 되네요.
+<Sync Start=2125834><P Class=KRCC>
+왜요? 다섯 자리 중에서 1 들어갈 세 자리를 골라. 
+<Sync Start=2129374><P Class=KRCC>
+또는 다섯 자리 중에서 2 들어갈 두 자리를 골라. 이런 식으로도 해결이 되는 거죠. 
+<Sync Start=2133503><P Class=KRCC>
+그렇죠? 그래서 10가지가 되고요. 이게 여기까지입니다. 마무리는 어떻게 하면 돼요? 
+<Sync Start=2138825><P Class=KRCC>
+이들을 싹 더해주면 되겠죠. 그래서 정답은 몇 이에요? 19. 끝. 이런 거지. 
+<Sync Start=2146983><P Class=KRCC>
+이 문제가 과연 같있순 문제냐고 누군가가 물어본다면, 
+<Sync Start=2152578><P Class=KRCC>
+그게... 이렇게 생각하게 되는 거 아니에요. 그렇죠? 
+<Sync Start=2154957><P Class=KRCC>
+그래서 우리 확통 문제를 어렵다고 생각을 할 수 있는 것 같아요. 
+<Sync Start=2158699><P Class=KRCC>
+같있순 자체의 개념은 여기까지인데 특히나 경우의 수 파트는요. 
+<Sync Start=2162683><P Class=KRCC>
+그 앞에 이제 문제를 해결하는 상황? 그런 게 많이 등장을 해요. 
+<Sync Start=2166696><P Class=KRCC>
+특히 내가 많이 본 유형은 이거 독립시행이잖아, 이렇게 생각을 한다면. 
+<Sync Start=2170944><P Class=KRCC>
+독립시행과 전혀 관계가 없었어요. 심지어 경우의 수를 물어보는데 
+<Sync Start=2173983><P Class=KRCC>
+여기에서 홀수가 나올 확률 2분의 1을 쓰고 있었다면 놉. 그렇죠? 놉. 
+<Sync Start=2178869><P Class=KRCC>
+아니고 게다가 1이 나왔을 때랑 3이 나왔을 때랑 5가 나왔을 때랑 움직이는 방향, 
+<Sync Start=2183670><P Class=KRCC>
+그러니까 x축 방향으로 이동하는 칸이 달라요. 전혀 관계가 없다고. 그렇죠? 
+<Sync Start=2188597><P Class=KRCC>
+그래서 하나하나 여러분이 생각을 하면서 가주셔야 되는 문제였고요. 
+<Sync Start=2192332><P Class=KRCC>
+다만 우리가 그런 느낀 점은 하나 갖자. 주사위는 이러나 저러나 
+<Sync Start=2198991><P Class=KRCC>
+1, 2, 3, 4, 5, 6이야. 무슨 말일까요? 할 만해. 어찌 됐건 간에 나열을 해봐. 써봐. 
+<Sync Start=2207094><P Class=KRCC>
+분석을 해봐. 1이 나오면 어떻게 간다는 거야? 2가 나오면 어떻게 간다는 거야? 
+<Sync Start=2211180><P Class=KRCC>
+6개밖에 안 되니까 그렇게 생각을 해보다 보면은 여러분 해석이 가능해집니다. 
+<Sync Start=2216860><P Class=KRCC>
+그렇죠? 이런 스타일, 이런 느낌. 이거 수특에 있었어요. 기억나니? 여러분. 
+<Sync Start=2223993><P Class=KRCC>
+넘어가보도록 할게요. 이런 문제. 그러니까 가장 사실 일단 같있순 문제는 
+<Sync Start=2230301><P Class=KRCC>
+쉽게 등장을 하고는 있는데요. 그나마 그중에 좀 어려운 걸로 가지고 와봤습니다. 
+<Sync Start=2235998><P Class=KRCC>
+같있순 처음 만날 때에는 그냥 무슨 내용인지도 모르고 막 외웠던 기억들이 있다면 
+<Sync Start=2241934><P Class=KRCC>
+암기하지 마시고 차근차근 생각해 주는 연습을 좀 하도록 하세요. 
+<Sync Start=2247607><P Class=KRCC>
+A를 출발해서 B까지 가는 겁니다. 차근차근 가볼 거예요. 어떻게 가면 돼? 
+<Sync Start=2251821><P Class=KRCC>
+최단 거리인데 누가 봐도 뭐가 문제예요? 이 길이 없어. 이 길이 없어. 그렇죠? 
+<Sync Start=2258705><P Class=KRCC>
+이 길을 어떻게 해야 돼? 전체 경우의 수에서 이 길을 지나서 가는 경우를 뺄까요? 
+<Sync Start=2265272><P Class=KRCC>
+OK, 좋아요. 첫 번째 방법은 전체 경우의 수에서 모든 길이 있다는 경우 안에서. 
+<Sync Start=2271370><P Class=KRCC>
+별이라고 할게요. 좀 이상한가? 별 길이야. 여기 별을 지나서 가는 거. 
+<Sync Start=2281885><P Class=KRCC>
+별을 지나는 경우를 빼도록 합시다. 여사건, 여집합으로 가겠다는 거죠. 
+<Sync Start=2290882><P Class=KRCC>
+전체 경우의 수가 몇 가지예요? 오른쪽으로 하나, 둘, 셋, 넷, 다섯. 
+<Sync Start=2297594><P Class=KRCC>
+오른쪽으로 다섯, 위로 셋입니다. 대체 최단 거리가 왜 같있순이 되었을까요? 
+<Sync Start=2303057><P Class=KRCC>
+지금 말한 게 전부예요. 오른쪽으로 5칸을 갈 거고요. 
+<Sync Start=2308032><P Class=KRCC>
+위로 3칸을 가는 것을 배열하기만 하면 A에서 B로 가는 최단 거리를 
+<Sync Start=2314563><P Class=KRCC>
+확인할 수가 있습니다. 최단 거리가 아니면 이런 말을 쓸 수가 없죠. 왜? 
+<Sync Start=2319042><P Class=KRCC>
+최단 거리가 아니면 내가 오다가 돌아 갔다가 위로 가다가 아래로 갔다가 몇 칸 갔게?
+<Sync Start=2325387><P Class=KRCC>
+이렇게 되기 때문에 그런 건 말할 수가 없어요. 
+<Sync Start=2327274><P Class=KRCC>
+그러나 최단 거리기 때문에 무조건 오른쪽으로 또는 위로만 움직일 거라는 이야기지. 
+<Sync Start=2333144><P Class=KRCC>
+오른쪽으로 5칸, 위로 3칸만 움직일 수 있어. 이걸 배열하는 모든 방법의 수만큼만 
+<Sync Start=2339070><P Class=KRCC>
+움직이게 되어 있다는 거죠. 그렇죠? OK. 그러면 가보도록 합시다. 
+<Sync Start=2342978><P Class=KRCC>
+이거 어떻게 하면 돼요? 총 8개를 배열하는데 오른쪽으로 5개, 위로 3개를 배열. 
+<Sync Start=2352529><P Class=KRCC>
+이렇게 들어갑니다. 그래서 최단 거리는 결국은 오른쪽으로 위로 
+<Sync Start=2357016><P Class=KRCC>
+이렇게 두 가지이거나 아니면 B에서 A로 간다면 아래로 왼쪽으로 이런 식으로 
+<Sync Start=2361650><P Class=KRCC>
+화살표의 종류가 두 가지가 등장을 해요. 그래서 이거 어디서 많이 보지 않았어? 
+<Sync Start=2366242><P Class=KRCC>
+8C5, 8C3 조합과 거의 비슷한 느낌을 느끼게 됩니다. 
+<Sync Start=2371180><P Class=KRCC>
+8번 중에서 위로 들어갈 3번이 언제일지를 고르세요. 
+<Sync Start=2374779><P Class=KRCC>
+이런 해석을 할 수가 있는 거죠. 계산해 주시면 8, 7, 6 사라지고 3, 2 이렇게 되니까
+<Sync Start=2382069><P Class=KRCC>
+슉슉슉 지우면 56가지예요. 여기서 뺄 겁니다. 별을 지나가는 방법. 
+<Sync Start=2388696><P Class=KRCC>
+이거 어떻게 할 거야? 별은 어떻게 하면 지나갈 수 있지? 
+<Sync Start=2392965><P Class=KRCC>
+별로 가기 위해서 이런 생각들이 되게 중요해요. 별 이 길을 지나기 위해서 무조건 
+<Sync Start=2398245><P Class=KRCC>
+여기까지 와야 되네. 맞아? 그다음에 무조건 그냥 빨려들어갔는데 C, 별로 가요. 
+<Sync Start=2404612><P Class=KRCC>
+여기 보면은 어디로 가요? 어디로 가게 해? 무조건 B로 가야 돼. 
+<Sync Start=2407804><P Class=KRCC>
+별을 지난다는 건 이 길을 무조건, 이 빨간 길을 무조건 지나서 
+<Sync Start=2411639><P Class=KRCC>
+가겠다는 이야기가 됩니다. 그러니까 A로부터 C까지만 오게 되면 끝인 거예요. 
+<Sync Start=2417740><P Class=KRCC>
+OK? A에서 C까지 가는 방법의 수는 오른쪽으로 하나, 둘, 셋, 넷 위로 2개입니다. 
+<Sync Start=2423340><P Class=KRCC>
+
+<Sync Start=2425924><P Class=KRCC>
+이렇게, 이렇게 그렇죠? 4개, 2개를 배열하는 방법이 되겠습니다. 
+<Sync Start=2430180><P Class=KRCC>
+그럼 어떻게 하면 돼요? 빼요. 6개 중에서 4개, 2개를 배열하는 방법. 
+<Sync Start=2434936><P Class=KRCC>
+별을 지나 B로까지는 한 경우로 치기 때문에 더 이상 생각할 필요조차 없겠죠. 
+<Sync Start=2439026><P Class=KRCC>
+끝이에요. 그렇죠? 이렇게 오시면 얘는 얼마냐면, 15가지죠. 빼주세요. 
+<Sync Start=2443946><P Class=KRCC>
+정답은 41가지. 이렇게 나와요. 괜찮죠? 그렇죠? 
+<Sync Start=2448554><P Class=KRCC>
+그래서 전체의 경우에서 내가 지나서는 안 되는 길을 빼는 방법이 있고요. 
+<Sync Start=2453320><P Class=KRCC>
+이렇게 풀거나 이제 두 번째 방법은 최단 거리의 가장 난이도가 높은 문제의 
+<Sync Start=2457538><P Class=KRCC>
+유형으로 가볼게요. 꼭 지나는 점을 찾는 방법이 있어요. 
+<Sync Start=2462906><P Class=KRCC>
+이곳에서 꼭 지나는 점을 잘 못 찾아. 힘들어 하더라고요. 
+<Sync Start=2467135><P Class=KRCC>
+꼭 지나서 간다는 말의 의미가 뭐냐면, 케이스를 나눈다는 거예요. 
+<Sync Start=2471313><P Class=KRCC>
+여러분, 우리가 케이스 나누기를 잠깐 할까요? #을 이렇게 못 그릴 일이야? 
+<Sync Start=2476165><P Class=KRCC>
+케이스 나누기라고 그냥 쓸게요. 우리 경우의 수를 구할 때 빼놓을 수 없는 
+<Sync Start=2485624><P Class=KRCC>
+사실 개념 중의 하나죠. 케이스를 나누는 거. 
+<Sync Start=2488595><P Class=KRCC>
+케이스를 나누는 건 두 가지로 나눌 수 있어요. 
+<Sync Start=2490859><P Class=KRCC>
+제일 중요한 일단 가장 기본적인 케이스는 겹치지 않게 빠짐없이 
+<Sync Start=2501591><P Class=KRCC>
+케이스를 나누어 주면 됩니다. 즉 A에서 B까지 가는데 내가 말했죠. 
+<Sync Start=2506291><P Class=KRCC>
+무조건 지나야 하는 점을 고르는데, 이 점을 지난 다음에 이 점도 지날 수 있게 
+<Sync Start=2510970><P Class=KRCC>
+가면 안 돼요. 그리고 그들 중에 빠져서도 안 돼요. 
+<Sync Start=2515036><P Class=KRCC>
+내가 케이스를 나누겠다면 이를테면 A에서 B로 가는 길에 이렇게 반대 대각선을 
+<Sync Start=2520674><P Class=KRCC>
+그어서 생각하면 좋은데, 이 점을 지난다고 정했어요. 제가. 
+<Sync Start=2525034><P Class=KRCC>
+그러면 A에서 C를 지나서 B로 가는 건 다이렉트로 이렇게 오는 방법 있겠죠. 그렇죠? 
+<Sync Start=2530362><P Class=KRCC>
+그러면 C로 가지 않고 가는 방법은? 이 점을 잡았어요. 좋아요. 
+<Sync Start=2536222><P Class=KRCC>
+만약에 이 점을 잡았다면 여러분이 대각선 길로 여기 왔어요. 
+<Sync Start=2539447><P Class=KRCC>
+그러면 이렇게 온 다음에 이렇게 가겠죠. 그러면 그거 말고 또 있어. 
+<Sync Start=2544485><P Class=KRCC>
+내가 만약에 이렇게 2개를 잡았다? 그럼 틀렸어요. 
+<Sync Start=2547789><P Class=KRCC>
+C로 간 다음에 D로 올 방법은 없어요. D를 지나 C를 또 갈 방법도 없어요. 
+<Sync Start=2552438><P Class=KRCC>
+겹치지는 않아요. 하지만 빠지지 않아야 된다고 했는데 빠졌어요. 경우가 빠졌어. 
+<Sync Start=2559094><P Class=KRCC>
+어떤 케이스가 빠졌을까? 여기도 지나서 가야 돼요. 봐봐. 
+<Sync Start=2563084><P Class=KRCC>
+D로 오지 않고 여기 온 다음에 B로 다이렉트로 갈 수도 있어요. 그러네. 그렇죠? 
+<Sync Start=2568762><P Class=KRCC>
+그러네. 그래서 만약에 이렇게 나눌 거라면 세 가지를 나눠야 돼요. 
+<Sync Start=2574659><P Class=KRCC>
+또는 생각해 봐요. D까지 오면 무조건 어디로 와야 되지? 여기로 와야 돼. 그렇죠? 
+<Sync Start=2582440><P Class=KRCC>
+그러면 D라는 점을 굳이 잡을 이유가 없어요. 저쪽에. 나라면 여기를 잡을 것 같아. 
+<Sync Start=2591888><P Class=KRCC>
+즉 빠지지 않고 겹치지 않게 C를 지나면 B로 올 때 D를 지날 방법도 없고요. 
+<Sync Start=2597494><P Class=KRCC>
+B로 오는 방법 자체가 C에서 쭉 오거나 D에서 쭉 오거나밖에 없습니다. 
+<Sync Start=2603272><P Class=KRCC>
+그럼 완벽한 두 가지 케이스로 나눈 거잖아요. 
+<Sync Start=2605751><P Class=KRCC>
+겹치지도 않고 빠지지도 않게 케이스를 나누어 주는 거죠. 
+<Sync Start=2609159><P Class=KRCC>
+그렇게 항상 꼭 지나야 되는 점들을 찾는다는 이야기예요. 됐어요? 
+<Sync Start=2614380><P Class=KRCC>
+만약에 케이스 이 문제랑 관계없이 이제 케이스를 나눌 때 겹치는 경우가 
+<Sync Start=2617790><P Class=KRCC>
+발생할 때는 우리 뭐 하면 돼요? 확률 구할 때 뒤쪽에서 하게 되는 
+<Sync Start=2624110><P Class=KRCC>
+A에 대한 거 구하고 B에 대한 거 구한 다음에 그렇지.
+<Sync Start=2628549><P Class=KRCC>
+그때 겹치는 경우 빼줄 수도 있어요. 만약에 내가 케이스를 나누는데 
+<Sync Start=2632649><P Class=KRCC>
+겹치는 경우에 대한 게 떠오른다면 마지막에 겹치는 경우를 빼줄 수도 있는 
+<Sync Start=2637727><P Class=KRCC>
+이게 이제 우리가 확률에서 나누는 이 내용들이 되는 거죠. 그렇죠? OK. 
+<Sync Start=2642492><P Class=KRCC>
+덧셈 정리에 대한 것인데, 그때 다시 한번 케이스에 대한 이야기할 거고요. 
+<Sync Start=2646313><P Class=KRCC>
+이렇게 나눕니다. 끝났지. 그치? 얘는 좀 비교적 쉽게 나왔어. 심지어. 
+<Sync Start=2651654><P Class=KRCC>
+그러면 A에서 C까지 가는 방법, 그다음에 B로 오는 거. 
+<Sync Start=2657545><P Class=KRCC>
+두 번째는 A에서 D로 간 다음에 B로 오는 거 이렇게 나눌게요. 
+<Sync Start=2662616><P Class=KRCC>
+OK. D로 간 다음에 B로 오는 거 괜찮죠? 그렇죠? A에서 C로 가는 방법은 
+<Sync Start=2666713><P Class=KRCC>
+오른쪽 하나, 둘, 셋. 위, 위, 위가 됩니다. 오, 오, 오, 위, 위, 위 6개를 
+<Sync Start=2674471><P Class=KRCC>
+3!, 3!으로 나누면 되고 이게 끝이죠? C에서 B로 가는 건 한 가지잖아. 
+<Sync Start=2679896><P Class=KRCC>
+그냥 ×1은 뭐 하러 쓰겠어? 안 써도 되니까 이렇게 가겠습니다. 20가지. 
+<Sync Start=2683756><P Class=KRCC>
+그다음에 A에서 D로 가는 방법은? 이게 은근 헷갈린다. 이렇게 지우는 게 낫더라고. 
+<Sync Start=2689003><P Class=KRCC>
+오, 오, 오, 오, 오, 위, 위가 됩니다. 7개죠. OK. 
+<Sync Start=2695390><P Class=KRCC>
+7개인데 5, 5, 5 5!으로 나누어 주고 위, 위, 위 2!으로 나누셔야 됩니다. 
+<Sync Start=2700687><P Class=KRCC>
+제 경험상 화살표 개수 잘못 세어서 틀렸던 일들이 있어요. 너무 억울하더라고. 
+<Sync Start=2708863><P Class=KRCC>
+그러지 않도록 항상 화살표를 내가 잘 셌는가를 확인하도록 하세요. 
+<Sync Start=2712913><P Class=KRCC>
+제가 경험을 했는데 그게 제일 억울한 것 중에 하나였어요. 21 했어요. 
+<Sync Start=2719143><P Class=KRCC>
+그래서 어때? 겹치지 않고 빠짐 없으니까 나는 답은 뭐 어떻게 하면 돼요? 
+<Sync Start=2723381><P Class=KRCC>
+더해주면 되겠습니다. 그래서 아까와 똑같이 41가지가 똑같이 등장을 하는 거죠. 
+<Sync Start=2728183><P Class=KRCC>
+이렇게 해도 됩니다. 둘 중에 어느 게 더 편하냐고 물어본다면 비슷하다. 
+<Sync Start=2733967><P Class=KRCC>
+이 문제의 경우에는 그렇죠. 근데 이 두 가지 방법이 사실은 가장 여러분 
+<Sync Start=2737725><P Class=KRCC>
+최단 거리에서 어렵고 실제 문제는 A에서 C로 가는 방법에서 
+<Sync Start=2741357><P Class=KRCC>
+이렇게 이 정도로 문제가 나오면 너무 땡큐죠. 
+<Sync Start=2744813><P Class=KRCC>
+그럼 그냥 눈 한쪽 감고 풀어도 되는 정도로 쉽게 우리가 풀어낼 수 있는 거잖아. 
+<Sync Start=2749457><P Class=KRCC>
+그렇죠? 알겠습니다. 오늘은 여기까지예요. 여러분, 우리 나열하기, 
+<Sync Start=2755929><P Class=KRCC>
+순열이라는 표현을 쓰지 않을게요. 나열하는 것들에 대해서는 각 자리에 
+<Sync Start=2759419><P Class=KRCC>
+해당하는 것들에서 가능한 경우들을 구한 다음에 곱해주면 됩니다. 
+<Sync Start=2764322><P Class=KRCC>
+겹치는 경우들 나누어 준다. 이렇게만 정리하면 한 줄 요약이 가능하겠네요. 그렇죠? 
+<Sync Start=2768920><P Class=KRCC>
+다음 시간에 뽑기의 모든 것으로 가보겠습니다. 알았죠? 고생 많으셨고요. 
+<Sync Start=2773490><P Class=KRCC>
+복습 잘하고 오시고 우리 다음 시간에 만나도록 할게요. 안녕.
+<Sync Start=2776690><P Class=KRCC>
+
+
+</BODY>
+</SAMI>

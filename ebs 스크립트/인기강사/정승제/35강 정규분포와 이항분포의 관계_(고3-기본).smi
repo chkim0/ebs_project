@@ -1,0 +1,845 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=7640><P Class=KRCC>
+
+<Sync Start=28859><P Class=KRCC>
+실제로 정규분포에 관련된 이론은 이번 시간에 다 끝난다고 보시면 되는데요.
+<Sync Start=35253><P Class=KRCC>
+다음 시간부터는 뭐 들어갈 거냐면 연습 문제 먼저 하고 마지막 추정, 모평균의 추정이라고
+<Sync Start=43782><P Class=KRCC>
+선거 방송에 관련된 이야기를 다음 시간까지 하고요.
+<Sync Start=47325><P Class=KRCC>
+이번 시간은 정규분포 문제만 쭉쭉 풀어주시면 끝이 나요.
+<Sync Start=52353><P Class=KRCC>
+설명은 지난 시간에 다 했는데 정규분포 기억나요? 나의 모습을 보고 느낀 점이 뭐여야 해?
+<Sync Start=61729><P Class=KRCC>
+어떤 느낌이어야 하지? 이런 말이 나와야 돼.
+<Sync Start=66741><P Class=KRCC>
+표준화의 의미를 정확하게 전달하고 싶구나라는 그런 모습을 봤었어야 되고요.
+<Sync Start=73345><P Class=KRCC>
+모든 정규분포에서 X값을 m+*σ. 이때 *로만 표현하는 것, 시그마의 계수로만 표현하는 것을
+<Sync Start=82605><P Class=KRCC>
+표준화라고 한다. 출발합니다. 어느 과수원에서 수확한
+<Sync Start=88903><P Class=KRCC>
+수박 한 개의 무게는 평균이 12고 표준편차가 1.6인 정규분포를 따른다고 한다.
+<Sync Start=98844><P Class=KRCC>
+이 과수원에서 수확한 수박 중 임의로 선택한 한 개의 수박의 무게를 X라고 하면,
+<Sync Start=106110><P Class=KRCC>
+X가 12.8 이상 14.4 이하일 확률을 구하시오 이거잖아.
+<Sync Start=121271><P Class=KRCC>
+근데 내 얘기가 뭐였냐면 확률 구하라고 하면 무조건 Z로 바꾸라고.
+<Sync Start=126673><P Class=KRCC>
+그리고 바꾸는 방법이 표준화, 시그마의 계수로 표현하는 방법은 자기 자신에서 평균을 빼.
+<Sync Start=131655><P Class=KRCC>
+얼마야? 0.8을 표준편차 1.6으로 나눠. 그럼 -0.5일 거 아니야. +0.5네. +0.5일 거 아니야.
+<Sync Start=140638><P Class=KRCC>
+2분의 1이니까. 그렇지? 두 번째 14.4도 표준화시켜. 자기 자신에서 평균을 빼.
+<Sync Start=150055><P Class=KRCC>
+2.4를 1.6으로 나눠. 1.5니? 1.5 이렇게 나온다는 거야.
+<Sync Start=159534><P Class=KRCC>
+그럼 지금 그림은 하나만 그려도 돼. 왜? Z만 필요하지.
+<Sync Start=165163><P Class=KRCC>
+어차피 우리가 넓이는 Z에서 구할 거니까. 가운데가 뭐야? 0. 0.5 어디 있어? 왼쪽에.
+<Sync Start=171636><P Class=KRCC>
+더 왼쪽에 1.5. 이 넓이 구하래요. 신기하다. 딱 가운데에 놓여 있네. 우리 이 넓이 어떻게 구하지?
+<Sync Start=180311><P Class=KRCC>
+어디서 어디 빼면 되겠니? 항상 주어진 확률은요. 여러분, 시험장에서 이런 식으로 나오거든요.
+<Sync Start=185442><P Class=KRCC>
+0부터 오른쪽 확률이 나와요. 0부터 오른쪽 확률이 나온다고요.
+<Sync Start=193309><P Class=KRCC>
+그런데 어디까지의 확률이 나왔어? 1.5까지의 확률에서 0.5까지의 확률을 뭐 해주면 돼요?
+<Sync Start=200462><P Class=KRCC>
+빼주면 답이잖아. 그러니까 z가 1.5일 때 여기에서 0.5, 여기를 빼주는 거구나.
+<Sync Start=209789><P Class=KRCC>
+그래서 7로 끝나겠구나. 7로 끝나는 게 두 개나 있다.
+<Sync Start=213739><P Class=KRCC>
+
+<Sync Start=216556><P Class=KRCC>
+2에서 1 빼니까 1이다. 그래서 답은 3번 이렇게 처리하시면 된다. 재밌지?
+<Sync Start=224661><P Class=KRCC>
+이렇게 처리하는 걸 사람들은 뭐라고 하냐면 가장 기본적인 정규분포 문제라고 하는 거예요.
+<Sync Start=229460><P Class=KRCC>
+항상 넓이 구할 때는 X를 뭘로 바꾸냐. Z로 바꾸자. 이걸 뭐라고 해? 표준화된 확률변수.
+<Sync Start=236651><P Class=KRCC>
+바꾸는 방법은 자기 자신에서 평균을 빼고 표준편차로 나누면 돼.
+<Sync Start=242762><P Class=KRCC>
+첫 번째 유제 보시죠. 확률변수 X가 정규분포 N(30, 4²)을 따를 때.
+<Sync Start=250516><P Class=KRCC>
+그대로 쓸게. 이번에는 X가 아니라 이 상태야.
+<Sync Start=258450><P Class=KRCC>
+그러니까 지난 시간에 내가 얘기했지만 난 이 상태로 풀었으면 좋겠다니까.
+<Sync Start=262404><P Class=KRCC>
+이번에는 엑셀 그래프를 한번 그려볼게요. 이게 얼마야? 30. 맞아? 해석해 봐. 시작.
+<Sync Start=272450><P Class=KRCC>
+X랑 29 사이의 거리. 따라서 X의 기준을 생각하면 29까지의, 29로부터의 거리가 2 이하일 확률.
+<Sync Start=287769><P Class=KRCC>
+그럼 29가 어디 있어?
+<Sync Start=291076><P Class=KRCC>
+29가 어디에 있냐면 여기 있잖아. 그러면 여러분, y값이 같으려면 여기는 뭐야? 
+<Sync Start=295804><P Class=KRCC>
+거리가 같을 때 시작. 31. 근데 29로부터 거리가 얼마를 원해?
+<Sync Start=301873><P Class=KRCC>
+2 떨어진 걸 원하니까 여기서부터 왼쪽으로도 2 떨어진 건 어디? 27.
+<Sync Start=308888><P Class=KRCC>
+또 29로부터 오른쪽으로 2 떨어지면 얼마야? 31.
+<Sync Start=313520><P Class=KRCC>
+그러니까 이 넓이 구하는 거야 봐 봐. 이걸 뭐하러 부등식을 푸니?
+<Sync Start=319742><P Class=KRCC>
+29로부터 2만큼, 2 이하로 떨어졌다. 2만큼 떨어진 곳이 이쪽 27과 이쪽 31인데 그것의 이하니까
+<Sync Start=330297><P Class=KRCC>
+이 사이에 들어오면 되잖아.
+<Sync Start=333858><P Class=KRCC>
+그럼 결국 이 넓이 구하는 거예요. 그걸 Z로 바꿀 거니까 그림으로 표현해 봐. 여기는 0.
+<Sync Start=342407><P Class=KRCC>
+여기에 나온 거 다 그림으로 표현해 봐. 이게 얼마야?
+<Sync Start=344764><P Class=KRCC>
+27을 그림으로 표현하려면 얘를 뭐 하시면 돼요? 표준화.
+<Sync Start=349914><P Class=KRCC>
+표준화시키는 방법은 자기 자신에서 평균을 빼 시작. -2를 표준편차 4로 나누니까 시작.
+<Sync Start=357920><P Class=KRCC>
+
+<Sync Start=361512><P Class=KRCC>
+평균이 여기에 있네. 큰일 날 뻔했다. -3을 4로 나누니까 -0.75. 참 특이하네. -0.75잖아.
+<Sync Start=375100><P Class=KRCC>
+그다음에 여기까지라며. 31을 표준화시켜 봐.
+<Sync Start=380584><P Class=KRCC>
+자기 자신에서 평균을 빼고 1을 4로 나눠. 4분의 1이니까 0.25.
+<Sync Start=388590><P Class=KRCC>
+결국 이 넓이 구하는 거야, 얘들아.
+<Sync Start=391718><P Class=KRCC>
+
+<Sync Start=393978><P Class=KRCC>
+어렵지 않을 것 같은데. 여러분도 쉬울 것 같은데.
+<Sync Start=398194><P Class=KRCC>
+0부터 0.25까지의 넓이 얼마야? 0.0987.
+<Sync Start=406195><P Class=KRCC>
+-0.75부터 0까지 넓이는 왼쪽 넓이라서 잘 안 나왔을 거고 오른쪽 넓이로 바꾸면 시작.
+<Sync Start=411254><P Class=KRCC>
+0부터 어디까지? 0.75까지의 넓이는 얼마야? 0.2734.
+<Sync Start=418471><P Class=KRCC>
+그래서 맨 마지막 글자가 1로 끝난다는 거야. 행복해. 답은 4번. 괜찮아? 너무 재밌잖아.
+<Sync Start=431558><P Class=KRCC>
+어느 고등학교 수학 시험에 응시한 수험생의 시험 점수는 평균 m, 표준편차가 10인
+<Sync Start=438773><P Class=KRCC>
+정규분포를 따른다고 하는데 이 수학 시험에 응시한 수험생 중 임의로 선택한 1명의 점수가
+<Sync Start=446394><P Class=KRCC>
+65점 이상일 확률이. 그대로 쓸게. 점수가 65점 이상일 확률이 0.9032라고 한다.
+<Sync Start=457872><P Class=KRCC>
+이때 m을 구하시오. m이 뭔데? 평균을 구하시오. 표준편차는 10이라고 가르쳐줬어.
+<Sync Start=464214><P Class=KRCC>
+그럼 여러분, 그대로 한번 써볼게요. 이것도 그림으로 한번 그대로 그려볼게.
+<Sync Start=468748><P Class=KRCC>
+넓이가 나왔으면 그림을 그리는 게 편하니까. 가운데가 m인데 m이 얼마인지를 몰라.
+<Sync Start=473239><P Class=KRCC>
+m 찾는 거야. 그런데 65가 어디 있을까? 왼쪽에 있을까, 오른쪽에 있을까?
+<Sync Start=478107><P Class=KRCC>
+무조건 왼쪽에 있다. 왜? 90% 거의 1에 가깝잖아. 뭐보다?
+<Sync Start=484091><P Class=KRCC>
+65보다 크거나 같아. 그러면 당연히 왼쪽에 있어야지. 왜?
+<Sync Start=488127><P Class=KRCC>
+그것보다 큰 확률이 0.5보다 크니까. 0.9보다도 더 크니까 다른 쪽보다 더 커야 되니까
+<Sync Start=495626><P Class=KRCC>
+왼쪽에 가 있을 것이라는 거지. 그런데 0.9032 어디서 나왔어?
+<Sync Start=503866><P Class=KRCC>
+0.5에서 1.3을 0부터 1.3까지 넓이를 더한 거니까 이 넓이가 0.9032라는 것은 여기가 얼마니까?
+<Sync Start=511697><P Class=KRCC>
+0.5니까 여기가 얼마다? 0.4032. 그럼 여기 Z값이 얼마라는 얘기야? -1.3이라는 얘기죠. 왜?
+<Sync Start=522330><P Class=KRCC>
+Z로 바꾸면 가운데가 0이잖아. 얘를 뭐 한 게? 표준화한 게 뭐다? 얘라는 얘기야.
+<Sync Start=528850><P Class=KRCC>
+
+<Sync Start=533971><P Class=KRCC>
+그럼 여러분, 이 문제를 푸는 방법은 두 가지야. 봐 봐.
+<Sync Start=539114><P Class=KRCC>
+얘를 표준화하면 얘입니다. 이렇게 풀어도 되지만 그래도 우리는 좀 다르게 풀자 어떻게 해?
+<Sync Start=544967><P Class=KRCC>
+얘를 원상복구시키면 65입니다. 얘가 표준화된 확률변수 Z값이니까, 시그마의 계수니까
+<Sync Start=551669><P Class=KRCC>
+여기에 뭘 갖다 붙여? -1.3에 시그마 갖다 붙이고 m 갖다 붙이면 65가 됩니다.
+<Sync Start=564295><P Class=KRCC>
+멋있잖아. 그럼 이게 뭐니까? -13이니까 넘어가면 +13이 돼서 답은 78.
+<Sync Start=573917><P Class=KRCC>
+따라서 m값은 78. 얼마나 재밌어. 이거보다 더 재밌는 게 어딨어. 정말 재밌죠. 그렇죠?
+<Sync Start=581719><P Class=KRCC>
+
+<Sync Start=583910><P Class=KRCC>
+확실하게 정리하세요. 여기까지가 정규분포예요. 그대로 이어볼게요.
+<Sync Start=591748><P Class=KRCC>
+선생님, 단원이 바뀌었는데요? 안 바뀌었어. 똑같아. 그대로 이어볼게. 그대로 봐, 그대로.
+<Sync Start=597610><P Class=KRCC>
+아무런 선입견 없이 한번 그대로 읽어볼게. 잘 봐.
+<Sync Start=600603><P Class=KRCC>
+한 개의 주사위를 한 번 던지는 시행을 450번 반복하면. 뭐야 이게?
+<Sync Start=605162><P Class=KRCC>
+3의 배수의 눈이 나온 횟수를 확률변수 X. 이거 어디서 많이 들어봤는데?
+<Sync Start=609969><P Class=KRCC>
+다시. 한 개의 주사위를 한 번만 던지는 시행을, 주사위 던지는 걸 450번 반복할 때 이거 무슨 횟수?
+<Sync Start=617126><P Class=KRCC>
+시행 횟수. 시행 횟수가 주어진 상태에서 나온 횟수를, 그것도 성공의 기준이 뭐야? 3의 배수
+<Sync Start=626072><P Class=KRCC>
+나온 횟수를 X라고 둔 것, X는 정규분포를 따라, 이항분포를 따라? 이항분포를 따르네요.
+<Sync Start=632259><P Class=KRCC>
+이항분포가 뭔데? 다시 얘기해 볼까? 시행 횟수가 주어지고 나온 횟수를 X라고 둬서
+<Sync Start=637104><P Class=KRCC>
+각각의 나온 횟수에 대한 모든 독립시행의 확률을 표로 나타낸 것.
+<Sync Start=640842><P Class=KRCC>
+단 두 글자로 압축할 수 있다. 기억나죠? 두 글자로 압축해 봐. 여기는 뭐라고 쓸 거야?
+<Sync Start=646245><P Class=KRCC>
+시행 횟수. 450이라고 쓸 거네. 여기다 뭐라고 쓸 거야?
+<Sync Start=652776><P Class=KRCC>
+한 번 시행했을 때 나올 확률, 주사위 한 번 던져서 3의 배수 3 또는 6이 나올 확률.
+<Sync Start=658111><P Class=KRCC>
+6분의 2, 다른 말로 3분의 1. 이런 이항분포를 따르는 확률변수 X가 있대. 그런데 봐 봐.
+<Sync Start=665765><P Class=KRCC>
+황당하다. X가 156보다 작거나 같을 확률을 구하래요.
+<Sync Start=670150><P Class=KRCC>
+
+<Sync Start=672905><P Class=KRCC>
+지금까지 이항분포는 어떤 문제가 더 어울려?
+<Sync Start=675785><P Class=KRCC>
+확률 구하라는 문제는 거대한 표로 가는 문제니까 그런 문제는 거의 안 나오고
+<Sync Start=681396><P Class=KRCC>
+대부분 X의 평균 구하라. 두 개 곱하면 된다. 분산 구하라. 안 나오는 확률까지 곱하면 된다. 기억나죠?
+<Sync Start=689659><P Class=KRCC>
+그 문제가 어울리는데 여기서 갑자기 뭘 물어봤냐면 156 이하일 확률.
+<Sync Start=696393><P Class=KRCC>
+확률은 거대한 표로 가셔야 돼. 여러분, 이 압축된 표현을 원래 표현대로 바꾸자.
+<Sync Start=703948><P Class=KRCC>
+바꿔봐. 우리는 바꿀 수 있어. 왜? 이항분포에서 확률변수 X는 뭘로 지정돼 있으니까?
+<Sync Start=710563><P Class=KRCC>
+나올 횟수. 시행일수가 얼마니까? 450.
+<Sync Start=714121><P Class=KRCC>
+여러분, 450번 시행했을 때 나올 횟수가 될 수 있는 건 제일 작으면 0번, 제일 크면 450번.
+<Sync Start=720265><P Class=KRCC>
+정말 거대한 표가 쭉 가다 보면 155도 나올 거고 156도 나올 거고 157도 나올 거고
+<Sync Start=732286><P Class=KRCC>
+가다 보면 449도 나올 거고 맨 마지막 450까지 이렇게 나올 거 아니야. 이게 무슨 표?
+<Sync Start=740166><P Class=KRCC>
+차인표? 아니야.
+<Sync Start=742057><P Class=KRCC>
+
+<Sync Start=744145><P Class=KRCC>
+무슨 표?
+<Sync Start=745759><P Class=KRCC>
+
+<Sync Start=748987><P Class=KRCC>
+기억이 안 나네. 홍학표 아세요? 홍학표. 모르시는구나.
+<Sync Start=757150><P Class=KRCC>
+
+<Sync Start=759719><P Class=KRCC>
+행복은 성적순이 아니잖아요 안 봤어요? 그건 모르는구나. 홍학표 아저씨를 모르는구나.
+<Sync Start=767005><P Class=KRCC>
+또 표 누구 있지?
+<Sync Start=768871><P Class=KRCC>
+
+<Sync Start=772244><P Class=KRCC>
+얼마 전에 상대방 선발 투수. 차인표는 내가 조금 전에 했잖아. 하지 않았어? 차인표 했는데.
+<Sync Start=783098><P Class=KRCC>
+
+<Sync Start=785486><P Class=KRCC>
+표 뭐 있지? 구준표. 구준표가 사람 이름이야, 캐릭터 이름이야?
+<Sync Start=793743><P Class=KRCC>
+캐릭터 이름이지? 꽃보다 남자.
+<Sync Start=796343><P Class=KRCC>
+
+<Sync Start=803787><P Class=KRCC>
+가자. 만들어야지. 어떻게? 450번 시행에서 0번 나올 확률 시작. 
+<Sync Start=814201><P Class=KRCC>
+시행 횟수 콤비네이션 나온 횟수, 나올 확률, 나온 횟수, 안 나올 확률, 안 나온 횟수.
+<Sync Start=818182><P Class=KRCC>
+나올 확률은 얼마야? 3분의 1. 그러면 안 나올 확률은 얼마야? 1에서 빼니까 3분의 2.
+<Sync Start=822797><P Class=KRCC>
+한 번 나올 확률 시행 횟수 콤비네이션 나온 횟수, 나올 확률, 나온 횟수, 안 나올 확률,
+<Sync Start=827994><P Class=KRCC>
+안 나온 횟수. 이거 언제 다 써? 이걸 다 쓰래.
+<Sync Start=834540><P Class=KRCC>
+그래서 최종적인 답은 어디서부터 어디까지 확률이야? 156. 이 밑에 뭐 있어?
+<Sync Start=841899><P Class=KRCC>
+시행 횟수 콤비네이션 나온 횟수, 나올 확률, 나온 횟수, 안 나올 확률 이걸 다 더하래.
+<Sync Start=849711><P Class=KRCC>
+157개의 확률을 다 더하래.
+<Sync Start=852646><P Class=KRCC>
+
+<Sync Start=855445><P Class=KRCC>
+이게 문제야. 말이 돼? 말이 안 돼. 어떡하지?
+<Sync Start=862350><P Class=KRCC>
+
+<Sync Start=864438><P Class=KRCC>
+그러고 있을 때 이거 어떡하지? 그러고 있을 때 드무아브르 아저씨가. 내가 지금 뭐라 그랬어?
+<Sync Start=872172><P Class=KRCC>
+드무아브르 아저씨가 다음과 같이 얘기했다고. 뭐라 그랬게?
+<Sync Start=879196><P Class=KRCC>
+이항분포, 이산확률분포인 이항분포의 시행 횟수가 충분히 크면
+<Sync Start=890309><P Class=KRCC>
+이항분포를 따르는 확률변수 X는 근사적으로 정규분포도 따른다.
+<Sync Start=899810><P Class=KRCC>
+
+<Sync Start=902360><P Class=KRCC>
+당연히 이것도 증명 못해요. 어떻게 여러분이 증명해요? 드무아브르 아저씨가 증명했는데.
+<Sync Start=907558><P Class=KRCC>
+
+<Sync Start=912480><P Class=KRCC>
+알고 계셔야 돼요. 다시. 뭐라고 그랬다고?
+<Sync Start=916484><P Class=KRCC>
+이항분포를 따르는 확률변수 X는. 여러분, 되게 충격적인 얘기야 왜? 얘는 이산적이잖아.
+<Sync Start=924592><P Class=KRCC>
+1.3 될 수 있어? 아니. 3.4 될 수 있어? 아니.
+<Sync Start=929390><P Class=KRCC>
+표를 만들었다는 것 자체가 이산확률변수잖아.
+<Sync Start=932598><P Class=KRCC>
+그런데 시행 횟수가 충분히 크면 확률변수 X가 정규분포를 따른다는 사실을 알아낸 거야.
+<Sync Start=941397><P Class=KRCC>
+여기서 여러분이 좀 께름칙한 것은 뭐야?
+<Sync Start=945170><P Class=KRCC>
+
+<Sync Start=949075><P Class=KRCC>
+충분히 크면 그냥 크겠지 그렇게 생각하시면 돼요.
+<Sync Start=956123><P Class=KRCC>
+곱해서 5보다 크거나 같다 이런 얘기하지 말고 출제된 건 그냥 무조건 충분히 크다는 얘기예요.
+<Sync Start=962785><P Class=KRCC>
+그렇게만 받아들이시면 돼요.
+<Sync Start=964676><P Class=KRCC>
+
+<Sync Start=967882><P Class=KRCC>
+그러면 이항분포를 따르는 확률변수 X는 뭐도 따른다고? 정규분포도 따른다고.
+<Sync Start=978716><P Class=KRCC>
+이항분포를 따랐을 때 156보다 작거나 같을 확률은 푸는데 3개월 정도가 걸릴 것 같은데
+<Sync Start=987192><P Class=KRCC>
+정규분포도 따른다고 했으니 정규분포를 따를 때 156 이하일 확률을 구해주는 게 훨씬 더 빠를 거다.
+<Sync Start=997286><P Class=KRCC>
+
+<Sync Start=1000735><P Class=KRCC>
+여러분, 정규분포는 쉼표 앞에 뭐 써야 돼요? 평균. 여기는? 분산.
+<Sync Start=1005732><P Class=KRCC>
+평균 어떻게 쓸래요? 두 개 곱하면 되죠. 왜? X는 이항분포도 따르니까.
+<Sync Start=1011568><P Class=KRCC>
+이항분포가 뭔지를 먼저 했잖아. 그러니까 두 개 곱한 게
+<Sync Start=1015807><P Class=KRCC>
+3분의 1 곱하면 3X1=3, 3x5=15, 150이 바로 평균. 여러분, 분산은 어떻게 구하지?
+<Sync Start=1024055><P Class=KRCC>
+이항분포에서 분산 구하는 방법은 두 개 곱하면 평균 150에 한 번 더 곱하면 되는데 시작.
+<Sync Start=1029270><P Class=KRCC>
+안 나올 확률까지 곱하면 되잖아요. 나올 확률이 3분의 1이니까 안 나올 확률은 3분의 2가 될 거고
+<Sync Start=1035382><P Class=KRCC>
+3x5=15니까 얼마야? 100. 100은 뭐라고 표현할 수 있어? 10².
+<Sync Start=1040549><P Class=KRCC>
+결국 450, 3분의 1이라는 이항분포를 따르는 X는 시행 횟수가 충분히 크므로
+<Sync Start=1048006><P Class=KRCC>
+정규분포 N(150,10²)도 동시에 따른다.
+<Sync Start=1053987><P Class=KRCC>
+그러니까 한마디로 이항분포를 따르는 확률변수는 시행 횟수가 충분히 컸을 때
+<Sync Start=1058209><P Class=KRCC>
+정규분포로 바꿔서 해석할 수 있다는 얘기예요. 그러면 너무 쉽죠. 왜?
+<Sync Start=1067091><P Class=KRCC>
+내가 정규분포에서 확률 구할 때는 뭐 하라고 그랬어요?
+<Sync Start=1070838><P Class=KRCC>
+표준화하라고 그랬거든요. 하는 방법이 뭔데요?
+<Sync Start=1074575><P Class=KRCC>
+자기 자신에서 평균을 빼요. 표준편차로 나눠요. 0.6보다 작거나 같을 확률.
+<Sync Start=1082385><P Class=KRCC>
+결국 Z가 따르는 표준정규분포의 그래프를 그렸을 때 가운데 무조건 0이고
+<Sync Start=1088722><P Class=KRCC>
+0.6보다 작거나 같을 확률을 구하라는 것은 0.6 왼쪽에 이 확률을 구하라는 거고
+<Sync Start=1095278><P Class=KRCC>
+절반의 확률을 우리가 알고 있으니 얼마야? 0.5니까. 거기에 뭐만 더하면 돼?
+<Sync Start=1100040><P Class=KRCC>
+0과 0.6 사이의 확률. 얘만 0.5랑 더해주시면 답이다.
+<Sync Start=1107542><P Class=KRCC>
+0.5 더해봐 시작. 0.7257. 그래서 최종적인 답은 얼마야?
+<Sync Start=1113712><P Class=KRCC>
+몇 개월 걸릴 뻔했는데. 3개월 걸릴 뻔했는데 30초 만에 답을 썼다는 것.
+<Sync Start=1121975><P Class=KRCC>
+누구의 도움을 받아서? 드무아브르 라플라스의 정리.
+<Sync Start=1125402><P Class=KRCC>
+드무아브르가 맨 처음에 발견했다고 알려지고요.
+<Sync Start=1128937><P Class=KRCC>
+조금 더 확장시킨 게 라플라스야. 참고로 라플라스는 저희 강아지 코델리아의 아들 이름입니다.
+<Sync Start=1138282><P Class=KRCC>
+코델리아 생일을 내가 잘못 알고 있었네. 조금 전에 찾아보니까 2010년 10월 20일이네.
+<Sync Start=1146604><P Class=KRCC>
+20일에 태어났다고. 원래 이름이 뭐였게요? 리엔이야.
+<Sync Start=1151479><P Class=KRCC>
+리엔일 때 제가 분양받아서 2011년 1월 3일에 분양받았을 거예요.
+<Sync Start=1162508><P Class=KRCC>
+그러니까 태어난 지 정말 얼마 안 된, 10월생이니까 그때 정말 조그마했습니다.
+<Sync Start=1171725><P Class=KRCC>
+되게 두려움에 떨면서 날 쳐다봤었는데. 너랑 평생을 살아야 되는구나 막 이러면서 날 쳐다봤었는데.
+<Sync Start=1180143><P Class=KRCC>
+그 아이가 어느새 벌써 나랑 13년째 살고 있네요. 걔도 많은 생각이 들 거 아니야.
+<Sync Start=1189473><P Class=KRCC>
+지금까지 나랑 거쳐갔었던 그 수많은 공간들. 첫 번째 집부터 시작해서
+<Sync Start=1200269><P Class=KRCC>
+거기에서 여기로 갔다가, 여기 갔다가, 여기 갔다가, 여기 갔다가, 지금 여기니까
+<Sync Start=1207706><P Class=KRCC>
+지금 일곱 번째 집에서 사는 거야. 10년 동안.
+<Sync Start=1213898><P Class=KRCC>
+
+<Sync Start=1217658><P Class=KRCC>
+갑시다. 어디로 갈까? 유제로 가자.
+<Sync Start=1222934><P Class=KRCC>
+확률변수 X가 이항분포를 따릅니다. (192,p)라는 이항분포를 따르는데
+<Sync Start=1229836><P Class=KRCC>
+여러분, 평균이 50보다 작다. 작은 거 가지고 어떻게 구해요. 평균을 가르쳐주든가.
+<Sync Start=1233680><P Class=KRCC>
+분산이면 구할 수 있지. p값 찾을 수 있죠. 왜? 분산 어떻게 구해? 보통 mpq라 하죠.
+<Sync Start=1239343><P Class=KRCC>
+시행 횟수랑 나올 확률을 곱한 다음에 어디까지? 안 나올 확률까지 곱하면 얼마가 된다? 시작.
+<Sync Start=1246401><P Class=KRCC>
+36이 되는 거니까 설마 배수가 아닐까?
+<Sync Start=1250486><P Class=KRCC>
+
+<Sync Start=1257135><P Class=KRCC>
+4x3=12의 배수일 것 같은데 12로 하면 이거 3, 12의 배수 맞니?
+<Sync Start=1262672><P Class=KRCC>
+한 번 들어가면 72, 8에 얼마니? 7이지. 17 이렇게 나올 것 같은데.
+<Sync Start=1271438><P Class=KRCC>
+아니지, 16이지. 맞니? 16이지. 12로 양변을 나눴어요.
+<Sync Start=1281213><P Class=KRCC>
+
+<Sync Start=1285687><P Class=KRCC>
+더 이상 안 나눠지네요. 이렇게 하면 얼마야?
+<Sync Start=1288242><P Class=KRCC>
+p², -p², 16이니까 우변으로 옮기면 16p² 이렇게 하면 16p인데
+<Sync Start=1294334><P Class=KRCC>
+우변으로 넘기면 -16p, 우변에 있었던 +3과 결합하면 4x4=16, 3x1= 이렇게 한번 가볼까?
+<Sync Start=1300647><P Class=KRCC>
+되니? 된다. 12와 4니까 둘 다 마이너스. 그럼 하나는 뭐야? 시작.
+<Sync Start=1305932><P Class=KRCC>
+4분의 3, 4분의 1. 그래서 이걸 가르쳐줬구나. 4분의 3 하나 집어넣어 봐.
+<Sync Start=1312131><P Class=KRCC>
+평균 구해봐 봐. 그럼 50보다 크겠지 왜? 한 번은 4분의 3, 한 번은 4분의 1이잖아.
+<Sync Start=1319959><P Class=KRCC>
+50보다 작다는 조건을 왜 줬겠니? 더 작은 거를 고르라는 얘기 아닐까? 하나는 50보다 크겠지.
+<Sync Start=1326042><P Class=KRCC>
+그러니까 3인 게 클 테니까 여러분들은 직접 해보세요.
+<Sync Start=1329469><P Class=KRCC>
+저는 이런 것 정도는 그냥 4분의 1이라는 것을 이 조건이 왜 주어졌는지를 생각해 보면
+<Sync Start=1335045><P Class=KRCC>
+당연히 직접 해봐야 되겠지만 해보면 어떻게 돼요?
+<Sync Start=1337712><P Class=KRCC>
+50보다 작고 3배 하면 4분의 3 곱하면 50보다 크기 때문에 결국 P값은 얼마다? 시작.
+<Sync Start=1344393><P Class=KRCC>
+4분의 1이라는 사실을 찾을 수 있었습니다. 이제 구하래요. 뭐를?
+<Sync Start=1350990><P Class=KRCC>
+51보다 크거나 같고 54보다 작거나 같을 확률을요.
+<Sync Start=1356368><P Class=KRCC>
+선생님, 이건 그냥 정규분포로 안 바꾸고 풀래요. 왜? 간단한데요. 51, 52, 53, 54잖아요.
+<Sync Start=1363322><P Class=KRCC>
+이걸 한다고? 4분의 1에 51을 제곱한다고? 불가능하지. 여러분들은 하나 구하는 것도 불가능하겠다.
+<Sync Start=1370699><P Class=KRCC>
+무슨 말이야? 거대한 표로 생각하려면 이항분포니까 거대한 표잖아.
+<Sync Start=1375141><P Class=KRCC>
+51 밑에 있는 숫자는 뭐야? 시작. 시행 횟수 콤비네이션 나온 횟수,
+<Sync Start=1378927><P Class=KRCC>
+나올 확률 4분의 1에 51 제곱, 안 나올 확률 4분의 3에 192-51 제곱 아니야.
+<Sync Start=1385564><P Class=KRCC>
+그거 어떻게 풀어? 말도 안 되잖아.
+<Sync Start=1388810><P Class=KRCC>
+그래서 이항분포가 나오고 확률 구하라고 하면 거의 반사적으로 뭐 생각하시면 돼?
+<Sync Start=1394019><P Class=KRCC>
+이항분포를 따르는 확률변수 X가 정규분포를 따르니까 정규분포로 바꾸라는 얘기구나.
+<Sync Start=1401403><P Class=KRCC>
+평균을 쓸 차례네요. 두 개 곱하면 평균이에요. 4x4=16, 4x8=32
+<Sync Start=1406752><P Class=KRCC>
+거기에 안 나올 확률 4분의 3까지 곱하면 되는데 4로 나누면 12니까
+<Sync Start=1412877><P Class=KRCC>
+12x3=36, 36은 6의 제곱이니까 결국은 평균이 48이고 표준편차가 6인 정규분포를 따른다
+<Sync Start=1420814><P Class=KRCC>
+이렇게 가시라고요. 따라서 정규분포에서 확률 구할 때는 무조건 뭘로 바꾸라고?
+<Sync Start=1425769><P Class=KRCC>
+Z로 바꾸라고 했으니까 시작합니다. 표준화하자.
+<Sync Start=1429444><P Class=KRCC>
+자기 자신, 51에서 평균을 빼고 3, 표준편차 6으로 나누니까 6분의 3, 2분의 1, 다른 말로 0.5.
+<Sync Start=1438759><P Class=KRCC>
+자기 자신, 54에서 평균 48을 빼면 6, 6을 6으로 나누면 시작. 1.
+<Sync Start=1446448><P Class=KRCC>
+0.5와 1 사이의 넓이를 구하라는 얘기구나 이렇게 해석하시면 되죠.
+<Sync Start=1452828><P Class=KRCC>
+가운데는 무조건 뭐예요? 0. 왜? Z니까. 뭐부터 뭐 사이? 0.5부터 1 사이에 확률을 구하세요.
+<Sync Start=1463286><P Class=KRCC>
+이 넓이를 구하는 거니까 어떻게 구할래?
+<Sync Start=1465381><P Class=KRCC>
+0부터 1까지의 넓이에서 0부터 0.5까지의 넓이를 빼는 거니까 여기서 이거 빼면 8로 끝나네요.
+<Sync Start=1472934><P Class=KRCC>
+그래서 최종적인 답은 0.1498 이렇게 처리하시면 되겠습니다.
+<Sync Start=1480504><P Class=KRCC>
+유제 8번. 어느 도시에 등록된 자동차 중에서 색상이 무채색인 자동차의 비율.
+<Sync Start=1488606><P Class=KRCC>
+그러니까 우리나라는 참 무채색 좋아해. 반짝반짝 빛나는 거 안 좋아하잖아요. 그렇죠?
+<Sync Start=1495682><P Class=KRCC>
+
+<Sync Start=1498309><P Class=KRCC>
+저는 반짝반짝 빛나는 거 되게 좋아하는데. 반짝반짝 빛나는 것. 컬러풀한 거 되게 좋아해요.
+<Sync Start=1504889><P Class=KRCC>
+근데 대부분은 보면 검은색 아니면 흰색. 흰색이 제일 인기 많지.
+<Sync Start=1509801><P Class=KRCC>
+그래서 중고차 시장에서 제일 유명하다며. 무난한 게 은색.
+<Sync Start=1514408><P Class=KRCC>
+은색이 세차 많이 안 해도 된다고 해서. 먼지가 껴도 먼지 색깔이 은색이라면서.
+<Sync Start=1519956><P Class=KRCC>
+근데 검은색은 세차 엄청 해줘야 돼요. 그건 여러분 알고 계셔야 돼. 딱 보면 보여.
+<Sync Start=1525764><P Class=KRCC>
+모든 색깔 중에서 제일 세차를 많이 해야 되는 게 검은색 차가 매일 세차해야 될 정도로 힘든 차고요.
+<Sync Start=1533903><P Class=KRCC>
+그거보다는 흰색 차가 조금 낫지. 그래도 흰색 차도 금방 지저분해지긴 해.
+<Sync Start=1540475><P Class=KRCC>
+근데 검은색에 비할 건 아니야. 검은색 차가 첫 차, 두 번째 차도 검은색.
+<Sync Start=1549724><P Class=KRCC>
+그래서 제가 검은색 차를 정확하게 알지.
+<Sync Start=1554287><P Class=KRCC>
+
+<Sync Start=1559335><P Class=KRCC>
+정말 매일 닦아야 돼요. 그러니까 검은색 차를 타고 제일 열받을 때가 언제냐면
+<Sync Start=1566209><P Class=KRCC>
+내일 비 안 온다고 너무 맑음이래. 내일 여자친구랑 드라이브 가기로 했어.
+<Sync Start=1575221><P Class=KRCC>
+그럼 오늘 뭐 해? 그 차를 이렇게 닦거든. 반짝반짝 빛나게.
+<Sync Start=1580349><P Class=KRCC>
+검은색인데 반짝반짝 빛나면 진짜 기분 좋거든. 다음 날이 딱 됐어. 그랬더니 뭐가 와?
+<Sync Start=1586472><P Class=KRCC>
+비 안 와. 정말 태양이 쫙. 오늘은 나의 날이구나.
+<Sync Start=1593220><P Class=KRCC>
+차를 몰고 하필이면 살수차가 지나갔는지 물이 착. 그런 경우 되게 많아.
+<Sync Start=1605467><P Class=KRCC>
+물이 도로에 착 깔려 있어. 정말 속도를 급격하게 줄여. 왜? 그게 튀거든.
+<Sync Start=1616267><P Class=KRCC>
+타이어 때문에. 그러면 옆에 펜더부터 시작해 가지고 착.
+<Sync Start=1621503><P Class=KRCC>
+
+<Sync Start=1623880><P Class=KRCC>
+너무 열받아. 진짜 열받아. 나 지금 눈물 나잖아, 그때 생각나서.
+<Sync Start=1634836><P Class=KRCC>
+왜 그러냐면 내가 한참 떨어진 여의도 살 때인데 여의도에는 세차장이 없어요.
+<Sync Start=1643751><P Class=KRCC>
+그래서 신림동 세차장까지 가서 거기는 500원짜리 한 8개 넣어야 되잖아.
+<Sync Start=1651398><P Class=KRCC>
+그렇게 해가지고 완전 반짝반짝 빛나게 밑에 매트까지 한 2시간 정도 깨끗하게 해서
+<Sync Start=1660065><P Class=KRCC>
+좀 있으면 태우면 되는데 물이 착.
+<Sync Start=1664273><P Class=KRCC>
+
+<Sync Start=1666443><P Class=KRCC>
+그때 흰색이면 덜 해. 근데 검은색이면 끝나는 거야.
+<Sync Start=1671701><P Class=KRCC>
+
+<Sync Start=1675784><P Class=KRCC>
+이렇게 무채색인 자동차의 비율이 전체 80%래. 우리나라가 특히 그렇다고 하던데.
+<Sync Start=1683492><P Class=KRCC>
+제주도 가봤어요? 제주도는 무채색이 아니에요. 뭐야? 흰색이 90%입니다.
+<Sync Start=1689989><P Class=KRCC>
+렌터카가 다 흰색이야. 떠나자, 제주로. 이렇게 써 있는 게 정말 거의 90%인 것 같던데
+<Sync Start=1697565><P Class=KRCC>
+이 도시에 등록된 자동차 중에서 임의로 한 대를 선택해서 색상이 무채색인지를 조사하는 시행을
+<Sync Start=1705695><P Class=KRCC>
+몇 번? 900번 반복할 때 얘가 바로 무슨 횟수야? 시행 횟수.
+<Sync Start=1711671><P Class=KRCC>
+그러니까 이것도 무슨 문제야? 이항분포일 가능성이 높지. 내가 왜 가능성이 높다고 그랬어?
+<Sync Start=1717198><P Class=KRCC>
+확률변수 X가 나온 횟수로 지정돼 있으면 아직은 모르는 거야.
+<Sync Start=1722087><P Class=KRCC>
+시행 횟수만 주어졌다고. 아직은 모르는 거야. 이항분포가 된다.
+<Sync Start=1727815><P Class=KRCC>
+그렇다면 색상이 무채색인 자동차가 696대 이하일 확률과 X를 뭘로 잡을까?
+<Sync Start=1736932><P Class=KRCC>
+무채색인 자동차의 개수, 다른 말로 900번 시행해서 무채색이라고 대답하는 횟수.
+<Sync Start=1749855><P Class=KRCC>
+
+<Sync Start=1752410><P Class=KRCC>
+900번 시행에서 나온 횟수를 X라고 들면 그 나온 수가 696 이하일 확률을 구하라 그랬으니까
+<Sync Start=1761650><P Class=KRCC>
+아주 전형적인 무슨 분포 문제야? 이항분포 문제.
+<Sync Start=1766079><P Class=KRCC>
+시행 횟수 900이고요. 한 번 시행했을 때 무채색이라고 대답할 비율은 시작.
+<Sync Start=1770823><P Class=KRCC>
+5분의 4라고 맨 첫 줄에서 가르쳐줬잖아요.
+<Sync Start=1775345><P Class=KRCC>
+그럼에도 불구하고, 이항분포 문제임에도 불구하고 확률 문제가 나왔어요. 뭘로 바꾸는 문제야?
+<Sync Start=1786639><P Class=KRCC>
+정규분포를 따른다고 바꾸는 문제다.
+<Sync Start=1790493><P Class=KRCC>
+이항분포에서 시행 횟수가 충분히 크면 정규분포를 따른다. 평균은 두 개를 곱하는 거예요.
+<Sync Start=1796139><P Class=KRCC>
+이렇게 곱해야 돼요. 3,600을 5로 나누니까 5x7=35, 5x2=10 그러니까 720 맞나요?
+<Sync Start=1807262><P Class=KRCC>
+거기에 5분의 1, 안 나올 확률까지 곱해야 되니까 5x1=5, 22, 5x4=20, 5x4=20, 144네요.
+<Sync Start=1816870><P Class=KRCC>
+144는 12의 제곱이라고 쓸까요?
+<Sync Start=1821623><P Class=KRCC>
+결국 평균이 70, 720이고 표준편차가 12인 정규분포를 따르니까
+<Sync Start=1828403><P Class=KRCC>
+정규분포 따르는 확률변수가 나왔을 때 넓이 구할 때는 무조건 뭘 하니까? 표준화하라니까.
+<Sync Start=1834974><P Class=KRCC>
+하는 방법이 뭐냐니까? 자기 자신에서 평균을 뺀다니까.
+<Sync Start=1838589><P Class=KRCC>
+-30이 아니네. -24. -24를 표준편차 12로 나누니까 시작. -2가 돼요.
+<Sync Start=1850776><P Class=KRCC>
+결국 그림 한번 그려볼까? 가운데가 0, 여기는 Z, -2보다 작거나 같으면 이 넓이 구하는 거구나.
+<Sync Start=1862480><P Class=KRCC>
+그건 뭐랑 똑같구나. 2보다 크거나 같을 확률이랑 똑같구나. 그렇지? 그럼 어떻게 구하는거야?
+<Sync Start=1870194><P Class=KRCC>
+반쪽 넓이 0.5에서 0부터 2까지의 넓이. 0.5에서 얘를 빼주면 되겠구나.
+<Sync Start=1879174><P Class=KRCC>
+0.0228 답은 몇 번이야? 시작. 3번 끝 이렇게 푸는 게 바로 유제 8번 이야기였습니다. 괜찮죠?
+<Sync Start=1891008><P Class=KRCC>
+여기까지 정규분포 이야기를 다 끝낸 것 같고요.
+<Sync Start=1895990><P Class=KRCC>
+이제 연습 문제 풀면 되는데 오늘은 레벨 1까지 풀고 다음 시간에 또 갑자기 어려워지는
+<Sync Start=1902620><P Class=KRCC>
+레벨 2를 마음껏 즐기시는 시간이 되셨으면 좋겠습니다.
+<Sync Start=1908397><P Class=KRCC>
+여러분이 먼저 풀어보시는 거 잊지 마시고 첫 번째 문제부터 시작해서
+<Sync Start=1911914><P Class=KRCC>
+다시 한번 복습해 보는 아름다운 시간을 갖도록 하죠. 기초 연습 1번입니다.
+<Sync Start=1918231><P Class=KRCC>
+확률변수 X가 갖는 값의 범위는 0부터 3까지다.
+<Sync Start=1924821><P Class=KRCC>
+
+<Sync Start=1928427><P Class=KRCC>
+다음 그림과 같을 때 상수 k값의 범위를 구하시오 이렇게 돼 있거든.
+<Sync Start=1934899><P Class=KRCC>
+그러니까 여러분, 얘랑 얘랑은 기울기가 같지?
+<Sync Start=1943175><P Class=KRCC>
+그러니까 내가 이걸 여러분한테 어떻게 표현해야 될지 모르겠는데 여러분들 이거 알아?
+<Sync Start=1951239><P Class=KRCC>
+이 직사각형 넓이를 반으로 쪼개려면 어디를 지나는 직선이 있으면 돼?
+<Sync Start=1957268><P Class=KRCC>
+
+<Sync Start=1960054><P Class=KRCC>
+어디를 지나면 돼? 이렇게 넓이를 반으로 쪼개나? 아니.
+<Sync Start=1964583><P Class=KRCC>
+이 무게중심은 대각선의 중점이라고 생각하시면 돼요.
+<Sync Start=1970030><P Class=KRCC>
+여기를 지나는 어떤 직선을 만들더라도 직사각형 넓이를 반으로 쪼개. 그렇지?
+<Sync Start=1977256><P Class=KRCC>
+그런데 그러지 않더라도 얘를 지나는 직선은 무조건 반으로 쪼개는데
+<Sync Start=1988501><P Class=KRCC>
+만약에 얘를 끝까지 다 하지 않더라도 이렇게 얘랑 얘가 모두 다
+<Sync Start=1998361><P Class=KRCC>
+이 무게중심의 대칭, 점대칭성을 가지고 있다면 그러니까 가르는 이 경계선이
+<Sync Start=2006165><P Class=KRCC>
+무게중심의 대칭만 있다면 당연히 이쪽 넓이와 이쪽 넓이는 뭐 하겠니? 같겠지.
+<Sync Start=2012537><P Class=KRCC>
+그러니까 지금 난 그 얘기야.
+<Sync Start=2015268><P Class=KRCC>
+
+<Sync Start=2018866><P Class=KRCC>
+당연히 얘와 얘는 기울기가 서로 같으니까.
+<Sync Start=2023651><P Class=KRCC>
+그리고 꼭짓점을 지나니까 얘의 무게중심의 대칭형일 거라고.
+<Sync Start=2032851><P Class=KRCC>
+그리고 끝점을 그대로 연결했으니까 이 경계선은 전체 직사각형의 무게중심에 대칭한 경계선이라서
+<Sync Start=2047139><P Class=KRCC>
+여러분이 이 넓이 구할 때 보통은 이렇게 풀거든.
+<Sync Start=2050984><P Class=KRCC>
+삼각형 넓이+사다리꼴 넓이+사다리꼴 넓이 이렇게 하는데 그렇게 안 하고 그냥 시작.
+<Sync Start=2057604><P Class=KRCC>
+직사각형 넓이의 절반 그렇게 하셔도 돼요. 내가 아까 하고 싶었던 얘기가 이 얘기야.
+<Sync Start=2063566><P Class=KRCC>
+
+<Sync Start=2067808><P Class=KRCC>
+그러니까 3x4=12k의 절반이면 얘가 몇 k이야? 시작. 6k이야.
+<Sync Start=2073336><P Class=KRCC>
+그게 뭐니까? 시작. 1이니까 상수 k의 값은 뭐라고 써주는 게 예뻐?
+<Sync Start=2080395><P Class=KRCC>
+6분의 1 이렇게 써주는 게 예쁘지.
+<Sync Start=2083913><P Class=KRCC>
+근데 안 그러려면 어떻게 풀어야 돼요? 열심히 풀어야 돼요. 열심히 푸세요.
+<Sync Start=2090911><P Class=KRCC>
+삼각형 넓이+ 사다리꼴의 넓이+사다리꼴의 넓이 이렇게 푸셔도 돼.
+<Sync Start=2098957><P Class=KRCC>
+2번 가시죠. a와 b가 있어. b가 a보다 더 큰 두 자연수 a와 b와, 평균이 4인 정규분포를 따르는
+<Sync Start=2113701><P Class=KRCC>
+a, b와 평균이 이상하잖아. a, b와, 평균이 4인 정규분포를 따르는 확률변수 X에 대하여.
+<Sync Start=2123045><P Class=KRCC>
+그럼 여기 보십시오. 평균이 4인 정규분포에 대하여 그랬으니까 가운데가 뭐야 4.
+<Sync Start=2128608><P Class=KRCC>
+얘는 표준화시키지 않은 진짜 확률변수 X.
+<Sync Start=2133939><P Class=KRCC>
+X가 a보다 크거나 같다랑 X가 b보다 작거나 같다랑 똑같대. 그럼 a와 b가 어디에 있게?
+<Sync Start=2139484><P Class=KRCC>
+4를 기준으로 같은 거리만큼 떨어져 있다는 얘기라니까.
+<Sync Start=2144319><P Class=KRCC>
+그런데 누가 더 크다고 그랬으니까? b가 더 크다고 했고
+<Sync Start=2146749><P Class=KRCC>
+또 무슨 수라고 그랬으니까? 자연수라고 했으니까.
+<Sync Start=2150869><P Class=KRCC>
+
+<Sync Start=2154579><P Class=KRCC>
+그래야지만 a보다 크거나 같을 확률이 이 넓이죠. b보다 작거나 같을 확률이 이 넓이죠.
+<Sync Start=2160355><P Class=KRCC>
+이게 같아지려면 a와 b의 중점이 4다. 여러분, 중점이 4라는 얘기는 합이 얼마라는 얘기예요?
+<Sync Start=2168203><P Class=KRCC>
+8이라는 얘기예요. 그리고 a와 b는 무슨 수래요? 자연수래요.
+<Sync Start=2173263><P Class=KRCC>
+뭘 구하래요? 곱의 최솟값. 산술평균, 기하평균은 곱의 최댓값 구할 때 쓰는데 그게 아니네.
+<Sync Start=2181958><P Class=KRCC>
+곱의 최솟값 구할 때 쓰네. 여러분, 산술평균, 기하평균 할 때 우리 어떻게 해?
+<Sync Start=2186320><P Class=KRCC>
+합이 일정할 때 곱의 최댓값은 두 수가 같을 때야. 그렇지?
+<Sync Start=2189805><P Class=KRCC>
+그러니까 여러분, 이걸 통해서 한번 다시 한번 느껴보자.
+<Sync Start=2192740><P Class=KRCC>
+자연수와 자연수 더해서 8되는 경우는 두 수가 같을 때도 있고 다를 때도 있다.
+<Sync Start=2201012><P Class=KRCC>
+그런데 b가 더 크다고 그랬으니까 5, 3이어도 되고 6,2여도 되며 7이고 1이어도 되고
+<Sync Start=2209041><P Class=KRCC>
+8이고 0이어도 되는데 0은 자연수가 아니니까 두 자연수, 그것도 b가 더 큰 두 자연수에 대해서
+<Sync Start=2216964><P Class=KRCC>
+합이 8인 경우는 두 수가 같을 때 곱은 최대라고. 곱,곱,곱.
+<Sync Start=2222858><P Class=KRCC>
+곱해봐 15, 곱해봐 12, 곱해봐 7. 같을 때 곱은 최대가 되고
+<Sync Start=2231551><P Class=KRCC>
+같다의 반대말이 많이 떨어져 있을 때 거리가 제일 클 때 자연수니까 직접 해봐도 알 수 있죠. 그렇죠?
+<Sync Start=2242103><P Class=KRCC>
+7이 바로 자연수 a, b의 최솟값이 되더라. 합을 알고 자연수 곱의 최솟값 구하는 문제였습니다.
+<Sync Start=2252273><P Class=KRCC>
+3번으로 갈까요. 정규분포를 따르는 확률변수 X와
+<Sync Start=2259501><P Class=KRCC>
+표준정규분포를 따르는 확률변수 Z에 대해서 다음을 만족할 때 X의 평균과 X의 분산을 더하죠.
+<Sync Start=2270007><P Class=KRCC>
+여러분, 이거 어떻게 해석할 거야? 얘를 표준화하면 이것입니다.
+<Sync Start=2277049><P Class=KRCC>
+이렇게 해석하시면 되지 않겠니. 그렇지?
+<Sync Start=2282880><P Class=KRCC>
+여러분, 얘네들 구하려면 어떻게 해야 돼? 평균과 분산을 구해야 돼. 그게 뭔데?
+<Sync Start=2288758><P Class=KRCC>
+정규분포를 따르는 확률변수 X가 있다면 여기가 평균이고 여기가 분산이에요.
+<Sync Start=2296034><P Class=KRCC>
+그러니까 지금 평균, 분산을 아무도 모르는 거야. 그렇지?
+<Sync Start=2298925><P Class=KRCC>
+그런데 확실한 건 뭐냐면 얘가 표준정분포에 따르는 확률변수라고 그랬으니까
+<Sync Start=2304634><P Class=KRCC>
+얘가 흔히 얘기하는 X, 표준화되지 않은 확률변수. 얘는 표준화된 확률변수,
+<Sync Start=2310947><P Class=KRCC>
+10보다 크거나 같다, -1보다 크거나 같다 그 얘기는 얘랑 얘가 서로 대응되는 관계다.
+<Sync Start=2315648><P Class=KRCC>
+그 말은 얘를 표준화하면 이거고 얘를 원상복구시키면 이거다.
+<Sync Start=2321675><P Class=KRCC>
+대부분은 표준화 공식을 외웠기 때문에 보통 식을 이렇게 세울 거야.
+<Sync Start=2324724><P Class=KRCC>
+자기 자신에서 평균 m을 빼고 표준편차로 나누면 -1이 됩니다. 이렇게 써도 되는데
+<Sync Start=2332688><P Class=KRCC>
+우리는 열심히 연습했으니까 조금 다르게 가자, 
+<Sync Start=2335553><P Class=KRCC>
+얘를 원상복구시키려면 -1에 뭘 갖다 붙여? Xσ를 곱하고 다시 뭐를 추가하면
+<Sync Start=2344131><P Class=KRCC>
+평균 m을 추가하면 드디어 원상복구가 돼서 원래 값이 얼마가 된다고? 시작.
+<Sync Start=2349772><P Class=KRCC>
+10이 된다는 뜻이구나. 그 얘기는 m-σ가 뭐구나. 10이구나. 주어진 조건이 또 있네.
+<Sync Start=2357493><P Class=KRCC>
+여러분, 25보다 크거나 같을 확률과 -2보다 작거나 같을 확률이 서로 똑같아. 이거 어떻게 기억할래?
+<Sync Start=2364045><P Class=KRCC>
+25가 -2일까? 방향이 다르잖아. 여러분, 평균이 여기 있고 25가 어디에 있는지는 모르겠습니다만
+<Sync Start=2375916><P Class=KRCC>
+25보다 크거나 같을 확률이랑 뭐랑 똑같아? 마이너스 얘가 얼마인지는 모르겠습니다만
+<Sync Start=2383267><P Class=KRCC>
+Z값으로 바꿨을 때 -2보다 작거나 같을 확률이 똑같아.
+<Sync Start=2388871><P Class=KRCC>
+그 얘기는 얘의 Z값은 뭐라는 얘기야? 그렇지, 평균의 Z값이 0이니까 2라는 얘기죠.
+<Sync Start=2396655><P Class=KRCC>
+25에 해당되는 Z값이 2라는 얘기니까 2에 표준편차를 붙이고 평균을 추가해 주면 25가 되는구나.
+<Sync Start=2407729><P Class=KRCC>
+m+2σ가 25가 되는구나. 식 두 개를 세울 수 있습니다.
+<Sync Start=2415466><P Class=KRCC>
+두 개를 연립하면 m값과 σ값을 구할 수 있다. 어떻게 할래? 빼자.
+<Sync Start=2421170><P Class=KRCC>
+밑에 것에서 위에 것 빼봐. 3σ는 15, 따라서 σ는 얼마야? 시작. 5.
+<Sync Start=2427312><P Class=KRCC>
+따라서 분산은 얼마? 25. 분산은 표준편차의 제곱이니까.
+<Sync Start=2434240><P Class=KRCC>
+평균만 알면 되는데 얘가 5라며. 따라서 평균은 얼마야? 15. 더하면 얼마야? 40. 끝.
+<Sync Start=2440563><P Class=KRCC>
+이렇게 정리하는 게 바로 기초 연습 3번이었습니다. 기초 연습 4번.
+<Sync Start=2447875><P Class=KRCC>
+어느 공장에서 생산하는 테니스 공 한 개의 무게는 평균 57.6g 무게가 바로 확률변수네.
+<Sync Start=2461948><P Class=KRCC>
+표준편차가 0.4g인 정규분포를 따른다고 한다. 이 공장에서 생산한 테니스 공 중
+<Sync Start=2469540><P Class=KRCC>
+임의로 선택한 테니스 공 한 개의 무게가 57 이상 58 이하일 확률을 구하시오.
+<Sync Start=2475839><P Class=KRCC>
+가장 기본 중에서도 기본인 문제네요. 뭘로 바꿀까? Z로 바꿀게요.
+<Sync Start=2486222><P Class=KRCC>
+자기 자신에서 평균을 빼고, 여기서 이거 빼면 얼마야? 시작. -0.6을 0.4로 나누면 얼마야?
+<Sync Start=2496423><P Class=KRCC>
+-0.6, -1.5 아니에요? -1.5가 되고 자기 자신에서 평균을 빼면 1.6을 0.4로 나누면 0.4네.
+<Sync Start=2516870><P Class=KRCC>
+큰일날 뻔했습니다.
+<Sync Start=2517576><P Class=KRCC>
+0.4 나누기 0.4 시작. 1이 됩니다. 결국 -1.5와 1 사이에 들어갈 확률을 구하는 거니까
+<Sync Start=2525478><P Class=KRCC>
+-1.5와 1 사이에 이 확률을 구하는 거니까 0과 1 사이의 넓이랑 뭐랑?
+<Sync Start=2531338><P Class=KRCC>
+0과 1.5 사이의 넓이 두 개를 더하시면 되네요. 답은 0.7745가 됩니다.
+<Sync Start=2540677><P Class=KRCC>
+5번 볼까요. 확률변수 X가 이항분포를 따르는데 얘는 당연히 0부터 720 사이겠지.
+<Sync Start=2557304><P Class=KRCC>
+X는 뭐니까? 나온 횟수니까. 그런데도 확률을 구하라고 그랬으면 뭘로 바꾸는 문제야?
+<Sync Start=2563557><P Class=KRCC>
+맞아요, 정규분포로 바꾸는 문제. 우리 조금 전에 연습했던 문제야.
+<Sync Start=2567590><P Class=KRCC>
+곱하면 되잖아요. 6x1=6, 6x2=12, 120 컴마, 6분의 5는 100이니까 6분의 5를 곱하면 10²
+<Sync Start=2578379><P Class=KRCC>
+갑니다. 얘를 표준화시킬 거예요. 그런데 여러분, 잘 봐봐.
+<Sync Start=2587739><P Class=KRCC>
+표준화시킨 걸 먼저 생각해 봐. 여러분, 이제 이 정도도 될까요? 약간 고차원적인 생각일까?
+<Sync Start=2594901><P Class=KRCC>
+굳이 a라고 쓰고 얘를 표준화하기 위해서 a에서 뭘 빼고 막 이러지 말고요.
+<Sync Start=2600654><P Class=KRCC>
+이런 아름다운 느낌. 얘를 표준화시키는 게 어디에 있길래 작거나 같을 확률이 93.32%나 될까?
+<Sync Start=2609142><P Class=KRCC>
+여기에 있을 거 아니야. 그것도 얼마일까? 1.5일 거 아니야. 왜?
+<Sync Start=2614470><P Class=KRCC>
+0과 1.5까지의 넓이가 0.4332, 거기다가 0.5를 더해서 0.9332니까
+<Sync Start=2622216><P Class=KRCC>
+결국 0.9332가 되도록 하는 Z값이 1.5. 그럼 여러분, a 구하는 거거든. a는 뭐야?
+<Sync Start=2631412><P Class=KRCC>
+a를 표준화시킨 게 1.5니까 따라서 a는 뭐야? 시작. 1.5를 원상복구시키는데
+<Sync Start=2640743><P Class=KRCC>
+1.5가 뭐니까? 시그마의 계수니까. 원상복구시키는 방법은 여기에 시작.
+<Sync Start=2647795><P Class=KRCC>
+표준편차를 곱하고 평균을 더한다 이러면 되잖아. 그렇지?
+<Sync Start=2656074><P Class=KRCC>
+따라서 a를 구하라고 그러면 15에 120을 더하니까 얼마야? 시작. 135가 된다.
+<Sync Start=2665042><P Class=KRCC>
+무조건 표준화 공식, 표준화 공식 그러지 마시고 원상복구시키는 그 느낌.
+<Sync Start=2669943><P Class=KRCC>
+시그마의 계수가 Z니까 시그마 곱하고 평균 더하면 원상복구, 원래 값인 X의 값을 구할 수 있다.
+<Sync Start=2678370><P Class=KRCC>
+이렇게 기억하고 계시면 되고요. 여기까지가 예고해 드렸던 바와 같이 레벨 1까지입니다.
+<Sync Start=2687842><P Class=KRCC>
+채민이, 인사하자. 다음 시간부터 채민이는 존재하지 않습니다.
+<Sync Start=2693759><P Class=KRCC>
+아닙니다, 존재는 하는데 우리 옆에 있지 않습니다. 인사말 시작.
+<Sync Start=2701737><P Class=KRCC>
+-끝까지 꼭 완강하시고 저는 뒤에서 응원하겠습니다. 선생님 완강하실 때까지.
+<Sync Start=2706561><P Class=KRCC>
+-정말 상투적인 말. 그러니까.
+<Sync Start=2708058><P Class=KRCC>
+-진심이에요.
+<Sync Start=2713294><P Class=KRCC>
+-수상 소감하는 사람들 보면 좀 감동적으로 하는 사람들, 예를 들어서 봉준호 감독님처럼.
+<Sync Start=2721364><P Class=KRCC>
+-준비를 못 했어요.
+<Sync Start=2722752><P Class=KRCC>
+-준비하는 게 아니야. 진심을 얘기하면 그게 감동스러운 거거든.
+<Sync Start=2727012><P Class=KRCC>
+
+<Sync Start=2731294><P Class=KRCC>
+오늘은 여기까지입니다. 다음 시간에 뵙겠습니다.<br>
+</BODY>
+</SAMI>

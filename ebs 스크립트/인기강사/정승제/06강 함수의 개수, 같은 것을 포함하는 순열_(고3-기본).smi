@@ -1,0 +1,744 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+
+
+
+<Sync Start=5290><P Class=KRCC>
+우리 함께라면 걱정거리는 달나라로 보내고. 잘 될 거야. 
+<Sync Start=22110><P Class=KRCC>
+너와 나 둘이면 두려울 게 하나 없는 거야. 
+<Sync Start=31115><P Class=KRCC>
+정승제 작사, 육중완, 강준우 작곡의 잘 될 거야를 듣고 계시는 여러분, 
+<Sync Start=38865><P Class=KRCC>
+여러분들은 저번 시간에 호텔 문제까지 무사히 마쳤으며 
+<Sync Start=42092><P Class=KRCC>
+이번 시간에는 예고해 드렸던 바와 같이 함수의 개수를 잡는 날입니다. 
+<Sync Start=47548><P Class=KRCC>
+시간이 좀 남으면 같은 것을 포함하는 순열의 뜻까지 설명할 수 있을 것 같습니다. 
+<Sync Start=54327><P Class=KRCC>
+제가 목 상태가 좋으면 다음번 오프닝 곡은 MR로 깔아서 제가 직접 불러드리도록 하겠습니다. 
+<Sync Start=64413><P Class=KRCC>
+
+<Sync Start=75621><P Class=KRCC>
+여기까지. 출발해 보자. 호텔 끝났어. 함수의 개수, 이것도 중복순열이거든? 왜 그런지 금방 알게 돼.
+<Sync Start=83786><P Class=KRCC>
+함수의 개수. 일단 함수의 성립 조건, X에서 Y로의 함수, X에서 Y로의 함수. 
+<Sync Start=90235><P Class=KRCC>
+그랬을 때 X에서 Y로의 함수 이랬을 때 에서가 붙은 얘를 정의역 그래요. 집합 이름이에요. 
+<Sync Start=102340><P Class=KRCC>
+y로의 함수, 이 y를 공역 그래요. 뭐라 그런다고? 공역. 
+<Sync Start=108647><P Class=KRCC>
+이건 뭐 고등학교 1학년 과정이니까 그냥 한 번씩만 복습해 볼게요. 
+<Sync Start=114007><P Class=KRCC>
+정의역의 원소가 3개가 있고 공역의 원소가 5개가 있습니다. X에서 Y로의 함수 f의 개수를 구하시오. 
+<Sync Start=124696><P Class=KRCC>
+이 얘기가 뭐냐 하면 얘네들이 정의역이고 얘네들이 공역인데 
+<Sync Start=131342><P Class=KRCC>
+함수의 성립 조건이라는 거를 만족하는 개수를 구하라. 
+<Sync Start=135088><P Class=KRCC>
+여러분, 대응과 사상 예전에는 그런 것도 공부했었는데 대응이라는 게 뭐냐 하면 
+<Sync Start=141205><P Class=KRCC>
+이런 걸 대응이라 그래요. x에 있는 원소랑 y에 있는 원소. 
+<Sync Start=146132><P Class=KRCC>
+정의역의 원소와 공역에 있는 원소가 연결되는 모습을 대응이라 그래요. 
+<Sync Start=151781><P Class=KRCC>
+예를 들어서 1한테 화살 쏘면 1은 1에 대응됩니다. 
+<Sync Start=156130><P Class=KRCC>
+1이 2한테 쏘면 1은 2에 대응되고 2는 3에 대응되고 3은 아무한테도 대응되지 않습니다. 
+<Sync Start=162881><P Class=KRCC>
+이런 걸 대응이라 그러는데 수많은 대응들 중에서도 함수라는 호칭을 얻으려면 
+<Sync Start=171746><P Class=KRCC>
+다음 두 가지 조건을 만족하는 것만 함수예요. 
+<Sync Start=177429><P Class=KRCC>
+첫 번째, 정의역에 있는 원소를 기준으로. 정의역의 모든 원소가 화살을 쏴야 돼요. 
+<Sync Start=187352><P Class=KRCC>
+지금 3이 안 쏘고 있죠? 이러면 함수라고 얘기를 안 해요. 모든 원소는 다 화살을 쏴야 돼요. 
+<Sync Start=196774><P Class=KRCC>
+두 번째 조건 모든 원소가 다 화살을 쏘되 단 한 발씩만 쏴야 돼요. 
+<Sync Start=207532><P Class=KRCC>
+여러분, 이렇게 돼 있으면 모든 정의역의 원소는 화살 다 쌌잖아. 그런데 얘는 함수가 아니다. 
+<Sync Start=214840><P Class=KRCC>
+왜? 1이 몇 발 쐈어? 두 발 쐈어. 한 발씩만 쏴야 돼. 정의역에 있는 원소 기준이야. 
+<Sync Start=222751><P Class=KRCC>
+공역에 있는 원소 말고 정의역에 있는 모든 원소가 한 발씩만 화살을 쏘는 것을 함수라 그래요.
+<Sync Start=231715><P Class=KRCC>
+너무 당연한 거라 그랬죠? 고등학교 1학년 때 내가 얘기했었어요. 모든 기계가 다 함수라고 그랬죠. 
+<Sync Start=236717><P Class=KRCC>
+왜? 두 가지 조건을 만족시키지 못하면 절대 기계로서 작동을 못한다 그랬어. 
+<Sync Start=242635><P Class=KRCC>
+고장 난 기계가 된다고 그랬어요. 고등학교 1학년 때 제가 설명을 했었습니다. 문제 풀자. 
+<Sync Start=250790><P Class=KRCC>
+X에서 Y로의 함수의 개수를 세시오. 이게 문제야. 어떻게 하면 되냐면 마찬가지로 인터뷰하면 돼. 
+<Sync Start=261466><P Class=KRCC>
+누구랑? 정의역에 있는 원소. 왜? 얘네들이 화살을 쏘는 거니까. 
+<Sync Start=266007><P Class=KRCC>
+네가 선택할 수 있는 원소는 몇 가지냐? 이렇게 인터뷰하는 거예요. 
+<Sync Start=270779><P Class=KRCC>
+정의역에 있는 모든 원소와 인터뷰한다. 그게 바로 함수의 개수를 푸는 가장 기본이야. 
+<Sync Start=277444><P Class=KRCC>
+1한테 물어보겠어. 인터뷰 하자. 곱의 법칙으로 풀자는 거야. 
+<Sync Start=281135><P Class=KRCC>
+1이 선택할 수 있는 원소 몇 가지 있니? 시작. 5가지. 1 끝나지 않았지? 왜 5가지야? 
+<Sync Start=287595><P Class=KRCC>
+1한테 쏴도 되고 2한테 쏴도 되고 3한테 쏴도 되고 4한테 쏴도 되고 5한테 쏴도 되니까. 
+<Sync Start=292161><P Class=KRCC>
+두 번째, 2라는 원소가 선택할 수 있는 가지 수는 몇 가지? 
+<Sync Start=297621><P Class=KRCC>
+1이 1한테 썼다고 해서 2가 1한테 못 쏘니? 아니, 쏠 수 있지. 
+<Sync Start=302727><P Class=KRCC>
+왜? 정의역에 있는 원소가 각각 한 발씩만 쏴. 몇 발을 맞는 거는 상관없단 말이야. 
+<Sync Start=311274><P Class=KRCC>
+쏘는 애만 한 발씩 쏘면 되는 거라서. 1이 쐈던 애한테 2가 또 쏴도 상관이 없어요. 
+<Sync Start=320152><P Class=KRCC>
+이런 거를 2:1이라 그래. 1:1 함수 들어봤지? 얘는 두 명이 한 명한테 쏴서 2:1이야. 
+<Sync Start=332940><P Class=KRCC>
+이런 거를 드라마에서는 삼각관계. 남자애 2명이 여자애 1명 좋아하는 거. 이런 일은 비일비재해요. 
+<Sync Start=342927><P Class=KRCC>
+그래서 2가 선택할 수 있는 경우의 수 시작. 5가지. 3이 선택할 수 있는 경우의 수도 5가지. 
+<Sync Start=348460><P Class=KRCC>
+그래서 최종적인 답? 5³까지다. 어디서 많이 봤는데? 중복 순열. 뭐 하는 거야? 
+<Sync Start=356040><P Class=KRCC>
+인터뷰해서 풀라고 그랬잖아. 뭐랑 똑같은 문제냐면 얘네들이 사람이고 얘네들이 호텔이에요. 
+<Sync Start=365890><P Class=KRCC>
+무슨 말인지 알겠지? 얘네들이 사람이고 1, 2, 3, 3명이 1, 2, 3, 4, 5, 
+<Sync Start=370840><P Class=KRCC>
+5개 호텔에 투숙하는 방법의 수야. 그게 함수의 개수와 똑같습니다. 다를 게 1도 없습니다. 
+<Sync Start=378320><P Class=KRCC>
+화살표를 쏜 곳에서 투숙시키면 되는 거잖아. 
+<Sync Start=385768><P Class=KRCC>
+그래서 결론은 호텔 문제는 함수의 개수와 같지만 그래도 2개를 분리해서 지금 생각하고 있습니다. 
+<Sync Start=392742><P Class=KRCC>
+결국은 같다는 것도 생각해 주셨으면 좋겠습니다. 
+<Sync Start=395644><P Class=KRCC>
+이렇게 되면 예를 들어서 1이 1한테 쏘고 2가 1한테 쏘고 3이 2한테 쐈다. 
+<Sync Start=402950><P Class=KRCC>
+그러면 정의역은 뭐야? 1, 2, 3. 공역은 뭐야? 1, 2, 3, 4, 5. 치역이라고 있어요. 치역이 뭐게? 
+<Sync Start=412410><P Class=KRCC>
+함숫값들을 모아놓은 함숫값의 집합을 치역이라 그래요. 
+<Sync Start=420537><P Class=KRCC>
+예전에 할머니들은 절댓값 안 그러고 절대치. 극값 안 그러고 극치, 극치에 다다르다. 
+<Sync Start=431195><P Class=KRCC>
+치가 값이라는 한자어예요. 값은 한글, 치는 한자. 함숫값들을 모아놓은 집합을 치역. 
+<Sync Start=438857><P Class=KRCC>
+그러면 치역은 뭐야? 1과 2만 함숫값이지 3, 4, 5는 함숫값이 아니잖아요. 보통 이렇게 얘기하죠. 
+<Sync Start=444361><P Class=KRCC>
+1의 f에 의한 함숫값은 1이고 2의 f에 의한 함숫값 1이고 3의 f에 의한 함숫값이 2다. 
+<Sync Start=449334><P Class=KRCC>
+함숫값들, 화살 맞은 애들을 모아놓은 것을 뭐라 그러죠? 치역이라고 하자. 
+<Sync Start=454654><P Class=KRCC>
+나중에 뒷부분에서 계속 설명을 하겠지만 함수의 개수는 중복 순열에서 우리가 처음 스타트를 하지만,
+<Sync Start=461558><P Class=KRCC>
+여기서도 문제를 풀겠지만 조합에서도 함수 개수가 나올 수 있고요. 
+<Sync Start=465422><P Class=KRCC>
+중복 조합에서도 나올 수 있는데 걔네들을 모두 다 공부하게 될 겁니다. 
+<Sync Start=468835><P Class=KRCC>
+그리고 가장 어려운 문제, 올해도 킬러 문제로 나올 가능성이 높은 것은 치역의 원소의 개수가 
+<Sync Start=477017><P Class=KRCC>
+지정된 함수의 개수가 일반적으로 제일 어려운 문제라 그러는데 
+<Sync Start=480950><P Class=KRCC>
+수능특강 시간에 다루게 될 거니까 걱정하지 마시고요. 지금은 딱 여기까지 기억하자. 뭐야? 
+<Sync Start=486587><P Class=KRCC>
+함수의 개수는 인터뷰한다. 
+<Sync Start=488519><P Class=KRCC>
+정의역이랑 정의역에 있는 모든 원소랑 인터뷰해 주시면 된다고 기억하고 계시면 되겠습니다. 
+<Sync Start=498129><P Class=KRCC>
+다음 조건을 만족시키는 함수의 개수. 이번엔 그냥 함수의 개수가 아니다. 
+<Sync Start=501502><P Class=KRCC>
+다음 조건을 만족하는 함수의 개수를 구하시오. 이렇게 돼 있어요. 어떻게 돼 있냐? 
+<Sync Start=506567><P Class=KRCC>
+f(a)?a. f(a)?a를 만족시키는 함수의 개수를 세시오. 
+<Sync Start=513174><P Class=KRCC>
+이건 뭐냐 하면 a의 함숫값이니까 a한테 화살 맞은 애, 얘는 화살 쏜 애. 
+<Sync Start=518664><P Class=KRCC>
+왜? a한테 맞았다는 얘기는 a가 쐈다는 얘기잖아요. 쏜 애가 맞은 애보다 작거나 같대. 
+<Sync Start=524974><P Class=KRCC>
+그 얘기는 누구한테 쏜 거야? 쏜 애 기준으로는 자기보다 큰 애한테만 쏜대. 정확하게 얘기해 봐. 
+<Sync Start=532879><P Class=KRCC>
+자기보다 크거나 같은 애들한테 쏘는 거지. 이렇게 돼 있으면 자기보다 큰 애한테만 쏘는 거지. 
+<Sync Start=539610><P Class=KRCC>
+화살 맞는 애가 쏘는 애보다 더 크다고 돼 있잖아. f(a)?a를 만족시키는 함수의 개수를 세라. 
+<Sync Start=545424><P Class=KRCC>
+마찬가지입니다. 기본은 뭐라고? 인터뷰한다고. 누구랑? 정의역에 있는 모든 원소랑. 해볼까요? 
+<Sync Start=553730><P Class=KRCC>
+1이 선택할 수 있는 원소의 개수 몇 가지? 4가지. 왜 4가지야? 
+<Sync Start=557997><P Class=KRCC>
+1보다 큰 놈한테만 쏘라 그랬으니까 2, 3, 4, 5, 중에 하나, 4가지. End. 끝나죠? 
+<Sync Start=565123><P Class=KRCC>
+2가 선택할 수 있는 원소의 개수를 세라 그러면 2는 누구한테 쏠 수 있어? 
+<Sync Start=567990><P Class=KRCC>
+자기보다 큰 3, 4, 5한테 쏠 수 있어. 3은 누구한테 쏠 수 있어? 자기보다 큰 2명한테 쏠 수 있어. 
+<Sync Start=574233><P Class=KRCC>
+그래서 최종적인 답은 어떻게 돼? 4x3x2가 된다는 이야기야. 이해가 되세요? 
+<Sync Start=585550><P Class=KRCC>
+이렇게도 출제할 수가 있다. 마지막으로 이거 하나 하고 교재에 있는 문제 풀게요. 
+<Sync Start=596109><P Class=KRCC>
+x₁≠x₂, f에 대해서. 어디서 많이 보지 않았니? f에 대해서 x₁≠x₂. 
+<Sync Start=605498><P Class=KRCC>
+이거는 미적분 시간에도 수Ⅱ 시간에도 많이 공부했었던 패턴입니다. x₁≠x₂=f(x₁)≠f(x₂). 
+<Sync Start=614390><P Class=KRCC>
+쏘는 애들이 다르면 맞는 애들도 다르다. 이게 바로 한마디로 얘기하면 뭐게요? 
+<Sync Start=620337><P Class=KRCC>
+영어로는 one to one이라고 그러고 한국말로는 1:1이라 그럽니다. 1:1 함수의 개수를 구하는 거예요.
+<Sync Start=628099><P Class=KRCC>
+아까처럼 2:1이 되지 말래. 그러니까 쏘는 애들이 다른데 맞는 애가 같잖아. 이러지 말래. 
+<Sync Start=634907><P Class=KRCC>
+쏘는 애가 다르면 맞는 애도 다르다. 그 얘기는 누구한테 쏘란 얘기야? 
+<Sync Start=638417><P Class=KRCC>
+전부 다 다른 놈들한테 쏘라는 얘기예요. 그게 1:1이야. 다른 놈들한테만 쏴라. 
+<Sync Start=645667><P Class=KRCC>
+마찬가지로 이런 조건이 들어있을 때도 똑같습니다. 함수의 개수의 기본은 뭐다? 
+<Sync Start=651328><P Class=KRCC>
+정의역의 모든 원소랑 인터뷰하자. 1한테 인터뷰하겠습니다. 
+<Sync Start=655673><P Class=KRCC>
+네가 선택할 수 있는 원소의 개수, 가지 수 몇 가지? 1, 2, 3, 4, 5. 5가지. End. 
+<Sync Start=660329><P Class=KRCC>
+2한테 물어보고겠어. 2가 선택할 수 있는 원소의 개수 몇 가지?  4가지로 줄죠. 왜? 
+<Sync Start=667289><P Class=KRCC>
+조금 전에 1이 5명 중에서 하나를 확정시켜 봐. 1명한테 화살을 쐈으니까. 
+<Sync Start=672726><P Class=KRCC>
+1:1이 되려면 얘는 더 이상 얘를 건드리면 안 되잖아요. 
+<Sync Start=676737><P Class=KRCC>
+나머지 4개 중에 쏴야 되고 얘는 또 하나를 줄여서 나머지 3개의 원소한테 화살을 쏠 수 있으니까. 
+<Sync Start=684689><P Class=KRCC>
+총함수의 개수는 5x4x3. 답은 60가지가 된다. 이렇게 푸는 게 바로 함수의 개수. 
+<Sync Start=690920><P Class=KRCC>
+여기서 끝나는 거 아니라 그랬어. 앞으로도 계속 나옵니다. 천천히 하나하나씩 공부하게 될 겁니다. 
+<Sync Start=696050><P Class=KRCC>
+이번에는 중복 순열이 있는 예제, 
+<Sync Start=700640><P Class=KRCC>
+여기에서는 어떻게 나왔는지 7페이지 맨 위에 있는 예제를 보도록 하겠습니다. 
+<Sync Start=709700><P Class=KRCC>
+풀어보고 싶지 않니? 풀어보고 싶으면 잠시 멈춰서 풀어보는 것도 괜찮아. 
+<Sync Start=714132><P Class=KRCC>
+어차피 설명을 다 끝냈기 때문에. 두 집합 x와 y가 있대. 그대로 쓸게. 
+<Sync Start=719540><P Class=KRCC>
+1, 2, 3, 4. y는 뭐야? 1, 2, 3, 4, 5. 
+<Sync Start=726389><P Class=KRCC>
+X에서 Y로의 함수 f 중에서 치역의 모든 원소의 합이 6인 함수의 개수. 치역은 화살 맞는 애지? 
+<Sync Start=734538><P Class=KRCC>
+공역 중에서 화살 실제로 맞는 애들의 원소의 합이 6이 되어야 한대. 여러분, 원소 나열법 아세요? 
+<Sync Start=746934><P Class=KRCC>
+치역도 집합이니까 원소 나열법으로 표현을 할 때 이런 거는 존재하지 않는다? 이거 원소 3개 아니야. 
+<Sync Start=756047><P Class=KRCC>
+원소 나열법의 가장 중요한 성질 중 하나가 중복된 것은 1번만 써. 여러 번 쓰지 않아. 
+<Sync Start=764234><P Class=KRCC>
+무슨 말인지 알겠지? 
+<Sync Start=766175><P Class=KRCC>
+그러니까 치역의 모든 원소의 합이 6이라는 것은 얘네들이 한 명한테만 다 쏴도 
+<Sync Start=775260><P Class=KRCC>
+이런 걸 상수 함수라 그러는데 치역은 뭐가 되는 거야? 원소는 하나짜리가 되는 거야. 
+<Sync Start=780978><P Class=KRCC>
+그러니까 1명한테 다 쏠 수도 있고 2명한테 쏠 수 있고 3명한테만 쏠 수 있고 4명한테도 쏠 수 있는데
+<Sync Start=784891><P Class=KRCC>
+그러니까 치역의 원소의 개수는 모르는 상황인데 몇 개가 되든 간에 합이 6만 되면 된대. 
+<Sync Start=790677><P Class=KRCC>
+그러면 몇 개 없을 것 같은데요? 그러면 결국 치역이 될 수 있는 건 뭘까요? 여러분, 이거 10이잖아. 
+<Sync Start=800175><P Class=KRCC>
+이거 뭐야? 6. 제일 작은 거 3개를 더해서 6이니까. 
+<Sync Start=805774><P Class=KRCC>
+1, 2, 3이 원소의 개수가 가장 많은 원소의 합이 6인 경우겠지. 원소의 개수가 2개여도 된다. 
+<Sync Start=813279><P Class=KRCC>
+어떻게 하면 6이야? 이렇게 하면 6. 이렇게 해도 6. 그러니까 치역이 뭐도 될 수 있어요? 
+<Sync Start=819406><P Class=KRCC>
+1, 5가 될 수도 있고 2, 4가 될 수도 있는 노릇이지. 
+<Sync Start=825524><P Class=KRCC>
+치역의 원소의 개수가 3개짜리일 수도 있고 2개짜리일 수도 있어요. 
+<Sync Start=829830><P Class=KRCC>
+1개짜리인 거 가능해, 불가능해? 불가능해요. 왜 불가능해? 6이 없으니까. 
+<Sync Start=834878><P Class=KRCC>
+1, 2, 3, 4 5까지 밖에 없으니까. 그러면 이 문제 어떻게 풀어야 될까? 분류. 왜요? 
+<Sync Start=841906><P Class=KRCC>
+치역 1, 2, 3일 때, 1, 5일 때, 2, 4일 때 나눠서 풀면 되잖아. 
+<Sync Start=846173><P Class=KRCC>
+동시에는 할 수 없도록 빠짐없이. 이거 말고는 치역의 원소의 합이 6인 경우는 더 이상 없으니까. 
+<Sync Start=851400><P Class=KRCC>
+빠짐없이라는 조건까지 만족했다. 이렇게 풀 거야. 
+<Sync Start=857493><P Class=KRCC>
+첫 번째 치역이 1, 2, 3인 경우, 두 번째 치역이 1, 5인 경우 세 번째 치역이 2, 4인 경우. 
+<Sync Start=865197><P Class=KRCC>
+각각의 함수의 개수를 샌 다음에 맨 마지막에 뭐 한다고? 더할 거라니까. 왜 더 할 거야? 왜 뎌해? 
+<Sync Start=875846><P Class=KRCC>
+분류했으니까. 그래, 그렇게 대답하시면 되지. 이렇게 쓰면 되겠다. 괜히 길게 쓸 필요 없겠다.
+<Sync Start=883721><P Class=KRCC>
+치역이 1, 2, 3인 함수의 개수, 2, 4인 함수의 개수, 1, 5인 함수의 개수. 맨 마지막에 뭐 하자고? 
+<Sync Start=886978><P Class=KRCC>
+더하자고. 끝. 1번부터 갈게요. 첫 번째 치역이 1, 2, 3인 함수 개수를 세시오. 간다, 이제. 
+<Sync Start=896998><P Class=KRCC>
+1, 2, 3한테만 쏠 거야. 없다고 생각해. 인터뷰 네가 선택할 수 있는 가지 수 몇 가지? 3가지. 
+<Sync Start=904756><P Class=KRCC>
+1은 3가지, 2는 3가지, 3은 3가지, 4는 3가지. 그래서 3⁴가지가 함수의 개수냐? 아님이 느껴지지. 
+<Sync Start=918000><P Class=KRCC>
+얘네들한테 자유를 줬기 때문에. 이렇게 하다 보면 얘네들이 모두 한 곳에서만 화살을 쏠 수 있잖아. 
+<Sync Start=929970><P Class=KRCC>
+그러니까 치역이 딱 3개. 
+<Sync Start=932400><P Class=KRCC>
+그러니까 얘네들이 다 화살을 맞아야 되는데 1만 맞을 수도 있고 2개만 맞을 수도 있다. 
+<Sync Start=939705><P Class=KRCC>
+다른 말로 얘네들을 호텔로 보면 빈 호텔이 있을 수 있잖아. 
+<Sync Start=944222><P Class=KRCC>
+지금 치역 1, 2, 3이라는 얘기는 3개의 호텔에 다 투숙해야 돼. 빈 호텔 금지 조항을 넣어야 돼. 
+<Sync Start=951510><P Class=KRCC>
+뭐로 풀자? 여사건. 됐어? 전체 경우의 수에서 빼주자. 뭘 빼주면 돼? 
+<Sync Start=969003><P Class=KRCC>
+2개의 원소에만 화살을 쏘는 거랑 1개의 원소에만 화살을 쏘는 거. 
+<Sync Start=973448><P Class=KRCC>
+호텔에서 배운 대로 이거 몇인 거야? 1개에 몰빵하는 경우의 수는 몇 가지? 3가지죠. 
+<Sync Start=987795><P Class=KRCC>
+모두 1, 모두 2, 모두 3. 얘 3가지. 우리 호텔에서 했던 거랑 똑같은 방법으로 푸는 거야. 
+<Sync Start=995773><P Class=KRCC>
+2개의 원소에 몰빵하는 경우도 생각해 보자. 예를 들어 치역이 1, 2가 되는 경우로 한번 가보자. 
+<Sync Start=1011171><P Class=KRCC>
+1, 2, 3이 되라고 그랬는데 1, 2가 되는 경우는 제거시켜야 될 거 아니야. 
+<Sync Start=1015275><P Class=KRCC>
+1, 2한테 몰빵하는 경우를 얘기해 보자. 그러면 어떻게 하면 돼? 
+<Sync Start=1017543><P Class=KRCC>
+1, 2한테만 쏘는 방법은, 1이 쏘는 방법의 수는 몇 가지? 1, 2. 2가지. 2가지, 2가지, 2가지, 2가지. 
+<Sync Start=1024180><P Class=KRCC>
+2⁴까지야. 그런데 그 안에서 또 뭐가 생겨? 1에만 몰빵, 2에만 몰빵. 
+<Sync Start=1029757><P Class=KRCC>
+그거는 여기서 따로 Counting 했으니까 2개를 다시 빼줘야 되고 
+<Sync Start=1035012><P Class=KRCC>
+지금은 원소 2개가 1, 2도 가능하겠지만 뭐도 가능해? 2, 3도 가능하고 1, 3도 가능하다. 
+<Sync Start=1042027><P Class=KRCC>
+3개 원소 중에서 원소 2개를 뽑는 방법의 수를 곱해야지. 재미있다. 
+<Sync Start=1050843><P Class=KRCC>
+역시 호텔 문제를 완벽하게 공부하다 보니까 이렇게 된 거예요. 여러분, 이거 진짜 어려운 문제예요. 
+<Sync Start=1056570><P Class=KRCC>
+이 정도의 수준이면 29번 문제로도 충분해요. 심지어 30번으로 나와도 크게 지장은 없습니다. 
+<Sync Start=1063665><P Class=KRCC>
+어려운 문제입니다. 충분히 수준이 있는 문제입니다. 계산해 볼까요? 16-2가 얼마야? 14. 
+<Sync Start=1071854><P Class=KRCC>
+14x3. 그런데 3이 하나 더 있으니까 3이 15개, 45개. 3⁴=81. 81-45=36개의 함수의 개수가 생긴다. 
+<Sync Start=1091924><P Class=KRCC>
+이게 바로 뭐예요? 치역이 1, 2, 3인 함수의 개수가 36개 발생하는 거야. 너무 재밌어요, 선생님. 
+<Sync Start=1097073><P Class=KRCC>
+그렇지? 나도 그렇게 생각해. 너무 훌륭해. 두 번째 치역이 2, 4인 함수의 개수를 세자. 간다. 
+<Sync Start=1109895><P Class=KRCC>
+네가 선택할 수 있는 원소의 개수 몇 가지? 2가지. 너는? 2, 4. 2가지. 너는? 2가지. 너는? 2가지. 
+<Sync Start=1115056><P Class=KRCC>
+그래서 이게 4²가지로 끝날 것 같지만 이 안에는 뭐가 들어 있다? 
+<Sync Start=1120251><P Class=KRCC>
+모두 2에 몰빵, 모두 4에 몰빵하는 경우가 들어있으니 그 2가지를 빼줘야 된다. 
+<Sync Start=1126658><P Class=KRCC>
+이거는 간단하게 끝나네, 역시. 좋아요. 됐어? 이해되시나? 
+<Sync Start=1136270><P Class=KRCC>
+마지막 치역이 1호인 함수의 개수를 구하시오. 아까랑 다를 게 있어 보여, 없어 보여? 없지. 
+<Sync Start=1143389><P Class=KRCC>
+얘가 14개면 얘도 14개일 수밖에 없습니다. 따라서 최종적인 답, 분류한 다음에 뭐 해라? 더해라. 
+<Sync Start=1151046><P Class=KRCC>
+무슨 법칙? 합의 법칙. 14+14=28이니까 답은 64가 답이겠네요. 끝. 다 더하면 64가지가 됩니다. 
+<Sync Start=1162090><P Class=KRCC>
+여기까지가 함수의 개수. 함수의 개수 여기서 지금 중복 순열에선 끝내지만 물론 뒤에도 또 나옵니다.
+<Sync Start=1167417><P Class=KRCC>
+어디서? 연습 문제에서 또 나와요. Level 1, Level 2, Level 3에서 또 나오고.
+<Sync Start=1175914><P Class=KRCC>
+Level 1은 우리 지금 공부하고 있는 예제, 유제 다 풀면 Level 1은 술술 풀려야 돼. 
+<Sync Start=1182088><P Class=KRCC>
+Level 2랑 Level 3가 문제인 거예요. Level 3는 킬러보다 조금 더 어렵고요. 
+<Sync Start=1186712><P Class=KRCC>
+Level 2 정도의 수준이 킬러 수준 왔다 갔다 해요. 29번, 30번 수준. 그리고 어디서도 공부해? 
+<Sync Start=1200044><P Class=KRCC>
+나중에 중복 조합할 때 또 공부하게 될 겁니다. 재밌습니다. 여기까지 합시다. 함수의 개수, 끝. 
+<Sync Start=1210305><P Class=KRCC>
+지금까지 공부한 거 다시. 이걸 알아야 돼, 뭐 공부하는지를. 순열과 조합. Top5 먼저 공부했었고요, 
+<Sync Start=1219173><P Class=KRCC>
+1, 2, 3단계에 걸쳐서. 순열 중에서 특이한 순열, 원순열, 중복 순열, 시작 같은 것을 포함하는 순열,
+<Sync Start=1229344><P Class=KRCC>
+중복 조합. 이거를 더 배우면 되는데 그중에 2개 격파했어요. 
+<Sync Start=1235725><P Class=KRCC>
+특히 중복 순열은 2가지 특성, 하나는 호텔 문제 또 하나는 함수의 개수 문제. 
+<Sync Start=1243302><P Class=KRCC>
+누구랑 인터뷰? 움직이는 애들과의 인터뷰. 얘는 누구랑 인터뷰? 정의역에 있는 원소들과의 인터뷰.
+<Sync Start=1247540><P Class=KRCC>
+그것만 기억하십시오. 이제 뭐 공부할 차례? 수열의 마지막, 같은 것을 포함하는 순열. 훌륭합니다. 
+<Sync Start=1257891><P Class=KRCC>
+같은 것을 포함하는 순열. 여러분, 말이 좀 길죠? 같은 것. 같은 것을 포함하는 순열. 
+<Sync Start=1273513><P Class=KRCC>
+이거는 중복 순열이랑 달라. 재료에 똑같은 게 들어있는 거야. 
+<Sync Start=1278586><P Class=KRCC>
+아까 중복 순열은 서로 다른 3개 중에서 2개의 문자를 만들 때 왔던 게 또 와도 된다. 
+<Sync Start=1284355><P Class=KRCC>
+중복을 허용해서 나열한다. 지금은 나열할 재료들에 같은 게 들어있는 거라니까. 
+<Sync Start=1292605><P Class=KRCC>
+지금까지는 서로 다른 것들을 나열했는데 지금부터 공부할 거는 
+<Sync Start=1301008><P Class=KRCC>
+같은 게 포함된 3개를 일렬로 배열하는 방법의 수를 공부할 거예요. 
+<Sync Start=1306815><P Class=KRCC>
+얘네들을 일렬로 배열하는 방법의 수를 공부할 거라니까? 
+<Sync Start=1312316><P Class=KRCC>
+재료에 같은 게 들어있는 거 그게 같은 것을 포함하면서 옛날에 뭐라 그랬게? 
+<Sync Start=1317392><P Class=KRCC>
+같을 동 자에 글자 자. 읽어 봐. 동자. 그런데 이거를 된소리가 나서 동자 순열. 옛날에 그랬대요.
+<Sync Start=1326387><P Class=KRCC>
+저 말고 서장훈 씨 아시죠? 서장훈 씨 나이까지, 1974년생까지는 동자 순열로 배웠답니다. 
+<Sync Start=1335809><P Class=KRCC>
+저는 신세대, x세대이기 때문에 그렇게 배우지 않았습니다. 같은 것을 포함하는 순열로 배웠습니다. 
+<Sync Start=1343998><P Class=KRCC>
+여러분 엄마, 아빠도 x세대겠다. 해볼까? 이걸 하기 전에 이 문제를 내볼게요. 
+<Sync Start=1355129><P Class=KRCC>
+철학적인 문제를 내볼게요. 잘 봐, 잘 보세요. 철학적인 문제를 하나 내볼게. 봐봐. 
+<Sync Start=1362808><P Class=KRCC>
+잘 들어, 내가 지금 하는 말. 잘 봐. 철수와 영희를 포함한. 철수, 영희 너무 Old하다. 
+<Sync Start=1377881><P Class=KRCC>
+다른 거로 할까? 요즘 이름으로 할게. 
+<Sync Start=1382247><P Class=KRCC>
+
+<Sync Start=1394273><P Class=KRCC>
+준서와 수빈이를 포함한 10명이 외나무다리를 건넌다. 외나무다리 아나? 저도 한 번도 본 적 없는데.
+<Sync Start=1415232><P Class=KRCC>
+동화책에서만 봤는데 여기 막 물 흐르고 그렇지? 외나무다리 딱 건너는 거야. 
+<Sync Start=1419954><P Class=KRCC>
+한 줄로 서서 건너야 돼. 준서와 수빈이를 포함한 총 10명이 외나무다리를 건너는 방법의 수. 
+<Sync Start=1426029><P Class=KRCC>
+답? 채민아, 크게 시작. 
+<Sync Start=1428328><P Class=KRCC>
+-10!. 
+<Sync Start=1428700><P Class=KRCC>
+-맞아요. 10!. 왜? 일렬로 줄 세우면 되지. 줄 선 대로 건너면 되니까. 됐지? 이제 문제야. 
+<Sync Start=1436164><P Class=KRCC>
+철학적으로 생각하라고 그랬어. 이게 무슨 말이냐? 
+<Sync Start=1440432><P Class=KRCC>
+준서와 수빈을 포함한 10명이 외나무다리를 건널 때 조건이 하나 더 들어와. 
+<Sync Start=1449480><P Class=KRCC>
+준서가 수빈이보다 먼저 건너는 방법의 수는? 
+<Sync Start=1466606><P Class=KRCC>
+준서가 수빈이보다 먼저 걷는다는 것은 일렬로 줄을 세우잖아? 10명을. 
+<Sync Start=1472315><P Class=KRCC>
+준서가 수빈이보다 앞에 있으라는 얘기야. 
+<Sync Start=1473879><P Class=KRCC>
+그런데 오해하면 안 되는 게 준서가 수빈이보다 바로 앞에 있을 필요는 없어. 
+<Sync Start=1479884><P Class=KRCC>
+여기 다른 애들이 들어오고 수빈이. 이래도 상관없어. 
+<Sync Start=1485357><P Class=KRCC>
+2명의 순서만 봤을 때 준서 다음에 수빈이가 와라 이 얘기지. 
+<Sync Start=1490743><P Class=KRCC>
+특정 원소 두 개의 순서를 결정시켜 놓은 거야, 이미. 
+<Sync Start=1494791><P Class=KRCC>
+준서가 먼저 건너는 방법의 수를 계산하시오 이렇게 돼 있어 전체 경우의 수는 몇 가지라고? 
+<Sync Start=1500188><P Class=KRCC>
+10!를 가진대. 그중에 줄 거 아니야. 준서가 먼저 건너는 방법이 몇 가지냬. 
+<Sync Start=1512736><P Class=KRCC>
+철학적으로 생각하자고. 하늘은, 절대자는 종교 얘기하는 거 아닙니다. 
+<Sync Start=1527838><P Class=KRCC>
+절대자가 있다면 전지 전능하신 그분께서는 준서가 먼저 건너길 바라실까, 
+<Sync Start=1538299><P Class=KRCC>
+수빈이가 먼저 건너길 바라실까? 다른 말로 신은, The road는 누구를 더 사랑하실까? 
+<Sync Start=1555905><P Class=KRCC>
+준서 엄마는 누가 먼저 건너기를 원해? 준서 엄마는 준서가 먼저 건너기를 원하고. 
+<Sync Start=1560449><P Class=KRCC>
+수빈이 엄마는 수빈이가 먼저 건너기를 원할 거 아니야? 위험하니까. 
+<Sync Start=1568356><P Class=KRCC>
+그런데 세상의 이치는 어떨까? 준서가 먼저 건너길 원할까, 수빈이가 먼저 건너길 원할까? 
+<Sync Start=1577072><P Class=KRCC>
+당연히 공평하겠지. 
+<Sync Start=1579665><P Class=KRCC>
+그러니까 10! 가지 중에서, 10명이 일렬로 나열한 방법 중에서 준서가 먼저 건너는 방법과 
+<Sync Start=1589313><P Class=KRCC>
+수빈이가 먼저 건너는 방법은 공평하게 같을 것이라는 거지. 
+<Sync Start=1594462><P Class=KRCC>
+그러니까 전체 절반은 누가 먼저 건너요? 수빈이. 전체 절반은 누가 먼저 건너? 준서. 
+<Sync Start=1599703><P Class=KRCC>
+그래서 준서가 먼저 건너는 방법은? 전체 경우의 수를 2로 나눈 것 같다. 동의하죠? 괜찮은데? 
+<Sync Start=1614496><P Class=KRCC>
+이거를 이제 문자로 한번 표현해 볼게. 
+<Sync Start=1619233><P Class=KRCC>
+어떻게 설명할 거냐면 a, b, c, d, e를 일렬로 배열할 때, 
+<Sync Start=1634098><P Class=KRCC>
+a가 b보다 먼저 나오는 경우의 수를 계산하시오. 그걸 다른 말로 이렇게 표현할 수도 있어. 
+<Sync Start=1642310><P Class=KRCC>
+a 다음에 b가 오도록 하는. a가 먼저 온다는 얘기야. 이런 경우의 수를 세라. 
+<Sync Start=1652222><P Class=KRCC>
+이렇게 돼 있으면 어떻게 될까? 
+<Sync Start=1657984><P Class=KRCC>
+얘네들이 일렬로 나열하는 방법이 있으면 5명이 일렬로 나열하는 방법이 있으니까 5!를 가지잖아요? 
+<Sync Start=1664298><P Class=KRCC>
+
+<Sync Start=1670022><P Class=KRCC>
+a와 b만 바라봤을 때 그러니까 5! 안에 120가지 중에는 a, b, c, d, e도 있고 
+<Sync Start=1678897><P Class=KRCC>
+d, b, a, c, e도 있고 e, a, c, b, d도 있고 많잖아. 그중에 a 다음에 b가 온다. a가 먼저 온다. 
+<Sync Start=1692938><P Class=KRCC>
+봐. a, b, c, d, e는 a와 b만 봤을 때 a가 먼저 왔고. 
+<Sync Start=1696656><P Class=KRCC>
+d, b, a, c, e는 a와 b를 봤을 때 b가 먼저 와. 
+<Sync Start=1699771><P Class=KRCC>
+e, a, c, d, b는 a와 b를 먼저 봤을 때 a를 먼저 왔잖아. 
+<Sync Start=1702733><P Class=KRCC>
+이렇게 a가 먼저 온 것들이 총 몇 개냐고 물어본 거야. 조금 전 문제랑 똑같지? 
+<Sync Start=1710031><P Class=KRCC>
+자연의 이치상 a가 먼저 오는 거나 b가 먼저 오는 거야. 
+<Sync Start=1714684><P Class=KRCC>
+다른 말로 순서가 ab인 거랑 ba인 것은 공평할 것이기 때문에 
+<Sync Start=1722979><P Class=KRCC>
+a와 b로 순서를 결정하는 방법은 결국은 2가지밖에 없으니까 2가지가 전체를 골고루 차지할 것이다. 
+<Sync Start=1733722><P Class=KRCC>
+따라서 전체 절반은 a가 먼저 오고 전체 절반은 b가 먼저 올 테니까 최종적인 답은 5!÷2가 된다. 
+<Sync Start=1744449><P Class=KRCC>
+그대로 가. 아직 안 끝났어. 문제. a, b, c를 바라봤을 때 a 다음에 b가 오고 b 다음에 c가 오는. 
+<Sync Start=1752829><P Class=KRCC>
+a, b, c의 순서가 a 다음에 b 그다음에 c가 오도록 하는 경우의 수를 세라. 
+<Sync Start=1756778><P Class=KRCC>
+a, b, c, d, e는 a, b, c 순서. d, b, a, c,는 b, a, c 순서, e, a, c, d, b는 a, c, b 순서잖아. 
+<Sync Start=1764965><P Class=KRCC>
+이중에서 a 다음에 b가 오고 b 다음에 c가 오는 거는 이거 하나밖에 없지, 이 3개 중에는? 
+<Sync Start=1771610><P Class=KRCC>
+120가지 중에서 a, b, c 순서인 것은 총 몇 개일까? a, b, c 특정 문자의 순서를 이미 결정해 놨죠? 
+<Sync Start=1787348><P Class=KRCC>
+a, b, c로 순서를 결정하는 방법의 수는 a, b, c도 있고 a, c, b도 있고 b, a, c도 있고 
+<Sync Start=1793933><P Class=KRCC>
+b, c, a도 있고 c, a, b도 있고 c, b, a도 있으니까 a, b, c의 순서를 결정하는 방법의 수는 
+<Sync Start=1802593><P Class=KRCC>
+총 3! 가지인데 6가지잖아. 누가 제일 많을까? 공평하겠지. 
+<Sync Start=1813050><P Class=KRCC>
+그러니까 전체의 6분의 1은 무슨 순서? a, b, c 순서. 6분의 1은 a, c, b 순서. 
+<Sync Start=1822460><P Class=KRCC>
+6분의 1은 b, a, c 순서. 지금 무슨 말인지 알겠지? 
+<Sync Start=1825620><P Class=KRCC>
+따라서 특정 문자의 순서가 이미 결정된 것은 5!는 6분의 1이니까 6으로 나누는 건데. 
+<Sync Start=1836072><P Class=KRCC>
+잠깐만, 여기 봐. 6이 바로 무엇이냐? 이 6가지의 수의 6분의 1 아니야. 
+<Sync Start=1842198><P Class=KRCC>
+다른 말로 그 특정 문자 순서가 이미 결정된 a, b, c를 일렬로 배열하는 방법의 수를 
+<Sync Start=1849195><P Class=KRCC>
+분모에 써주면 되는 거지? 3!이 답일 것이다. 
+<Sync Start=1853475><P Class=KRCC>
+이거를 어떻게 해석할 거냐면 a, b, c, d를 일렬로 배열한다 그랬으니까 5!는 무슨 말이야? 
+<Sync Start=1864904><P Class=KRCC>
+a, b, c, d, e 5개의 문자가 자리 바꿈을 하는 방법의 수지? 
+<Sync Start=1871021><P Class=KRCC>
+그런데 알고 봤더니 a, b, c 세 문자의 순서는 a 다음에 b, b 다음에 c가 오라 그랬어. 
+<Sync Start=1876801><P Class=KRCC>
+그 얘기는 뭐냐 하면 a, b, c 세 문자는 자리 바꾸지 말래. 
+<Sync Start=1890280><P Class=KRCC>
+이 세 문자를 서로 자리 바꾸지 못하게 하는 거잖아. a, b, c로 고정시켜 놨으니까. 
+<Sync Start=1895499><P Class=KRCC>
+그러니까 a, b, c 이 세 문자를 자리를 못 바꾸는데. 
+<Sync Start=1898967><P Class=KRCC>
+일단 a, b, c, d 다 자리 바꾸게 만들어 놨으니까 
+<Sync Start=1903119><P Class=KRCC>
+이 안에 들어 있는 a, b, c가 자리 바꿈을 하는 방법의 수를 제거하는 느낌이라고. 
+<Sync Start=1913934><P Class=KRCC>
+곱하기로 연결돼 있으니까 나누면 제거가 될 거 아니에요. 
+<Sync Start=1919157><P Class=KRCC>
+
+<Sync Start=1923149><P Class=KRCC>
+결론이 뭐냐 하면 특정 문자의 순서를 바꾸지 못하도록 하면 
+<Sync Start=1929699><P Class=KRCC>
+걔네들이 순서 바꾸는 방법의 수를 제거시키면 된다. 그것이 끝이에요. 
+<Sync Start=1935347><P Class=KRCC>
+그러니까 처음에는 그냥 풀어야 돼. 왜? 
+<Sync Start=1937636><P Class=KRCC>
+a, b, c 3개끼리는 자리를 못 바꾸지만 전체적으로는 자리를 막 바꿔도 돼. 
+<Sync Start=1944259><P Class=KRCC>
+c가 앞으로 오고 이래도 된다니까? 
+<Sync Start=1946327><P Class=KRCC>
+그런데 a, b, c의 순서는 바꾸지 못하는 거니까 일단 자유를 줘놓고 
+<Sync Start=1951037><P Class=KRCC>
+a, b, c가 순서 바꾸는 거를 제거시키면 된다니까. 알겠습니까? 
+<Sync Start=1962613><P Class=KRCC>
+순서를 바꾸지 못하게 했으면 어떻게 하라고? 맨 마지막에 순서 바꾸는 방법의 수를 제거시킨다. 
+<Sync Start=1969289><P Class=KRCC>
+그렇다면 잘 봐. 만약에 문제가 a, a, a, b, c를 일렬로 배열하는 방법의 수를 계산하시오. 
+<Sync Start=1986138><P Class=KRCC>
+이렇게 돼 있어요, 이번에는. 같은 것이 들어 있어. 
+<Sync Start=1994165><P Class=KRCC>
+얘네들을 일렬로 배열하는 방법의 수는 전체적으로 문자가 몇 개니? 
+<Sync Start=1999115><P Class=KRCC>
+5개니까 5개를 자리 바꿈하는 방법의 수를 써놓고 
+<Sync Start=2005271><P Class=KRCC>
+이 안에는 5개의 문자가 서로 자리 바꿈한 경우의 수니까 이 2개가 자리 바꾼 것도 들어 있고, 
+<Sync Start=2012555><P Class=KRCC>
+이 2개가 자리 바꾸고 이 2개가 자리 바꾸고 이 2개가 자리 바꾸고. 
+<Sync Start=2015807><P Class=KRCC>
+그런데 얘네들이 똑같은 문자다 보니까 아무리 얘네들의 자리를 바꿔도 결과는 똑같지? 
+<Sync Start=2021557><P Class=KRCC>
+같은 것을 포함했다는 게 무슨 말이냐면 같은 문자끼리는 자리를 아무리 바꿔봤자 표시가 안 돼. 
+<Sync Start=2028208><P Class=KRCC>
+그 얘기는 같은 문자끼리는 자리를 바꾸지 말라는 얘기야. 
+<Sync Start=2033120><P Class=KRCC>
+특정 문자의 순서를 이미 결정시킨 조금 전 문제와 이 문제와 같은 문제야. 
+<Sync Start=2038238><P Class=KRCC>
+같은 것을 포함한다는 얘기는 같은 것끼리는 자리를 못 바꾼다는 이야기니까 
+<Sync Start=2042443><P Class=KRCC>
+이 안에는 a, a, a가 자리 바꿈을 하는 경우의 수가 들어 있잖아. 걔를 뭐 해야 해? 
+<Sync Start=2047993><P Class=KRCC>
+제거시켜야 하는구나. 
+<Sync Start=2050650><P Class=KRCC>
+그래서 같은 문자끼리 자리 바꿈을 하는 경우의 수, 
+<Sync Start=2053609><P Class=KRCC>
+3개를 일렬로 배열하는 방법의 수를 제거시키는 게 답이다. 이게 답이에요. 
+<Sync Start=2057745><P Class=KRCC>
+따라서 a, a, a, b, c를 일렬로 배열하는 방법의 수는 120÷6이기 때문에 20가지가 답입니다. 
+<Sync Start=2067391><P Class=KRCC>
+여기까지를 같은 것을 포함하는 순열이래요. 재미있지 않습니까? 
+<Sync Start=2073482><P Class=KRCC>
+
+<Sync Start=2078938><P Class=KRCC>
+선생님, 너무 재미있어요. 진짜로? 수학 잘하겠네, 이제. 가자. 문자 되게 많네. 문자 개수 먼저 세. 
+<Sync Start=2093565><P Class=KRCC>
+5개, 6개, 7개, 8개, 9개, 11개. 
+<Sync Start=2096357><P Class=KRCC>
+11개를 일렬로 배열할 때 그 방법의 수는 11!일 텐데 이 안에는 뭐가 들어 있어? 
+<Sync Start=2104976><P Class=KRCC>
+a, a, a 끼리 자리 바꿈을 하는 것도 들어있고 b, b끼리 자리 바꿈하는 것도 들어있고, 
+<Sync Start=2107762><P Class=KRCC>
+c, c, c, c가 자리 바꿈하는 것도 들어있잖아. 그런데 사실 걔네들끼리는 자리를 못 바꾸잖아. 
+<Sync Start=2114553><P Class=KRCC>
+같은 문자끼리는 자리를 바꿔봤자 표현이 안 되잖아. 
+<Sync Start=2118691><P Class=KRCC>
+그러니까 같은 문자 3개가 같으면 그게 자리 바꿈을 하는 경우의 수도 제거시켜야 되고. 
+<Sync Start=2124368><P Class=KRCC>
+b, b 2개가 같으니까 걔네들이 자리 바꿈하는 경우의 수도 제거시켜야 되고. 
+<Sync Start=2128590><P Class=KRCC>
+c, c, c, c 4개가 같으니까 그 4개가 자리 바꿈하는 경우에 있어도 제거시켜야 되기 때문에 
+<Sync Start=2133940><P Class=KRCC>
+최종적인 답은 11!÷3!2!4!이 답이 돼. 영어 단어 아무거나 하나 내보세요, 좋아하는. 
+<Sync Start=2145480><P Class=KRCC>
+-Pineapple. 
+<Sync Start=2147311><P Class=KRCC>
+-Pineapple. 
+<Sync Start=2149048><P Class=KRCC>
+
+<Sync Start=2164790><P Class=KRCC>
+일렬로 나열하는 방법의 수를 계산하시오. 적당한데? 어떻게 이렇게 적당한? 
+<Sync Start=2173190><P Class=KRCC>
+이제 드디어 퇴사할 때 되니까 수업 준비를 하게 되는구나. 너무 적당한데? 
+<Sync Start=2180230><P Class=KRCC>
+문자가 총 몇 개냐면 하나, 둘, 셋, 넷, 다섯, 여섯, 일곱, 여덟, 아홉. 
+<Sync Start=2185196><P Class=KRCC>
+9개의 문자를 일렬로 배열하라는 얘기구나? 
+<Sync Start=2189306><P Class=KRCC>
+Pineapple에 있는 모든 문자를 일렬로 배열하는 방법의 수를 구하시오. 단 같은 것을 포함하잖아. 
+<Sync Start=2195979><P Class=KRCC>
+P 몇 개 있어요? 3개. P는 자리 바꿔봤자 소용없잖아. 제거시키는 거예요. 
+<Sync Start=2202678><P Class=KRCC>
+e 몇 개 있어? 2개 있잖아. e가 자리 바꿈하는 경우의 수를 제거시키면 답이다. 끝. 재밌죠? 
+<Sync Start=2211782><P Class=KRCC>
+특정 문자의 순서가 이미 결정되거나 아니면 같은 것들이 포함되어 있을 때는 
+<Sync Start=2218209><P Class=KRCC>
+걔네들끼리 자리 못 바꾸라는 얘기니까 개를 최종적으로 뭐 한다? 제거시킨다. 너무 잘했어. 
+<Sync Start=2228358><P Class=KRCC>
+우리 9페이지에 있는 첫 번째 문제를 풉니다. 뭐예요? 이거는 좀 과해. Pineapple이 딱 적당해. 
+<Sync Start=2236847><P Class=KRCC>
+이거는 과해. millenium이래요. 10개의 문자를 다음 조건이 되도록 일렬로 배열하시오. 
+<Sync Start=2243364><P Class=KRCC>
+같은 게 들어있죠, 분명히? 어떤 두 자음 사이에도 모음이 놓이지 않는다. 자음과 모음을 분리하자. 
+<Sync Start=2251594><P Class=KRCC>
+자음 불러봐. m, l, l, n, n, m. 모음 i, e, i, u. 됐습니까? 10개 맞아? 6개, 4개. 맞다. 
+<Sync Start=2283458><P Class=KRCC>
+일렬로 배열할 건데 잘 봐. 잘 들어. 첫 번째 어떤 두 자음 사이에도 모음이 놓이지 않는대. 
+<Sync Start=2293440><P Class=KRCC>
+사이 사이에 모음 들어오면 안 된대. 그 얘기는 뭐야? 얘네들끼리 붙어 있어요. 
+<Sync Start=2296082><P Class=KRCC>
+그 얘기를 뭐라 그래? 자음끼리 이웃하시오. 주머니. 그런데 e, u는 뭐 하래? 이웃하지 말래. 
+<Sync Start=2310730><P Class=KRCC>
+칸막이. e, u를 찢겠어. 찢으려면 누구를 먼저 세워? 칸막이. 칸막이에 몇 명 있어? 3명. 누구야? 
+<Sync Start=2320266><P Class=KRCC>
+i, i, 주머니. i, i, 주머니를 먼저 세워. 얘들아, i, i, 주머니를 먼저 세우게 했어. 
+<Sync Start=2332742><P Class=KRCC>
+얘네들이 일렬로 배열하는 방법의 수는 3개를 배열하는데 i, i 2개가 같으니까 2!. 
+<Sync Start=2344377><P Class=KRCC>
+그런데 아직 일이 끝나지 않았어. 어떤 일이 끝나지 않았어? 
+<Sync Start=2349032><P Class=KRCC>
+주머니 안에 있는 6개의 문자, 얘네들이 자리 바꿈하는 방법의 수를 생각해줘야 된다 그랬잖아. 
+<Sync Start=2356523><P Class=KRCC>
+기억나요? 아직 칸막이 세우고 있어요. 
+<Sync Start=2359472><P Class=KRCC>
+주머니 안에 있는 애들 6개가 자리 바꿈을 하는데 l, l 2개가 같으니까 2!. n, n 2개가 같으니까 2!.
+<Sync Start=2370759><P Class=KRCC>
+m, m 2개가 같으니까 2!로 나눠줘야 한다고. 이게 칸막이 3개를 세운 거야. 왜 세웠어? 
+<Sync Start=2378626><P Class=KRCC>
+e와 u를 찢기 위해서. 이웃하지 말라고 그랬으니까 칸막이를 먼저 세웠어요. 이제 뭐 하면 돼요? 
+<Sync Start=2391391><P Class=KRCC>
+사이사이에 세우면 되잖아. 
+<Sync Start=2392596><P Class=KRCC>
+한 자리, 두 자리, 세 자리, 네 자리 중에서 e, u가 들어가야 되니까 
+<Sync Start=2398831><P Class=KRCC>
+두 자리 뽑아서 줄 세우면 되지? 끝. 너무 잘했다. 
+<Sync Start=2412802><P Class=KRCC>
+이 부분은 이해 안 되는 친구들이 간혹 가다가 하나씩 있던데 부연 설명을 하자면 
+<Sync Start=2419050><P Class=KRCC>
+빈 자리 네 자리 중에서 두 자리 뽑아서 e, u를 배열하는 방법의 수를 
+<Sync Start=2422817><P Class=KRCC>
+원래는 이렇게 안 쓰고 이래도 돼요. 
+<Sync Start=2425012><P Class=KRCC>
+이 네 자리 중에서 두 자리가 들어갈 테니까 일단 두 자리를 먼저 뽑아놔, 이렇게. 이렇게 2개를. 
+<Sync Start=2430537><P Class=KRCC>
+그런 다음에 그 뽑힌 2개에 e, u를 줄 세워버리면 돼. 그런데 이걸 한꺼번에 뭐라 그런다 그랬어? 
+<Sync Start=2435811><P Class=KRCC>
+이걸 ₄P₂라고 그러는 거잖아. 
+<Sync Start=2438649><P Class=KRCC>
+2개를 뽑은 다음에 2개를 줄 세운 거니까 뽑아서 줄 세우는 거니까 
+<Sync Start=2441530><P Class=KRCC>
+결국 얘가 바로 ₄P₂에 해당되는 얘기예요. 이렇게 처리하시면 돼요.
+<Sync Start=2448139><P Class=KRCC>
+이거 720, 8, 8x9=72. 90x3=270. 270x12=3240. 답은 3240. 나쁜 사람들입니다. 이게 답이죠. 
+<Sync Start=2475282><P Class=KRCC>
+이런 게 있습니까? 이거는 진짜 나쁘다. 나쁜 사람이야. 얘들아, 여기다 써. He is not good guy.
+<Sync Start=2494530><P Class=KRCC>
+왜? 너무 주관이 들어갔잖아. 우리 이렇게 안 풀 건데, 우리 이렇게 풀 건데. 
+<Sync Start=2500426><P Class=KRCC>
+그래서 그냥 이렇게 쓰고 끝내세요. 이게 답입니다. 물론 똑같은 걸 찾으면 되겠지만. 찾아볼까? 
+<Sync Start=2514042><P Class=KRCC>
+하기 싫어. 답은 몇 번이니? ②번이래요. 유제 5번으로 갑니다. 
+<Sync Start=2523771><P Class=KRCC>
+숫자 1, 2, 2, 3, 3, 3, 4, 4가 하나씩 적힌 8장의 카드가 있다. 같은 것을 포함하고 있네요.
+<Sync Start=2530548><P Class=KRCC>
+카드를 왼쪽에서 오른쪽 방향으로 배열합니다. 왼쪽부터 홀수 번째. 
+<Sync Start=2535357><P Class=KRCC>
+짝수 번째 홀수 번째니까 총 8개의 카드니까 8칸이 생길 거 아니야? 
+<Sync Start=2545294><P Class=KRCC>
+왼쪽부터 여기가 첫 번째, 홀수 번째. 첫 번째, 세 번째, 다섯 번째, 일곱 번째가 홀수 번째야. 
+<Sync Start=2552238><P Class=KRCC>
+빗금 친 게 홀수 번째라고. 여기에는 홀수를 배열하래. 홀수가 적혀 있다. 
+<Sync Start=2559000><P Class=KRCC>
+홀수 해봤자 1, 3, 3, 3을 빗금 친 홀수 번째 네 자리에 줄 세우면 되는구나. 
+<Sync Start=2565452><P Class=KRCC>
+4개를 네 자리에 줄 세우니까 얘네들이 일렬로 배열하는 방법이 있어요. 4!÷3개가 같다, 3!. 
+<Sync Start=2575885><P Class=KRCC>
+1, 3, 3, 3 줄 세웠어요. 
+<Sync Start=2578867><P Class=KRCC>
+그런데 짝수 번째는 모두 다 짝수가 들어오라 그랬으니까 짝수 이제 누구 남았어? 2, 2, 4, 4 남았어.
+<Sync Start=2585816><P Class=KRCC>
+걔네들을 빈자리 네 자리가 바로 짝수 번째니까 2, 2, 4, 4를 네라고 자리에 줄 세웁니다. 
+<Sync Start=2592002><P Class=KRCC>
+4개를 줄 세우니까 4!. 2, 2 2개가 같다, 4, 4 2개가 같다. 2!를 2!로 나눠주시면 됩니다. 
+<Sync Start=2601771><P Class=KRCC>
+24를 4로 나누니까 6x4=24. 
+<Sync Start=2609404><P Class=KRCC>
+이렇게 처리하는 게 오늘의 마지막 문제이자 같은 것을 포함하는 순열의 기본적인 뜻이었습니다. 
+<Sync Start=2618042><P Class=KRCC>
+그러면 다음 시간에 뭐 공부할 것 같아요? 
+<Sync Start=2621067><P Class=KRCC>
+같은 것을 포함하는 순열에서 또 대표적인 최단 경로의 수라고 있거든요? 
+<Sync Start=2626240><P Class=KRCC>
+거기까지 하면 순열 단원은 끝나고 곧바로 연습 문제 들어가도록 할 겁니다. 
+<Sync Start=2633210><P Class=KRCC>
+다음 시간에 뵙겠습니다. 여기까지입니다. 
+<Sync Start=2636176><P Class=KRCC>
+
+<Sync Start=2636355><P Class=KRCC>
+
+
+
+
+
+
+</BODY>
+</SAMI>

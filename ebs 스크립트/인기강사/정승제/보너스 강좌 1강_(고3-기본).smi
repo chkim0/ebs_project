@@ -1,0 +1,1720 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=10420><P Class=KRCC>
+널 원하고 있잖아. 당신, 수능 만점이라는 당신을 원하고 있는 우리들을 위해 준비한 
+<Sync Start=16920><P Class=KRCC>
+보너스 강좌가 지금부터 시작됩니다. 제가 이렇게 얘기했었어요. 
+<Sync Start=21736><P Class=KRCC>
+"아, 수능 특강은 일단 끝났다." 한참 전이죠. 우리 언제 끝났지? 
+<Sync Start=26411><P Class=KRCC>
+여름 전에 끝났었던 것 같은데? 여름에 끝났겠구나. 
+<Sync Start=29537><P Class=KRCC>
+그때 강좌를 끝내면서 이렇게 말씀을 드렸었어요. 
+<Sync Start=33207><P Class=KRCC>
+9월 모의고사 후에 분위기가 조금 달라질 수도 있고 해서 
+<Sync Start=38277><P Class=KRCC>
+한 3~4 강좌 정도를 더 진행을 하겠다고 말씀을 드렸는데 역시나 잊지 않고 많은, 
+<Sync Start=47410><P Class=KRCC>
+거기 Q&Q 게시판에 언제 올라오느냐, 보너스 강좌는. 
+<Sync Start=51601><P Class=KRCC>
+이런 얘기가 계속 들린다는 얘기를 들었습니다. 
+<Sync Start=53986><P Class=KRCC>
+그래서 오늘은 마치 뭐 하는 느낌이냐면 본 공연을 끝내고 앵콜 공연하는 느낌으로 
+<Sync Start=63013><P Class=KRCC>
+아주 또 특별 게스트분을 모시고 또 이 확률과 통계에 대한 허심탄회한 이야기를 
+<Sync Start=68611><P Class=KRCC>
+둘이서 나눠보면서 어떤 내용을 가지고 우리가 보너스 강좌를 채워갈까 
+<Sync Start=73190><P Class=KRCC>
+한번 고민을 해봤었는데요. 이게 제일 나을 것 같아요. 
+<Sync Start=75575><P Class=KRCC>
+어떻게 하는 게 제일 좋냐면 아무래도 여러분한테 도움이 많이 돼야 되는 거니까 
+<Sync Start=79301><P Class=KRCC>
+전체적으로 한번 훑어 주자. 전체적으로 훑을 때 제일 좋은 이야기가 뭐냐. 
+<Sync Start=83728><P Class=KRCC>
+기출을 풀까, 뭐를 풀까. 물론 기출도 좋은데 그중에서 우리가 아직까지 풀지 않았었던 
+<Sync Start=89560><P Class=KRCC>
+EBS 수능 특강 문제, 그중에서 단원이 끝날 때마다 대표 기출 문제라고 있어요. 
+<Sync Start=95000><P Class=KRCC>
+그 내용을 가지고 스페셜 게스트와 함께 같이 여러 가지 이야기 나눠보면서 
+<Sync Start=102212><P Class=KRCC>
+이렇게 한번 진행을 해보는 게 좋지 않을까. 
+<Sync Start=104288><P Class=KRCC>
+그래서 여러분 가지고 있는 교재에 맨 앞부분부터 탁탁 넘기면 
+<Sync Start=107937><P Class=KRCC>
+우리 경우의 수 끝나고 대표 기출문제 딱 나오거든요? 
+<Sync Start=111383><P Class=KRCC>
+제가 여러분한테 아주 많이 강조했었던 함수의 개수 이야기라든가 
+<Sync Start=115294><P Class=KRCC>
+아니면 치역의 원소의 개수가 주어진 건 상당히 어렵다. 
+<Sync Start=118997><P Class=KRCC>
+그때는 여사건을 이용하거나 뒤뜰량을 해라, 여러 가지 이야기를 했었는데요. 
+<Sync Start=124111><P Class=KRCC>
+그런 이야기 포함해서 통계까지 왔지. 오늘 요 장장 4시간 동안 저와 함께 
+<Sync Start=130815><P Class=KRCC>
+수학을 여러분에게 전달해 주실 EBS, 그야말로 EBS 대표 강사 
+<Sync Start=141421><P Class=KRCC>
+정유빈 선생님을 모시겠습니다. 어서 나오세요. 
+<Sync Start=146289><P Class=KRCC>
+-일로 나오는 거야? 
+<Sync Start=150508><P Class=KRCC>
+-아주 유명한 짤이 있어요. 아주 유명한 짤. 
+<Sync Start=151942><P Class=KRCC>
+-뭐, 뭐. 
+<Sync Start=152261><P Class=KRCC>
+-잘 가. 
+<Sync Start=153452><P Class=KRCC>
+-아, 그거요. 
+<Sync Start=154139><P Class=KRCC>
+-그거. 
+<Sync Start=154657><P Class=KRCC>
+-맞아요. 
+<Sync Start=155308><P Class=KRCC>
+-그치, 그치. 
+<Sync Start=156025><P Class=KRCC>
+-그거 진짜 오래전인데? 
+<Sync Start=157046><P Class=KRCC>
+-진짜. 아니, 근데 그게 지금도 유튜브에 돌아다녀요. 
+<Sync Start=159303><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=159932><P Class=KRCC>
+-그때 정유빈 샘이 여기 서 있었고. 그렇죠. 그때 이렇게 딱 이쪽은 안 나오고. 
+<Sync Start=163942><P Class=KRCC>
+한번 그렇게 한번 잡아주세요. 이거 잘 가, 처럼. 
+<Sync Start=166954><P Class=KRCC>
+혼자 단독 샷인데 내가 중간에 딱 나오는 거지.
+<Sync Start=169444><P Class=KRCC>
+
+<Sync Start=170842><P Class=KRCC>
+저 안 나오게, 저 안 나오게, 단독 샷. 
+<Sync Start=172712><P Class=KRCC>
+-더 더 당겨서 이렇게요. 그렇죠. 
+<Sync Start=175566><P Class=KRCC>
+-네. 시작할게요. 이 BGM. 난 정말 싫어졌어. 
+<Sync Start=179545><P Class=KRCC>
+-얼마 전에 지오디가 콘서트를 하더라고요. 
+<Sync Start=181923><P Class=KRCC>
+제가 진짜 좋아했던 지훈인데 여기서부터 시작하면 언제, 
+<Sync Start=184618><P Class=KRCC>
+-잘 가. 이거, 요거, 요거, 요거. 행복해. 
+<Sync Start=188307><P Class=KRCC>
+-내가 이렇게 하고 나면, 원래 그렇죠. 
+<Sync Start=190385><P Class=KRCC>
+-그랬었던 기억나죠. 그렇죠.
+<Sync Start=192496><P Class=KRCC>
+그렇게 아주 환상적인 호흡을 맞췄었던 정유빈 선생님과 함께 
+<Sync Start=197231><P Class=KRCC>
+같이 한 번 우리가 나눌, 우리가 간혹가다 한 번씩 맥주 한잔할 때 
+<Sync Start=201044><P Class=KRCC>
+우리가 하는 얘기의 대부분은 다 뭐예요. 
+<Sync Start=203850><P Class=KRCC>
+-수학? 
+<Sync Start=204875><P Class=KRCC>
+-수학 얘기잖아요. 우리가 영어 얘기할 건 아니에요. 
+<Sync Start=207940><P Class=KRCC>
+수학 얘기 아니면 선생님의 다이빙 선생님 얘기. 그렇죠? 
+<Sync Start=219035><P Class=KRCC>
+-맞아요. 
+<Sync Start=219709><P Class=KRCC>
+-그 두 개밖에 우리는 할 이야기가 없거든요. 
+<Sync Start=221049><P Class=KRCC>
+-그렇게 얘기해도 되는 거예요, 선생님? 
+<Sync Start=222400><P Class=KRCC>
+-그럼 어때요, 어떡해, 그럼. 
+<Sync Start=223554><P Class=KRCC>
+-진짜? 
+<Sync Start=223987><P Class=KRCC>
+-왜요, 왜, 왜? 
+<Sync Start=224633><P Class=KRCC>
+-아니, 뭐 상관은 없지만, 그렇죠, 그렇죠, 그렇죠. 
+<Sync Start=226805><P Class=KRCC>
+-다이빙 선생님, 
+<Sync Start=227294><P Class=KRCC>
+-그렇죠. 저희 프리다이빙 선생님에 대한 이야기. 
+<Sync Start=229642><P Class=KRCC>
+-그렇게 막 다이빙이 되게 재미있다면서요? 
+<Sync Start=231830><P Class=KRCC>
+-그럼요, 그럼요. 
+<Sync Start=232295><P Class=KRCC>
+-그런 얘기. 근데 저는 수영을 하나도 못 하니까 같이 배우자 그래도 못 배우는 이유. 
+<Sync Start=236225><P Class=KRCC>
+-맞아요. 
+<Sync Start=236801><P Class=KRCC>
+-이런 얘기를 하면서 같이 시간을 보내곤 합니다. 
+<Sync Start=238970><P Class=KRCC>
+그래서 정말 학생들 앞에서 이렇게 수업 얘기를 하면 얼마나 좋을까? 라는 생각을 
+<Sync Start=243024><P Class=KRCC>
+평상시에 되게 많이 했었는데 아주 고맙게도 이미지 선생님은 거부를 했지만, 
+<Sync Start=249650><P Class=KRCC>
+-다 실명 공개 막 이렇게 하나요? 
+<Sync Start=251105><P Class=KRCC>
+-그럼요, 그럼요. 이미지 선생님은 내가 지금 그런 거 찍을 여력이 안 된다. 
+<Sync Start=258515><P Class=KRCC>
+-이거 약간 가짜 뉴스 아니에요? 괜찮은 거예요? 
+<Sync Start=260799><P Class=KRCC>
+-아니, 진짜 난 그렇게 들었는데? 
+<Sync Start=263474><P Class=KRCC>
+-정말? 
+<Sync Start=264322><P Class=KRCC>
+-정확하게 얘기를 해야죠. 그런데 정유빈 선생님은 너무 고맙게도 
+<Sync Start=267743><P Class=KRCC>
+먼저 이미지 선생님이 거절하시기 전에 먼저, 
+<Sync Start=271163><P Class=KRCC>
+-오겠다. 
+<Sync Start=271828><P Class=KRCC>
+-오겠다. 
+<Sync Start=272566><P Class=KRCC>
+-그렇죠, 그렇죠, 그렇죠, 그렇죠. 
+<Sync Start=273841><P Class=KRCC>
+-사실 이미지 샘은 지금 아주 중요한 녹화가 있어가지고 불가능하다고 너무 미안하다고 
+<Sync Start=278305><P Class=KRCC>
+연락이 왔어요. 그래서 우리 둘이 한번 3명의 몫까지 한번, 
+<Sync Start=282526><P Class=KRCC>
+-그렇죠. 
+<Sync Start=283035><P Class=KRCC>
+-다 해보는, 
+<Sync Start=283548><P Class=KRCC>
+-있다, 생각하고. 
+<Sync Start=284476><P Class=KRCC>
+-맞습니다. 그렇게 한번, 있다고 생각하지 말죠? 
+<Sync Start=287767><P Class=KRCC>
+-보내고, 그러면. 
+<Sync Start=289153><P Class=KRCC>
+-그럴까요? 그렇게 한번 가보도록 하겠습니다. 
+<Sync Start=291763><P Class=KRCC>
+-알겠습니다. 
+<Sync Start=292282><P Class=KRCC>
+-아주 자연스럽게 그냥 우리의 생각을 학생들한테 요건 어떻게 나올 것 같다. 
+<Sync Start=297370><P Class=KRCC>
+이런 얘기가 있거나. 
+<Sync Start=298850><P Class=KRCC>
+-좋아요. 
+<Sync Start=299413><P Class=KRCC>
+-아니면 요거는 반드시 너무 필요하니까 중요하다. 이런 이야기까지 곁들여서, 
+<Sync Start=303079><P Class=KRCC>
+-좋아요. 
+<Sync Start=303500><P Class=KRCC>
+-그냥 여러분 제가 그런 거 되게 좋아하는 거 아시잖아. 
+<Sync Start=306509><P Class=KRCC>
+대본 있는 거 이런 거 되게 싫어하니까 아주 자연스럽게 선생님이랑 
+<Sync Start=309347><P Class=KRCC>
+한 명이 설명할 때 한 명이 또 듣고 또 더 부연 설명할 게 자기가 무슨 할 말이 있다. 
+<Sync Start=314701><P Class=KRCC>
+수험생분들에게 또 할 말이 있다. 그러면 또 같이 얘기하고, 
+<Sync Start=317612><P Class=KRCC>
+-좋아요, 좋아요. 
+<Sync Start=318183><P Class=KRCC>
+-이런 시간 같이 한번 가져보는 건 어떨까. 그렇죠? 
+<Sync Start=319911><P Class=KRCC>
+-좋습니다. 
+<Sync Start=320591><P Class=KRCC>
+-어떻게 지내셨어요, 근데. 
+<Sync Start=322164><P Class=KRCC>
+-계속 학생들 만나고, 
+<Sync Start=324294><P Class=KRCC>
+-학생을 왜 만났어요. 
+<Sync Start=325315><P Class=KRCC>
+-아니, 우리 이렇게 만나는 게 만나는 거잖아요. 
+<Sync Start=328104><P Class=KRCC>
+-그렇게. 
+<Sync Start=328919><P Class=KRCC>
+-이렇게 계속 만나고. 열심히 수학 공부하고. 
+<Sync Start=330841><P Class=KRCC>
+-여행은요? 
+<Sync Start=332246><P Class=KRCC>
+-짬짬이 다니고. 
+<Sync Start=333282><P Class=KRCC>
+-여행. 어디 갔다 오셨어요. 
+<Sync Start=335253><P Class=KRCC>
+-어디 갔더라, 최근에. 근데 약간 뭐 출장 때문에도 갔다 오고, 
+<Sync Start=338974><P Class=KRCC>
+-출장을 또 가셨어요? 
+<Sync Start=340637><P Class=KRCC>
+-그니까 우리 EBS 입시 설명회 있거나 하면 이제 그런 거 가고 
+<Sync Start=343918><P Class=KRCC>
+-그걸 이제 여행이라고 생각하시구나. 
+<Sync Start=346199><P Class=KRCC>
+-그래도 그렇게라도 이제, 
+<Sync Start=347907><P Class=KRCC>
+-정말? 항상 이게 많이 바쁘시다 보니까 특별하게 시간을 내는 것보다는 
+<Sync Start=352267><P Class=KRCC>
+입시 설명회 전국을 돌아다니면서.
+<Sync Start=354765><P Class=KRCC>
+보통 거기 가면 청년회장님들이 특산품 막 주시고 
+<Sync Start=358364><P Class=KRCC>
+막 그러잖아요. 끝나면. 그렇죠. 
+<Sync Start=359869><P Class=KRCC>
+-아니에요. 
+<Sync Start=360293><P Class=KRCC>
+-아니에요? 
+<Sync Start=361111><P Class=KRCC>
+-근데 못 봬요. 예전에는 그랬는데 약간 코로나 이후에 되니까 확실히. 
+<Sync Start=365282><P Class=KRCC>
+-옛날에 EBS 입시 설명회에 딱 가면 거기에 그 지역의 군수님도 막 오고, 
+<Sync Start=371274><P Class=KRCC>
+-옛날에는 진짜 그랬었어요. 
+<Sync Start=372379><P Class=KRCC>
+-요즘은 또 안 그래요? 
+<Sync Start=373306><P Class=KRCC>
+-요즘에는 학생들도 최근 들어 다시 좀 만나게 된 것 같아요. 
+<Sync Start=376980><P Class=KRCC>
+-코로나 이후니까. 그렇구나. 그렇게 많이 다니셨네요. 
+<Sync Start=382250><P Class=KRCC>
+우리나라 아주 좋은 곳 방방곡곡을 많이 다니셨던 정유빈 선생님과 함께 
+<Sync Start=387664><P Class=KRCC>
+첫 번째 이야기부터 한번, 한번 해볼까요? 여러분 15페이지 보세요. 15페이지 보면, 
+<Sync Start=392717><P Class=KRCC>
+-저는 저쪽에 잠깐 가 있을까요? 
+<Sync Start=394296><P Class=KRCC>
+-아니요. 
+<Sync Start=395008><P Class=KRCC>
+-여기 있어요? 
+<Sync Start=395321><P Class=KRCC>
+-네. 아니, 아니, 아니, 그러니까 이거를 누가 설명할까를 결정해야 돼요. 
+<Sync Start=400638><P Class=KRCC>
+-내가 이렇게 있으면 문제를 가리게 되고, 
+<Sync Start=401551><P Class=KRCC>
+-아니, 아니야. 
+<Sync Start=402178><P Class=KRCC>
+-이렇게 가면 너무 다소곳하고. 
+<Sync Start=403423><P Class=KRCC>
+-아니 이쪽으로 오시면, 
+<Sync Start=404330><P Class=KRCC>
+-일로, 일로, 일로? 
+<Sync Start=405273><P Class=KRCC>
+-이쪽에 여기 딱 계시면, 이렇게 딱, 
+<Sync Start=407346><P Class=KRCC>
+-이렇게? 
+<Sync Start=408398><P Class=KRCC>
+-요걸 누가 설명할까도, 
+<Sync Start=409852><P Class=KRCC>
+-이거 선생님이 일단, 첫 번째니까. 
+<Sync Start=412033><P Class=KRCC>
+-제가 먼저 하라고요. 
+<Sync Start=413128><P Class=KRCC>
+-좋아요. 
+<Sync Start=414031><P Class=KRCC>
+-두 집합 X, Y가 있는데 X에서 Y로의 함수 f의 개수를 구하시오. 
+<Sync Start=417130><P Class=KRCC>
+함수의 개수 중에서 원소의 개수가 3개일 때, 
+<Sync Start=419378><P Class=KRCC>
+3개 만들어 놓고 시작하면 학생들은 그냥 걔네들한테 얘가 선택할 수 있는 방법 
+<Sync Start=425087><P Class=KRCC>
+몇 가지, 몇 가지, 이렇게 풀다 보면 분명히 한쪽으로 몰리는 경우가 있어서, 
+<Sync Start=428884><P Class=KRCC>
+-그쵸, 그쵸. 
+<Sync Start=429481><P Class=KRCC>
+-원소의 개수가 달라지는 거, 그것 때문에 내는 거잖아요. 
+<Sync Start=432296><P Class=KRCC>
+-맞아요, 맞아요, 맞아요. 
+<Sync Start=433209><P Class=KRCC>
+-그쵸? 근데 거기에 한술 더 떠서 f(x)는 √x보다 크거나 같다는 조건까지 들어 있으니까 
+<Sync Start=440090><P Class=KRCC>
+이거 어렵겠는데. 제가 지금 저는 못 풀 것 같은데요? 
+<Sync Start=444625><P Class=KRCC>
+-저보고 풀라고 지금 샘이 이렇게 약간, 
+<Sync Start=446502><P Class=KRCC>
+-이런건 어떻게 풀까? 너무 어려울 것 같은데. 
+<Sync Start=448752><P Class=KRCC>
+-(가)만 먼저 해석을 해볼까요, 그러면. 어차피 1, 2, 3, 4, 5밖에 없으니까. 
+<Sync Start=452903><P Class=KRCC>
+-예, 예. 
+<Sync Start=453536><P Class=KRCC>
+-근데 일단 시험 현장에서 제가 생각할 때는
+<Sync Start=455260><P Class=KRCC>
+항상 그 수능 시험 현장에서 엄청 긴장이 되는데 
+<Sync Start=458321><P Class=KRCC>
+이렇게 되어 있으면 뭔가 √x, y=√x 무리 함수 그래프를 그려야 되나, 
+<Sync Start=463482><P Class=KRCC>
+막 이런 생각을 할까 봐. 우리 확통이잖아요. 
+<Sync Start=466471><P Class=KRCC>
+-네. 
+<Sync Start=467312><P Class=KRCC>
+-확통은 생각보다 그렇게 복잡하지 않아요. 
+<Sync Start=470064><P Class=KRCC>
+-아니, 
+<Sync Start=470687><P Class=KRCC>
+-그 생각 꼭 해줬으면 좋겠어요. 
+<Sync Start=471714><P Class=KRCC>
+-확통을 선택하는 학생이 그렇게 복잡한 생각을 안 해요. 
+<Sync Start=474502><P Class=KRCC>
+-하지 않겠죠. 아니, 그냥, 아니, 그래도 선생님 봐봐. 
+<Sync Start=476539><P Class=KRCC>
+-아니, 얘들아, 무시하는 게 아니야. 
+<Sync Start=477385><P Class=KRCC>
+-아니야. 
+<Sync Start=477632><P Class=KRCC>
+-무시하는 게 아니라 이거를 진짜 시각적으로 해석할 수 있다면, 
+<Sync Start=480929><P Class=KRCC>
+-그래, 그래. 
+<Sync Start=481515><P Class=KRCC>
+-미적분을 선택했겠지. 
+<Sync Start=483081><P Class=KRCC>
+-그쵸, 그쵸, 그쵸. 
+<Sync Start=483854><P Class=KRCC>
+-이 고귀한 학문을 선택하지 않지. 
+<Sync Start=485384><P Class=KRCC>
+-그럼요. 이 과목은 너무 저는 좋아하는 이유가 되게 단순해요. 
+<Sync Start=488604><P Class=KRCC>
+√x가 있어서 긴장할 거 하나도 없는 게 우리에게는 딱 5개밖에 없거든요? 
+<Sync Start=492596><P Class=KRCC>
+-맞아요. 
+<Sync Start=493326><P Class=KRCC>
+-일단 넣어보자. 되게 중요하죠. 
+<Sync Start=495390><P Class=KRCC>
+-일단 넣어보자. 
+<Sync Start=496216><P Class=KRCC>
+-대입을 해보자. 
+<Sync Start=497048><P Class=KRCC>
+-맞네요. 그렇게 제가 한번 넣어볼게요. 그러면 f(1)은 √1보다 크거나 같다. 
+<Sync Start=504520><P Class=KRCC>
+얘는 √2보다 크거나 같다. 인데 √2가 1.3 이렇게 나가니까. 
+<Sync Start=507632><P Class=KRCC>
+-그렇죠. 
+<Sync Start=508493><P Class=KRCC>
+-근데 자연수밖에 안 되는 이유는 
+<Sync Start=510780><P Class=KRCC>
+-그렇죠. 
+<Sync Start=511308><P Class=KRCC>
+-그렇지. 공역은 자연수 1, 2, 3, 4밖에 안 되니까. 
+<Sync Start=514668><P Class=KRCC>
+그러면 1.4보다 크거나 같은 거는, 
+<Sync Start=516947><P Class=KRCC>
+-2부터 가능. 
+<Sync Start=517935><P Class=KRCC>
+-2부터 가능하구나. 
+<Sync Start=519380><P Class=KRCC>
+-그러니까 여기에 쓸 때조차도 √를 출연시키지 않았으면 좋겠어요. 
+<Sync Start=522655><P Class=KRCC>
+-맞아요. 너무 괴로우니까. 그쵸. 
+<Sync Start=525081><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=525728><P Class=KRCC>
+-√ 아직까지도 이렇게 뭐라 그러지, 그거? 
+<Sync Start=529060><P Class=KRCC>
+-그냥, 
+<Sync Start=529917><P Class=KRCC>
+-저기 저거 외상 후 스트레스 장애처럼 √만 보면 애들이 이렇게 막 환청이 들리고 
+<Sync Start=537597><P Class=KRCC>
+이런 친구들 되게 많아. 
+<Sync Start=538433><P Class=KRCC>
+-맞아요. 
+<Sync Start=538851><P Class=KRCC>
+-그래서 그러지 말자는 거. 
+<Sync Start=539811><P Class=KRCC>
+-지우고. 
+<Sync Start=540501><P Class=KRCC>
+-이게 진짜 너무 중요한 이야기인 것 같아요. 
+<Sync Start=542034><P Class=KRCC>
+얘도 1.7 정도니까 얘도 √4는 2니까 2보다 크거나 같은 거나. 
+<Sync Start=546568><P Class=KRCC>
+-그쵸, 그쵸, 그쵸, 그쵸, 그쵸. 
+<Sync Start=547803><P Class=KRCC>
+-그다음에 마지막 5라는 정의역에 있는 원소는 5는 2.4 보다 크거나 같아지니까 얘는, 
+<Sync Start=553635><P Class=KRCC>
+-3부터, 
+<Sync Start=554274><P Class=KRCC>
+-3보다 크거나 같아야 되는구나. 
+<Sync Start=556450><P Class=KRCC>
+-좋아요, 좋아요. 
+<Sync Start=557270><P Class=KRCC>
+-그쵸. 그래서 (가)라는 조건은 이런 조건이 들어있구나. 라는 거잖아요. 
+<Sync Start=564491><P Class=KRCC>
+그러면 이제 한번 만들어 보면 요렇게 돼 있고
+<Sync Start=568721><P Class=KRCC>
+1, 2, 3, 4인데 1은 얘네한테 다 쏠 수 있어. 
+<Sync Start=573339><P Class=KRCC>
+-그쵸. 
+<Sync Start=574446><P Class=KRCC>
+-2는 2분의, 얘는 1한테 못 쏴. 
+<Sync Start=577908><P Class=KRCC>
+-그쵸. 
+<Sync Start=579768><P Class=KRCC>
+-1한테 못 쏘고, 1한테 못 쏘고, 1, 2한테 못 쏘는 거네요. 
+<Sync Start=585163><P Class=KRCC>
+-그렇죠, 그렇죠. 
+<Sync Start=585542><P Class=KRCC>
+-그니까 제한 조건은 계속 크거나 같다 그러면 계속 생각하게 되니까. 그쵸? 
+<Sync Start=588708><P Class=KRCC>
+-그렇죠, 그렇죠, 그렇죠, 그렇죠. 
+<Sync Start=589387><P Class=KRCC>
+-그냥 제한 조건, 얘는 뭐가 안 되는지 금지된 것만 생각을 해본다면 
+<Sync Start=593777><P Class=KRCC>
+얘네들은 절대로 1한테 쏠 수 없다. 어떻게 하지? 1, 1 한테, 아무튼 1, 1한테 쏠 수 없고 
+<Sync Start=601407><P Class=KRCC>
+얘는 1, 2 모두 다 안 돼. 
+<Sync Start=603107><P Class=KRCC>
+-안 돼. 
+<Sync Start=603687><P Class=KRCC>
+-얘는 3, 4밖에 안 돼. 나머지 애들은 그렇게 되고 1만 자유가 있다는 거네요? 이렇게. 
+<Sync Start=609322><P Class=KRCC>
+그다음에 이제 어떻게 할까요? 
+<Sync Start=611525><P Class=KRCC>
+-그다음에 보통은 이제 이렇게 되면은 선택권이 이미 다 정해진 거잖아요. 
+<Sync Start=616271><P Class=KRCC>
+그럼 이제 생각을 할 때에는 전체 경우에서
+<Sync Start=619751><P Class=KRCC>
+치역의 원소의 개수가 3개 아닌 것을 빼겠다고 
+<Sync Start=622318><P Class=KRCC>
+생각할 수도 있으나, 
+<Sync Start=623419><P Class=KRCC>
+-맞아요. 
+<Sync Start=624054><P Class=KRCC>
+-그렇죠. 왜냐면 이게 전체 경우의 수를 구하기가 너무 좋으니까. 
+<Sync Start=626098><P Class=KRCC>
+-예, 맞아요, 맞아요. 
+<Sync Start=626861><P Class=KRCC>
+-하지만 치역의 원소의 개수가 3개 아닌 상황을 전부 다 생각하는 것이, 
+<Sync Start=631024><P Class=KRCC>
+-더 어렵지. 
+<Sync Start=631919><P Class=KRCC>
+-더 어렵잖아요. 
+<Sync Start=632490><P Class=KRCC>
+-훨씬 어렵죠. 
+<Sync Start=632993><P Class=KRCC>
+-그러니까 차라리 이 상황 앤드 원소의 개수가 3개인 경우를 아예 제한을 딱 시켜놓고 
+<Sync Start=638332><P Class=KRCC>
+거기에 맞게 가는 거죠. 
+<Sync Start=640073><P Class=KRCC>
+-맞아요. 그러면 원소의 개수가 3개라 그러면 일반적으로는 1, 2, 3, 4, 4명 중에 
+<Sync Start=645046><P Class=KRCC>
+그냥 3명을 뽑으면 될 텐데 여기에 얘네들은 누구한테 쓸 수 있고 얘는 1 안 돼, 
+<Sync Start=649576><P Class=KRCC>
+얘는 2 안 돼, 이런 얘기가 있으니까 아예 그 3개도 구체화시키는 게 좋겠네요? 
+<Sync Start=655043><P Class=KRCC>
+-그쵸. 그래서 아예 어차피 4C3이니까 4가지잖아요. 
+<Sync Start=658244><P Class=KRCC>
+-네. 
+<Sync Start=658714><P Class=KRCC>
+-그들에 대해서 4가지 케이스를 만들어 놓고, 
+<Sync Start=661633><P Class=KRCC>
+-어차피 4가지밖에 안 되는 거 분류해서 풀자. 너무 좋은 생각이신 것 같아요. 
+<Sync Start=666979><P Class=KRCC>
+근데 저는 어제부터 허리가 아파서 분류하는 게 너무 자신이 없어요. 
+<Sync Start=671944><P Class=KRCC>
+그래서 선생님 분류해서 이렇게 풀어주시면 제가 허리 좀 나아지면 다시 나올게요. 
+<Sync Start=678277><P Class=KRCC>
+-아니, 이게 엄청 자연스럽게 뭔가 약간, 그죠. 그쵸, 그쵸, 그쵸, 그쵸. 
+<Sync Start=682488><P Class=KRCC>
+오케이, 오케이, 오케이, 오케이. 저는 허리가 안 아프니까 제가 한번 해보겠습니다. 
+<Sync Start=686734><P Class=KRCC>
+여기에서 4가지를, 4개 중에서 3개를 고르는 것을 아예 케이스에 딱 나눠놓는 거예요. 
+<Sync Start=691956><P Class=KRCC>
+-예, 맞아요. 
+<Sync Start=692526><P Class=KRCC>
+-그러면 저는 일단 함수가 나오면은 무조건 그리고 시작하거든요? 
+<Sync Start=697656><P Class=KRCC>
+1, 2, 3, 4, 5에서 일단 1, 2, 3인 경우. 이렇게 하나씩, 하나씩, 하나씩. 
+<Sync Start=703364><P Class=KRCC>
+그다음에는 이제 1, 아예 써놓고 갈까요? 1, 2, 3, 그다음에 1, 2, 4. 그리고, 1, 3, 4. 
+<Sync Start=713168><P Class=KRCC>
+그렇죠. 
+<Sync Start=714160><P Class=KRCC>
+-되게 편하죠. 되게 편하죠. 
+<Sync Start=715473><P Class=KRCC>
+-되게 좋다. 
+<Sync Start=716265><P Class=KRCC>
+-2, 3, 4, 2, 3, 4. 
+<Sync Start=716926><P Class=KRCC>
+-이거 되게 좋다. 
+<Sync Start=717845><P Class=KRCC>
+-되게 좋지. 되게 좋죠. 되게 좋죠. 
+<Sync Start=719291><P Class=KRCC>
+-이거 대답 들으니까 되게 좋구나. 
+<Sync Start=720497><P Class=KRCC>
+-그럼요, 그럼요, 그럼요, 그럼요. 
+<Sync Start=722262><P Class=KRCC>
+-나이스, 좋아, 좋아, 좋아, 좋아요. 그럼 첫 번째 케이스부터 가보도록 하겠습니다. 
+<Sync Start=726856><P Class=KRCC>
+이렇게 해가지고 이제 이렇게 하는 거죠. 
+<Sync Start=729026><P Class=KRCC>
+-선생님 진짜 이렇게 앙증맞게 글씨를 귀엽게 잘 쓰세요? 
+<Sync Start=732627><P Class=KRCC>
+-여기 선생님 글씨 옆에 쓰니까 되게 좋네요. 글씨 잘 쓰는 기분이 들었어, 지금. 
+<Sync Start=737386><P Class=KRCC>
+-그래요? 
+<Sync Start=738845><P Class=KRCC>
+-어쨌든. 
+<Sync Start=739420><P Class=KRCC>
+-좋습니다. 
+<Sync Start=740002><P Class=KRCC>
+-너무 좋습니다. 여기에서부터 시작을 할 건데 
+<Sync Start=742805><P Class=KRCC>
+일단 여기서 가장 큰 주의 사항이 뭘까요, 선생님. 
+<Sync Start=745735><P Class=KRCC>
+-여기에서 주의 사항. 
+<Sync Start=747375><P Class=KRCC>
+-그러니까 우리가 계속 생각하면서 가야 되는 거. 가장 큰 주의 사항. 
+<Sync Start=749613><P Class=KRCC>
+-그러니까 제한 조건이라는 거잖아요. 
+<Sync Start=751237><P Class=KRCC>
+-그죠, 그죠, 그죠. 제한조건. 
+<Sync Start=752674><P Class=KRCC>
+-1은 다 쏠 수 있는데, 
+<Sync Start=753381><P Class=KRCC>
+-1은 다 쏠 수 있어요. 
+<Sync Start=754126><P Class=KRCC>
+-2, 3, 4는 1한테 못 쏘고. 
+<Sync Start=756115><P Class=KRCC>
+-그렇죠. 
+<Sync Start=756716><P Class=KRCC>
+-5는 2도 안 된다고 그래. 5는 3밖에 못 써요. 
+<Sync Start=761736><P Class=KRCC>
+-그쵸, 그쵸. 여기선 3밖에 못 쏴요. 그니까 이 제한 조건을 생각하는 순간 
+<Sync Start=765208><P Class=KRCC>
+선택이 아예 딱 되는 아이들이 있어요. 1은 누구? 
+<Sync Start=769436><P Class=KRCC>
+-1은, 
+<Sync Start=770185><P Class=KRCC>
+-누구일까요? 
+<Sync Start=770429><P Class=KRCC>
+-1은 1, 2, 3. 
+<Sync Start=771370><P Class=KRCC>
+-1, 2, 3 가능해. 근데 중요한 건 치역이 공역과 같아야 되잖아요. 
+<Sync Start=775855><P Class=KRCC>
+-치역이 공역과 같으라는, 
+<Sync Start=777923><P Class=KRCC>
+-여기서, 요 모양에서. 
+<Sync Start=779831><P Class=KRCC>
+-어떤 모양에서? 
+<Sync Start=780534><P Class=KRCC>
+-그러니까 원소의 개수가 여기에 3개가 되니까 
+<Sync Start=782678><P Class=KRCC>
+-1, 2, 3이 모두 다 화살을 맞아야 되는 거잖아요. 
+<Sync Start=784839><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=785744><P Class=KRCC>
+-지금 상황에서. 
+<Sync Start=786241><P Class=KRCC>
+-그렇지, 그렇지, 그렇지. 
+<Sync Start=787183><P Class=KRCC>
+-근데 2, 3의 경우에는 얘네들이 쏠 수 있는 아이들이 있지만, 
+<Sync Start=790019><P Class=KRCC>
+-맞아. 
+<Sync Start=790415><P Class=KRCC>
+-1은 어때요. 
+<Sync Start=791615><P Class=KRCC>
+-그러면 1마저 외면하면 저 1은 아무한테도 선택을 못 받아요, 선생님. 
+<Sync Start=796217><P Class=KRCC>
+-그렇죠. 
+<Sync Start=796616><P Class=KRCC>
+-너무 불쌍한 1. 
+<Sync Start=801895><P Class=KRCC>
+-그렇죠. 얘는 이미, 
+<Sync Start=804911><P Class=KRCC>
+-다행이다. 쟤만 저기 안 쐈으면 나머지 애들은 1한테 못 쏘잖아요, 선생님. 
+<Sync Start=808784><P Class=KRCC>
+-그렇죠. 그러면서 1은 1을 무조건 쏴야만 한다는 선택권이 생기는 거예요. 
+<Sync Start=813391><P Class=KRCC>
+-그러네요. 
+<Sync Start=814028><P Class=KRCC>
+-선택받지 못하면 혼자 고독적인 식을, 
+<Sync Start=817241><P Class=KRCC>
+-맞아, 혼자서. 
+<Sync Start=819184><P Class=KRCC>
+-그 상황이 되는 거죠. 그리고 마찬가지로 생각을 하면은 
+<Sync Start=822060><P Class=KRCC>
+이제 5의 경우에는 2, 3을 쏠 수 있고. 그쵸? 요런 것들을 생각할 수가 있어요. 
+<Sync Start=826717><P Class=KRCC>
+-5는 3보다 크거나 같다 그랬어요. 
+<Sync Start=828021><P Class=KRCC>
+-그렇죠. 그러니까, 
+<Sync Start=829107><P Class=KRCC>
+-5도 3한테 맞으면, 
+<Sync Start=830075><P Class=KRCC>
+-맞아요. 
+<Sync Start=830912><P Class=KRCC>
+-5마저도 3한테 외면을 하면 큰일 날 뻔했네요, 선생님. 
+<Sync Start=834687><P Class=KRCC>
+-그러니까 정신을 차리지 않으면 큰일 날 것 같아요. 
+<Sync Start=836515><P Class=KRCC>
+-맞아요. 
+<Sync Start=837176><P Class=KRCC>
+-5가 3을 쏴야만 합니다. 이렇게 되는 거죠. 5는 4가 없으니까. 
+<Sync Start=841261><P Class=KRCC>
+-그러네요. 
+<Sync Start=842273><P Class=KRCC>
+-그래서 1이랑 5의 경우에는 이제 정리가 된 거고 이제 중요한 거는 2, 3, 4는 
+<Sync Start=846558><P Class=KRCC>
+어디를 쏠 수 있죠? 
+<Sync Start=848647><P Class=KRCC>
+-2, 3, 4는 2, 3한테 쏠 수 있어요. 
+<Sync Start=849918><P Class=KRCC>
+-네, 2, 3 쏠 수 있어요. 여기서의 주의 사항은 이들이 모두 다 3을 쏘게 되면 
+<Sync Start=855654><P Class=KRCC>
+이제 문제가 생기겠죠. 
+<Sync Start=856801><P Class=KRCC>
+-그러면 치역의 원소의 개수가 2개로 줄어요. 
+<Sync Start=858668><P Class=KRCC>
+-그렇죠, 그렇죠. 
+<Sync Start=859459><P Class=KRCC>
+-맞아요. 
+<Sync Start=860059><P Class=KRCC>
+-그것만 빼주면 되겠다. 
+<Sync Start=860706><P Class=KRCC>
+-그것만 빼주면 돼. 
+<Sync Start=861157><P Class=KRCC>
+-요 생각을 하면서 가보겠습니다. 
+<Sync Start=862237><P Class=KRCC>
+-맞아요, 맞아요, 맞아요. 
+<Sync Start=863062><P Class=KRCC>
+-1이랑 5는 선택 끝났으니까 2가 선택할 수 있는 거 2가지. 
+<Sync Start=866330><P Class=KRCC>
+-2가지. 
+<Sync Start=866731><P Class=KRCC>
+-3도 
+<Sync Start=867212><P Class=KRCC>
+-2가지. 
+<Sync Start=867584><P Class=KRCC>
+-2가지. 
+<Sync Start=867939><P Class=KRCC>
+-4도 
+<Sync Start=868326><P Class=KRCC>
+-2가지. 
+<Sync Start=868775><P Class=KRCC>
+-2가지. 그래서 3제곱 나오잖아요. 
+<Sync Start=870241><P Class=KRCC>
+-맞아요. 
+<Sync Start=870535><P Class=KRCC>
+-여기에서 아까 말한 경우 1가지. 모두가 하나를 선택하는 경우. 
+<Sync Start=873588><P Class=KRCC>
+-모두 3한테 쏘는 거. 
+<Sync Start=875083><P Class=KRCC>
+-네. 근데 이거는 모두가 3을 쏘기만 할 때입니다. 
+<Sync Start=877388><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=878379><P Class=KRCC>
+-쏠 때, 라고 쓸까요? 만약에 근데 이제 여기서 주의하실 사항은 
+<Sync Start=882981><P Class=KRCC>
+여기서 -2를 하는 친구들이 있어요. 
+<Sync Start=885376><P Class=KRCC>
+-다 2한테 쏘는 거? 
+<Sync Start=886883><P Class=KRCC>
+-다 2한테 쏘면 안 되는, 
+<Sync Start=887784><P Class=KRCC>
+-그러면 되는데. 
+<Sync Start=888344><P Class=KRCC>
+-그렇죠, 되죠. 
+<Sync Start=889018><P Class=KRCC>
+-되잖아요. 
+<Sync Start=890213><P Class=KRCC>
+-그러니까 이게 문제마다 이런 상황들이 달라지는데
+<Sync Start=893024><P Class=KRCC>
+이런 상황에서 원래 왜 우리 있잖아요. 
+<Sync Start=894575><P Class=KRCC>
+하나만 쏘면은 경우 뺀다. 이런 것들이, 
+<Sync Start=896561><P Class=KRCC>
+-맞아요. 
+<Sync Start=896863><P Class=KRCC>
+-이제 습관이 되면 
+<Sync Start=897559><P Class=KRCC>
+-그때 습관 되면, 그런 친구들 아주 나쁜 친구라고 생각해요. 
+<Sync Start=904200><P Class=KRCC>
+-아니, 생각보다 약간 극단적인 면이 있어요. 
+<Sync Start=907240><P Class=KRCC>
+-맞아요. 
+<Sync Start=908165><P Class=KRCC>
+-이렇게 됩니다. 그래서 7가지가 되고요. 그다음 한 가지 더, 두 번째 케이스. 
+<Sync Start=912485><P Class=KRCC>
+-벌써 하나를 풀었네요? 
+<Sync Start=913557><P Class=KRCC>
+-그렇죠. 두 번째 케이스는 1, 2, 3, 4, 5가 1, 2, 4한테 쏘는 거예요. 
+<Sync Start=920444><P Class=KRCC>
+더 이상 동그라미를 그리지 않겠어요. 이제  두겠습니다. 마찬가지로 1은 1을 쏘고요. 
+<Sync Start=926135><P Class=KRCC>
+똑같은 상황인데, 
+<Sync Start=926873><P Class=KRCC>
+-맞아요. 
+<Sync Start=927277><P Class=KRCC>
+-5는? 
+<Sync Start=928178><P Class=KRCC>
+-4밖에 안 돼요. 3, 4밖에 안 된다고 그랬으니까. 맞아요. 
+<Sync Start=930828><P Class=KRCC>
+-잘 생각해 보면, 
+<Sync Start=932443><P Class=KRCC>
+-다를 게 없어요. 
+<Sync Start=933231><P Class=KRCC>
+-맞아요. 
+<Sync Start=935155><P Class=KRCC>
+-다를 게 없다는 생각을 학생들도 했겠죠? 
+<Sync Start=937380><P Class=KRCC>
+-그니까. 
+<Sync Start=938091><P Class=KRCC>
+-똑같잖아. 
+<Sync Start=938573><P Class=KRCC>
+-그러기를 바래요. 왜냐하면 지금 상황에서 3 대신에 4로만 바뀌었을 뿐 
+<Sync Start=942869><P Class=KRCC>
+이들이 갖고 있는 제한 조건이라든지 이런 게 다 똑같기 때문에, 
+<Sync Start=945669><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=946348><P Class=KRCC>
+-여기는 케이스가 그냥 똑같이 처리가 되면서
+<Sync Start=949098><P Class=KRCC>
+7가지 하고 넘어가야 시간을 좀 벌 수가 있죠. 
+<Sync Start=951839><P Class=KRCC>
+-그렇겠네요, 선생님. 
+<Sync Start=952469><P Class=KRCC>
+-맞아요. 그럼 3번째 케이스로 가겠습니다. 벌써 3번째 케이스예요. 
+<Sync Start=957329><P Class=KRCC>
+1, 2, 3, 4, 5가 이번에는 뭐죠? 1, 3, 4. 
+<Sync Start=961003><P Class=KRCC>
+-1, 3, 4. 요건 좀 다르겠다. 5가 쓸 수 있는 게 많아졌어요, 선생님. 
+<Sync Start=966263><P Class=KRCC>
+-맞아요. 
+<Sync Start=966782><P Class=KRCC>
+-하지만 1은 똑같아요, 선생님. 
+<Sync Start=971259><P Class=KRCC>
+-나의 진짜 찐 웃음소리 너무 많이 들어갈 것 같아요. 어떡하지. 
+<Sync Start=974766><P Class=KRCC>
+-좋잖아요. 학생들이 되게 좋아할 것 같아요. 
+<Sync Start=977174><P Class=KRCC>
+-그래요? 너무 방정맞게 웃는 거 같은데. 
+<Sync Start=979235><P Class=KRCC>
+-아니, 아니, 아니에요. 선생님 원래 방정맞잖아요.
+<Sync Start=982191><P Class=KRCC>
+너무 가식적으로 살 필요 없어요, 샘. 
+<Sync Start=983762><P Class=KRCC>
+-그죠? 괜찮겠죠? 
+<Sync Start=985231><P Class=KRCC>
+-내려놓으면 편해져요, 샘. 
+<Sync Start=987849><P Class=KRCC>
+-네, 알겠어요. 그래요. 1은 1을 쏘는 거고 5는 이번에는 3, 4를 쏠 수가 있어지잖아요. 
+<Sync Start=994074><P Class=KRCC>
+-맞아요. 
+<Sync Start=994398><P Class=KRCC>
+-그러니까 2, 3, 4, 5가 전부 다 이제 쏠 수 있는 것이 얘네 둘. 
+<Sync Start=998956><P Class=KRCC>
+-맞아. 3, 4는 무조건 다 쏠 수 있어요. 
+<Sync Start=1000619><P Class=KRCC>
+-둘 다 선택을 하게 됩니다. 
+<Sync Start=1001722><P Class=KRCC>
+-맞아요. 
+<Sync Start=1002000><P Class=KRCC>
+-사실상 1은 1을 찍고 이제 끝난 거고요. 
+<Sync Start=1003891><P Class=KRCC>
+-맞아요. 
+<Sync Start=1004175><P Class=KRCC>
+-여기에서만 선택을 하니까. 
+<Sync Start=1005453><P Class=KRCC>
+-맞아요. 
+<Sync Start=1005803><P Class=KRCC>
+-2도 2가지 3도 2가지 4도 2가지 5도 2가지 
+<Sync Start=1008664><P Class=KRCC>
+-그럼 2⁴. 
+<Sync Start=1009703><P Class=KRCC>
+-네, 좋아요. 여기서 이제 뭐가, 
+<Sync Start=1011418><P Class=KRCC>
+-이제 안 되는 거 빼야 돼요. 
+<Sync Start=1012936><P Class=KRCC>
+-네, 맞아요. 어떻게 되는 거 빼주면 될까요? 
+<Sync Start=1015126><P Class=KRCC>
+-안 되는 게 이거 아까랑 달라요. 
+<Sync Start=1017430><P Class=KRCC>
+-맞아요. 
+<Sync Start=1018101><P Class=KRCC>
+-그렇죠. 모두 다 3한테 쏘는 경우. 
+<Sync Start=1020414><P Class=KRCC>
+-네. 모두가 3한테 쏘는 경우. 
+<Sync Start=1022261><P Class=KRCC>
+-또 모두 다 4한테 쏘는 경우. 
+<Sync Start=1023821><P Class=KRCC>
+-그렇죠. 모두 몰아주기해서 하나를 쏘게 되면은 얘네들 중에 
+<Sync Start=1027681><P Class=KRCC>
+선택을 받지 못하는 친구가 생기니까, 
+<Sync Start=1029772><P Class=KRCC>
+-맞아요. 
+<Sync Start=1030076><P Class=KRCC>
+-그 경우만 배제를 시키면 됩니다. 
+<Sync Start=1031666><P Class=KRCC>
+-맞아요. 
+<Sync Start=1032012><P Class=KRCC>
+-몇 가지죠? 
+<Sync Start=1032641><P Class=KRCC>
+-2가지. 
+<Sync Start=1033196><P Class=KRCC>
+-네. 
+<Sync Start=1034240><P Class=KRCC>
+-14. 
+<Sync Start=1035408><P Class=KRCC>
+-끝. 
+<Sync Start=1036219><P Class=KRCC>
+-거의 다 끝났어요. 
+<Sync Start=1037621><P Class=KRCC>
+-그니까 이게 확실히 문제 풀 때 근데 그런 게 있어요. 
+<Sync Start=1040697><P Class=KRCC>
+너무 많을 것 같아가지고 우리가 보통 걱정을 해서 시도를 못 하잖아요. 
+<Sync Start=1044457><P Class=KRCC>
+-맞아요. 근데 시작하면 되게 간단하다? 그렇죠? 
+<Sync Start=1046725><P Class=KRCC>
+-생각보다 이게 이렇게 차르르 나오더라고요. 
+<Sync Start=1048735><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=1049732><P Class=KRCC>
+-네 번째, 마지막. 1, 2, 3, 4, 5가 이번에는 2, 3, 4, 5. 
+<Sync Start=1056077><P Class=KRCC>
+-2, 3, 4. 
+<Sync Start=1056674><P Class=KRCC>
+-2, 3, 4. 
+<Sync Start=1057673><P Class=KRCC>
+-맞아요. 
+<Sync Start=1058238><P Class=KRCC>
+-여기는 조금 어려워요. 
+<Sync Start=1061406><P Class=KRCC>
+-그렇겠다. 
+<Sync Start=1062250><P Class=KRCC>
+-그쵸. 여기는 좀 어려워요. 
+<Sync Start=1063875><P Class=KRCC>
+-다 2한테, 다 그러니까 1, 2, 3, 4는 자유가 있는데 5만 3, 2한테만 못 쏘는. 
+<Sync Start=1073700><P Class=KRCC>
+-그렇죠. 그러니까 선택권이 생각보다 많아지는 상황인 거예요. 
+<Sync Start=1077219><P Class=KRCC>
+-그러네요. 이때는 완전, 이럴 때는 완전 여사건 많이 생각해야, 한참 생각해야 되겠네. 
+<Sync Start=1083040><P Class=KRCC>
+-맞아요. 
+<Sync Start=1083333><P Class=KRCC>
+-여기서 실수해서 다 틀렸겠군요. 
+<Sync Start=1085209><P Class=KRCC>
+-여기서 많이. 왜냐하면 여기는 긴장을 했어요. 
+<Sync Start=1088744><P Class=KRCC>
+왠지 생각보다 쉬워? 여기서 생각보다 쉬워? 그러면 이제 마음이 여기까지 오면서 
+<Sync Start=1092891><P Class=KRCC>
+녹였단 말이에요. 그리고 여기에서 갑자기 띡 하게 되는 거잖아요. 
+<Sync Start=1096321><P Class=KRCC>
+-그러니까. 
+<Sync Start=1097712><P Class=KRCC>
+-여기서 그래서 하나 팁을 주고 싶은 부분은 우리가 어찌 됐건 간에 지금 1, 2, 3번이 
+<Sync Start=1103451><P Class=KRCC>
+쉬웠던 이유는 1이든 5든 누군가가 뭔가 선택을 해 주잖아요. 
+<Sync Start=1106772><P Class=KRCC>
+-맞아요. 
+<Sync Start=1107292><P Class=KRCC>
+-그렇다면 선택권이 2개밖에 없는 아이를, 
+<Sync Start=1110976><P Class=KRCC>
+-분류. 그래 버리면 되겠다. 더 쉽겠다. 
+<Sync Start=1114336><P Class=KRCC>
+-4번 안에 분류를 아예 하는 거죠. 
+<Sync Start=1116281><P Class=KRCC>
+-아예. 
+<Sync Start=1116836><P Class=KRCC>
+-아예 처음부터. 
+<Sync Start=1117644><P Class=KRCC>
+-미리 쏘고 시작하는 거지. 
+<Sync Start=1119107><P Class=KRCC>
+-네. 5라도 3을 하나 쏘고 시작을 해볼까요, 우리. 그리고 5가 4를 쏘는 경우를 빼면 되잖아요. 
+<Sync Start=1125199><P Class=KRCC>
+-맞아요, 맞아요, 맞아요, 맞아요. 
+<Sync Start=1126795><P Class=KRCC>
+-이렇게 해서 빼놓을게요. 
+<Sync Start=1127800><P Class=KRCC>
+-그러면 이제 나머지는 다 자유로우니까. 
+<Sync Start=1129536><P Class=KRCC>
+-그쵸, 그쵸, 그쵸. 
+<Sync Start=1131107><P Class=KRCC>
+-아주 좋은 의견이세요. 
+<Sync Start=1132094><P Class=KRCC>
+-이렇게 생각을 하면 좀 더 좋을 것 같아요. 
+<Sync Start=1134514><P Class=KRCC>
+이렇게 2가지로 나누고 이걸 더 하면 되니까
+<Sync Start=1137284><P Class=KRCC>
+이때부터 시작을 해볼까요? 이미 3은 이제 쐈어요. 
+<Sync Start=1139640><P Class=KRCC>
+ok. 그러면 어떻게 갈까요? 
+<Sync Start=1141971><P Class=KRCC>
+-이제 1, 2, 3, 4는 똑같이 2, 3, 4한테 다 쓸 수 있어요. 
+<Sync Start=1144620><P Class=KRCC>
+-맞아요, 맞아요. 그래서 3개씩 몇 개? 하나, 둘, 셋, 넷, 4제곱. 
+<Sync Start=1148332><P Class=KRCC>
+-4개, 3⁴. 
+<Sync Start=1149523><P Class=KRCC>
+-그래서 이제 빼면 알 수가 있는 거죠. 
+<Sync Start=1150531><P Class=KRCC>
+-안 되는 경우 생각해야 돼요. 
+<Sync Start=1151177><P Class=KRCC>
+-그쵸. 
+<Sync Start=1152308><P Class=KRCC>
+-그러면 3은 어차피 치역으로 확정됐으니까 하나가 부족한 경우, 
+<Sync Start=1157243><P Class=KRCC>
+이럴 때는 3으로 다 쏠 수도 있네요? 
+<Sync Start=1159759><P Class=KRCC>
+-맞아요, 맞아요. 그래서 여기서 치역이 원소가 하나인 거? 이렇게 나눌까요, 이 안에? 
+<Sync Start=1170959><P Class=KRCC>
+원소 1개인 거, 원소 2개인 걸 뺄까 봐요. 
+<Sync Start=1173437><P Class=KRCC>
+그러면 이제 겹치는 경우가 생길까 봐, 지금 말씀하신 것처럼 모두가 3을 쏘는 경우, 
+<Sync Start=1178258><P Class=KRCC>
+-그건 한 가지밖에 없어요. 다 3이니까. 
+<Sync Start=1181284><P Class=KRCC>
+-좋아요. 
+<Sync Start=1182030><P Class=KRCC>
+-이제 원소가 2개인 거는 2, 3한테 쏘는 거 3, 4한테 쏘는 건데. 
+<Sync Start=1187714><P Class=KRCC>
+-2개. 이렇게 쓸게요, 간단하게 우리끼리. 그러면 어떻게? 이렇게 갈까요? 
+<Sync Start=1193387><P Class=KRCC>
+-한번 해볼까요? 
+<Sync Start=1194129><P Class=KRCC>
+-이렇게 한다는 것 자체가 사실상 어때요? 얘네 둘 중에 하나를 선택하고 시작하잖아요. 
+<Sync Start=1198870><P Class=KRCC>
+3C2, 아니, 요기 3을 두고 요렇게 요 둘 중에 선택하잖아요. 
+<Sync Start=1203553><P Class=KRCC>
+그 두 가지로 놓고 시작할까요? 
+<Sync Start=1205397><P Class=KRCC>
+-아니요. 처음부터 그냥 가도 상관이 없을 것 같아요. 
+<Sync Start=1206821><P Class=KRCC>
+-그냥 처음부터? 상관없어요. 좋아요, 좋아요, 좋아요. 원하는 대로. 
+<Sync Start=1209026><P Class=KRCC>
+-왜 그러냐면 2랑 4랑 다를 게 없거든. 같은 입장이거든. 나머지 애들한테, 뭐에요? 
+<Sync Start=1214130><P Class=KRCC>
+-내가 부러뜨렸어요. 
+<Sync Start=1214961><P Class=KRCC>
+-뭐를요? 
+<Sync Start=1215287><P Class=KRCC>
+-이걸 너무 밀었네? 
+<Sync Start=1217581><P Class=KRCC>
+-그거 얼마 나오는지 살짝 견적 뽑아서 선생님 톡으로 드릴게요.
+<Sync Start=1221946><P Class=KRCC>
+아주 중요한 저희 자산입니다. 
+<Sync Start=1223416><P Class=KRCC>
+-너무 여러 개를 내가, 
+<Sync Start=1224692><P Class=KRCC>
+-분필을 떨어뜨리셨네요. 분필이야 뭐 저는 항상 떨어뜨리니까 상관없어요. 
+<Sync Start=1229354><P Class=KRCC>
+-가볼까요, 그러면? 치역의 원소가 2개인 경우부터. 
+<Sync Start=1233387><P Class=KRCC>
+이렇게 둘을 다 쏘게 되는, 이쪽에만 쏘게 되는 경우잖아요. 그쵸? 
+<Sync Start=1236758><P Class=KRCC>
+그러면 이렇게 2랑 3을 쏘는 경우부터 시작을 해볼까요? 
+<Sync Start=1239847><P Class=KRCC>
+-아니면 처음부터 그냥 2랑 4랑 똑같으니까, 입장이. 
+<Sync Start=1243579><P Class=KRCC>
+그러니까 2일 경우랑 4일 경우랑 똑같을 테니까. 
+<Sync Start=1245895><P Class=KRCC>
+-맞아요. 
+<Sync Start=1246204><P Class=KRCC>
+-나머지 2개 중에 하나를 뽑는 방법에서 2가지. 이렇게 시작해도 될 것 같아요. 
+<Sync Start=1249144><P Class=KRCC>
+-그렇죠, 그렇죠, 그렇죠, 그렇죠, 그렇죠. 오케이. 그래서 어떻게 할까요? 
+<Sync Start=1251996><P Class=KRCC>
+-어떻게 할까요? 
+<Sync Start=1252920><P Class=KRCC>
+-선생님이랑 나랑 다른데, 생각이? 그러면. 
+<Sync Start=1255381><P Class=KRCC>
+-선생님 하고 싶은 데로 하셔도 될 것 같아요. 
+<Sync Start=1257774><P Class=KRCC>
+-좋아요. 
+<Sync Start=1257897><P Class=KRCC>
+-2 먼저 생각하는 게 더 편할 것 같아. 
+<Sync Start=1259633><P Class=KRCC>
+-이렇게 놓으면 난 이제 4는 말고 2를 쏘는 경우. 이렇게 해서 시작할게요. 
+<Sync Start=1263067><P Class=KRCC>
+얘네한테 다 쏘는 경우. 그렇게 되면 얘네들이 일단 선택권을 갖는 게 몇 가지죠? 
+<Sync Start=1267681><P Class=KRCC>
+-얘네들이 선택, 2가지죠, 2가지죠. 
+<Sync Start=1268998><P Class=KRCC>
+-그러니까. 넷 다 2가지. 이렇게. 거기서 뺄게요. 이렇게 하겠다는 거. 
+<Sync Start=1273657><P Class=KRCC>
+-모두 다 얘한테 쏘는 거. 아니, 모두 다 3한테 쏘는 거는, 
+<Sync Start=1276538><P Class=KRCC>
+-그렇죠. 그것만. 
+<Sync Start=1277099><P Class=KRCC>
+-아까 했거든. 
+<Sync Start=1278654><P Class=KRCC>
+-이렇게 할까 봐요. 
+<Sync Start=1279414><P Class=KRCC>
+-맞아요. 
+<Sync Start=1280148><P Class=KRCC>
+-요게 뭐냐면 치역의 원소가 2, 3인 경우잖아요? 
+<Sync Start=1282757><P Class=KRCC>
+-맞아요. 
+<Sync Start=1283140><P Class=KRCC>
+-그렇죠. 그런 거랑 똑같이 뭐 있죠? 
+<Sync Start=1285300><P Class=KRCC>
+-또 빼야 돼요. 3, 4인 경우. 
+<Sync Start=1286708><P Class=KRCC>
+-그쵸. ×2하면 되니까. 
+<Sync Start=1288240><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=1288846><P Class=KRCC>
+-이렇게 하면 끝이 나겠죠. 그럼 몇 가지죠? 
+<Sync Start=1291487><P Class=KRCC>
+-그러면 30 뺐고, 31 빼, 81에 4면 50가지야? 아닌가? 저 그거 되게 약해요. 
+<Sync Start=1297018><P Class=KRCC>
+-16에 15, 30, 81에서 50. 
+<Sync Start=1300415><P Class=KRCC>
+-50 맞아요? 진짜 나아졌다. 
+<Sync Start=1302544><P Class=KRCC>
+-선생님 수에 약해요? 계산에? 
+<Sync Start=1303970><P Class=KRCC>
+-네. 
+<Sync Start=1304334><P Class=KRCC>
+-저도요. 
+<Sync Start=1304744><P Class=KRCC>
+-그래요. 
+<Sync Start=1306006><P Class=KRCC>
+-이게 다 그런 거군요. 다행히. 
+<Sync Start=1307644><P Class=KRCC>
+-맞아요. 
+<Sync Start=1308115><P Class=KRCC>
+-우리가 수학 선생님이지 산수를 잘하는 건 아니더라고요. 
+<Sync Start=1310945><P Class=KRCC>
+-나이가 들어서 그래, 나이가 들어서. 
+<Sync Start=1312871><P Class=KRCC>
+-진짜요? 
+<Sync Start=1313370><P Class=KRCC>
+-네. 선생님 옛날에 EBS 데뷔할 때는 안 그랬었잖아요. 
+<Sync Start=1317042><P Class=KRCC>
+-저 그때도 그랬어요. 
+<Sync Start=1318458><P Class=KRCC>
+-그랬어요? 
+<Sync Start=1319269><P Class=KRCC>
+-고등학교 때도 그랬고. 이게 약간 고질적인 치명. 
+<Sync Start=1321547><P Class=KRCC>
+-일찍 뇌세포가 망가진 거예요. 
+<Sync Start=1323936><P Class=KRCC>
+-그게 그렇게 되는 거예요? 
+<Sync Start=1324984><P Class=KRCC>
+-아니에요. 그냥 해본 소리예요. 
+<Sync Start=1326206><P Class=KRCC>
+-이거 50가지. 여기는 어떨까요? 
+<Sync Start=1329525><P Class=KRCC>
+-또 남았네요? 짜증 나. 
+<Sync Start=1334180><P Class=KRCC>
+-맞아요. 보여드릴까요. 
+<Sync Start=1336226><P Class=KRCC>
+-그럴 때도 마찬가지로 1, 2, 3, 4가 2, 3, 4한테 쏠 수 있어요. 
+<Sync Start=1340543><P Class=KRCC>
+-맞아요. 그러니까 조금만 더 생각을 해보면 똑같잖아요. 상황. 
+<Sync Start=1346882><P Class=KRCC>
+-맞아요. 다를 게 하나도 없어요. 
+<Sync Start=1348460><P Class=KRCC>
+-다를 게 하나도 없어요. 
+<Sync Start=1349222><P Class=KRCC>
+-맞아요. 3일 때랑 4일 때랑, 그러니까 여기서 중요한 포인트는 그건 것 같아요. 
+<Sync Start=1352720><P Class=KRCC>
+지금 남아 있는 애들에 대해서는 똑같다는 거지. 1이라는 애가 없으니까, 
+<Sync Start=1358681><P Class=KRCC>
+-맞아요. 
+<Sync Start=1358981><P Class=KRCC>
+-치역에, 공역에. 그러니까 어차피 이럴 때랑 저럴 때랑 다르지 않다는 그 느낌 
+<Sync Start=1364176><P Class=KRCC>
+그 확신이 있을 때만 똑같다는 생각을 해야 되는데, 
+<Sync Start=1368427><P Class=KRCC>
+-그거 안 되면, 
+<Sync Start=1368818><P Class=KRCC>
+-학생들이 그냥 개수만 가지고 똑같다는 생각을 할까 봐, 
+<Sync Start=1371163><P Class=KRCC>
+-맞아요. 
+<Sync Start=1371481><P Class=KRCC>
+-너무 불안해요. 
+<Sync Start=1373224><P Class=KRCC>
+-그니까 조건이 바뀌지 않고 제한 조건들을 계속해서 생각을 하자는 게 우리 원칙이었는데 
+<Sync Start=1377826><P Class=KRCC>
+보기에 있던 그 원칙대로 1이 쏠 수 있는 거, 그러니까 1, 2, 3이 쏠 수 있는 것들 
+<Sync Start=1381877><P Class=KRCC>
+이런 걸 생각해 보면 그 조건은 다 똑같아요. 얘네들은 다 2, 3, 4를 쏠 수 있다. 
+<Sync Start=1385567><P Class=KRCC>
+-맞아. 
+<Sync Start=1386316><P Class=KRCC>
+-5는 3 또는 4를 쏠 수 있다. 였는데, 
+<Sync Start=1388260><P Class=KRCC>
+-근데 분류를 했으니까. 
+<Sync Start=1388943><P Class=KRCC>
+-그렇죠, 그렇죠. 
+<Sync Start=1389596><P Class=KRCC>
+-맞아요. 
+<Sync Start=1389942><P Class=KRCC>
+-그러니까 얘도 상관없이 바로 50이라고 할 수 있어지면 시간을 줄일 수 있죠. 
+<Sync Start=1394202><P Class=KRCC>
+-분류를 했던 게 신의 한 수. 
+<Sync Start=1396281><P Class=KRCC>
+-맞아요. 일단 분류를 하는 순간 내가 뭔가를 시도를 시작할 수가 있다는 
+<Sync Start=1400632><P Class=KRCC>
+엄청난 장점이 있거든요. 
+<Sync Start=1402516><P Class=KRCC>
+-그러네요. 
+<Sync Start=1402979><P Class=KRCC>
+-그래서 뭐라도 끄적이자. 제가 항상 그래서 그렇게 얘기를 한답니다.
+<Sync Start=1406389><P Class=KRCC>
+마무리를 지어볼게요. 
+<Sync Start=1407247><P Class=KRCC>
+여러분 싹 다 더하면 100+, 
+<Sync Start=1409924><P Class=KRCC>
+-28. 
+<Sync Start=1410361><P Class=KRCC>
+-14, 14, 28. 그죠? 
+<Sync Start=1412252><P Class=KRCC>
+-128. 
+<Sync Start=1412686><P Class=KRCC>
+-정답 128. 
+<Sync Start=1413448><P Class=KRCC>
+-샘보다 제가 조금 계산 잘하는 것 같아요. 
+<Sync Start=1416176><P Class=KRCC>
+-그렇죠. 그렇죠, 그렇죠, 그렇죠. 계산을 잘한다고 수학 잘하는 거 아니라고 그랬어요. 
+<Sync Start=1419792><P Class=KRCC>
+-아니에요, 절대 아니에요. 
+<Sync Start=1420522><P Class=KRCC>
+-걱정하지 말도록 하세요. 
+<Sync Start=1420900><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=1421931><P Class=KRCC>
+-이렇게 마무리를 지어보면 되겠습니다. 
+<Sync Start=1424286><P Class=KRCC>
+-선생님, 너무 감사합니다. 정말 최고야. 정말, 정말, 정말. 
+<Sync Start=1427905><P Class=KRCC>
+-그죠. 
+<Sync Start=1429299><P Class=KRCC>
+-너무 깔끔하니까 학생들이 얼마나 지금 깜짝 놀랄까? 
+<Sync Start=1432274><P Class=KRCC>
+그러니까 처음에 이렇게 오프닝 할 때 이렇게 졸다가
+<Sync Start=1434651><P Class=KRCC>
+이 화면 보면 깜짝 놀랄 거예요. 
+<Sync Start=1438189><P Class=KRCC>
+-괜찮죠, 그래도. 
+<Sync Start=1440415><P Class=KRCC>
+-너무 깔끔하게 너무 잘하셔서 너무, 너무 부러워요. 
+<Sync Start=1443543><P Class=KRCC>
+어쩌면 이렇게, 이 글씨랑 너무 차이가 많이 나니까. 
+<Sync Start=1451789><P Class=KRCC>
+여기까지가 대표 기출 문제 2022학년도 수능이었어요. 15페이지에 있는 거, 4점짜리. 
+<Sync Start=1459229><P Class=KRCC>
+그러니까 여러분 이거 분명히 제가 장담하는데 요거 되게 어려운 문제로 안 출제, 
+<Sync Start=1465720><P Class=KRCC>
+이거 28번 문제로 출제했나 보네? 객관식인 거 봐서. 그죠? 
+<Sync Start=1469106><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=1470131><P Class=KRCC>
+-28번 문제로. 4점짜리 3개. 이번에 이제 9월 모의 평가 때 상당히 바뀌어졌잖아요. 
+<Sync Start=1476402><P Class=KRCC>
+기조가 완전 함수들, 그러니까 우리는 지금 확률과 통계는 그다지 크게 바뀐 거는 모르겠는데 
+<Sync Start=1482775><P Class=KRCC>
+나머지 미적분 쪽으로 가고 수 Ⅱ 쪽으로 가버리면 정말 함수의 종류 자체가, 아니, 
+<Sync Start=1489297><P Class=KRCC>
+그러니까 합성 함수를 찾아볼 수 없을 만큼 너무 단순해졌다는 거죠. 
+<Sync Start=1494048><P Class=KRCC>
+그런 다음에 생각할 건덕지를 엄청 많이 줬었던 거. 
+<Sync Start=1496944><P Class=KRCC>
+그래서 여러분 이번 시험도 거의 마찬가지가 되지 않을까. 
+<Sync Start=1501714><P Class=KRCC>
+그래서 남은 기간 동안 여러분 수학 Ⅰ, 수학 Ⅱ 할 때도 그냥 지금까지 공부했었던 거 
+<Sync Start=1507163><P Class=KRCC>
+막 4점짜리 빠르게 푸는 스킬, 이런 거 집중적으로 공부했던 친구들은 
+<Sync Start=1511042><P Class=KRCC>
+분명히 소용없어질 가능성이 거의 확정적이라고 보거든요? 
+<Sync Start=1514872><P Class=KRCC>
+-그렇죠, 그렇죠. 
+<Sync Start=1515536><P Class=KRCC>
+-그렇죠. 그래서 그 내용, 수학을 공부해라. 스킬을 공부하지 말고 수학을 공부해라. 
+<Sync Start=1520096><P Class=KRCC>
+이 얘기를 다시 한번 해드리고 싶다는 생각이 갑자기 불현듯 드네요. 
+<Sync Start=1525552><P Class=KRCC>
+정말 진행을 잘하지 않습니까? 
+<Sync Start=1527106><P Class=KRCC>
+-그러니까요. 쑥쑥 빨려 들어가게 되잖아요. 
+<Sync Start=1529023><P Class=KRCC>
+-빨려듭니까? 
+<Sync Start=1529592><P Class=KRCC>
+-세상에. 네. 
+<Sync Start=1530319><P Class=KRCC>
+-너무 좋습니다. 근데 4명의 학생에게, A, B, C, D에게 같은 종류의 사인펜 14개를 
+<Sync Start=1538384><P Class=KRCC>
+다음 규칙에 따라서 남김없이 나눠주는 경우의 수를 구하라. 
+<Sync Start=1542062><P Class=KRCC>
+또 이거 나눠주는 경우의 수, 이거. 이거 보통 부정 방정식의 해의 개수로 많이 했던 거 
+<Sync Start=1548978><P Class=KRCC>
+그건 것 같은데요. 그쵸? 그래서 이럴 때는 꼼꼼하게 조건을 읽어봐야 돼요. 
+<Sync Start=1553207><P Class=KRCC>
+각 학생은 1개 이상의 사인펜을 받는다. 그니까 여기까지만 나오면, 
+<Sync Start=1558045><P Class=KRCC>
+여기까지만 나오면 참 괜찮은데, 그러니까 어차피 똑같은 종류의 사인펜, 
+<Sync Start=1562801><P Class=KRCC>
+서로 구분하지 않는 똑같은 종류의 사인펜이니까 개수에만 관심이 있으니까 
+<Sync Start=1567392><P Class=KRCC>
+얘가 받는 사인펜의 개수를 A라 그러고 얘가 받는 사인펜의 개수를 B라 그러고 
+<Sync Start=1572916><P Class=KRCC>
+너는 몇 개 갖냐, 너는 몇 개 갖냐, 이거를 각각 A, B, C, D라 그러면 
+<Sync Start=1576802><P Class=KRCC>
+다 더해서 14개가 되도록 하는 A, B, C, D를 찾아주시면 되는 거예요. 
+<Sync Start=1583166><P Class=KRCC>
+-맞아요. 
+<Sync Start=1583710><P Class=KRCC>
+-그런데 첫 번째 조건 뭐라 그랬냐면 1 이상이라 그랬으니까
+<Sync Start=1587226><P Class=KRCC>
+얘도 자연수, 자연수, 자연수. 
+<Sync Start=1589396><P Class=KRCC>
+여기는 자연수 조건이라고 생각하면 되니까
+<Sync Start=1593200><P Class=KRCC>
+여기까지 풀어라 그럼 만약에 음이 아닌 정수였으면 
+<Sync Start=1595413><P Class=KRCC>
+4H14로 끝냈겠지만 그렇게 하지 않고 자연수니까
+<Sync Start=1600231><P Class=KRCC>
+하나 이상씩은 반드시 다 선택을 해야 된다. 
+<Sync Start=1602963><P Class=KRCC>
+그럼 저는 어떻게 얘기를 했었냐면, 학생들한테 이거 아이스크림 집이라 그래가지고 
+<Sync Start=1606830><P Class=KRCC>
+미리 전화해서 하나 먼저 다 주문해 놓으라 그랬거든요. 
+<Sync Start=1610132><P Class=KRCC>
+그러니까 4가지 맛 아이스크림 중에서 10개만 뽑으면 된다는 거죠. 
+<Sync Start=1615460><P Class=KRCC>
+하나씩 이미 다 채워놨으니까 10개만 뽑으면 된다. 그래서 4H10이다. 
+<Sync Start=1619956><P Class=KRCC>
+이렇게 쓰는 게 바로 여기까지만 나왔을 때 하는 이야기일 거예요. 
+<Sync Start=1623974><P Class=KRCC>
+근데 (나)라는 조건은 뭐냐면 각 학생이 받는 사인펜의 개수가 9 이하다. 
+<Sync Start=1632220><P Class=KRCC>
+이상 조건은 미리 전화만 하면 된다 그랬는데 이하 조건은 어떻게 해야 되느냐. 
+<Sync Start=1638340><P Class=KRCC>
+여사건을 빼야 된다 그랬어요.
+<Sync Start=1639984><P Class=KRCC>
+그니까 10 이상이 되는 경우를 빼줘야 돼요. 여기까지 나왔어. 
+<Sync Start=1646320><P Class=KRCC>
+예를 들어서. 여기까지만 나왔어. 이것도 어려워요. 여기까지만 나와도. 그렇잖아요. 
+<Sync Start=1651129><P Class=KRCC>
+-맞아요. 
+<Sync Start=1651892><P Class=KRCC>
+-난 하나 더 나오면, 그러면 유빈 샘이 풀지 내가. 아니에요. 
+<Sync Start=1659083><P Class=KRCC>
+이거는 그냥 제가 끝까지 한번 해볼게요. 
+<Sync Start=1661839><P Class=KRCC>
+나는 저걸 보니까 각 학생이 받는 사인펜의 개수가 9 이하, 
+<Sync Start=1667399><P Class=KRCC>
+이하 조건이라 그랬으니까 일단 자유를 줘. 그중에서 안 되는 걸 빼면 돼. 
+<Sync Start=1673198><P Class=KRCC>
+자유를 준다는 것은 4가지 맛 아이스크림 중에서 10개를 뽑는다.
+<Sync Start=1677353><P Class=KRCC>
+그중에서 안 되는 게 뭐냐. 
+<Sync Start=1678648><P Class=KRCC>
+하나라도 10 이상이면 안 되잖아요. 
+<Sync Start=1680387><P Class=KRCC>
+-그쵸. 
+<Sync Start=1680893><P Class=KRCC>
+-그렇게 되는 경우를 빼주면 되는데 하나라도 10 이상. 
+<Sync Start=1684443><P Class=KRCC>
+그런데 가만히 생각해 보면 2개가 10 이상일 수는 없어요. 
+<Sync Start=1688105><P Class=KRCC>
+왜? 다 더해서 14밖에 안 되니까 어차피 하나가, 
+<Sync Start=1691232><P Class=KRCC>
+저 규칙을 만족하지 않는 경우의 수를 빼주면 되는 거고. 
+<Sync Start=1694223><P Class=KRCC>
+그 하나가 만족하지 않는 경우의 수를 지금부터 생각할 텐데 일단 뭐를 하느냐. 
+<Sync Start=1699009><P Class=KRCC>
+얘가 그럴 수도 있고, 얘가 10 이상이, 얘가 10, 
+<Sync Start=1701266><P Class=KRCC>
+그니까 10 이상이 될 한 놈을 4개 중에 하나를 뽑은 다음에, 이게 끝나지 않았고. 
+<Sync Start=1706238><P Class=KRCC>
+그중에서 하나를 확정 짓는 게 좋다 그랬어요. 
+<Sync Start=1708164><P Class=KRCC>
+예를 들어서 A로 확정을 지었다면 A가, A가, 얘가 10 이상인 경우라고 생각해 본다면 
+<Sync Start=1718734><P Class=KRCC>
+그렇게 돼 있는 경우의 수를 빼주면 된다. 선생님, B가 그럴 수도 있고, C가. 
+<Sync Start=1724539><P Class=KRCC>
+그건 이미 여기다 써놨으니까. A만 생각하면 된다. 그래서 확정을 그냥 지어버리면 돼요. 
+<Sync Start=1729751><P Class=KRCC>
+A가 10 이상이 되는 경우를 생각해 주시면 된다. 
+<Sync Start=1734854><P Class=KRCC>
+그럼 만약에 얘가 10 이상이라는 얘기도 14네? 10도 될 수 있고 11도 될 수 있잖아요. 
+<Sync Start=1742264><P Class=KRCC>
+근데 만약에 12가 되면, 
+<Sync Start=1743358><P Class=KRCC>
+-안 돼. 
+<Sync Start=1743927><P Class=KRCC>
+-나머지는 최소가 1이니까 14를 벗어나게 돼서 결국 A가 될 수 있는 것은 
+<Sync Start=1749205><P Class=KRCC>
+10이나 11밖에 없다는 거예요. 그러면 A가 10인 경우는 그럼 몇 가지냐. 
+<Sync Start=1754170><P Class=KRCC>
+나머지는 얘, 얘, 얘인데 이거 먼저 하자. 11인 경우는 1, 1, 1밖에 없잖아요. 
+<Sync Start=1759167><P Class=KRCC>
+그래야지 14니까. 그래서 11, 1, 1, 1. 이렇게 되는 한 가지와, 분류했으니까 더 해야죠? 
+<Sync Start=1766627><P Class=KRCC>
+10이 되는 경우는 1, 1, 1 중에서 하나만 2가 돼야 되는 거니까 직접 해도 돼요. 
+<Sync Start=1772167><P Class=KRCC>
+2, 1, 1, 1, 2, 1, 1, 1, 2. 이렇게 가도 돼고. 그쵸? 그래서 그렇게 되는 3가지. 
+<Sync Start=1779083><P Class=KRCC>
+저도 유빈 샘처럼 여기다가 써줄래요. 여기 1이라는 거는 바로 뭐냐 하면 
+<Sync Start=1784960><P Class=KRCC>
+1이라는 것은 A가 뭐일 때? 11일 때. 3이라는 것은 A가 뭐일 때? 10일 때. 
+<Sync Start=1793521><P Class=KRCC>
+그쵸? 이럴 때 그러하다는 거죠. 그래서 안 되는 경우를 빼주면, 
+<Sync Start=1801189><P Class=KRCC>
+4H10에서 빼주면 결국 (가), (나), 2가지 조건을 만족하는 경우의 수까지는 끝난 거예요. 
+<Sync Start=1810292><P Class=KRCC>
+그런데 에구머니나, (다)라는 조건이 하나는, 
+<Sync Start=1813728><P Class=KRCC>
+적어도 하나는 짝수개의 사인펜을 받아야 되는구나. 여기서 할 수 있는 방법이 2가지다. 
+<Sync Start=1823055><P Class=KRCC>
+직접 적어도 한 명이 짝수개를 받도록 만드는 방법, 그래서 분류하는 방법이 있고. 
+<Sync Start=1828406><P Class=KRCC>
+하나는 여사건, 적어도 하나는 짝수, 그러면 모두 홀수. 이런 방법이 있죠. 
+<Sync Start=1833222><P Class=KRCC>
+저 같으면 그냥 여사건으로 해결할 것 같아요. 
+<Sync Start=1835587><P Class=KRCC>
+그래서 차라리 전체 경우의 수에서 여사건을 빼주면 되는데 
+<Sync Start=1840105><P Class=KRCC>
+전체 경우라는 것은 얘의 여사건이니까 이걸 일단 만족시켜야 된다는 얘기예요. 
+<Sync Start=1844430><P Class=KRCC>
+그러니까 조금 전에 구했었던 얘가 전체 경우의 수가 되는 거고 
+<Sync Start=1848456><P Class=KRCC>
+그중에서 여사건을 빼는데 모두 다 뭐인 거, 모두 다 홀수인 거. 
+<Sync Start=1855624><P Class=KRCC>
+짝수, 홀수는 제가 치환에서 풀라고 그랬으니까. 
+<Sync Start=1858272><P Class=KRCC>
+2a 또는 2a-2a+1로 푸는 거니까 그거는 괜찮다. 그렇다면 어떻게 처리할 것이냐. 
+<Sync Start=1864381><P Class=KRCC>
+모두 다 홀수가 되는 경우의 수를 따로 구해서 그거를 빼주자. 이런 얘기야. 
+<Sync Start=1871665><P Class=KRCC>
+그런데 모두 다 홀수가 되는 경우도 그것만 생각하면 되는 게 아니라 
+<Sync Start=1875100><P Class=KRCC>
+이 안에서 생각하는 거니까 첫 번째, 두 번째는 염두에 둔 상황에서 
+<Sync Start=1883684><P Class=KRCC>
+얘도 홀수, 홀수, 홀수, 홀수, 자연수, 자연수, 자연수, 자연수, 
+<Sync Start=1889190><P Class=KRCC>
+9 이하, 9 이하, 9 이하, 9 이하. 요거를 빼주면 되네요. 그쵸. 
+<Sync Start=1893588><P Class=KRCC>
+그래서 총 14가 되도록 하는 경우의 수가 바로 여사건의 경우의 수니까 
+<Sync Start=1898901><P Class=KRCC>
+이런 경우의 수를 빼주면 된다는 거. 이거 어떻게 할까요?
+<Sync Start=1903540><P Class=KRCC>
+홀수라 그랬으니까 얘를 치환하자. 
+<Sync Start=1906060><P Class=KRCC>
+뭘로 치환하느냐. 2a'-1.
+<Sync Start=1909620><P Class=KRCC>
+그런데 항상 2a'-1로 쓸지 +1로 쓸지는 조건이 자연수 조건이냐, 
+<Sync Start=1914460><P Class=KRCC>
+음의 정수 조건이냐, 음이 아닌 정수 조건이냐, 차이가 있는 거니까 
+<Sync Start=1917728><P Class=KRCC>
+항상 내가 아까 자연수라고 이야기를 했으니까 얘가 자연수가 되려면 
+<Sync Start=1922580><P Class=KRCC>
+a'은 1 이상일 때부터구나. 따라서 우리가 새롭게 만든 a'은 자연수라는 조건. 
+<Sync Start=1929313><P Class=KRCC>
+우리 아까 그냥 a도 자연수라는 조건이었지만
+<Sync Start=1932586><P Class=KRCC>
+a'이라는 요 글자도 자연수 조건이 들어간다. 
+<Sync Start=1936979><P Class=KRCC>
+마찬가지로 2b'-1, 여기를 2c'-1, 얘를 2b'-1로 쓴다면 
+<Sync Start=1944061><P Class=KRCC>
+결국 a', b', c', d' 모두 다 자연수 조건이라고 쓰시고, 아직 안 끝났어요. 
+<Sync Start=1951804><P Class=KRCC>
+끝까지 보세요. -1, -1, -1, -1, -4니까 넘어가면 18이 되는데 
+<Sync Start=1958146><P Class=KRCC>
+다 2가 붙어 있으니까 양변을 2로 나누면 9로 바뀌는 거니까 
+<Sync Start=1962586><P Class=KRCC>
+a'+b'+c'+d'=9를 만족시키는 자연수의 개수를 생각하면 되느냐.
+<Sync Start=1971464><P Class=KRCC>
+아직도 안 한 게 있어. 
+<Sync Start=1972776><P Class=KRCC>
+그게 뭐냐. 아까는 a, b, c는 9 이하였는데 a'은 달라질 수 있잖아요.
+<Sync Start=1979665><P Class=KRCC>
+얘가 바로 a'이니까. 
+<Sync Start=1981628><P Class=KRCC>
+여기서 따져야 되는 거잖아요? 그러면 a'이 얼마까지 가능하냐. 
+<Sync Start=1987215><P Class=KRCC>
+5가 되면, 5가 되면 얘가 딱 9가 되는 거니까 여기서 a', b', c', d'은 뭐 이하가 돼라? 
+<Sync Start=1995440><P Class=KRCC>
+5 이하가 되라는 조건으로 이렇게 바뀌겠네요. 
+<Sync Start=1998264><P Class=KRCC>
+그러니까 얘를 만족시키는 자연수 순서쌍의 개수를 구하면 
+<Sync Start=2002749><P Class=KRCC>
+그것이 바로 여사건의 경우의 수가 되는 거니까
+<Sync Start=2005687><P Class=KRCC>
+아까 거에서 그냥 빼주면 끝난다는 이야기죠. 
+<Sync Start=2008968><P Class=KRCC>
+좋아요. 끝났어요. 어떻게 할까요? 이렇게 해야지. 
+<Sync Start=2014275><P Class=KRCC>
+또 이하 조건이 나왔으니까. 일단은 요거 생각하지 말고 푼 다음에 여사건, 
+<Sync Start=2019516><P Class=KRCC>
+다른 말로 6 이상인 경우를 빼주자. 그냥 자연수 조건을 생각해라 그러면 
+<Sync Start=2024724><P Class=KRCC>
+4가지 맛 아이스크림 중에서 9개를 뽑지 말고 하나씩 미리 다 뽑아놨으니까 
+<Sync Start=2028806><P Class=KRCC>
+5개만 뽑아주시면 되겠구나. 인데 이 중에서 안 되는 거를 뺀다. 뭐가 안 되느냐. 
+<Sync Start=2035148><P Class=KRCC>
+6 이상인 경우. 그런데 6, 1, 1, 1, 그거밖에 없네? 
+<Sync Start=2041362><P Class=KRCC>
+그럼 그냥 6, 1, 1, 1, 1, 6, 1, 1, 1, 1, 6, 모나리자, 모나리자, 모나리자, 모나리자. 
+<Sync Start=2047229><P Class=KRCC>
+그거잖아. 그럼 4개만 빼면 되네. 그쵸? 아까처럼 어렵게 생각할 것도 없죠. 
+<Sync Start=2054753><P Class=KRCC>
+7은 분명히 안 될 테니까, 이 9라는 조건을 만족시키지 못하니까. 
+<Sync Start=2059694><P Class=KRCC>
+그렇다면 그냥 이 중에서 6 이상인 거 하나를 먼저 뽑고 
+<Sync Start=2062993><P Class=KRCC>
+1 끝나지 않았고 아까처럼 풀어도 되겠지만 너무 단순하니까, 나머지는 다 1이니까 
+<Sync Start=2067360><P Class=KRCC>
+6, 1, 1, 1.
+<Sync Start=2068429><P Class=KRCC>
+1, 6, 1, 1.
+<Sync Start=2070097><P Class=KRCC>
+1, 1, 6, 1.
+<Sync Start=2070820><P Class=KRCC>
+1, 1, 1, 6.
+<Sync Start=2072200><P Class=KRCC>
+네 가지를 빼주면 최종적인 답이 되겠구나. 
+<Sync Start=2075620><P Class=KRCC>
+이렇게 가시면 되겠죠. 그쵸? 
+<Sync Start=2076622><P Class=KRCC>
+-맞아요. 
+<Sync Start=2077082><P Class=KRCC>
+-좋아요. 이게 8C3이니까 8×7=56에서 4 빼니까 52가지가 바로 여사건의 경우의 수고. 
+<Sync Start=2090020><P Class=KRCC>
+우리 전체 경우의 수는, 얘는 C10으로 끊어요. 13에서 3개만 곱하면 되네요. 
+<Sync Start=2094703><P Class=KRCC>
+13C, 13, 12, 11×3!, 6으로 나눠주면 요게 2니까 이게 얼마지? 26, 26인가? 
+<Sync Start=2102981><P Class=KRCC>
+286에서 16을 빼네? 그러면 270인가? 270에서 52를 빼면, 50을 빼면 180이네요? 아닌가? 
+<Sync Start=2113759><P Class=KRCC>
+50을, 270에, 50에 120이지? 120에서 2를 더 빼야 되겠구나. 
+<Sync Start=2118763><P Class=KRCC>
+-2 더 빼요. 
+<Sync Start=2119418><P Class=KRCC>
+-그래요? 그럼 118이라는게, 
+<Sync Start=2121083><P Class=KRCC>
+-118. 
+<Sync Start=2121795><P Class=KRCC>
+-그게 답이에요? 
+<Sync Start=2123067><P Class=KRCC>
+-확인. 확인. 
+<Sync Start=2126099><P Class=KRCC>
+-확인. 
+<Sync Start=2127054><P Class=KRCC>
+-네. 218. 
+<Sync Start=2128326><P Class=KRCC>
+-218? 
+<Sync Start=2128980><P Class=KRCC>
+-218이잖아요. 
+<Sync Start=2129742><P Class=KRCC>
+-왜? 
+<Sync Start=2130136><P Class=KRCC>
+-아니, 270에서 52 뺐으니까요, 샘. 
+<Sync Start=2132903><P Class=KRCC>
+-그러니까 여러분들은 시험장에서 이렇게 파면 돼요, 안 돼요? 안 돼요. 제대로. 그치. 
+<Sync Start=2137088><P Class=KRCC>
+그냥 그렇게 파지 말고 제대로 가야지. 그래서 여기는 얼마 나왔다고요? 16을 뺐어. 
+<Sync Start=2143780><P Class=KRCC>
+어디에서? 286에서 16 빼서 270. 좋아요. 그래서 반드시 쓰라는 거. 
+<Sync Start=2150447><P Class=KRCC>
+270에서 52를 빼야 되는 거니까. 
+<Sync Start=2153522><P Class=KRCC>
+-그쵸, 그쵸. 218. 그건 할 수 있어요. 
+<Sync Start=2156711><P Class=KRCC>
+-218이네? 그래서 최종적인 답은 218. 이거 답 맞습니까? 
+<Sync Start=2159271><P Class=KRCC>
+-맞아요, 맞아요, 맞아요. 
+<Sync Start=2160275><P Class=KRCC>
+-그래서 이렇게 처리하라는 거.
+<Sync Start=2161940><P Class=KRCC>
+우리가 아까 풀었었던, 샘은 어떤 게 더 어려운 것 같아요? 
+<Sync Start=2164680><P Class=KRCC>
+난 2개 똑같이 다 어려운 것 같고 2개 똑같이 핵심 부분이 있는 것 같아. 
+<Sync Start=2169178><P Class=KRCC>
+뭐가 있는 것 같냐면 틀릴 만한 요소들이 있었던 것 같아요. 
+<Sync Start=2172218><P Class=KRCC>
+-많이 있어요. 
+<Sync Start=2172717><P Class=KRCC>
+-그쵸, 그쵸. 그러니까 그런 것들을 우리 지금 대화로 다 녹여낸 거잖아요. 
+<Sync Start=2176980><P Class=KRCC>
+사실 여러분 되게 자연스러워 보이지만 이거 다 대본으로 다 만든 겁니다. 
+<Sync Start=2181468><P Class=KRCC>
+한 글자 한 글자 우리 지금 다 외워 가지고 하는 거란 말이에요. 
+<Sync Start=2185286><P Class=KRCC>
+이 부분에서 어떤 감동을 주고 이 부분에서 애들한테 경각심을 심어, 내가 하자. 
+<Sync Start=2190847><P Class=KRCC>
+218은 누가 모르겠어. 118 한번 갔다 갈까요? 그럴까요? 정말 진짜. 
+<Sync Start=2196331><P Class=KRCC>
+우리는 대단한 사람들인 것 같아요. 
+<Sync Start=2197201><P Class=KRCC>
+-그 정도로 대부분 우리 외울 수 있는 것 같아요. 저 계산을 한 방에 해내지 않았을까. 
+<Sync Start=2200952><P Class=KRCC>
+-그러면 거의 지금 뮤지컬 배우가 됐겠지. 
+<Sync Start=2202893><P Class=KRCC>
+-장난 아니겠죠. 
+<Sync Start=2203673><P Class=KRCC>
+-그럼. 아무튼 진짜 우리 둘이 나눴던 대화 중에서
+<Sync Start=2207577><P Class=KRCC>
+정말 중요한 이야기 다 들어가 있었거든요. 
+<Sync Start=2210331><P Class=KRCC>
+이 부분은 반드시 조심해야 되고 저 부분은 어디를 조심해야 된다. 
+<Sync Start=2214100><P Class=KRCC>
+이런 이야기 너무 중요한 거니까 반드시 여러분 알고 계셔야 돼요. 
+<Sync Start=2218931><P Class=KRCC>
+이번 시간의 마지막 문제로는 요거는 쉬울 것 같은데요? 
+<Sync Start=2225105><P Class=KRCC>
+-매우 쉬워요, 샘. 
+<Sync Start=2225848><P Class=KRCC>
+-매우 쉬워요? 
+<Sync Start=2226625><P Class=KRCC>
+-매우 쉬워요. 
+<Sync Start=2226991><P Class=KRCC>
+-그런데 이거 4점짜리로 줬네요? 거저 주는 문제네요? 
+<Sync Start=2229943><P Class=KRCC>
+-그쵸, 그쵸. 
+<Sync Start=2230522><P Class=KRCC>
+-한번 문제 한번 읽어볼게요. 1, 2, 3, 4, 5 중에서 서로 다른 4개를 택해서 
+<Sync Start=2236000><P Class=KRCC>
+일렬로 나열해서 만들 수 있는 네 자리 자연수. 그러면 5P4가지잖아요. 그쵸? 
+<Sync Start=2243097><P Class=KRCC>
+그중에서 임의로 하나를 택할 때, 확률이구나. 
+<Sync Start=2249033><P Class=KRCC>
+확률은 전체 경우의 수부터 처리를 하는 거니까
+<Sync Start=2252845><P Class=KRCC>
+전체 경우의 수는 아까 얘기했던 것처럼 5P4, 
+<Sync Start=2255667><P Class=KRCC>
+120가지가 될 것 같고요. 그중에서 5의 배수, 또는 3500. 
+<Sync Start=2260584><P Class=KRCC>
+이거 완전 기본 문제 중에서 완전 생 기본 문제.
+<Sync Start=2263463><P Class=KRCC>
+우리 수능 특강보다도 더 쉬웠던 문제네요. 
+<Sync Start=2265846><P Class=KRCC>
+그죠. 당연히 2가지로 분류하는데 동시에 일어나는 경우의 수를 빼줘야 된다. 
+<Sync Start=2270732><P Class=KRCC>
+거기가 이제 이 문제의 핵심 포인트가 아닐까.
+<Sync Start=2273914><P Class=KRCC>
+별달리 어렵지 않게 여러분 풀었을 것 같아요. 
+<Sync Start=2277105><P Class=KRCC>
+5의 배수가 되는 경우와 3500 이상인 경우 2가지로 분류를 해서 
+<Sync Start=2282345><P Class=KRCC>
+맨 마지막에 동시에 일어나는 경우의 수를 빼주자는 거죠. 그죠. 첫 번째는 뭐냐. 
+<Sync Start=2289267><P Class=KRCC>
+5의 배수로 끝나는. 힘드네요, 이제?
+<Sync Start=2296160><P Class=KRCC>
+5의 배수로 끝나려면, 선생님, 5의 배수로 끝나려면, 
+<Sync Start=2299720><P Class=KRCC>
+-5로. 
+<Sync Start=2300706><P Class=KRCC>
+-5로 끝나거나 원래는 0으로 끝나야 되는데
+<Sync Start=2302867><P Class=KRCC>
+여기는 0이 없으니까 무조건 5로 끝나야 되잖아요. 
+<Sync Start=2305893><P Class=KRCC>
+땐땐땐땐, 5로 끝나면 그게 바로 
+<Sync Start=2309459><P Class=KRCC>
+-네 자리, 네 자릿수. 
+<Sync Start=2310849><P Class=KRCC>
+-네 자릿수래요. 네 자릿수. 요렇게 처리하면 될 것 같고 그다음에 3500 이상이 돼라. 
+<Sync Start=2319351><P Class=KRCC>
+이 말은 35로 시작해도 3500 이상이니까 되죠. 34로 시작하면 안 되고. 
+<Sync Start=2326250><P Class=KRCC>
+그다음 거는, 샘, 4로 시작하는 거는 100의 자리 볼 필요 없고 5로 시작하는 것도 
+<Sync Start=2330786><P Class=KRCC>
+100의 자리 볼 필요 없잖아요. 그러니까 이런 경우, 이런 경우, 이런 경우, 
+<Sync Start=2336012><P Class=KRCC>
+이런 경우를 각각 구해서 맨 마지막에 동시에 일어나는 경우의 수를 빼자. 
+<Sync Start=2341349><P Class=KRCC>
+이렇게 풀면 될 것 같아요.
+<Sync Start=2342954><P Class=KRCC>
+첫 번째, 그냥 3개 뽑아서 여기다가 줄 세우면 될 것 같은데요? 
+<Sync Start=2348703><P Class=KRCC>
+5는 이미 썼으니까 5를 제외한 1, 2, 3, 4, 4개 중에 3개 뽑아서 줄 세우니까 4P3가지, 
+<Sync Start=2355810><P Class=KRCC>
+24가지 하나 됐고. 설명할 건덕지가 없네요. 3개 중에 2개 꺼내서 줄 세우면 되네요. 
+<Sync Start=2363364><P Class=KRCC>
+이게 3P2, 그리고 아까 유빈 샘이랑 그렇게 강조했었던 거, 다르네? 
+<Sync Start=2370789><P Class=KRCC>
+똑같이 이거, 이거는 어떻게 돼요.
+<Sync Start=2374925><P Class=KRCC>
+이거는 4를 제외한 4개 중에서 3개 뽑아서 줄 세운다. 
+<Sync Start=2380366><P Class=KRCC>
+그쵸? 그래서 얘가 24가지. 근데 얘는 어때요. 이게 똑같네? 
+<Sync Start=2386207><P Class=KRCC>
+이거, 얘가 4일 때랑 4와 5의 그 특별한, 만약에 문제가 어떻게 나오면, 
+<Sync Start=2393045><P Class=KRCC>
+단, 5000보다 작은 경우에는 뭐여야 한다. 예를 들어서 짝수여야 한다. 
+<Sync Start=2398759><P Class=KRCC>
+이런 조건, 그럼 진짜 어렵겠다. 또 불려야 되잖아요. 그쵸. 
+<Sync Start=2402443><P Class=KRCC>
+그게 아니라 4로 시작하거나 5로 시작하는 거랑 차이가 없다는 그 느낌이 
+<Sync Start=2407192><P Class=KRCC>
+선생님 저는 되게 중요한 것 같아요. 
+<Sync Start=2408940><P Class=KRCC>
+-맞아요. 
+<Sync Start=2410075><P Class=KRCC>
+-그래서 똑같다. 요런 느낌으로 가시면 되겠다. 
+<Sync Start=2416163><P Class=KRCC>
+그중에서 이제 뭘 빼주면 돼요? 동시에 일어나는, 
+<Sync Start=2418380><P Class=KRCC>
+-겹치는, 
+<Sync Start=2418752><P Class=KRCC>
+-그 얘기는 뭐냐면 3500 이상이면서 5로 끝나야 되니까 이 중에서 5로 끝나는 거는 
+<Sync Start=2424279><P Class=KRCC>
+이거밖에 없는데? 여기도 5를 썼고 여기도 5를 썼으니까. 
+<Sync Start=2426859><P Class=KRCC>
+-맞아요. 
+<Sync Start=2428042><P Class=KRCC>
+-4로 시작하는 얘만 여사건이네요. 그쵸? 
+<Sync Start=2432835><P Class=KRCC>
+그래서 4, 5를 제외한 3개 중에서 2개 뽑아서 줄 세우면 되는 거니까 3P2가지. 
+<Sync Start=2439118><P Class=KRCC>
+그래서 6가지다. 그러고 봤더니 이렇게 더해서 얘를 빼는 거니까
+<Sync Start=2443974><P Class=KRCC>
+처음부터 6은 더하지 말고 24만 3번 더 하면 되니까 3×4=12.
+<Sync Start=2449240><P Class=KRCC>
+아, 또 확률이라서 직접 계산해야 되네요? 그래서 24를, 
+<Sync Start=2454460><P Class=KRCC>
+-72. 
+<Sync Start=2455830><P Class=KRCC>
+-72잖아. 여기에다가 72를 써주면 되고. 그래서 120분의 72. 이렇게 되니까 
+<Sync Start=2464264><P Class=KRCC>
+-5, 4, 3, 2. 5, 4, 3, 2. 
+<Sync Start=2474672><P Class=KRCC>
+-왜 이렇게 어렵게 나와요, 요즘 수능에는? 
+<Sync Start=2476407><P Class=KRCC>
+-그래서 120을 아예 안 하고 그냥 5, 4, 3, 2를 쓰고, 
+<Sync Start=2479275><P Class=KRCC>
+-맞아요. 저도 그래요. 아주 중요한 얘기인 것 같아. 
+<Sync Start=2481559><P Class=KRCC>
+-120 계산을 너무 잘하셔가지고 깜짝 놀랐어. 
+<Sync Start=2483188><P Class=KRCC>
+-여러분, 이거는 이렇게 하는 게 아니에요.
+<Sync Start=2485273><P Class=KRCC>
+5, 4, 3, 2. 1은 안 써도 되니까. 이렇게 쓰고. 
+<Sync Start=2489999><P Class=KRCC>
+얘 같은 경우에는, 9를 이렇게 쓰고 8을 이렇게 쓰면 요게 날아가네. 
+<Sync Start=2499264><P Class=KRCC>
+-맞아. 
+<Sync Start=2501227><P Class=KRCC>
+-그쵸? 
+<Sync Start=2501779><P Class=KRCC>
+-맞아요. 
+<Sync Start=2502250><P Class=KRCC>
+-샘도 이렇게 하시는구나. 그래서 최종적인 답은 얼마다? 5분의 3이다. 
+<Sync Start=2507098><P Class=KRCC>
+이렇게 하면 될 것 같아요. 선생님 나와주세요.
+<Sync Start=2508960><P Class=KRCC>
+이제 마무리 지어야 될 것 같아요. 제1강. 
+<Sync Start=2510980><P Class=KRCC>
+이거 시간 가는 줄 모르고 했네요. 그래서 이번 시간은 경우의 수, 
+<Sync Start=2516541><P Class=KRCC>
+그것도 나올 확률이 제일 높은 함수의 개수 했었고. 그다음에 제가 뭐 했었죠? 
+<Sync Start=2521850><P Class=KRCC>
+-중복 조합. 
+<Sync Start=2522566><P Class=KRCC>
+-중복 조합. 아이스크림 문제, 그 문제 부정 방정식의 해의 개수 2가지. 
+<Sync Start=2527321><P Class=KRCC>
+그리고 확률에서는 아주 기본적인 단순 분류에서 동시에 일어나는 교집합 빼주는 거. 
+<Sync Start=2531888><P Class=KRCC>
+그렇게까지 한번 공부를 해봤습니다. 1강이 끝난 것 같습니다. 2강에서 뵐까요? 
+<Sync Start=2537838><P Class=KRCC>
+-그렇죠. 
+<Sync Start=2538446><P Class=KRCC>
+-1강 끝은 어떻게 할까요? 
+<Sync Start=2543622><P Class=KRCC>
+-뭘 할까요? 
+<Sync Start=2546535><P Class=KRCC>
+-그냥 악수하고 헤어지십시다. 
+<Sync Start=2547803><P Class=KRCC>
+-악수? 이게 뭐야. 
+
+
+</BODY>
+</SAMI>

@@ -1,0 +1,733 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=10430><P Class=KRCC>
+보세요. 우리 시작한 지 얼마 되지 않았는데 벌써 경우의 수를 종료합니다. 
+<Sync Start=16229><P Class=KRCC>
+그리고 다음 강좌부터는 어디 들어가요? 확률부터 또 들어갈 거예요. 
+<Sync Start=21097><P Class=KRCC>
+경우의 수, 확률, 통계, 요 3개의 단원중에 벌써 3분의 1이 끝났습니다. 빠르죠. 얼마나 좋아. 
+<Sync Start=34744><P Class=KRCC>
+경우의 수 마지막 이야기 중복 조합, 중복 조합해서 공부했었던 건 뭐예요. 아이스크림 집. 
+<Sync Start=40725><P Class=KRCC>
+그렇지. 부정 방정식 얘기했어. 몇 가지 맛 아이스크림 중에서 
+<Sync Start=43676><P Class=KRCC>
+몇 가지를 선택하는 방법이 있어. 이상 조건 어떻게 풀라고? 
+<Sync Start=46784><P Class=KRCC>
+이상 조건, 이상 조건 어떻게 풀라고? 전화 먼저 해라. 그래서 몇 개를 미리 뽑아두면 된다. 
+<Sync Start=51747><P Class=KRCC>
+이하 조건은 여사건, 이하 조건은 뭐로 푼다? 여사건으로 푼다. 
+<Sync Start=59714><P Class=KRCC>
+이렇게 말씀을 드렸었던 거 그거 잘 기억하시고 
+<Sync Start=62725><P Class=KRCC>
+또 중복 조합에서 많이 나왔었던 것 중의 하나가 함수의 개수 중에서 
+<Sync Start=66038><P Class=KRCC>
+증가함수의 개수 구할 때 중복 조합을 쓰는, 등호가 있을 때 중복 조합을 쓰는 거 
+<Sync Start=71221><P Class=KRCC>
+반드시 기억해 두시고요. 이향 정리로 넘어가면 2개의 파트, 
+<Sync Start=76442><P Class=KRCC>
+앞부분 파트는 특정 항의 계수 구하는 거, 뒷부분은 C의 즐거움, 이항계수의 성질, 
+<Sync Start=84400><P Class=KRCC>
+2의 n제곱 그거랑 전반부의 합, 후반부의 합, 짝수들의 합, 홀수들의 합은 전체의 절반이다. 
+<Sync Start=90192><P Class=KRCC>
+그다음에 저번 시간에 맨 마지막에 공부했었던 파스칼의 삼각형. 
+<Sync Start=92647><P Class=KRCC>
+앞엣것도 커지고 뒤의 것도 꺼지면 앞엣것만 커지고 
+<Sync Start=95066><P Class=KRCC>
+앞엣것만 커지면 앞엣것도 커지고 뒤의 것도 커진다. 
+<Sync Start=97637><P Class=KRCC>
+거기까지 확실하게 잘 정리하는 여러분과 함께 
+<Sync Start=101475><P Class=KRCC>
+여러분 먼저 풀어보시고 제 수업을 들으라 그랬습니다. 
+<Sync Start=104638><P Class=KRCC>
+레벨 1부터 한번 풀어보도록 하겠습니다. 레벨 1은 3점짜리고요. 레벨 2는 4점짜리입니다. 
+<Sync Start=114545><P Class=KRCC>
+레벨 3은 5점짜리입니다. 시작합니다. 기초 연습. H는 C로 바꾸는데 뒤에 있는 건 똑같잖아요. 
+<Sync Start=126910><P Class=KRCC>
+뒤에 있는 건 똑같잖아요. 그리고 얘는 뭐예요. 더해서 1 뺀다. 더해서 1 뺀다. 
+<Sync Start=137452><P Class=KRCC>
+더해서 1 뺀다. 이래요. 선생님 4C2랑 6C3이랑 8C4를 더하라 그래서 이거 다 알고 있는 거네. 
+<Sync Start=148658><P Class=KRCC>
+6이고, 20이고, 얘는 70이니까 96. 답은 ②번. 끝. 이렇게 간단하다. 아유 잘한다. 
+<Sync Start=155372><P Class=KRCC>
+한다, 한다, 잘한다. x에서 y로의 함수의 개수를 세시오. X에 1, 2, 3. Y 4, 5, 6, 7, 8. 
+<Sync Start=169895><P Class=KRCC>
+X에서 Y로의 함수의 개수. 그런데 f(1), f(2), f(3)을 봤더니 점점 커진대. 
+<Sync Start=176532><P Class=KRCC>
+그 얘기는 얘네들의 함숫값도 점점 커진다는 얘기니까 무슨 수열? 무슨 함수? 증가함수. 
+<Sync Start=184442><P Class=KRCC>
+그런데 등호가 있다는 것은 같아도 되는 거니까 어떻게 생각하자? 중복 조합의 개수. 
+<Sync Start=193311><P Class=KRCC>
+화살 맞으려고 준비하고 있는 곤욕의 원소 5개 중에서 화살은 총 몇 명이 맞겠니? 
+<Sync Start=198503><P Class=KRCC>
+3명이 쏘니까 3명이 맞을 텐데 5명 중에서 3명을 뽑기만 하면 순서는 결정돼 있잖아. 
+<Sync Start=206775><P Class=KRCC>
+왜? 증가 수열이라면, 증가함수라면 작은 것부터 매칭이 돼야 되니까. 
+<Sync Start=210617><P Class=KRCC>
+그런데 등호가 있다는 것은 뭐도 된다 그랬어요? 
+<Sync Start=215135><P Class=KRCC>
+중복을 허락해서 3개를 뽑는 방법에서랑 똑같으니까 답은 5H3이다. 이렇게 말씀드렸었습니다. 
+<Sync Start=224439><P Class=KRCC>
+9C3이니까 얘는 84가, 뭐야? 7C3입니까? 미안합니다. 7C3이니까 답은 얼마입니까? 35가지다. 
+<Sync Start=236973><P Class=KRCC>
+이렇게 처리하시면 된다는 거. 아주 전형적인 증가함수의 개수. 이유 다 설명할 줄 알아야 돼. 
+<Sync Start=243682><P Class=KRCC>
+결과만 공부하면 응용문제를 못 푼다는 거야. 
+<Sync Start=247661><P Class=KRCC>
+세 번째. 이거는 처음 보는 문제지만 우리 충분히 생각할 수 있어. 서로 다른 항의 개수래. 
+<Sync Start=255533><P Class=KRCC>
+처음 보지만 이런 문제 얘를 전개했을 때 서로 다른 항의 개수가 
+<Sync Start=267752><P Class=KRCC>
+어떻게 생겼다는거 어떻게 아느냐. 우리 이항 정리할 때, 이건 이항 정리는 아니지만 
+<Sync Start=272941><P Class=KRCC>
+제가 전개식, 얘가 몇 번 전개하는 거예요? 얘를 몇 번 곱하는 거야? 
+<Sync Start=280370><P Class=KRCC>
+6번 곱하는 거 아니야. 그럼 항은 어떻게 발생돼? 이 중의 하나, 이 중의 하나, 
+<Sync Start=288013><P Class=KRCC>
+이 중의 하나, 이 중의 하나를 모두 다 곱한 거 아니야. 
+<Sync Start=290931><P Class=KRCC>
+그래서 서로 다른 항, 그 얘기는 동료 항을 다 처리했을 때 최종적인 항이 몇 가지 생기겠느냐. 
+<Sync Start=299852><P Class=KRCC>
+이 얘기거든. 그럼 이 얘기 아니야? 뭐? 이 중의 하나 뽑고, 이 중의 하나 뽑고, 
+<Sync Start=306669><P Class=KRCC>
+이 중의 하나 뽑고, 이 중의 하나 뽑아. 
+<Sync Start=310795><P Class=KRCC>
+그러니까 여기는 a 뽑고, a 뽑고, c 뽑고, c 뽑고, b 뽑고, b 뽑고, 이런 식으로. 
+<Sync Start=318212><P Class=KRCC>
+그래서 총 6인데, a를 2개 뽑고, b를 하나 뽑고, c를 하나 뽑고, d를 2개 뽑으면 
+<Sync Start=330312><P Class=KRCC>
+이런 항이 나오는 거지. 어쩔 때는 a를 하나 뽑고, b를 하나 뽑고, c를 안 뽑고, 
+<Sync Start=344587><P Class=KRCC>
+d를 4개 뽑으면 이런 항이나 이런 게 총 몇 개 있니? 
+<Sync Start=349164><P Class=KRCC>
+그 얘기는 지수끼리 더해서 뭐가 되도록 하는? 6이 되도록 하는 지수의 순서쌍의 개수잖아. 
+<Sync Start=359470><P Class=KRCC>
+결국 a, b, c, d 위에 있는 지수를 다 더해서 뭐가 되도록 하는? 
+<Sync Start=369315><P Class=KRCC>
+6이 되도록 하는 음이 아닌 정수. 왜? 0도 가능한 거니까. 
+<Sync Start=375345><P Class=KRCC>
+음이 아니, 이거 싹 다 곱해서 a의 6제곱도 나오잖아요. 
+<Sync Start=380290><P Class=KRCC>
+그럼 b의 0제곱, c의 0제곱, d의 0제곱이니까 0도 가능하다고. 
+<Sync Start=386622><P Class=KRCC>
+a 위에 들어 있는 지수, b 위에 있는 지수를 y, c 위에 있는 지수를 z, 
+<Sync Start=393831><P Class=KRCC>
+d 위에 있는 지수를 u라고 했을 때 x+y+z+u=6을 만족시키는 음이 아닌 정수 x, y, z, u의 
+<Sync Start=406189><P Class=KRCC>
+순서쌍의 개수를 구하라는 얘기니까 몇 가지 맛 아이스크림 중에? 
+<Sync Start=411644><P Class=KRCC>
+4가지 맛 아이스크림 중의 6개를 뽑는 방법의 개수. 그래서 최종적인 답은 4H6이 되고요. 
+<Sync Start=418935><P Class=KRCC>
+걔는 9C6, 다른 말로 9C3이니까 답은 몇 개? 84개가 생긴다. 답은 ⑤번이다. 
+<Sync Start=430030><P Class=KRCC>
+이런 느낌으로 처리할 수 있습니다. 조금만 생각해 보면 아이스크림 문제라는 것을 
+<Sync Start=434690><P Class=KRCC>
+이런 느낌으로 알아내는 거야. 그러니까 수학은 알면 돼, 알면. 
+<Sync Start=440968><P Class=KRCC>
+처음 보는 문제, 풀어봤던 문제, 풀어봤던 문제를 푸는 것은 당연한 거야. 
+<Sync Start=447319><P Class=KRCC>
+여러분들 결국 수능은 처음 보는 문제를 풀 수 있느냐 거든요. 
+<Sync Start=452211><P Class=KRCC>
+그러려면 기본으로 돌아갈 수밖에 없어. 무조건 수학 전반적으로 알고 계셔야 되는거야. 
+<Sync Start=458924><P Class=KRCC>
+빨리 푸는 방법 외워봤자 일말의 가치가 없습니다. 매번 드리는 말씀이지만. 
+<Sync Start=464608><P Class=KRCC>
+같은 종류 10개 공, 같은 종류 10개 공, 박하사탕 이야기야, 이게. 
+<Sync Start=470184><P Class=KRCC>
+똑같은 10개는 서로 구분하지 않는데. 
+<Sync Start=474416><P Class=KRCC>
+서로 다른 네 상자에 남김없이 넣을 때, 얘가 만약에 서로 다른 종류의 공 10개면 
+<Sync Start=480201><P Class=KRCC>
+무슨 생각이 나? 호텔. 왜? 서로 다른 10명이 4개 호텔에 투숙하는 방법. 그게 호텔. 
+<Sync Start=489423><P Class=KRCC>
+그런데 서로 똑같은 종류니까 서로 똑같다 그러면 우리는 뭐만 관심이 있다고? 개수만. 
+<Sync Start=494165><P Class=KRCC>
+여기에 몇 개 들어갈까, 몇 개 들어갈까, 몇 개 들어갈까, 몇 개 들어갈까. 
+<Sync Start=497997><P Class=KRCC>
+A 상자에 들어가는 공의 개수, B 상자에 들어가는 개수, C 상자에 들어가는 개수, 
+<Sync Start=503347><P Class=KRCC>
+D 상자에 들어가는 개수를 각각 x, y, z, u라고 할 때 다 더해서 총 10개를 만족시키는 
+<Sync Start=512429><P Class=KRCC>
+x, y, z, u의 순서쌍의 개수인데 가장 기본은 음이 아닌 정수잖아요. 
+<Sync Start=518398><P Class=KRCC>
+근데 여기는 뭐라 그랬어? 2개 이상씩. 따라 해 봐. 이상 조건. 2 이상이래. 
+<Sync Start=524757><P Class=KRCC>
+그러면 아저씨한테 전화해서 아저씨 저는 4가지 맛 아이스크림 중에서 10개 뽑으러 가요. 
+<Sync Start=529744><P Class=KRCC>
+빨리 와. 이러면 아니요. 근데 잠깐만요. 각각 x 맛 아이스크림, y 맛 아이스크림, 
+<Sync Start=535351><P Class=KRCC>
+z 맛 아이스크림, U맛 아이스크림을 각각 2개씩 먼저 뽑아주세요. 라고 얘기하면 된다니까. 
+<Sync Start=542039><P Class=KRCC>
+그럼 아저씨는 몇 개 뽑아놨겠니, 지금. 8개 뽑아놓고 대기 중일 거 아니야. 
+<Sync Start=546108><P Class=KRCC>
+도착해서는 몇 가지 맛 중의? 4가지 맛 중의 몇 개만 더 뽑으면 돼? 
+<Sync Start=550388><P Class=KRCC>
+2개만 더 뽑으면 되니까 최종적인 답은 4H2가 되고 걔는 몇 C? 
+<Sync Start=556871><P Class=KRCC>
+5C2가 되는 거니까 최종적인 답 10. 끝. 이렇게 정리하실 수 있다. 
+<Sync Start=565029><P Class=KRCC>
+여기까지가 기초 연습 4번이었습니다. 기초 연습 5번으로 가시죠. 
+<Sync Start=570571><P Class=KRCC>
+다항식 (2x+k)⁴의 전개식에서 x²의 계수가 96일 때, 양수 k의 값을 구하시오. 
+<Sync Start=579200><P Class=KRCC>
+이항 정리네요. 5개 생길 거예요, 얘 전개하면, 근데 5개 모두 똑같이 생겼어요. 
+<Sync Start=585646><P Class=KRCC>
+어떻게? 지수Cr, 앞엣것, 뒤엣것, 뒤에 있는 게 뒤로 가고 
+<Sync Start=591404><P Class=KRCC>
+앞엣것에서 뒤엣것 뺀 게 일로 가는 거니까 보기 좋게 x를 맨 마지막으로 몰아놓으면 
+<Sync Start=596861><P Class=KRCC>
+k의 r제곱, x의 4-r제곱. 춤을 추고 그러니? 요렇게 만들 수 있죠. 이게 이제 x의 계수다. 
+<Sync Start=609509><P Class=KRCC>
+근데 x²의 계수니까 r 대신 뭐 대입? 2만 대입하면 되지. 
+<Sync Start=613754><P Class=KRCC>
+원래는 r 대신 뭐부터 어디까지? 0부터 지수까지 대입하는 건데, 
+<Sync Start=618024><P Class=KRCC>
+0부터 4까지 대입하는 건데 이 문제는 r 대신 2만 대입하면 끝나겠다. 
+<Sync Start=623660><P Class=KRCC>
+r 대신 2 대입 하니까 여기다 2 이렇게 쓰고 2 대입 하니까, 2 대입하니까 이렇게 되죠. 
+<Sync Start=630559><P Class=KRCC>
+4×6=24k²이라는 x²의 계수가 나왔는데 걔가 96이므로 k² 얼마다? 
+<Sync Start=643670><P Class=KRCC>
+4가 돼서 k=±2가 되는데 양수 k를 구하라 그랬으니 답은 2로 끝나겠다. 
+<Sync Start=652002><P Class=KRCC>
+여기까지가 기초 연습 5번이었어요. 기초연습 6번. 와우. 이거 뭐라 그럴래? 곱꼴. 
+<Sync Start=661619><P Class=KRCC>
+그렇게 대답할 거 아니에요. 아주 전형적인 곱꼴의 문제. 앞엣것 전개하면요. 
+<Sync Start=667359><P Class=KRCC>
+이거는 그런데 제곱밖에 안 되니까 이거 이항정리 쓰면 나쁜 사람 아니니, 진짜? 
+<Sync Start=674501><P Class=KRCC>
+난 진짜 나쁜 사람이라고 생각해. 그렇지 않니? 그럼 여러분 이렇게 생각해야 되잖아. 
+<Sync Start=681959><P Class=KRCC>
+어떻게? 얘는 얘랑 곱해서, 다른 말로 x의 2차랑, 얘는 지금 x²이랑 - 2x랑 1밖에 없잖아. 
+<Sync Start=694495><P Class=KRCC>
+그지. 근데 곱해서 x의 6제곱y²이 되려면 x²이랑 곱하려면 여기서는 뭐가 돼야 되느냐? 
+<Sync Start=710918><P Class=KRCC>
+x⁴y²이 돼야 되고. 그래야지 곱하면 뭐가 돼? x의 6제곱y²이 될 거 아니에요. 
+<Sync Start=719246><P Class=KRCC>
+얘의 전개식에 무슨 항이 필요하냐? x의 5제곱y²이 필요하고 얘는 x의 6제곱y²이 필요하다고. 
+<Sync Start=734889><P Class=KRCC>
+그런데 실제로 얘의 전개식을 보면 지수Cr, 앞엣것, 뒤엣것. 
+<Sync Start=746036><P Class=KRCC>
+뒤에 있는 게 뒤로 가고 앞엣것에서 뒤엣것 뺀 게 일로 가니까 6Cr2에 대해서 
+<Sync Start=751700><P Class=KRCC>
+6-rx의 6-ry의 r제곱이니까 결국 얘가 나타낼 수 있는 항은 지수끼리 더해봤자 얼마가 돼야 돼? 
+<Sync Start=763220><P Class=KRCC>
+6이 돼야 돼. x의 지수랑 y의 지수 더해봤자 6. 
+<Sync Start=766538><P Class=KRCC>
+얘는 가능한데 얘는 7이고 얘는 8이니까 이게 불가능하더라 이거야. 
+<Sync Start=774854><P Class=KRCC>
+재밌어? 많이 재밌어? 결국 x⁴ 한 값, x⁴y²을 구하려면 r 대신 뭐만 대입하면 되면 
+<Sync Start=786990><P Class=KRCC>
+2만 대입하면 되니까 결국 계수는 얼마야? 16×15가 된다 이거지. 16×15래요. 
+<Sync Start=802177><P Class=KRCC>
+6×5=30, 5×1은 8, 16. 얼마야? 240이 나오는 거지. 
+<Sync Start=809269><P Class=KRCC>
+그니까 얘를 전개하면 240x⁴y² 생기고 이중의 누구랑? x² 계수는 1이잖아요. 
+<Sync Start=817879><P Class=KRCC>
+이렇게 곱했을 때만 최종적인 x의 6제곱y²항이 나올 테니까 240과 1을 곱해서 답도 뭐다? 240. 
+<Sync Start=827545><P Class=KRCC>
+답은 ④번이 될 수밖에 없다. 이렇게 얘기를 하시면 된다는 거죠. 
+<Sync Start=830343><P Class=KRCC>
+곱꼴 우리가 연습했었던 거의 활용편. 이렇게 보시면 되겠네요. 7번요, 선생님. 7번도 했잖아. 
+<Sync Start=840774><P Class=KRCC>
+어디서 했어? 이항계수의 성질. 잘 봐. 잘 봐야 해. f(n)을 볼게. 따라서 f(n)=, 간다. 
+<Sync Start=859112><P Class=KRCC>
+f(n)은 0부터 시작해서 1, 2, 3, 쭉 나가서 같을 때까지. 0부터 10까지 같을 때까지. 
+<Sync Start=866520><P Class=KRCC>
+전체 2의 몇 제곱? 그 숫자가 n+1이니까 이거고요. g(n)을 구하면요. 
+<Sync Start=883571><P Class=KRCC>
+1, 3, 5인 거 봐서 홀수들의 합. 그런데 0부터 시작해야 되는데 
+<Sync Start=888047><P Class=KRCC>
+어쩔 수 없이 1부터 시작한 거고, 홀수만 더 하니까. 같을 때까지니까 맞네. 얘 홀수 맞잖아요. 
+<Sync Start=896632><P Class=KRCC>
+그럼 얘는 뭐다? 전체의 절반. 전체가 뭔데? 2의 2n+1제곱. 
+<Sync Start=903474><P Class=KRCC>
+근데 게의 절반이라는 것은 지수에서 뭐 빼주면 돼? 1 빼주면 되니까 이렇게 없어지죠. 
+<Sync Start=910607><P Class=KRCC>
+그러니까 얘네들을 나중에 지수가 얘네가 1차식이니까 
+<Sync Start=913619><P Class=KRCC>
+등비수열 문제로도 바꿔서 풀 수 있는 거야. 
+<Sync Start=916491><P Class=KRCC>
+근데 좌변이 뭐냐? f(n)분의 g(m), f(m)을 구하라 그러면 여기다가 n 대신 m 대입하면 되고 
+<Sync Start=926406><P Class=KRCC>
+g(m)은 n 대신 m 대입하면 되니까 f(m)분의 g(m)이라는 것은 
+<Sync Start=932257><P Class=KRCC>
+2의 위의 지수에서 아래 지수 빼면 되니까 m-1제곱이 된다. 
+<Sync Start=939094><P Class=KRCC>
+걔가 뭐가 되도록 하는? 64가 돼, 64가 2의 6제곱 아니에요. 
+<Sync Start=944206><P Class=KRCC>
+64가 되도록 하는 자연수 m의 값을 구하니까 같을 때는 지수끼리, 밑이 서로 같을 때는, 
+<Sync Start=949693><P Class=KRCC>
+밑이 서로 같을 때는 지수끼리 비교해 주면 되니까 m값 얼마야? 7. 끝. 
+<Sync Start=956639><P Class=KRCC>
+요렇게 처리해 주시면 되죠. 8번도 C의 즐거움입니다. 
+<Sync Start=966271><P Class=KRCC>
+어디서부터 시작해서? 0부터 시작해서 어디까지? 같을 때까지 더했더니 얼마가 됐어? 16. 
+<Sync Start=972693><P Class=KRCC>
+그럼 만들자. 뭘 만듭니까? 2의 k, 전체를 얘기하는 거지. 
+<Sync Start=979075><P Class=KRCC>
+걔가 16을 만족한다 그랬으니까 결국 k는 얼마다? 4가 된다. 2⁴이 16이니까 k=4가 되겠구나. 
+<Sync Start=987491><P Class=KRCC>
+그럼 밑에 있는 걸 불러봐. 4C0+, 4 대입해. 5C1+6C2+, 언제까지야? 8C4까지 합을 구하시오. 
+<Sync Start=1000358><P Class=KRCC>
+이렇게 돼 있거든. 열심히 공부하지 않은 친구들은 그냥 각각의 값을 구한 다음에 더하겠지만 
+<Sync Start=1007894><P Class=KRCC>
+우리들은 딱 보자마자 파스칼의 삼각형. 왜요? 앞엣것도 커지고요. 뒤엣것도 커져요. 
+<Sync Start=1015056><P Class=KRCC>
+다 뭐를 조심하라 그랬어. 1로 시작했는지 확인. 끝. 1로 시작했네. 
+<Sync Start=1019892><P Class=KRCC>
+따라서 최종적인 결과물은 뭐의 결과물이니까? 
+<Sync Start=1023308><P Class=KRCC>
+앞엣것도 커지고 뒤엣것도 커지니까 최종적인 결과물은 
+<Sync Start=1026960><P Class=KRCC>
+앞엣것만 커지고 뒤엣것은 가만히 있는 거죠. 그래서 답은 9C4가 된다. 이런 뜻입니다. 
+<Sync Start=1036938><P Class=KRCC>
+9C4를 직접 대입해 계산하면 9, 8, 7, 6. 이게 뭔데? 9C4를 4!, 4!이 얼마야? 24거든. 
+<Sync Start=1048894><P Class=KRCC>
+근데 이렇게 하면 얼마야? 48이니까 약분하면 분자만 2가 생겨서 14×9. 9×4=36. 9×1은 12. 
+<Sync Start=1060437><P Class=KRCC>
+최종적인 답 126. 답은 ⑤번. 이렇게 처리하시면 되겠습니다. 여기까지가 기초 연습 8번. 
+<Sync Start=1068621><P Class=KRCC>
+이제부터 기본 연습으로 들어갑니다. 기본 연습에 들어갑니다. 
+<Sync Start=1075650><P Class=KRCC>
+1부터 10까지의 자연수가 하나씩 적힌 접시 10개가 그림과 같이 번호 순서대로 놓여 있다. 
+<Sync Start=1085655><P Class=KRCC>
+빨간색 3장과 파란색 7장을 접시 위에 올려놓는데. 접시 위에 올려놓는데. 
+<Sync Start=1095357><P Class=KRCC>
+그때 빨간색 카드가 적혀 있는 접시에 적힌 숫자가 왼쪽부터 
+<Sync Start=1100499><P Class=KRCC>
+홀수, 짝수, 홀수인 경우의 수를 구하라. 같은 색깔의 카드끼리는 구분하지 않는다. 
+<Sync Start=1106613><P Class=KRCC>
+이거 뭐예요, 이게? 뭘까요, 여러분 이거? 문제를 제대로 이해하셔야 되는데 
+<Sync Start=1112326><P Class=KRCC>
+여러분 빨간색, 같은 색깔끼리 구별하지 않는 똑같은 3장과 파란색 7장을 
+<Sync Start=1117972><P Class=KRCC>
+일렬로 배열하는 방법의 수를 구하라 그러면 
+<Sync Start=1120652><P Class=KRCC>
+답은 10!÷3!, 7! 또는 10C3 또는 10C7로 풀 수 있지. 같은 것을 포함하는 수열이잖아. 됐지? 
+<Sync Start=1132399><P Class=KRCC>
+그런데 kb를 일렬로 배열할 때 빨간색 3개가 빨간색 전체거든. 홀수, 짝수, 홀수. 
+<Sync Start=1144271><P Class=KRCC>
+그게 무슨 말이야? 홀수가 적혀 있다는 것은 홀수 번째라는 얘기잖아요. 
+<Sync Start=1148350><P Class=KRCC>
+3이 적혀있는 것은 세 번째니까. 빨간색 3개가 있는데, 빨간색을 기준으로 생각해 봐. 
+<Sync Start=1155343><P Class=KRCC>
+빨간색이야. 빨간색, 빨간색, 빨간색. 얘가 몇 번째래? 홀수 번째래. 맞잖아. 
+<Sync Start=1167564><P Class=KRCC>
+총 10개의 카드를 일렬로 배열하는데 무슨 카드? 
+<Sync Start=1176884><P Class=KRCC>
+빨간색 3개와 파란색 7개를 일렬로 배열하는데 첫 번째 빨간색은 홀수 번째와야 된대. 
+<Sync Start=1186818><P Class=KRCC>
+얘는 짝수 번째와야 된대. 얘는 홀수 번째와야 된대. 예를 들어줄게. 
+<Sync Start=1199292><P Class=KRCC>
+얘가 세 번째 오려면 이 앞에 몇 개 있어야 돼? 2개. 물어보자. 
+<Sync Start=1205146><P Class=KRCC>
+얘가 홀수 번째라면 파란색 카드가 이 사이 사이에 들어올 거 아니에요. 
+<Sync Start=1209574><P Class=KRCC>
+여기에 파란색 카드가 몇 개 있으면 돼? 짝수개. 짝수개 있으면 홀수 번째겠지. 
+<Sync Start=1219085><P Class=KRCC>
+4개 있으면 다섯 번째 아니에요. 여기에 짝수개. 
+<Sync Start=1226900><P Class=KRCC>
+물론 아무도 안 와도 얘는 첫 번째니까 홀수 번째 맞지. 
+<Sync Start=1231699><P Class=KRCC>
+그니까 여기에 들어가는 파란색 카드의 개수는 짝수개. 0도 가능. 
+<Sync Start=1241551><P Class=KRCC>
+그럼 여기까지가 총 몇 개 있어요? 홀수 개가 있지. 
+<Sync Start=1245943><P Class=KRCC>
+여기까지 홀수 개거든? 그런데 얘도 뭐야? 짝수 번째래. 
+<Sync Start=1251394><P Class=KRCC>
+그러면 여기 아무도 안 와도 홀수개가 앞에 있으면 얘는 짝수 번째인데 
+<Sync Start=1257569><P Class=KRCC>
+아무도 안 와도 되지만 짝수개가 와도 되지. 왜? 
+<Sync Start=1260885><P Class=KRCC>
+짝수개가 왔다는 것은 홀수 번째냐, 짝수 번째냐, 는 불변을 할 테니까. 
+<Sync Start=1271381><P Class=KRCC>
+예를 들어서 얘가 세 번째야. 얘가 아무도 안 와도 네 번째잖아. 
+<Sync Start=1277969><P Class=KRCC>
+그러니까 짝수 번째인데 짝수개, 예를 들어 2개가 더 있다 그래도 
+<Sync Start=1282388><P Class=KRCC>
+세 번째, 네 번째, 다섯 번째, 여섯 번째가 되니까 당연히 짝수 번째가 될 거 아니에요. 
+<Sync Start=1286598><P Class=KRCC>
+그러니까 얘는 0 또는 짝수 개가 있으면 된다니까. 그러면 여기까지 또다시 몇 개 있어요. 
+<Sync Start=1305829><P Class=KRCC>
+여기가 짝수 번째니까 짝수개가 있어. 근데 그다음이 홀수 번째가 돼야 돼. 
+<Sync Start=1315341><P Class=KRCC>
+여기까지가 짝수 개가 있어. 그다음은 당연히 아무도 없어도 홀수 번째일 테니까 
+<Sync Start=1321624><P Class=KRCC>
+여기 들어갈 수 있는 것도 똑같네. 여기 들어가는 파란색의 개수와 
+<Sync Start=1326736><P Class=KRCC>
+여기 들어가는 파란색 카드의 개수와 여기에 들어가는 파란색 카드의 개수가 
+<Sync Start=1331830><P Class=KRCC>
+다 짝수개가 오면 되겠구나. 여기는 자유를 주겠지. 
+<Sync Start=1340744><P Class=KRCC>
+와도 좋고 안 와도 좋을 텐데 파란색의 카드가 7개니까 
+<Sync Start=1352360><P Class=KRCC>
+각각 사이사이에 들어갈 파란색 카드의 개수를 다 더해서 뭐가 돼야 된다? 
+<Sync Start=1364246><P Class=KRCC>
+7이 되도록 하는 음이 아닌 정수의 개수인데 단, x, y, z, 또는 뭐가 되더라? 짝수가 돼라. 
+<Sync Start=1375560><P Class=KRCC>
+0도 가능하다. 짝수가 돼라 이 얘기야. 
+<Sync Start=1380485><P Class=KRCC>
+얘는 원래는 짝수가 되든 홀수가 되든 상관없는데 3개를 더하면 짝수잖아. 
+<Sync Start=1388875><P Class=KRCC>
+홀수가 되려면 얘는 뭐여야 돼? 홀수가 돼야지. 
+<Sync Start=1391989><P Class=KRCC>
+선생님 얘는 그냥 자유를 주면 안 되요? 자유를 줘도 되는데 그게 더 어려워. 자유를 주는 게. 
+<Sync Start=1396685><P Class=KRCC>
+홀수라고 지정하는 게 더 쉬워. 왜? 우리 짝수 조건, 홀수 조건 어떻게 쓰라 그랬어요. 
+<Sync Start=1403000><P Class=KRCC>
+치환에서 푼다 그랬잖아요. 그러니까 얘를 어떻게 쓸 거야, 이걸. 
+<Sync Start=1405943><P Class=KRCC>
+x 대신 2x'이라고 놓고 x'은 0보다 크거나 같다. 음이 아닌 정수, 이래 버릴 거잖아요. 
+<Sync Start=1413414><P Class=KRCC>
+그럼 얘를 뭐라고 놓을 거고요? 2y', y'도 음이 아닌 정수. 얘를 2z', 음이 아닌 정수. 
+<Sync Start=1420140><P Class=KRCC>
+근데 얘를 그냥 u라고 놔버리면 양변을 2로 나눌 때 얘가 괴로워지지. 2분의 1이 되니까. 
+<Sync Start=1425540><P Class=KRCC>
+그러니까 짝, 홀을 만들어 주는 게 더 좋지. 
+<Sync Start=1429439><P Class=KRCC>
+얘 무조건 뭐라고? 홀수니까 2u'+1이라고 놓으면 u'은 0부터 1을 나타내게 되니까 
+<Sync Start=1441138><P Class=KRCC>
+x', y', z', u' 모두 다 뭐가 되면 된다? 음이 아닌 정수가 되면 된다. 
+<Sync Start=1449587><P Class=KRCC>
+그거를 다 더한 것이 7이 되래요. 여기 있는 2를 우변으로 이항시키면 6이 되는데 
+<Sync Start=1458508><P Class=KRCC>
+모든 항의 계수가 2니까 양변을 2로 나누면 얘는 드디어 3이 된다는 사실을 알 수 있다. 
+<Sync Start=1464962><P Class=KRCC>
+결국 문제는 뭐야? x', y', z', u' 더해서 3이 되도록 하는 음이 아닌 정수의 해의 개수를 
+<Sync Start=1473165><P Class=KRCC>
+구하는 거니까 4가지 맛 아이스크림 중에서 세 가지를 중복을 허용해서 
+<Sync Start=1478818><P Class=KRCC>
+뽑는 방법의 수와 같다. C3으로 끝나니까 6C3. 그래서 최종적인 답, 20가지. 답은 ③번. 
+<Sync Start=1488280><P Class=KRCC>
+이렇게 처리하시면 되겠습니다. 여기까지가 기본 연습 1번. 기본 연습 2번으로 가시죠. 
+<Sync Start=1495903><P Class=KRCC>
+역시 기본 연습을 하니까 4점짜리라서 생각할 건덕지가 생기잖아요. 재밌잖아요. 
+<Sync Start=1502585><P Class=KRCC>
+얼마나 지루했는지 몰라요. 제가 말을 안 해서 그렇지. 이제 좀 풀 만하니까 너무 좋다. 
+<Sync Start=1508315><P Class=KRCC>
+6 이하의 자연수 a, b, c, d가 다음 조건을 만족시킨대. 이하 조건. 큰일 났네. 
+<Sync Start=1519463><P Class=KRCC>
+이하 조건은 어떻게 풀라고 그랬어? 여사건으로 풀라고 그랬거든. 6 이하다. 
+<Sync Start=1528258><P Class=KRCC>
+여사건 뭐야? 7 이상. 근데 2개 이상 7 이상일 순 없지. 하나만 7 이상. 
+<Sync Start=1541171><P Class=KRCC>
+그게 바로 여사건이잖아. 그러니까 자연수 a, b, c, d의 순서쌍의 개수를 구하라 그러면 
+<Sync Start=1553950><P Class=KRCC>
+4가지 맛 아이스크림 중에서 10개를 고르는데 
+<Sync Start=1562824><P Class=KRCC>
+자연수니까 1 이상, 1 이상, 1 이상, 1 이상, 아저씨 하나씩 먼저 뽑아주세요. 
+<Sync Start=1568123><P Class=KRCC>
+그래서 몇 개만 뽑을 건데? 6개만 뽑을 건데 그중에 안 되는 거 여사건을 뺀다니까. 
+<Sync Start=1575846><P Class=KRCC>
+뭔데? 7 이상이 하나라도 나오면 여사건. 그럼 예를 들어서 a가 7 이상이라 그러자. 
+<Sync Start=1580893><P Class=KRCC>
+a가 7이라 그래볼까? 그럼 나머지가 1밖에 안 되지, 이거밖에 안 되지. 
+<Sync Start=1589026><P Class=KRCC>
+그럼 몇 가지야? 4가지네. 왜? 7111, 1711, 1117, 1171. 4 가지네. 
+<Sync Start=1599304><P Class=KRCC>
+4 가지 빼주면 천체 경우의 수지 뭐. 뭐까지 만족하는? (가)까지 만족하는 천체 경우의 수지. 
+<Sync Start=1606185><P Class=KRCC>
+그거를 이 살을 이렇게 직접 세지 않아도 이렇게 풀어도 돼. 
+<Sync Start=1612839><P Class=KRCC>
+하나만 7 이상이면 그게 여사건이잖아요. a, b, c, d, 4개 중에 7 이상이 될 하나를 뽑고 
+<Sync Start=1618903><P Class=KRCC>
+일 끝나지 않았고 하나로 확정 지어 a라고 하면 얘를 7 이상이 돼야 되는 거고 
+<Sync Start=1624519><P Class=KRCC>
+나머지는 다 1 이상이 돼야 되는 거니까 4가지마다 아이스크림 중에서 아저씨한테 뭐라 그랬어, 
+<Sync Start=1630351><P Class=KRCC>
+전화해서. a는 7개, 나머지는 1개씩 다 뽑으면 이미 10개를 다 뽑았잖아요. 
+<Sync Start=1634194><P Class=KRCC>
+그럼 아저씨가 그냥 오세요. 당신이 가져가는 방법의 수는 한 가지밖에 없어요. 
+<Sync Start=1639862><P Class=KRCC>
+이럴 거 아니야. 왜? 뽑을 게 없으니까. 4 가지 맛의 아이스크림 중에서 0개 뽑아야 되니까. 
+<Sync Start=1646534><P Class=KRCC>
+이렇게 생각해 줘도 되는 거야. 그래서 전체 경우의 수는 몇 가지냐면 4H6, 
+<Sync Start=1652004><P Class=KRCC>
+거기에서 4를 빼니까 얘는 9C3이라서 84거든 84에서 4 빼니까 (가) 까지만 있다 그러면 
+<Sync Start=1660444><P Class=KRCC>
+80까지가 답이었을 거야. 근데 이게 문제가 아니야. 뭐야? 적어도 하나는 홀수. 
+<Sync Start=1671289><P Class=KRCC>
+적어도 하나 홀수, 이것도 여사건을 풀면 되니까 전체 경우의 수 이 80가지 중에서 
+<Sync Start=1676641><P Class=KRCC>
+(가)까지 만족하는 게 80가지 중에서. 적어놔라, 홀수. 
+<Sync Start=1679505><P Class=KRCC>
+여사건이 뭐야? 모두 짝수인 경우의 수를 빼주면 되겠네. 
+<Sync Start=1686503><P Class=KRCC>
+모두 짝수인 경우의 수는 잘 들어보세요. 
+<Sync Start=1691333><P Class=KRCC>
+(가) 조건을 만족한 것 중에서니까 다 6 이하면서 다 짝수야. ?
+<Sync Start=1699177><P Class=KRCC>
+그러니까 얘도 짝수, 2a'이라고 놓자. 단, a' 뭐야? 자연수 조건이니까 a'도 자연수, 
+<Sync Start=1707671><P Class=KRCC>
+b', c', d'이라고 봤을 때 얘도 2b', 얘를 2c', 얘를 2d'이라고 놨을 때 
+<Sync Start=1721792><P Class=KRCC>
+그렇게 되면 결국 얘네들이 모두 다 뭐가 된다? 
+<Sync Start=1724328><P Class=KRCC>
+모두 다 짝수+짝수+짝수+짝수, a, b, c, d가 모두 다 짝수인 경우. 
+<Sync Start=1728960><P Class=KRCC>
+근데 그중에서 또 뭐 빼야 돼요? 이 80가지 안에는 뭐가 들어있을까? 
+<Sync Start=1736810><P Class=KRCC>
+6 이하인 것만 들어있는 거잖아요. 이 안에 가만히 내버려 둬도. 왜? 
+<Sync Start=1745405><P Class=KRCC>
+8은 어차피 불가능했지, 우리 아까. 아무리 커봤자 7이었잖아. 
+<Sync Start=1749306><P Class=KRCC>
+그러니까 2a'+2b'+2c'+2d'=10을 만족시키는 자연수 a'+b'+c'+d'에서의 경우의 수를 구하면 
+<Sync Start=1766369><P Class=KRCC>
+그것이 바로 여사건이 되는 거야. 무조건 다 6 이하가 되는 거야. 왜? 
+<Sync Start=1772713><P Class=KRCC>
+6, 7 이상이 되는 거는 7111밖에 없기 때문에 8은 어차피 안 돼. 
+<Sync Start=1780719><P Class=KRCC>
+그 얘기는 가만히 내버려 둬도 6 이하밖에 안 나타내죠. 그지. 맞아, 맞아, 맞아. 잘했어. 
+<Sync Start=1790860><P Class=KRCC>
+따라서 양변을 뭐로 나누면? 2로 나누면 이렇게 돼서 
+<Sync Start=1799999><P Class=KRCC>
+4가지 맛 아이스크림 중의 몇 개 뽑는 시장? 5개 뽑는, 
+<Sync Start=1805145><P Class=KRCC>
+단, 자연수 조건이니까 1 이상씩이니까 아저씨 하나씩 먼저 뽑아주세요. 
+<Sync Start=1810041><P Class=KRCC>
+그러면 4가지 맛 아이스크림 중에서 몇 가지만 뽑으면 된다? 
+<Sync Start=1814036><P Class=KRCC>
+1개만 뽑으면 되니까 맞네. 또 4가지가 된다 이거예요. 
+<Sync Start=1818792><P Class=KRCC>
+그래서 80에서 4를 또 빼서 답은 76개의 순서쌍이 된다. 끝. 이렇게. 아이고 재밌다. 
+<Sync Start=1828257><P Class=KRCC>
+이제 4점짜리 풀 만하잖아요. 그죠? 기본 연습 3번으로 갑니다. 
+<Sync Start=1835088><P Class=KRCC>
+X에서 X로의 함수의 개수를 세시오. X가 뭔데요? 1, 2, 3, 4, 5. 
+<Sync Start=1845026><P Class=KRCC>
+X에서 X로의 함수 개수는 X가 1, 2, 3, 4, 5니까 이렇게 처리해 주시면 돼요. 
+<Sync Start=1852551><P Class=KRCC>
+X에서 X로의 함수 f의 개수를 구하시오. 
+<Sync Start=1859882><P Class=KRCC>
+(가)라는 조건, x1과 x2의 대소 관계가 이러하면 각각의 함숫값의 대소 관계도 이러하다. 
+<Sync Start=1865466><P Class=KRCC>
+무슨 함수? 증가함수인데 등호가 있으니까 어떻게 뽑자? 
+<Sync Start=1868876><P Class=KRCC>
+(가)라는 조건만 있으면 5개 중에서 5개를 뽑는데 중복을 허록해서 5H5가 답이었겠지. 
+<Sync Start=1876418><P Class=KRCC>
+그런데 여기 뭐라고 돼 있냐면 f(1)이 얘가 
+<Sync Start=1879527><P Class=KRCC>
+이 중의 제일 뽑힌 애들 중의 제일 작은 애한테 화살 쏠텐데 걔가 3 이상이래. 
+<Sync Start=1888456><P Class=KRCC>
+그거는 얘네들 뽑지 마란 얘기지. 얘네들 없다고 생각하면 무조건 얘네. 3 이상일 거 아니야. 
+<Sync Start=1894530><P Class=KRCC>
+3 아니면 4 아니면 5일 거 아니야, f(1)은. 이해가 되세요? 증가함수니까. 
+<Sync Start=1901781><P Class=KRCC>
+어차피 맞을 애 중에서 제일 작은 애가 f(1)이거든. 
+<Sync Start=1906607><P Class=KRCC>
+그럼 맞을 애 중의 제일 작은 애가 3 이상이라는 얘기잖아. 
+<Sync Start=1910473><P Class=KRCC>
+그러니까 3, 4, 5를 가지고 뽑아주시면 돼요. 
+<Sync Start=1912275><P Class=KRCC>
+그러니까 (가)라는 조건과 (나)라는 조건만 있으면 답은 뭘까? 
+<Sync Start=1916839><P Class=KRCC>
+3명 중에서 화살을 맞을 5명을 중복을 허락해서 뽑아주시면 되니까 
+<Sync Start=1923701><P Class=KRCC>
+(가), (나) 조건만 있으면 답은 뭐야? 3H5야. 
+<Sync Start=1928551><P Class=KRCC>
+그런데 말이야, (가)랑 (나)라는 조건만 있으면 3H5인데 (다)라는 조건 뭐냐. 
+<Sync Start=1939431><P Class=KRCC>
+얘들한테 화살 맞는 애들이 있잖아. 걔가 10 이상이어야 된데. 
+<Sync Start=1947671><P Class=KRCC>
+제일 작으면 얼마니? 얘네들한테 화살 맞는 애 제일 작으면 다 3한테 뽑는 거지. 
+<Sync Start=1952360><P Class=KRCC>
+그럼 얼마니? 9. 그것만 아니면 다 10 이상이니까. 귀여워. 이 중에서 빼면 되겠네. 
+<Sync Start=1959437><P Class=KRCC>
+여사건으로 풀면 되네. (가), (나)를 만족시키는 3H5 중에서 빼는 거야. 
+<Sync Start=1964847><P Class=KRCC>
+뭐를? f(1)이 3, f(2)도 3, f(3)도 3이 되도록 하는 증가함수의 개수를 빼주면 되죠. 
+<Sync Start=1976592><P Class=KRCC>
+그러면 (다)까지 만족시킬 테니까. 그럼 두 명만 화살 더 쏘면 되잖아요. 
+<Sync Start=1986918><P Class=KRCC>
+몇 명 중에? 3을 쐈다고 얘 3 못 쏘는 거 아니니까 
+<Sync Start=1989568><P Class=KRCC>
+세 명 중의 두 명한테 화살을 맞을 두 명을 뽑자. 
+<Sync Start=1994456><P Class=KRCC>
+3, 4, 5, 세 명 중에 화살을 맞을 두 명을 중복을 허락해서 뽑으면 되니까 몇 가지가 된다? 
+<Sync Start=2002896><P Class=KRCC>
+여섯 가지를 빼주면 되겠구나. 끝. 재밌어요. 7C5면 7C2랑 똑같으니까 21-6. 
+<Sync Start=2018253><P Class=KRCC>
+그래서 답은 15, 답은 ⑤번. 끝. 요렇게 처리할 수 있겠네. 재밌네. 따라 해보셩. 
+<Sync Start=2036645><P Class=KRCC>
+합꼴, 합꼴의 기본은 이런 거예요. 
+<Sync Start=2040565><P Class=KRCC>
+예를 들어서 (1+x)에 대해서 (1+, 이거 먼저 여러분 거기다가 문제를 하나 써봐. 
+<Sync Start=2047369><P Class=KRCC>
+그 위에다가 이거 먼저 풀게. 왜? 나는 여러분 수능 특강을 가르치는 게 아니라 그랬지. 
+<Sync Start=2056025><P Class=KRCC>
+수능 만점을 가르쳐주는 사람이야. 그래서 여러분이 반드시 알아야 되는 거는 
+<Sync Start=2062362><P Class=KRCC>
+내가 다 설명해 드릴 거야. 의 전개식에서, 따라 해봐. 
+<Sync Start=2070967><P Class=KRCC>
+합꼴, 왜 합꼴이라 그러는지 알겠지? +꼴이잖아. 이차항의 계수를 찾으시오. 
+<Sync Start=2081467><P Class=KRCC>
+이걸 합꼴 그래요, 합꼴. 이걸 푸는 방법, 합꼴을 푸는 방법은 두 가지야. 
+<Sync Start=2092138><P Class=KRCC>
+첫 번째 방법이 더 많이 쓰여. 첫 번째 방법부터 설명해 줄게. 
+<Sync Start=2097061><P Class=KRCC>
+첫 번째 방법은 뭐냐면 각각의 이차항의 계수를 구한 다음에 다 더하는 거야. 
+<Sync Start=2102164><P Class=KRCC>
+그러니까 얘 전개식에서 이차항의 계수를 구하는 거야, 
+<Sync Start=2105620><P Class=KRCC>
+얘 전개식에서 이차항의 계수를 구는 거야. 얘 전개식에서 이차항의 계수를 구하는 거야, 
+<Sync Start=2110569><P Class=KRCC>
+얘 전개식에서 이차항의 계수, 얘 전개식에서 이차항의 계수를 각각 구한 다음에 뭐 하면 돼? 
+<Sync Start=2115849><P Class=KRCC>
+더 하면 되겠지. 근데 얘는 어차피 일차니까 이차항의 계수가 발생되지 않을 거 아니야, 얘는. 
+<Sync Start=2122400><P Class=KRCC>
+일차니까. 애 항 2개 밖에 없잖아. 여기서부터 시작하시면 되는데 
+<Sync Start=2127073><P Class=KRCC>
+여기나, 여기나, 여기나, 여기나 어떤 식이냐면 (1+x)의 n제곱이고 n은 1부터 10까지잖아. 
+<Sync Start=2136717><P Class=KRCC>
+그지. 그러면 결국 얘 전개식에서 일반항을 만들어. 
+<Sync Start=2144611><P Class=KRCC>
+뭐야? 지수Cr 앞엣것, 뒤엣것, 뒤에 있는 게 뒤로 가고 앞엣것에서 뒤엣것 뺀 게 일로 가는데 
+<Sync Start=2150119><P Class=KRCC>
+1은 몇 제곱해도 1이니까 얘가 사라진다고. 그러니까 잘 들어봐. 
+<Sync Start=2156792><P Class=KRCC>
+얘의 전개식에서, 그 얘기는 n이 뭐일 때야? 2일 때지. 
+<Sync Start=2163468><P Class=KRCC>
+뭐의 계수? x²의 계수니까 결국 얼마의? 2C2야. 얘의 전개식에서 이차항의 계수는 3C2야. 
+<Sync Start=2178217><P Class=KRCC>
+얘의 전개식에서 이차항의 계수는 n이 4일 때니까 4C2야. 얘는 10C2겠네요. 
+<Sync Start=2188600><P Class=KRCC>
+그거를 다 뭐 하는 거네요? 더하라는 문제네요. 이렇게 푼다는 거지. 재밌지. 
+<Sync Start=2198211><P Class=KRCC>
+이게 뭔데? 파스칼의 삼각형. 왜? 앞엣것만 커지고 있잖아. 샘, 앞엣것만 커지네요. 진짜네. 
+<Sync Start=2207484><P Class=KRCC>
+앞엣것만 커지는 최종적인 결과물은? 앞엣것도 커지고 뒤엣것도 커진다 그랬으니까 
+<Sync Start=2215342><P Class=KRCC>
+최종적인 답, 11C3. 끝. 이렇게 푸는 거야. 각각의 이차항의 계수를 더해주시면 되겠구나. 
+<Sync Start=2230174><P Class=KRCC>
+11×10×9÷3!, 이렇게 풀면 되니까 얘가 5고 얘가 3이라서 165. 끝. <br>
+<Sync Start=2241488><P Class=KRCC>
+이렇게 푸는 게 바로 첫 번째 방법. 첫 번째 방법만 알아도 풀 수는 있어요. 모든 문제를. 
+<Sync Start=2248975><P Class=KRCC>
+그런데 두 번째 방법을 응용한 문제가 나올 수도 있으니 두 번째 방법까지도 설명하리다. 
+<Sync Start=2257453><P Class=KRCC>
+두 번째 방법은 뭐냐면 이 전체를 등비수열의 합 공식을 이용해서 
+<Sync Start=2263010><P Class=KRCC>
+그냥 하나로 나타내는 거예요. 등비수열이요? 
+<Sync Start=2266684><P Class=KRCC>
+첫째항이 (1+x)고 여기다가 (1+x) 곱했고 (1+x) 곱했고, 
+<Sync Start=2272461><P Class=KRCC>
+공비가 (1+x)인 등비수열이니까 다 더하라 그러면 공비-1, 공비-1. 항은 총 10개. 
+<Sync Start=2287106><P Class=KRCC>
+이 전체에다 뭘 곱한다? 첫째 항을 곱한다. 이거거든. 
+<Sync Start=2294531><P Class=KRCC>
+얘의 전개식에서 뭐 구해주시면 돼? 이차항의 계수 구해주시면 되잖아요. 이거잖아. 그지? 
+<Sync Start=2305064><P Class=KRCC>
+근데 가만히 봐봐. 얘를 좀 정리하면 
+<Sync Start=2308485><P Class=KRCC>
+1-1=x고 얘를 이렇게도 한번 곱하고 이렇게도 한번 곱해야 되니까 (1+x)의 11제곱, 
+<Sync Start=2316373><P Class=KRCC>
+이렇게 하면 1+x를 빼는 거니까 전개하고 나면 (1+x)의 11제곱-(1+x)거든. 
+<Sync Start=2324948><P Class=KRCC>
+그러니까 얘의 전개식에서 이차항의 계수를 찾을 건데, 여러분 봐봐. 
+<Sync Start=2332667><P Class=KRCC>
+어차피 분자를 x로 나눌 거거든. 
+<Sync Start=2339550><P Class=KRCC>
+그니까 분자가 만약에 5x의 10제곱이 있잖아? 분자의 10차 항의 계수가 5잖아? 
+<Sync Start=2350544><P Class=KRCC>
+근데 맨 마지막에 x로 나누게 되면 얘는 뭐로 바뀌어? 
+<Sync Start=2354014><P Class=KRCC>
+5x의 9제곱으로 바뀌니까 결국 전체의 9차 항의 계수는 분자의 몇 차 항의 계수랑 똑같아? 
+<Sync Start=2366005><P Class=KRCC>
+10차항의 계수. 왜? 어차피 x로 나누니까 차수를 어차피 나눠서 계산할 거니까 
+<Sync Start=2370830><P Class=KRCC>
+나 같으면 이렇게 한다. x로 나누지 말고 분자에서 x로 나눈 다음에 
+<Sync Start=2379688><P Class=KRCC>
+2차가 되려면 분자에서는 그냥 3차항의 계수를 찾으면 되고 여기는 어차피 1차식이니까 
+<Sync Start=2386204><P Class=KRCC>
+3차항의 계수가 발생되지 않을 테니까 분자 얼마 있어? 
+<Sync Start=2391225><P Class=KRCC>
+(1+x)의 11제곱에서 3차항의 계수를 찾는 거니까 최종적인 답은? 
+<Sync Start=2399673><P Class=KRCC>
+일반항을 이용해서 처리하고 나면 11C3이 된다. 아까랑 똑같은 답을 얻는다는 거예요. 
+<Sync Start=2405751><P Class=KRCC>
+첫 번째 방법이 가장 많이 쓰이는 방법입니다. 
+<Sync Start=2409290><P Class=KRCC>
+그렇다면 우리가 공부해야 될 기본 문제, 기본 연습 4번을 봅시다. 
+<Sync Start=2420407><P Class=KRCC>
+이거는 등비수열 하면 더 어려울 것 같아. 그냥 하가쓰. 무슨 말이야. 
+<Sync Start=2425548><P Class=KRCC>
+각각의 항은, 각각의 항 먼저 얘기하지 말고 전체적인 상수항을 찾으려면, 
+<Sync Start=2433340><P Class=KRCC>
+여기서의 상수항, 여기서의 상수항, 여기서의 상수항, 상수항을 다 더하시면 되는 거잖아. 
+<Sync Start=2439331><P Class=KRCC>
+그런데 각각의 항은 (x+x의-3제곱)의 n제곱이라고 그러면 n은 1부터 10까지거든. 
+<Sync Start=2451439><P Class=KRCC>
+그럼 얘의 전개식이면 일반항이 어떻게 생겼냐. 지수Cr 앞엣것, 뒤엣것 이렇게 생겼고. 
+<Sync Start=2459909><P Class=KRCC>
+뒤에 있는 게 뒤로 가고 앞엣것에서 뒤로 뺀 게 일로 가니까 x의 n-r-3r 이니까 n-4r이 된다고. 
+<Sync Start=2469322><P Class=KRCC>
+그죠. x의 n-4r²이구나. 얘가 바로 얘 전개식이야. 
+<Sync Start=2487063><P Class=KRCC>
+그런데 이 n이 어디서부터 변한다고? n이 1부터 10까지만 가능해. 
+<Sync Start=2496053><P Class=KRCC>
+그런데 얘가 뭐가 돼야 돼? 상수항이 되려면 얘가 0 돼야 돼. 
+<Sync Start=2501694><P Class=KRCC>
+그러니까 n-4가 0 돼야 되는데 n은 1부터 10까지만 된다니까. r은 어디서부터 어디까지 돼요. 
+<Sync Start=2510960><P Class=KRCC>
+r은 각각 0부터 그 지수, n까지 가능한 거잖아. 지금 무슨 말인지 알겠지. 그럼 끝난 거네. 
+<Sync Start=2519548><P Class=KRCC>
+n이 뭐일 때만 보일까. 여러분 이쪽으로 넘기면 n=4r이거든. 
+<Sync Start=2524332><P Class=KRCC>
+그럼 결국 r도 뭐니까? r도 0부터 시작하는 음이 아닌 정수니까 4배 하면 4의 배수가 되거든. 
+<Sync Start=2534080><P Class=KRCC>
+n은 1부터 10까지거든. 4의 배수만 얘기해 봐. 4 아니면 8이잖아. 
+<Sync Start=2540192><P Class=KRCC>
+n이 4면 r은 0부터 4까지 중의 하나거든. 그러니까 2개가 똑같아지려면 r이 뭐일 때야? 1일 때. 
+<Sync Start=2549015><P Class=KRCC>
+그러니까 n이 4일 때는 r이 뭐일 때고? 1일 때고 
+<Sync Start=2553093><P Class=KRCC>
+n이 8일 때는 r은 0부터 8까지 중의 하나일 텐데 4를 곱해서 같으려면 r은 얼마다? 2가 된다. 
+<Sync Start=2559918><P Class=KRCC>
+그러니까 결국 4차항과 8차항에서, 그러니까 4제곱항과 8제곱항에서만 나타나게 되는 거고. 
+<Sync Start=2574803><P Class=KRCC>
+그치? 그때 상수항을 찾으라 그러면 두 가지로 분리시켜서, 
+<Sync Start=2579934><P Class=KRCC>
+첫 번째는 n 대신 4, r 대신 1을 대입하니까 상수항, 얘는 어차피 x의 0제곱이니까 얼마야? 
+<Sync Start=2586433><P Class=KRCC>
+4가 되고. 두 번째는 n 대신 8, r 대신 2를 대입하니까 8C2. 
+<Sync Start=2594097><P Class=KRCC>
+8×7=56을 2로 나누니까 28이 되더라. 
+<Sync Start=2599133><P Class=KRCC>
+그래서 상수항 두 번 발생하는 4제곱항과 8제곱항에서 두 번 발생하는데 
+<Sync Start=2605602><P Class=KRCC>
+4와 28을 더하면 최종적인 상수항일 테니까 시험지의 답 얼마? 32. 
+<Sync Start=2611041><P Class=KRCC>
+이렇게 처리하시면 된다는 합꼴까지 이번 시간에 설명했습니다. 다음 시간은 기본 연습. 
+<Sync Start=2618706><P Class=KRCC>
+그람의 실력 완성까지 해서 마무리 짓고 그다음 시간부터 확률 들어가도록 하겠습니다. 
+<Sync Start=2624725><P Class=KRCC>
+오늘은 여기까지입니다. <br>
+
+
+
+
+
+
+
+
+
+
+
+</BODY>
+</SAMI>

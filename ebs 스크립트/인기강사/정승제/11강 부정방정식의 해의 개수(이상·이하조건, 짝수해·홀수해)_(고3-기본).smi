@@ -1,0 +1,933 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=4940><P Class=KRCC>
+제가 좋아하는 라면, 우리 함께 라면. 제가 좋아하는 나라, 걱정거리인 저 달나라. 
+<Sync Start=25415><P Class=KRCC>
+부정방정식의 해의 개수를 공부하고 계십니다. 
+<Sync Start=27021><P Class=KRCC>
+우리는 항상 달콤한 아이스크림을 생각하죠. 
+<Sync Start=31332><P Class=KRCC>
+가장 기본적인 문제는 얘를 만족하는 음이 아닌 정수의 개수를 구하죠. 
+<Sync Start=45016><P Class=KRCC>
+0도 가능하다. 얘는 어떻게 생각하면 된다? 시작. 
+<Sync Start=47888><P Class=KRCC>
+세 가지 맛 아이스크림 중에서 10개를 뽑는 방법. 답 얼마? 시작. 
+<Sync Start=51938><P Class=KRCC>
+3H10으로 생각하면 된다. 단, 자연수의 해의 개수를 구하라. 
+<Sync Start=63483><P Class=KRCC>
+자연수의 해의 개수를 구하라. 이렇게 나오면 각각은 다 뭐 이상? 시작.
+<Sync Start=70103><P Class=KRCC>
+0은 안 된다는 얘기, 1. 이상 따라해 봐. 이상 조건. 
+<Sync Start=72742><P Class=KRCC>
+-이상 조건. 
+<Sync Start=73499><P Class=KRCC>
+뭐 하라 그랬어요? 전화하라 그랬지. 아저씨한테 뭐라 그럴 거야? 
+<Sync Start=76418><P Class=KRCC>
+아저씨, x맛, y맛, z맛 하나씩 먼저 담아주세요. 
+<Sync Start=79453><P Class=KRCC>
+그러면 우리는 현장에서 세 가지 맛 중에서 10개를 뽑지 않고 시작. 
+<Sync Start=83203><P Class=KRCC>
+7개만 뽑으면 된다. 이게 바로 자연수의 해의 조건이었어요. 
+<Sync Start=86740><P Class=KRCC>
+근데 만약 이렇게 나와. 어떻게 해요? 선생님. 이렇게 나와. 어떻게? 
+<Sync Start=92349><P Class=KRCC>
+x, y, z는 짝수다. 어머, 미쳐버리겠네 이거. 단, x, y, z는 짝수다. 
+<Sync Start=101399><P Class=KRCC>
+단, x, y, z는 짝수다. 짝수+짝수+짝수는 짝수니까 얘도 짝수가 되고 
+<Sync Start=108814><P Class=KRCC>
+얘도 짝수가 되고 얘도 짝수고 그러면 x가 될 수 있는 건 뭐야? 
+<Sync Start=111090><P Class=KRCC>
+자연수 중에 짝수니까 시작. 2, 4, 6, 8, 10은 안 되겠다. 
+<Sync Start=116003><P Class=KRCC>
+10 돼 버리면 0이 나와야 되는데 0은 불가능하니까 자연수니까. 
+<Sync Start=120111><P Class=KRCC>
+그러니까 2, 4, 6, 8이 가능한 거지. 얘도 2, 4, 6, 8이 가능한 거고 
+<Sync Start=123523><P Class=KRCC>
+얘도 2, 4, 6, 8. 그러면 아이스크림 집 이야기를 못하잖아. 
+<Sync Start=128765><P Class=KRCC>
+중복조합으로 못 풀잖아. 하나하나씩 얘가 2고 얘가 2고 얘가 뭐 이렇게. 
+<Sync Start=132646><P Class=KRCC>
+이렇게 풀면 너무 오래 걸리잖아, 그치? 그래서 이런 짝수 조건 또는 
+<Sync Start=138480><P Class=KRCC>
+홀수 조건이 나오면 어떻게 처리할 거냐? 음이 아닌 정수 조건으로 바꿀 거예요. 
+<Sync Start=144392><P Class=KRCC>
+선생님, 바꿀 수 있어요? 응, 바꿀 수 있어요. x가 될 수 있는 건 뭐야? 짝수잖아. 
+<Sync Start=148926><P Class=KRCC>
+그럼 x를 뭐라고 놓느냐? 2x'이라고 놔요. x'이 1이면 얘는 뭐야? 시작. 2. 
+<Sync Start=159360><P Class=KRCC>
+x'이 2면 4, 3이면 6, 얘가 짝수가 되려면 x'은 뭐가 되면 돼요? 
+<Sync Start=168330><P Class=KRCC>
+1, 2, 3 다른 말로 시작. 자연수가 되면 되네. x를 2x'이라고 하면 
+<Sync Start=177573><P Class=KRCC>
+x'은 뭐가 되면 돼? 시작. 자연수가 되면 되네. 근데 난 자연수 조건 싫어요. 
+<Sync Start=185763><P Class=KRCC>
+x'을 음이 아닌 정수 조건으로 만들고 싶어요. 
+<Sync Start=190082><P Class=KRCC>
+그러면 얘가 2부터 가능한 거니까 여기다가 0일 때도 2를 만들려면 
+<Sync Start=197239><P Class=KRCC>
+여기다 +2만 처리해주면 된다고. 재밌지 않아? x를 뭐라고 놓으면? 
+<Sync Start=202883><P Class=KRCC>
+2배 있으니까 짝수에다가 2를 더했으니까 여전히 짝수 2의 배수 아니에요. 
+<Sync Start=207517><P Class=KRCC>
+그러니까 x'이 0이면 이 전체는 2, x는 2. x'이 1이면 4, 2면 6, 3이면 8, 
+<Sync Start=220265><P Class=KRCC>
+x가 짝수가 되려면 x'은 뭐만 되면 된다? 음이 아닌 정수. 
+<Sync Start=223652><P Class=KRCC>
+음이 아닌 정수는 의하는 아이스크림 집 이야기로 처리할 수 있으니까 
+<Sync Start=226876><P Class=KRCC>
+짝수 조건, 홀수 조건이 나오면 어떻게 하자? 
+<Sync Start=233672><P Class=KRCC>
+만들면 돼. 음이 아닌 정수 조건으로. y도 2y'+2. 
+<Sync Start=238343><P Class=KRCC>
+단 y'은 뭐? 시작. 음이 아닌  정수 이렇게 해버리면 얘는 2, 4, 6, 8, 10, 
+<Sync Start=243314><P Class=KRCC>
+이렇게 나온다. z도 시작. 2z'+2라고 놓고 z'을 뭐라고 정의만 내리면? 
+<Sync Start=250935><P Class=KRCC>
+음이 아닌 정수. z'이 0이면 2, 1이면 4, 2면 6 이렇게 되는 거니까 
+<Sync Start=261098><P Class=KRCC>
+결국 x, y, z가 짝수만 가능하다는 것은 x가 뭐였을 때? 이거고 y가 이거고 
+<Sync Start=271194><P Class=KRCC>
+z가 이거였을 때 음이 아닌 정수 x', y', z'을 결정해주면 된다 이거야. 왜? 
+<Sync Start=278637><P Class=KRCC>
+x'이 결정되면 자연스럽게 뭐가 결정되니까? x가 결정되고 y'이 결정되면 
+<Sync Start=283249><P Class=KRCC>
+y가 결정되고 z'이 결정되면 z가 결정되는 거니까 결국 2x'+2를 여기다 집어넣으면 
+<Sync Start=293407><P Class=KRCC>
+2x'+2+, 여기다 집어넣으면 2y'+2+, z에다가 얘를 집어넣으면 2z'+2, 
+<Sync Start=302632><P Class=KRCC>
+우변은 10. 2x'+2y'+2z'은 2+2+2=6이니까 넘어가면 4, 
+<Sync Start=314758><P Class=KRCC>
+양변을 2로 나누면 따라서 시작. x'+y'+z'=시작. 2를 만족시키는 뭐의 개수? 
+<Sync Start=327323><P Class=KRCC>
+음이 아닌 정수의 개수가 되는 거예요. 이제 드디어. 이제 편하잖아요. 
+<Sync Start=331149><P Class=KRCC>
+이제 아이스크림 집 이야기로 하면 되잖아요. 세 가지 맛 중에 2개를 뽑는 거니까 
+<Sync Start=335581><P Class=KRCC>
+답은 시작. 3H2가 답이고 C2인데 더해서 5에서 1을 빼니까 4. 
+<Sync Start=341508><P Class=KRCC>
+그래서 최종적인 답 몇 가지? 시작. 6가지 끝. 이렇게 되는 거야. 재밌지? 
+<Sync Start=351520><P Class=KRCC>
+재밌네. 조금만 더 해볼까? 이런 것도 해보자, 이번엔. 
+<Sync Start=360975><P Class=KRCC>
+부정방정식 여기는 문제가 많이 나오지 않았기 때문에 제가 
+<Sync Start=365016><P Class=KRCC>
+수능의 만점을 받기 위해서 몇 가지 지금 계속 설명해 드리고 있는 거예요. 
+<Sync Start=368269><P Class=KRCC>
+자주 나오는 거. x+y+z+u=10을 만족하는 단, x, y는 짝수. 
+<Sync Start=379578><P Class=KRCC>
+z, u는 홀수가 되도록 하는 자연수 x, y, z 해의 개수를 구하시오. 
+<Sync Start=391605><P Class=KRCC>
+x, y는 뭐라고? 짝수.  그럼 얘를 뭐라고 놓을까? 2x', 
+<Sync Start=395511><P Class=KRCC>
+그냥 이번엔 프라임이라고 놓자. 자연수 조건으로 바꾸자. 얘는 시작. 
+<Sync Start=399870><P Class=KRCC>
+2y'. 짝수가 돼야 되니까. 얘는 뭐라고 놓을래? 2z'+1. 
+<Sync Start=406957><P Class=KRCC>
++1이라고 놓으면 z'이 0부터 가능하죠. 왜? 얘가 0이면 얘가 1이 되는 거니까. 
+<Sync Start=412083><P Class=KRCC>
+만약에 자연수 조건을 쓰고 싶으면 어떻게 하면 돼요? 
+<Sync Start=415655><P Class=KRCC>
+2z'-1이라고 놓으면 z'이 될 수 있는 건 뭐부터 시작이야? 
+<Sync Start=419951><P Class=KRCC>
+1부터 시작인 거니까. 얘도 1부터 시작, 얘도 1부터 시작하는 거니까. 
+<Sync Start=424873><P Class=KRCC>
+결국 u도 시작. 2u'-1이라고 놓으면 x', y', z', u'은 1부터 시작하는 시작. 
+<Sync Start=434424><P Class=KRCC>
+자연수 조건이 된다. 이런 얘기예요. 대입하시면 되죠. 이제. 대입해 봐. 
+<Sync Start=440966><P Class=KRCC>
+2x'+2y'+2z'+2u은 -1, -1 우변으로 넘기면 시작. 12. 
+<Sync Start=452403><P Class=KRCC>
+양변 2로 나누면 x'+y'+z'+u'=6을 만족시키는 시작. 
+<Sync Start=460833><P Class=KRCC>
+자연수 해의 개수를 구하래. 자연수의 해라는 것은 각각은 뭐 이상? 시작. 1 이상. 
+<Sync Start=466068><P Class=KRCC>
+이상 조건은 어떻게 하라고? 전화를 하라고. 아저씨, 한 가지씩 담아주세요. 
+<Sync Start=470535><P Class=KRCC>
+그럼 우린 도착해서 네 가지 맛 아이스크림 중에서 6개를 다 뽑는 것이 아니라 
+<Sync Start=474874><P Class=KRCC>
+2개만 더 뽑으면 된다 이런 얘기니까 최종적인 답은 6C2. 15가지 끝. 
+<Sync Start=481080><P Class=KRCC>
+이런 느낌으로, 6이 아니네요. 하나 빼야 되네요. 미안해. 안 뺐어, 내가. 
+<Sync Start=485618><P Class=KRCC>
+답은 시작. 10가지. 이런  느낌으로 해석하면 끝난다 이런 얘기예요. 
+<Sync Start=489744><P Class=KRCC>
+그러니까 짝수, 자연수가 나오면 치환하는 거. 따라해 봐. 치환. 
+<Sync Start=493514><P Class=KRCC>
+-치환. 
+<Sync Start=496639><P Class=KRCC>
+아니면 이럴 수도 있어요. 뭐? 이럴 수도 있어요. 뭔데요? 봐봐. 
+<Sync Start=508242><P Class=KRCC>
+어떻게 하느냐? 음이 아닌 정수의 개수. 아니다. 자연수의 개수. 
+<Sync Start=516385><P Class=KRCC>
+그래, 그렇게 가자. 자연수의 해의 개수를 구하시오. 1 이상이지. 
+<Sync Start=526149><P Class=KRCC>
+근데 그렇게 안 돼 있고 짝수도 아니고 홀수도 아니고 얘가 3이야.
+<Sync Start=530418><P Class=KRCC>
+어머! 따라 해 봐. 특정 문자의 계수가 1이 아닐 때. 
+<Sync Start=535275><P Class=KRCC>
+-특정 문자의 계수가 1이 아닐 때. 
+<Sync Start=536400><P Class=KRCC>
+-한 번 더. 특정 문자의 계수가 1이 아닐 때. 
+<Sync Start=538195><P Class=KRCC>
+-특정 문자의 계수가 1이 아닐 때. 
+<Sync Start=539839><P Class=KRCC>
+이렇게 3이 앞에 붙어 있는 경우, 이럴 때는 따라 해 봐. 분류. 
+<Sync Start=542669><P Class=KRCC>
+-분류. 
+<Sync Start=543307><P Class=KRCC>
+그거밖에 없어. 분류밖에 없어. 그냥 x는 하나씩 다 봐야 돼. 
+<Sync Start=549710><P Class=KRCC>
+x가 될 수 있는 건 뭐부터야? 자연수의 해니까 시작. 1, 또 2, 또. 3 안 되지. 
+<Sync Start=555618><P Class=KRCC>
+왜? 3이 되면 얘가 벌써 9가 돼서 나머지는 다 돼봤자 1이 돼야 되는데 자연수니까 
+<Sync Start=561533><P Class=KRCC>
+최솟값이 3이죠. 안 돼. 그럼 결국 x가 될 수 있는 거 뭐 아니면 뭐야? 
+<Sync Start=567205><P Class=KRCC>
+-1 또는 2. 
+<Sync Start=568382><P Class=KRCC>
+1 또는 2야. 아니면 이렇게 안 나오고 이렇게 나오면? 음이 아닌 정수 얘기했어. 
+<Sync Start=573442><P Class=KRCC>
+그래, 이걸로 하자. 그러면 x가 될 수 있는 거 뭐 아니면 뭐? 시작. 
+<Sync Start=580058><P Class=KRCC>
+0 아니면 1 아니면 2. 0 아니면 1 아니면 2, 하나 더 되겠다. 
+<Sync Start=590165><P Class=KRCC>
+음이 아닌 정수니까 시작. 3도 되네요. 왜? 얘가 9더라도 0 2개와 1 하나면 
+<Sync Start=595031><P Class=KRCC>
+10을 만들 수 있으니까 무슨 말인지 알겠지? 그렇지? 이렇게 뭐 해서 풀자? 시작. 
+<Sync Start=599390><P Class=KRCC>
+분류해서 풀자. 우리는 x, y, z, u를 구하는 방법의 수인데 x를 정했으니까 
+<Sync Start=606400><P Class=KRCC>
+y, z, u만 더 구하면 되거든. 첫 번째, x가 0이니까 여기다 0 대입 하면 
+<Sync Start=610190><P Class=KRCC>
+y+z+u가 뭐 나와? 시작. 10 나오잖아요. 얘를 만족시키는 뭘 찾으면 된다? 
+<Sync Start=615560><P Class=KRCC>
+음이 아닌 정수의 개수 시작. 3H10. 이렇게 푸는 거야. 
+<Sync Start=620105><P Class=KRCC>
+세 가지 맛 아이스크림 중에서 10개를 뽑는구나. 
+<Sync Start=623282><P Class=KRCC>
+결국 얘는 뭐의 순서쌍을 결정하는 거야? y, z, u를 결정하는 방법의 수지만, 
+<Sync Start=627657><P Class=KRCC>
+x는 이미 0이라고 결정됐으니까 x가 0일 때 x, y, z, u의 순서쌍의 개수가 
+<Sync Start=632974><P Class=KRCC>
+이만큼이라고 정의 내릴 수 있는 거예요. x가 1이래요. 1 대입해 봐요. 
+<Sync Start=639043><P Class=KRCC>
+그럼 y+z+u가 얼마예요? 7이잖아요. 그러니까 얘는 3H7이 될 거 아니에요.
+<Sync Start=646349><P Class=KRCC>
+같은 느낌이라면 2 대입하니까 y+z+u가 얼마예요? 4잖아요. 
+<Sync Start=653431><P Class=KRCC>
+이때는 y+z+u가 얼마예요? 1이잖아요. 그러니까 이때 개수는 
+<Sync Start=659063><P Class=KRCC>
+세 가지 맛 아이스크림 중에서 4개를 뽑는 것이오. 
+<Sync Start=662358><P Class=KRCC>
+이때는 세 가지 맛 아이스크림 중에서 하나를 뽑는 거구나. 
+<Sync Start=669500><P Class=KRCC>
+그래서 최종적인 답은 얘는 C10, 얘는 C7, C4, C1인데, 
+<Sync Start=678995><P Class=KRCC>
+12가 될 것이오. 9가 될 것이오. 8이 될 것이오. 아니지. 
+<Sync Start=686269><P Class=KRCC>
+6이 될 것이오. 3이될 테니까 얘는 66가지, 얘는 36가지, 얘는 15가지, 
+<Sync Start=698760><P Class=KRCC>
+얘는 3가지가 돼서 최종적인 답 시작. 120가지 끝. 
+<Sync Start=709028><P Class=KRCC>
+이렇게 푸는 게 바로, 따라 해. 한 번 더. 특정 문자의 계수가 1이 아닐 때.  
+<Sync Start=716320><P Class=KRCC>
+-특정 문자의 계수가 1이 아닐 때. 
+<Sync Start=718150><P Class=KRCC>
+어떻게 푼다 그랬어요? 대답해보세요. 
+<Sync Start=721881><P Class=KRCC>
+-분류해서. 
+<Sync Start=722501><P Class=KRCC>
+분류해서. 개가 될 수 있는 것들을 다 분리하시면, 분리가 아니라 분류. 
+<Sync Start=731563><P Class=KRCC>
+분류하시면 된다. 이제 거의 다 끝났어요. 이제 하나만 더 하면 돼. 
+<Sync Start=734431><P Class=KRCC>
+조금 더 어려운 거. 하나만 더 할게. 나머지는 얘네들의 응용이라고 보시면 되고. 
+<Sync Start=738933><P Class=KRCC>
+지금까지 이상 조건을 했죠. 2 이상, 3 이상. 이번에 이하 조건 해볼게. 
+<Sync Start=742605><P Class=KRCC>
+이거 어려워. 무슨 조건이요, 선생님? 이하 조건. 따라해 봐. 이하 조건. 
+<Sync Start=746691><P Class=KRCC>
+-이하 조건. 
+<Sync Start=747389><P Class=KRCC>
+이하 조건. 이건 좀 어려워. 근데 저와 함께라면 원리를 파악하니까 쉽습니다. 
+<Sync Start=755561><P Class=KRCC>
+예를 들어서 이번엔 이렇게 나오는 거예요. x+y+z+u=8을 만족하는 
+<Sync Start=772904><P Class=KRCC>
+음이 아닌 정수 해의 개수를 구하시오. 선생님, 4H8 아닌가요? 
+<Sync Start=779377><P Class=KRCC>
+여기까지만 나오면 4H8인데 단, 이렇게 나온 거야. 
+<Sync Start=787323><P Class=KRCC>
+x는, 
+<Sync Start=789062><P Class=KRCC>
+
+<Sync Start=798745><P Class=KRCC>
+변덕스러워라, 내가 진짜. 
+<Sync Start=800887><P Class=KRCC>
+
+<Sync Start=808303><P Class=KRCC>
+3이야. 어머! 단, x는 3 이상 이렇게 돼 있어요. 3 이하. 따라해 봐. 이하 조건. 
+<Sync Start=819002><P Class=KRCC>
+-이하 조건. 
+<Sync Start=819667><P Class=KRCC>
+이게 이하 조건이야. 3 이상이라 그러면 3개 미리 뽑아놓은 다음에 
+<Sync Start=824336><P Class=KRCC>
+전화 한 통화로 미리 뽑아놓으면 되는데, 3 이하 조건 이럴 때는 어떻게 하느냐? 
+<Sync Start=828803><P Class=KRCC>
+얘가 될 수 있는 건 뭐야? 0 또는 1 또는 2 또는 3이잖아요.
+<Sync Start=834748><P Class=KRCC>
+그래서 아까처럼 분류해서 풀어도 돼. 0일 때, 1일 때, 2일 때 자연수구나. 
+<Sync Start=840048><P Class=KRCC>
+1 또는 2 또는 3이 된다는 얘기니까 x가 1일 때, 그다음에. 뭐? 
+<Sync Start=850915><P Class=KRCC>
+x가 1일 때, x가 2일 때, x가 3일 때. 그러면 세 가지로 분류해서 풀어야지. 
+<Sync Start=856797><P Class=KRCC>
+그렇게 풀어도 되는데요. 그것보다 더 좋은 방법이 뭐냐? 따라해 봐. 여사건. 
+<Sync Start=861170><P Class=KRCC>
+-여사건. 
+<Sync Start=861743><P Class=KRCC>
+여사건으로 푸는 거야. 일단 이 얘기를 생각하지 마. 
+<Sync Start=866042><P Class=KRCC>
+그냥 자연수 해의 조건을 x+y+z+u= 자연수 해의 조건을 생각해보면, 
+<Sync Start=876794><P Class=KRCC>
+네 가지 맛 아이스크림 중에서 8개를 뽑지 않고 하나 이상씩은 
+<Sync Start=880937><P Class=KRCC>
+미리 다 뽑아놨을 테니까 네 가지 맛 중에서 몇 개를 뽑으면 돼? 시작. 
+<Sync Start=885036><P Class=KRCC>
+네 가지를 뽑으면 자연수 해의 개수가 나오는 거야. 
+<Sync Start=888900><P Class=KRCC>
+그중에서 안 되는 것만 빼주면 답이야. 여러분, x가 3 이하래. 뭐만 아니면 돼? 
+<Sync Start=901763><P Class=KRCC>
+얘가 4 이상이면 안 된단 얘기지. 4 이상이면 안 된다는 얘기잖아. 
+<Sync Start=907021><P Class=KRCC>
+4 이상의 조건을 빼주면 되지. 재미있지 않니? 4 이상인 거 빼주면 되지. 
+<Sync Start=917262><P Class=KRCC>
+그렇지? 그래서 이하 조건은 항상 뭘로 푼다? 여사건으로 푸는 게 더 빨라. 
+<Sync Start=921869><P Class=KRCC>
+분류해서 푸는 거보다. 4 이상은 전화 걸면 되는데? 
+<Sync Start=924870><P Class=KRCC>
+아저씨, x맛 아이스크림 4개 먼저 담아주세요. 금방 도착할게요. 
+<Sync Start=928080><P Class=KRCC>
+도착한 다음에 시작. 네 가지 맛 아이스크림 중에서 중에서 8개를 뽑지 않고 
+<Sync Start=931129><P Class=KRCC>
+x맛 4개를 미리 다 뽑아놨고 나머지는 1개 이상씩 뽑아야 되니까 
+<Sync Start=935950><P Class=KRCC>
+다시 잠깐만요, 아저씨. 잠깐만요. 나가서 다시 전화를 걸어. 
+<Sync Start=940413><P Class=KRCC>
+그래서 x맛 4개, y맛 1개, z맛 1개, u맛 1개를 미리 뽑아달라 그런 다음에 
+<Sync Start=949773><P Class=KRCC>
+총 7개를 미리 뽑았으니까 도착해서는 몇 개만 더 뽑으면 된다? 시작. 
+<Sync Start=954263><P Class=KRCC>
+하나만 더. 이게 바로 x가 3 이하일 조건이 된다. 
+<Sync Start=962093><P Class=KRCC>
+앞으로는 이하 조건을 어떻게 해야 돼? 시작. 여사건으로. 
+<Sync Start=965303><P Class=KRCC>
+이상인 거를 빼주면 되는구나. 전체 경우의 수에서 여사건의 경우의 수를 
+<Sync Start=970985><P Class=KRCC>
+빼주면 되겠구나. 35에서 4 빼니까 답은 31가지 끝. 이렇게 처리하는 거야. 
+<Sync Start=979947><P Class=KRCC>
+재밌어? 다 했어. 이번 강좌 제목이 뭐예요? 부정방정식의 해의 개수. 
+<Sync Start=985215><P Class=KRCC>
+괄호 열고 짝수해, 홀수해, 이하 조건까지 공부를 한 거야. 너무 잘했어요. 
+<Sync Start=991709><P Class=KRCC>
+이제 여기에 관련된 몇 문제 풀고 마치도록 하겠어요. 
+<Sync Start=998092><P Class=KRCC>
+오늘 이항정리 조금 들어갈 수 있겠다. 들어갑니다. 준비하시고. 딴딴! 
+<Sync Start=1005032><P Class=KRCC>
+그림과 같이 넓이가 12인 직사각형을 넓이가 1인 12개의 정사각형으로, 
+<Sync Start=1017382><P Class=KRCC>
+지금 하나하나가 넓이가 1이라는 얘기예요. 넓이가 하나씩 다 1이야. 이게 1. 
+<Sync Start=1023424><P Class=KRCC>
+여기에 빨간색, 노란색, 파란색, 보라색. 빨, 노, 파, 보. 
+<Sync Start=1028575><P Class=KRCC>
+한 가지씩을 택해서 칠한대. 빨간 거, 빨간 거, 노란 거, 노란 거, 
+<Sync Start=1032808><P Class=KRCC>
+노란 거, 노란 거, 노란 거, 파란 거, 파란 거, 빨간 거, 노란 거, 보라 거. 
+<Sync Start=1036026><P Class=KRCC>
+뭐 이런 식으로. 빨간색, 파란색, 노란색, 보라색이 들어가는 부분의 넓이. 
+<Sync Start=1043747><P Class=KRCC>
+예를 들어서, 빨간색을 세 군데 칠했다 그러면 넓이 얼마야? 빨간색의 넓이는? 
+<Sync Start=1049683><P Class=KRCC>
+3. 그렇지? 넓이의 합을 각각 s₁, s₂, s₃, s₄ 빨간색의 넓이의 합. 
+<Sync Start=1056572><P Class=KRCC>
+얘는 파란색, 노란색, 보라색. 각각 넓이의 합을 이거라고 할 때 
+<Sync Start=1063285><P Class=KRCC>
+얘네들의 순서쌍의 개수. 어머, 너무 쉬워. 너무 쉬워. 
+<Sync Start=1067963><P Class=KRCC>
+반드시 모든 색을 다 칠하라는 얘기는 없지? 없잖아, 그치? 
+<Sync Start=1076287><P Class=KRCC>
+그럼 결국 빨간 거를 채우는, 왜? 
+<Sync Start=1082014><P Class=KRCC>
+-Si가 0이 아니에요. 
+<Sync Start=1083295><P Class=KRCC>
+여기 있구나. 0이 아니라는 얘기가 있네요. 그쵸? i는 1, 2, 3, 4니까 
+<Sync Start=1087815><P Class=KRCC>
+네 가지 색 모두 0이 돼서는 안 된대. 그러니까 적어도 하나씩은 색칠을 해야 돼. 
+<Sync Start=1092584><P Class=KRCC>
+그러니까 빨간 거의 넓이의 총합, 파란 거의 넓이, 노란 거의 넓이, 
+<Sync Start=1098696><P Class=KRCC>
+보라의 넓이를 다 더하면 총 12칸일 테니까 넓이의 합은 얼마? 시작. 
+<Sync Start=1104593><P Class=KRCC>
+12가 될 거고 s₁, s₂, s₃, s₄는 무슨 수가 되는 거야? 시작. 
+<Sync Start=1111686><P Class=KRCC>
+0은 될 수 없으니까 자연수가 되는 거니까 결국 s₁, s₂, s₃, s₄를 결정하는 
+<Sync Start=1118959><P Class=KRCC>
+방법의 수를 구하라 그러면 또 아이스크림 문제네? 몇 가지 맛 아이스크림 중에? 
+<Sync Start=1123194><P Class=KRCC>
+네 가지 맛 아이스크림 중에서 12개를 선택하는 방법의 수를 생각하면 되겠다. 
+<Sync Start=1127238><P Class=KRCC>
+그런데 자연수 조건이라는 것은 무슨 조건? 이상 조건이다. 
+<Sync Start=1135441><P Class=KRCC>
+아저씨, s₁ 맛, s₂ 맛, s₃ 맛, s₄ 맛 각각 하나씩 담아주세요. 
+<Sync Start=1141296><P Class=KRCC>
+그리고 도착하면 우리는 네 가지 맛 아이스크림 중에서 12개를 뽑을 것이 아니라 
+<Sync Start=1146213><P Class=KRCC>
+4개를 미리 뽑아놨으니까 8개만 더 뽑으시면 된다. 갑니다. 
+<Sync Start=1150079><P Class=KRCC>
+C8, 12에서 1 빼니까 11. 그래서 11C3. 계산하는 방법은 11P3을 
+<Sync Start=1159505><P Class=KRCC>
+3!로 나눠주시면 된다. 얘가 3이 되고 얘가 5가 될 테니까 답은 165가지. 끝. 
+<Sync Start=1169193><P Class=KRCC>
+이렇게 처리하시면 되겠다. 답 몇 번? ⑤번. 유제도 한번 볼까요? 
+<Sync Start=1175260><P Class=KRCC>
+
+<Sync Start=1186217><P Class=KRCC>
+a가 2보다 크거나 같다. b는 3보다 크거나 같다. c는 4보다 크거나 같다를 만족하는 
+<Sync Start=1191436><P Class=KRCC>
+세 자연수 a, b, c에 대해서 얘를 만족하는 무슨 조건? 따라해 봐. 이상 조건. 
+<Sync Start=1198166><P Class=KRCC>
+-이상 조건. 
+<Sync Start=1200456><P Class=KRCC>
+귀여워. 따라서 세 가지 맛 아이스크림 중에서 15개를 뽑을 것이 아니라
+<Sync Start=1206064><P Class=KRCC>
+아저씨, a 2개, b 3개, c 4개 먼저 담아주세요. 9개 먼저 담아놨잖아. 
+<Sync Start=1212497><P Class=KRCC>
+총 15개 뽑을 건데 우리는 현장에서 몇 개만 더 뽑으면 돼? 6개만 더 뽑면 되지. 
+<Sync Start=1217023><P Class=KRCC>
+9개 담아놨으니까. 그래서 C6, 더하면 9인데 1 빼니까 8. 8C2. 
+<Sync Start=1223725><P Class=KRCC>
+C2는 암산 가능하다니까. 56을 반으로 쪼개니까 답은 시작. 28가지. 너무 쉽다. 
+<Sync Start=1229568><P Class=KRCC>
+마지막. 얘 하기 전에 설명 하나 더 들으시고. 
+<Sync Start=1237580><P Class=KRCC>
+제가 여러분한테 함수의 개수 얘기할 때 이렇게 얘기했잖아요. 
+<Sync Start=1239966><P Class=KRCC>
+함수의 개수의 가장 기본은 중복순열 편에서 배운다 그랬어요. 뭐야? 인터뷰. 
+<Sync Start=1244740><P Class=KRCC>
+누구랑? 정의역에 있는 모든 원소랑. 네가 선택할 수 있는 경우의 수가 몇 가지니? 
+<Sync Start=1249284><P Class=KRCC>
+이렇게 함수의 개수는 모름지기 정의역에 있는 모든 원소랑 뭐 한다? 인터뷰 한다. 
+<Sync Start=1257792><P Class=KRCC>
+이렇게 생각하시면 되는데요. 만약에 문제가 이렇게 돼 있어. 
+<Sync Start=1265728><P Class=KRCC>
+x에서 y로의 함수의 개수를 세시오. 얘가 선택할 수 있는 함숫값 몇 가지? 시작. 
+<Sync Start=1269804><P Class=KRCC>
+6가지, 6가지, 6가지, 6가지. 답은 6의 4제곱가지. 됐지? 
+<Sync Start=1274463><P Class=KRCC>
+근데 문제가 이렇게 돼 있어. 얘들아, 이거 봐봐. 
+<Sync Start=1286027><P Class=KRCC>
+봐. 딴딴! 다음을 만족하는 함수의 개수를 세시오. 이거 뭐라 그랬어? 
+<Sync Start=1291450><P Class=KRCC>
+배웠는데. 1:1. 왜? 쏘는 애가 다르면 각각의 함숫값이니까 
+<Sync Start=1295591><P Class=KRCC>
+걔네들한테 맞는 애도 다르다. 만약에 이렇게 돼버리면 쏘는 애는 분명히 다른데 
+<Sync Start=1300868><P Class=KRCC>
+맞는 애가 같잖아. 이러면 안 돼. 2:이면 안 돼. 이거 뭐 되라는 얘기야? 1:1. 
+<Sync Start=1306166><P Class=KRCC>
+1:1 되라는 얘기예요. 그러니까 이럴 때도 인터뷰 하시면 돼요. 
+<Sync Start=1310301><P Class=KRCC>
+네가 선택할 수 있는 가지 수 몇 가지? 시작. 6가지. 
+<Sync Start=1312817><P Class=KRCC>
+그런데 얘는 5가지로 줄고 하나 또 줄고 하나 또 줄지. 이유는? 
+<Sync Start=1318617><P Class=KRCC>
+1:1이 되려면 앞에 애가 쐈던 애한테는 다시는 못 쏠 테니까 
+<Sync Start=1323905><P Class=KRCC>
+이럴 때는 하나씩 줄어든다. 여기까지는 공부했거든. 오늘 공부할 게 뭐냐? 이거야. 
+<Sync Start=1331818><P Class=KRCC>
+와, 이거 어디서 많이 봤는데? 어디서 봤어요? 수학 2 시간에 많이 나와.
+<Sync Start=1338139><P Class=KRCC>
+x의 대소 관계랑 y의 대소 관계랑 일치하는 거. x가 커지면 y도 커지는 거 시작. 
+<Sync Start=1342842><P Class=KRCC>
+증가함수라는 뜻이야, 이게. 증가함수 개수를 구하래. 
+<Sync Start=1350566><P Class=KRCC>
+그러니까 얘한테 화살 맞는 애, 얘를 쏠 수 있는 방법의 수 몇 가지, 
+<Sync Start=1352967><P Class=KRCC>
+이래버리면 안 돼. 왜? 얘가 6한테 못 쏴요. 왜? 
+<Sync Start=1360721><P Class=KRCC>
+얘네들은 얘보다 더 큰 애한테 쏴야 돼. 맞는 애의 대소 관계 함수값도 
+<Sync Start=1368496><P Class=KRCC>
+x의 대소 관계, 그러니까 점점 커지잖아. 그럼 얘네들의 함숫값도 점점 뭐 해야 돼? 
+<Sync Start=1372524><P Class=KRCC>
+시작. 커져야 돼. 예컨대 5도 어떻게 맞으면 되냐면, 이렇게 맞으면 돼. 
+<Sync Start=1383053><P Class=KRCC>
+예를 들어서, 이런 점점 커지잖아. 이런 게 총 몇 개 있녜. 
+<Sync Start=1389825><P Class=KRCC>
+y값도 점점 커진다. y값 순서대로 얘기해 봐. 시작. 1, 3, 4, 6 점점 커지잖아. 
+<Sync Start=1394714><P Class=KRCC>
+이런 게 총 몇 가지냐? 이거는 인터뷰 할 수가 없어. 왜?
+<Sync Start=1400687><P Class=KRCC>
+1이 누구한테 쐈느냐에 따라서 얘네들의 가지 수가 달라지지. 
+<Sync Start=1404462><P Class=KRCC>
+앞에 애가 어떤 행동을 했냐에 따라서 내가 영향을 받는 걸 
+<Sync Start=1407619><P Class=KRCC>
+사람들은 종속이라 그래요. 독립되어 있지 않고 종속되어 있을 때는 
+<Sync Start=1412066><P Class=KRCC>
+각각의 경우의 수를 인터뷰해봤자 안 돼. 왜? 
+<Sync Start=1415036><P Class=KRCC>
+얘의 결과에 따라서 얘네들이 다 달라지니까. 그렇다고 1이 1을 쐈을 때, 
+<Sync Start=1418427><P Class=KRCC>
+1이 2를, 이거 언제 다 해? take so long time, 너무 시간이 오래 걸리더라.
+<Sync Start=1426277><P Class=KRCC>
+그래서 우리가 생각해낸 방법이 뭐냐면, 이거예요. 봐봐, 어떻게 하냐면, 
+<Sync Start=1432027><P Class=KRCC>
+얘네들 중에서 몇 명이 맞을 거니? 얘네들 화살 몇 발 맞을 거야? 
+<Sync Start=1435740><P Class=KRCC>
+점점 커지면 서로 다른 애들한테 점점 큰 애들한테 쏠 거니까 
+<Sync Start=1439153><P Class=KRCC>
+4명이 4발을 서로 다른 애한테 쏠 거 아니야. 발상의 전환. 
+<Sync Start=1443942><P Class=KRCC>
+6명 중에서 화살은 몇 명이 맞아? 4명이 맞을 거 아니야. 
+<Sync Start=1448407><P Class=KRCC>
+그러니까 6명 중에서 4명 뽑는 경우의 수를 먼저 생각하자. 
+<Sync Start=1452219><P Class=KRCC>
+그래서 4명을 화살 쏘지 말고 4명을 미리 뽑아놓자. 그런 가지 수가 이거잖아. 
+<Sync Start=1460541><P Class=KRCC>
+그럼 이 중에서 어느 하나를 확정시켜봐. 1, 2, 4, 6을 뽑았다 그럴게. 
+<Sync Start=1464036><P Class=KRCC>
+이제 뭐 하면 돼? 화살을 쏘세요. 이러면 되는데, 이미 얘의 반쪽을 알아. 
+<Sync Start=1471743><P Class=KRCC>
+얘는 누구랑 짝이야? 1이랑. 얘는? 2랑. 얘는? 4랑. 얘는 6이랑. 왜?
+<Sync Start=1477425><P Class=KRCC>
+증가함수가 되려면 맞는 애를 선택한 상황 하에서 화살 쏘는 방법은 
+<Sync Start=1484657><P Class=KRCC>
+한 가지 밖에 없거든. 왜? 제일 작은 거는 제일 작은 놈한테, 
+<Sync Start=1487942><P Class=KRCC>
+두 번째 놈은 두 번째 놈한테, 세 번째는 세 번째 놈한테, 
+<Sync Start=1491614><P Class=KRCC>
+네 번째 놈은 네 번째 놈한테 쏘는 방법밖에 없거든요. 그래서 답은 15가지 끝.
+<Sync Start=1505227><P Class=KRCC>
+내가 여러분한테 설명하듯이 여러분 스스로에게 설명해야 돼. 
+<Sync Start=1507911><P Class=KRCC>
+애들은 이거 공식으로 외웁니다. 또. 노란색 끈적거리는 종이 있지? 거기다 적는다? 
+<Sync Start=1513016><P Class=KRCC>
+어떻게 적게? 공정한 사회, 막 이렇게. 이런 게 수학이 아니라는 거야. 
+<Sync Start=1523331><P Class=KRCC>
+공역의 원소의 개수 몇 개 있니? 6개, 정의역의 원소의 개수 몇 개 있니? 
+<Sync Start=1529249><P Class=KRCC>
+이거를 6C4라고 외운다. 그러면 엄마가 이렇게 엉덩이를 툭툭 두들겨. 
+<Sync Start=1532698><P Class=KRCC>
+아유, 우리 새끼 잘하네. 막 이런다? 점점 대학과 멀어지고 있는 걸 모르고. 응?
+<Sync Start=1539789><P Class=KRCC>
+초등학교 3학년 애가 고3 거를 푼다면서 사랑스러워한다. 
+<Sync Start=1549623><P Class=KRCC>
+만약에 제 친구가 그렇게 사랑스러워하는 모습을 보면 제가 이렇게 한마디를 합니다.
+<Sync Start=1556727><P Class=KRCC>
+
+<Sync Start=1558455><P Class=KRCC>
+그 행동이 바로 독이다. 그러면 그 친구는 저한테 이렇게 얘기합니다. 
+<Sync Start=1563413><P Class=KRCC>
+야, 승제야. 너는 고3만 가르치다 보니까 초등학생에 대한 감각이 없어서 그래. 
+<Sync Start=1567997><P Class=KRCC>
+승제야. 미치겠어. 답답해 죽겠어, 답답해 죽겠어. 답답해 죽겠어.
+<Sync Start=1579312><P Class=KRCC>
+
+<Sync Start=1582299><P Class=KRCC>
+물어보지 말던가. 꼭 전화는 해. 나한테. 거의 녹화 중일 테니까 카톡을 남겨. 
+<Sync Start=1592554><P Class=KRCC>
+승제야. 정말 시간 많이 남을 때 잠깐만 전화 좀 줘. 막 이런다고. 
+<Sync Start=1598467><P Class=KRCC>
+전화하면, 내가 지금 하고 있는 거니? 그러면 아니? 소용없는 짓인데? 
+<Sync Start=1606419><P Class=KRCC>
+얘, 너는 이상해. 그럼 딱 끊어. 진짜 아이, 전화를 하지 말지. 그러면. 
+<Sync Start=1612387><P Class=KRCC>
+뭐를 원했던 거야? 무슨 심리야? 확인하고 싶은 심리겠지. 
+<Sync Start=1616861><P Class=KRCC>
+잘한다는 얘기를 듣고 내가 부모로서 최고의 부모 아니냐, 라는 걸 확인받고 싶은데 
+<Sync Start=1621007><P Class=KRCC>
+내가 아니라니까 짜증 나겠지. 어? 나 또 화나려고 그러는데 화내면 안 돼요. 
+<Sync Start=1626628><P Class=KRCC>
+목 더 안 좋아지니까. 
+<Sync Start=1632673><P Class=KRCC>
+난 그래서 진짜 그렇게 생각해. 제대로 된 선행학습 얘기하는 거 아니야. 
+<Sync Start=1640308><P Class=KRCC>
+아니, 초등학교 4학년인데 고3 거를 완벽하게 정승제처럼 설명할 수 있어. 
+<Sync Start=1646282><P Class=KRCC>
+어? 박수, 나. 최고! 계속 그렇게 공부하면 돼. 누가 선행학습하지 말래. 
+<Sync Start=1652087><P Class=KRCC>
+그렇게 하면 돼. 근데 내가 얘기하는 건 뭐라고? 
+<Sync Start=1655230><P Class=KRCC>
+선행학습을 부모들이 가르치는 게 아니라 학원에서 가르칠 거 아니야. 
+<Sync Start=1659975><P Class=KRCC>
+대치동. 거기서 얘가 아는지를 확인을 안 한다고. 알고 푸는지 모르고 푸는지를. 
+<Sync Start=1667032><P Class=KRCC>
+그래서 선행학습은 문제풀이 암기 교육밖에 안 돼. 
+<Sync Start=1670753><P Class=KRCC>
+신나게 암기하고 얘네들 집에 가는 거라니까. 진짜로. 공정, 이러면서. 이유는 몰라. 
+<Sync Start=1679520><P Class=KRCC>
+그냥 답내는 방법만 알아. 그러니까 내가 독이라 그러지. 
+<Sync Start=1683618><P Class=KRCC>
+
+<Sync Start=1696633><P Class=KRCC>
+두 가지인 것 같아. 내가 선행학습이 없어지지 않는 이유에 대해서 
+<Sync Start=1701438><P Class=KRCC>
+막 고민을 해봤거든? 이유는 두 가지야. 첫 번째가 뭐게? 
+<Sync Start=1709789><P Class=KRCC>
+첫 번째는 불안함. 옆집도 하니까 나도 시켜야 되지 않을까? 
+<Sync Start=1713575><P Class=KRCC>
+내버려 두기의 불안함. 두 번째는 뭐게? 
+<Sync Start=1721677><P Class=KRCC>
+역할놀이. 어? 부모로서 얘를 내팽겨 쳤다는 얘기는 듣기 싫어서. 
+<Sync Start=1734107><P Class=KRCC>
+나는 2번이 더 많을 거라고 생각해. 1번도 많지만, 두 개가 융합된 거지. 
+<Sync Start=1739045><P Class=KRCC>
+남들이 다 하고 내가 안 시키면 보통 이런 얘기를 해요. 학부모님들이 쓰는 어휘야. 
+<Sync Start=1744635><P Class=KRCC>
+뭐라 그러게? 원망 들을까 봐 그래요, 선생님. 나한테 진짜 그렇게 얘기해. 
+<Sync Start=1749900><P Class=KRCC>
+원망 들을까 봐요. 얘가 나중에 대학교 간 다음에 남의 집은 다 과외 시키는데 
+<Sync Start=1755702><P Class=KRCC>
+엄마, 아빠는 나 그것도 돈 아깝다고 안 시켰잖아. 그 얘기 들을까 봐. 어? 
+<Sync Start=1763904><P Class=KRCC>
+그래서 내가 그럴 때 학부모님들한테 뭐라 그러냐면, 
+<Sync Start=1768198><P Class=KRCC>
+불안함을 치유해주면서 학원을 보내지 말라는 얘기는 아니다. 
+<Sync Start=1773351><P Class=KRCC>
+맹목적으로 지금 미친 사람들처럼 그렇게 보내지 말고 애기가, 응? 원하면. 
+<Sync Start=1784820><P Class=KRCC>
+뭔가를 원하면 그때 해도 충분한데 강제적으로 보내잖아요. 그게 안 된다는 얘기야. 
+<Sync Start=1790599><P Class=KRCC>
+응? 단, 한국교육방송공사에서 주관하는 이 EBS 강좌로 선행학습을 하지 않더라도 
+<Sync Start=1807115><P Class=KRCC>
+이거 무료 강좌잖아. 사교육비 하나도 안 들잖아. 그치? 
+<Sync Start=1809803><P Class=KRCC>
+이걸로도 충분히 만점 나올 수 있다. 만점 나오면 다 되는 거 아니야? 
+<Sync Start=1814817><P Class=KRCC>
+서류 다 문제 맞을, 그 서류 문제 답 맞히려고 얘 4살 때부터 
+<Sync Start=1819970><P Class=KRCC>
+빨간색 펜 시킨 거 아니야, 그치? 그거 다 맞으면 고3때쯤 설명할 줄 알면 된다고. 
+<Sync Start=1829398><P Class=KRCC>
+근데 지금에서도 계속 이거를 공식으로 암기하면 된다, 안 된다? 안 된다. 
+<Sync Start=1833354><P Class=KRCC>
+어떻게 얘기하라는 얘기야? 왜 이렇게 나오는지, 왜 증가함수의 개수가 이건지를 
+<Sync Start=1838023><P Class=KRCC>
+설명을 해야 된다니까. 여러분이 가르칠 줄 알아야 된다니까. 왜 그래? 
+<Sync Start=1843772><P Class=KRCC>
+계속 커지려면 첫 번째에 따라서, 두 번째에 따라서 
+<Sync Start=1847503><P Class=KRCC>
+세 번째가 영향을 미치니까 인터뷰로는 안 되고 발상을 전환을 해서 
+<Sync Start=1851793><P Class=KRCC>
+화살을 처음부터 쏘지 말고 화살 맞을 애를 먼저 뽑아놓고 
+<Sync Start=1856984><P Class=KRCC>
+증가함수가 되려면 어떻게 하면 되니까? 화살 쏘는 방법의 수는 한 가지가 되니까. 
+<Sync Start=1861363><P Class=KRCC>
+이렇게 설명하라니까. 스스로가 납득이 되도록. 선생님, 이 문제를 어떻게 풀어요? 
+<Sync Start=1866182><P Class=KRCC>
+이걸 뭐라 그러게? x의 대소 관계랑 y의 대소 관계랑 바뀐 것을 시작. 
+<Sync Start=1870786><P Class=KRCC>
+감소함수라 그래. 감소함수의 개수를 세시오. 해볼까? 여러분, 감수함수가 돼도
+<Sync Start=1878268><P Class=KRCC>
+총 6명 중에서 몇 명만 화살 맞아요? 4명만 화살 맞을 거 아니야. 
+<Sync Start=1882288><P Class=KRCC>
+그러니까 6개 중에 4개 뽑아. 누가 뽑았다 그럴까? 그래. 
+<Sync Start=1885650><P Class=KRCC>
+1, 2, 4, 6이 뽑혔다 그럴게. 이제 화살 쏴. 감소함수는 어떻게 쏘면 돼?
+<Sync Start=1889523><P Class=KRCC>
+거꾸로. 제일 큰 애가 제일 작은 애한테, 끝에 두 번째가 앞에서 두 번째한테. 
+<Sync Start=1895047><P Class=KRCC>
+그다음 거, 그다음 거. 쏘는 방법은 무조건 한 가지니까 증가함수의 개수를 구하든 
+<Sync Start=1899626><P Class=KRCC>
+감소함수의 개수를 구하든 무조건 시작. 6C4가 되겠구나. 
+<Sync Start=1908188><P Class=KRCC>
+그렇다면 이게 뭐라고? 증가함수의 개수. 이거는 어떻게 할거냐? 
+<Sync Start=1915600><P Class=KRCC>
+등호가 들어가 있어. 앞에는 안 들어갔어요. 
+<Sync Start=1918821><P Class=KRCC>
+여기는 안 들어갔는데, 여기에 들어갔어요. 
+<Sync Start=1924034><P Class=KRCC>
+여기 등호가 들어갔다는 얘기는 무슨 말이냐면, 이 얘기 아니에요? 
+<Sync Start=1928287><P Class=KRCC>
+어떤 얘기냐면, 점점 커지는 건 맞는데 예를 들어서, 1이 2한테, 2가 3한테, 
+<Sync Start=1937156><P Class=KRCC>
+근데 3이 똑같은 애한테 쏴도 돼. 4도 3한테 쏴도 돼. 1도 되지. 
+<Sync Start=1945279><P Class=KRCC>
+등호가 있으니까. 역전은 못 시켜도 같은 것까지 되잖아. 
+<Sync Start=1951637><P Class=KRCC>
+선생님, 이거는 화살 맞는 애가 그러면 2, 3, 2명밖에 없네요. 
+<Sync Start=1955766><P Class=KRCC>
+그러면 6명 중에서 화살 맞을 2명을 뽑는 건가요? 아니. 
+<Sync Start=1960996><P Class=KRCC>
+4명을 뽑는다고 생각하는데, 얘를 이렇게 해석하면 돼. 
+<Sync Start=1964347><P Class=KRCC>
+화살 맞은 애가 누구야? 시작. 2, 3, 3, 3 이렇게. 화살을 2, 3, 3, 3에. 
+<Sync Start=1973100><P Class=KRCC>
+이 화살표를 2, 3, 3, 3이 맞았다고 생각하는 거야. 
+<Sync Start=1977899><P Class=KRCC>
+그 얘기는 1, 2, 3, 4, 5, 6 중에서 4개를 뽑는데 뭐를 허락한다? 시작. 
+<Sync Start=1984048><P Class=KRCC>
+중복을 허락했다고 생각하면 되지. 
+<Sync Start=1992006><P Class=KRCC>
+얘가 없으면 다 달라야 되니까 중복이 불허지만, 
+<Sync Start=1995418><P Class=KRCC>
+얘가 있으면 똑같은 거를 반복해서 뽑아도 된다는 거니까 
+<Sync Start=1999786><P Class=KRCC>
+그 반복해서 뽑더라도 제일 작은 것부터 순서대로 매칭시키면 되는 거니까 
+<Sync Start=2004563><P Class=KRCC>
+매칭시키는 방법은 아까랑 마찬가지로 한 가지고 이번엔 뽑는 방법이 
+<Sync Start=2008741><P Class=KRCC>
+서로 다른 6명 중에서 화살 맞을 4명을 뽑되 중복을 시작. 
+<Sync Start=2015514><P Class=KRCC>
+허락해서 뽑으면 되는구나. 그래서 저기에 등호가 들어가면 
+<Sync Start=2018870><P Class=KRCC>
+중복조합으로 바뀌는구나. 
+<Sync Start=2021494><P Class=KRCC>
+
+<Sync Start=2030261><P Class=KRCC>
+마찬가지로 이렇게 된다 그래도 답은 시작. 똑같다. 왜? 
+<Sync Start=2037347><P Class=KRCC>
+뽑기만 하면 매칭시키는 방법은 무조건 몇 가지밖에 안 되니까? 시작. 
+<Sync Start=2041419><P Class=KRCC>
+한 가지밖에 안 되니까. 그래서 중복조합 또는 조합을 이용해서 
+<Sync Start=2048466><P Class=KRCC>
+증가함수의 개수, 또 감소함수의 개수를 생각할 수 있다. 
+<Sync Start=2053059><P Class=KRCC>
+그래서 중복순열뿐만 아니라 지금 중복조합에서도 두 가지 경우에 대해서 
+<Sync Start=2057103><P Class=KRCC>
+생각을 해봤습니다. 여러분 교재에 없는 내용이라면 따로 메모해두세요. 
+<Sync Start=2062059><P Class=KRCC>
+수업 끝난 다음에. 수업 도중에 적지 말고 수업 끝난 다음에 
+<Sync Start=2066538><P Class=KRCC>
+여러분 나름대로의 방식으로 정리하시라고. 내가 아무리 정리해봤자 그건 내 거지 
+<Sync Start=2071141><P Class=KRCC>
+여러분 거 아니야. 출발해볼게. 유제 4번입니다. 
+<Sync Start=2076076><P Class=KRCC>
+두 집합 x, y에 대해서 x에서 y로의 함수의 개수를 구하시오. 정의역이 누구 있어? 
+<Sync Start=2082179><P Class=KRCC>
+1, 2, 3, 4, 5. 그럼 여기에 누구 있어? 1, 2, 3, 4, 5, 6. 간다. 
+<Sync Start=2086900><P Class=KRCC>
+x에서 y로의 함수인데, (가)라는 조건을 볼까? 임의의 두 원소 x₁, x₂가 
+<Sync Start=2092353><P Class=KRCC>
+대소 관계가 이러면, 증가함수인데 같은 게 들어 있어도 된다는 뜻이잖아요. 
+<Sync Start=2101001><P Class=KRCC>
+그러니까 만약에 (가)라는 조건만 있어. 답은 뭐야? 
+<Sync Start=2103410><P Class=KRCC>
+이 6명 중에서 화살 몇 개 받겠니? 5개 받을 거 아니야. 
+<Sync Start=2107596><P Class=KRCC>
+함수가 성립되려면 한 발씩 모두 다 쏠 테니까. 
+<Sync Start=2110627><P Class=KRCC>
+그럼 6개 중에서 5개를 뽑되 중복을 시작. 허용해서 뽑으면 되지. 
+<Sync Start=2116069><P Class=KRCC>
+(가)라는 조건까지만 있으면 얘가 바로 치역을 결정하는 방법의 수고요. 
+<Sync Start=2125593><P Class=KRCC>
+치역을 결정하는 방법의 수라기보다 맞은 애를 선택하는 방법의 수고요. 
+<Sync Start=2131173><P Class=KRCC>
+매칭시키는 방법은 시작. 한 가지니까 여기서 그냥 끝날 것이라는 거야. 
+<Sync Start=2135561><P Class=KRCC>
+그런데 여기 뭐라고 돼 있냐면, 이게 뭐야? 정의역에 있는 원소의 함숫값이니까 
+<Sync Start=2141287><P Class=KRCC>
+함숫값을 원소로 갖는 집합 시작. 이거 치역이야. 치역. 
+<Sync Start=2146068><P Class=KRCC>
+치역의 원소의 최솟값이 2래요. 어머, 귀여워. 치역의 원소의 최솟값. 
+<Sync Start=2153108><P Class=KRCC>
+그러면 잘 들어봐. 이중에서 얘들 중에서 치역 화살 맞는 애 중에서 
+<Sync Start=2159734><P Class=KRCC>
+제일 작은 애한테 화살 쏘는 애는 얘지. 자명하지 않니? 
+<Sync Start=2164634><P Class=KRCC>
+물론 얘도 똑같이 걔한테 쏠 수는 있지만, 여기 등호가 있으니까. 
+<Sync Start=2169471><P Class=KRCC>
+제일 작은 게 제일 작은 거한테 쏠 테니까 최소가 2라는 얘기는 
+<Sync Start=2173331><P Class=KRCC>
+얘가 누구한테서 온다는 얘기야? 2한테서 온다는 얘기야. 왜? 
+<Sync Start=2177033><P Class=KRCC>
+얘네들 중에서 얘가 제일 막내한테 쏠 거 아니야. 
+<Sync Start=2180829><P Class=KRCC>
+그러니까 1을 쏘지 못하고 2한테 이렇게 쏘겠지. 
+<Sync Start=2183547><P Class=KRCC>
+그러니까 1을 쏘는 방법의 수는 한 가지야. 일 끝나지 않았고. 
+<Sync Start=2186910><P Class=KRCC>
+한 가지를 쓸 필요 없으니까 이제 누구만 화살 쏘면 되니? 
+<Sync Start=2193293><P Class=KRCC>
+1, 2, 3, 4, 5만 화살 더 쏘면 되지. 누구한테 쏴야 돼? 1한테는 못 쏘지. 
+<Sync Start=2202367><P Class=KRCC>
+제일 작은 게 2라고 그랬으니까. 그러면 3, 4, 5, 6한테 쏴야 될까? 
+<Sync Start=2206547><P Class=KRCC>
+아니. 2, 3, 4, 5, 6, 2까지 또 됐지. 왜? 같은 것까지 되니까. 2 또 뽑아도 돼. 
+<Sync Start=2213561><P Class=KRCC>
+그러니까 2를 포함한 2, 3, 4, 5, 6, 5개 중에서 2, 3, 4, 5, 
+<Sync Start=2227803><P Class=KRCC>
+4명한테 화살을 맞을 4개를 뽑으시는데, 중복을 허락해서 뽑으시면 되겠구나. 
+<Sync Start=2236454><P Class=KRCC>
+그리고 이렇게 뽑았으면 2, 3, 4, 5가 화살을 매칭시키는 방법은 
+<Sync Start=2241087><P Class=KRCC>
+한 가지씩 밖에 없으니, 왜? 증가가 되려면. 최종적인 답 몇 가지? 시작. 
+<Sync Start=2246845><P Class=KRCC>
+5H4가지. 정말 좋은 문제. C4, 더해서 1빼니까 8. 8C4는 70. 그래서 답은 ⑤번. 
+<Sync Start=2256112><P Class=KRCC>
+이런 느낌으로 아주 우아하게 정리할 수 있다. 
+<Sync Start=2268270><P Class=KRCC>
+됐습니까? 
+<Sync Start=2269658><P Class=KRCC>
+
+<Sync Start=2283269><P Class=KRCC>
+이항정리를 들어가는 것보다는 사탕 문제를 풀어야 할 것 같아요. 
+<Sync Start=2287511><P Class=KRCC>
+이거 뭐 호텔 문제처럼 사탕 문제가 따로 있는 건 아닌데, 
+<Sync Start=2292833><P Class=KRCC>
+부정방정식의 해의 개수, 중복조합 문제 중에서 제일 유명한 게 사탕이에요. 사탕. 
+<Sync Start=2302446><P Class=KRCC>
+그러니까 이런 거. 서로 다른 종류의, 
+<Sync Start=2314062><P Class=KRCC>
+사탕 말고 뭐 있니? 
+<Sync Start=2316493><P Class=KRCC>
+
+<Sync Start=2323690><P Class=KRCC>
+사탕 말고 여러분 가지고 다니는, 학생들 가지고 다니는 거 사탕 말고 빵. 
+<Sync Start=2329328><P Class=KRCC>
+빵 3개와 서로 같은 종류의 사탕 7개를. 
+<Sync Start=2345933><P Class=KRCC>
+서로 같은 종류의, 애들이 이걸 외운다고. 같은 종류, 다른 종류. 
+<Sync Start=2349511><P Class=KRCC>
+절대 그렇게 하지 말라고 그랬지. 주머니 3개에 나누어 담는 경우의 수를 세어라. 
+<Sync Start=2365248><P Class=KRCC>
+단, 각 주머니에 빵은 반드시 들어있다. 이렇게 돼 있어요. 만약 문제가 이거야. 
+<Sync Start=2385752><P Class=KRCC>
+서로 같은 종류의 빵 3개와 서로 다른 종류의 사탕 7개라고 그랬거든요. 
+<Sync Start=2392912><P Class=KRCC>
+서로 같은 종류의 사탕 7개. 여러분, 사탕이 서로 같대. 
+<Sync Start=2396936><P Class=KRCC>
+같은 것끼리 구별하지 않는다 그러면 여러분 한번 대답을 해 봐. 
+<Sync Start=2408763><P Class=KRCC>
+똑같은 사탕 7개를 3명한테 나눠주는 방법의 수를 계산하시오. 
+<Sync Start=2412309><P Class=KRCC>
+어떻게? 내가 지금 뭐라 그랬어? 똑같은 사탕 7개를 3명, 
+<Sync Start=2418248><P Class=KRCC>
+영희랑 민식이랑 수호한테 나눠주고 싶어. 같은 종류의 사탕이 7개야. 
+<Sync Start=2427487><P Class=KRCC>
+그럼 얘네들 뭐라 그러게? 보통 감자탕 집에 가면 여러분 계산 안 해서 모르는데, 
+<Sync Start=2435684><P Class=KRCC>
+계산할 때 옆에 빨간색 뚜껑 투명한 플라스틱 통에 박하사탕이 여러 개가 
+<Sync Start=2442457><P Class=KRCC>
+쫙 들어있는 거 있다고. 그런데 이 3명한테. 우리 집 아이, 옆집 아이, 
+<Sync Start=2452981><P Class=KRCC>
+그 옆집 아이 3명한테 7개의 사탕을 나눠주는 방법의 수를 계산하시오. 
+<Sync Start=2456856><P Class=KRCC>
+그럼 어떻게 풀까? 생각해봐요. 똑같은 사탕 7개를 나눠줄 거거든. 
+<Sync Start=2463067><P Class=KRCC>
+그럼 애들의 관심사항은 뭐게? 바깥에 나와 가지고 애들끼리 물어본다고. 
+<Sync Start=2466741><P Class=KRCC>
+뭐라고 물어볼까? 영희가 민식이한테 뭐라고 물어볼까? 너 무슨 사탕 가졌어? 
+<Sync Start=2470620><P Class=KRCC>
+이렇게 물어보면 이상한 애지. 왜? 다 똑같은 사탕이니까. 다 박하사탕이잖아. 
+<Sync Start=2476377><P Class=KRCC>
+그러니까 애들끼리 뭐라 그러게? 만약에 전부 다 다른 사탕. 
+<Sync Start=2479272><P Class=KRCC>
+예를 들어서 복숭아맛 사탕, 자두맛 사탕, 콜라맛 사탕, 계피맛 사탕이라면
+<Sync Start=2484908><P Class=KRCC>
+MZ세대는 계피를 알까? 그러면 애들끼리 이렇게 얘기하겠지. 너 
+<Sync Start=2490149><P Class=KRCC>
+무슨 맛이야? 나는 복숭아맛, 이러겠지. 근데 다 똑같은 사탕이라면 그 느낌이거든. 
+<Sync Start=2496451><P Class=KRCC>
+그걸 머릿속에 떠오르라고. 똑같은 사탕 7개를 나눠주는 방법. 
+<Sync Start=2499967><P Class=KRCC>
+그럼 애들끼리 뭐라 그럴 것 같아? 영희가 민식이한테 시작. 
+<Sync Start=2502771><P Class=KRCC>
+너 몇 개 받았어? 이럴 거 아니야. 개수를 세라. 
+<Sync Start=2507014><P Class=KRCC>
+얘가 먹는 사탕의 개수랑 얘가 먹는 사탕의 개수랑 얘가 먹는 사탕의 개수를 
+<Sync Start=2512956><P Class=KRCC>
+결정하는 방법의 수를 계산하라는 얘기예요. 그게 바로 나눠주는 방법의 수죠. 
+<Sync Start=2516013><P Class=KRCC>
+똑같은 거니까 개수에 관심을 둘 테니까. 근데 다 더해서 몇 개가 되면 돼요? 시작. 
+<Sync Start=2522069><P Class=KRCC>
+7개가 되면 되더라. 따라서 음이 아닌 정수의 개수를 구해주시면 돼요. 
+<Sync Start=2527051><P Class=KRCC>
+사탕을 안 먹는 애가 발생할 수도 있다 그러면. 모두 먹어야 된다 그러면? 
+<Sync Start=2532228><P Class=KRCC>
+자연수 해의 개수를 구해주시면 되는 거고. 지금 무슨 말인지 알겠지?
+<Sync Start=2537130><P Class=KRCC>
+그러니까 여기 나오는 서로 같은 종류의 사탕 7개 나눠주고 빵 3개 나눠줄 건데, 
+<Sync Start=2544484><P Class=KRCC>
+서로 같은 종류의 사탕 7개를 나눠주는 방법의 수를 계산하라 그러면 이거겠지. 
+<Sync Start=2550936><P Class=KRCC>
+아니? 땡이야. 틀렸어. 왜? 얘네들을 영희, 민식, 수호한테 나눠주는 게 아니라 
+<Sync Start=2560341><P Class=KRCC>
+똑같은 주머니 3개 나눠준대. 그러니까 주머니 이름이 없어. 
+<Sync Start=2565898><P Class=KRCC>
+얘는 지금 서로 다른 애잖아. 서로 다르다는 얘기를 하지 않더라도 
+<Sync Start=2570446><P Class=KRCC>
+사람이면 다 다르잖아. 그러니까 얘가 먹는 사탕, 얘가 먹는 사탕, 얘가 먹는 사탕을 
+<Sync Start=2577132><P Class=KRCC>
+a, b, c 전부 다 다르게 인식을 하지만, 지금은 사탕 7개를 서로 같은 주머니, 
+<Sync Start=2584943><P Class=KRCC>
+이게 구분이 안 되는 서로 같은 주머니란 말이야. 
+<Sync Start=2590171><P Class=KRCC>
+그러면 중복조합으로 못 풀어요. 그런데 여기 뭐라고 돼 있냐면, 
+<Sync Start=2600058><P Class=KRCC>
+각 주머니에 빵은 반드시 들어 있다. 빵이 서로 다른 빵 3개. 
+<Sync Start=2604562><P Class=KRCC>
+크림빵, 소보로빵, 마늘빵. 크림빵, 소보로빵, 마늘빵을 하나씩 담아야 되거든. 
+<Sync Start=2612158><P Class=KRCC>
+여러분, 크림빵, 마늘빵, 소보로빵을 하나씩 똑같은 빈 주머니 3개에 
+<Sync Start=2619227><P Class=KRCC>
+하나씩 담는 방법의 수 몇 가지? 채민이 크게. 
+<Sync Start=2621319><P Class=KRCC>
+-한 가지. 
+<Sync Start=2621719><P Class=KRCC>
+한 가지씩. 세 가지라 그래도 안 되고 여섯 가지라 그래도 안 되지. 한 가지씩. 
+<Sync Start=2625960><P Class=KRCC>
+왜 한 가지야? 어차피 다 똑같으니까 그냥 하나씩 담으면 끝. 
+<Sync Start=2629565><P Class=KRCC>
+그거밖에 방법이 없다 이겁니다. 구별하지 않는 똑같은 주머니니까. 
+<Sync Start=2633648><P Class=KRCC>
+그런데 빵을 나눠주자마자 이름 없던 주머니가 시작. 이름 있는 주머니로 바뀌었죠. 
+<Sync Start=2640698><P Class=KRCC>
+이제 사람으로 바뀐 거야. 크림빵 주머니, 마늘빵 주머니, 소보로빵 주머니. 
+<Sync Start=2649208><P Class=KRCC>
+소보로빵이란 게 있어요? 소보로가 뭐야? 한국말이야? 
+<Sync Start=2656605><P Class=KRCC>
+그러니까 같은 종류의 사탕 7개를 얘네들한테 나눠줄 때는 뭐만 관심이 있다? 
+<Sync Start=2662875><P Class=KRCC>
+개수만 관심이 있으니까 이 안에 들어갈 사탕의 개수, 사탕의 개수, 
+<Sync Start=2666827><P Class=KRCC>
+사탕의 개수를 다 더해서 총 몇 개가 되면 된다? 시작. 7개가 되면 된다. 
+<Sync Start=2672665><P Class=KRCC>
+이런 얘기예요. 음이 아닌 정수의 개수를 따지는 건데 
+<Sync Start=2674661><P Class=KRCC>
+만약에 문제가 이렇게 돼 있어. 각 주머니에는 빵과 사탕이 각각 
+<Sync Start=2678974><P Class=KRCC>
+하나 이상씩 들어 있다. 만약에 그렇게 돼 있으면 얘네들 무슨 조건? 
+<Sync Start=2682334><P Class=KRCC>
+이상 조건이 돼서 자연수 조건이니까 세 가지 맛 아이스크림 중에서 
+<Sync Start=2687953><P Class=KRCC>
+7개를 뽑지 말고 시작. 4개만 뽑면 된다. 왜? 아저씨 하나씩 먼저 담아주세요. 
+<Sync Start=2692539><P Class=KRCC>
+전화 통화를 끝내놨으니까. 그래서 최종적인 답 시작. 
+<Sync Start=2698179><P Class=KRCC>
+C4인데 더해서 1빼니까 6C4니까 답은 시작. 15가지 끝. 이렇게 정리하는 거. 
+<Sync Start=2704306><P Class=KRCC>
+사탕 이야기를 너무 안 하면 좀 그럴 것 같아서 뒤에도 없더라고요. 
+<Sync Start=2708360><P Class=KRCC>
+사탕 이야기를 살짝 해봤습니다. 같은 사탕, 다른 사탕. 
+<Sync Start=2710792><P Class=KRCC>
+왜 같은 사탕, 다른 사탕인지 알겠지? 오늘은 여기까지. 
+<Sync Start=2715070><P Class=KRCC>
+다음 시간에 이항정리를 공부해보도록 하겠습니다. 수고하셨습니다.
+
+
+
+</BODY>
+</SAMI>

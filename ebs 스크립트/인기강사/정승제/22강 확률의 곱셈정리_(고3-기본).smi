@@ -1,0 +1,1150 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=27740><P Class=KRCC>
+-짤 될 거야, 그러네. 잘 들어보니까 짤 될 거야. <br>
+<Sync Start=30832><P Class=KRCC>
+
+<Sync Start=33566><P Class=KRCC>
+EBS 수능특강도 여러분의 짤로 돌아다닙니다. 그렇지? <br>
+<Sync Start=39484><P Class=KRCC>
+
+<Sync Start=46824><P Class=KRCC>
+어떻게 하면 좋아. 어떻게 하면 좋아. 어떻게 하면 좋아. 뭐가? 
+<Sync Start=50167><P Class=KRCC>
+조건부 확률을 완벽하게 이해하는 여러분이 되셔야 되는데 지금 문제 푸는 게 중요한 게 아니야. 
+<Sync Start=54571><P Class=KRCC>
+지금 첫 번째 문제부터 좀 그래. 그래서 이거를 여러분이 뭐냐 하면 잘 봐. 
+<Sync Start=63963><P Class=KRCC>
+조건부 확률, 이어지는 얘기가 확률의 곱셈 정리, 이어지는 얘기가 독립과 종속의 구분이거든. 
+<Sync Start=71375><P Class=KRCC>
+이 세 가지를 완벽하게 끝내야 돼. 그래야지 모든 문제를 원활하게 풀 수 있는데, 
+<Sync Start=76246><P Class=KRCC>
+여러분이 보통 공부할 때 조건부 확률 따로 공부하고 확률의 곱셈 정리 따로 공부하고 
+<Sync Start=81645><P Class=KRCC>
+그다음에 이거 뭐야? 독립 종속을 따로 공부해서 
+<Sync Start=85147><P Class=KRCC>
+이게 마치 확률의 곱셈 정리가 두 가지 모양인 듯 착각을 하는 경우가 되게 많아요. 
+<Sync Start=90815><P Class=KRCC>
+
+<Sync Start=93337><P Class=KRCC>
+그러니까 확률의 곱셈 정리를 언제 쓰는지 모르는 경우가 많다고. 
+<Sync Start=96771><P Class=KRCC>
+그래서 내가 이번 시간은 내내 오늘 문제를 못 풀 수도 있어. 
+<Sync Start=101029><P Class=KRCC>
+
+<Sync Start=103665><P Class=KRCC>
+조건부 확률의 진짜 속뜻부터 시작을 해서 차근차근 한번 설명을 해 보도록 할 테니까 
+<Sync Start=113169><P Class=KRCC>
+한번 잘 보도록 해 보세요. 여기서부터 한번 시작해 볼게. 뭐부터 시작하냐면, <br>
+<Sync Start=118334><P Class=KRCC>
+
+<Sync Start=127320><P Class=KRCC>
+이거 먼저 해석하는 것부터 저번 시간에 했었어. 
+<Sync Start=129991><P Class=KRCC>
+뭐가 일어났다는 조건하에, 시작. B가 일어났다는 조건하에 A가 일어날 확률. 
+<Sync Start=134529><P Class=KRCC>
+얘가 이미 일어났으니까 분모에 뭘 써라? 시작. B가 일어날 확률을 써라. 
+<Sync Start=139042><P Class=KRCC>
+분자는? B 안에서 A니까 그걸 한꺼번에 얘기하면 뭐야? 시작. 
+<Sync Start=143014><P Class=KRCC>
+A와 B의 동시에 일어날 확률이 분자에 들어간다. 
+<Sync Start=147102><P Class=KRCC>
+이게 조건부 확률의 공식이라는 거지. 그렇지? 
+<Sync Start=150538><P Class=KRCC>
+이것도 완벽하게 여러분 저번 시간에 내가 설명했었던 벤다이어그램을 가지고 
+<Sync Start=155441><P Class=KRCC>
+충분히 해석이 가능할 거야. 그런데 나는 조건부 확률을 그냥 이렇게 공식으로 푸는 애들은 
+<Sync Start=160609><P Class=KRCC>
+보통 문제를 다 이렇게 풀어. 여러분 거기에 책에 있는 해설지도 그렇게 돼 있을걸. 
+<Sync Start=164992><P Class=KRCC>
+해설만 봐봐, 해설. 첫 문제 해설. 무슨 사건을 A라고 뒀지. 
+<Sync Start=169267><P Class=KRCC>
+무슨 사건을 B라고 뒀을 거야. 그렇지? 그렇게 풀면 안 돼. <br>
+<Sync Start=173043><P Class=KRCC>
+
+<Sync Start=176706><P Class=KRCC>
+뭘 A라고 두고 뭘 B라고 두고 그걸 공식에다가 적용을 하려고, 그렇게 푸는 게 아니야. 그게 아니야. 
+<Sync Start=183150><P Class=KRCC>
+
+<Sync Start=190482><P Class=KRCC>
+가슴으로 느껴야 돼. 왜 A라고 둬요. 그냥 있는 그대로 받아들이면 되지. 
+<Sync Start=195966><P Class=KRCC>
+이미 일어난 사건을 분모에다 둔다. 그런데 그 사건이 일어나는 케이스가 여러 가지가 있어. 
+<Sync Start=201632><P Class=KRCC>
+그러니까 이것 또는 이것 또는 이거야. 동시에 할 수 없도록 빠짐없이. 
+<Sync Start=205053><P Class=KRCC>
+그중에 얘가 이렇게 될 확률. 이 안에 있는 것 중에서 이렇게 될 확률을 구하라. 
+<Sync Start=210047><P Class=KRCC>
+그게 바로 조건부 확률이라니까. 
+<Sync Start=212666><P Class=KRCC>
+그래서 무조건 A로 바꾸고 B로 바꾸고 이렇게 영어로 된 공식에다가 적용할 생각을 하지 마시고 
+<Sync Start=217292><P Class=KRCC>
+내가 조금 전에 얘기했었던 그 줄거리를 그대로 적용할 생각을 하십시오. 
+<Sync Start=221661><P Class=KRCC>
+예를 들어서 어떤 문제 한번 내볼까, 조건부 확률. <br>
+<Sync Start=225290><P Class=KRCC>
+
+<Sync Start=229997><P Class=KRCC>
+봐봐. 오늘 특강이야, 특강. 책 덮어. 저를 봐요. <br>
+<Sync Start=236476><P Class=KRCC>
+
+<Sync Start=242161><P Class=KRCC>
+다섯 군데를 방문하면, 
+<Sync Start=243599><P Class=KRCC>
+
+<Sync Start=249284><P Class=KRCC>
+중. <br>
+<Sync Start=250441><P Class=KRCC>
+
+<Sync Start=265024><P Class=KRCC>
+이렇게 얘기하지 말고 어느 장소에서 
+<Sync Start=267959><P Class=KRCC>
+
+<Sync Start=271287><P Class=KRCC>
+물건을 잃어버릴 확률이 
+<Sync Start=278507><P Class=KRCC>
+
+<Sync Start=282401><P Class=KRCC>
+3분의 1인 승제가, 
+<Sync Start=288263><P Class=KRCC>
+
+<Sync Start=294383><P Class=KRCC>
+어디만 갔다 그러면 물건을 잃어버리는, 
+<Sync Start=296813><P Class=KRCC>
+여러분 친구들 중에서 꼭 그런 사람이 있는데 자주 잃어버리는 사람이 있어요. <br>
+<Sync Start=300644><P Class=KRCC>
+저 항상 예전에 택시에 항상 뭐 두고 내리고 막 그랬었던 기억나는데. 
+<Sync Start=304502><P Class=KRCC>
+저는 그렇게 많이 잃어버리는 편은 아니야. 
+<Sync Start=307792><P Class=KRCC>
+잃어버리지, 아마 안 잃어버리는 편에 속할 것 같은데. 워낙 확인하는 습관이 많이 있어서. 
+<Sync Start=315965><P Class=KRCC>
+여러분 택시에서 내리면 어떻게 내려요? 저는 이렇게, 이게 뭐야? 
+<Sync Start=321224><P Class=KRCC>
+주머니에서 빠진 게 없나. 이렇게 하고 내가 내린 시트를 보고 바닥을 보고 닫거든. 
+<Sync Start=330919><P Class=KRCC>
+그렇게 하는 사람 많이 없지 않니? 채민이, 그러니? 
+<Sync Start=333917><P Class=KRCC>
+-저도 버릇이 그렇게 됐어요. 
+<Sync Start=335505><P Class=KRCC>
+-버릇이 그렇게 되긴. 넌 집에 간 거 기억도 안 나잖아. <br>
+<Sync Start=339174><P Class=KRCC>
+내가 택시 불러서 보내주면 택시를 탔는지, 기억도 못 하면서 뭘 확인하고 내린다. 
+<Sync Start=348043><P Class=KRCC>
+-정신 있을 때, 정신 있을 때. 
+<Sync Start=351836><P Class=KRCC>
+-진짜 기가 막혀서. <br>
+<Sync Start=354015><P Class=KRCC>
+
+<Sync Start=356260><P Class=KRCC>
+어느 장소에서 물건을 잃어버릴 확률이 3분의 1인 승제가 외출을 하는 거야. 
+<Sync Start=363685><P Class=KRCC>
+어디로 갈까? 스튜디오. 뭐 하러? 
+<Sync Start=368173><P Class=KRCC>
+스튜디오라고 그러지 말고 EBS를 갔어. EBS를 갔다가 집이 EBS랑 멀어. EBS는 멀어, 일산에 있어. 
+<Sync Start=378444><P Class=KRCC>
+갔다가 홍대 앞에 갔어. 왜? 젊음을 만끽하러. 
+<Sync Start=382724><P Class=KRCC>
+사실 저의 사무실이 여기 있거든요. 홍대 앞에 갔다가 홍대 앞 사무실. 
+<Sync Start=387655><P Class=KRCC>
+
+<Sync Start=393086><P Class=KRCC>
+그다음에 어디 갈 것 같아? 
+<Sync Start=394526><P Class=KRCC>
+
+<Sync Start=398438><P Class=KRCC>
+야구장? 좋다. 야구장. 
+<Sync Start=402343><P Class=KRCC>
+
+<Sync Start=406140><P Class=KRCC>
+LG 대 키움의 경기가 벌어지는 잠실 야구장에 갔다가 집으로 돌아왔다. 
+<Sync Start=415692><P Class=KRCC>
+집에 와보니, 
+<Sync Start=418133><P Class=KRCC>
+
+<Sync Start=424164><P Class=KRCC>
+나의 휴대전화. 
+<Sync Start=427806><P Class=KRCC>
+
+<Sync Start=432366><P Class=KRCC>
+없어진 걸 발견한 거야. 휴대전화가 없어졌구나. 
+<Sync Start=435219><P Class=KRCC>
+
+<Sync Start=438979><P Class=KRCC>
+이 휴대전화를 어디서? 
+<Sync Start=441247><P Class=KRCC>
+
+<Sync Start=445067><P Class=KRCC>
+야구장에서 잃어버렸을, 항상 과거로 간다고. 그렇지? 왜 그런지 알겠지. 그렇지? 
+<Sync Start=459381><P Class=KRCC>
+잃어버렸을 확률을 구하라. 이걸 무슨 확률? 조건부 확률. 
+<Sync Start=466315><P Class=KRCC>
+여러분에게 소개하는 첫 번째 조건부 확률입니다. <br>
+<Sync Start=469423><P Class=KRCC>
+다시 얘기하면 어떤 장소에 가서 잃어버릴 확률이 3분의 1이고 
+<Sync Start=473106><P Class=KRCC>
+잃어버리지 않을 확률이 3분의 2인 승제가 있는데 세 군데 장소를 들른 거야. 
+<Sync Start=478563><P Class=KRCC>
+EBS 갔다가 홍대 갔다가 야구장에 갔다가 집으로 왔어. 
+<Sync Start=482387><P Class=KRCC>
+그런데 집에 왔더니 뭐가 없어짐을 인지했다? 휴대전화가 없어짐을 인지했어. 
+<Sync Start=488969><P Class=KRCC>
+나 어디서, 여러분 꼭 잊어버렸을 때 그날 돌려보잖아, 머릿속으로. 채민이는 기억이 안 나겠지만. 
+<Sync Start=499657><P Class=KRCC>
+보통은 내가 여기서, 내가 있었었나? 화장실에 갔었나? 이런 생각 다 하잖아. 그렇지? <br>
+<Sync Start=505447><P Class=KRCC>
+
+<Sync Start=508409><P Class=KRCC>
+용의자는 몇 명이야? 3명. 하나 EBS, 또 홍대, 또 야구장. 
+<Sync Start=514804><P Class=KRCC>
+3개 중의 하나가 범인인데 물건을 잃어버릴 그 상황에는 내가 인지를 하지 못했던 거지. 
+<Sync Start=521318><P Class=KRCC>
+이미 물건은 내 곁을 떠났고. 
+<Sync Start=524280><P Class=KRCC>
+
+<Sync Start=527413><P Class=KRCC>
+이때 범인이 용의자 3명 중에 누구일, 시작. 야구장이 범인일 확률을 구하라. 
+<Sync Start=534432><P Class=KRCC>
+답, 이걸 뭐를 A라고 놓고 B라고 놓는 게 아니라 
+<Sync Start=537272><P Class=KRCC>
+이미 잃어버렸다고 했으니까 잃어버릴 확률을 분모에다 쓰는 건데 
+<Sync Start=542999><P Class=KRCC>
+어디서 잃어버리거나, 시작. EBS 또는 홍대 또는 야구장. 
+<Sync Start=550382><P Class=KRCC>
+용의자 1, 용의자 2, 용의자 3, 각각 잃어버릴 확률. 
+<Sync Start=555098><P Class=KRCC>
+분자는 야구장에서 잃어버릴 확률을 그대로 복사해주면 된다. 
+<Sync Start=562439><P Class=KRCC>
+조건, 잃어버렸다. 분자, 잃어버리면서 야구장에서 잃어버린 거야, 야구장에. 
+<Sync Start=570874><P Class=KRCC>
+그러니까 결국 최종적인 답은 용의자 1, 용의자 2, 용의자 3분의 용의자 3. 
+<Sync Start=575911><P Class=KRCC>
+얘를 그대로 복사해주면 되는 거니까 우리가 구해야 될 것은 3가지 확률만 알면 되는 거예요. <br>
+<Sync Start=579960><P Class=KRCC>
+
+<Sync Start=583126><P Class=KRCC>
+첫 번째 구해볼게. EBS에서 잃어버릴 확률을 구하라 그러면 
+<Sync Start=589584><P Class=KRCC>
+가자마자 잃어버려야 되니까 얼마야? 시작. 3분의 1 끝. 
+<Sync Start=593340><P Class=KRCC>
+도착하자마자 잃어버린대. 잃어버릴 확률이 3분의 1이라고 그랬으니까. 
+<Sync Start=596644><P Class=KRCC>
+그런데 홍대에서 잃어버릴 확률은 EBS에서 잃어버리면 안 되지. 
+<Sync Start=601482><P Class=KRCC>
+EBS에서는 잃어버리면 안 되고 and 일 끝나지 않았으면 곱한다를 확률에서도 고스란히 쓰여요. 
+<Sync Start=611119><P Class=KRCC>
+이걸 확률의 곱셈 정리라고 하는데 내가 한꺼번에 나중에 설명을 다 해줄게요. <br>
+<Sync Start=614136><P Class=KRCC>
+일단은 일 끝나지 않았으면 곱한다라고 기억을 해. 
+<Sync Start=616523><P Class=KRCC>
+
+<Sync Start=619247><P Class=KRCC>
+EBS에서 잃어버리지 않고 and 홍대에서 잃어버려야 되고, 
+<Sync Start=623901><P Class=KRCC>
+야구장에서 잃어버리려면 EBS에서 잃어버리지 않고 
+<Sync Start=628355><P Class=KRCC>
+홍대에서도 잃어버리지 않은 다음에, 
+<Sync Start=631002><P Class=KRCC>
+
+<Sync Start=635741><P Class=KRCC>
+야구장에서 잃어버려야지. 이게 바로 야구장에서 잃어버릴 확률. 
+<Sync Start=641577><P Class=KRCC>
+맨 마지막은 얘를 그대로 복사하는 거니까 3분의 2×3분의 2×3분의 1을 써주면 
+<Sync Start=647245><P Class=KRCC>
+얘가 바로 최종적인 답이겠구나. 그래서 분자, 분모에 똑같이 뭘 곱할까? 27을 곱하면, 
+<Sync Start=652721><P Class=KRCC>
+여기다 27 곱해 보세요. 시작. 9 더하기 여기다 27 곱하면 3×2=6 더하기 27 곱하면 2×2, 4분의 4. 
+<Sync Start=666933><P Class=KRCC>
+그래서 최종적인 답, 시작. 19분의 4가 답이다. 이게 바로 조건부 확률이라는 거야. 
+<Sync Start=671835><P Class=KRCC>
+뭐를 A라고 놓고 뭐를 B라고 놓고 이렇게 풀지 마요. 
+<Sync Start=675528><P Class=KRCC>
+가장 기본적인 조건부 확률. 어떤 일이 이미 일어났는데 그 일은 누군가가 저지른 거야. 
+<Sync Start=685956><P Class=KRCC>
+근데 얘 아니면 얘 아니면 얘가 저질렀는데 난 누가 저질렀는지 몰라. 
+<Sync Start=689970><P Class=KRCC>
+그런데 확실한 거는 집에 와보니 일이 저질러졌어. 
+<Sync Start=694367><P Class=KRCC>
+그때 얘가 저질렀을 확률을 구하라. 이걸 조건부 확률이라 그러고 
+<Sync Start=698122><P Class=KRCC>
+분모에다가는 용의자 1, 용의자 2를 깔면 되고 
+<Sync Start=700829><P Class=KRCC>
+분자에는 그 용의자 중에 범인으로 지목된 한 명을 써주면 된다. <br>
+<Sync Start=705109><P Class=KRCC>
+그거를 공식으로 얘기하면 분모에다가는 이미 일어날 확률. 사건이 일어난 거예요. 
+<Sync Start=710947><P Class=KRCC>
+분자는 그 사건이 일어난 그 안에서 
+<Sync Start=714470><P Class=KRCC>
+
+<Sync Start=717721><P Class=KRCC>
+용의자로 지목된 게가 일어날 확률. 그중에서 하나를 위로 올리면 된다 이거야. 
+<Sync Start=723516><P Class=KRCC>
+그러니까 분모 중에서 일부를 끌어올려서 분자에다 쓰는 거지. 이해가 돼요? 
+<Sync Start=729238><P Class=KRCC>
+그게 바로 교집합 개념이다. 또 예를 들어줄게. 주머니 2개가 있어. 
+<Sync Start=735183><P Class=KRCC>
+
+<Sync Start=738302><P Class=KRCC>
+A라는 주머니가 있고 B라는 주머니가 있어. A라는 주머니는 흰 공 3개, 검은 공 4개가 있고요. 
+<Sync Start=749264><P Class=KRCC>
+B라는 주머니는 흰 공 2개, 검은 공 2개가 있어. <br>
+<Sync Start=754175><P Class=KRCC>
+
+<Sync Start=757874><P Class=KRCC>
+A라는 주머니에서는 
+<Sync Start=759844><P Class=KRCC>
+
+<Sync Start=770585><P Class=KRCC>
+2개의 공을 꺼내고 B라는 주머니에서는 2개, 여기를 3개라 그러자. 여기는 3개의 공을 꺼내는 거야. <br>
+<Sync Start=779120><P Class=KRCC>
+
+<Sync Start=782067><P Class=KRCC>
+A라는 주머니에서는 3개를 꺼내고 B라는 주머니에서는 2개를 꺼내. 
+<Sync Start=787488><P Class=KRCC>
+이전에 주사위를 던져서, 뭘 던져서? 주사위를 던져서, 
+<Sync Start=794058><P Class=KRCC>
+내가 지금 즉흥적으로 문제를 만들고 있는데, 
+<Sync Start=797639><P Class=KRCC>
+짝수가 나오면 A 주머니에서 공 3개를 꺼내고 홀수가 나오면 B 주머니에서 
+<Sync Start=806662><P Class=KRCC>
+
+<Sync Start=810756><P Class=KRCC>
+공 2개를 꺼낸다. <br>
+<Sync Start=813088><P Class=KRCC>
+
+<Sync Start=816240><P Class=KRCC>
+이렇게 꺼낸 공 중에 흰 공이 
+<Sync Start=827971><P Class=KRCC>
+
+<Sync Start=832795><P Class=KRCC>
+2개였을 때, 
+<Sync Start=836296><P Class=KRCC>
+
+<Sync Start=840446><P Class=KRCC>
+주머니 B에서 나왔을 확률을 구하라. 
+<Sync Start=846648><P Class=KRCC>
+
+<Sync Start=849241><P Class=KRCC>
+이것도 조건부 확률의 느낌이 얻어지십니까? 
+<Sync Start=852876><P Class=KRCC>
+무슨 문제냐면 주사위를 먼저 던져. 짝수가 나오면 여기서 3개 꺼내. 
+<Sync Start=856627><P Class=KRCC>
+홀수가 나오면 2개 꺼내. 그러니까 3개 꺼냈는지 2개 꺼냈는지 몰라. 
+<Sync Start=859368><P Class=KRCC>
+내가 현장에 없었어. 나 수업하고 있었어. 
+<Sync Start=862217><P Class=KRCC>
+
+<Sync Start=866626><P Class=KRCC>
+내가 집에 딱 와서 ‘야, 흰 공 몇 개 나왔어?’ 그랬더니 코델리아가 2개 그랬어. 
+<Sync Start=874552><P Class=KRCC>
+그럼 난 모르잖아. 여기서 2개 나왔는지 여기서 2개 나왔는지 모르잖아. 
+<Sync Start=878133><P Class=KRCC>
+흰 공이 2개라는 것밖에 모르잖아. 그러니까 흰 공이 2개가 이미 나왔다. 
+<Sync Start=883634><P Class=KRCC>
+얘가 바로 조건부 확률의 조건이라는 거야. 이미 이런 사건이 터졌어. <br>
+<Sync Start=887909><P Class=KRCC>
+
+<Sync Start=892105><P Class=KRCC>
+그런데 그런 사건을 터뜨리도록 만드는 케이스가 지금 몇 가지야? 용의자가, 시작. 
+<Sync Start=896985><P Class=KRCC>
+두 가지잖아. 하나는 A 주머니, 하나는 B 주머니. <br>
+<Sync Start=899722><P Class=KRCC>
+
+<Sync Start=903292><P Class=KRCC>
+그중에서 시작. B가 범인일 확률을 구하라. 조건부 확률이죠. 
+<Sync Start=909125><P Class=KRCC>
+이렇게 느낌을 얻어야 돼. 답 써볼까? 분모에다 뭐 깔아라? 
+<Sync Start=915158><P Class=KRCC>
+이미 일어난 거. 이게 이미 일어난 거라니까. 흰 공 2개가 나왔다니까. 
+<Sync Start=918577><P Class=KRCC>
+그런데 흰 공 2개가 나오는 방법. 시작. A에서 흰 공 2개가 나올 수도 있고 
+<Sync Start=922098><P Class=KRCC>
+B에서 흰 공 2개가 나올 수도 있는데 
+<Sync Start=924478><P Class=KRCC>
+
+<Sync Start=926955><P Class=KRCC>
+용의자는 2명인데 B에서 이 중에서 일부분, B에서 그랬을 확률을 구하라. 끝. <br>
+<Sync Start=934661><P Class=KRCC>
+
+<Sync Start=937245><P Class=KRCC>
+재밌지? 그다지. <br>
+<Sync Start=940876><P Class=KRCC>
+
+<Sync Start=944501><P Class=KRCC>
+같이 풀어보죠. A에서 흰 공 2개가 나올 확률을 구해보자. 어떻게? 
+<Sync Start=950143><P Class=KRCC>
+일단 A를 선택하기 위해서는 주사위 던져서 뭐가 나와야 돼요? 
+<Sync Start=953386><P Class=KRCC>
+짝수가 나와야 되니까 일단 주사위 던져서 짝수가 나온 다음에 and 
+<Sync Start=959133><P Class=KRCC>
+A에서 흰 공 2개가 나와야 돼. A 총 몇 개 공 중에? 7개 중에서 몇 개 뽑을 건데? 
+<Sync Start=965411><P Class=KRCC>
+3개 뽑을 건데, 흰 공이 딱 2개 나왔대. 그 얘기는 3개 중에 흰 공에서 몇 개 뽑고? 
+<Sync Start=973639><P Class=KRCC>
+2개, 검은 공 중에서 하나 뽑은 거니까 3개 중 2개 뽑고 검은 공 4개 중에 하나 뽑은 거지. 
+<Sync Start=982084><P Class=KRCC>
+이게 바로 A 주머니에서 흰 공 2개가 빠져나올 확률이고 용의자 2로 한번 가볼까요. 
+<Sync Start=988471><P Class=KRCC>
+B 주머니를 선택하기 위해서는 일단 주사위 던져서 시작. 홀수가 나와야 해. 
+<Sync Start=994848><P Class=KRCC>
+홀수가 나올 확률. 시작 2분의 1 and 그럼 B 주머니에서 총 4개 중 2개 뽑을 거잖아. 
+<Sync Start=1004928><P Class=KRCC>
+전체 경우의 수. 4C2분의 흰 공이 2개 나왔다는 얘기는 2개 중에서만 2개 뽑은 거지. 
+<Sync Start=1011336><P Class=KRCC>
+어디서만? 시작. 흰 공 2개 중에서만 2개. 그래야지 흰 공이 2개가 나올 테니. 
+<Sync Start=1017323><P Class=KRCC>
+이때도 흰 공 2개, 이때도 흰 공 2개다. <br>
+<Sync Start=1019558><P Class=KRCC>
+
+<Sync Start=1024327><P Class=KRCC>
+이렇게 보는 것보다 흰 공의 개수가 
+<Sync Start=1027834><P Class=KRCC>
+
+<Sync Start=1031351><P Class=KRCC>
+2개였을 때 이래야지. 검은 공의 개수는 지금 언급한 게 아니야. 
+<Sync Start=1035152><P Class=KRCC>
+흰 공이 2개 나오는 경우는 B에서 흰 공 2개라는 거 또는 A에서는 공 총 3개 나오니까 
+<Sync Start=1040454><P Class=KRCC>
+흰 공 2개, 검은 공 하나가 나오는 거. 얘도 흰 공 2개, 얘도 흰 공 2개다. 
+<Sync Start=1045497><P Class=KRCC>
+그중에 얘를 구하는 거니까 얘를 그대로 복사해서 2분의 1×4C2 분의 2C2를 처리해 주시면 된다. <br>
+<Sync Start=1054777><P Class=KRCC>
+분자, 분모에 똑같이 뭘 곱할 거야? <br>
+<Sync Start=1056502><P Class=KRCC>
+
+<Sync Start=1059083><P Class=KRCC>
+2를 곱하면 2분의 1 사라지고 2분의 1 사라지고 2분의 1 사라지고. 얘는 35분의 3×4=12. <br>
+<Sync Start=1069569><P Class=KRCC>
+
+<Sync Start=1072942><P Class=KRCC>
+얘는 6분의 1. 그러니까 최종적인 답은, 시작. 
+<Sync Start=1078576><P Class=KRCC>
+(35분의 12+6분의 1) 분의 6분의 1로 계산해주면 되겠죠. 
+<Sync Start=1086751><P Class=KRCC>
+그럼 36과 6을 곱하시면 되니까 36×6을 분자, 분모에 똑같이 곱하면 여기다가 6을 곱할 테니까 
+<Sync Start=1095325><P Class=KRCC>
+72+35분의 35, 이렇게 처리하시면 되겠지. 
+<Sync Start=1100204><P Class=KRCC>
+그래서 최종적인 답은 107의 35. 끝. 이렇게 푸는 거야. 재밌지 않니? 
+<Sync Start=1106473><P Class=KRCC>
+
+<Sync Start=1110973><P Class=KRCC>
+조건부 확률 문제 하나 더 내봐. 채민이가 한번 내볼까, 이번에는? 
+<Sync Start=1113761><P Class=KRCC>
+
+<Sync Start=1122142><P Class=KRCC>
+-공장에. <br>
+<Sync Start=1123760><P Class=KRCC>
+-아니야, 그냥 문제 풀 거야. 
+<Sync Start=1124810><P Class=KRCC>
+-네. 
+<Sync Start=1125830><P Class=KRCC>
+
+<Sync Start=1129922><P Class=KRCC>
+-진짜 못 된 것 같아. 왜 이렇게 못 됐지? 어렸을 때부터 좀 그랬는데. 
+<Sync Start=1139124><P Class=KRCC>
+1번 한번 풀어볼게. 느낌이 오는지 한번 볼게. 
+<Sync Start=1143491><P Class=KRCC>
+조금 어려운 문제라서 좀 쉬운 문제부터 시작했으면 좋겠는데 수능특강 수준이 좀 높다 보니까, 
+<Sync Start=1148973><P Class=KRCC>
+한번 읽어볼게요. 1, 2, 3, 4, 5가 적힌 카드, 진짜 좋아해. 
+<Sync Start=1153838><P Class=KRCC>
+자연수 진짜 좋아해. 그렇지? 자연수. 
+<Sync Start=1157009><P Class=KRCC>
+검은 공, 이런 거는 하나도 안 내. 사과 맛 사탕 5개, 이런 거 하나도 안 내. 
+<Sync Start=1162536><P Class=KRCC>
+무조건 1, 2, 3, 4, 5가 적혀 있대. 너무 건조해. 그렇지? 피자 얘기도 나오고 좀. 
+<Sync Start=1172416><P Class=KRCC>
+
+<Sync Start=1175205><P Class=KRCC>
+맨날 1, 2, 3, 4, 5가 적혀 있어. 
+<Sync Start=1177036><P Class=KRCC>
+
+<Sync Start=1179913><P Class=KRCC>
+1, 2, 3, 4, 5가 적혀 있는 5장의 카드 아니면 계속 저것만 바꿔. 
+<Sync Start=1184986><P Class=KRCC>
+카드 아니면 공이야. 1, 2, 3, 4, 5가 적혀 있는 카드 5장이 들어있는 주머니가 있대. 
+<Sync Start=1194067><P Class=KRCC>
+정말 대단하다, 진짜. 아니. 
+<Sync Start=1197080><P Class=KRCC>
+
+<Sync Start=1203285><P Class=KRCC>
+갑이 이 주머니에서 임의로 카드를 한 장 꺼내서 숫자를 확인하고 다시 넣어. 원상복구하는 거야. 
+<Sync Start=1213533><P Class=KRCC>
+을이 같은 주머니에서 임의로 카드 한 장을 꺼냈는데 더 큰 수가 적힌 사람이 이긴다. 뭔지 알아? 
+<Sync Start=1221929><P Class=KRCC>
+갑이 먼저 꺼내. 그런데 다시 복구시켜. 이거 복구하는 거를 따라 해봐. 복원 추출. 
+<Sync Start=1227280><P Class=KRCC>
+-복원 추출. 
+<Sync Start=1228377><P Class=KRCC>
+-추출이 뭐야? 꺼낸다. 복원. 따다다단. 시스템 복원 이런 거 있잖아. 
+<Sync Start=1236275><P Class=KRCC>
+원상 복구시키는 거지. 그러니까 다시 집어넣어서 을이 뽑아. 
+<Sync Start=1240870><P Class=KRCC>
+그럼 똑같을 수도 있죠. 똑같을 수도 있어요. <br>
+<Sync Start=1244150><P Class=KRCC>
+똑같으면 비기는 거야, 이기는 사람 없어. 
+<Sync Start=1248680><P Class=KRCC>
+그런데 갑이 꺼낸 카드에 적힌 수가 홀수일 때 갑이 이길 확률을 구하라. 
+<Sync Start=1257529><P Class=KRCC>
+어떤 사건이 이미 터졌어. 뭐가 터졌어? 갑이 홀수. <br>
+<Sync Start=1263232><P Class=KRCC>
+
+<Sync Start=1270546><P Class=KRCC>
+용의자들이 안 보이고 그냥 갑이 홀수인 걸 한꺼번에 얘기하자고. 
+<Sync Start=1276339><P Class=KRCC>
+왜 용의자들이 여기서 안 나오냐면 갑이 홀수. 
+<Sync Start=1281530><P Class=KRCC>
+뽑았는데 을은 아예 언급을 안 했잖아. 
+<Sync Start=1284180><P Class=KRCC>
+
+<Sync Start=1286655><P Class=KRCC>
+그러니까 갑이 홀수를 뽑았을 이 상황하에서는 갑이 이길 수도 있고 질 수도 있는 거야. 
+<Sync Start=1293346><P Class=KRCC>
+그러니까 굳이 얘기하면 갑이 홀수를 뽑았는데 이겼다와 
+<Sync Start=1299394><P Class=KRCC>
+갑이 홀수를 뽑았는데 졌다와 갑이 홀수를 뽑았는데 비겼다도 있겠지. 
+<Sync Start=1306898><P Class=KRCC>
+굳이 얘기하면 그걸 다 더하면 갑이 홀수를 뽑았다가 되는 거야. 
+<Sync Start=1312472><P Class=KRCC>
+그러니까 굳이 용의자처럼 아까처럼 얘기하면 갑이 홀수를 뽑았는데 이겼다. 
+<Sync Start=1315712><P Class=KRCC>
+갑이 홀수를 뽑았는데 비겼다. 갑이 홀수를 뽑았는데 졌다 분의 이겼다. 아까처럼 풀면. <br>
+<Sync Start=1322348><P Class=KRCC>
+용의자 1, 용의자 2, 용의자 3분의 용의자 1 이렇게 되는 거야. 
+<Sync Start=1327568><P Class=KRCC>
+그런데 분자는 뭐다? 시작. 갑이 이긴 거야. 
+<Sync Start=1330873><P Class=KRCC>
+그러니까 이 중에서 갑이 이긴 거야. 얘는 굳이 3가지로 나타나면 뭐라고? 
+<Sync Start=1336044><P Class=KRCC>
+갑이 홀수 뽑고 이긴다. 갑이 홀수 뽑고 비긴다. 갑이 홀수 뽑고 진다. <br>
+<Sync Start=1340803><P Class=KRCC>
+그중에 갑이 홀수 뽑고 이긴다를 분자에다가 써주는데 
+<Sync Start=1345099><P Class=KRCC>
+각각 계산하는 것보다는 얘를 계산하는 게 훨씬 쉽거든. 
+<Sync Start=1348880><P Class=KRCC>
+왜? 을은 고려하지 않아도 되니까, 이때는. 
+<Sync Start=1352253><P Class=KRCC>
+그래서 분모는 하나만 써주는 게 되고 분자는 뭐가 와야 돼? 시작. 
+<Sync Start=1357012><P Class=KRCC>
+갑이 홀수 뽑고 이기는 걸 써주면 되지. 
+<Sync Start=1360643><P Class=KRCC>
+이게 바로 조건부 확률 공식에서는 교집합의 확률, 동시에 일어날 확률. 
+<Sync Start=1365341><P Class=KRCC>
+이기는 행동과 홀수 뽑는 행동, 두 개가 동시에 일어날 확률. 
+<Sync Start=1369189><P Class=KRCC>
+갑이 홀수 뽑을 확률 분의 갑이 홀수 뽑으면서 이길 확률, 얘가 바로 최종적인 답이다. 
+<Sync Start=1376242><P Class=KRCC>
+이렇게 풀어야지 이걸 가지고 굳이 무슨 사건을 A라고 하자. 이러지 말라는 거야. <br>
+<Sync Start=1382415><P Class=KRCC>
+공식에 대입하는 게 아니야. 조건부 확률은 가슴으로 푸는 거야. 
+<Sync Start=1386920><P Class=KRCC>
+분모 먼저 씁니다. 갑이 홀수를 뽑을 확률. 
+<Sync Start=1393416><P Class=KRCC>
+홀수 뭐 있어요? 1, 3, 5니까 시작. 5개 중에 하나 뽑을 때 1, 3, 5, 3개 중에 하나 뽑으면 되죠. 
+<Sync Start=1399036><P Class=KRCC>
+이게 분모야. 그런데 이게 뭐랑 똑같다고? 갑이 홀수 뽑고 이긴다. 
+<Sync Start=1403626><P Class=KRCC>
+갑이 홀수 뽑고 비긴다. 갑이 홀수 뽑고 진다를 다 더한 게 이거라는 거야. 
+<Sync Start=1407153><P Class=KRCC>
+
+<Sync Start=1411825><P Class=KRCC>
+분자는 뭐 쓴다고? 갑이 홀수를 뽑고 이겨야 돼. 
+<Sync Start=1419135><P Class=KRCC>
+누구를? 을을. 그러면 그 홀수가 을이 뽑은 숫자보다 더 커야 되잖아. 
+<Sync Start=1424085><P Class=KRCC>
+그러면 여러분 생각해봐. 갑이 홀수 뽑고 이기려면 갑이 1 뽑으면 돼요, 안 돼요? 안 되죠. 
+<Sync Start=1431042><P Class=KRCC>
+왜? 1을 1로 이길 수 있는 사람은 없어. 비기는 거는 아니니까 이기라고 그랬으니까. 
+<Sync Start=1436993><P Class=KRCC>
+그러니까 뭐 아니면 뭘 뽑아야 돼? 무조건, 시작. 
+<Sync Start=1439359><P Class=KRCC>
+3 아니면 5를 뽑아야 되는데 갑이 3을 뽑을 때는 을은 누구를 뽑아야 되고? 
+<Sync Start=1444686><P Class=KRCC>
+1 또는 2를 뽑아야 되고, 왜? 작은 걸 뽑아야지 이기니까. 
+<Sync Start=1448182><P Class=KRCC>
+갑이 5를 뽑았을 때는 1 또는 2 또는 3 또는 4, 그러니까 몇 가지로 분류해서 풀자? 시작. 
+<Sync Start=1454117><P Class=KRCC>
+2가지로 분류해서 이럴 확률, 이럴 확률 구한 다음에 뭐 하자? 시작. 더하자. 
+<Sync Start=1459820><P Class=KRCC>
+이거 완전 느껴야 되는데, 조건부 확률. 
+<Sync Start=1463365><P Class=KRCC>
+그러니까 이게 뭔지 알아 돼, 이게. 
+<Sync Start=1467909><P Class=KRCC>
+갑이 3 뽑을 확률 먼저 해주세요. 시작. 5분의 1이잖아요. <br>
+<Sync Start=1472813><P Class=KRCC>
+and 3 뽑았어요. 다시 복구시켰어. 다시 이거야. 
+<Sync Start=1476683><P Class=KRCC>
+을이 뭐 또는 뭐 뽑을 확률? 1 또는 2 뽑을 확률. 
+<Sync Start=1480596><P Class=KRCC>
+5개 중에서 2개니까 5분의 2 이렇게 처리하시면 돼요. 
+<Sync Start=1485099><P Class=KRCC>
+5개 중에 하나 뽑을 때 1, 2 중에 하나 뽑을 확률. 굳이 얘기하면 5C1 분의 2C1. 
+<Sync Start=1489371><P Class=KRCC>
+
+<Sync Start=1491886><P Class=KRCC>
+갑이 5 뽑고 을이 1, 2, 3, 4 뽑는 방법의 수를 계산하시오. 그러면 갑이 5 뽑을 확률. 
+<Sync Start=1496106><P Class=KRCC>
+5분의 1이지, 뭐. and 갑이 1 또는 2 또는 3 또는 4를 뽑을 확률. 시작. 5분의 4지, 뭐. 
+<Sync Start=1501682><P Class=KRCC>
+얘는 25분의 2지, 뭐. 25분에 4지, 뭐. 그래서 분자는 두 개를 더하니까 시작. 
+<Sync Start=1508553><P Class=KRCC>
+25분에 왜 더 했어? 분류한 다음에 더하는 거잖아. 분모는? 아까 구했잖아, 5분의 3. 
+<Sync Start=1515355><P Class=KRCC>
+3×2=6. 5×5=25. 답 5분의 2. 끝. 이게 조건부 확률이야. <br>
+<Sync Start=1522412><P Class=KRCC>
+영어로 풀지 마. 갑이 이길 사건을 A라고 하자. 이러지 마 제발. 
+<Sync Start=1529387><P Class=KRCC>
+공식에 대입하는 거 아니야. 공식만의 의미를 생각할 줄 알면 되고, 
+<Sync Start=1534206><P Class=KRCC>
+우리는 공식으로 푸는 게 아니라 뭐로 풀면 된다? 조건부 확률의 뜻으로 풀면 된다. 
+<Sync Start=1540541><P Class=KRCC>
+어떤 사건이 이미 일어났는데 그 사건이 일어나는 거는 여러 가지가 있는데 
+<Sync Start=1544406><P Class=KRCC>
+그중에서 이렇게 일어났었을 확률을 구하라. 이걸 뭐라 그런다고? 
+<Sync Start=1548140><P Class=KRCC>
+조건부 확률. 너무 잘했어요. 
+<Sync Start=1551573><P Class=KRCC>
+또 볼게. 유제 1번 볼게. 이것도 한번 느껴볼게. 
+<Sync Start=1556834><P Class=KRCC>
+흰 공 몇 개? 6개. 검은 공 4개가 들어있는 주머니에서 3개의 공을 동시에 꺼내, 이번엔 동시에 꺼냈네. 
+<Sync Start=1566748><P Class=KRCC>
+
+<Sync Start=1569197><P Class=KRCC>
+하나 넣고 복구하고 이거 아니야. 3개를 동시에 꺼냈을 때 
+<Sync Start=1573593><P Class=KRCC>
+꺼낸 공 중에서 흰 공과 검은 공의 개수가 각각 a, b라고 할 때, 
+<Sync Start=1583162><P Class=KRCC>
+3개 중에 얘의 개수, 얘의 개수 더하면 3개잖아. 
+<Sync Start=1588423><P Class=KRCC>
+흰 공의 개수를 a, 검은 공의 개수를 b라고 하자. 
+<Sync Start=1593930><P Class=KRCC>
+문제, 얘가 얘보다 크거나 같다. 같을 수는 없잖니. 
+<Sync Start=1599164><P Class=KRCC>
+이거 어떻게 같니? 야, 총합점 3개인데 어떻게 같아. 
+<Sync Start=1602681><P Class=KRCC>
+1.5개, 1.5개 이래야지 같은데 1.5개는 없으니까 이쪽이 더 커야 돼. 
+<Sync Start=1607006><P Class=KRCC>
+그럼 3개를 어떤 식으로 뽑으면 돼? 3개, 0개. 가능하죠. 
+<Sync Start=1611273><P Class=KRCC>
+흰 공 6개, 검은 공 4개 있으니까. 2개, 1개 뽑아도 되지. <br>
+<Sync Start=1615944><P Class=KRCC>
+
+<Sync Start=1619040><P Class=KRCC>
+아니 3개니까 이거 말고 없지. 그러니까 내 말은 이미 이런 사건이 터졌거든. 
+<Sync Start=1629114><P Class=KRCC>
+폴리스 라인, 이미 이런 사건이 터졌는데 이런 사건이 터지는 용의자가 두 명밖에 없어. <br>
+<Sync Start=1639575><P Class=KRCC>
+
+<Sync Start=1642419><P Class=KRCC>
+무슨 사건? 흰 공이 검은 공보다 더 많이 뽑히는 사건이 두 가지밖에 없다니까. <br>
+<Sync Start=1649299><P Class=KRCC>
+
+<Sync Start=1655406><P Class=KRCC>
+뭔데? 용의자 1, 용의자 2. 얘가 용의자 1, 용의자 2. 
+<Sync Start=1660921><P Class=KRCC>
+그중에서 b가 0, 이 중에서, 그게 핵심이야, 조건부 확률은. 이 중에서 얘야. 일부. <br>
+<Sync Start=1671336><P Class=KRCC>
+물론 이럴 수도 있어. 얘도 아니고 얘도 아니고 이 중에 더 일부일 수도 있어. 
+<Sync Start=1674808><P Class=KRCC>
+확실한 건 이 중에서 하나 뽑아 올라가는 거야. <br>
+<Sync Start=1677202><P Class=KRCC>
+
+<Sync Start=1680167><P Class=KRCC>
+검은 공이 0개. 이거네. 이게 답이지. 
+<Sync Start=1684963><P Class=KRCC>
+용의자 1, 용의자 2분의 용의자 1 이게 정답이었습니다. 재밌죠? <br>
+<Sync Start=1689213><P Class=KRCC>
+
+<Sync Start=1693387><P Class=KRCC>
+너무 잘하고 있어요, 여러분. 이거 풀어볼까? 1번처럼 될 확률을 구하라. 
+<Sync Start=1699156><P Class=KRCC>
+그럼 어떻게 하면 돼? 흰 공에서만 3개 뽑으면 되잖아요. 
+<Sync Start=1701862><P Class=KRCC>
+전체 10개 중에서 3개 뽑을 때 전체 경우의 수 분의 흰 공에서만 3개 뽑으면 되니까 
+<Sync Start=1708019><P Class=KRCC>
+6C3 더하기 10C3 분의 2번 용의자. 
+<Sync Start=1713899><P Class=KRCC>
+흰 공 2개, 검은 공 하나 뽑아야 되니까 흰 공 6개 중에서 2개 뽑고 
+<Sync Start=1716816><P Class=KRCC>
+and 검은 공 4개 중에서 하나 뽑으면 되고 얘를 그대로 복사하니까 
+<Sync Start=1721583><P Class=KRCC>
+10C3 분의 6C3 이렇게 써주면 답이야. 답 써보자. <br>
+<Sync Start=1727232><P Class=KRCC>
+여러분, 이거를 각각 푸는 것보다 여기에 분모 얼마야? 10C3, 여기도 10C3, 여기도 10C3. 
+<Sync Start=1733639><P Class=KRCC>
+분자, 분모에 똑같이 10C3을 곱하면 분자만 남겠지. 
+<Sync Start=1737139><P Class=KRCC>
+그래서 얘는, 시작. 20+1×4. 60분의 그대로 복사, 20. 
+<Sync Start=1743910><P Class=KRCC>
+분자, 분모에 똑같이 10C3를 곱한 거죠. 
+<Sync Start=1748046><P Class=KRCC>
+80분의 20, 8분의 2. 4분의 1. 그래서 최종적인 답은 ③번, 이렇게 처리하실 수 있습니다. 재밌어? <br>
+<Sync Start=1755600><P Class=KRCC>
+
+<Sync Start=1761543><P Class=KRCC>
+그럼 지울 동안 채민아, 조건부 확률이 뭔지 한번 해봐. <br>
+<Sync Start=1765534><P Class=KRCC>
+
+<Sync Start=1770530><P Class=KRCC>
+부담스러워? <br>
+<Sync Start=1771700><P Class=KRCC>
+-네. <br>
+<Sync Start=1772780><P Class=KRCC>
+
+<Sync Start=1775259><P Class=KRCC>
+-직장 내 괴롭힘 이런 느낌이야? <br>
+<Sync Start=1777457><P Class=KRCC>
+
+<Sync Start=1785426><P Class=KRCC>
+지금 공부했었던 용의자 1, 용의자 2, 용의자 3분의 용의자 1. 괜찮지? 
+<Sync Start=1789590><P Class=KRCC>
+그런데 조건부 확률 중에 3점짜리로만 출제되는 아주 쉬운 조건부 확률이 있는데 
+<Sync Start=1793752><P Class=KRCC>
+이게 바로 따라 해 봐. 인원수가 주어진 조건부 확률. <br>
+<Sync Start=1796137><P Class=KRCC>
+-인원수가 주어진 조건부 확률. 
+<Sync Start=1797271><P Class=KRCC>
+-이거는 너무 쉬워서 딱 한 번만 설명하고 말게. 이런 식이야, 예를 들어서. 
+<Sync Start=1803575><P Class=KRCC>
+야구를 좋아하는 사람이 있고 축구를 좋아하는 사람이 있거든. 전교생 
+<Sync Start=1807332><P Class=KRCC>
+
+<Sync Start=1812209><P Class=KRCC>
+100명을 조사했더니 남학생이 있고 여학생이 있나 봐. 
+<Sync Start=1817646><P Class=KRCC>
+
+<Sync Start=1821738><P Class=KRCC>
+남학생 중에서 축구를 좋아하는 애가 있고 야구를 좋아하는 애가 있고 
+<Sync Start=1825623><P Class=KRCC>
+여학생 중에서 축구를 좋아하는 애가 있고 야구를 좋아하는 애가 있대. 
+<Sync Start=1828668><P Class=KRCC>
+단, 축구 야구 둘 중의 하나만 좋아한다고 하고 적어도 하나는 좋아한다는 얘기가 있다고 하자고. 
+<Sync Start=1836117><P Class=KRCC>
+그렇게 되면 남자인데 축구 좋아하는 애. 얘, 얘, 얘, 얘, 다 더해서 몇 명이야? 시작. 
+<Sync Start=1840934><P Class=KRCC>
+100명이 나오겠지. 예를 들어서 얘가 25명이고 30명이고. <br>
+<Sync Start=1852336><P Class=KRCC>
+
+<Sync Start=1864886><P Class=KRCC>
+그래 이렇게 하자. 30명이고 15명이라 그러자. 
+<Sync Start=1867514><P Class=KRCC>
+
+<Sync Start=1869820><P Class=KRCC>
+전교생 100명이 이렇게 돼 있대. 따라 해 봐. 인원수가 주어진 조건부 확률. 
+<Sync Start=1874394><P Class=KRCC>
+-인원수가 주어진 조건부 확률. 
+<Sync Start=1875904><P Class=KRCC>
+-너무 쉬워. 여기서 조건부 확률 만들어줄게. 뭐가 조건부 확률이라 그랬어? 
+<Sync Start=1879843><P Class=KRCC>
+어떤 사건이 터졌는데 누가 이런 일이 일어났는지 모른다고 그랬잖아. 
+<Sync Start=1883250><P Class=KRCC>
+전교생 중 1명을 뽑았을 때, 1명을 뽑았더니 
+<Sync Start=1891352><P Class=KRCC>
+
+<Sync Start=1896374><P Class=KRCC>
+축구를 좋아한다고 대답하였다. <br>
+<Sync Start=1904053><P Class=KRCC>
+
+<Sync Start=1908787><P Class=KRCC>
+이 아이가 여학생일 확률을 구하라. 
+<Sync Start=1916235><P Class=KRCC>
+이거 조건부 확률 느낌 드니? 
+<Sync Start=1920595><P Class=KRCC>
+어떤 느낌이야? 이미 사건은 터졌어. 축구 좋아한대. 
+<Sync Start=1924025><P Class=KRCC>
+그런데 내가 인터뷰한 게 아니야. 그런데 내가 딱 돌아보니까 ‘뭐 좋아한대요?’ 그러니까 ‘축구요.’ 
+<Sync Start=1928692><P Class=KRCC>
+그럼 남자일 수도 있고 여자일 수도 있잖아요. 그중에 누구일? 여자. 
+<Sync Start=1932993><P Class=KRCC>
+용의자 2명은 누구야? 남자 축구, 여자 축구. 범인은? 여자 축구. 됐지? <br>
+<Sync Start=1938085><P Class=KRCC>
+
+<Sync Start=1942731><P Class=KRCC>
+그래서 굳이 얘기하면 축구야. 
+<Sync Start=1946578><P Class=KRCC>
+이게 바로 분모니까 남자 축구, 여자 축구 중의 여자 축구일 확률을 구하라. 이거잖아. 
+<Sync Start=1956536><P Class=KRCC>
+이 중에 일부분이 여기로 올라가는 거야. 
+<Sync Start=1959597><P Class=KRCC>
+그런데 여러분, 여기다가 우리 아까 경우의 수 썼던 것도 기억나요? <br>
+<Sync Start=1964697><P Class=KRCC>
+분자, 분모를 똑같이 표본 공간의 원소 개수로 나눠서 확률로 바꿨던 거니까 
+<Sync Start=1968836><P Class=KRCC>
+조건부 확률을 풀 때는 여기를 경우의 수로 써도 되고 확률로 써도 상관은 없어요. 
+<Sync Start=1973805><P Class=KRCC>
+단, 부모가 같을 때만 경우의 수를 써도 되는 거야. <br>
+<Sync Start=1976153><P Class=KRCC>
+
+<Sync Start=1981923><P Class=KRCC>
+그냥 확률로 쓰자. 남자 축구를, 남자인데 축구 좋아할 확률 시작. 
+<Sync Start=1988433><P Class=KRCC>
+100명 중의 25명. 100분의 25. 여자인데 축구 좋아할 확률. 100명 중 30명. 
+<Sync Start=1996104><P Class=KRCC>
+여자인데 축구 좋아할 확률. 100명 중 30명. 분자, 분모에 똑같이 100을 곱하면 55분의 30. 
+<Sync Start=2004326><P Class=KRCC>
+5×6=30. 51. 그래서 최종적인 답은 얼마? 11분의 6 그렇게 푸는 건데 내 말은 
+<Sync Start=2009890><P Class=KRCC>
+내가 조금 전에 했었던 거를 고스란히 용의자 1, 용의자 2분의 2 중에 일부를 분자에 쓴다는 
+<Sync Start=2017477><P Class=KRCC>
+이런 방식으로 내가 설명을 했지만 앞으로 인원수가 주어지면 그렇게도 하지 말고 이렇게 하세요. 
+<Sync Start=2023706><P Class=KRCC>
+이미 축구 좋아한다 그랬지. 이미 축구 좋아한다 그랬으면 야구 다 집에 보내. 
+<Sync Start=2029597><P Class=KRCC>
+얘가 전체야. 지우면 돼, 인원수가 주어지면. 
+<Sync Start=2034338><P Class=KRCC>
+그중에 여자 확률 구하라. 이거 2개 더한 게 분모, 얘가 분자. 
+<Sync Start=2038559><P Class=KRCC>
+아까처럼 똑같이, 시작. 55분의 30. 11분의 6이 나온다. <br>
+<Sync Start=2042866><P Class=KRCC>
+인원수가 주어지면 지워가면서 아주 간단하게 풀 수 있다는 거예요. 
+<Sync Start=2047654><P Class=KRCC>
+3점짜리로 나오는데 그 문제를 또 여기다 갖다 놨네. <br>
+<Sync Start=2051145><P Class=KRCC>
+
+<Sync Start=2058947><P Class=KRCC>
+갑시다. 남학생 18명, 
+<Sync Start=2062636><P Class=KRCC>
+
+<Sync Start=2065339><P Class=KRCC>
+여학생 12명으로 이루어진 전체 몇 명? 30명이네요. 
+<Sync Start=2070332><P Class=KRCC>
+어느 천체 관측 동아리의 모든 학생들은 서로 다른 두 일자. 
+<Sync Start=2074528><P Class=KRCC>
+P 날짜와 Q 날짜 중 하나를 선택해서 관측한다고 한다. 
+<Sync Start=2079288><P Class=KRCC>
+18명, 여학생 20명인데 남자 중에서 P, Q. 여자 중에서 P 날짜, Q 날짜. 
+<Sync Start=2085936><P Class=KRCC>
+둘 중의 하나를 선택한다고 한다. 
+<Sync Start=2089255><P Class=KRCC>
+이 천체 관측 동아리 학생들 중에서 P를 선택한 여학생은 7명이고라고 썼으면 
+<Sync Start=2097242><P Class=KRCC>
+여학생이 총 몇 명이니까? 20명 아닌데, 12명인데. 
+<Sync Start=2101405><P Class=KRCC>
+여기가 7명, 여기는? 5명이죠. 이렇게 채워나가는 거야. <br>
+<Sync Start=2105047><P Class=KRCC>
+
+<Sync Start=2109960><P Class=KRCC>
+또 뭐라고 돼 있어? P 날짜를 선택한 학생 수와 Q 날짜를 선택한 학생 수는 서로 뭐 하자? 시작. 
+<Sync Start=2119912><P Class=KRCC>
+같다. 그럼 보세요. 전체가 30명이니까 P 몇 명? 15명. 
+<Sync Start=2127084><P Class=KRCC>
+그럼 여기에 7이니까 여기 8이네. 왜? P 2개, 15명. 여기도 15명. Q도 15명. 여기 10명이네. 
+<Sync Start=2134482><P Class=KRCC>
+이렇게 아까랑 비슷하지? 제가 예로 들었던 거랑. 그렇지? 
+<Sync Start=2138876><P Class=KRCC>
+아까 뭐였지? 야구, 축구, 야구, 축구. 똑같아. 문제 있습니다. 
+<Sync Start=2143693><P Class=KRCC>
+한 명이 남학생일 때 얘가 분모. 그러니까 여학생 다 없애라. 
+<Sync Start=2152291><P Class=KRCC>
+얘가 분모. 이 중에 Q를 구하라. 답은? 18분의 10. 9분의 5. 
+<Sync Start=2161091><P Class=KRCC>
+이건 진짜 1초 만에 풀 수 있는 인원수가 주어진 조건부 확률은 3점짜리로 나온다. <br>
+<Sync Start=2167548><P Class=KRCC>
+조금 전 게 더 어렵잖아. 그렇지? 인원수가 주어지면 이렇게 쉽다는 것을 이해하셨으면 좋겠어요. 
+<Sync Start=2175675><P Class=KRCC>
+좋아. 세 문제를 풀어봤고, 한 페이지 넘기면 확률의 곱셈 정리라는 이름으로 나오는데 
+<Sync Start=2181418><P Class=KRCC>
+지금부터 확률의 곱셈 정리의 또 뜻을 설명을 하고 
+<Sync Start=2186175><P Class=KRCC>
+실전적인 의미까지도 한번 다 같이 보도록 해 보겠습니다. 
+<Sync Start=2191977><P Class=KRCC>
+확률의 곱셈 정리 설명한다. 독립, 종속까지 한꺼번에 다 설명할 거예요. 
+<Sync Start=2196913><P Class=KRCC>
+그러니까 이번 시간에 진짜 문제 풀이는 더 이상 없고요. 
+<Sync Start=2199390><P Class=KRCC>
+이번 시간에 모든 게 다 끝나지 않아요. 
+<Sync Start=2201198><P Class=KRCC>
+독립 종속은 다음 시간에 갈 거고 이번 시간은 뭐까지만 할 거냐면 
+<Sync Start=2204502><P Class=KRCC>
+확률의 곱셈 정리가 뭔지만 설명을 할 건데, 이 얘기야. 잘 봐봐. <br>
+<Sync Start=2211374><P Class=KRCC>
+
+<Sync Start=2217724><P Class=KRCC>
+단단. 봐봐. 뭐 한다고? 확률의 곱셈 정리. 
+<Sync Start=2224198><P Class=KRCC>
+여러분 조금 전에 했었던 조건부 확률을 다시 한번 써볼게요. 
+<Sync Start=2227000><P Class=KRCC>
+B가 일어난다는 조건하에 A가 일어날 확률. 시작. 
+<Sync Start=2230595><P Class=KRCC>
+분모를 여기다 이렇게 써주면 되고 분자는 교집합으로 바꿔주시면 되니까 이렇게 써주면 된다. 
+<Sync Start=2235290><P Class=KRCC>
+여기까지 됐지? 이게 우리가 지금까지 공부했던 조건부 확률의 의미야. <br>
+<Sync Start=2240308><P Class=KRCC>
+그러면 여러분, 여기에서 이렇게 쓸 수 있잖아요. 뭐야? 
+<Sync Start=2243011><P Class=KRCC>
+수학에서 분자는 대각선으로 곱한 거와 같으니까 여기서 나타날 수 있는 사실이 바로 뭐냐면 
+<Sync Start=2248211><P Class=KRCC>
+A와 B가 동시에 날 확률은 써 봐. 시작. 
+<Sync Start=2251944><P Class=KRCC>
+B가 일어났다는 조건하에 A가 일어날 확률 곱하기 B가 일어날 확률. 이렇게 곱한 거예요. 맞아요? <br>
+<Sync Start=2260394><P Class=KRCC>
+또 하나 봐봐. 이번에는 A가 일어났다는 조건하에 B가 일어날 확률도 한번 해 볼까? 
+<Sync Start=2269223><P Class=KRCC>
+얘가 분모로 간다고 그랬으니까 A가 일어날 확률이 분모로 가고요. 
+<Sync Start=2273781><P Class=KRCC>
+분자는 살짝 구부려요. 동시에 이럴 확률이니까요. 이렇게 처리할 수 있어요. <br>
+<Sync Start=2279908><P Class=KRCC>
+여기서도 분자는 대각선을 곱한 것과 같은데 분자가 아까랑 똑같네. 
+<Sync Start=2284517><P Class=KRCC>
+얘를 이번에는 이런 식으로도 표현할 수 있네. P(A) 곱하기 저건 뭐야? 시작. P(B|A)네. <br>
+<Sync Start=2292465><P Class=KRCC>
+
+<Sync Start=2301988><P Class=KRCC>
+가만히 봤더니, 
+<Sync Start=2305084><P Class=KRCC>
+
+<Sync Start=2308358><P Class=KRCC>
+A와 B가 동시에 날 확률은 여러분, 누가 주인공이야? A가 주인공이라고 그랬잖아. 
+<Sync Start=2314590><P Class=KRCC>
+B가 일어났던 조건하에 A가 일어날 확률, B가 일어날 확률을 곱한 거구나. 
+<Sync Start=2321058><P Class=KRCC>
+A와 B가 동시에 일어날 확률은 주인공 A, 주인공 B를 곱한 거구나. 
+<Sync Start=2329450><P Class=KRCC>
+이 각각의 확률을 얘도 일어나고 얘도 일어날 확률은 
+<Sync Start=2340371><P Class=KRCC>
+얘가 일어날 확률에다가 얘가 일어날 확률을 곱하면 되는데 
+<Sync Start=2344068><P Class=KRCC>
+단, A를 조건부로 바꾸려면 B는 가만히 있으면 되고, 
+<Sync Start=2350435><P Class=KRCC>
+B를 조건부로 쓸 때는 A를 가만히 있으면 돼. 
+<Sync Start=2354197><P Class=KRCC>
+단, 조건부로 쓸 때는 상대방을 조건으로 쓰는 거야. 
+<Sync Start=2360725><P Class=KRCC>
+이걸 한마디로 얘기하면 잘 들어. 
+<Sync Start=2365173><P Class=KRCC>
+A와 B가 동시에 일어날 확률은 A가 일어날 확률과 B가 일어날 확률을 뭐 한다? 시작. 
+<Sync Start=2373704><P Class=KRCC>
+곱하되, 따라 해 봐. 둘 중 하나를 조건부. 
+<Sync Start=2378555><P Class=KRCC>
+-둘 중 하나를 조건부. 
+<Sync Start=2379984><P Class=KRCC>
+-얘를 조건부로 만들려면 이러시면 되고요. 이러면 답이고요. 이래도 되고, 
+<Sync Start=2384351><P Class=KRCC>
+
+<Sync Start=2388923><P Class=KRCC>
+저래도 돼. 저래가 뭐야? 얘를 조건부로 만들어도 되고 둘 중에 하나만 조건부로 만들면 되니까 
+<Sync Start=2396467><P Class=KRCC>
+이렇게 쓰셔도 된다. 그렇게 기억하는 이 식을 A와 B가 동시에 일어날 확률은 
+<Sync Start=2405180><P Class=KRCC>
+A가 일어날 확률과 B가 일어날 확률을 곱하되 
+<Sync Start=2407966><P Class=KRCC>
+둘 중 하나를 반드시 조건부로 만들어주라라는 이 아름다운 식을 빠밤. 
+<Sync Start=2415343><P Class=KRCC>
+확률의 곱셈 정리라고 부릅니다. 곱하니까 곱셈 정리야. <br>
+<Sync Start=2422340><P Class=KRCC>
+
+<Sync Start=2426334><P Class=KRCC>
+곱했잖아. 동시에 일어날 때는 곱한다. 끝. 동시에 할 때는 곱한다. 끝. 
+<Sync Start=2431429><P Class=KRCC>
+동시에 일어날 때는 곱한다. 이거를 확률의 곱셈 정리라고 해. <br>
+<Sync Start=2436064><P Class=KRCC>
+
+<Sync Start=2440359><P Class=KRCC>
+여기까지 됐지? 확률의 곱셈 정리가 뭐라고? 
+<Sync Start=2446548><P Class=KRCC>
+동시에 일어날 확률은 각각의 확률을 곱하되 둘 중 하나를 조건부로 만들어줘야 된다. 
+<Sync Start=2453677><P Class=KRCC>
+그런데 잘 봐. 두 사건 A와 B가 배반이라는 말 들어봤죠? 배반의 반대가 뭐야? 배반 아니다거든. 
+<Sync Start=2462678><P Class=KRCC>
+이거는 시각적으로 표현할 수 있어. 정의가 뭐야? 동시에 할 수 없을 때를 배반. 
+<Sync Start=2468496><P Class=KRCC>
+그러니까 교집합의 확률이 0 되는 거. 그림으로 그리면 그림으로 이렇게 그리시면 돼. 
+<Sync Start=2472570><P Class=KRCC>
+이게 배반 그림이야. 그런데 새로운 용어를 지금부터 공부할 텐데 잘 들어봐. 
+<Sync Start=2480048><P Class=KRCC>
+시간이 너무 애매해서 내가 미치겠다. 설명하기도 이상하고 멈추기도 이상하고. 
+<Sync Start=2485922><P Class=KRCC>
+독립의 반대는 종속이야. 독립 사건. 이것도 배반 사건처럼 두 사건의 관계를 얘기해요. 
+<Sync Start=2491309><P Class=KRCC>
+A와 B가 서로 독립 사건이다. <br>
+<Sync Start=2493361><P Class=KRCC>
+그거의 반대를 A와 B가 서로 시작. 종속 사건이다. 이거는 완전 반대말이야. 
+<Sync Start=2500280><P Class=KRCC>
+dependence, independence. What a independence. Today is independence. 
+<Sync Start=2507349><P Class=KRCC>
+언제 나왔던 영화야? 나 고등학교 때. 인디펜던스 데이 알아? 들어봤어? <br>
+<Sync Start=2514435><P Class=KRCC>
+그거 외계 행성이 이렇게 지구 이렇게. 인디펜던스 데이. 
+<Sync Start=2521357><P Class=KRCC>
+그거 누구지? 고등학교 때 봤던 영화 중에서 기억나는 게 그거랑 또 하나 되게 재밌게 봤었던 게, 
+<Sync Start=2527851><P Class=KRCC>
+
+<Sync Start=2530921><P Class=KRCC>
+두 글자인데, 레옹도 봤구나. 레옹은 대학교일 때일 것 같고. 
+<Sync Start=2536327><P Class=KRCC>
+저거 있잖아. 브루스 윌리스 나오는 거. 
+<Sync Start=2543441><P Class=KRCC>
+감옥. 아주 최악의 감옥. <br>
+<Sync Start=2546677><P Class=KRCC>
+
+<Sync Start=2552696><P Class=KRCC>
+그 화학 약품. 화학 약품이 아니라 폭탄. 
+<Sync Start=2560696><P Class=KRCC>
+무슨 CS 가스 이런 거 있잖아. The Rock, The Rock. The Rock. 
+<Sync Start=2565899><P Class=KRCC>
+저게 감옥 이름이거든. The Rock. 재밌게 봤다. 브루스 윌리스 맞나? 
+<Sync Start=2570054><P Class=KRCC>
+
+<Sync Start=2573475><P Class=KRCC>
+니콜라스 케이지랑 숀 코네리구나. 이분들 지금 살아계시나 모르겠다. 
+<Sync Start=2580232><P Class=KRCC>
+숀 코네리는 예전에 Never Say Never Again이라는 007 영화에도 나왔었는데. 지금 설명 못 하겠다. <br>
+<Sync Start=2588947><P Class=KRCC>
+
+<Sync Start=2592208><P Class=KRCC>
+독립 사건이라는 말이 있는데 이거의 네 가지를 공부할 건데 지금은 뜻만 얘기할 거야, 뜻. 
+<Sync Start=2601842><P Class=KRCC>
+뭐를 독립이라고 그러냐? 독립이라는 게 뭐예요? <br>
+<Sync Start=2605870><P Class=KRCC>
+여러분, 독립했어? 저는 독립했어. 몇 살 때? 
+<Sync Start=2609578><P Class=KRCC>
+
+<Sync Start=2612813><P Class=KRCC>
+완전히 독립한 거, 따로 사는 거. 부모님한테 완전히 독립한 거. 
+<Sync Start=2616704><P Class=KRCC>
+경제적인 독립은 제가 대학교 1학년 때부터 곧바로 독립을 했고 완전히 독립한 거는, 
+<Sync Start=2624236><P Class=KRCC>
+
+<Sync Start=2632114><P Class=KRCC>
+몇 살인지 기억이 안 나네. 
+<Sync Start=2633461><P Class=KRCC>
+
+<Sync Start=2636263><P Class=KRCC>
+언제였지? 2003년이었나? 2003년이면 언제야? 2004년인가? 2003년인 것 같다. 2002년인가? 
+<Sync Start=2648774><P Class=KRCC>
+2003년 아니면 2002년, 2003년인 것 같아, 2003년. 2003년. 맞나? 
+<Sync Start=2655556><P Class=KRCC>
+
+<Sync Start=2658560><P Class=KRCC>
+2003년이면 스물일곱 살인가, 내가? 맞아? 어떻게 알아? 계산했어? 
+<Sync Start=2663880><P Class=KRCC>
+-스물여덟. 
+<Sync Start=2664910><P Class=KRCC>
+-스물여덟? 나 스물여덟 살에 완전히 독립했어요. 그때부터 살이 엄청 찌기 시작한 거예요. 
+<Sync Start=2670499><P Class=KRCC>
+난 독립하자마자 매일 피자랑 치킨을 먹었어요. <br>
+<Sync Start=2677482><P Class=KRCC>
+너무 행복했어요. 한 달 만에 부모님이 절 보시고 ‘왜 이렇게 됐어?’ 이랬어. 
+<Sync Start=2683843><P Class=KRCC>
+하도 이렇게 뚱뚱해져서. 
+<Sync Start=2686542><P Class=KRCC>
+독립이라는 게 뭐냐 하면 나의 생활에 서로 간섭을 하지 않는 걸 독립이라고 해. 
+<Sync Start=2694171><P Class=KRCC>
+그러니까 여러분 보통 생각할 때 독립이라는 것을 우리나라의 특수한 역사적인 사실 때문에 좋은 거, 
+<Sync Start=2703028><P Class=KRCC>
+종속 그러면 벗어나야 하는 것이라고 생각하겠지만, 
+<Sync Start=2708121><P Class=KRCC>
+독립은 얘가 뭐를 하든 얘는 아무런 영향을 받지 않는, 
+<Sync Start=2714718><P Class=KRCC>
+서로 영향을 미치지 않는 두 사건을 독립이라고 얘기해요. 
+<Sync Start=2726350><P Class=KRCC>
+
+<Sync Start=2732495><P Class=KRCC>
+그러니까 성인이 돼서 결혼을 한다는 그 결혼을 이렇게 표현하면 
+<Sync Start=2739589><P Class=KRCC>
+독립에서 종속으로 바꾸는 그 제도를 결혼 제도라고 그러는 거야. 
+<Sync Start=2744435><P Class=KRCC>
+그러니까 A라는 사람과 B라는 사람이 원래는 얘가 아침밥을 먹든 안 먹든 
+<Sync Start=2749754><P Class=KRCC>
+얘가 아침을 먹을 확률이 일정하거든. 영향을 안 받거든. 그걸 독립이라 그러거든. 
+<Sync Start=2756383><P Class=KRCC>
+얘가 오늘 여행 갈 확률이랑 얘가 오늘 여행 갈 확률, 얘는 뭐라 그럴까? 수능을 볼 확률. 
+<Sync Start=2769530><P Class=KRCC>
+
+<Sync Start=2773074><P Class=KRCC>
+보통 가족이라 그러면 자식들이 수능 보는데 어떻게 부모님이 여행 가. 이상하잖아. 
+<Sync Start=2781590><P Class=KRCC>
+그게 종속 관계야. 그러니까 가장 지독한 종속 관계가 부모 자식이야. 
+<Sync Start=2787811><P Class=KRCC>
+독립은 뭐냐 하면 얘가 뭐를 하든 나랑은 상관없는 거를 독립이라 그런다니까. 
+<Sync Start=2793606><P Class=KRCC>
+그게 수학적으로 독립이야. 정말 차가운 거야. 
+<Sync Start=2795365><P Class=KRCC>
+
+<Sync Start=2799375><P Class=KRCC>
+예를 들어서 A라는 사건을 우리 가족 여행, 우리 가족이 오늘 여행을 떠날 사건. <br>
+<Sync Start=2809122><P Class=KRCC>
+
+<Sync Start=2815388><P Class=KRCC>
+B라는 사건은 아파트 101동 803호. 누구 살아? 몰라. 어떻게 알아, 내가. 
+<Sync Start=2830409><P Class=KRCC>
+얘네 집 아들이 수능 보는 사건이라고 하자고. 이걸 독립이라 그래. 
+<Sync Start=2841729><P Class=KRCC>
+그러니까 나랑 지금 이 앞에 지나가고 있는 어떤 할머니와의 관계야. 지나가는 할머니가 
+<Sync Start=2849787><P Class=KRCC>
+
+<Sync Start=2855498><P Class=KRCC>
+무단횡단을 하고 있어. 누가? 지나가는 할머니가, 누군지 몰라. 무단횡단을 하고 있어. 
+<Sync Start=2867322><P Class=KRCC>
+B, 정승제는 EBS 수능특강을 녹화하는 사건. 이게 독립이라고. 
+<Sync Start=2876269><P Class=KRCC>
+할머니가 무단횡단을 한다고 해서 내가 녹화하는 것을 중단하지 않아. 
+<Sync Start=2882011><P Class=KRCC>
+근데 자세히 봤더니 이 할머니가 유옥자 씨야. 엄마네. 
+<Sync Start=2886721><P Class=KRCC>
+그럼 내가 녹화를 중단하고 내려갈 거 아니야. 위험합니다. 그렇지? 
+<Sync Start=2891556><P Class=KRCC>
+이게 영향을 받잖아. 얘가 하는 행동이 얘가 영향을 받지. 이걸 종속. 
+<Sync Start=2896183><P Class=KRCC>
+
+<Sync Start=2898626><P Class=KRCC>
+영향을 전혀 안 받으면 독립. 그래서 잘 들어. 오늘 여기까지 설명할 거야. 총 4번까지 있는데, 두 번째. 
+<Sync Start=2907295><P Class=KRCC>
+
+<Sync Start=2910014><P Class=KRCC>
+A라는 사건과 B라는 사건이 그래서 독립이면 
+<Sync Start=2912806><P Class=KRCC>
+
+<Sync Start=2916041><P Class=KRCC>
+B가 일어난 상황하에서 A가 일어날 확률이랑 
+<Sync Start=2920909><P Class=KRCC>
+B가 일어나지 않았다는 조건하에서 A가 일어날 확률이랑 
+<Sync Start=2927249><P Class=KRCC>
+그냥 A가 일어날 확률이 다 같은 거야. 
+<Sync Start=2930923><P Class=KRCC>
+뭐면? A와 B가 독립이면. 왜? 이 말이거든. 
+<Sync Start=2936344><P Class=KRCC>
+이걸 예로 들면 101동 803호 집 아들이 수능을 본다는 조건하에 
+<Sync Start=2942063><P Class=KRCC>
+전혀 상관없는 우리 가족이 여행을 떠날 확률이랑 
+<Sync Start=2945564><P Class=KRCC>
+수능을 안 본다는 조건하에 우리 가족이 여행을 떠날 확률은 똑같겠지. 
+<Sync Start=2949739><P Class=KRCC>
+아니, 생각해봐. 누군지도 모르는 남. 
+<Sync Start=2952941><P Class=KRCC>
+
+<Sync Start=2955414><P Class=KRCC>
+그냥 우리 가족이 여행 갈 확률이랑 똑같다는 거야. 그게 독립이야. 
+<Sync Start=2959892><P Class=KRCC>
+그러니까 독립 사건일 때는 뭐와 뭐가? 
+<Sync Start=2963186><P Class=KRCC>
+A와 B가 독립 사건일 때는, 따라 해 봐. 조건부의 의미가 사라진다. 
+<Sync Start=2970729><P Class=KRCC>
+-조건부의 의미가 사라진다. 
+<Sync Start=2972205><P Class=KRCC>
+-조건부 나오면 무조건 뒤에 거 지워도 돼요. 왜? 다 똑같으니까. 
+<Sync Start=2975783><P Class=KRCC>
+B가 일어났든 일어나지 않았든 A는 독립되어 있기 때문에 조건부 확률의 의미가 사라진다. 
+<Sync Start=2982608><P Class=KRCC>
+여기까지 공부할게. 다음 시간에 이거 지우지 마세요. 
+<Sync Start=2986055><P Class=KRCC>
+그대로 이어서 설명하겠습니다. 곧바로 보십시오. 
+
+</BODY>
+</SAMI>

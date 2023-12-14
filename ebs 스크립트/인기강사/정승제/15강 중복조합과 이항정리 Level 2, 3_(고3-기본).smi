@@ -1,0 +1,791 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+
+<Sync Start=5140><P Class=KRCC>
+우리가 지금 하고 있는 게 경우의 수 마무리 짓고 있어요. 그렇죠. 
+<Sync Start=29570><P Class=KRCC>
+이번 시간에는 이제 조금 더 어려운 걸 가지고 한번 마무리 지어보도록 할 거고 
+<Sync Start=33247><P Class=KRCC>
+매번 드리는 말씀이지만 먼저 풀어보고 들어야 된다는 거 계속 강조합니다. 
+<Sync Start=40027><P Class=KRCC>
+그리고 연습 문제도 새로운 개념이 들어올 수 있으니 모든 문제에 대해서 다 보셔야 된다. 
+<Sync Start=47381><P Class=KRCC>
+풀어보고 듣고, 풀어보고 듣고. 다 들으셔야 된다라는 거 잊지 마시길 바라면서 
+<Sync Start=52055><P Class=KRCC>
+첫 번째 기본 연습 5번부터. 이것도 어디서 많이 봤나? 제곱²이야. 
+<Sync Start=58585><P Class=KRCC>
+얘가 3의 2의 4야. 어디서 봤어? (1+x)의 n제곱. 그런데 약간 불편한 게 보여. 
+<Sync Start=66187><P Class=KRCC>
+뭐야? C 뒤에 있는 게 짝수들만 있지, 짝수들만. 짝수들만, 했는데 우리. 
+<Sync Start=77454><P Class=KRCC>
+한번 1 대입하고 한번 -1 대입해서 짝수랑 홀수랑 분리시켰다. 
+<Sync Start=83673><P Class=KRCC>
+1 대입하면 2의 n제곱, -1 대입하면 0 나왔었잖아. 
+<Sync Start=87273><P Class=KRCC>
+그니까 양수 한 번에 음수를 대입하면 뭐가 대신? x 대신. 
+<Sync Start=91097><P Class=KRCC>
+그럼 x가 짝수면 그대로 살고 홀수면 -를 붙이고 나오잖아요. 그런 아이디어인 거야. 
+<Sync Start=97537><P Class=KRCC>
+그러니까 잘 봐. 시작을 뭐로 하냐, (1+x)의 n제곱. 한 번 더 써보자. (1+x)의 n제곱. 
+<Sync Start=106379><P Class=KRCC>
+집에서 한 3번 정도는 써보라 그랬잖아요. 해봐. 
+<Sync Start=110277><P Class=KRCC>
+nC0, x에 0, nC1, x에 1, nC2, x에 2, nC3, x에 3... nCnxn, 여기까지. 
+<Sync Start=125648><P Class=KRCC>
+그런 다음에 x 자리에 뭐가 왔어? n 자리에 30, x 자리에 3이 왔지. 
+<Sync Start=133222><P Class=KRCC>
+n 대신 30, n 대신 30 먼저 대입해 볼게. 봐봐. n 대신 30. 
+<Sync Start=148394><P Class=KRCC>
+n 대신 30, n 대신 30, n 대신 30, n 대신 30, n 대신 30이에요. 
+<Sync Start=156339><P Class=KRCC>
+n 대신 30, 30, 30. 30, 30, 30. 여기까지. n 대신 30. 
+<Sync Start=165024><P Class=KRCC>
+그런 다음에 여기다 뭘 대입하라? x 대신 3, 이 자리가 x 자리잖아. 이 자리가 x 자리잖아. 
+<Sync Start=172984><P Class=KRCC>
+x 대신 뭐를? 3을 대입해. 3을 대입하면 4의 30제곱은 30C0, 
+<Sync Start=182945><P Class=KRCC>
+n 대신 3 대입하니까 30C1×30. 30C2×3², 30이 아니라 3. 못 됐다. 그러면 안 돼. 3이야. 
+<Sync Start=196329><P Class=KRCC>
+3의 1제곱이고 3². 30C33의 3제곱. 이렇게 나가서 맨 마지막은 30C303의 30, 
+<Sync Start=208619><P Class=KRCC>
+얘까지 만들었다니까, 얘까지 만들었다니까, 얘까지 만들었다니까. 
+<Sync Start=211397><P Class=KRCC>
+그런 다음에 또 비교해 봐. 다 똑같은데 홀수일 때가 날아갔잖아. 홀수일 때가 날아갔잖아. 
+<Sync Start=219799><P Class=KRCC>
+홀수일 때가 날아갔잖아. 그럼 어떻게 하면 되느냐. 
+<Sync Start=221645><P Class=KRCC>
+짝수랑 홀수랑 분리하는 가장 기본이 한 번 뭐 대입했어요? 
+<Sync Start=226935><P Class=KRCC>
+3 대입했으면 이번에는 음수, -3을 대입하는 거야. 이유는 금방 알아. 
+<Sync Start=233474><P Class=KRCC>
+-3을 대입하면 -2에 대해서 30제곱인데 어차피 짝수 제곱이면 - 사라지니까 
+<Sync Start=239566><P Class=KRCC>
+우아하게 2에 대해서 30²은 짝수일 땐 그대로 살아. 짝수일 때는 그대로 살아. 
+<Sync Start=246170><P Class=KRCC>
+근데 홀 수일 때는 -3을 대입하기 때문에 -를 붙인 결과가 생기는 거야. 이렇게. 
+<Sync Start=252668><P Class=KRCC>
+똑같은데 -만 붙인. 짝수일 때는 아까거랑 똑같아. 
+<Sync Start=261466><P Class=KRCC>
+그런데 홀수일 때는 -를 붙이는 느낌이라니까. 이렇게. 홀수 앞에서 -, 짝수 앞에선 +. 
+<Sync Start=268958><P Class=KRCC>
+쭉 나가면 30은 짝수니까 마찬가지로 +, 요렇게 된다니까. 요렇게 된다니까. 
+<Sync Start=275949><P Class=KRCC>
+x 대신 -3 대입하면. 여러분 위 식과 아래 식을 더하면 뭐가 날아가? 
+<Sync Start=283126><P Class=KRCC>
+홀수가 날아가고 빼면 뭐가 날아가? 짝수가 날아가는 거야. 
+<Sync Start=286225><P Class=KRCC>
+여러분이 원하는 누구를 날려야 돼? 홀수를 날려야지 짝수들만 남을 거 아니야. 
+<Sync Start=292137><P Class=KRCC>
+홀수를 날려야 되니까 뭐 하자? 더하자. 
+<Sync Start=300025><P Class=KRCC>
+4의 30제곱+2의 30제곱은 2배에 대해서 짝수인 것들 0+, 
+<Sync Start=307722><P Class=KRCC>
+요거 날아가고 똑같은 거 2번 더 했으니까 2배, 2 앞으로 튀어 나갔어. 
+<Sync Start=312933><P Class=KRCC>
+30C2에 대해서 3², 30C4에 대해서 3⁴. 쭉 나가서 맨 마지막 30C30에 대해서 3의 30제곱. 
+<Sync Start=323255><P Class=KRCC>
+요렇게 나오지 않겠느냐. 이제 우리가 구하고자 하는 게 뭐니까요? 이거잖아요. 이거잖아요. 
+<Sync Start=331996><P Class=KRCC>
+양변을 뭐로 나눠요? 2분의 1을 곱하면 되지. 다른 말로 2로 나누면 되지. 
+<Sync Start=341580><P Class=KRCC>
+2분의 1을 곱하면 되는데요. 다 2로 표현돼 있잖아요, 지금. 
+<Sync Start=346253><P Class=KRCC>
+4를 2²으로 바꾸면 2의 몇 제곱? 60제곱. 2의 60제곱+2의 30제곱. 그럼 봐. 
+<Sync Start=354453><P Class=KRCC>
+2분의 1 여기다 곱하면 2의 59제곱+2의 29, 
+<Sync Start=359440><P Class=KRCC>
+이러면 답인데 이렇게 그냥 나오지 이걸 굳이 이렇게 하재. 
+<Sync Start=364423><P Class=KRCC>
+그럼 뭘로 끌어야 돼? 여기를 30제곱으로 남기려면 얘로 끌어내면 돼요. 2의 29제곱으로. 
+<Sync Start=369834><P Class=KRCC>
+그러면 2의 30제곱+1이나 마찬가지니까 됐지. 따라서 이 안에 들어갈 알맞은 말 29. 
+<Sync Start=376850><P Class=KRCC>
+그래서 m은 29니까 답은 몇 번? ②번. 여러분 이거 외워봤자 소용없고요. 
+<Sync Start=385014><P Class=KRCC>
+어떤 응용력 (1+x)의 n제곱을 가지고 장난쳤구나. 장난은 안 쳤구요. 즐겼네요. 
+<Sync Start=392869><P Class=KRCC>
+(1+x)의 n제곱을 가지고 마음껏 즐겼던, 즐긴 문제. 이렇게 생각하시면 돼요. 됐어요? 잘했어. 
+<Sync Start=405610><P Class=KRCC>
+여기까지가 5번. ?지금 다 4점짜리 문제들로 이루어져 있는 
+<Sync Start=409713><P Class=KRCC>
+레벨 2 기본 연습을 하고 계십니다. 두 집합 a와 b가 있어요. 
+<Sync Start=414616><P Class=KRCC>
+a는 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. 1부터 12까지 자연수. 
+<Sync Start=418801><P Class=KRCC>
+b는 3, 4, 5, 그런데 x가 뭐냐. a의 부분 집합이래. a를 이렇게 만들어. 
+<Sync Start=425411><P Class=KRCC>
+그럼 이 안에 뭐가 있어? 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12가 들어있어. 
+<Sync Start=431538><P Class=KRCC>
+그중에 b는 3, 4, 5래. b는 3, 4, 5야. 얘는 확정이야. 지금부터 x를 구할 건데 x가 뭐냐. 
+<Sync Start=443513><P Class=KRCC>
+a의 부분 집합. 그러니까 x를 만들려면 이렇게 만드는 게 정상이야. 왜? a의 부분 집합이니까. 
+<Sync Start=450735><P Class=KRCC>
+그런데 b랑은 교집합이 없대. 이런 거를 이제 다음 시간부터 배우겠지만 배반이라 그래요. 
+<Sync Start=458057><P Class=KRCC>
+됐어요. 지금 몰라도 돼요. x 이렇게 돼 있는 거네. 
+<Sync Start=462725><P Class=KRCC>
+이런 다음에 모든 집합 x의 개수를 구하시오. 그러면 쉽지. (나)가 없다 이거야. 
+<Sync Start=469077><P Class=KRCC>
+모든 집합 x의 개수를 구하라 그러면 1부터 12중에서 3, 4, 5는 방에 들어갔으니까 누구만? 
+<Sync Start=477213><P Class=KRCC>
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 몇 명이니? 
+<Sync Start=484646><P Class=KRCC>
+12명 중에서 3명을 제외한 9명이랑 인터뷰하면 된다고. 왜? 호텔 문제니까. 
+<Sync Start=492458><P Class=KRCC>
+왜? 서로 다른 9명이 방, 무슨 방이 있어? 요 방과 요 방, 방 2개 있잖아. 
+<Sync Start=497770><P Class=KRCC>
+두 방에 나누어 투숙하는 방법의 수를 구하시오. 
+<Sync Start=500872><P Class=KRCC>
+빈방이 있어도 좋다는 아주 전형적인 호텔 문제. 
+<Sync Start=505855><P Class=KRCC>
+따라서 얘가 선택한 2가지, 2가지, 2가지, 쭉 나가서 얘까지 2가지니까 
+<Sync Start=510833><P Class=KRCC>
+답은 2의 9제곱까지 512. 이렇게 썼을 거야. 그치? 
+<Sync Start=515256><P Class=KRCC>
+얘네도 아주 좋은 문제인데 (나)라는 조건 하나가 더 있네요. 
+<Sync Start=518775><P Class=KRCC>
+무슨 말이야? 이 안에는 2 이상, 두 명 이상 투숙해야 된대. 어디에만? 이 안에. 그럼 빼자. 
+<Sync Start=529825><P Class=KRCC>
+2씩 안 되는 거 빼자. 안 되는 게 뭐 있어, 그러니까. 비어 있거나 한 명만 자는 거. 
+<Sync Start=536463><P Class=KRCC>
+그것만 빼면 두 명 이상일 거 아니야. 
+<Sync Start=538169><P Class=KRCC>
+비어있는 경우의 수를 세라 그러면 이 9명이 다 어디에만 자는? 
+<Sync Start=541578><P Class=KRCC>
+바깥에만 자는 한 가지랑 이제 원소의 개수가 하나인 것, 
+<Sync Start=547422><P Class=KRCC>
+원소의 개수 하나 집어넣으려면 9명 중에서 몇 명 뽑아서? 1명 뽑아서 여기다가 집어넣어. 
+<Sync Start=553112><P Class=KRCC>
+예를 들어서 1이 들어왔어. 그럼 나머지 애들은 다 어디로 가야 돼? 
+<Sync Start=556538><P Class=KRCC>
+바깥쪽으로 가야 되는 거니까. 나머지 애들이 자는 방법의 수 한가지. 다 한 가지씩인. 
+<Sync Start=562843><P Class=KRCC>
+그래서 여기가 얼마야? 10. 여기서 10 빼니까 답은 502가지. 끝. 
+<Sync Start=567623><P Class=KRCC>
+요렇게 처리하는 게 가장 멋들어지지 않을까. 아니면 이런 방법도 있다. 
+<Sync Start=573000><P Class=KRCC>
+어떤 방법도 있는데요? 원소의 개수가 2개 이상이라는 게 뭐냐면 
+<Sync Start=577828><P Class=KRCC>
+우리 파스칼의 삼각형 공부했으니까. 
+<Sync Start=581396><P Class=KRCC>
+쌤 이걸 파스칼의 삼각형으로 푼다고요? 
+<Sync Start=583744><P Class=KRCC>
+내가 부분집합의 개수 파스칼의 삼각형 연관성 얘기해줬잖아. 
+<Sync Start=586731><P Class=KRCC>
+파스칼의 삼각형이라기 보다 이항계수의 성질. 
+<Sync Start=591566><P Class=KRCC>
+원소의 개수가 몇 개일 수 있어? 2개 이상인 a의 부분 집합을 구하시오. 
+<Sync Start=599357><P Class=KRCC>
+단, 3, 4, 5는 없어야지. 그러면 아까처럼 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
+<Sync Start=608356><P Class=KRCC>
+총 몇 개 중에? 9개 중에 뭐가 2개인가. 
+<Sync Start=616885><P Class=KRCC>
+원소의 개수가 2개인 부분 집합의 개수, 그게 바로 원소의 개수가 2개인 x의 개수잖아요. 
+<Sync Start=623481><P Class=KRCC>
+그러니까 9개 중의 2개 뽑으면, 9개 중의 3개 뽑으면, 9개 중 4개 뽑으면, 
+<Sync Start=631163><P Class=KRCC>
+원소의 개수가 4개인 부분 집합. 맨 마지막 뭘까? 9개 다 뽑아도 되지. 
+<Sync Start=638392><P Class=KRCC>
+이거 다 더하면 답이죠. 다 더하면 답이에요. 
+<Sync Start=641192><P Class=KRCC>
+파스칼의 삼각형이 아니라 이항계수의 성질로 가도 되네요. 
+<Sync Start=644686><P Class=KRCC>
+단, 0부터 시작해서 같을 때까지 더한 것이 얘가 2의 9제곱이므로 얘만 구하라 그러면 
+<Sync Start=658639><P Class=KRCC>
+얘를 넘기면 돼. 이게 10이잖아요. 1+2, 9니까. 
+<Sync Start=661393><P Class=KRCC>
+10을 빼주면 되니까 답은 똑같이 512에서 10을 빼면 502. 502가지. 끝. 이렇게. 좋아. 
+<Sync Start=672742><P Class=KRCC>
+사랑해, 사랑해, 너를 너무 사랑해. 그 노래 알아요? 몰라요? 
+<Sync Start=682192><P Class=KRCC>
+사랑해, 사랑해, 꽃이 피면 나비가 돼 줄게. 
+<Sync Start=689902><P Class=KRCC>
+몰라요? 이거 뭐야? 뒤에게 하나씩 커지네? 뒤에게 하나씩 커지네? 같을 때까지네? 
+<Sync Start=704034><P Class=KRCC>
+그럼 이건 이항계수의 성질로써 전체는 0부터 시작할 건데 중간부터 시작했네? 
+<Sync Start=707837><P Class=KRCC>
+혹시 얘가 뭐가 아닌지 의심해 보자. 후반부가 아닌지 의심해 보자. 
+<Sync Start=711878><P Class=KRCC>
+그러면 뭐가 일치하면 돼? 후반부의 시작이 저렇게 되면 돼. 
+<Sync Start=715973><P Class=KRCC>
+후반부의 시작은 어떻게 하라 그랬어? 1 더한 다음에 반으로 쪼개라. 
+<Sync Start=719153><P Class=KRCC>
+전반부의 끝은 1 뺀 다음에 반으로 쪼개라. 여기에서 1을 더해봐. 얼마야? 2n+2. 
+<Sync Start=725552><P Class=KRCC>
+거기다가 반으로 쪼개면 얼마야? n+, 딱 나오잖아. 얘는 완벽한 전체의 절반이네요. 
+<Sync Start=733889><P Class=KRCC>
+전체를 구하라 그러면 2n+1제곱일 텐데 절반이니까 하나를 더 빼주면 되죠. 
+<Sync Start=739318><P Class=KRCC>
+결국은 2의 몇 제곱? 2의 2n제곱. 밑이 4인 log를 잡았으니까 그냥 밑을 4로 만들어 주는 게 
+<Sync Start=749747><P Class=KRCC>
+조금 더 예쁠 것 같아서 4의 n제곱. ?따라서 f(n)은 4의 n제곱이니까 f(1)을 구하라 그러면 
+<Sync Start=760417><P Class=KRCC>
+4의 1제곱, f(2)는 4², f(3)은 4의 3제곱. 언제까지? f(15)는 4의 15제곱. 
+<Sync Start=769458><P Class=KRCC>
+이거를 밑이 4인 log로 취해준 게 최종적인 답이다. 
+<Sync Start=775155><P Class=KRCC>
+밑이 서로 같을 땐 지수 법칙 지수끼리 더 하니까 1부터 15까지의 합, 
+<Sync Start=778865><P Class=KRCC>
+1부터 15까지 더하면 자연수 15개의 합으로써 우리 수열 시간에 많이 배웠죠. 
+<Sync Start=783784><P Class=KRCC>
+요렇게 약분하니까 8, 8×5=40, 120. 이렇게 나오네요. 
+<Sync Start=787743><P Class=KRCC>
+얘가 지수가 120이니까 최종적인 답은 밑이 4인 log고 4의 120제곱이니까 답 얼마? 120네. 끝. 
+<Sync Start=796473><P Class=KRCC>
+요렇게 정리하면 되는 문제. 요거 3점짜리라 그래도 과언이 아닌 비교적 간단한 문제였습니다. 
+<Sync Start=803798><P Class=KRCC>
+이제 실력 완성으로 들어갑니다. 무슨 완성? 실력 완성. 
+<Sync Start=816804><P Class=KRCC>
+집합 X가 1, 2, 3, 4, 5, 6, 7, 이렇게 돼 있습니다. 
+<Sync Start=822275><P Class=KRCC>
+다음 조건을 만족하는 X에서 X로의 함수의 개수를 구하시오. 또 함수 개수. 
+<Sync Start=826626><P Class=KRCC>
+역시 함수의 개수 올해 분명히 나올 것 같은데, 이거? 
+<Sync Start=832343><P Class=KRCC>
+1, 2, 3, 4, 5, 6, 7, X에서 X로의 함수의 개수를 세시오. 해볼까. (가)라는 조건 보시죠. 
+<Sync Start=841393><P Class=KRCC>
+x1과 x2의 대소 관계가 저러하면 각각의 함숫값도 일치한다. 
+<Sync Start=845098><P Class=KRCC>
+x의 대소 관계와 y의 대소 관계가 일치하는 것을 증가함수. 
+<Sync Start=848976><P Class=KRCC>
+등호가 있으니까 이 7명 중에서 화살 맞을, 총 7발의 화살이 들어오겠네. 
+<Sync Start=857001><P Class=KRCC>
+화살 맞을 7명을 뽑는 방법을 쓰는데 중복을 허락하는 거죠. 등호 있으니까. 
+<Sync Start=862075><P Class=KRCC>
+많이 했으니까 이제 곧바로 갈게. 7H7이 답이었을 거야. (가)까지만 조건이 있었으면. 
+<Sync Start=867082><P Class=KRCC>
+근데 이게 무슨 조건이야? f(5)랑 f(3)이랑 점점 커지니까 얼마 차이 나냐면 
+<Sync Start=873825><P Class=KRCC>
+4 또는 5 차이 난대. 차이가 분명히 얘가 더 크겠죠. 당연히. 
+<Sync Start=879162><P Class=KRCC>
+이거 점점 증가 수열이니까, 증가함수니까. 4 또는 5 차이 난대. 그럼 어떻게 할 거야, 이거. 
+<Sync Start=884961><P Class=KRCC>
+4 차이 나는 거, 5 차이 나는 거. 그렇다고 두 가지로 분류가 아니야. 
+<Sync Start=888423><P Class=KRCC>
+누구누구한테 쌓이느냐가 문제니까 f(3)부터 시작해 볼게. f(3)이 1이면, f(3)과 f(5)야. 
+<Sync Start=897619><P Class=KRCC>
+f(5)는 누구한테 쏴야 돼? 4 차이 나면 5한테 쏴야지. 여기서부터 출발하면 돼. 
+<Sync Start=906503><P Class=KRCC>
+그러니까 어떻게 분류할 거냐면 첫 번째, f(3)과 f(5)가 있잖아. 이렇게 얘기하자. 
+<Sync Start=915920><P Class=KRCC>
+이렇게 쓰기 귀찮으니까 앞에 있는 것을 f(3), 뒤에 있는 것을 f(5)라고 하면 
+<Sync Start=924547><P Class=KRCC>
+순서쌍으로 만들게. 첫 번째, 얘가 1이면 4 차이 나면 5, 얘가 2면 4 차이 나면 6, 
+<Sync Start=933547><P Class=KRCC>
+7까지니까 한 번만 더 하면 되겠다. 3이면 4 차이 나니까 7. 
+<Sync Start=939265><P Class=KRCC>
+네 번째, 이제 두 개가 몇 차이 나는 거? 5 차이 나는 거. 다시 1부터 시작해야지. 
+<Sync Start=944681><P Class=KRCC>
+1이면 6, 그렇지. 더 이상 없잖아요. 7까지니까. 
+<Sync Start=953023><P Class=KRCC>
+이렇게 되면 함수의 개수, 함수의 개수, 함수의 개수 다 세는 거야. 그다음에 더하는 거야. 
+<Sync Start=958114><P Class=KRCC>
+해야 돼. 방법이 없어. 첫 번째, f(3)은 1, f(5)는 5인 함수의 계수부터 세자. 
+<Sync Start=966372><P Class=KRCC>
+증가함수가 돼야 됩니다. 얘들은 어디다 써야 돼요? 1한테만 쏴야죠. 
+<Sync Start=975528><P Class=KRCC>
+그럼 지금부터 4보고 쏘라 그럴게요. 4 쏘는 방법 1, 2, 3, 4, 5, 중의 하나 쏴야지. 
+<Sync Start=986548><P Class=KRCC>
+5개 중의 하나 뽑으면 돼. 뭘 뽑았다? 그러면 아무거나 뽑았다 그래. 
+<Sync Start=990194><P Class=KRCC>
+그러면 현재 1 쏘고, 2 쏘고, 3 쏘고, 4 쏘고, 5 쐈어. 이제 6, 7만 쏘면 돼. 
+<Sync Start=995404><P Class=KRCC>
+증가함수가 되려면 5, 6, 7중에 쏘면 돼요. 
+<Sync Start=999070><P Class=KRCC>
+2명이 있을 거니까 화살은 2발, 3명 중에 화살 맞을 2명을 뽑자. 
+<Sync Start=1004810><P Class=KRCC>
+5, 6, 7, 3명 중에 화살 맞을 2명을 뽑는데 중복을 허락해서 뽑는 게 등호가 들어있는 거니까 
+<Sync Start=1011855><P Class=KRCC>
+같아도 되는 거니까 얘는 C2고요. 4C2. 6×5=30. 
+<Sync Start=1017824><P Class=KRCC>
+그래서 첫 번째는 30까지 이렇게 하는 거야. 천천히. 쌤, 두 번째는요. 
+<Sync Start=1031000><P Class=KRCC>
+두 번째, f(3)이 2인 경우지, 뭐. 4 차이 나니까 f(5)는 6인 경우지, 뭐. 
+<Sync Start=1039607><P Class=KRCC>
+이제 또 누가 쏴야 돼? 1, 2가 쏴야 되는데요. 1, 2는 이제 누구한테 쏘면 돼? 
+<Sync Start=1043306><P Class=KRCC>
+1, 2한테 쏘면 돼. 그러니까 2명 중에서 화살 맞을 2명을 뽑으면 되는데 중복을 허락해서 2명. 
+<Sync Start=1050447><P Class=KRCC>
+2H2 and 현재까지 누구 쐈어? 1, 2 쐈어. 3도 쐈어. 5도 쐈어. 4 쏴야 돼. 
+<Sync Start=1056556><P Class=KRCC>
+4는 누구한테 쏴야 돼? 2, 3, 4, 5, 6중 1명한테. 2, 3, 4, 5, 6. 당연히 5개지. 
+<Sync Start=1064315><P Class=KRCC>
+5개 중의 하나 뽑으면 되고 and 6, 7은 누구한테 쏴야 돼? 6, 7한테 쏴야지, 뭐. 
+<Sync Start=1071324><P Class=KRCC>
+2명 중에서 6, 7할 때 화살 맞을 거니까 화살 맞을 2명을 뽑자. 
+<Sync Start=1076163><P Class=KRCC>
+2H, 2H가 얼마인지 아니? 3C2라서 3이에요. 3×3=9×5=45가지. 그래, 이렇게 푸는 거라니까. 
+<Sync Start=1087284><P Class=KRCC>
+할 만한데? 약간 대칭성이 나타날 것 같은 좋은 예감. 이번에는 3, 7. 
+<Sync Start=1094091><P Class=KRCC>
+f(3)은 3, f(5)는 7, 갈게. 1, 2가 쏴야 되는데 1, 2가 쏠 수 있는 곳은 1, 2, 3이거든. 
+<Sync Start=1104647><P Class=KRCC>
+그러면 얘네들 중에서 화살 맞을 3명, 화살 맞을 2명을 뽑아야 되겠구나. 왜? 
+<Sync Start=1108764><P Class=KRCC>
+2명만 쏘면 되니까. 화살은 2개거든. 3명 중에 2명을 뽑겠습니다. 1 끝나지 않았고요. 
+<Sync Start=1115766><P Class=KRCC>
+4가 쏠 수 있는 방법이 있으면 1, 2, 3, 4, 5. 5명 중에서 1명한테 쏠 거고요. 
+<Sync Start=1122338><P Class=KRCC>
+and 나머지 6과 7은 다 누구한테 쏠 거예요? 모두 다 7한테 쏠 거니까 이걸로 끝나겠네요. 
+<Sync Start=1130207><P Class=KRCC>
+얘랑 얘랑 곱한 순서만 바꿨으니까 30. 이렇게. 그래서 이런 걸 안 지워주는 게 좋다고. 그치. 
+<Sync Start=1138501><P Class=KRCC>
+안 지워주는 게 좋아. ④번. 1, 6입니다. 선생님 1, 6이에요. f(3)이 1이고요. 
+<Sync Start=1148740><P Class=KRCC>
+f(5)가 6인 거 말씀하시는군요. 맞아요. 출발. 누가 쏴야 돼? 1, 2가 쏴야 돼. 
+<Sync Start=1155389><P Class=KRCC>
+누구한테? 모두 다 1한테만 쏴야 돼. 한 가지. and, 한 가지는 안 쓸게. 
+<Sync Start=1161137><P Class=KRCC>
+4는 누구한테 쏴야 돼? 6명 중에 1명 뽑으면 되지. 
+<Sync Start=1164174><P Class=KRCC>
+1부터 6까지, 6명 중에 1명 뽑으면 되니까 6C1가지. 
+<Sync Start=1167114><P Class=KRCC>
+and, 이제 6, 7만 뽑으면 되는데 누구한테 뽑아야 돼? 6, 7한테. 6, 7이 6, 7한테 쏴야 된대. 
+<Sync Start=1174805><P Class=KRCC>
+그러니까 6, 7 2명 중에서 화살 맞을 2명을 뽑으면 되니까 2H2, 이렇게 된다고요. 
+<Sync Start=1180873><P Class=KRCC>
+얘가 3이다. 얘가 6이다. 3×6에 신발. 이렇게. 맨 마지막 2, 7. 예쁘게 쓰자, 이제. 
+<Sync Start=1193920><P Class=KRCC>
+마지막인데. 2, 7. f(3)이 2, f(5)가 7. 갑니다. 
+<Sync Start=1204188><P Class=KRCC>
+1, 2가 쏘는 방법의 수를 계산하시오. 그러면 1, 2한테 쏴야 돼. 
+<Sync Start=1208636><P Class=KRCC>
+2명 중에서 1, 2, 2명 중에서 화살 맞을 2명을 뽑는다. 
+<Sync Start=1212951><P Class=KRCC>
+and 4는 누구한테 쏴야 돼? 6명 중에서 1명한테 쏴야 돼. 6C1. 
+<Sync Start=1220479><P Class=KRCC>
+6, 7은 무조건 7, 1명한테만 쏴야 되니까 곱하나 마나 자리만 바꿔서 60, 105, 36. 
+<Sync Start=1234545><P Class=KRCC>
+답은 151? 지울라 그랬어요. 141가지. 끝. 여기까지가 실력 완성 1번이었습니다. 잘했어요. 
+<Sync Start=1250807><P Class=KRCC>
+실력 완성 1번은 요렇게 정리하시면 되겠구나. 경우의 수 마지막인데 이제 좀 할 만하네. 
+<Sync Start=1257637><P Class=KRCC>
+얘들아, 하도 많이 해서 함수의 개수 분위기 파악 다 되고. 그렇지? 
+<Sync Start=1262491><P Class=KRCC>
+원래 기본은 정의역에 있는 원소들이랑 인터뷰를 하는데 
+<Sync Start=1266529><P Class=KRCC>
+증가일 때는 중복 조합을 이용하시면 된다. 이런 이야기. 실력 완성 2번도 가볼까요. 
+<Sync Start=1271894><P Class=KRCC>
+이거 그냥 이항 정리네요. 이거 뭐가 어렵다고. 항 2개짜리니까 얘 전개식에서 시작해 볼까요. 
+<Sync Start=1277977><P Class=KRCC>
+얘 전개식 봐봐. 시작. 지수Cr 앞엣것 (2x³), 뒤엣것 x의 -2제곱이잖아. 
+<Sync Start=1285152><P Class=KRCC>
+뒤에 있는 게 뒤로 가고 앞엣것에서 뒤엣것 뺀 게 앞으로 가니까 nCr. 
+<Sync Start=1290054><P Class=KRCC>
+2에 대해서 n-r x에, 3n-3r-2r이니까 3n-5r, 이렇게 될 것 같아요. 여기까지 만들었어요. 
+<Sync Start=1301297><P Class=KRCC>
+위에 건 지울게. 위엣것은 더 복잡하긴 하지. 다듬은 거만 남겨놓을게. 좋아요. 여기 있어. 
+<Sync Start=1312601><P Class=KRCC>
+문제가 뭔지 봐봐. 문제를 잘 이해하셔야 돼. 뭐가 변수인지를 봐야 돼. 
+<Sync Start=1317542><P Class=KRCC>
+지금 n도 변수, r도 변수 아니야. r만 변수야. 
+<Sync Start=1319993><P Class=KRCC>
+r이 어디서부터 어디까지 변해? 0부터 n까지 변하는데 n이 자연수인데 그 n을 
+<Sync Start=1326454><P Class=KRCC>
+여기서 찾으라는 거야. 이게 무슨 말이냐. 
+<Sync Start=1330580><P Class=KRCC>
+우리 5제곱이랑 10제곱 계수 찾을 때 r을 변화시키면서 찾는 거잖아. 
+<Sync Start=1336526><P Class=KRCC>
+그니까 n 우리가 찾아야 될 대상이야. 같은 놈이고 그 같은 놈에서 
+<Sync Start=1343991><P Class=KRCC>
+5제곱의 계수와 10제곱의 계수가 갖도록 하는 n 값을 찾아주라는 얘기야. 
+<Sync Start=1351536><P Class=KRCC>
+그 n 값을 찾아주면 똑같은 놈이니까 여기에서 상수항 구하는 것은 일도 아니다 이거지. 
+<Sync Start=1359352><P Class=KRCC>
+지금 무슨 말인지 알아? 그러니까 여러분들은 여기서 헷갈린다고. 
+<Sync Start=1362613><P Class=KRCC>
+문자가 n, r, x, 3개나 있으니까 뭐가 변수인지 모르는데 r이 변수라니까. 
+<Sync Start=1367009><P Class=KRCC>
+r이 0부터 n까지 변하는 건데 n은 아직 모를 뿐이고 구해야 되는 거야. 
+<Sync Start=1372082><P Class=KRCC>
+뭐랑 뭐랑 갖도록? 5차항의 계수와 10차항의 계수가 갖도록. 
+<Sync Start=1376461><P Class=KRCC>
+5차항의 계수가 되려면 얘가 뭐가 돼야 돼요? 5가 돼야죠. 
+<Sync Start=1380393><P Class=KRCC>
+10차항의 계수가 되려면 얘가 뭐가 돼야 돼요? 10이 돼야죠. 
+<Sync Start=1383380><P Class=KRCC>
+그러니까 3n-5r이 5가 되도록 r을 대입하면 r이 변수야. 
+<Sync Start=1390994><P Class=KRCC>
+r 값을 대입하면 n은 얼만지 모르겠지만 그걸 구하고자 하는 거지. 
+<Sync Start=1395951><P Class=KRCC>
+여기다 대입하면 뭐를 구할 수 있다? 5차항의 계수를 구할 수 있다. 
+<Sync Start=1401819><P Class=KRCC>
+해볼까요? 직접 찾아도 되지. 뭐처럼? 부정 방정식처럼. 
+<Sync Start=1415799><P Class=KRCC>
+어차피 얘는 자연수라 그랬으니까 얘를 만족시킨 자연수. 근데 너무 많아요. 무수히 많아. 
+<Sync Start=1420866><P Class=KRCC>
+그래서 조금 불편해. 왜? 여러분 얘 살짝 넘겨봐. n은 무조건 5의 배수다. 왜? 이거 넘겨봐. 
+<Sync Start=1427999><P Class=KRCC>
+얘를 이쪽으로 넘기면 3n= 뭐야? 5 괄호 열고 r+1이니까 5의 배수잖아요. 
+<Sync Start=1435252><P Class=KRCC>
+근데 3n이 5의 배수인데 여기는 5가 없으니까 n은 뭐야? 5의 배수야. 
+<Sync Start=1439954><P Class=KRCC>
+그러니까 n이 될 수 있는 것이 5, 10, 15, 영원히 나간다고 이게. 
+<Sync Start=1447729><P Class=KRCC>
+물론 문제에서 제시된 정답은 하나니까 만족시키는 건 하나밖에 없겠지만 
+<Sync Start=1459781><P Class=KRCC>
+이때 r을 한번 구해볼까? 여러분 n이 5야, 이게 15야. 
+<Sync Start=1463203><P Class=KRCC>
+그럼 r이 얼마야? 10이 되야 되니까 r은 2야. 
+<Sync Start=1466666><P Class=KRCC>
+지금 무슨 말인지 알겠지, 그지? n이 10이면 얘가 30이니까 얘가 25가 돼서 r은 5야. 
+<Sync Start=1473416><P Class=KRCC>
+n이 15면 45가 돼서 5가 되려면 40, 5×8=40, 3씩 커지는구나. 
+<Sync Start=1482373><P Class=KRCC>
+그냥 무수히 많다고, 무수히 많다고, 무수히. 
+<Sync Start=1485652><P Class=KRCC>
+무수히 많다니까, 무수히 많다니까 언제 다 따져, 이거. 그쵸. 
+<Sync Start=1492595><P Class=KRCC>
+그러니까 어떻게 봐야 되냐면 5, 2를 여기다 대입해 봐. 
+<Sync Start=1496457><P Class=KRCC>
+5, 2, 5, 2. 그다음에 15, 15, 15. 
+<Sync Start=1503327><P Class=KRCC>
+그런 식으로 쫙 만들면 5차항의 계수를 만들 수 있는 방법이 너무나 많잖아. 그지. 
+<Sync Start=1511141><P Class=KRCC>
+어떻게 풀면 되냐. 게네들과 이번에는 3n-5r이 10되는 경우. 
+<Sync Start=1516236><P Class=KRCC>
+왜? 10차항의 계수를 찾으라고 그랬으니까. 얘가 10되는 경우. 3n-5가, 5r이 10되는 경우. 
+<Sync Start=1522765><P Class=KRCC>
+그럴 때도 n과 r을 한번 따져보면 이거 넘어가면 5의 배수인 거 맞으니까. 
+<Sync Start=1526754><P Class=KRCC>
+마찬가지로 n이 5일 때, n이 10일 때, n이 15일 때, 20일 때, 25일 때 r을 구하라 그러면 
+<Sync Start=1538077><P Class=KRCC>
+15에서 5 빼야지만 10이니까 1. 30에서 20 빼야 되니까 r은 6. 아니지. 30에서 20, 5×4=20. 
+<Sync Start=1547987><P Class=KRCC>
+3씩 커지는구나. 7, 3씩 커지나 봐. 10. 그러니까 이거야. 이렇게 푸는 거야. 
+<Sync Start=1555799><P Class=KRCC>
+n이 5일 때는 한 번은 r 대신 1 대입하고, 한 번은 r 대신 1 대입해서 
+<Sync Start=1561858><P Class=KRCC>
+여기에 있는 계수가 같아질 수 있는지를 보는 거죠. 
+<Sync Start=1565565><P Class=KRCC>
+그런 식으로 따지려면 그런데 뭐가 안 좋다. 무수히 많다는 거. 
+<Sync Start=1571105><P Class=KRCC>
+그러니까 근이 하나밖에 안 나오니까 문제를 출제했을 텐데 
+<Sync Start=1575631><P Class=KRCC>
+근이 몇 개 있는지를 체크하기가 쉽지 않죠. 
+<Sync Start=1580560><P Class=KRCC>
+물론 n과 r의 관계를 일반화시켜가지고 처리할 수 있는 방법도 있겠는데 
+<Sync Start=1585281><P Class=KRCC>
+그러니까 그렇게 하는 것보다는 그냥 아예 이것만 알면 돼. 
+<Sync Start=1589523><P Class=KRCC>
+r이 변수라는 것만 알고 n을 찾는 거니까 r을 n에 대한 식으로. 
+<Sync Start=1593685><P Class=KRCC>
+그러니까 5r은 3n-와 r은 얼마? 5분의 3n-5거든요. 
+<Sync Start=1602488><P Class=KRCC>
+r 대신 5분의 3n-5를 대입하면 얘가 5차가 되는 거야, 드디어. 
+<Sync Start=1607460><P Class=KRCC>
+그러니까 5차항의 계수는 r 대신 뭐만 대입하면 돼? 5분의 3n-5만 대입하면 되니까 
+<Sync Start=1613616><P Class=KRCC>
+nC5분의 3n-5×2에 대해서 n-, 여기서 이걸 빼는 거니까 n에서 5분의 3n 빼면 
+<Sync Start=1623989><P Class=KRCC>
+5분의 2n, -1을 뺐으니까 +1제곱. 이렇게 나온다고. 
+<Sync Start=1630482><P Class=KRCC>
+재밌지 않니? 재밌지 않니? 여기서 이거 뺀 게 이거야. 됐지? 
+<Sync Start=1638542><P Class=KRCC>
+얘가 몇 차 항의 계수? 5차항의 계수. 얘가 5 될 때야. 
+<Sync Start=1643225><P Class=KRCC>
+이번에는 10차항의 계수 찾아볼까? r이 얼마야? 5분의 3n-10이잖아. 
+<Sync Start=1649054><P Class=KRCC>
+3n-10을 그대로 대입하면 45분의 3n-10. 그다음에 2에, 여기서 이거 뺀 거니까 5분의 2n+2네. 
+<Sync Start=1659990><P Class=KRCC>
+왜? -2를 빼면 +2니까. 이게 뭐 하도록? 같도록 하는 n 값 여기서 찾으면 끝나는 거야. 
+<Sync Start=1668109><P Class=KRCC>
+방정식이야. n 찾는 거야, 여기서. 근데 가만히 보면 얘가 2가 하나 더 있죠. 
+<Sync Start=1675852><P Class=KRCC>
+얘보다, 1보다 1 크잖아요. 양변을 얘로 나누면 2만 남는다고. 재밌는데? 날아간다고. 
+<Sync Start=1690984><P Class=KRCC>
+그런데 여러분 얘를 표현하기 어려워. 왜? 얘도 문제이기 때문에. 
+<Sync Start=1695203><P Class=KRCC>
+몇 개? 5분의 3n-r개를 나열한 다음에 (5분의 3n-5)!로 나눠줘야 되네. C를 구한대. 
+<Sync Start=1702732><P Class=KRCC>
+근데 C를 쓰기가 어려워. 왜? n에 따라 달라지니까. 몇 개를 곱할지 모르겠어. 
+<Sync Start=1708217><P Class=KRCC>
+그럴 때 어떻게 하면 돼? 그럴 때는 !로 바꾸면 돼. C를 !로 바꾸는 방법. 
+<Sync Start=1715911><P Class=KRCC>
+위엣것 !을 분자에 쓸 때, 여기서 이거 뺀 거 !을 여기다 쓰면 C으로 바꿀 수 있어. 
+<Sync Start=1721343><P Class=KRCC>
+근데 여기서 이거 뺀 건 했잖아. 5분의 2n, 빼면 +1. 그거 !, 이게 C. 
+<Sync Start=1730577><P Class=KRCC>
+요거 !로 또 나누면 드디어 C, (5분의 3n-1)!. 됐어. 
+<Sync Start=1739990><P Class=KRCC>
+우변 본다. =, 우변, 앞엣것 !, 여기서 이거 빼면 (5분의 2n+2)!. -1 뺐으니까. 
+<Sync Start=1755346><P Class=KRCC>
+뒤엣것 !, (5분의 3-2)!. 2가 있네요. 이거네. 여기서 n 값 찾는 거네. 
+<Sync Start=1765973><P Class=KRCC>
+양변 뭐로 나눌까? n!로 나눠. 얘랑 얘랑 하나 차이인데 더 큰 걸 곱해야지 없어지잖아. 
+<Sync Start=1779432><P Class=KRCC>
+양변에 이걸 곱해. (5분의 2n+2)!을 곱하면 맨 처음 것만 남을 테니까 5분의 2n+, 얼마였지? 
+<Sync Start=1796069><P Class=KRCC>
+까먹었네. 이 둘 중에도 누가 더 커? 얘가 하나 더 크니까 이거 !로 나눠. 
+<Sync Start=1801902><P Class=KRCC>
+그럼 얘는 아예 날아갈 거고 여기는 뭐가 생길까? 
+<Sync Start=1806547><P Class=KRCC>
+위에는 얘는 날아가고 가장 큰 (5분의 3n-1)이 남을 거 아니야, 얘는 날아가고. 얘도 날아가고. 
+<Sync Start=1819205><P Class=KRCC>
+그래서 n에 관한 몇 차? 1차 방정식이 되었구나. 
+<Sync Start=1822098><P Class=KRCC>
+5분의 3n, 5분의 2n 빼니까 5분의 1n은 -2, 좌변을 이항시키면 +2가 돼서 4가 되는구나. 
+<Sync Start=1838709><P Class=KRCC>
+아닌가? 5분의 6n이네요. 미안합니다. 미쳤나 봐. 5분의 6n, 5분의 4n이죠. 이렇게 됩니다. 
+<Sync Start=1849357><P Class=KRCC>
+미안해. 이게 뭐였어, 원래. 5분의 3이었지. 그래서 6n이 되잖아. 
+<Sync Start=1856166><P Class=KRCC>
+5분의 6n에서 5분의 2n을 빼니까 5분의 4n. 그 말이야. 상수항은 2에서 -1 더하니까 +4. 
+<Sync Start=1862861><P Class=KRCC>
+양변을 4로 나누면 5=n이 돼서 결국은 n 값을 구했다. 뭐다? 5라는 사실. 이제 끝났네. 
+<Sync Start=1871739><P Class=KRCC>
+n이 5 나왔으니까 이제 일반항 만들게요. 이제부터는 지금까지 공부했던 거랑 똑같지. 
+<Sync Start=1876790><P Class=KRCC>
+n이 5가 나왔으니까 15-5r. 그런데 뭘 구하래? 상수항. 
+<Sync Start=1883226><P Class=KRCC>
+그러려면 얘가 뭐가 돼야 돼? 0차항의 계수가 바로 상수항이니까 r 대신 3을, 
+<Sync Start=1887795><P Class=KRCC>
+원래는 r 대신 뭐부터 뭐까지 대입해야 되냐면 0부터 지수 5까지 대입해야 되는데 
+<Sync Start=1892541><P Class=KRCC>
+여기서는 3만 대입하면 상수항. 3 대입하면 집에 갑시다. 3 대입하고 집에 갑시다. 
+<Sync Start=1898307><P Class=KRCC>
+답은 4×10. 얼마? 40. 끝. 시간이 좀 오래 걸렸었던 문제지만 어렵지는 않습니다. 
+<Sync Start=1905747><P Class=KRCC>
+실력 완성. 실력 완성. 2번이었습니다. 이제 실력 완성도 하나 남았습니다. 
+<Sync Start=1918388><P Class=KRCC>
+하나만 풀면 끝입니다. 여러분 반드시 먼저 풀어봐. 30번을 여기서 내겠다. 
+<Sync Start=1928636><P Class=KRCC>
+아마 그럴 것 같아. 28번, 29번을 여러분 레벨 2에서 낼 거야. 
+<Sync Start=1934487><P Class=KRCC>
+30번을 여기서 낼 것 같아. 그래서 완벽하게 연습하자고. 
+<Sync Start=1942359><P Class=KRCC>
+전체 집합 U, 1부터 30까지의 자연수. 
+<Sync Start=1944457><P Class=KRCC>
+전체 집합 1, 2, 3, 4, 5, 7, 8, 9, 10 쫙 나가서 30까지. 
+<Sync Start=1948354><P Class=KRCC>
+부분 집합 X에 대해서 다음 조건을 모두 만족시키는 집합 X는. 
+<Sync Start=1952633><P Class=KRCC>
+그러니까 부분 집합의 개수, 1부터 30까지의 부분 집합 총 2의 30가지인데 
+<Sync Start=1956719><P Class=KRCC>
+그중에서 다음을 만족시켜야 되는데 뭐냐. 1부터 30까지 중에서 짝수는, 짝수 뭐 있어. 
+<Sync Start=1963746><P Class=KRCC>
+한번 불러볼래? 2, 4, 6, 8 쭉 나가서 30까지. 홀수는 뭐 있어? 1, 3, 5, 7 쭉 나가서 29까지. 
+<Sync Start=1974591><P Class=KRCC>
+그러니까 여기 몇 개야? 이거 각각 다 15개씩이야. 
+<Sync Start=1979198><P Class=KRCC>
+짝수 15개, 홀수 15개인데 집합 X를 만들잖아. 
+<Sync Start=1984471><P Class=KRCC>
+집합 X를 만드는 방법의 수를 구하는 건데 얘네들은 이 중의 1개도 안 가져와도 되고 
+<Sync Start=1991371><P Class=KRCC>
+1개 가져와도 되고 2개만 뽑아도 되고 3개만 뽑아도 되고 4개, 그찮아. 30개 뽑아도 되고. 
+<Sync Start=1995664><P Class=KRCC>
+그래서 0부터 30C, 30까지 다 더하면 2의 30제곱. 
+<Sync Start=2002874><P Class=KRCC>
+그게 바로 집합 X의 개수, 전체 개수일 텐데 뭐라고 돼 있냐면 봐봐. 짝수는 8개 이상. 
+<Sync Start=2014855><P Class=KRCC>
+그러니까 짝수 총 15개 중의서 짝수의 원소를 먼저 가져오고 
+<Sync Start=2021454><P Class=KRCC>
+그다음에 홀수의 원소를 가져오자고. 그러면 집합 X를 한 번 딱 만드는 거잖아요. 
+<Sync Start=2027932><P Class=KRCC>
+그러니까 원래는 전체 중의 몇 개를 가져오면 부분 집합이 되는데 
+<Sync Start=2034834><P Class=KRCC>
+짝수 중, 짝수 15개 중의 몇 개 가져오고 홀수 15개 중의 몇 개 가져오자고. 
+<Sync Start=2041708><P Class=KRCC>
+그러면 짝수 원소를 집합 X의 원소로 만드는 방법의 수를 구하라 그러면 몇 개 이상? 
+<Sync Start=2050161><P Class=KRCC>
+8개 이상은 뽑아야 되니까 15개 중의 8개를 뽑거나 15개 중의 9개를 뽑거나 
+<Sync Start=2056752><P Class=KRCC>
+15개 중의 10개를 뽑거나 또는 15개 중의 11개를, 언제까지? 15개 다 뽑아도 되지. 
+<Sync Start=2065481><P Class=KRCC>
+8개부터 15개까지요. 홀수는요. 총 15개 중의서 홀수는 7 이하라 그랬으니까 
+<Sync Start=2084364><P Class=KRCC>
+홀수의 개수는 7 이하. 그러니까 1개 또는 2개 또는 3개 또는 4개 또는 
+<Sync Start=2092536><P Class=KRCC>
+아니면 0까지도 가능하겠네. 7 이하니까 안 뽑아도 되는 거잖아요. 
+<Sync Start=2096931><P Class=KRCC>
+그럼 홀수 총 15개 중의 하나도 안 뽑아야 되고 하나 뽑아도 되고 2개 뽑아도 되고 
+<Sync Start=2107711><P Class=KRCC>
+3개 뽑아도 되고 맨 마지막 7개까지만 뽑아야지. 
+<Sync Start=2116768><P Class=KRCC>
+그러니까 짝수 원소를 집합 X에 담는 방법에서는 8개 담을 수도 있고 9개 담을 수도 있고 
+<Sync Start=2127681><P Class=KRCC>
+10개 담을 수도 있고 15개까지 담는 방법의 수는 여러분 이거 다 더하면 얼마야? 
+<Sync Start=2134331><P Class=KRCC>
+2의 15가지 거기서 뭐 뺀 거야? 뭘 뺀 게 아니라 절반이네요. 그래서 2의 14가지고. 
+<Sync Start=2144750><P Class=KRCC>
+얘는 후반부의 합, 아니, 전반부의 합이니까 얘가 바로 뭐고? 
+<Sync Start=2149399><P Class=KRCC>
+후반부의 합이고 후반부의 시작은 뭐야? 일단 1 다음에 반으로 쪼개니까 알지? 
+<Sync Start=2153733><P Class=KRCC>
+일단 1 뺀 다음에 반으로 쪼개니까 7 맞지? 얘도 전체의 절반이니까 지수를 하나 빼서 
+<Sync Start=2160514><P Class=KRCC>
+2의 14제곱. 결국 짝수 원소를 만들고 and 홀수 원소를 끌어내면 
+<Sync Start=2168258><P Class=KRCC>
+전체 집합 X가 만들어지는 거니까 집합 X의 개수를 구하라 그러면 2개 곱하면 되죠. 
+<Sync Start=2174783><P Class=KRCC>
+곱할 때는 지수끼리 더하니까 답은 2의 28제곱. 끝. 요렇게 정리하는 것이 바로, 재밌죠. 
+<Sync Start=2187597><P Class=KRCC>
+뭐를 알았더니? 이항 계수의 성질을 알았더니. 이것도 있지만 뭐도 있었어? 파스칼의 삼각형. 
+<Sync Start=2195274><P Class=KRCC>
+앞엣것도 커지고 뒤엣것도 커지면 앞엣것만 커진다. 
+<Sync Start=2198563><P Class=KRCC>
+앞엣것만 커지면 앞엣것도 커지고 뒤엣것도 커진다. 
+<Sync Start=2201295><P Class=KRCC>
+반드시 1부터 시작해야 된다는 그 아름다운 이야기까지 잘 정리하시길 바랍니다. 
+<Sync Start=2208585><P Class=KRCC>
+여기까지가 드디어 확률 전까지 끝났어. 그런데 우리 아직 안 한 게 있다. 
+<Sync Start=2213465><P Class=KRCC>
+딱 시간이 10분 남았으니까 그거 하면 될 것 같은데. 뭐? 뒤뜰 야영. 뒤뜰 야영. 
+<Sync Start=2222130><P Class=KRCC>
+어디에 나오게? 아직까지는 안 나왔는데 우리 확률 편에 뒤뜰 야영 이용하는 문제가 또 나와요. 
+<Sync Start=2227353><P Class=KRCC>
+그래서 경우의 수에서 뒤뜰 야영 공부해야 되는데 언제 공부했던 거야? 
+<Sync Start=2230112><P Class=KRCC>
+우리 두 번째 시간과 세 번째 시간에 조합 TOP5 기억나요? 조합에서 제일 많이 나온 5가지. 
+<Sync Start=2237161><P Class=KRCC>
+포함되도록, 포함되지 않도록, 적어도 1명이 포함되도록, 악수하기. 
+<Sync Start=2247909><P Class=KRCC>
+여기까지는 했는데 가장 많이 나온 다섯 가지 중에 맨 마지막에 이게 조나누기. 뒤뜰 야영. 
+<Sync Start=2258165><P Class=KRCC>
+요거 안 했거든요. 요거 중요해요. 요거는 나와요. 
+<Sync Start=2261303><P Class=KRCC>
+예전에는 집합의 분할, 자연수의 분할, 분할과 분배를 공부할 때 
+<Sync Start=2265543><P Class=KRCC>
+지금은 교과 과정에서 빠졌습니다만 그때도 공부했지만 이거는 그걸 공부하지 않더라도 
+<Sync Start=2270814><P Class=KRCC>
+집합의 분할과 관련이 있지만 C만 가지고 충분히 나올 수 있는 파트라서 
+<Sync Start=2277046><P Class=KRCC>
+공부를 따로 해두셔야 돼요. 일명 조나누기. 이거는 뒤뜰 야영 이야기입니다. 
+<Sync Start=2283417><P Class=KRCC>
+뒤뜰 야영 알아? 아람단, 나는 아람단이었는데 여러분 보이스카우트, 걸스카우트, RCY, 
+<Sync Start=2292083><P Class=KRCC>
+아람단, 이렇게. 여기가 이제 구령대 이렇게. 여기가 계단, 계단, 계단. 계단 이렇게. 
+<Sync Start=2299811><P Class=KRCC>
+스탠드처럼 이렇게. 제가 다니던 초등학교 이렇게 생겼었어요. 
+<Sync Start=2305006><P Class=KRCC>
+아주 보이스카우트 3초간 함성 발사 그러면 악, 걸스카우트 발사 그러면 아, 
+<Sync Start=2313043><P Class=KRCC>
+RCY이 발사 그러면 악, 아람단 악, 그래가지고 얘는 맨날 게임하고 맨날 그랬다. 
+<Sync Start=2320033><P Class=KRCC>
+보이스카우트 정부 담임교사들, 걸스카우트 선생님, RCY 선생님, 아람단 선생님. 
+<Sync Start=2328472><P Class=KRCC>
+얘네들 복장은 위아래 곤색, 남색 그르나? 곤색, 남색. 
+<Sync Start=2333128><P Class=KRCC>
+얘는 위아래 흑색? 회색? 걸스카우트 회색인가? 그 색. 얘네들은 위에가 흰색, 밑에는 청바지. 
+<Sync Start=2351418><P Class=KRCC>
+얘네들은 단복이 없었어. 그래서 위에는 무조건 흰 옷, 밑에는 청바지 입고 오라 그랬고. 
+<Sync Start=2356914><P Class=KRCC>
+얘네들은 위아래 청바지, 청재킷, 안쪽에 하늘색 티셔츠. 카라 있는 티셔츠. 
+<Sync Start=2374490><P Class=KRCC>
+선서식, 선서식, 선서, 이게 스카우트 선서. 
+<Sync Start=2380571><P Class=KRCC>
+아람단의 선서, 나는 한국 청소년 연맹의 아람단으로써 
+<Sync Start=2384211><P Class=KRCC>
+결의의 뭔가 뭐를 문화 창달에 기여한대. 그 어린애들이. 그러고 딱 내려요. 
+<Sync Start=2392290><P Class=KRCC>
+그러고 이제 엄마들 와가지고 그때는 휴대폰 없던 시절이니까 이렇게 착 필름 카메라, 
+<Sync Start=2395988><P Class=KRCC>
+필름 카메라 알아요? 36방짜리, 찍찍찍 찰칵, 찍찍찍 그래가지고 막 찍는다고. 
+<Sync Start=2402875><P Class=KRCC>
+촛불 하나 탁 들고. 그러면 이제 얘네들이 저녁 한, 선서식 한 3시나 4시에 하거든. 
+<Sync Start=2410947><P Class=KRCC>
+그럼 선서식 딱 끝나고 사진까지 다 찍잖아? 그러면 한 6시 정도 되거든. 5시, 6시. 
+<Sync Start=2416355><P Class=KRCC>
+그때 이제 해가 뉘엿뉘엿 질 때쯤 수위 아저씨 두 분이서 여기다가 나무를 쫙 쌓아 올리고 
+<Sync Start=2425244><P Class=KRCC>
+한 분은 우리 때는 석유라 그랬는데 알고 보면 휘발유죠. 
+<Sync Start=2430592><P Class=KRCC>
+휘발유를 쫙 뿌리는데 거기에서 탁 줄 따라 가지고 위에다 탁, 어디? 
+<Sync Start=2436786><P Class=KRCC>
+저기 위에 탁 위에 뭐야 이거. 4층 꼭대기 옥상에서 줄을 이렇게 늘어뜨린다고. 
+<Sync Start=2447087><P Class=KRCC>
+그래서 여기다 불을 딱 붙인 다음에 불이 쫙 내려오면서 이게 쫙, 왜? 
+<Sync Start=2450623><P Class=KRCC>
+이게 지금 88 올림픽 얼마 안 남았을 때거든. 88올림픽 전이야, 이게. 
+<Sync Start=2460138><P Class=KRCC>
+내 기억으로 이게 87년도일 거야. 내가 지금 기억하고 있는 이 장면 5학년 때. 
+<Sync Start=2466599><P Class=KRCC>
+1987년, 88올림픽 1년 전에. 근데 이 전에 86년도에 아시안게임을 했거든. 
+<Sync Start=2474497><P Class=KRCC>
+그때 성화에 불붙이는 그게 되게 하나의 이벤트였어. 어떻게 불을 붙일 것이냐. 
+<Sync Start=2482085><P Class=KRCC>
+지금까지 어떨 때는 막 이렇게 막 활을 탁 쏴가지고 이렇게 하거든. 
+<Sync Start=2487156><P Class=KRCC>
+그런 것처럼 옥상에서 불이 탁 붙어서 비바람이 치던 바다, 알지? 그게 뒤뜰 야영이야. 
+<Sync Start=2498524><P Class=KRCC>
+맨 뒤에서 자는 거야. 뭐 한다고? 뒤뜰 야영. 
+<Sync Start=2501895><P Class=KRCC>
+내가 기타가 없어서, 기타 소리가 여기가 나는지 모르겠다. 기타 소리, 기타 소리, 기타 소리. 
+<Sync Start=2508003><P Class=KRCC>
+이게 기타인가? 아닌데. 이건가? G코드를 잡아주세요. 
+<Sync Start=2530487><P Class=KRCC>
+좀 소리를 줄이면서 비바람이 치던 바다. 잔잔해져, 맞나? 오면 오늘 그대 오시려나. 
+<Sync Start=2546656><P Class=KRCC>
+저 바다 건너서. 저 하늘에 반짝이는 달빛도 아름답지. 미안. 
+<Sync Start=2560230><P Class=KRCC>
+사랑스러운 그대 눈은 더욱 아름다워라. 이렇게 가는 거 있어. 
+<Sync Start=2574070><P Class=KRCC>
+멋지지 않습니까? 이 뒤뜰 야영 분위기, 이게 뭐냐면 아람단 한 30명이 있거든. 
+<Sync Start=2582915><P Class=KRCC>
+뒤뜰 야영이 뭐냐면 맨 뒤로 가는 거야, 맨 뒤로. 
+<Sync Start=2586192><P Class=KRCC>
+이 모닥불, 촛불 의식 다 끝난 다음에 어머님의 은혜, 이런 거 부르잖아. 
+<Sync Start=2592448><P Class=KRCC>
+맨 뒤에 보면 여기 구름사다리도 있고 막 타이어 이렇게 박혀 있는 씨름장도 있고 
+<Sync Start=2598682><P Class=KRCC>
+또 뭐도 있지? 구름사다리가 이거 맞니? 이렇게 돼가지고 이렇게 이게 구름사다리 맞니? 
+<Sync Start=2605662><P Class=KRCC>
+이건 뭐야? 이거 뭐라 그래, 이거? 정글짐? 이런 것도 있고 알록달록하잖아, 초등학교니까. 
+<Sync Start=2613403><P Class=KRCC>
+알지, 알지, 알지. 그 앞에다가 텐트 치는 거야. 한 조가 한 5명, 6명 정도 되게. 
+<Sync Start=2621799><P Class=KRCC>
+그래서 1조부터 7조까지 해가지고 조 구호 정하고 조 이름 정하고 조가 정하고. 내가 1조였어. 
+<Sync Start=2631010><P Class=KRCC>
+그때 지었던 조가가 내가 기억나. 난 살았는데, 이 노래 있지. 
+<Sync Start=2645836><P Class=KRCC>
+그중에서도 1조가 제일 좋다던데. 이랬었던 거 기억나. 
+<Sync Start=2654140><P Class=KRCC>
+아따 그 1조 공부도 잘하고 운동도 잘하는 1조가 최고야, 1조가 최고야. 아람단 1조. 
+<Sync Start=2662862><P Class=KRCC>
+이렇게 딱 끝났어. 기억나잖아, 아직. 진짜 그랬어. 아람단 내가 1조였거든. 
+<Sync Start=2674484><P Class=KRCC>
+그래서 딱 하루를 자요. 텐트 쳐놓고. 자기 동네잖아. 그래도 재밌어. 
+<Sync Start=2680826><P Class=KRCC>
+딱 하루 이렇게 자는 게 엄청 재밌더라고요. 중간에 선생님들 못 나오게 하고 막 이렇게. 
+<Sync Start=2693261><P Class=KRCC>
+분위기는 비슷한데 짜증 나는 거는, 어디야, 그 논산 훈련소 6주차에 가면 수경이라고 해. 
+<Sync Start=2706523><P Class=KRCC>
+행군 전에. 그때도 텐트 쳐놓고 잤는데 그때는 최악이고 
+<Sync Start=2712579><P Class=KRCC>
+이때는 너무나 행복했었던 기억이 나네요. 오늘은 여기까지. 
+<Sync Start=2717276><P Class=KRCC>
+디테일이 여기 뭔지를 설명하는 시간으로 함께해 봤습니다. 
+<Sync Start=2723895><P Class=KRCC>
+이 뒤뜰 야영에서 어떤 일이 펼쳐질지 궁금하잖아. 그럼 언제 배울 거야? 다음 시간에. 
+<Sync Start=2729558><P Class=KRCC>
+다음 시간에 뒤뜰 야영 마지막 이야기하고 마치도록 하겠습니다. 오늘은 여기까지입니다. <br>
+
+
+
+
+
+
+
+
+
+
+
+
+</BODY>
+</SAMI>

@@ -1,0 +1,919 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+<Sync Start=7140><P Class=KRCC>
+
+<Sync Start=9509><P Class=KRCC>
+이제 모평균의 추정에 들어가기 직전입니다. 정규분포 문제를 다시 한번 풀어볼게.
+<Sync Start=17001><P Class=KRCC>
+여러분, 다시 얘기할게요. 이 줄거리를 언제든지 얘기할 줄 알아야 된다니까.
+<Sync Start=20664><P Class=KRCC>
+모집단이 이렇게 있었고 이 중에서 표본을 추출한다.
+<Sync Start=25320><P Class=KRCC>
+그 표본의 크기가 예를 들어서 100일 수도 있고 50일 수도 있고 25일 수도 있고
+<Sync Start=30486><P Class=KRCC>
+49일 수도 있고 80일 수도 있고 표본의 크기는 정하기 나름이잖아요. 그렇죠?
+<Sync Start=36753><P Class=KRCC>
+예를 들어서 편하게 100명이라고 하면 걔네들의 뭘 가지고 구해? 시작.
+<Sync Start=40811><P Class=KRCC>
+걔네들의 표본평균을 구한다. 100명의 평균을 구한다. 그걸 사람들은 뭐라고 해? 표본평균.
+<Sync Start=47706><P Class=KRCC>
+근데 그거 하나 가지고는 모평균이라고 주장할 수 없지만
+<Sync Start=51820><P Class=KRCC>
+이렇게 계속 표본평균들을 만들 수 있을 만큼 계속 만들어 버린다는 게 핵심이지.
+<Sync Start=59832><P Class=KRCC>
+표본평균들을 엄청 많이 만들어. 그런 다음에 걔네들의 평균을 구하잖아요.
+<Sync Start=66824><P Class=KRCC>
+그걸 표현하는 방식이 수많은 표본평균들의 평균이 모평균이랑 똑같다고 알려져 있으며
+<Sync Start=76522><P Class=KRCC>
+그 표본평균들의 분산이 모분산이랑 똑같지 않고 표본의 크기로 나눈 것으로 똑같다고 알려져 있으며
+<Sync Start=84185><P Class=KRCC>
+표본평균들의 표준편차는 루트 n분의 시그마.
+<Sync Start=89860><P Class=KRCC>
+이건 따로 영어로 외우라고. 루트 n분의 시그마, 루트 n분의 시그마. 이렇게 기억을 해줬으면 좋겠다.
+<Sync Start=95944><P Class=KRCC>
+이 아이디어를 잘 기억했으면 좋겠고 이 모집단이 정규분포를 따르면
+<Sync Start=102009><P Class=KRCC>
+이 표본평균들 역시 정규분포를 따르는데 그 정규분포는 뭐라고 얘기하면 돼?
+<Sync Start=108723><P Class=KRCC>
+그렇지, 평균은 모평균이랑 일치하고 분산은 모분산을 표본의 크기로 나누는 것.
+<Sync Start=114915><P Class=KRCC>
+이런 정규분포를 새롭게 따르는 거지. 뭐는?
+<Sync Start=118596><P Class=KRCC>
+원래 모집단의 확률변수를 X라고 하면 X는 뭐를 따르느냐. N(m,σ²)
+<Sync Start=127648><P Class=KRCC>
+다른 말로 모평균이 m이고 모분산이 σ²인 정규분포를 따랐다면
+<Sync Start=134360><P Class=KRCC>
+표본의 크기가 n인 표본평균들을 구했을 때 표본평균은 이런 정규분포를 따른다는 거예요.
+<Sync Start=141619><P Class=KRCC>
+이 관계를 기억하자. 모집단의 확률변수가 이런 정규분포를 따른다면
+<Sync Start=148924><P Class=KRCC>
+표본평균들은 이런 정규분포를 따르는구나.
+<Sync Start=153686><P Class=KRCC>
+평균은 모평균이랑 똑같고 분산은 모분산을 표본의 크기로 나눈 것과 일치한다는
+<Sync Start=160775><P Class=KRCC>
+저런 새로운 정규분포를 따른다는 것만 제대로 기억하신다면
+<Sync Start=167530><P Class=KRCC>
+이런 문제들을 푸는 거 전혀 두렵지가 않습니다.
+<Sync Start=170603><P Class=KRCC>
+어느 쇼핑 사이트의 고객 1명이 이 사이트에 머무는 시간이 평균이 12분이고
+<Sync Start=176915><P Class=KRCC>
+표준편차가 4분인데 이게 지금 모평균 얘기하는 거예요.
+<Sync Start=180177><P Class=KRCC>
+물론 모라는 얘기는 없지만 표본을 뽑았다는 얘기도 없잖아.
+<Sync Start=184474><P Class=KRCC>
+표본을 뽑지 않은 어떤 사이트에 고객 1명이 이용하는 평균 시간이 12분,
+<Sync Start=190975><P Class=KRCC>
+표준편차가 4인 정규분포를 따르는데 이 사이트에서 몇 명을 뽑은 거야?
+<Sync Start=195871><P Class=KRCC>
+25명을 뽑았다. 이렇게 돼 있지 않니? 그렇지?
+<Sync Start=199681><P Class=KRCC>
+걔의 표본평균이 13.6분 이상일 확률을 구하래. 그러니까 내가 조금 전에 얘기했던 게 뭐냐.
+<Sync Start=208884><P Class=KRCC>
+
+<Sync Start=213241><P Class=KRCC>
+모집단에서 머무는 시간, 사이트에 머무는 시간이라는 X라는 확률변수가
+<Sync Start=219208><P Class=KRCC>
+이러한 정규분포를 따랐을 때 표본의 크기가 25인 표본평균들을 구할 수 있을 만큼 많이 구해놓으면
+<Sync Start=228717><P Class=KRCC>
+그 표본평균들은 어떤 정규분포를 따른다? 시작. 표본평균들의 평균은 모평균이랑 똑같다.
+<Sync Start=236546><P Class=KRCC>
+표본평균들의 분산은 모분산을 표본의 크기로 나눈 것과 똑같다.
+<Sync Start=244794><P Class=KRCC>
+이런 새로운 정규분포를 따르는 거죠. 그런데 내 얘기는 이걸 써놓고 시작하면 시간이 오래 걸리니까
+<Sync Start=251602><P Class=KRCC>
+그 내용만 인지하고 있는 상황에서 확률 구하라고 그러면 이 표본평균 역시 정규분포를 따르니까
+<Sync Start=258648><P Class=KRCC>
+정규분포를 따르는 확률변수는 언제나 표준화시킬 수 있으며 표준화시키는 방식은 똑같다니까.
+<Sync Start=264932><P Class=KRCC>
+애들이 이것의 표준화 공식을 따로 외우는데 따로 외우면 안 돼. 따로 외우지 마.
+<Sync Start=269095><P Class=KRCC>
+똑같아. 뭐야? 시작. 얘를 시그마의 계수, 표준편차의 계수로 표현하는 거잖아요.
+<Sync Start=275067><P Class=KRCC>
+그러니까 차 떼고 포 떼는 건 똑같아. 여기에서 뭘 빼고? 시작.
+<Sync Start=279697><P Class=KRCC>
+평균을 빼고 표준편차로 나눠야지 표준편차의 계수만 남긴다고.
+<Sync Start=285598><P Class=KRCC>
+그 표준화 공식은 전혀 바뀌지 않습니다. 여기에서 뭐를 뺀다고요?
+<Sync Start=291046><P Class=KRCC>
+자기 자신에서 평균을 빼고 표준편차로 나누는데 뭐의 평균을 빼고?
+<Sync Start=296775><P Class=KRCC>
+X바의 평균을 빼고 X바의 표준편차로 나누는 거지.
+<Sync Start=301402><P Class=KRCC>
+그런데 X바의 표준편차, X바의 평균 그중에서 X바의 평균은 모평균이랑 똑같다고 알려져 있으니
+<Sync Start=308379><P Class=KRCC>
+자기 자신에 대해서 원래는 X바의 평균을 빼는 거지만 X바의 평균이 모평균이랑 같으니까
+<Sync Start=313468><P Class=KRCC>
+12를 사용해서 13.6-12. 그러니까 이걸 평균을 뺀 건 아니지.
+<Sync Start=318665><P Class=KRCC>
+모평균을 뺀 게 아니라 표본평균들의 평균을 뺀 거지.
+<Sync Start=322033><P Class=KRCC>
+걔가 모평균이랑 같으니까 이렇게 썼을 뿐이지.
+<Sync Start=324864><P Class=KRCC>
+
+<Sync Start=328418><P Class=KRCC>
+내 얘기는 이 공식을 모평균의 평균을 빼고라고 생각하시면 그건 제대로 된 이해가 아니라는 거야.
+<Sync Start=337095><P Class=KRCC>
+표본평균들의 평균을 뺀 거지. 그런데 표본평균들의 평균이 모평균이랑 똑같다고 알려져 있을 뿐이지.
+<Sync Start=343394><P Class=KRCC>
+그러니까 같은 거지. 하지만 여기에서 모평균의 평균을 뺐다고 그러면 안 되지.
+<Sync Start=347883><P Class=KRCC>
+표본평균의 평균인데 표본평균들의 평균이 모평균이랑 똑같은 거지.
+<Sync Start=352603><P Class=KRCC>
+이게 다른 거라니까. 명확하게 구분하셔야 됩니다.
+<Sync Start=357000><P Class=KRCC>
+그걸 표준편차로 나누는데 모집단의 표준편차가 아니라 X바의 표준편차,
+<Sync Start=363840><P Class=KRCC>
+다른 말로 표본평균들의 표준편차로 나눈다고요.
+<Sync Start=367031><P Class=KRCC>
+근데 표본평균들의 표준편차는 영어로 외우라 그랬잖아요. 뭐라고요?
+<Sync Start=370875><P Class=KRCC>
+루트 n분의. n이 25니까. 루트 n분의 시그마로 나눠.
+<Sync Start=377384><P Class=KRCC>
+얘를 뭘로 나누라고? 루트 n분의 시그마로 나눈다고. 이게 바로 표준화시키는 방식이다.
+<Sync Start=382977><P Class=KRCC>
+이걸 이렇게 외우지 말자. 루트 n분의 시그마 분의 X바 마이너스 m 이렇게 외우지 말라고.
+<Sync Start=388486><P Class=KRCC>
+그 말이 틀렸다는 얘기가 아니야. 왜 그걸 외우니?
+<Sync Start=392145><P Class=KRCC>
+그걸 외우는 게 아니라 자기 자신에서 평균을 빼고 표준편차로 나눈 건 똑같지만
+<Sync Start=397165><P Class=KRCC>
+X바의 평균은 모평균이랑 똑같고 X바의 표준편차는 루트 n분의 시그마입니다.
+<Sync Start=402312><P Class=KRCC>
+그렇게 기억을 하시라는 거예요. 같은 얘기가 아니지. 같은 얘기가 아니라니까.
+<Sync Start=407496><P Class=KRCC>
+같은 얘기 아니지. 그게 어떻게 같은 얘기야. 같은 얘기 아니야.
+<Sync Start=415435><P Class=KRCC>
+
+<Sync Start=417594><P Class=KRCC>
+같은 얘기 아니지. 같은 얘기 아니라고.
+<Sync Start=420504><P Class=KRCC>
+
+<Sync Start=423397><P Class=KRCC>
+해볼까? 이거 뭐야? 13.6에서 12 빼면 얼마야? 1.6.
+<Sync Start=429912><P Class=KRCC>
+그럼 5분에 8 아니야? 5분의 4분의 5분의 8이니까 약분하면 2 아니야?
+<Sync Start=433422><P Class=KRCC>
+따라서 확률 Z가 시작. 2보다 크거나 같을 확률이니까
+<Sync Start=438861><P Class=KRCC>
+그다음부터 지금까지 했던 거랑 다를 게 하나도 없잖아요.
+<Sync Start=441239><P Class=KRCC>
+얘가 0이고 Z고 얘가 2면 이 넓이 구하는 거구나.
+<Sync Start=444571><P Class=KRCC>
+0.5, 반쪽에서 0부터 2까지의 확률, 얘를 빼주는 거구나. 0.0228이 되겠구나.
+<Sync Start=452247><P Class=KRCC>
+0.0228이니까 답은 몇 번이야? 1번으로 체크한다는 거야.
+<Sync Start=456673><P Class=KRCC>
+달라질 거 하나도 없잖아요. 그냥 정규분포인데 표본평균, 여기 눈썹 하나 붙어 있잖아요.
+<Sync Start=462282><P Class=KRCC>
+표본평균의 값이니까 표본평균들의 평균을 빼야 되고 평균들의 표준편차로 나눠야지 표준화가 된다.
+<Sync Start=470221><P Class=KRCC>
+그렇게만 기억하고 계셨으면 좋겠다.
+<Sync Start=473259><P Class=KRCC>
+어느 공사에서 생산하는 아이스크림 1개의 무게가 평균 150g, 표준편차가 8g인 정규분포를 따르는데
+<Sync Start=480816><P Class=KRCC>
+모평균이야. 모표준편차야. 여기에서 16개의 표본을 만든 거야.
+<Sync Start=488673><P Class=KRCC>
+16개를 뽑아 만든 표본평균을 X바라고 할 때 X바가. 여러분, 이것도 식으로 풀지 말라니까.
+<Sync Start=498399><P Class=KRCC>
+지난 시간에도 말씀드렸지만 지,지,지난 시간이었어요. 이걸 식으로 풀지 말고 이렇게 하라니까.
+<Sync Start=503441><P Class=KRCC>
+X바와 149와의 거리가 3 이하다 이렇게 기억하시면 되잖아. 그렇지?
+<Sync Start=509921><P Class=KRCC>
+절대값의 정의가 바로 거리니까 있는 그대로 한번 써보면 X바의 분포는 어떻게 돼요? 정규분포예요.
+<Sync Start=519064><P Class=KRCC>
+X바의 분포가 뭐라고요? 정규분포예요. 근데 평균은 이렇게 모평균이랑 똑같다고 알려져 있어요.
+<Sync Start=526404><P Class=KRCC>
+여러분, 여기에 150이 있으면 149는 왼쪽에 있을 거고 y값이 같은 X값은 151일 거 아니야.
+<Sync Start=533226><P Class=KRCC>
+이 거리가 1이고 이 거리가 1이잖아요. 그렇지? 그럼 그대로 한번 써보자. 봐 봐.
+<Sync Start=537713><P Class=KRCC>
+X바랑 149와의 거리가 3이야. 봐, 여기서 거리가 3이야.
+<Sync Start=545833><P Class=KRCC>
+여기서 거리가 3 이하일 확률을 구하래.
+<Sync Start=549818><P Class=KRCC>
+그럼 여기서 거리가 3인 것은 오른쪽으로 3이면 얼마야? 시작. 152까지잖아요.
+<Sync Start=559586><P Class=KRCC>
+여기서부터 거리가 3이잖아. 그렇지? 왼쪽으로도 거리가 3을 만들 수가 있는데
+<Sync Start=566018><P Class=KRCC>
+거리가 3이 되려면 어떻게 해야 돼요? 일단 150이랑 똑같은 값을 갖도록 하는 이 X값은 얼마가 돼?
+<Sync Start=576634><P Class=KRCC>
+그렇지, 가운데가 150이니까 2개 더해서 300이 돼야 돼.
+<Sync Start=580666><P Class=KRCC>
+얘가 얼마야? 148. 이렇게 해도 되고 아니면 한 칸, 한 칸이니까 한 칸, 한 칸 이렇게 계산하셔도 되고
+<Sync Start=587780><P Class=KRCC>
+근데 여기에서 얼마? 거리가 3만큼이니까 두 칸을 더 가서 어디까지야?
+<Sync Start=592355><P Class=KRCC>
+147. 아니지, 한 칸 더 가야 되니까 146까지잖아.
+<Sync Start=597581><P Class=KRCC>
+결국 149로부터 거리가 3 이하일 확률을 구하라는 것은 149부터 거리가 3인 146부터 어디까지야?
+<Sync Start=607043><P Class=KRCC>
+152까지 이 넓이를 구하라는 문제 아니에요.
+<Sync Start=611476><P Class=KRCC>
+
+<Sync Start=615091><P Class=KRCC>
+이 얘기잖아. 그러니까 결국 P, X바가 뭐부터 시작. 146보다 크거나 같고 뭐보다 작거나 같다고?
+<Sync Start=627957><P Class=KRCC>
+152보다 작거나 같을 확률 구하는 거니까 뭘로 바꾸자. Z로 바꾸자.
+<Sync Start=633308><P Class=KRCC>
+어떻게 바꾸냐. 자기 자신에서 평균을 빼고. 평균은 모평균이랑 똑같으니까 150을 빼주면
+<Sync Start=639037><P Class=KRCC>
+-4개를 X바의 표준편차로 나누는데 X바의 표준편차는 그냥 모표준편차인 8이 아니라
+<Sync Start=647571><P Class=KRCC>
+루트 n분의 시그마니까, 루트 n분의 시그마니까 2로 나눠야 된다 이런 뜻이에요.
+<Sync Start=655399><P Class=KRCC>
+이쪽도 표준화하면 자기 자신에서 X바의 평균을 빼고 X바의 표준편차로 나누면 되는데
+<Sync Start=662626><P Class=KRCC>
+X바 평균이 모평균 150이랑 같으니까 이번에는 2를 루트 n분의 시그마 4분의 8,
+<Sync Start=670016><P Class=KRCC>
+2로 나눈 것이랑 똑같겠구나 이런 느낌. 그래서 최종적인 답은 유리해 주면 끝나잖아요.
+<Sync Start=677025><P Class=KRCC>
+-2 유리가 아니라 약분해 주면 결국은 뭐지? 시작. -2와 +1 사이의 넓이를 구하라.
+<Sync Start=689175><P Class=KRCC>
+0과 1 사이의 넓이랑 0과 2 사이의 넓이 더하시면 되니까 이렇게 동그라미 2개를 더해주시면
+<Sync Start=694977><P Class=KRCC>
+5로 끝나니까 답은 시작. 1번 이렇게 처리할 수 있다는 거죠.
+<Sync Start=700675><P Class=KRCC>
+표본평균들이 어떠한 정규분포를 따르는지만 정확하게 이해하고 계시면 됩니다.
+<Sync Start=708516><P Class=KRCC>
+유제는 또 어떻게 나왔나요? 양수 σ에 대해서 시그마는 항상 0보다 크거나 같으니까
+<Sync Start=713392><P Class=KRCC>
+표준편차가 0이 아니라는 뜻입니다.
+<Sync Start=715612><P Class=KRCC>
+양수 σ에 대해서 정규분포를 따르는 모집단에서의 크기가 9인 표본을
+<Sync Start=722130><P Class=KRCC>
+임의추출해서 구한 표본평균을 X바라고 하죠.
+<Sync Start=726376><P Class=KRCC>
+이번에는 이런 모집단에서 표본의 크기가 4인 표본을 따르는 그 표준평균을 Y바라고 하자.
+<Sync Start=734252><P Class=KRCC>
+다음일 때 다음을 구하라 이렇게 돼 있고 여러분, 이거 어떻게 해석하실래?
+<Sync Start=737675><P Class=KRCC>
+어차피 확률변수 2개가 서로 다르니까 평균도 다르고 표준편차도 다르니까
+<Sync Start=742665><P Class=KRCC>
+얘네들을 하나의 변수로 통일시켜 주는 게 좋죠. 그걸 무슨화? 표준화.
+<Sync Start=747436><P Class=KRCC>
+여러분, 표준화했을 때 얘도 Z로 바꾸고, 얘도 Z로 바꿨을 때
+<Sync Start=751082><P Class=KRCC>
+작은 확률이랑 큰 확률이랑 같다는 게 무슨 뜻이에요? 머릿속으로 잠깐 생각해 볼까?
+<Sync Start=755102><P Class=KRCC>
+작은 확률과 큰 확률이랑 같다. 여러분, Z로 표준화를 각각 시켜보면
+<Sync Start=759549><P Class=KRCC>
+뭐보다 작은 확률이랑, 뭐보다 크거나 같은 확률이 같다는 것은 무슨 뜻이야?
+<Sync Start=763451><P Class=KRCC>
+그렇지, 여기에 나오는 이 경계값들. 물론 얘네들은 X바값이랑 Y바값이지만 얘네들을 표준화한 것,
+<Sync Start=773967><P Class=KRCC>
+Z값으로 바꿨을 때 2개가 절대값이 같고 부호가 다르다는 얘기겠죠. 왜?
+<Sync Start=779800><P Class=KRCC>
+0을 기준으로 서로 반대 방향이 0을 기준으로 대칭성을 띌 때
+<Sync Start=788177><P Class=KRCC>
+하나보다 방향이 바뀌는 것. 봐 봐, 방향이 서로 다르잖아.
+<Sync Start=792763><P Class=KRCC>
+하나는 작은 확률 하나는 큰 확률. 작은 확률과 큰 확률이 같을 수 있다.
+<Sync Start=797119><P Class=KRCC>
+언제? 이 거리가 같으면. 아니면 얘보다 작을 확률은 이거고 얘보다 클 확률은 이거니까
+<Sync Start=803725><P Class=KRCC>
+마찬가지로 넓이는 같잖아요. 대칭성이. 그러니까 한마디로 얘기해서 나는 이런 생각이 들던데.
+<Sync Start=810040><P Class=KRCC>
+같다고? 그 얘기는 얘를 표준화시킨 Z값이랑 얘를 표준화시킨 Z값은 절대값이 같고 부호가 다르다.
+<Sync Start=818942><P Class=KRCC>
+다른 말로 시작. 더하면 0 나오겠지.
+<Sync Start=821836><P Class=KRCC>
+
+<Sync Start=823833><P Class=KRCC>
+이해가 돼요? 더하면 0 나오겠지. 더하면 0이 나오겠지.
+<Sync Start=830198><P Class=KRCC>
+여러분, 이거 먼저 표준화 시켜 보세요. 시작.
+<Sync Start=832024><P Class=KRCC>
+자기 자신에서 표준화시키고 있어요. Z값 구하고 있어요.
+<Sync Start=835897><P Class=KRCC>
+평균을 빼는데 X바의 평균은 모평균이랑 똑같으니까 빼고 뭘로 나눈다고?
+<Sync Start=842664><P Class=KRCC>
+X바의 표준편차는 루트 n분의 σ, 루트 9분의 σ, 3분의 σ.
+<Sync Start=850602><P Class=KRCC>
+이번에는 얘를 한번 표준화시켜볼까요? 이건 Y바를 표준화시키는 거니까
+<Sync Start=855468><P Class=KRCC>
+자기 자신 a에서 평균을 빼는데 Y바의 평균.
+<Sync Start=858810><P Class=KRCC>
+여전히 표본평균들의 평균은 모평균이랑 똑같으니까 이때 모집단은 평균이 2m이라 그랬잖아요.
+<Sync Start=865055><P Class=KRCC>
+2m을 뺀 다음에 뭘로 나눈다고? 루트 n분의 시그마, 루트 4분의 σ, 루트 4가 뭐야?
+<Sync Start=871393><P Class=KRCC>
+2분의 표준편차는 2σ니까 2분의 2σ면 얼마야? 시작. σ야.
+<Sync Start=878820><P Class=KRCC>
+
+<Sync Start=881336><P Class=KRCC>
+얘를 만족할 것이라는 거지. 이때 a분의 m을 구하라 이게 문제네요.
+<Sync Start=887894><P Class=KRCC>
+너무 간단하지 않습니까? 어떻게 하면 될까요?
+<Sync Start=891793><P Class=KRCC>
+일단 여기에서 분자, 분모에 똑같이 3을 곱해. 분모에다 3 곱하고 분자에다 3 곱해.
+<Sync Start=895543><P Class=KRCC>
+일단 이렇게 만들어줄게. 그다음에 양변에 시그마를 곱해. 이거 사라지지 않겠니? 끝이네.
+<Sync Start=902174><P Class=KRCC>
+얘가 곱해봤자 0이니까 3a, a 더하니까 4a. -3m, -2m, -5m 이게 더해서 0이라는 얘기는
+<Sync Start=913068><P Class=KRCC>
+5m이 4a랑 같다. 따라서 a분의 m을 구하라고 그러면 양변을 a로 나누시면 되고
+<Sync Start=919497><P Class=KRCC>
+양변을 5로 나누시면 되니까 최종적인 a분의 m값은 얼마다? 시작.
+<Sync Start=923269><P Class=KRCC>
+5분의 4 거기에 10을 곱하는 거니까 답은 얼마야? 시작. 8 이렇게 처리하시면 되겠네요.
+<Sync Start=929188><P Class=KRCC>
+표본평균들의 표준편차, 표본평균들의 분산, 표본평균들의 평균
+<Sync Start=935602><P Class=KRCC>
+다른 말로 표본평균들이 어떠한 정규분포를 따르느냐에 관련된 아름다운 이야기였습니다.
+<Sync Start=950918><P Class=KRCC>
+이제 진짜 끝났습니다. 진짜 끝났습니다. 마지막 이야기.
+<Sync Start=960722><P Class=KRCC>
+
+<Sync Start=963779><P Class=KRCC>
+대한민국 성인 남자의 평균키를 구하고 싶음.
+<Sync Start=974665><P Class=KRCC>
+
+<Sync Start=978574><P Class=KRCC>
+그 얘기는 모평균을 구하고 싶습니다. 근데 시간적으로나 공간적으로나 제약이 너무 많습니다.
+<Sync Start=988086><P Class=KRCC>
+한마디로 돈이 너무 많이 듭니다. 그래서 얘를 하기 위해서는 표본을 뽑자.
+<Sync Start=997917><P Class=KRCC>
+표본을 한 번 딱 뽑아서 표본 키 얼마라고 할까요. 90명을 뽑았대요.
+<Sync Start=1005274><P Class=KRCC>
+표본평균을 조사했다니 173.2가 나왔어. 와우.
+<Sync Start=1016794><P Class=KRCC>
+그럼 얘가 모평균입니까? 아니라니까. 표본평균이라니까.
+<Sync Start=1019708><P Class=KRCC>
+근데 얘를 모평균으로 만들려면 어떻게 해야 된다고?
+<Sync Start=1021750><P Class=KRCC>
+평균을 지금처럼 딱 한 번만 만드는 것이 아니라
+<Sync Start=1024129><P Class=KRCC>
+무수히 만든 다음에 얘네들의 다시 평균을 구하면 그게 모평균이지.
+<Sync Start=1028115><P Class=KRCC>
+근데 그게 바로 전수 조사하는 것보다 훨씬 더 시간이 오래 걸린다 그랬지?
+<Sync Start=1031903><P Class=KRCC>
+차라리 전수조사하는 게 훨씬 더 간단해. 말이 안 되잖아. 그렇지?
+<Sync Start=1036729><P Class=KRCC>
+그래서 지금부터 뭘 하냐면 잘 보세요.
+<Sync Start=1039617><P Class=KRCC>
+
+<Sync Start=1042883><P Class=KRCC>
+잘 들어봐. 표본평균을 지금부터 하는 행동. 딱 한 번만 구할 거야.
+<Sync Start=1054103><P Class=KRCC>
+선생님, 이건 가짜잖아요. 이건 모평균이라고 주장할 수 없잖아요. 맞아.
+<Sync Start=1059712><P Class=KRCC>
+이건 그냥 90명의 평균일 뿐이잖아요. 이건 정확성이 심하게 떨어지잖아요. 맞아.
+<Sync Start=1066932><P Class=KRCC>
+그래도 시간이 없어. 이걸 딱 한 번만 구할 거야.
+<Sync Start=1072211><P Class=KRCC>
+오늘 아침에 전화가 왔어.
+<Sync Start=1074470><P Class=KRCC>
+
+<Sync Start=1077336><P Class=KRCC>
+대한민국에서 수학 좀 가르친다는 사람에게 전화가 왔습니다.
+<Sync Start=1084219><P Class=KRCC>
+어디로부터? 용산으로부터.
+<Sync Start=1088102><P Class=KRCC>
+
+<Sync Start=1090784><P Class=KRCC>
+용산에서 전화가 왔어.
+<Sync Start=1093784><P Class=KRCC>
+
+<Sync Start=1096319><P Class=KRCC>
+요즘 전화기는 이렇게 안 생겼네. 어디로?
+<Sync Start=1100256><P Class=KRCC>
+
+<Sync Start=1107864><P Class=KRCC>
+정승제라는 사람이 있는. 여기가 어디죠? EBS 수능교육부로 전화가 온 거지.
+<Sync Start=1124153><P Class=KRCC>
+
+<Sync Start=1126196><P Class=KRCC>
+보통은 교육부 통해서 전화가 오는데 다이렉트로 용산으로 전화가 왔어.
+<Sync Start=1134358><P Class=KRCC>
+지금 대통령님께서 대한민국 성인 남자의 평균 키를 알고 싶어 하셔.
+<Sync Start=1142020><P Class=KRCC>
+정확한 값을 구해 달라고 그러면 이 EBS 수능교육부를 통해서 전화를 받은 정승제 왈,
+<Sync Start=1150562><P Class=KRCC>
+시간을 주십시오. 1년만 주십시오. 정확성을 높여보겠습니다 이랬더니
+<Sync Start=1158712><P Class=KRCC>
+무슨 소리, 말도 안 돼. 오늘 저녁 7시까지 보고하시오.
+<Sync Start=1167860><P Class=KRCC>
+이럴 때 하는 방법은 뭐냐. 딱 한 번만 90명을 조사하는 거예요.
+<Sync Start=1174198><P Class=KRCC>
+딱 한 번만.
+<Sync Start=1177863><P Class=KRCC>
+
+<Sync Start=1180181><P Class=KRCC>
+물론 이렇게 물어보겠지. 혹시 비용, 예산은 어느 정도? 왜 이 세상은 다 돈이지. 비용이 든다고.
+<Sync Start=1193879><P Class=KRCC>
+여러분, 내가 지금 돈 얘기를 따로 하려는 것이 아니라 시험 범위 안에 있는 내용입니다.
+<Sync Start=1201506><P Class=KRCC>
+중요한 얘기야. 예산이 어떻게 돼 있을까?
+<Sync Start=1205679><P Class=KRCC>
+
+<Sync Start=1207688><P Class=KRCC>
+그랬더니 90만 원 밖에 없다는 거야. 얼마? 90만 원.
+<Sync Start=1217340><P Class=KRCC>
+그러면 지나가는 사람한테 지금 대통령실에서 성인 남자의 평균 키를 조사하려고 하는데
+<Sync Start=1227552><P Class=KRCC>
+혹시 표본으로서 참여를 해주시겠습니까?
+<Sync Start=1230554><P Class=KRCC>
+랜덤으로 지나가는 사람의 키를 재고 수고비로 1만 원씩 정도는 줘야 될 거 아니에요. 그렇지?
+<Sync Start=1237072><P Class=KRCC>
+샘플 비용. 그러면 총 몇 명 밖에? 시작. 90명밖에 조사를 못해. 그렇지?
+<Sync Start=1243221><P Class=KRCC>
+그런데 용산에서 예산을 1억을 준 거야. 그러면 1만 명을 조사할 수 있다고.
+<Sync Start=1251487><P Class=KRCC>
+돈을 많이 쓰면 표본의 크기가 달라질 거라고.
+<Sync Start=1256410><P Class=KRCC>
+90만 원을 주면 1인당 1만 원으로 처리해서 표본을 90명밖에 만들 수 없겠지만
+<Sync Start=1263982><P Class=KRCC>
+여러분, 1만 명을 만들면 아무래도 느낌이 어때? 수학적으로 증명하라는 게 아니라 느낌이 어때?
+<Sync Start=1270439><P Class=KRCC>
+90명 조사하는 것보다는 아무래도 조금 더 어디에 가까울 것 같아?
+<Sync Start=1275219><P Class=KRCC>
+모평균에 더 가까울 것 같잖아. 이건 당연한 거죠. 왜?
+<Sync Start=1280552><P Class=KRCC>
+모집단의 크기가 2천만 명이니까 가까우면 가까울수록 당연히 조금 더 정확해지는 느낌.
+<Sync Start=1287795><P Class=KRCC>
+그런 수학적인 직관력은 여러분들이 가지고 있잖아. 그렇지?
+<Sync Start=1292339><P Class=KRCC>
+그렇게 잘 상의를 해서 예산에 따라 오늘 저녁 7시까지 보고할 거니까 딱 한 번만
+<Sync Start=1303234><P Class=KRCC>
+총 예산 90만 원을 가지고 90명의 키를 잰 다음에 다 더해서 90으로 나눠봤더니 173.2가 나왔다니까.
+<Sync Start=1312882><P Class=KRCC>
+그리고 드디어 6시 45분이 됐다.
+<Sync Start=1317700><P Class=KRCC>
+
+<Sync Start=1320407><P Class=KRCC>
+보고할 준비를 해야지. 어떻게 보고를 하느냐.
+<Sync Start=1324133><P Class=KRCC>
+
+<Sync Start=1327273><P Class=KRCC>
+제가 90만 원을 가지고 열심히 조사를 해봤는데
+<Sync Start=1329997><P Class=KRCC>
+대한민국 성인 남자 90명을 대상으로 임의추출, 복원추출을 해봤더니
+<Sync Start=1337959><P Class=KRCC>
+최종적인 결과물이 173.2가 나왔습니다. 이걸 뭐라고 그런다고?
+<Sync Start=1342389><P Class=KRCC>
+표본평균 173.2가 나왔습니다. 그러면 대통령님께 어떻게 보고를 하는 거냐.
+<Sync Start=1349577><P Class=KRCC>
+다음과 같이 보고하는 거예요. 점쟁이처럼 173.2 이렇게 보고를 하는 것이 아니라
+<Sync Start=1357622><P Class=KRCC>
+이렇게 얘기하는 거야. 메이비, 아마도, 어라운드 디스 포인트.
+<Sync Start=1364239><P Class=KRCC>
+173.2 근방에 모평균이 있을 것 같습니다.
+<Sync Start=1370419><P Class=KRCC>
+그러니까 대한민국 성인 남자의 진짜 평균, 모평균은 173.2 주변에 존재할 것 같습니다라고
+<Sync Start=1380728><P Class=KRCC>
+뭐를 만든다? 시작. 구간으로 보고하는 거예요.
+<Sync Start=1384517><P Class=KRCC>
+이런 걸 사람들은 뭐라고 그러냐면 모평균, 진짜 평균을 표본평균으로부터 추정한다,
+<Sync Start=1392430><P Class=KRCC>
+추측한다는 의미에서 이 작업을 사람들은 뭐라고 그러냐면 모평균의 추정이라고 해요.
+<Sync Start=1399189><P Class=KRCC>
+
+<Sync Start=1402061><P Class=KRCC>
+어떻게 추정한다고? 구간으로. 173.2 딱 한 번 구한 표본평균 주위에 모평균이 들어올 겁니다.
+<Sync Start=1413545><P Class=KRCC>
+여기 오든, 여기 오든, 여기 오든 이 안에 들어올 것 같다고 구간으로 추정하는 거야.
+<Sync Start=1421058><P Class=KRCC>
+이 구간을 만드는 방법은 모표본평균으로부터 간 이 길을 A라고 하고 이 길을 A라고 하면
+<Sync Start=1429478><P Class=KRCC>
+어디와 어디 사이야? 시작. 여기가 X바니까 X바에서 A만큼 왼쪽부터 시작해서
+<Sync Start=1435578><P Class=KRCC>
+X바에서 A만큼 오른쪽까지. 그러니까 추정하는 방식은
+<Sync Start=1440191><P Class=KRCC>
+모평균 m이 어떤 구간? X에서 A만큼 왼쪽부터 X바에서 A만큼 오른쪽까지의
+<Sync Start=1450622><P Class=KRCC>
+이 구간 안에 모평균이 있을 것 같다고 뭐하도록 돼 있다고? 시작.
+<Sync Start=1457994><P Class=KRCC>
+추정하는 게 바로 모평균의 추정이라고. 항상 뭘로 한다고? 시작. 구간으로 추정한다고.
+<Sync Start=1464936><P Class=KRCC>
+그때 생기는 이 구간, 모평균이 들어 있을 것 같다는 이 구간을 사람들은 이름을 뭐라 그러느냐.
+<Sync Start=1473299><P Class=KRCC>
+따라 해 보세요. 신뢰구간이라고 해요. 이걸 사람들은 신뢰구간이라고 읽어요.
+<Sync Start=1482232><P Class=KRCC>
+
+<Sync Start=1484582><P Class=KRCC>
+이 안에 모평균이 들어올 것 같다고 이야기하는 이 구간을 사람들은 신뢰구간이라고 하고
+<Sync Start=1494701><P Class=KRCC>
+어디까지나 추정이니까 실제 모평균이 이 안에 들어올 수도 있고
+<Sync Start=1501266><P Class=KRCC>
+모평균이 바깥쪽에 빠질 수도 있는데 그 추정이 맞을 확률을.
+<Sync Start=1512026><P Class=KRCC>
+틀릴 확률 말고 맞을 확률, 다른 말로 모평균이 진짜로 이 구간 안에 들어올 확률을
+<Sync Start=1521379><P Class=KRCC>
+사람들은 신뢰도라고 불러요. 이거 뭐라고 한다고? 신뢰도.
+<Sync Start=1526116><P Class=KRCC>
+그 추정이 맞을 확률, 실제로 모평균이 이 안에 들어올 확률이야.
+<Sync Start=1532534><P Class=KRCC>
+예를 들어서 신뢰도 95%다 무슨 말이냐.
+<Sync Start=1537418><P Class=KRCC>
+이와 같은 추정을 100번 하면 95번은 모평균이 들어옵니다 이런 뜻이거든요.
+<Sync Start=1547172><P Class=KRCC>
+맞을 확률이 95%다. 모평균이 실제로 이 안에 들어올 확률이 95%다.
+<Sync Start=1556196><P Class=KRCC>
+정규분포로 얘기했을 때 정규분포에서 이 구간으로 둘러싸인 이 부분의 넓이가 95%,
+<Sync Start=1564558><P Class=KRCC>
+다른 말로 시작. 0.95가 된다 이런 뜻이에요.
+<Sync Start=1569194><P Class=KRCC>
+그러니까 신뢰도는 그 구간으로 둘러싸인 부분의 넓이라고 해석하시면 된다고.
+<Sync Start=1577828><P Class=KRCC>
+실제로 모평균이 이 구간 안에 들어올 확률을 사람들은 뭐라고 한다고? 시작.
+<Sync Start=1582771><P Class=KRCC>
+신뢰도라고 얘기해요. 틀릴 수도 있죠. 틀릴 확률을 유의수준, 기각률.
+<Sync Start=1591482><P Class=KRCC>
+옛날엔 별의별 얘기를 많이 썼었는데 이게 뭔지 아십니까?
+<Sync Start=1604889><P Class=KRCC>
+함부로 물건을 던지면 안 된다는 교훈을 얻게 해주는 뜻입니다.
+<Sync Start=1610226><P Class=KRCC>
+이게 피아노거든. 여러분들 깜짝 놀랐겠다.
+<Sync Start=1613690><P Class=KRCC>
+
+<Sync Start=1631872><P Class=KRCC>
+음악이 나온 김에. 예전에는 유의수준, 기각률 이런 것도 공부했었는데 지금은 다루지 않았습니다.
+<Sync Start=1640001><P Class=KRCC>
+오직 신뢰도만 다룬다고. 신뢰도가 뭐냐. 그 추정이 맞을 확률,
+<Sync Start=1645002><P Class=KRCC>
+다른 말로 그 구간, 신뢰구간 안에 들어올 확률.
+<Sync Start=1648596><P Class=KRCC>
+다른 말로 신뢰구간으로 둘러싸인 부분의 넓이. 얘가 0.95가 된다면 신뢰도 95%가 되는 거고요.
+<Sync Start=1660155><P Class=KRCC>
+잘 들으세요. 선생님, 신뢰도 95%보다는 신뢰도 99%가 더 정확한 거잖아요.
+<Sync Start=1671063><P Class=KRCC>
+심지어 수학이 아직 발전을 못해서 그러나? 신뢰도 100%가 더 좋은 거잖아요.
+<Sync Start=1678617><P Class=KRCC>
+
+<Sync Start=1682775><P Class=KRCC>
+여러분, 신뢰도는 좋고 나쁨이 아니라 사실 의뢰인이 지정해 주는 거예요.
+<Sync Start=1695523><P Class=KRCC>
+아까 뭐도 지정해 줬어? 예산. 다른 말로 표본의 크기도 90명만 조사하라고
+<Sync Start=1702578><P Class=KRCC>
+의뢰인이 통계학자에게 의뢰를 하잖아요. 통계학자라기보다 여론조사기관이라고 그럴까?
+<Sync Start=1712473><P Class=KRCC>
+표본조사기관에 의뢰를 하는 것처럼 신뢰도 역시 발달을 많이 할수록
+<Sync Start=1719872><P Class=KRCC>
+기술이 좋아지면, 수학이 발전되면 신뢰도가 올라간다는 개념이 아니라
+<Sync Start=1727125><P Class=KRCC>
+6시 45분에 먼저 보좌진한테 내가 전화를 한다고. 혹시 신뢰도는 정하셨습니까?
+<Sync Start=1735475><P Class=KRCC>
+내가 정하는 게 아니야. 의뢰인이 정하는 거야.
+<Sync Start=1740107><P Class=KRCC>
+95%로 좀 부탁드립니다. 99%로 좀 부탁드립니다 이렇게.
+<Sync Start=1746909><P Class=KRCC>
+그러면 뭐가 달라질까? 95%의 구간이 여기서부터 여기까지라면
+<Sync Start=1751838><P Class=KRCC>
+다른 말로 이 넓이가 0.95라면 99%로 신뢰구간을 잡으면 어떻게 돼?
+<Sync Start=1757513><P Class=KRCC>
+넓이가 더 커지려면 구간이 어떻게 돼? 시작. 늘어나겠지.
+<Sync Start=1763322><P Class=KRCC>
+
+<Sync Start=1766957><P Class=KRCC>
+신뢰도 100%로도 추정할 수 있어요. 뭐야?
+<Sync Start=1770981><P Class=KRCC>
+대한민국 성인 남자의 키는 0cm부터 3m 사이에 올 것 같습니다.
+<Sync Start=1776154><P Class=KRCC>
+그러면 해보나 마나잖아. 100%겠지. 0부터 3m 사이에 들어올 거 아니에요.
+<Sync Start=1781612><P Class=KRCC>
+그걸 보통 흔히 얘기하기에 -∞부터 +∞ 사이에 있습니다. 이게 바로 100%야. 왜?
+<Sync Start=1786488><P Class=KRCC>
+신뢰도라는 것은 구간으로 둘러싼 부분의 넓이야. 전체 넓이가 100%, 1 아니에요?
+<Sync Start=1793907><P Class=KRCC>
+그러니까 구간을 전체로 잡겠다는 얘기는 뭐예요? -∞부터 +∞까지 쫙 잡겠다는 얘기예요.
+<Sync Start=1798465><P Class=KRCC>
+그건 수학적으로 의미가 없잖아요.
+<Sync Start=1800594><P Class=KRCC>
+열심히 90만 원이라는 거금을 썼는데 돌아오는 답변이
+<Sync Start=1807167><P Class=KRCC>
+대한민국 성인 남자가 0cm와 3m 사이에 있을 겁니다라고
+<Sync Start=1810975><P Class=KRCC>
+-∞부터 +∞처럼 아주 넓게 잡아버리면 의미가 없어. 이런 식으로 가야지.
+<Sync Start=1817197><P Class=KRCC>
+171.3부터 172.5 사이에 있을 것 같습니다. 이렇게 최종적인 신뢰구간을 뭐 한 게?
+<Sync Start=1823928><P Class=KRCC>
+양질이야. 그렇지? 신뢰구간은 줄이면 줄일수록 더욱더 양질의 결과를 얻을 수 있는 거라고요.
+<Sync Start=1836187><P Class=KRCC>
+그런데 또 신뢰도를 완전히 낮춰버리면 신뢰도 1%로 만드세요 그러면
+<Sync Start=1843431><P Class=KRCC>
+전체 넓이가 0.01이 되면 되니까 이 구간이 엄청 짧을 거 아니야.
+<Sync Start=1847919><P Class=KRCC>
+그러니까 진짜 171.4부터 171.428 사이입니다 이러면 대략 172구나라고 느낌을 얻을 수 있잖아요.
+<Sync Start=1857464><P Class=KRCC>
+그런데 신뢰도가 1%면 그 얘기는 99%는 믿지 못한다는 얘기니까
+<Sync Start=1863758><P Class=KRCC>
+신뢰도를 가지고 구간을 너무 줄여버리면 신뢰도가 너무 낮춰지는 효과를 이루니까
+<Sync Start=1869390><P Class=KRCC>
+또 적당한 게 아니거든. 100%는 너무 넓어서 수학적인 의미가 없다면
+<Sync Start=1875037><P Class=KRCC>
+이걸 줄이기 위해서 신뢰도를 너무 낮춰버리면 믿을 수 없으니까 좋은 결과물이 아니라는 거야.
+<Sync Start=1882801><P Class=KRCC>
+그래서 수학에서는 95%의 신뢰도가 가장 많이 쓰이는 이유에요.
+<Sync Start=1895125><P Class=KRCC>
+물론 95%로 안 쓰고 90%로 쓴다고 하면 구간의 길이가 더 짧아지니까
+<Sync Start=1901539><P Class=KRCC>
+겉으로 보기에는 더 양질의 결과를 얻을 수 있다고 생각하겠지만
+<Sync Start=1906680><P Class=KRCC>
+그래도 확률이 10%나 되잖아. 뭐가? 틀릴 확률이.
+<Sync Start=1911301><P Class=KRCC>
+물론 그렇게 하는 기관, 의뢰인도 있겠습니다만 보통 수학적으로는 뭐가 적당하다고 알려져 있냐면
+<Sync Start=1919192><P Class=KRCC>
+95%가 가장 적당하다고 이야기하는 분위기라는 거예요.
+<Sync Start=1925594><P Class=KRCC>
+그래서 지금도 대통령 선거나 총선 때 여론조사, 출구조사한 거 결과물 잘 들어보시면
+<Sync Start=1933778><P Class=KRCC>
+여러분, 요즘에 대통령 지지도, 정당 지지도 이런 거 다 따졌을 때
+<Sync Start=1940576><P Class=KRCC>
+보통 성인 남녀 몇 명을 가지고 조사를 하는지 아세요?
+<Sync Start=1944702><P Class=KRCC>
+보통 이런 얘기 듣는다고. 성인 남녀 1천 명을 대상으로 거기서는 신뢰 수준이라고 불러.
+<Sync Start=1950309><P Class=KRCC>
+신뢰 수준 95%의 표본오차 ±3.1%p 이런 얘기하거든.
+<Sync Start=1956279><P Class=KRCC>
+거기에서 신뢰 수준이라는 게 바로 신뢰도.
+<Sync Start=1959405><P Class=KRCC>
+100번 조사하면 95번은 우리가 얘기해 준 그 구간 안에 들어갑니다 이런 뜻이라고요.
+<Sync Start=1966421><P Class=KRCC>
+
+<Sync Start=1968480><P Class=KRCC>
+근데 가만히 들어보면 구간으로 얘기를 안 하는 것 같죠? 이런 식으로 얘기하잖아요.
+<Sync Start=1973464><P Class=KRCC>
+현재 A정당의 지지도가 42.3%다. 성인 남녀 1천 명을 대상으로. 이런 걸 사람들은 비율이라고 해서
+<Sync Start=1985402><P Class=KRCC>
+모비율의 추정이라고 그러거든요.
+<Sync Start=1987478><P Class=KRCC>
+여러분, 교육과정에는 존재하지 않지만 비슷한 거라서 내가 설명을 하자면
+<Sync Start=1993935><P Class=KRCC>
+42.3%라고 여론조사를 발표하는 게 사실 이건 표본비율을 얘기하는 거야. 표본비율.
+<Sync Start=2006994><P Class=KRCC>
+구간 중에 딱 가운데에 있는 표본비율을 얘기하는 거고 내가 아까 조금 전에 뭐라 그랬어요?
+<Sync Start=2012336><P Class=KRCC>
+표본오차 ±3.1%p. 그 얘기는 이쪽으로도 3.1%p를 빼서 얼마니? 39.2니?
+<Sync Start=2024542><P Class=KRCC>
+39.2%와 이쪽으로도 3.1%를 더해서 45.4% 사이에 A정당 지지율, 실제 지지율이,
+<Sync Start=2037443><P Class=KRCC>
+올 확률이 95%라는 말을 여러분들 앞에서는 뭐라고 얘기할 뿐이야?
+<Sync Start=2044031><P Class=KRCC>
+42.3%로 조사되었습니다라고 이야기할 뿐이라는 거예요.
+<Sync Start=2048784><P Class=KRCC>
+그래서 여러분, A정당은 42.3%, B정당은 40.6% 그런 다음에 잘 들어보면 무슨 얘기를 하냐면
+<Sync Start=2062087><P Class=KRCC>
+오차의 범위 안에 들어간다는 얘기를 간혹 가다 쓰거든.
+<Sync Start=2066014><P Class=KRCC>
+a후보랑 b후보가 경합을 벌이고 있고 오차의 범위 안에 들어갑니다.
+<Sync Start=2071417><P Class=KRCC>
+그 얘기는 95%의 확률 안에 누가 이길지를 모른다는 얘기예요.
+<Sync Start=2078343><P Class=KRCC>
+실제로 어떤 후보의 지지율과 어떤 후보의 모비율의 추정을 한 것,
+<Sync Start=2085831><P Class=KRCC>
+걔네들이 겹친다는 뜻이니까 누가 더 오른쪽에 있고 누가 더 왼쪽에 있다는 것을
+<Sync Start=2098331><P Class=KRCC>
+그 구간 안에 들어올 확률이 95%라는 얘기니까 그 95% 안에는
+<Sync Start=2104498><P Class=KRCC>
+얘가 더 높거나 또는 다른 쪽이 더 높거나 하는 것이 다 95%라는 신뢰 수준 안에 포함된다는 뜻이니까
+<Sync Start=2114005><P Class=KRCC>
+당연히 이 결과는 접전을 펼친다. 누가 이겨도 전혀 어색하지 않다고 얘기를 하는 거라고.
+<Sync Start=2123739><P Class=KRCC>
+그러니까 제일 중요한 게 바로 뭐냐면 신뢰구간으로, 한 점으로 추정하는 것이 아니라
+<Sync Start=2130057><P Class=KRCC>
+구간으로 추정하게 되며 그 구간을 신뢰구간이라고 부르고
+<Sync Start=2134930><P Class=KRCC>
+그 구간으로 둘러싼 부분의 넓이가 바로 신뢰도인데 신뢰도는 누가 지정한다고?
+<Sync Start=2139892><P Class=KRCC>
+의뢰인이 직접 지정을 해서 95%가 이 정도면 100%는 쫙, 1%는 쫙 줄어드는 그런 효과를 발생시킨다.
+<Sync Start=2150385><P Class=KRCC>
+아무래도 우리가 의뢰인의 입장에서 양질의 결과를 얻었다는 것은
+<Sync Start=2155830><P Class=KRCC>
+구간의 길이가 많이 좁다는 이야기니까 신뢰도는 적당한 게 좋은데
+<Sync Start=2163916><P Class=KRCC>
+보통 생각하기에 맞을 확률도 높으면서 적당한 게 95%, 99% 이 둘을 가장 많이 사용하고요.
+<Sync Start=2172444><P Class=KRCC>
+그중에서도 보통 95%를 가장 많이 사용한다는 이야기고요.
+<Sync Start=2180893><P Class=KRCC>
+
+<Sync Start=2193854><P Class=KRCC>
+두 가지. 하나는 뭐야? 시작. 신뢰 구간. 또 하나는 뭐야? 시작. 신뢰도.
+<Sync Start=2199024><P Class=KRCC>
+여기서 칠판이 너무 지저분해져서 살짝 다시 정리하자면 추정은 어떻게 한다고?
+<Sync Start=2208943><P Class=KRCC>
+제가 지금 하는 말 그대로 여러분이 따라 하셔야 돼요. 추정은 어떻게 한다고?
+<Sync Start=2212069><P Class=KRCC>
+딱 한 번 구한 표본평균 주위에 모평균이 있을 겁니다.
+<Sync Start=2217287><P Class=KRCC>
+이 길을 A라고 하고 이 길을 A라고 했을 때 이 구간 안에 모평균이 들어올 것입니다.
+<Sync Start=2223523><P Class=KRCC>
+이 구간을 뭐라고 부른다고? 신뢰구간. 신뢰구간을 만드는 방법. 시작.
+<Sync Start=2227864><P Class=KRCC>
+모평균이 이 사이에 들어올 것입니다. 어디서부터?
+<Sync Start=2231902><P Class=KRCC>
+여러분, 이 그림을 기억하면 이건 너무 간단해. 이걸 외우는 게 아니잖아. 그렇지?
+<Sync Start=2235144><P Class=KRCC>
+X바에서 A만큼 왼쪽과 A만큼 오른쪽 사이에 들어올 것이며
+<Sync Start=2241912><P Class=KRCC>
+그리고 신뢰도라는 것은 바로 뭐냐면 실제 그 구간으로 둘러싸인 부분의 넓이.
+<Sync Start=2248225><P Class=KRCC>
+모평균이 그 구간 안에 들어올 확률, 얘를 가지고 신뢰도라고 합니다.
+<Sync Start=2253519><P Class=KRCC>
+이때 여러분들은 신뢰구간의 길이가 뭔지를 이야기할 줄 알아야 해요. 뭐라고?
+<Sync Start=2259154><P Class=KRCC>
+신뢰구간의 길이. 이게 얼마예요? 2A예요. 왜요?
+<Sync Start=2263056><P Class=KRCC>
+여기서부터 여기까지의 길이가 바로 신뢰구간의 길이니까.
+<Sync Start=2265390><P Class=KRCC>
+이쪽이 A였으면 이쪽도 A니까 신뢰구간의 길이를 우리는 앞으로 뭐라고 부를 것이다? 시작.
+<Sync Start=2271011><P Class=KRCC>
+2A라고 부를 거야. A라는 것은 우리끼리 하는 얘기야.
+<Sync Start=2277383><P Class=KRCC>
+구간의 길이를 설정할 때 가운데는 무조건 표본평균이라고 그랬잖아요.
+<Sync Start=2281610><P Class=KRCC>
+표본평균으로부터 이쪽저쪽 할 때 그 길이를 A라고 했을 때 신뢰구간의 길이라고 하면 시작.
+<Sync Start=2287165><P Class=KRCC>
+2A라고 얘기했으면 좋겠고 예전에는 오차의 한계라고 했었습니다.
+<Sync Start=2293406><P Class=KRCC>
+선생님, 오차가 뭔데요? 오차가 뭐냐면 실제 모평균과.
+<Sync Start=2301036><P Class=KRCC>
+모평균이 여기에 찍혀도 그 추정은 맞은 거잖아. 그렇지?
+<Sync Start=2304589><P Class=KRCC>
+이 구간 안에만 들어오면 무조건 그 추정은 맞은 거니까.
+<Sync Start=2309233><P Class=KRCC>
+실제 모평균과 우리가 90명을 통해서 구했던 표본평균 사이의 이 거리를
+<Sync Start=2317277><P Class=KRCC>
+사람들은 오차라고 하고 이게 교과서에 나온 표현이 아닌데 교과서에는 어떻게 하냐면
+<Sync Start=2321545><P Class=KRCC>
+거리니까 절대값을 쓰고요. 뭐와 뭐 사이의 거리야?
+<Sync Start=2325102><P Class=KRCC>
+실제 모평균과 표본평균 사이의 거리를 우리는 뭐라고 읽는다고? 시작.
+<Sync Start=2331870><P Class=KRCC>
+오차라고 읽어주시면 되고 걔의 최댓값을 구하라고 하면
+<Sync Start=2342060><P Class=KRCC>
+선생님, 모평균이 여기 올 수도 있잖아요.
+<Sync Start=2346242><P Class=KRCC>
+모평균이 여기 오면 이 길이가 점점 길어지니까 최댓값은 없을 것 같은데요.
+<Sync Start=2349245><P Class=KRCC>
+아니? 모평균이 실제로 여기 오면 이 추정은 틀린 거잖아. 이건 쓰레기통.
+<Sync Start=2354010><P Class=KRCC>
+오차라는 얘기를 하려면 모평균이 실제 신뢰구간 안에 들어왔을 때, 그 추정이 맞았을 때
+<Sync Start=2363482><P Class=KRCC>
+표본평균까지의 거리를 오차라고 하는 거예요. 그러니까 가장 끝에 왔을 때
+<Sync Start=2371198><P Class=KRCC>
+표본평균과 모평균의 차이, 그 거리가 오차가 제일 최대가 될 테니까
+<Sync Start=2375498><P Class=KRCC>
+결국 오차의 최대값을 구하라고 하면 뭐라고 얘기하시면 돼요? 시작. A라고 얘기하죠.
+<Sync Start=2382368><P Class=KRCC>
+두 가지만 기억하자. 신뢰구간의 길이가 얼마야? 시작. 2A.
+<Sync Start=2385596><P Class=KRCC>
+여러분, 외울 필요 없이 저의 설명만 들었다면 납득이 되실 텐데.
+<Sync Start=2389965><P Class=KRCC>
+신뢰구간의 길이가 얼마야? 시작. 2A. 신뢰구간의 길이가 얼마야? 2A.
+<Sync Start=2394931><P Class=KRCC>
+오차의 최대값 X바-m. 그게 무슨 뜻이야? 표본평균과 모평균 사이의 거리의 최대값은 시작. A.
+<Sync Start=2402174><P Class=KRCC>
+이런 얘기를 할 줄 알아야 되고요. 최종적으로 뭘 구할 줄 알아야 되냐. A를 할 줄 알아야 되거든.
+<Sync Start=2413069><P Class=KRCC>
+이건 맨 마지막에 따로 기억하는 게 좋은데 A가 뭐냐 이렇게 물어보신다면 A가 뭐예요?
+<Sync Start=2418162><P Class=KRCC>
+여러분, 정규분포 그래프에서 실제 표본평균을 딱 구했었던 이 가운데 평균과
+<Sync Start=2430364><P Class=KRCC>
+이것 사이에 거리를 사람들은 뭐라고 해? *σ 기억나요?
+<Sync Start=2438166><P Class=KRCC>
+Z값에 표준편차 곱한 것, 그게 이 실제 거리잖아.
+<Sync Start=2444375><P Class=KRCC>
+여기가 2σ면 Z값이 2m+2σ라고 하면 Z값이 m+3σ면 Z값이 3이었잖아요.
+<Sync Start=2453596><P Class=KRCC>
+이 거리가 *σ, 다른 말로 Z값에 뭘 곱한 거야? 표준편차를 곱한 거거든.
+<Sync Start=2461849><P Class=KRCC>
+따라서 실제 이 거리 A는 Z값에 표준편차를 곱한 건데
+<Sync Start=2474731><P Class=KRCC>
+우리가 지금 다루고 있는 X바는 정규분포 어떤 정규분포를 따라요? 시작.
+<Sync Start=2481070><P Class=KRCC>
+평균이 모평균이랑 일치하고 표준편차가 루트 n분의 시그마인 정규분포를 따르니까
+<Sync Start=2488413><P Class=KRCC>
+여기에 들어갈 표준편차는 뭐라고 생각하시면 되느냐면 루트 n분의 시그마구나.
+<Sync Start=2493792><P Class=KRCC>
+거기에 Z값만 구해주시면 되는데 이 Z값은 누가 만들겠니?
+<Sync Start=2497770><P Class=KRCC>
+당연히 신뢰도가 만든다고. 내가 아까 얘기했잖아요. 신뢰도 95%라는 게 뭐라고요?
+<Sync Start=2506104><P Class=KRCC>
+그 구간으로 둘러싼 부분의 넓이가 95%, 0.95가 된다.
+<Sync Start=2511209><P Class=KRCC>
+만약에 지금 Z값을 찾는데 -1.96부터 시작해서 1.96까지의 확률이 0.95라면 다른 말로
+<Sync Start=2526005><P Class=KRCC>
+Z 가운데 0이고요. 여기가 -1.96이고요. 여기가 +1.96일 때 이 넓이가 얼마라면? 시작.
+<Sync Start=2535267><P Class=KRCC>
+0.95라면 이 넓이, 신뢰도가 0.95일 때 이 끄트머리의 Z값이 얼마야? 시작. 1.96이잖아.
+<Sync Start=2546256><P Class=KRCC>
+그게 바로 여기 들어갈 Z값이라서 이 Z값을 사람들은 뭐라고 그러냐면 보통 k라고 읽어요.
+<Sync Start=2553558><P Class=KRCC>
+그리고 얘를 가지고 이름을 뭐라고 붙이느냐면 신뢰상수라고 하는데
+<Sync Start=2558970><P Class=KRCC>
+따라해 보세요. 신뢰상수. 신뢰상수.
+<Sync Start=2564096><P Class=KRCC>
+얘를 신뢰상수라고 부르는데 이 신뢰상수가 뭐냐고 물어보신다면
+<Sync Start=2568589><P Class=KRCC>
+그 신뢰도를 만족시키는, 다른 말로 양쪽 넓이가 여기서부터 여기까지
+<Sync Start=2574421><P Class=KRCC>
+가운데를 기준으로 왼쪽, 오른쪽 양쪽 넓이가 신뢰도 0.95가 되도록 하는
+<Sync Start=2583621><P Class=KRCC>
+왼쪽 Z값이 아닌 이 오른쪽 Z값 1.96을 그 신뢰도에 따르는 신뢰 상수라고 읽어요.
+<Sync Start=2593544><P Class=KRCC>
+얘가 바로 Z값이니까 거기에 표준편차를 곱한 값인 실제 이 길이,
+<Sync Start=2598185><P Class=KRCC>
+우리가 지금까지 얘기했었던 시작. A가 된다는 거야.
+<Sync Start=2603607><P Class=KRCC>
+그래서 여러분, 딱 하나만 외우시면 되는데 뭐냐면 맨 마지막에 A가 뭐냐고 하면
+<Sync Start=2610024><P Class=KRCC>
+k 루트 n분의 시그마 이렇게 한마디로 기억했으면 좋겠고 이때 k가 뭐냐면 신뢰상수.
+<Sync Start=2615579><P Class=KRCC>
+신뢰상수는 뭐냐. 그 신뢰도를 만족시키는, 양쪽 넓이가 신뢰도가 되도록 하는 오른쪽 Z값.
+<Sync Start=2623296><P Class=KRCC>
+내가 왜 양쪽 넓이라고 하냐면 여러분, 0부터 시작한 얜 반쪽이죠.
+<Sync Start=2629120><P Class=KRCC>
+
+<Sync Start=2631252><P Class=KRCC>
+0부터 1.96까지의 넓이가 0.475라고 돼 있으면, 반쪽 넓이가 0.475면 양쪽 넓이는 뭐야?
+<Sync Start=2641545><P Class=KRCC>
+0.95니까 그때 오른쪽 Z값은 얼마예요? 시작. 1.96일 거 아니에요. 왼쪽 Z값이 -1.96이고.
+<Sync Start=2650678><P Class=KRCC>
+이때 오른쪽 Z값을 사람들은 뭐라고 하죠? 시작. 신뢰상수라고 얘기하죠.
+<Sync Start=2658344><P Class=KRCC>
+그 신뢰도를 만족시키는 오른쪽 Z값. 애는 뭐냐면 표본의 크기. 시그마는 뭐냐면 모표준편차.
+<Sync Start=2668571><P Class=KRCC>
+걔네들을 가지고 뭐를 만들 수 있다고? 시작. A를 만들 수 있다고 기억하시는 거예요.
+<Sync Start=2675825><P Class=KRCC>
+
+<Sync Start=2684872><P Class=KRCC>
+실제로 현장에서 여러분들 앉혀놓고 설명하다 보면 이게 지금 통계의 맨 마지막 부분이라서
+<Sync Start=2690307><P Class=KRCC>
+여러분들의 집중도가 좀 흩어져요. 그래서 이거 설명할 때 애들 정신 상태가 그다지 좋지 않아.
+<Sync Start=2700165><P Class=KRCC>
+눈빛도 그렇고. 마지막이라서 그런가 봐.
+<Sync Start=2706488><P Class=KRCC>
+그런데 다시 강조하지만 결과를 암기하는 짓은 응용문제를 절대 못 푼다는 의미니까
+<Sync Start=2713735><P Class=KRCC>
+제가 지금 설명하는 방식대로 완전히 알아야 돼요. 완전히.
+<Sync Start=2718744><P Class=KRCC>
+제가 지금 설명하는 정도까지는 완벽하게 여러분들도 설명이 되셔야 된다.
+<Sync Start=2723480><P Class=KRCC>
+
+<Sync Start=2725992><P Class=KRCC>
+딱 세 줄 얘기했어. 신뢰구간의 길이 시작. 2A. 오차의 최댓값은 A. 여기서 A는 뭐다?
+<Sync Start=2731672><P Class=KRCC>
+k의 루트 n분의 시그마. 세 줄 얘기한 거거든요.
+<Sync Start=2734971><P Class=KRCC>
+k의 루트 n분의 시그마에서 k를 뭐라고 해? 신뢰상수. 그 신뢰도는 누가 결정해? 
+<Sync Start=2739453><P Class=KRCC>
+그 신뢰도를 만족시키는 양쪽 넓이가 0.95가 되도록 하는 오른쪽 Z값 1.96을 신뢰상수라고 하고
+<Sync Start=2747693><P Class=KRCC>
+거기에 루트 n분의 시그마를 곱한. 그래서 A는 뭐예요? 표본의 크기. 나와 있겠지.
+<Sync Start=2752649><P Class=KRCC>
+시그마는 모표준편차야. 그걸 저기에 대입하면 된다. 이론상 그러하다는 거야.
+<Sync Start=2759346><P Class=KRCC>
+그런데 오늘의 마지막 이야기. 다음 시간에 이거 다시 정리할 거예요.
+<Sync Start=2764925><P Class=KRCC>
+
+<Sync Start=2770927><P Class=KRCC>
+그런데 말이야, 얘들아. 이걸 안다는 게 너무 말도 안 되지 않니?
+<Sync Start=2776066><P Class=KRCC>
+왜? 이거 모표준편차인데 우리가 지금 모평균도 몰라서 추정하고 있는 판인데
+<Sync Start=2782028><P Class=KRCC>
+모평균을 모르는데 어떻게 모분산을 알며 모분산을 모르는데 어떻게. 지금 무슨 말인지 알아요?
+<Sync Start=2788349><P Class=KRCC>
+여러분, 표준편차를 알려면 분산을 알아야 되고요. 분산을 알려면 평균을 당연히 알고 있어야죠.
+<Sync Start=2794156><P Class=KRCC>
+그러니까 이론적으로는 저렇지만 실제는 표준편차를 알고 있을 리가 없지.
+<Sync Start=2800724><P Class=KRCC>
+모평지도 모르는데 어떻게 모표준편차를 알아. 모평균 추정하고 있는 판에.
+<Sync Start=2805850><P Class=KRCC>
+그래서 이론적으로는 이렇지만 실제는 모표준편차를 알 수 없잖아.
+<Sync Start=2812282><P Class=KRCC>
+그래서 교과서에 이렇게 써있어. 이 자리에 표본표준편차를 써도 된다고 알려져 있다.
+<Sync Start=2821742><P Class=KRCC>
+그러니까 문제에서 표본표준편차가 주어져도 저 자리에 써도 되고요.
+<Sync Start=2826438><P Class=KRCC>
+원래 정상적인 값인 모표준편차가 와도 저 자리에 써도 돼요.
+<Sync Start=2831370><P Class=KRCC>
+그건 그렇게만 기억하고 계시면 되고 진짜 기억할 때는 정확하게 기억해야 되니까 시작.
+<Sync Start=2837999><P Class=KRCC>
+루트 n분의 시그마를 곱한다. 어디다가? k에다. k가 뭐다? 신뢰상수.
+<Sync Start=2843122><P Class=KRCC>
+그 신뢰도를 만족시키는 오른쪽 Z. 딱 여기까지만 기억하고 계시죠.
+<Sync Start=2848955><P Class=KRCC>
+그리고 이 상태에서 다음 시간에 문제를 풀어볼 텐데 먼저 여러분이 한번 여기까지 설명해 보시고
+<Sync Start=2855098><P Class=KRCC>
+대한민국 성인 남자의 평균 키, 용산과 정승제와의 대화에 대해서 다시 한번 생각을 해보시고요.
+<Sync Start=2861861><P Class=KRCC>
+다음 시간에 한 번만 딱 복습하고 곧바로 문제 푸는 시간으로 들어가도록 하겠습니다.
+<Sync Start=2866470><P Class=KRCC>
+오늘은 여기까지입니다.
+</BODY>
+</SAMI>

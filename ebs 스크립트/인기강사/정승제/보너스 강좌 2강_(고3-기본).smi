@@ -1,0 +1,1291 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<Sync Start=10500><P Class=KRCC>
+저번 시간에 그 수업 끝나고 제가 이렇게 같이 연합 강좌를 하는 게 어떠냐 그랬더니 
+<Sync Start=18378><P Class=KRCC>
+두 분의 설명이 너무 케미가 잘 맞고 설명은 정말 우리나라 최고라는 거예요. 
+<Sync Start=23445><P Class=KRCC>
+그런데 보는 재미가 없대. 얼굴만 어떻게 바꿔줄 수 없나? 이렇게. 그러면 훨씬 더 
+<Sync Start=30396><P Class=KRCC>
+환경이 좋다고 이야기를 하는 거예요. 그래서 생각 끝에 우리가 큰 결심을 했습니다. 
+<Sync Start=35900><P Class=KRCC>
+오프닝만이라도 편하게 또 수업을 듣는 게 좋지 않을까? 
+<Sync Start=40812><P Class=KRCC>
+-그렇죠. 이러면 아이들의 시력에도 도움이. 
+<Sync Start=45550><P Class=KRCC>
+-그러니까 정화되는 거지. 안구정화라 그러잖아요. 
+<Sync Start=47923><P Class=KRCC>
+-그렇죠. 그렇죠. 
+<Sync Start=48558><P Class=KRCC>
+-그렇게 되는 거니까 다음번에는 아예 여기에 뷔, 여기에 지수, 
+<Sync Start=54560><P Class=KRCC>
+-너무 좋다. 
+<Sync Start=55670><P Class=KRCC>
+-뷔와 지수와 함께하는 수능특강, 와. 어머, 쌤, 눈 버렸어요. 
+<Sync Start=64472><P Class=KRCC>
+-어, 들어와요. 빨리 들어와요, 쌤. 뷔랑 지수라고 해놓고 우리가 자꾸 탈출하면 안 돼요. 
+<Sync Start=68453><P Class=KRCC>
+왜 안 들어가, 여기. 
+<Sync Start=69310><P Class=KRCC>
+-그렇죠? 다음 번에는, 제가 다음 세상에는 꼭 그렇게 될 수 있도록 한번 
+<Sync Start=73768><P Class=KRCC>
+노력을 한번 해볼게요. 
+<Sync Start=74945><P Class=KRCC>
+-이렇게 한 번 살았으니까 다음 번에는 지수로도 살아보고 얼마나 좋을까? 그렇죠? 
+<Sync Start=81363><P Class=KRCC>
+-지수로 안 살아 보셨어요? 저 옛날에 별명이, 저 닮은 꼴 있잖아요. 
+<Sync Start=86184><P Class=KRCC>
+인스타에서 하는 거. 그거 저 뷔 나왔어요. 아무튼 그랬다는, 
+<Sync Start=89638><P Class=KRCC>
+-와, 쌤. 이거 어떻게 하려고, 이거 이제 어떻게 하려고, 큰일 나겠는데. 
+<Sync Start=94231><P Class=KRCC>
+-저번 시간에 우리가 경우의 수랑 확률을 했었어요. 어떻게 학생들에게 
+<Sync Start=101023><P Class=KRCC>
+도움이 많이 됐을까요? 
+<Sync Start=102278><P Class=KRCC>
+-그럼요, 그럼요. 재미있는 문제들 풀이였으니까. 
+<Sync Start=105007><P Class=KRCC>
+-재미있는 문제들 풀이였습니까? 공부했었던 게 부정 방정식의 해의 개수랑 
+<Sync Start=109474><P Class=KRCC>
+치역의 개수, 함수의 개수였잖아요. 그렇게 공부를 했었던 기억이 나요. 
+<Sync Start=113253><P Class=KRCC>
+-맞습니다. 
+<Sync Start=114443><P Class=KRCC>
+-우리가 너무 또 한 가지 방법으로만 또 이렇게 가르쳐준 게 또 아닐까라는. 
+<Sync Start=118022><P Class=KRCC>
+-그렇죠, 그렇죠. 그 함수의 개수를 세는 것은 최선을 다해서 우리 풀었고, 
+<Sync Start=121799><P Class=KRCC>
+제가 갑자기 생각이 났던 게 중복 조합 같은 경우에는 사실 저는 H를 잘 못해요. 
+<Sync Start=127936><P Class=KRCC>
+저는 그게 헷갈려. 왜냐하면 4H10인지 10H4인지 이게 막 헷갈리는 순간 오지 않았어요? 
+<Sync Start=133268><P Class=KRCC>
+-어떻게 하면 되는지 알아요? 
+<Sync Start=134042><P Class=KRCC>
+-아이스크림으로? 
+<Sync Start=134789><P Class=KRCC>
+-정승제의 수능특강을 들으시면 돼요.
+<Sync Start=138155><P Class=KRCC>
+-그래서 정유빈의 수능 특강도 그걸 해결을 하고 있거든요. 
+<Sync Start=144395><P Class=KRCC>
+-정말, 정말? 그러면 부정 방정식 해의 개수 말고 다른 방법으로 풀어주시려고 그러나? 
+<Sync Start=149387><P Class=KRCC>
+-아니요. 똑같은데 저는 H로 안 하고 거의 대부분 공과 칸막이를 이용해요. 
+<Sync Start=153754><P Class=KRCC>
+-원래 H가 공과 칸막이로 갔었잖아요. 
+<Sync Start=155599><P Class=KRCC>
+-맞아요, 맞아요. 
+<Sync Start=156314><P Class=KRCC>
+-그대로 한번. 
+<Sync Start=156999><P Class=KRCC>
+-아예 처음부터, 그렇게도 한번 해보는 생각을 해봤습니다. 
+<Sync Start=160875><P Class=KRCC>
+-그래서 여러분, 보너스 강좌 제 2강을 그냥 정유빈 쌤이 공과 칸마디의 의미부터 
+<Sync Start=165939><P Class=KRCC>
+시작해서 쫙 앞으로 남은 42분 동안 진행을 하면 얼마나 아름다울까라는 
+<Sync Start=170572><P Class=KRCC>
+생각도 한번 해보세요. 
+<Sync Start=171623><P Class=KRCC>
+-세상에. 
+<Sync Start=173812><P Class=KRCC>
+-한번 부탁을 보여드리도록. 
+<Sync Start=175233><P Class=KRCC>
+-그러니까요. 
+<Sync Start=176557><P Class=KRCC>
+-확실한 리액션 보여드리도록 하겠습니다. 
+<Sync Start=179426><P Class=KRCC>
+-알겠습니다. 그러면 저는 그 방법대로 한번 가보도록 할까 봐요. 그렇죠? 
+<Sync Start=184200><P Class=KRCC>
+선생님, 이걸 갖고 가세요. 우리 이 문제를 다시 한번 보고 올까 싶어요. 여러분. 
+<Sync Start=194760><P Class=KRCC>
+29쪽에 있던 대표 문제 있잖아요. 너무 재밌는 문제여서 하나만 하고 가기에는 
+<Sync Start=200920><P Class=KRCC>
+아쉬우니까, 선생님. 
+<Sync Start=201839><P Class=KRCC>
+-맞아요. 
+<Sync Start=202935><P Class=KRCC>
+-생각할 거리가 되게 많이 있어서 이 문제를 다시 또 한번 가지고 와봤습니다. 
+<Sync Start=207281><P Class=KRCC>
+그래서 똑같이 선생님이랑 했던 것처럼 상황은 비슷하게 일단 끌고 가볼 건데요. 
+<Sync Start=212758><P Class=KRCC>
+1개 이상의 사인펜을 받는다. 이게 조건이 되게 여러 가지가 붙어 있잖아요. 
+<Sync Start=217193><P Class=KRCC>
+그래서 일단 1개의 사인펜을 미리 주고 그다음에 이제 남은 것에 대해서 
+<Sync Start=220469><P Class=KRCC>
+생각을 조금씩 해나갈 건데요. 그래서 저는 A에게 주는 거, B 주는 거, C 주는 거, 
+<Sync Start=224830><P Class=KRCC>
+D 주는 거, 이렇게 생각을 하고요. 먼저 하나씩 나누어 주라고 하면 항상 먼저 
+<Sync Start=229669><P Class=KRCC>
+1개씩을 미리 주는 거예요. 
+<Sync Start=231164><P Class=KRCC>
+-미리 줘요. 
+<Sync Start=231918><P Class=KRCC>
+-1개씩 미리 줘보도록 할게요. 그러면 남은 것은? 
+<Sync Start=235314><P Class=KRCC>
+-남은 거가 10개. 
+<Sync Start=236937><P Class=KRCC>
+-남은 10개를 가지고 생각을 합니다. 거기에서 이제 주의하실 사항은 
+<Sync Start=241160><P Class=KRCC>
+전체의 개수가 9개 이하라고 했으니까요. 그렇죠? 그러면 전체 개수가 이제 10개부터 
+<Sync Start=245987><P Class=KRCC>
+문제가 되는 거니까 우리가 이 남은 걸 나눠줄 때에 대한 상황에서 9개, 
+<Sync Start=251121><P Class=KRCC>
+10개 주는 상황을 빼내야 되겠죠. 그렇죠? 그러니까 그런 것들을 이제 생각을 할 건데 
+<Sync Start=255809><P Class=KRCC>
+일단은 여기에서 한번 가볼게요. 일단 10개를 나누어 주는 방법을 생각할 때 
+<Sync Start=260298><P Class=KRCC>
+4H10로 하거나 아니면 공과 칸막이를 떠올려, 저는 그렇게 4H10, 10H4가 헷갈려요. 
+<Sync Start=267305><P Class=KRCC>
+그러니까 워딩으로 쓰면, 서로 다른 4명에게 10개를 중복해서 나누어 주는 거야. 
+<Sync Start=273946><P Class=KRCC>
+10명에게 나누어 주는 거야. 헷갈리는 상황들이 생길 수 있잖아요.
+<Sync Start=277650><P Class=KRCC>
+그러면 보통 이제 막 찍는단 말이에요. 4H냐, 10H냐? 저는 항상 이거를 두고 내가 각각 
+<Sync Start=283988><P Class=KRCC>
+몇 개씩 봤는지가 궁금하다면 그걸 구분하기 위해서 칸막이를 그려요. 
+<Sync Start=288893><P Class=KRCC>
+-칸막이, 칸막이. 
+<Sync Start=290733><P Class=KRCC>
+-그리고 이 10개를 몰아주기를 해봅니다, 한 명한테. 극단적 예시로.
+<Sync Start=296042><P Class=KRCC>
+그러면 공이 10개가 되는 거고, A한테 만약에 몰아준다면.
+<Sync Start=300408><P Class=KRCC>
+공 10개와 칸막이 3개에 대한 것을 배열하는 같있순으로 넘어가는 거죠.
+<Sync Start=305172><P Class=KRCC>
+그렇게 생각을 해서 총 13개죠? 그중에 공 10개, 칸막이 3개,
+<Sync Start=311048><P Class=KRCC>
+이렇게 계산을 하면 4H10을 가지고 13C10으로 바꾸는 과정을 
+<Sync Start=316173><P Class=KRCC>
+한 방에 해결을 하는 거죠, H를 사용하지 않고. 
+<Sync Start=320102><P Class=KRCC>
+-처음부터 콤비네이션으로 바꿀 수 있네요. 
+<Sync Start=321351><P Class=KRCC>
+-그렇죠. 처음부터 콤비네이션으로 가서 이제 계산을 먼저 하는 겁니다. 이게 이제 
+<Sync Start=325154><P Class=KRCC>
+지난 시간에 우리가 열심히 계산을 했던. 그렇죠? 
+<Sync Start=329451><P Class=KRCC>
+-예, 맞아요. 
+<Sync Start=331359><P Class=KRCC>
+-286. 
+<Sync Start=332081><P Class=KRCC>
+-286. 
+<Sync Start=333646><P Class=KRCC>
+-맞죠? 
+<Sync Start=334030><P Class=KRCC>
+-맞아요. 
+<Sync Start=334678><P Class=KRCC>
+-그렇죠? 맞아요, 맞아요, 맞아요. 
+<Sync Start=337511><P Class=KRCC>
+-많이 느셨어요, 그새. 
+<Sync Start=339707><P Class=KRCC>
+-계산 실력이 많이 늘었습니다. 이렇게 가는데 여기에서 이제 빼주는 거잖아요. 
+<Sync Start=344228><P Class=KRCC>
+9개 이하에 대한 걸. 그런데 이거는 이제 잘 생각을 해야 되는 게 1개씩을 미리 줬어요. 
+<Sync Start=349396><P Class=KRCC>
+저는 남은 10개에 대해서만 생각을 하는 거예요. 남은 10개를 나누어주는 상황에서 
+<Sync Start=356741><P Class=KRCC>
+지금 문제가 되는 건 8개까지는 괜찮아요. 그러면 9개부터 문제가 되는 거죠. 
+<Sync Start=362132><P Class=KRCC>
+그러면 아까 했던 것처럼 일단 9, 1, 0, 0, 이렇게 주는 게 문제고요. 
+<Sync Start=368540><P Class=KRCC>
+그리고 10, 0, 0, 0 주는 게 문제고요. 
+<Sync Start=371228><P Class=KRCC>
+-맞아요. 
+<Sync Start=371680><P Class=KRCC>
+-그렇죠? 이런 배열 배열로 가겠습니다. 이 배열은 몇 가지? 
+<Sync Start=376093><P Class=KRCC>
+-그러면 4!÷ 2!가지. 
+<Sync Start=380084><P Class=KRCC>
+-그러니까 여기에서 아예 그냥 처음부터 이런 배열을 나눠주는 !, 2!. 
+<Sync Start=384473><P Class=KRCC>
+이렇게 해주면 같있순의 느낌. 
+<Sync Start=387369><P Class=KRCC>
+-그 이야기가 아니었어요? 
+<Sync Start=388854><P Class=KRCC>
+-맞아요, 맞는 이야기. 
+<Sync Start=390028><P Class=KRCC>
+-맞는 이야기였어요? 
+<Sync Start=391426><P Class=KRCC>
+-맞는 이야기. 맞습니다. 이렇게 가면 되고 그다음에 아까 잠깐 생각했던 건 그거였어요.
+<Sync Start=396141><P Class=KRCC>
+9개 줄 사람 4명 중에 하나 뽑고 1개 줄 사람, 그러니까 4 3의 개념이잖아요. 
+<Sync Start=400870><P Class=KRCC>
+-예, 맞아요. 맞아요. 
+<Sync Start=401750><P Class=KRCC>
+-그 생각을 해서 잠깐. 이거는 10명 10개 줄에 하나만 뽑고 이렇게 14개, 
+<Sync Start=407189><P Class=KRCC>
+16가지의 경우를 빼겠죠. 그래서 여기에 남는 총 경우가 지금 이제 270가지. 
+<Sync Start=412841><P Class=KRCC>
+-270가지. 여기까지가 (가), (나)까지 계산을 한 거죠? 
+<Sync Start=415622><P Class=KRCC>
+-네. 약간 이런 식으로, 그러니까 약간의 차이가 있는데 뭔 차이냐면 저는 일단 
+<Sync Start=420749><P Class=KRCC>
+칸막이를 주로 설치를 한다는 거랑 그다음, 한 가지 더는 이런 거 생각할 때에도 
+<Sync Start=425689><P Class=KRCC>
+총 9개 이하인데 미리 1개를 줬으니까 미리 1개 준 상황에서부터 시작을 한 거예요. 
+<Sync Start=431738><P Class=KRCC>
+그런 차이들. 그리고 짝수 개수, 이제 저거랑 똑같은 상황으로 가는 건데 
+<Sync Start=437908><P Class=KRCC>
+여기서도 마찬가지예요. 선생님이 하신 것처럼 하시면 될 것 같아요. 적어도 한 명은 
+<Sync Start=441553><P Class=KRCC>
+짝수의 개수를 받는다라고 했잖아요? 그러면 아까 전처럼 전체 이제 이걸 구했으니까 
+<Sync Start=447178><P Class=KRCC>
+여사건으로 가면은 홀수 개수 받는 거, 전체가. 그렇죠? 그 경우를 빼면 될 것 같고 
+<Sync Start=452700><P Class=KRCC>
+또는 이제 다른 방법을 지금은 하고 있으니까 그건 똑같이 가는 거니까 그거 말고 
+<Sync Start=456357><P Class=KRCC>
+다른 방법을 해보자면 이런 생각을 했었어요. 아예 (다)를 먼저 생각하는 방법. 
+<Sync Start=462412><P Class=KRCC>
+-뭐를 먼저 생각해요? 
+<Sync Start=463477><P Class=KRCC>
+-(다)를 먼저 생각을 하시는 거. 그러니까 처음부터 아예 (다)를 가지고 구성을 
+<Sync Start=467754><P Class=KRCC>
+또 생각을 해 나갈 수도 있어요. 왜냐하면 여기 보시면 적어도 한 학생은 
+<Sync Start=472518><P Class=KRCC>
+짝수의 개수잖아요. 
+<Sync Start=474199><P Class=KRCC>
+-맞아요. 
+<Sync Start=474635><P Class=KRCC>
+-그런데 어차피 합은 지금 이제 10개에 대한 이야기, 이렇게 하잖아요. 
+<Sync Start=478375><P Class=KRCC>
+합은 14개에 대한 이야기. 그러면 이 상황을 먼저 생각을 해볼게요. 
+<Sync Start=482654><P Class=KRCC>
+적어도 한 학생은 짝수. 그러면 지금 생각할 때 짝, 짝, 짝, 짝, 이거나 아니면. 
+<Sync Start=491063><P Class=KRCC>
+-짝이 하나일 수는 없어요. 
+<Sync Start=492265><P Class=KRCC>
+-그렇죠. 
+<Sync Start=492985><P Class=KRCC>
+-그러면 홀수가 돼요. 그러니까 그거밖에 없어요. 
+<Sync Start=495687><P Class=KRCC>
+-이렇게 아예 처음부터 케이스를 나누고 가는 거죠. 
+<Sync Start=498742><P Class=KRCC>
+-이렇게 자음만 써도 되네? 
+<Sync Start=504413><P Class=KRCC>
+-선생님, 이거 다 짝, 이렇게 써요? 
+<Sync Start=505797><P Class=KRCC>
+-써요. 못 쓰는 글씨를 가지고. 
+<Sync Start=509139><P Class=KRCC>
+-저는 무조건 자음만 써요. 
+<Sync Start=510735><P Class=KRCC>
+-그렇구나. 너무 좋다, 너무 좋아요. 
+<Sync Start=513107><P Class=KRCC>
+-그래요? 하나의 좋은 깨달음을. 
+<Sync Start=515580><P Class=KRCC>
+-정말. 너무 좋아. 
+<Sync Start=516933><P Class=KRCC>
+-이렇게 한번 가보도록 해요, 우리. 그렇죠? 그러면 이 상황으로 한번 
+<Sync Start=520770><P Class=KRCC>
+생각을 해보겠습니다. 
+<Sync Start=523035><P Class=KRCC>
+-처음부터 그냥 아예 두 가지로 분류해서 풀자. 
+<Sync Start=525245><P Class=KRCC>
+-아예 이렇게 해볼까 봐요. 왜냐하면 어차피 여기서 여사건으로 가는 거는 
+<Sync Start=527893><P Class=KRCC>
+지난 시간에 했던 거랑 똑같은 방법이 될 거고요. 
+<Sync Start=529420><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=530731><P Class=KRCC>
+-공과 칸막이를 소개하는 데까지만 쓰고 이런 방법으로 다른 풀이도 해볼까 봐요. 
+<Sync Start=535231><P Class=KRCC>
+그러니까 원래 어려운 문제를 풀 때 다양하게 풀어보는 게 제일 좋은 방법인 것 같아요. 
+<Sync Start=539745><P Class=KRCC>
+-그러니까 그 이야기가 여기서 핵심인 것 같아요. 그러니까 원래 그냥 적어도 
+<Sync Start=543755><P Class=KRCC>
+한 명이 짝수라 그러면 짝수 하나, 짝수 2개, 짝수 3개, 짝수 4개니까 
+<Sync Start=548552><P Class=KRCC>
+그렇게 푸는 것보다는 여사건이 훨씬 더 편해요, 라고 이야기를 하겠지만 
+<Sync Start=552101><P Class=KRCC>
+여기는 전체 합이 짝수로 정해져 있기 때문에 분류까지가 몇 개 안 된다라는 게 
+<Sync Start=557437><P Class=KRCC>
+너무 핵심인 거죠. 
+<Sync Start=558694><P Class=KRCC>
+-그렇죠. 어차피 짝수개를 받는 아이가 짝수명이어야 하는 거잖아요? 
+<Sync Start=562505><P Class=KRCC>
+-맞아요. 
+<Sync Start=563030><P Class=KRCC>
+-그러니까 4명이거나 2명이거나 이렇게로 생각하고 나머지 홀, 홀, 홀, 홀을 생각해서 
+<Sync Start=568115><P Class=KRCC>
+전체에서 빼나 전체에서 홀, 홀, 홀, 홀을 빼나 아니면 이렇게 2가지 케이스로 나눈다. 
+<Sync Start=572406><P Class=KRCC>
+그게 그거이지 않을까. 
+<Sync Start=573095><P Class=KRCC>
+-맞아요. 
+<Sync Start=574999><P Class=KRCC>
+-1번 케이스, 2번 케이스, 이렇게 나누면서 시작을 해볼까 봐요.
+<Sync Start=578115><P Class=KRCC>
+1번 케이스부터 가보자면 A, B, C, D가 받을 거고 여기서 짝수니까요.
+<Sync Start=586361><P Class=KRCC>
+저도 빨강을 써볼까요? 이렇게 할게요. 2b개, 2c개, 2d개. 
+<Sync Start=592251><P Class=KRCC>
+-좋아요. 
+<Sync Start=593359><P Class=KRCC>
+-이런 식으로 생각을 할 거고 그런데 1개 이상의 사인펜을 받는다고 했으니까 
+<Sync Start=597399><P Class=KRCC>
+이걸 나중에 처리를 또 잘해줘야 되는 거잖아요? 그래서 이 처리까지 
+<Sync Start=600922><P Class=KRCC>
+잘해주면 될 것 같아요. 그래서 이 생각을 하고 얘네가 전체 그러면 합을, 몇 개죠? 
+<Sync Start=607953><P Class=KRCC>
+14개. 이렇게 갑니다. 그리고 그러면 나눠줄게요. a랑 b랑 c랑 d랑 더했을 때. 
+<Sync Start=614515><P Class=KRCC>
+-7. 
+<Sync Start=615256><P Class=KRCC>
+-그렇죠. 대신에 조건이 붙습니다. 1개 이상이라고 했기 때문에 A, B, C, D는? 
+<Sync Start=620002><P Class=KRCC>
+-1 이상 자연수. 
+<Sync Start=621559><P Class=KRCC>
+-그렇죠. 자연수 조건을 붙여줘야 되겠죠. 그러면 1개씩 미리 나눠주고 남은, 몇 개죠? 
+<Sync Start=628596><P Class=KRCC>
+-3개. 
+<Sync Start=629872><P Class=KRCC>
+-남은 3개를 나눠 주도록 하겠습니다. 그리고 이 3개 나누어 줄 때 주의사항은 
+<Sync Start=635726><P Class=KRCC>
+우리가 생각했던 것처럼 혹시나 1명한테 9개 이하, 이거 생각해야 되잖아요. 
+<Sync Start=642015><P Class=KRCC>
+9개를 넘어가는 상황이 생기는 것 또한 주의를 해야 되는 거죠. 
+<Sync Start=645092><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=645943><P Class=KRCC>
+-그런데 그러면 남은 3개를 만약에 몰아주기 하면 어떻게 돼요? 
+<Sync Start=648863><P Class=KRCC>
+-몰아주기 하면 4개, 1개, 1개, 1개. 그 이야기 아니에요? 
+<Sync Start=654655><P Class=KRCC>
+-4개, 그러니까 여기 하면 8개, 최대가 8개가 됩니다. 그러니까 9개보다 
+<Sync Start=661957><P Class=KRCC>
+더 많이 받는 일이 생기지 않는 거죠. 
+<Sync Start=663884><P Class=KRCC>
+-그러네요. 
+<Sync Start=664574><P Class=KRCC>
+-그러면 여기서는 (나) 조건에 대해서는 패스. 
+<Sync Start=667653><P Class=KRCC>
+-패스. 
+<Sync Start=668308><P Class=KRCC>
+-오히려 편해지는 것도 있는 거예요. 
+<Sync Start=669678><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=670582><P Class=KRCC>
+-그러면 남은 3개를 이제 나누어 주기만 하면 됩니다. 여기서. 파랑이 생각보다 
+<Sync Start=674950><P Class=KRCC>
+지금 잘 보이더라고요. 저 파랑이 안 보이는 줄 알고 잘 안 썼는데. 
+<Sync Start=679998><P Class=KRCC>
+-거기 선생님 위치까지 찍으셨던 데는, 그렇게 이야기하면 안 되는구나. 하시죠. 
+<Sync Start=685995><P Class=KRCC>
+큰일 날 뻔했어. 개그 한 번 치려다가 큰일 날 뻔했네요. 
+<Sync Start=692431><P Class=KRCC>
+-이 남은 3개를 한 명한테 몰아주는 상황입니다. 그래서 A한테 저 몰아주기를 하는 
+<Sync Start=696637><P Class=KRCC>
+그림을 그리는 거예요. 그러면 이제 칸막이는 4명을 섹션을 나눠야 되니까 
+<Sync Start=701765><P Class=KRCC>
+3개만 있으면 되고요. 이렇게를 배열하는 방법으로 갑니다.
+<Sync Start=706771><P Class=KRCC>
+공 3개, 칸막이 3개가 되어서 총 6개를 배열하는데 공 세 칸, 칸막이 셋은 같있순.
+<Sync Start=713337><P Class=KRCC>
+이것은 우리가 알죠? 많이 쓰니까. 6C3 형태, 20. 
+<Sync Start=716195><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=717674><P Class=KRCC>
+-몇 개 안 외우는 것 중에 하나 있어. 
+<Sync Start=719565><P Class=KRCC>
+-맞아, 맞아. 8 콤비네이션 4, 70. 이런 거. 
+<Sync Start=723238><P Class=KRCC>
+-그거 저 못 외워요. 
+<Sync Start=724618><P Class=KRCC>
+-그러세요? 또 그러시구나. 7C3, 35. 
+<Sync Start=733368><P Class=KRCC>
+-이것만 알아. 
+<Sync Start=734489><P Class=KRCC>
+-그것만 알아요? 
+<Sync Start=736865><P Class=KRCC>
+-4C2 정도 알아요. 
+<Sync Start=737965><P Class=KRCC>
+-6. 
+<Sync Start=739038><P Class=KRCC>
+-그 이상은 계산합니다. 저의 능력치를 잘 알거든요. 
+<Sync Start=742767><P Class=KRCC>
+-아니, 계산을 잘하는 사람이면 모르겠는데 끝까지 계산을. 
+<Sync Start=746606><P Class=KRCC>
+-열심히 하나씩 하나씩. 그러면 실수하지 않을 수 있어요. 
+<Sync Start=749471><P Class=KRCC>
+-맞아요. 
+<Sync Start=750194><P Class=KRCC>
+-그게 제가 볼 때는 약간 자기를 알면 선생님, 실수하지 않는 것 같아요. 
+<Sync Start=754155><P Class=KRCC>
+자신의 실력, 자신의 계산의 능력을 알고 있으면 까불지 않고 하나씩 해요. 
+<Sync Start=759193><P Class=KRCC>
+그런데 실수하지 않아요. 차라리 계산을 못 한다고 생각하는 게 나쁘지 않은 것 같아요. 
+<Sync Start=763941><P Class=KRCC>
+훨씬 더 나은 거 같아요, 라고 생각합니다. 이렇게 해서 20가지에 대한 거, 그렇죠? 
+<Sync Start=770680><P Class=KRCC>
+이 이상은 나오는 거 없죠, 여기는? 끝. 그냥 간단하고요. 두 번째 케이스로 갑니다. 
+<Sync Start=776152><P Class=KRCC>
+두 번째 케이스는 A, B, C, D. 이번에도 똑같이 하는데 짝, 짝, 홀, 홀을 
+<Sync Start=782763><P Class=KRCC>
+어떻게 정할지가 일단 중요해요. 
+<Sync Start=784407><P Class=KRCC>
+-그러네요. 
+<Sync Start=785108><P Class=KRCC>
+-거기부터 시작을 해야 돼요. 
+<Sync Start=786130><P Class=KRCC>
+-맞아요. 
+<Sync Start=786852><P Class=KRCC>
+-어떻게 갈까요? 4명 중에서. 
+<Sync Start=788704><P Class=KRCC>
+-짝수가 될 2명을 뽑을까요? 
+<Sync Start=790012><P Class=KRCC>
+-좋아요. 좋아요. 너희는 짝, 짝으로 하기로 하였다. 이렇게 할게요. 
+<Sync Start=794093><P Class=KRCC>
+그러면 짝수 받을 2명을 뽑는 방법, 4C2를 두고 시작할게요. 
+<Sync Start=797620><P Class=KRCC>
+-예, 좋아요. 
+<Sync Start=798664><P Class=KRCC>
+-이건 안다, 6가지. 나중에 곱할 거예요. 여기에서 일단 아까처럼 똑같이 가볼게요. 
+<Sync Start=805241><P Class=KRCC>
+여기는 짝수, 2b. 홀수, 2d. 저는 이번에는 이렇게 둘게요. 아까는 빼기로 놓으셨으니까 
+<Sync Start=816900><P Class=KRCC>
+연습 삼아 다르게도 해볼까 봐요. 빼기 대신에 더하기로 놓고 이게 14가 된다로 
+<Sync Start=821500><P Class=KRCC>
+시작하겠습니다. 그러면 일단 1, 1 넘겨서 12 만들어 놓고 2로 나누는 것까지. 6. 
+<Sync Start=829500><P Class=KRCC>
+그렇죠? 여기서 이제 조건을 넣어볼게요. a는 짝수여야 되니까 일단은 
+<Sync Start=836598><P Class=KRCC>
+1개씩은 있어야 되는 거잖아요. 1개 이상을 받아야 되니까, 자연수여야 되니까. 
+<Sync Start=840358><P Class=KRCC>
+-맞아요. 
+<Sync Start=840798><P Class=KRCC>
+-얘는 1개씩은 미리 받게 해야 되는 아이고 c랑 d는 어때요? 
+<Sync Start=845469><P Class=KRCC>
+-c랑 d는 0 돼도 돼요. 이럴 때. 
+<Sync Start=847310><P Class=KRCC>
+-그렇죠. 제가 이렇게 놨기 때문에 이때는 0은 돼도 된다. 이렇게 되죠. 
+<Sync Start=850387><P Class=KRCC>
+그러면 하나씩은 주고 남은 것은 4개. 
+<Sync Start=854500><P Class=KRCC>
+-맞네요. 
+<Sync Start=855002><P Class=KRCC>
+-이렇게 처리할까요? 이제 남은 4개를 나누어 줄 때 우리가 아직 고려하지 않은 
+<Sync Start=858828><P Class=KRCC>
+사항은 가운데에 있는 조건, 9개 이하. 그것만 잘 생각하면 될 것 같아요. 
+<Sync Start=864022><P Class=KRCC>
+9개 이하에 대해서 생각하니까 남은 4개를 몽땅 받으면서 문제가 되는 경우들을 
+<Sync Start=869023><P Class=KRCC>
+생각해볼게요. 누구, 누구를 빼야 되는가? 먼저 생각하고 여기다가 이제 나중에 
+<Sync Start=873782><P Class=KRCC>
+처리를 하도록 하겠습니다. 예를 들어서 남은 4개가 a나 b가 받게 되면 
+<Sync Start=878032><P Class=KRCC>
+그건 상관이 없어요. 
+<Sync Start=879076><P Class=KRCC>
+-맞아요. 
+<Sync Start=879709><P Class=KRCC>
+-그렇죠? 8개니까 얘네는 자유로운 것 같은데 여기가 4개가 되면요. 
+<Sync Start=884864><P Class=KRCC>
+-거기 c나 d가요? 그러면 안 되죠. 그러면 9개가 되잖아요. 그러면 되네요. 
+<Sync Start=890046><P Class=KRCC>
+-얘는 돼. 다시, 다시, 다시, 다시. 여기도 생각해야 되겠다. 남은 4개가 
+<Sync Start=894570><P Class=KRCC>
+여기에 들어가면 선생님, 5개였어요. 1개씩 미리 줬잖아요. 
+<Sync Start=898954><P Class=KRCC>
+-맞아요. 
+<Sync Start=899316><P Class=KRCC>
+-거기에 남은 4개까지 받으면 얘가 5개가 돼요. a나 b가 5개가 되면? 
+<Sync Start=904101><P Class=KRCC>
+-안 된다. 안 되네! 
+<Sync Start=906494><P Class=KRCC>
+-그렇죠. 이런 것들을 생각을 잘해야 되더라고요. 
+<Sync Start=908430><P Class=KRCC>
+-그러네요. 
+<Sync Start=909294><P Class=KRCC>
+-그렇죠? 그래서 이거를 문제를 잘 따져서 가겠습니다. 그러면 a나 b한테 
+<Sync Start=915614><P Class=KRCC>
+몰아주기 하는 경우를 제외시키자. 마지막에 그 생각을 하고 일단 이거 
+<Sync Start=919701><P Class=KRCC>
+전체 나눠주기 먼저 할까요? 그러면 파란색으로 쓸까? 
+<Sync Start=923471><P Class=KRCC>
+-파란색 좋아요. 
+<Sync Start=924328><P Class=KRCC>
+-파란색 좋은 것 같아요. 
+<Sync Start=925206><P Class=KRCC>
+-맞아요. 
+<Sync Start=925965><P Class=KRCC>
+-다 쥐고 있게 되는, 얘가. 
+<Sync Start=927582><P Class=KRCC>
+-그래요? 
+<Sync Start=930021><P Class=KRCC>
+-이렇게 해서 공 4개를 몰아주기 하겠습니다. 그리고 이 상황을 마지막에 
+<Sync Start=933877><P Class=KRCC>
+빼줘야 되는 거예요. 그러면 여기서는? 
+<Sync Start=936461><P Class=KRCC>
+-쌤, 저! 35가지. 
+<Sync Start=938987><P Class=KRCC>
+-진짜요? 계산해볼게요. 왜냐하면 저는 스스로 믿지 않아요. 맞나 봐봐요, 여러분. 
+<Sync Start=947199><P Class=KRCC>
+맞네요. 맞네요. 맞네요. 35가지. 
+<Sync Start=951883><P Class=KRCC>
+-못 믿으시긴. 
+<Sync Start=954397><P Class=KRCC>
+-35가지 됐습니다. 이 35가지에서 아까 빼야 되는 거랑 아까 뭐랑 뭐 했죠? 
+<Sync Start=960123><P Class=KRCC>
+a한테 몰아주기, b한테 몰아주기. 
+<Sync Start=962321><P Class=KRCC>
+-맞아요. 
+<Sync Start=962755><P Class=KRCC>
+-그 2가지를 제외시켜야 되잖아요. 
+<Sync Start=964046><P Class=KRCC>
+-맞아요. 
+<Sync Start=964483><P Class=KRCC>
+-그러면 총 경우의 수는 33가지가 됩니다. 
+<Sync Start=966525><P Class=KRCC>
+-맞습니다. 
+<Sync Start=967412><P Class=KRCC>
+-이것을 누구랑? 얘랑 곱해야 되겠죠. 마무리 33가지. 이렇게 할까요? 6 곱하니까. 
+<Sync Start=973047><P Class=KRCC>
+-6, 3, 18에 196. 아닌가? 198이다. 198이네요. 
+<Sync Start=978590><P Class=KRCC>
+-정답은 얘랑 20까지 넣으니까 218 되겠네요. 
+<Sync Start=981716><P Class=KRCC>
+-218가지. 선생님, 너무 너무 잘하셨어요. 
+<Sync Start=986723><P Class=KRCC>
+-이렇게도 될 수 있을 것 같아요. 
+<Sync Start=987961><P Class=KRCC>
+-맞아요. 
+<Sync Start=988425><P Class=KRCC>
+-이게 짝수, 홀수가 생각보다 조건이 그렇게 많지 않게 나온다는 게 있더라고요. 
+<Sync Start=994498><P Class=KRCC>
+우리가 이렇게 했을 때. 
+<Sync Start=994818><P Class=KRCC>
+-맞아요. 그게 너무 핵심인 것 같아요. 전체 합이 주어졌으니까. 
+<Sync Start=998844><P Class=KRCC>
+-이렇게 하면 전체 경우에서 여사 건을 빼거나 아니면 이런 방법까지. 
+<Sync Start=1002211><P Class=KRCC>
+-맞아요. 
+<Sync Start=1003226><P Class=KRCC>
+-처리해 볼 수 있겠습니다. 
+<Sync Start=1004314><P Class=KRCC>
+-아이고, 너무 좋았습니다. 아주 유익한 시간이 되었었던 것 같습니다. 
+<Sync Start=1008377><P Class=KRCC>
+그래서 우리는 저번 시간까지 이렇게 해서 경우의 수랑 확률 중에서 쉬운 거 해봤고 
+<Sync Start=1014337><P Class=KRCC>
+또 확률에서 많이 나오는 것 중에서 하나가 조건부확률이랑 독립시행확률인데 
+<Sync Start=1018497><P Class=KRCC>
+여기 나오는 확률 중에서 또 하나가 있는 것 같아요. 여기에 독립 시행의 확률이 
+<Sync Start=1023879><P Class=KRCC>
+하나 또 나왔어요. 수직선 위에 원점 P가 있다. 이거 진짜 많이 나오잖아요. 
+<Sync Start=1029727><P Class=KRCC>
+그래서 짝수가 나오면 x좌표가 하나 늘어나고 홀수가 나오면 y좌표가 
+<Sync Start=1035037><P Class=KRCC>
+하나 늘어난다부터 시작해서 아니면 빨간색 공 몇 개랑 검은색 공 몇 개가 있는데 
+<Sync Start=1039501><P Class=KRCC>
+빨간 공이 나오면 x좌표가 하나 커지면, 그러니까 x좌표, y자표 하나하나씩, 
+<Sync Start=1043554><P Class=KRCC>
+그러니까 결과가 2가지라는 이야기잖아요. 결과가 2가지라는 느낌이 들어왔을 때 
+<Sync Start=1048883><P Class=KRCC>
+일단 생각해 볼 수 있다는 게 결과가 두 가지니까 성공, 하나는 성공, 
+<Sync Start=1052752><P Class=KRCC>
+하나는 실패로 볼 수 있다. 그러면 아주 전형적인 독립 시행 확률이랑 관련된다는 
+<Sync Start=1056539><P Class=KRCC>
+느낌도 생각할 수 있다는 이야기예요. 그러니까 이항분포라고 내가 이야기했었던 거, 
+<Sync Start=1061157><P Class=KRCC>
+그게 바로 2를 의미한다라는 거. 그러니까 성공 아니면 실패, 성공 아니면 실패. 
+<Sync Start=1066863><P Class=KRCC>
+그러니까 6의 약수가 나오면 x축의 양의 방향으로 1만큼이 커지고, 1만큼입니까? 
+<Sync Start=1073917><P Class=KRCC>
+맞네요. 이거는 x축이 아니에요? 수직선 위에 있는 거구나. 그래도 마찬가지지. 
+<Sync Start=1079753><P Class=KRCC>
+6의 약수가 아니면 이동시키지 않는다. 결과가 2가지 모양이 된다는 것도 
+<Sync Start=1084813><P Class=KRCC>
+눈여겨보셔야 된다는 거지. 결과가 둘 밖에 없구나. 그래서 주사위를 던져서 
+<Sync Start=1093085><P Class=KRCC>
+6의 약수, 6의 약수이면, 6의 약수가 뭐 있지? 1, 2, 3, 6이 있나? 이런 게 있고 
+<Sync Start=1098514><P Class=KRCC>
+이렇게 되면 양의 방향으로 1만큼 커지고 그다음에 안 되는 게 4, 5인가요? 
+<Sync Start=1104633><P Class=KRCC>
+이 2가지가 나오면 이동시키지 않는다. 이런 이야기네요. 이와 같은 시행을 
+<Sync Start=1110098><P Class=KRCC>
+4번 반복했을 때, 4번째 시행 후 P의 좌표가 2 이상, 그러니까 이렇게 
+<Sync Start=1115381><P Class=KRCC>
+생각하면 된다니까. 얘를 그냥 하나를 성공으로 봐서 성공할 때마다 하나씩 커지고 
+<Sync Start=1121445><P Class=KRCC>
+실패할 때는 가만히 있는 거예요. 그러면 4번 시행해서 P의 좌표가 2 이상이 되려면, 
+<Sync Start=1128436><P Class=KRCC>
+어디서 출발했는데? 원점에서 출발해서 2 이상이 됐다는 것은 2번 이상 
+<Sync Start=1133931><P Class=KRCC>
+성공하라는 이야기잖아요. 그러니까 한마디로 이야기해서 4번 시행해서 몇 번 이상? 
+<Sync Start=1143133><P Class=KRCC>
+2번 이상 성공할 확률을 구하라는 이야기니까 시행횟수가 주어지고 
+<Sync Start=1151052><P Class=KRCC>
+성공횟수, 나온 횟수가 주어지는 확률을 독립 시행의 확률로 처리할 수 있다. 
+<Sync Start=1157319><P Class=KRCC>
+4번 시행해서 딱 2번 성공, 2번 성공하라는 이야기는 4번 시행해서 2번 실패하라는 
+<Sync Start=1163874><P Class=KRCC>
+이야기까지 모두 다 들어 있는 거고 그런 패턴이 너무나 많은 거지. 성공, 성공, 
+<Sync Start=1169792><P Class=KRCC>
+실패, 실패. 성공, 실패, 성공, 실패. 성공, 실패, 실패, 성공, 너무 많은 거지. 
+<Sync Start=1174056><P Class=KRCC>
+그런데 각각의 확률은 뭐라는 게 핵심이에요? 다 똑같이 생겨 먹었다는 게 
+<Sync Start=1178861><P Class=KRCC>
+핵심인 거지. 그거를 다 더하라는 이야기니까 똑같은 확률을 다 더할 때는 
+<Sync Start=1184386><P Class=KRCC>
+경우의 수를 곱한다는 의미에서 나온 것이 바로 독립 시행의 확률 공식의 
+<Sync Start=1191578><P Class=KRCC>
+기본 바탕이다. 요즘은 독립 시행의 확률은 아니지만 그 구조가 똑같은 거, 
+<Sync Start=1195569><P Class=KRCC>
+각각의 확률은 다 똑같아. 그런데 이 가지 수가 어쩔 때는 결과물이 
+<Sync Start=1199560><P Class=KRCC>
+세 가지인 경우도 있고 그럴 때는 같은 것을 포함하는 순열 이용해서 
+<Sync Start=1202811><P Class=KRCC>
+경우의 수 생각하고요. 이런 이야기도 생각할 줄 아셔야 한다는 이야기죠. 
+<Sync Start=1208580><P Class=KRCC>
+어떤 경우에서는 앞에 있는 경우의 수는 콤비네이션으로 똑같이 가는데 
+<Sync Start=1213020><P Class=KRCC>
+뒤에 있는 확률이 하나는 나올 확률, 안 나올 확률이 아니라 뭐가 나올 확률, 
+<Sync Start=1217275><P Class=KRCC>
+뭐가 나올 확률 두 가지밖에 없을 때도 있고. 그러니까 진짜 제가 그런 거를 
+<Sync Start=1221622><P Class=KRCC>
+수능 특강 찍을 때 유사 독립 시행의 확률이라고 막 그렇게 이야기했었어요. 
+<Sync Start=1224589><P Class=KRCC>
+그러니까 구조가 똑같은 거. 여러 개로 분류하는데 각각의 확률이 비슷하고 
+<Sync Start=1228945><P Class=KRCC>
+그 가지 수를 생각해서 딱 곱하는 거, 이런 거 잘 생각할 줄 알아야 된다. 
+<Sync Start=1233605><P Class=KRCC>
+어떻게 풀까요? 4번 시행해서 2번 이상 성공이니까 시행횟수는 4로 고정돼 있는데 
+<Sync Start=1238938><P Class=KRCC>
+나온 횟수는 2가 돼도 되고 3도 돼도 되고 4도 되는 거니까 몇 가지로 분류? 
+<Sync Start=1244594><P Class=KRCC>
+3가지로 분류하는 방법도 있고 아니면 여사건은 조금 더 간단할 것 같은데? 
+<Sync Start=1249456><P Class=KRCC>
+2번 이상 성공하라 그랬으니까 여사건은 빵번, 0번 성공하거나 한 번 성공하는 
+<Sync Start=1255098><P Class=KRCC>
+방법이 있어요. 그래서 차라리 여사건을 이용하는 게 조금 더 편하겠다. 
+<Sync Start=1260515><P Class=KRCC>
+그래서 여사건의 확률을 한번 구해보자라는 거예요. 첫 번째부터 한번 가볼게요. 
+<Sync Start=1266723><P Class=KRCC>
+이 여사건은 한 번도 안 나오는 0번 성공한다. 한 번 성공한다. 이게 바로 
+<Sync Start=1273116><P Class=KRCC>
+여사건이니까 첫 번째 확률은 시행횟수 콤비네이션 나온 횟수, 4번 시행해서 
+<Sync Start=1281686><P Class=KRCC>
+빵번 성공해야 되니까 시행횟수 콤비네이션 나온 횟수, 나올 확률, 나온 횟수, 
+<Sync Start=1285816><P Class=KRCC>
+안 나올 확률, 안 나온 횟수, 이렇게 써주면 되고 두 번째 확률은 시행횟수가 4고 
+<Sync Start=1291492><P Class=KRCC>
+한 번 나올 확률이니까 시행횟수 콤비네이션 나온 횟수, 나올 확률, 나온 횟수, 
+<Sync Start=1296276><P Class=KRCC>
+안 나올 확률, 안 나온 횟수. 이렇게 처리하시면 되겠구나. 쌤, 나올 확률, 
+<Sync Start=1300661><P Class=KRCC>
+성공 확률이 뭡니까? 얘를 나왔다라고 잡은 거니까 주사위를 던져서 1 또는 2 또는 
+<Sync Start=1306125><P Class=KRCC>
+3 또는 4가 나올 확률, 6개 중에서 4가지니까 6분의 4, 다른 말로 3분의 2가 
+<Sync Start=1312700><P Class=KRCC>
+바로 나올 확률이겠구나. 안 나올 확률은 그러면 여사건의 확률이니까 
+<Sync Start=1317549><P Class=KRCC>
+3분의 1이 되겠구나. 이렇게 처리하시면 될 것 같아요. 이럴 때나 이럴 때나 
+<Sync Start=1322618><P Class=KRCC>
+분모는 3의 4제곱이니까 81을 먼저 써놓고 시작할게요. 저는 계산할 때가 
+<Sync Start=1329378><P Class=KRCC>
+가장 긴장돼요. 분자는 1 곱하기 1 곱하기 1이니까 1, 이렇게 처리하시면 되고 
+<Sync Start=1336330><P Class=KRCC>
+여기는 4 곱하기 2 곱하기 1이니까 8, 이렇게 생각하시면 2개 더하면 81분의 9, 
+<Sync Start=1343938><P Class=KRCC>
+약분하면 얼마예요? 시작, 9분의 1. 여사건의 확률이 9분의 1이니까 
+<Sync Start=1350568><P Class=KRCC>
+우리가 구하고자 하는 확률은 얼마가 된다? 9분의 8이 되겠구나라는 
+<Sync Start=1355536><P Class=KRCC>
+사실을 알아낼 수 있다는 거예요. 여기까지가 확률에 관련된 거, 선생님이 
+<Sync Start=1361416><P Class=KRCC>
+보충 설명을 해 주실까요? 
+<Sync Start=1363388><P Class=KRCC>
+-보충 설명이요? 그런데 이 독립시행의 확률과 관련해서 우리 왜, 있잖아요. 
+<Sync Start=1371287><P Class=KRCC>
+처음에 그냥 학교 다니던 시절을 생각하면 이 구조 자체가 너무 어렵다고 
+<Sync Start=1376806><P Class=KRCC>
+항상 생각을 했던 것 같아요. 그래서 너무 여기 구조에 너무 얽매일 필요 없는 게 
+<Sync Start=1382590><P Class=KRCC>
+선생님이 말씀하신 것처럼 유사 독립 시행의 확률, 요즘은 오히려 그런 것도 
+<Sync Start=1385834><P Class=KRCC>
+많이 나오고 있잖아요. 
+<Sync Start=1386269><P Class=KRCC>
+-맞아요. 엄청 나와요. 
+<Sync Start=1387282><P Class=KRCC>
+-사실 독립시행의 확률이면 지금 본 것처럼 나올 확률, 안 나올 
+<Sync Start=1389955><P Class=KRCC>
+확률이어야지만 되는 건데 요즘 것 보면 꼭 그렇지 않게 이들의 합이 1이 아닌 
+<Sync Start=1394339><P Class=KRCC>
+경우도 있어요. 그런 것들에 너무 연연하지 않아도 잘 풀 수 있다는 것. 
+<Sync Start=1399640><P Class=KRCC>
+그러다 보니까 사실 보여주려고 우리는 항상 이렇게 풀지만 이렇게 할 때는 
+<Sync Start=1403678><P Class=KRCC>
+그냥 한 번도 안 나왔다면 얘만 나오는 거니까. 
+<Sync Start=1406720><P Class=KRCC>
+-그러니까 네 번 곱하면 돼요. 
+<Sync Start=1408602><P Class=KRCC>
+-이렇게 계산을 생각할 수 있다는 그런 생각들도 해봤으면 좋을 것 같아요. 
+<Sync Start=1412892><P Class=KRCC>
+-맞습니다. 아주 정확합니다.
+<Sync Start=1414649><P Class=KRCC>
+-의외로 독립 시행 확률이 쉬운 편?
+<Sync Start=1416712><P Class=KRCC>
+-맞아요. 동시에 아니면 간단하죠. 맞아요. 이항 분포도 편하고. 
+<Sync Start=1421148><P Class=KRCC>
+-이항 분포 좋죠. 
+<Sync Start=1421989><P Class=KRCC>
+-맞아요. 
+<Sync Start=1422373><P Class=KRCC>
+-사랑스러운 친구예요. 
+<Sync Start=1423549><P Class=KRCC>
+-맞습니다. 맞습니다. 
+<Sync Start=1425130><P Class=KRCC>
+-그렇습니다. 특별히 어렵지 않아서, 여기는. 그렇죠? 다른 풀이가. 
+<Sync Start=1429594><P Class=KRCC>
+-그렇죠? 이거를 이렇게 안 푼다 그러면 아까처럼 2번, 3번, 4번 해서 
+<Sync Start=1434753><P Class=KRCC>
+처리하는 방법이 있고요. 이런 방법 생각할 수 있겠다. 
+<Sync Start=1439372><P Class=KRCC>
+-맞습니다. 
+<Sync Start=1440958><P Class=KRCC>
+-이미지 쌤 전화 한번 해볼까? 
+<Sync Start=1442888><P Class=KRCC>
+-미지 쌤이요? 
+<Sync Start=1444488><P Class=KRCC>
+-갑자기 보고 싶은데. 
+<Sync Start=1445194><P Class=KRCC>
+-미지 쌤이 전화, 제가 핸드폰을 바깥에 놔둬 가지고. 
+<Sync Start=1447588><P Class=KRCC>
+-그러세요? 내가 전화하면 조금. 
+<Sync Start=1450152><P Class=KRCC>
+-안 받을까? 
+<Sync Start=1451143><P Class=KRCC>
+-그러면 저기 저 분이 있잖아요. 저기 앉아 계시는 분, 저 분 전화가 낫겠다. 
+<Sync Start=1456108><P Class=KRCC>
+-그래요. 
+<Sync Start=1457002><P Class=KRCC>
+-그렇죠? 
+<Sync Start=1457762><P Class=KRCC>
+-좋아. 좋아. 좋아. 
+<Sync Start=1459226><P Class=KRCC>
+-저분 전화로. 저분 전화 누가 걸어볼까? 
+<Sync Start=1463175><P Class=KRCC>
+-걸어봅니다. 
+<Sync Start=1463753><P Class=KRCC>
+-한번 걸어보겠습니다. 지금 아주 바쁘신. 
+<Sync Start=1466034><P Class=KRCC>
+
+<Sync Start=1472876><P Class=KRCC>
+한번 걸어볼까요? 스피커폰으로. 됐다, 됐다, 됐다. 
+<Sync Start=1481787><P Class=KRCC>
+
+<Sync Start=1494044><P Class=KRCC>
+되게 바쁘신가 보다. 진짜. 
+<Sync Start=1495569><P Class=KRCC>
+-미지 쌤이 바빠서. 그래도 은근 통화해요. 그런데 미지 쌤이랑 통화하면 
+<Sync Start=1502481><P Class=KRCC>
+저의 경우에는 보통 오늘 통화를 해서 부재중을 남기고 저녁에 제가 부재중을 남기고. 
+<Sync Start=1507918><P Class=KRCC>
+-서로 그래요? 안 받는다. 일단 끄자. 그러면 이분 남편한테 한번 해볼까요? 
+<Sync Start=1514838><P Class=KRCC>
+누구? 미지 쌤의 남편이요? 
+<Sync Start=1515928><P Class=KRCC>
+-아니요. 
+<Sync Start=1518304><P Class=KRCC>
+-이 핸드폰에 남편이요? 
+<Sync Start=1519416><P Class=KRCC>
+-결혼식 가셨잖아요. 
+<Sync Start=1520460><P Class=KRCC>
+-거기다가 전화한다고? 
+<Sync Start=1521496><P Class=KRCC>
+-오랜만에. 
+<Sync Start=1525893><P Class=KRCC>
+-표정이 괜찮은 거예요? 
+<Sync Start=1528595><P Class=KRCC>
+-그런데 학생들이 모르겠다. 그러니까 학생들만 알면 같이 한번 통화해 보는 것도 
+<Sync Start=1532144><P Class=KRCC>
+재밌었을 텐데. 지금 이미지 선생님이 수업 중이시래요. 
+<Sync Start=1537072><P Class=KRCC>
+-그렇죠. 그렇죠. 그렇죠. 전화 하기가 어려워서. 
+<Sync Start=1539018><P Class=KRCC>
+-바쁜 녹화 있다 그랬어요. 그래서 지금 전화를 못 받으셨습니다. 
+<Sync Start=1543649><P Class=KRCC>
+-아쉬워라. 
+<Sync Start=1544912><P Class=KRCC>
+-그러면, 이거 뭐라, 무슨 백이라고 그러지? 이거 콜백. 이거 콜백이 오는 게 
+<Sync Start=1553286><P Class=KRCC>
+정상이잖아. 그러면 보통 우리가 수업을 찍을 때 길어봤자 50분 찍잖아. 
+<Sync Start=1557348><P Class=KRCC>
+그러니까 50분 안에 이 콜백을 해주느냐, 안 해주느냐? 그걸 가지고 한번. 
+<Sync Start=1565673><P Class=KRCC>
+-우정도 테스트 이런 거예요? 
+<Sync Start=1566715><P Class=KRCC>
+-이미지 선생님의 인성 테스트 한번 들어가 보도록 할게요. 
+<Sync Start=1569440><P Class=KRCC>
+-제 핸드폰도 아니고 선생님의 핸드폰도 아니잖아요. 그렇죠? 
+<Sync Start=1572567><P Class=KRCC>
+-그러니까 둘의 관계를 알 수 있겠군요. 그냥 씹는 거. 
+<Sync Start=1576167><P Class=KRCC>
+-저기 당황하고 있는데. 악, 이러고 있는데. 
+<Sync Start=1578401><P Class=KRCC>
+-그래서 중간에 전화가 오면 한번 연결 한번 해보도록 하겠습니다. 
+<Sync Start=1583519><P Class=KRCC>
+-지워보도록 할게요. 제가 옆에서. 
+<Sync Start=1585369><P Class=KRCC>
+-선생님, 나오신 김에 다음 문제, 다음 문제가 이제 통계로 넘어갈 것 같아요. 
+<Sync Start=1590865><P Class=KRCC>
+그렇죠? 사실 통계가 더 쉬운데 우리는 항상 통계가 어렵게 느껴지잖아요. 
+<Sync Start=1597241><P Class=KRCC>
+이 문제는 의미 있어요. 선생님. 그렇죠? 이거 되게 항상 여러분이 시험장에서 
+<Sync Start=1602878><P Class=KRCC>
+이걸 만났다고 생각하면 엄청 어려울 수 있을 것 같아요. 이 문제의 경우. 
+<Sync Start=1606213><P Class=KRCC>
+-어떻게 푸는 게 좋을까, 이거? 
+<Sync Start=1607635><P Class=KRCC>
+-이거는 진짜 생각을 많이, 사실은 알고 보면 정말 귀여운 문제잖아요. 그렇죠? 
+<Sync Start=1612475><P Class=KRCC>
+-선생님 이런 것보다 훨씬 더 많이 나오는 게 이런 것보다 훨씬, 예를 들어서 이렇게 
+<Sync Start=1616124><P Class=KRCC>
+2, 4, 6, 8, 10, 변수가 다르다. 그러면 여기 y는 x+1로 놔두시면 되잖아요. 
+<Sync Start=1621891><P Class=KRCC>
+-그렇죠, 그렇죠. 
+<Sync Start=1622257><P Class=KRCC>
+-그러니까 일차식의 평균을 이용해서 풀면 되는데. 
+<Sync Start=1624415><P Class=KRCC>
+-맞아요, 맞아요. 그러니까 선생님이 말씀하신 그 내용의 경우에는 확률이 같았어요. 
+<Sync Start=1628616><P Class=KRCC>
+-맞아, 맞아. 
+<Sync Start=1629391><P Class=KRCC>
+-그러니까 확률의 구조가 같으면 x와 y의 관계를 이용해서 우리가 맨날 하는 
+<Sync Start=1633715><P Class=KRCC>
+이거잖아요, 선생님. ax+b. 
+<Sync Start=1635340><P Class=KRCC>
+-맞아, 맞아. 
+<Sync Start=1636655><P Class=KRCC>
+-이렇게 나오는 것은 조금 더 익숙했죠? 
+<Sync Start=1638665><P Class=KRCC>
+-맞아요. 
+<Sync Start=1639436><P Class=KRCC>
+-달라요. 
+<Sync Start=1640215><P Class=KRCC>
+-확률 자체가 달라 보여요. 
+<Sync Start=1641357><P Class=KRCC>
+-확률이 달라요. 변수가 오히려 똑같고 확률이 달라요. 
+<Sync Start=1646421><P Class=KRCC>
+-어떡하지? 
+<Sync Start=1647940><P Class=KRCC>
+-일단은 시험에서 만났다고 생각하고 우리가 생각할 수 있는 것은 이들의 합은 1이다. 
+<Sync Start=1653987><P Class=KRCC>
+-이들의 합은 1이다. 
+<Sync Start=1655314><P Class=KRCC>
+-열심히 노력할 것 같아요. 2a+b+c는 1이다. 그렇죠? 이거 써볼까요? 2a+2b+c는 1이다. 
+<Sync Start=1664907><P Class=KRCC>
+쓰겠죠. 여기 그래도 뭐라도, 제가 항상 생각하고 뭐라도 끄적여야 되는 거 같아요. 
+<Sync Start=1669919><P Class=KRCC>
+끄적끄적. 그러면 여기는 어때요? 여기도 합이. 
+<Sync Start=1672106><P Class=KRCC>
+-어차피 다 똑같은데. 
+<Sync Start=1673181><P Class=KRCC>
+-그렇죠, 그렇죠, 그렇죠. 더하고 더하고 사라져요. 
+<Sync Start=1675158><P Class=KRCC>
+-없어지니까. 
+<Sync Start=1675760><P Class=KRCC>
+-분명히 저 2a+2b+c는 1이다가 의미가 있을 수도 있을 것 같고 조금 더 생각을 해요. 
+<Sync Start=1681335><P Class=KRCC>
+거기서 우리한테 주어진 건 분산이잖아요. 선생님. 
+<Sync Start=1683270><P Class=KRCC>
+-맞아요. 
+<Sync Start=1683659><P Class=KRCC>
+-그러면 뭐 해야 될까요? 
+<Sync Start=1684953><P Class=KRCC>
+-분산은 일단 평균 먼저 생각해야 될 것 같아요. 
+<Sync Start=1686378><P Class=KRCC>
+-그렇죠. 평균을 구해야 되겠죠. 분산이니까 평균을 구합니다. 평균을 구하는 방법은 
+<Sync Start=1691194><P Class=KRCC>
+곱해 곱해 곱해 곱해, 싹 다 더해를 한단 말이에요. 그렇죠? a+, 9a 하니까 10a이고요. 
+<Sync Start=1697160><P Class=KRCC>
+-맞아요. 3b, 7b, 10b. 5c. 
+<Sync Start=1701999><P Class=KRCC>
+-딱 어때요? 5배가 되네. 그래서 5가 됩니다. 맞죠? 
+<Sync Start=1704867><P Class=KRCC>
+-맞아요. 
+<Sync Start=1705343><P Class=KRCC>
+-에 의해서. 그런데 이게 사실은, 그런데 이게 사실, 그런데 이게 사실은 짠, 짠, 짠. 
+<Sync Start=1714073><P Class=KRCC>
+그런데 이게 사실은 똑같잖아요. 
+<Sync Start=1714871><P Class=KRCC>
+-맞아요. 
+<Sync Start=1715556><P Class=KRCC>
+-5를 기준으로 같은 거리에 있는, 같은 거리에 있는 사이 같이, 그래서 눈으로 보고 
+<Sync Start=1722143><P Class=KRCC>
+바로 평균. 
+<Sync Start=1723220><P Class=KRCC>
+-저 넘어질 뻔했어요. 
+<Sync Start=1725838><P Class=KRCC>
+-눈으로 보고 바로 평균이 5임을 알 수 있으면 조금 더 좋다는. 
+<Sync Start=1729136><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=1729961><P Class=KRCC>
+-그렇지만 그게 이제 시험 현장에서 잘 안 될 수가 있기 때문에. 
+<Sync Start=1732375><P Class=KRCC>
+-안 보일 수 있죠. 
+<Sync Start=1733345><P Class=KRCC>
+-끄적끄적만 해도 충분히 두 줄 안에 나올 수 있다는, 이게 평균, E(x)를 써볼게요. 
+<Sync Start=1739461><P Class=KRCC>
+E(x)가 5가 되었습니다. 분산이 있으니까 이제 뭘 구해야 되죠? 
+<Sync Start=1745941><P Class=KRCC>
+-분산이 있으니까 제곱한 것들의 E(x)²이 필요하죠. 
+<Sync Start=1749725><P Class=KRCC>
+-그렇죠. x²의 평균을 구할 거예요. 그런데 요즘에 트렌드이기도 한 게 
+<Sync Start=1757389><P Class=KRCC>
+원래 분산이 중학생 때 배우는 내용이 편차 제곱의 평균이라는 게 있잖아요. 
+<Sync Start=1761941><P Class=KRCC>
+-맞아요. 
+<Sync Start=1763130><P Class=KRCC>
+-그래서 항상 약간 한 번씩은 째려봐야 되는 게 제곱의 평균을 구하려고 하면 
+<Sync Start=1768040><P Class=KRCC>
+우리가 이걸 제곱하고 얘도 제곱하고 얘도 제곱하고 얘도 제곱하고. 
+<Sync Start=1772533><P Class=KRCC>
+-그러니까 너무 숫자가 커져요, 선생님? 
+<Sync Start=1775575><P Class=KRCC>
+-여기서부터 너무 커지잖아요. 
+<Sync Start=1777223><P Class=KRCC>
+-맞아요. 
+<Sync Start=1777879><P Class=KRCC>
+-이 제곱의 평균으로 가는 것보다차는. 
+<Sync Start=1780471><P Class=KRCC>
+-편차는, 평균이 5밖에 안 되니까 편차는 커봤자 얼마 안 될 것 같아요. 
+<Sync Start=1785347><P Class=KRCC>
+-편차가 아주 이뻐요. 그럴 때가 있거든요. 평균이 만약에 여기에 있는 변수들과 
+<Sync Start=1790249><P Class=KRCC>
+연결이 될 때는 편차 제곱의 평균으로 갈 수도 있다라는 생각을 해 주면 좋아요. 
+<Sync Start=1795305><P Class=KRCC>
+그래서 편차 제곱으로 아예 바로 쓰시면 -4에 제곱하니까 16, -2에 제곱하니까 4, 0, 
+<Sync Start=1802009><P Class=KRCC>
+4, 16. 약간 0을 기준으로 이런 대칭성도 있고 뭔가 계산이 좋을 것 같아요. 
+<Sync Start=1809833><P Class=KRCC>
+편차 제곱의 평균으로 가면 분산이고 어떻게 되죠? 여기서 곱해 곱해 
+<Sync Start=1815932><P Class=KRCC>
+싹 다 더해를 해주도록 하겠습니다. 어차피 편차 제곱의 평균이니까. 16a, 16a, 32a. 
+<Sync Start=1821868><P Class=KRCC>
+그렇죠? b, b가 있길래. 그다음에 여기는 4랑 b랑 4랑 b랑 하니까 8b, 
+<Sync Start=1830163><P Class=KRCC>
+이렇게 들어가죠. 
+<Sync Start=1830899><P Class=KRCC>
+-맞아요. 
+<Sync Start=1832064><P Class=KRCC>
+-c는 필요 없고 이렇게 답니다. 
+<Sync Start=1833677><P Class=KRCC>
+-맞아요. 
+<Sync Start=1834457><P Class=KRCC>
+-그러면 이 값이 이렇게 나와 있는 거죠. 맞죠? 
+<Sync Start=1837433><P Class=KRCC>
+-맞아요. 
+<Sync Start=1838031><P Class=KRCC>
+-그런데 우리가 구해야 되는 것은 일단 여기서 더 건드릴 수 있는 것은? 
+<Sync Start=1841935><P Class=KRCC>
+-없어요. 
+<Sync Start=1842345><P Class=KRCC>
+-없어요. 그렇죠? 없어요. 일단 그냥 둬야 될 것 같아요. 
+<Sync Start=1846205><P Class=KRCC>
+-맞아요. 
+<Sync Start=1846986><P Class=KRCC>
+-이게 진짜 어려운데 뭔가가 나왔잖아요. 그런데 내가 뭘 할 수가 없으면 두고 
+<Sync Start=1852227><P Class=KRCC>
+다른 방향으로 또 가야 돼요. 항상 수학 문제 풀 때. 그렇죠? 일단 두겠습니다. 
+<Sync Start=1856517><P Class=KRCC>
+일단 두고 우리가 구하고자 하는 것은 V(Y)잖아요. V(Y)도 구해볼까요? 
+<Sync Start=1862105><P Class=KRCC>
+V(Y)를 구하기 위해서 y의 평균을 구하겠습니다. 여기서 눈치를 챈 친구들은 여기서도 
+<Sync Start=1867610><P Class=KRCC>
+대칭. 
+<Sync Start=1868343><P Class=KRCC>
+-대칭이니까 똑같다. 
+<Sync Start=1869889><P Class=KRCC>
+-평균, 평균이 바로 뿅 보일 거고 편차 그거 그대로 쓰면서 갈 수 있을 것 같아요. 
+<Sync Start=1875107><P Class=KRCC>
+그래서 V(Y)는 똑같은 흐름으로 생각하면 이렇게 곱해야 돼요. 그렇죠? 
+<Sync Start=1881413><P Class=KRCC>
+어차피 같은 편차를 이용할 수 있으니까. 
+<Sync Start=1883471><P Class=KRCC>
+-맞습니다. 
+<Sync Start=1884349><P Class=KRCC>
+-슉 슉 이렇게. 곱해 곱해 하시면 16a. 
+<Sync Start=1889840><P Class=KRCC>
+-아까랑 똑같이 32a까지는 똑같아요. 
+<Sync Start=1892282><P Class=KRCC>
+-이렇게가 되고 2개가 등장을 할 테니까 32a. 그리고 이게 붙더라고요. 
+<Sync Start=1901585><P Class=KRCC>
+-맞아요. 붙어요. 
+<Sync Start=1903197><P Class=KRCC>
+-좋아요. 쌤. 
+<Sync Start=1904013><P Class=KRCC>
+-되게 좋죠? 맞아요. 
+<Sync Start=1904953><P Class=KRCC>
+-저쪽 가서 찾다가 붙더라는 사실을 깨달았어요. 
+<Sync Start=1908313><P Class=KRCC>
+-맞아요. 
+<Sync Start=1910930><P Class=KRCC>
+-여기가 자석이 세군요. 
+<Sync Start=1913541><P Class=KRCC>
+-떨어졌다. 이거 제가 그냥 잡고 있을게요. 옆에서 이렇게 대기하고 있을게요. 
+<Sync Start=1919278><P Class=KRCC>
+이쪽에서 대기하고 있을까요? 이렇게 대기. 
+<Sync Start=1924373><P Class=KRCC>
+-16a, 16a, 32a에다가 20분의 16, 20분의 16. 
+<Sync Start=1927852><P Class=KRCC>
+-맞아요. 20분의 16, 20분의 16. 
+<Sync Start=1929721><P Class=KRCC>
+-그래서 20분의 32. b는요? 4b, 4b, 8b. 
+<Sync Start=1934085><P Class=KRCC>
+-어차피 똑같고 이거 하나만 달라요. 그런데 데 어차피 0이니까 똑같아요. 
+<Sync Start=1937895><P Class=KRCC>
+-너무 좋아요. 
+<Sync Start=1938351><P Class=KRCC>
+-맞아요. 
+<Sync Start=1938797><P Class=KRCC>
+-그러니까 아까 우리가 킵 해뒀던 친구를 여기서 사용을 할 수가 있어요. 
+<Sync Start=1941848><P Class=KRCC>
+-맞아요. 
+<Sync Start=1942851><P Class=KRCC>
+-그러면 5분의 31과, 5분의로 바꿀 수 있겠군요. 4, 4, 8. 
+<Sync Start=1950485><P Class=KRCC>
+-많이 늘었다. 
+<Sync Start=1951588><P Class=KRCC>
+-계산이 많이 늘었어. 
+<Sync Start=1953829><P Class=KRCC>
+-5분의 39. 
+<Sync Start=1954693><P Class=KRCC>
+-그렇죠? 계산이 많이 늘었어요. 
+<Sync Start=1955957><P Class=KRCC>
+-맞아요. 
+<Sync Start=1956361><P Class=KRCC>
+-그래서 선생님이랑 같이 공부를 하나 봐요. 
+<Sync Start=1957883><P Class=KRCC>
+-맞아요. 맞아요. 
+<Sync Start=1959601><P Class=KRCC>
+-그래서 V(Y)까지 구했습니다. 그러면 끝난 거죠. 정답은 여기다 10만 곱하면 되니까 
+<Sync Start=1964625><P Class=KRCC>
+78? 
+<Sync Start=1965343><P Class=KRCC>
+-맞아요. 78. 
+<Sync Start=1966375><P Class=KRCC>
+-이렇게 나오게 되는 거죠. 
+<Sync Start=1967447><P Class=KRCC>
+-78. 
+<Sync Start=1968789><P Class=KRCC>
+-왜요? 78에 뭐 의미가 있어요? 
+<Sync Start=1970035><P Class=KRCC>
+-지금 학생들 엄마, 아빠 중에 78년생분들 되게 많을 거예요. 
+<Sync Start=1974283><P Class=KRCC>
+-그럴 수 있네요. 
+<Sync Start=1976479><P Class=KRCC>
+-정말 되게 막 예리하지 않습니까? 그러니까 그 나이 정도 되는 분이 출제를. 
+<Sync Start=1988123><P Class=KRCC>
+-나의 연도를 답으로 넣어야지. 이렇게? 
+<Sync Start=1990435><P Class=KRCC>
+-정말, 저 그런 경우도 있었는데. 
+<Sync Start=1992317><P Class=KRCC>
+-진짜요? 
+<Sync Start=1994256><P Class=KRCC>
+-그런 경우도 있었는데 별로 재미없네요. 감동도 없고 재미도 없고. 
+<Sync Start=2000516><P Class=KRCC>
+아무튼 무슨 말을 하고 싶었는데 그렇게 된다라는 거. 맞습니다. 그런 느낌으로 
+<Sync Start=2006867><P Class=KRCC>
+a, b의 값을 가지고 처리하는 방법이 있었다는 거죠. 그렇게 가시면 되고 
+<Sync Start=2014155><P Class=KRCC>
+그다음 문제의 이거는 아까랑 비슷하게 2 이하가 나오면 점 P를 x축의 양의 방향으로 
+<Sync Start=2026301><P Class=KRCC>
+3만큼, 3 이상이 나오면 점 P를 y축 방향으로 양의 방향으로 1만큼 평행 이동시킨대요. 
+<Sync Start=2034338><P Class=KRCC>
+그러니까 또 결과가 두 가지인데 그거를 15번, 시행횟수가 마찬가지로 주어지고, 
+<Sync Start=2041653><P Class=KRCC>
+잘 들어야 됐으면 좋겠어. 그러니까 이항 분포 냄새는 많이 나잖아요? 
+<Sync Start=2046321><P Class=KRCC>
+-맞아요. 
+<Sync Start=2047182><P Class=KRCC>
+-그런데 그 이항 분포의 확률 변수가 나온 횟수라는 거지. 그런데 여기는 
+<Sync Start=2053893><P Class=KRCC>
+뭐를 확률 변수 X라고 뒀냐면 거리를 확률 변수 X라고 뒀거든. 그러니까 이 x는 
+<Sync Start=2060341><P Class=KRCC>
+이항 분포를 따르는 게 아니라는 게 나는 이 문제에서 가장 중요한 
+<Sync Start=2064708><P Class=KRCC>
+포인트라고 생각해요. x는 이항 분포를 따르지 않아. 나머지는 다 이항 분포야. 
+<Sync Start=2070916><P Class=KRCC>
+왜? 성공과 실패로 나눠져있고 시행횟수가 주어져 있고 몇 번 성공해야지 
+<Sync Start=2077071><P Class=KRCC>
+거리가 어떻게 되겠는가를 생각하시면 되는 거니까 이거는 거리는 그러하지만 
+<Sync Start=2085661><P Class=KRCC>
+횟수를 가지고 다시 확률 변수로 만들어주시면 좋겠다는 이야기예요. 
+<Sync Start=2092405><P Class=KRCC>
+그래서 15번 시행해서 나온 횟수, 성공횟수, 나온 횟수, 이거를 뭐라고 둘까요? 
+<Sync Start=2106525><P Class=KRCC>
+뭐라고 두고 싶은 거 있으세요? 
+<Sync Start=2108741><P Class=KRCC>
+-Y? 
+<Sync Start=2109343><P Class=KRCC>
+-Y? Y라고 두자 이거지. 그러면 이 Y는 이항 분포를 따른다. 이 이야기야. 
+<Sync Start=2118312><P Class=KRCC>
+Y는 이항 분포를 따른다 이거지. 시행횟수가 주어지고 나온 횟수를 변수 Y라고 두면 
+<Sync Start=2126104><P Class=KRCC>
+그 확률 변수는 이항 분포를 따르는데 총 15번 시행했고 한 번 시행했을 때 
+<Sync Start=2133008><P Class=KRCC>
+성공할 확률, 위에 거를 성공이라고, 둘 중에 하나를 성공, 둘 중에 하나를 
+<Sync Start=2137746><P Class=KRCC>
+실패라고 보자고요. 성공이라고 보자면 한 번 시행했을 때 주사위 한 번 던져서 
+<Sync Start=2145067><P Class=KRCC>
+2 이하가 나올 확률 얼마예요? 3분의 1이잖아요. 이거를 작성을 해주면 결국 
+<Sync Start=2153384><P Class=KRCC>
+Y라는 확률 변수가 따르는 이항 분포가 15, 3분의 1이라는 거, 그러니까 Y의 평균과 
+<Sync Start=2160674><P Class=KRCC>
+Y의 분산은 2개 곱하고 안 나올 확률까지 곱함으로써 충분히 구할 수 있다는 거예요. 
+<Sync Start=2166602><P Class=KRCC>
+그런데 여기서는 뭐냐 하면 그렇게 이동된 점 P와 얘 사이의 거리를 X라고 둔 거거든. 
+<Sync Start=2176398><P Class=KRCC>
+뭐와 뭐 사이 거리? 직선과 점 사이의 거리. 몇 학년이 생각나세요? 
+<Sync Start=2181772><P Class=KRCC>
+-1학년. 
+<Sync Start=2182355><P Class=KRCC>
+-1학년, 1학년 때 공부했었던 점과 직선 사이의 거리 공식을 그거를 이용해서 
+<Sync Start=2187882><P Class=KRCC>
+그거 분수 형태로 생겼잖아요? 그거를 만들면 걔가 X가 되는 거지. 그렇죠? 
+<Sync Start=2196498><P Class=KRCC>
+걔가 X가 되는 거야. 그러면 뭐랑 뭐 사이에 거리냐면 이 직선과 이동된 점 
+<Sync Start=2202402><P Class=KRCC>
+15번 반복한 다음에 이동된 점에 이 점과 이 직선 사이의 거리가 X니까 
+<Sync Start=2211338><P Class=KRCC>
+지금부터 이 점을 구해야겠구나. 그렇죠? 무슨 점이냐? 15번 반복해서 이동된 점. 
+<Sync Start=2224826><P Class=KRCC>
+그런데 몇 번 성공한 걸로 봤냐? Y번 성공한 걸로 봤거든. 성공은 Y번 했거든. 
+<Sync Start=2234338><P Class=KRCC>
+이거 실패로 보자. 이거 실패. 얘는 횟수가 Y번. 그러면 유빈 쌤, 실패한 횟수는 
+<Sync Start=2243915><P Class=KRCC>
+총 몇 번일까요? 
+<Sync Start=2245254><P Class=KRCC>
+-15-Y요. 
+<Sync Start=2247371><P Class=KRCC>
+-정확해요. 총 15번 시행 후라 그랬으니까 15-Y번 실패. Y번 성공했다 그랬어요. 
+<Sync Start=2255954><P Class=KRCC>
+그런데 성공할 때마다 x축 3만큼 평행 이동할 거니까 Y번 성공하면 3Y만큼 
+<Sync Start=2264736><P Class=KRCC>
+평행 이동했다. 이거죠. 그런데 원점에서 출발했으니까 당연히 3Y라는 
+<Sync Start=2271245><P Class=KRCC>
+x좌표가 생길 것이고 y 좌표 어떻게 구하나요? 한 번 실패할 때마다 y축의 
+<Sync Start=2279187><P Class=KRCC>
+1회 방향으로 이만큼이니까 그냥 얘는 한 번 실패하면 다 이만큼이니까 총 15-Y번 
+<Sync Start=2286847><P Class=KRCC>
+실패했다 그러면 최종적인 y 좌표는 15-Y가 된다는 이야기. 이제 여기다가 
+<Sync Start=2292451><P Class=KRCC>
+이것만 써주면 돼요. 뭐만? 점과 직선 사이에 거리 공식만 써주면 돼요. 
+<Sync Start=2298491><P Class=KRCC>
+분모는 x에 대해서 y에게로 각각, 루트 씌우니까 3, 4, 5, 이렇게 쓰시면 되고 
+<Sync Start=2303483><P Class=KRCC>
+분자는 우변이 0일 때 좌변에다가 이거 대입하라 그랬으니까요. 이거 대입하면 9Y, 
+<Sync Start=2315141><P Class=KRCC>
+이렇게 4번한 -4Y, 상수항은 60, 이렇게 나오니까 결국은 5Y+60이 바로 
+<Sync Start=2327230><P Class=KRCC>
+분자에 나타날 거고 원래는 이렇게 문자가 있을 때 절댓값을 붙여주지만 
+<Sync Start=2333285><P Class=KRCC>
+Y는 횟수라 그랬으니까. 그렇죠? 0보다 크거나 같을 테니까 
+<Sync Start=2338481><P Class=KRCC>
+음수가 나올 리가 없잖아요. 이렇게 마무리 지어주시면 된다. 그러니까 핵심이 뭐라고? 
+<Sync Start=2344722><P Class=KRCC>
+시행횟수가 주어진 상태에서 나온 횟수가 확률 변수인 게, 나온 횟수가 X인 게 바로 
+<Sync Start=2351013><P Class=KRCC>
+이항 분포니까 거리가 확률 변수 X라 그러면 이 X를 이항 분포를 따르는 것이 아니라 
+<Sync Start=2357203><P Class=KRCC>
+새롭게 나온 횟수를 Y라고 둬서 Y가 이러한 이항 분포를 따른다라는 거. 그 차이점. 
+<Sync Start=2365081><P Class=KRCC>
+예전에 막 점수 이런 걸로 많이 했었는데, 몇 번 이상 이와 같은 걸 했을 때 
+<Sync Start=2369013><P Class=KRCC>
+몇 점 이상이 될 확률을 구하라, 이런 거. 그러면 몇 번 성공해야지 
+<Sync Start=2373373><P Class=KRCC>
+그 점수가 나오는지를 환산해줘야 되는 거잖아요. 그런 느낌이랑 똑같은 문제인데 
+<Sync Start=2378779><P Class=KRCC>
+아주 독특하게 직선과 점 사이의 거리, 너희 고1 수학 공부 안 하면 
+<Sync Start=2384760><P Class=KRCC>
+큰일 난다는 것을 보여주고 있어요. 5로 한번 나눠볼게요. 나눠보면 X+12가 되나요? 
+<Sync Start=2392755><P Class=KRCC>
+맞나? Y+12가 되니까 우리가 구하고자 하는 X의 평균을 구하라 그러면 이게 바로 
+<Sync Start=2399352><P Class=KRCC>
+X였으니까 Y+12의 평균을 구하라. 일차식의 평균은 각각 분리하면서 12, 
+<Sync Start=2408451><P Class=KRCC>
+상수항은 따로 나온다 그랬으니까요. 결국 Y의 평균에다가 12를 더하면 답이 된다. 
+<Sync Start=2415278><P Class=KRCC>
+Y 평균을 내면 이항 분포 평균 2개를 곱하면 되는 거니까 얼마야? 시작. 5. 
+<Sync Start=2422560><P Class=KRCC>
+이렇게 그래서 5와 12를 더하니까 최종적인 답은 얼마다? 17이다. 이런 느낌으로 
+<Sync Start=2427433><P Class=KRCC>
+해석하는 이항 분포에 관련된 문제인데 학생들은 어려울 수 있다. 왜? 확률 변수가 
+<Sync Start=2434285><P Class=KRCC>
+횟수로 주어지지 않아서 당황할 수 있다. 이럴 때는 횟수로 지정해놓고, 
+<Sync Start=2438967><P Class=KRCC>
+환산한다 그러면 어려우니까 횟수로 지정해놓고 얘가 따르는 이항 분포를 써놓은 다음에 
+<Sync Start=2444414><P Class=KRCC>
+그냥 X의 정의대로 가시면 된다. 거리니까 거리로 만들면 된다. 
+<Sync Start=2450112><P Class=KRCC>
+-이거 약간 그럴 때 있는 것 같아요. 우리는 X에 이렇게 놓으면 대체적으로 
+<Sync Start=2454121><P Class=KRCC>
+주인공이 X잖아요. 
+<Sync Start=2455499><P Class=KRCC>
+-맞아요. 
+<Sync Start=2455991><P Class=KRCC>
+-뭔가 이 주인공의 이름을 사용하면 안 되는 상황에서의 새로운 주인공의 
+<Sync Start=2460695><P Class=KRCC>
+이름을 써야 되거든요. 거기에 되게 불안감을 느껴 하는 것 같아요. 그렇죠? 
+<Sync Start=2464515><P Class=KRCC>
+-학생들? 맞아요. 맞아요. 
+<Sync Start=2466850><P Class=KRCC>
+-꼭 X를 이용해서 표현을 해야만 한다고 이 주인공을 하고 싶더라고요. 
+<Sync Start=2471716><P Class=KRCC>
+-그냥 만들면 돼. 그냥 만들면 된다. 만들면 된다. 
+<Sync Start=2475205><P Class=KRCC>
+-꼭 X가 오히려 여기서는 주인공이 아니다. 
+<Sync Start=2478121><P Class=KRCC>
+-맞아. 
+<Sync Start=2478528><P Class=KRCC>
+-우리가 Y 주인공으로 놓고 Y로 표현을 하는 거죠. 주인공을 만들어서. 
+<Sync Start=2482545><P Class=KRCC>
+-이렇게 바꾼다고 생각하면 어렵게 느껴지거든. 그러지 말라는 거죠. 이런 느낌. 
+<Sync Start=2489440><P Class=KRCC>
+또 여기에 대해서 할 말이 있을까요? 
+<Sync Start=2491173><P Class=KRCC>
+-1학년 수학 같은 게 들어갈 때 우리 긴장하잖아요. 중학 수학, 1학년 수학, 이런, 
+<Sync Start=2496664><P Class=KRCC>
+그때그때마다 이게 나는 내가 만약에 점과 직선 사이의 거리가 기억이 안 난다. 
+<Sync Start=2501284><P Class=KRCC>
+그러면 나는 1학년 수학을 전부 다 이제 와서 복습을 해야 되는가? 아니에요. 그렇죠? 
+<Sync Start=2506538><P Class=KRCC>
+지금 이것만 대입할 줄 알면 되는 거잖아요. 그 말씀하신 대로 제곱 더하기 제곱에다가 
+<Sync Start=2510944><P Class=KRCC>
+루트 씌워서 밑에 놓고 그다음에 대입, 이거 한번 딱 떠올리면 된다. 
+<Sync Start=2515247><P Class=KRCC>
+1학년 수학 때문에 그때그때 겁먹으면 그때 그때 그것만 해결을 했으면 좋겠어요. 
+<Sync Start=2519190><P Class=KRCC>
+-중학 수학도 마찬가지예요. 
+<Sync Start=2520150><P Class=KRCC>
+-맞아요. 
+<Sync Start=2520606><P Class=KRCC>
+-항상 처음부터 다 중학교 책을 산다고 생각하지 말고 그때그때만 충실하면 
+<Sync Start=2525054><P Class=KRCC>
+그게 모여서 이제 고1 수학이 되고 중학교 수학이 되는 거니까 앞으로 공부는 
+<Sync Start=2529166><P Class=KRCC>
+계속 꾸준하게만 가시면 된다. 포기하지만 말자. 이런 말씀을 드리면서 
+<Sync Start=2533838><P Class=KRCC>
+오늘은 어떻게 헤어질까요? 
+<Sync Start=2535112><P Class=KRCC>
+-오늘도 악수? 
+<Sync Start=2536700><P Class=KRCC>
+-그러면 너무 똑같잖아. 
+<Sync Start=2537547><P Class=KRCC>
+-이렇게? 
+<Sync Start=2538377><P Class=KRCC>
+-이게 뭐예요? 이거? 
+</BODY></SAMI>

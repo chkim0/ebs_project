@@ -1,0 +1,718 @@
+<SAMI>
+<HEAD>
+<TITLE>Time Tools (C) CCNSOFT 2005</TITLE>
+<STYLE TYPE="text/css">
+<!--
+P { margin-left:8pt; margin-right:8pt; margin-bottom:2pt;
+    margin-top:2pt; font-size:12pt; text-align:left;
+    font-family:굴림, Arial; font-weight:normal; color:white;
+    background-color:#405A8D; }
+.KRCC { Name:한국어; lang:ko-KR; SAMIType:CC; }
+#STDPrn { Name:Standard Print; }
+#LargePrn { Name:Large Print; font-size:20pt; }
+#SmallPrn { Name:Small Print; font-size:10pt; }
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+
+
+
+
+<Sync Start=10080><P Class=KRCC>
+이항정리, 이제 완전히 새로운. 우리 저번 시간까지는 중복 조합까지 끝냈고요. 
+<Sync Start=16193><P Class=KRCC>
+순열 조합은 다 끝냈고 이항정리라고 조합을 살짝 활용하는 건데 이거 되게 재미있거든. 
+<Sync Start=23261><P Class=KRCC>
+이쪽 파트를 지금부터 공부해 보도록 할게요. 진짜 재밌어요. 이항정리. 
+<Sync Start=31153><P Class=KRCC>
+아주 재밌는 파트니까 잘 보도록 하세요. 일단 항 2개짜리예요. 
+<Sync Start=40905><P Class=KRCC>
+그러니까 예를 들어서 (x+2) 이렇게. 항 2개잖아. 앞에 거는 x, 뒤에 거는 2. 
+<Sync Start=47996><P Class=KRCC>
+항 2개짜리에 우리 제곱은 할 줄 알잖아요. 
+<Sync Start=50638><P Class=KRCC>
+이거 완전제곱식이라고 해서 곱해서 앞에 거 제곱한 다음에 2까지 곱하는 거 그다음에 뒤에 거 제곱.
+<Sync Start=58782><P Class=KRCC>
+이거의 제곱, 이거의 제곱 이렇게. 이거는 a와 b로 표현하자면 이런 거지. 잘 봐봐. 
+<Sync Start=65227><P Class=KRCC>
+앞에 거가 a고 뒤에 걸 b라고 하면 (a+b)²=a²+2ab+b². 우리 이런 거 충분히 할 줄 알고. 
+<Sync Start=73683><P Class=KRCC>
+(a+b)³이다. 이것도 할 줄 알죠? 어떻게 하지, 이거? 고1 때 배웠는데. 
+<Sync Start=79179><P Class=KRCC>
+앞에 거 세제곱 이렇게 해서 3a²b 그다음에 3 이렇게 해서 3ab²이렇게 되고 
+<Sync Start=89428><P Class=KRCC>
+뒤에 거 세제곱이니까 이렇게 되겠네요. 이거 2개는 배웠는데 이런 걸 안 배웠어. 
+<Sync Start=94514><P Class=KRCC>
+(a+b)⁴을 구하시오. 40²을 구하시오. 400²을 구하시오. 이런 거는 아직 안 했단 말이야. 
+<Sync Start=100614><P Class=KRCC>
+이 이항정리라는 건 뭐냐 하면 항 2개짜리에 제곱식이랑 세제곱식뿐만 아니라 
+<Sync Start=106489><P Class=KRCC>
+n제곱식을 전개하고 싶은 거예요. 예를 들어서 (a+b)의 10제곱을 전개하시오. 
+<Sync Start=113836><P Class=KRCC>
+특정 항의 계수를 구하시오, 이런 식으로. (a+b)의 20제곱을 구하시오. 
+<Sync Start=119365><P Class=KRCC>
+그러기 위해서는 n제곱식을 전개하는 방법에 대해서 알고 있으면 
+<Sync Start=125326><P Class=KRCC>
+어떤 지수가 오더라도 걔의 전개식에 대해서 간파할 수 있을 거라는 이야기입니다. 
+<Sync Start=130905><P Class=KRCC>
+그래서 항 2개짜리의 n제곱의 전개식을 공부하는 것을 사람들이 뭐라 그랬냐면 
+<Sync Start=137275><P Class=KRCC>
+이항정리라고 이렇게 얘기를 해요. 
+<Sync Start=140104><P Class=KRCC>
+이 이항정리는 일단 항 2개짜리의 세제곱식을 기준으로 왜 세제곱식이 그렇게 생겼는지를 
+<Sync Start=147242><P Class=KRCC>
+탐구해 봄으로써 n제곱식도 한번 만들어 보도록 할게요. 
+<Sync Start=151713><P Class=KRCC>
+(a+b)³식이라고 그러면 원래는 (a+b)(a+b)(a+b). (a+b)를 몇 번 곱하라는 얘기예요? 
+<Sync Start=160578><P Class=KRCC>
+이 지수는 곱하는 횟수니까 3번 곱하라는 얘기잖아요? 
+<Sync Start=164342><P Class=KRCC>
+얘를 곱하고 나면 결국 이 중에 하나랑 이 둘 중에 하나, 이 둘 중에 하나를 곱하게 되거든. 
+<Sync Start=169587><P Class=KRCC>
+선생님, 무슨 말입니까? 얘랑 얘랑 얘랑 곱하면 a³ 이렇게 나오는 거야. 
+<Sync Start=176409><P Class=KRCC>
+그런데 그렇게도 곱할 수 있지만 a랑 a랑 b랑도 곱할 수 있고. 그러면 뭐가 생겨요? a²b가 생기거든.
+<Sync Start=185132><P Class=KRCC>
+
+<Sync Start=188896><P Class=KRCC>
+b랑 b랑 a랑 곱하면? ab²이 생기거든. b랑 b랑 b랑 뒤에 것만 곱하면? b³이 생기거든. 
+<Sync Start=197329><P Class=KRCC>
+그거를 다 동류항 처리해 놓은 것이 바로 뭐냐 하면 원래 항은 총 몇 개 나오겠니? 
+<Sync Start=203188><P Class=KRCC>
+이중에 하나와 이중에 하나와 이중에 하나를 곱할 테니까 
+<Sync Start=205887><P Class=KRCC>
+여기에서 둘 중에 하나를 선택하는 방법의 수 몇 가지? 
+<Sync Start=208418><P Class=KRCC>
+2가지, 2가지, 2가지니까 총 8개 항인데 걔네를 동류항 처리하고 나면 a²b가 3번 나온다는 뜻이고요.
+<Sync Start=218790><P Class=KRCC>
+ab²이 3번 나온다는 뜻이고 b³은 1번 나온다는 뜻이거든. 그래서 항은 총 8개인 거야. 
+<Sync Start=226284><P Class=KRCC>
+왜? 3a²b가 3번 나왔고 3ab²이 3번 나왔으니까 총 6개인데 앞에 하나, 
+<Sync Start=231249><P Class=KRCC>
+뒤에 하나 있으니까 총 8개를 동류항 처리했더니 이렇게 나왔다는 이야기야. 
+<Sync Start=235481><P Class=KRCC>
+왜 얘가 3번 나오냐고 물어보면 3번이거든, 진짜. 왜요? a²b 3번이거든. 봐봐.  
+<Sync Start=246497><P Class=KRCC>
+이렇게 곱하면 a²b잖아. 하나. 이렇게 곱해도 a²b잖아. 둘. 이렇게 곱해도 a²b거든. 셋. 
+<Sync Start=261357><P Class=KRCC>
+그래서 3번 나오는 거야. 
+<Sync Start=263050><P Class=KRCC>
+얘를 전개하면 항 8개 중에서 a²b가 총 3번 나오니까 동류항 처리하고 나면 a²b가 3번 나옵니다. 
+<Sync Start=270190><P Class=KRCC>
+이 뜻이었거든. 그러면 왜 하필이면 3번일까를 생각해 보면 a²b를 만드는 방법이 이렇게 첫 번째, 
+<Sync Start=280870><P Class=KRCC>
+이렇게, 이렇게, 이렇게 곱한 게 바로 뭐냐 하면 aab고 그다음에 aba고 그다음에는 baa 이거거든. 
+<Sync Start=298000><P Class=KRCC>
+그러니까 얘도 a²b고 얘도 a²b고 얘도 a²b니까 a²b를 만드는 경우의 수가 총 3가지라는 얘기지.
+<Sync Start=309420><P Class=KRCC>
+그래서 여기가 3이에요. 3가지를 동류항 처리하니까. 
+<Sync Start=314005><P Class=KRCC>
+그러니까 결국 얘를 전개했을 때 aab도 나오고 aba도 나오고 baa도 나오니까 
+<Sync Start=322120><P Class=KRCC>
+결국은 a²b가 3번 발생되어서 동류항 처리하고 나면 3배에 대해서 a²b라고 쓸 수 있군요, 선생님. 
+<Sync Start=332630><P Class=KRCC>
+그러면 앞으로 이 3가지라는 것을 어떻게 알아낼 수 있습니까? 이렇게 얘기하면 되지. 
+<Sync Start=337196><P Class=KRCC>
+a 2개와 b 하나를 일렬로 배열하는 방법의 수죠. 
+<Sync Start=342770><P Class=KRCC>
+그건 같은 것을 포함하는 순열이고 종류 2개짜리 같은 것을 포함하는 순열은 뭘로도 가능하다? 
+<Sync Start=348170><P Class=KRCC>
+조합으로도 가능하니까 3칸 중에 b를 기준으로 생각하면 b가 들어간 1칸을 이렇게 선택하면 baa. 
+<Sync Start=359040><P Class=KRCC>
+이렇게 선택하면 aba, 이렇게 선택하면 b가 들어가는 1칸이니까 aab. 그래서 3가지 아니겠느냐? 
+<Sync Start=365650><P Class=KRCC>
+결국 3칸 중에서 b가 들어갈 1칸을 선택하는 방법의 수가 바로 3가지라는 뜻이겠구나. 
+<Sync Start=373072><P Class=KRCC>
+그래서 여기 보이는 3이라는 것을 앞으로 이렇게 쓰자. 어떻게요? ₃C₁로 쓰자. 
+<Sync Start=383806><P Class=KRCC>
+그렇다면 여기의 3은 뭡니까? ab²을 만드는 경우의 수일 거 아니야? 
+<Sync Start=390201><P Class=KRCC>
+그러면 b가 들어갈 몇 칸을 선택하면 돼요? 2칸을 선택하면 되지. 왜? 
+<Sync Start=393455><P Class=KRCC>
+선택된 곳은 b를 쓰고 선택 안 한 곳에는 a를 쓰면 결국은 ab²을 발생시키는 거니까. 
+<Sync Start=399706><P Class=KRCC>
+결국 ab²을 발생시키는 경우의 수는 3칸 중에서 b가 들어갈 2칸을 선택하는 방법의 수가 3이였구나. 
+<Sync Start=407591><P Class=KRCC>
+여기는 왜 1이야? 모두 다 b로만 이루어져 있는 거니까. 3칸 중에서 3칸을 선택하는 방법의 수고요. 
+<Sync Start=415732><P Class=KRCC>
+여기는 왜 이럴까? 3칸 중에서 a만 3개 들어가 있으니까 
+<Sync Start=420044><P Class=KRCC>
+b가 들어갈 0칸을 선택하는 방법의 수가 아니겠습니까? 이 이야기야. 맞아요. 
+<Sync Start=432510><P Class=KRCC>
+그래서 여러분, 이렇게 쓸 수 있다는 거야. 어떻게요? (a+b)³을 ₃C0a³. 그대로 쓴 거야. 
+<Sync Start=443900><P Class=KRCC>
+b는 하나는 없네요? 더하기. 이거 그대로 ₃C₁a²b+₃C₂+a, b²+₃C₃ab³ 이렇게 쓸 수 있구나. 
+<Sync Start=473200><P Class=KRCC>
+그러고 그러고 봤더니 분위기가 이거 봐. 동류항 처리하고 나면 항의 총 4개 나오는데. 
+<Sync Start=483808><P Class=KRCC>
+4개 항이 다 비슷하게 생겼어. 
+<Sync Start=485244><P Class=KRCC>
+₃C₃ab, ₃C₃ab, ₃C₃ab, ₃C₃ab는 다 똑같으니까 모두 다 ₃C₃ab의 형태로 쓰였네요. 
+<Sync Start=498262><P Class=KRCC>
+그러면 뭐가 변하느냐? C 뒤에 있는 숫자가 변해. 이게 0, 1, 2, 3까지 변해. 
+<Sync Start=505999><P Class=KRCC>
+변하는 것을 변수라고 그러고 이것을 r이라고 표현하면, 물론 k라고 놓을 수도 있고. 
+<Sync Start=513696><P Class=KRCC>
+아무 문자나 쓸 수 있겠지만 습관적으로, 관습입니다. r이라고 보통 나타내거든요. 
+<Sync Start=522581><P Class=KRCC>
+여기 있는 숫자를 변수 r이라고 보면 r은 어디서부터 어디까지? 0, 1, 2, 3, 4까지 가는구나. 
+<Sync Start=531991><P Class=KRCC>
+그다음에 b 위에 있는 이 숫자가 C 뒤에 있는 숫자랑 똑같잖아. 
+<Sync Start=538196><P Class=KRCC>
+여기가 0이면 여기가 0, 여기가 1이면 여기가 1, 여기가 2면 여기가 2, 여기가 3이면 여기도 3. 
+<Sync Start=543726><P Class=KRCC>
+여기가 r이면 b 위가 r이구나. 일반화시키는 거야, 일반 항을 구하자라는 거야. 
+<Sync Start=554227><P Class=KRCC>
+무슨 항? 일반 항을. 다 똑같이 생겼으니까. 
+<Sync Start=560363><P Class=KRCC>
+그러면 여기 위에 들어갈 숫자만 알면 되는데 a 위에 들어갈 숫자는 뭐냐 하면 C을 기준으로
+<Sync Start=565940><P Class=KRCC>
+앞에 거에서 뒤에 거 뺀 거예요. 왜? 3-0=3, 3-1=2, 3-2=1, 3-3=0. 여기서 이거 뺀 거구나. 
+<Sync Start=577410><P Class=KRCC>
+그러면 이게 바로 일반 항이라는 뜻이고. 전체 항이 4개인 이유가 뭐냐? 이 r이 변하니까. 변수야. 
+<Sync Start=592650><P Class=KRCC>
+그 변수 r이 어디서부터 어디까지 변하냐면 0부터 시작해서 3까지인데 3이 뭐냐 하면 지수잖아. 
+<Sync Start=603927><P Class=KRCC>
+그래서 r은 0부터 시작해서 r은 0일 때도 있고 1일 때도 있고 2일 때도 있고 3까지, 어디까지? 
+<Sync Start=612576><P Class=KRCC>
+이 지수까지 변하게 되겠구나라는 이야기지. 맞아요? 
+<Sync Start=627025><P Class=KRCC>
+이거를 더욱더 일반화시키면 어떤 모양이 되냐면 이렇게 된단다. 
+<Sync Start=631863><P Class=KRCC>
+여기에 3이 있었던 이 3이, 여기에 들어가는 3이 바로 지수잖아. 
+<Sync Start=639576><P Class=KRCC>
+그 3이 여기에도 가고 여기에도 가고, 여기에도 가고, 
+<Sync Start=642481><P Class=KRCC>
+여기에도 감으로써 여기에 생긴 거니까 일반 항에서 C 앞에는 무조건 지수구나. 
+<Sync Start=651786><P Class=KRCC>
+a가 뭐냐고 물어보신다면 a는 항 2개짜리잖아. 그중에 앞에 거, b는 뒤에 거. 이렇게 보면 쉬워. 
+<Sync Start=661334><P Class=KRCC>
+a가 앞에 거고 b가 뒤에 건데 봐봐, C 뒤에 있는 숫자가 그대로 여기로 오고. 
+<Sync Start=673190><P Class=KRCC>
+앞에 거에서 뒤에 거 뺀 게 3이 지수 자리에 오시면 되는 거니까 결국은 얘가 일반 항이 되겠구나. 
+<Sync Start=685410><P Class=KRCC>
+뭐의 일반 항? 얘의 전개식의 일반 항이 바로 이거구나. 
+<Sync Start=691367><P Class=KRCC>
+그래서 앞으로 저 따라서 기억하는 거예요. 어떻게 기억하느냐? 위에 건 됐고. 따라 해 봐. 
+<Sync Start=698817><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거. 
+<Sync Start=702117><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=704300><P Class=KRCC>
+-그렇게 기억하자. 지수Cr앞에 거, 뒤에 거. 이걸 입에 배도록, 이거 하나만 기억하시면 되거든요. 
+<Sync Start=712248><P Class=KRCC>
+반드시 한글로 외워야 돼. 왜? 때로는 앞에 거는 1도 될 수 있고 x도 될 수 있고, 
+<Sync Start=720998><P Class=KRCC>
+2y도 될 수 있고 어떤 게 나올지 모르니까 그냥 앞에 거, 뒤에 거 이렇게 기억하고. 
+<Sync Start=726364><P Class=KRCC>
+이 지수도 n이 될 수도 있고 n+1이 될 수도 있는 거니까 굳이 nC 이렇게 외우지 말고 
+<Sync Start=735963><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거. 
+<Sync Start=738818><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=740687><P Class=KRCC>
+-그렇게 기억하자. 그리고 C 뒤에 있는 게 뒤로 올라가고 이건 그림으로 기억해. 
+<Sync Start=750112><P Class=KRCC>
+여기서 이거 뺀 게 무조건 지수-r 이러지도 말고 외울 거는 지수C앞에 거, 뒤에 거까지만 외우고.
+<Sync Start=759268><P Class=KRCC>
+여기에서 앞에 거, 뒤에 거 뺀 게 앞에 있는 숫자의 지수 위로 올라간다고 기억해 두자는 거예요. 
+<Sync Start=769071><P Class=KRCC>
+그리고 일반 항을 만들었으면 이 r이 어디에서부터 어디까지 변하느냐? 
+<Sync Start=774710><P Class=KRCC>
+아까도 이야기했지만 0부터 시작해서 1씩 증가해서 어디까지? 여기에 있는 지수까지 변하는 거니까. 
+<Sync Start=782050><P Class=KRCC>
+기억할 때는 이 r이 변수인데 어디에서부터? 0, 0, 0. 1, 1, 1. 2, 2, 2. 3, 3, 3. 어디까지? 지수. 
+<Sync Start=798200><P Class=KRCC>
+여기에 있는 이 지수까지 변한다는 느낌으로 그거를 r 대신 0, 0, 0. 1, 1, 1. 2, 2, 2. 
+<Sync Start=807054><P Class=KRCC>
+3, 3, 3을 대입하면 모든 항을 다 구할 수 있는데 그거를 다 +로 연결한 게 
+<Sync Start=813730><P Class=KRCC>
+바로 이 전개식과 똑같은 거니까 이 전개식을 구하라고 그러면 더해라. 
+<Sync Start=819610><P Class=KRCC>
+뭐 대신? r 대신 0부터 지수까지 대입한 것을 더하면 된다고 표현할 수 있지 않겠느냐 이 얘기예요. 
+<Sync Start=830371><P Class=KRCC>
+그래서 앞으로는 이 중간 과정을 생략하자. 다 어떻게 기억하느냐? 일반 항만 기억해. 
+<Sync Start=844570><P Class=KRCC>
+이거는 서술적으로 기억했으면 나는 훨씬 더 좋을 것 같아. 
+<Sync Start=847670><P Class=KRCC>
+그래야 이항정리를 가슴으로 느끼는 거거든요. 이거는 서술적으로 기억을 하고. 일반 항만 기억하자. 
+<Sync Start=855800><P Class=KRCC>
+이 일반 항에 변수 r 대신 0부터 지수까지 대입한 것을 모두 더한 것이 바로 전개식 전체가 된다. 
+<Sync Start=864842><P Class=KRCC>
+그런데 그 전개식의 일반 항은 다음과 같다. 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=878653><P Class=KRCC>
+예를 들어서 (2+x)10제곱의 전개식을 구하시오 이렇게 되어 있으면? 앞에 거가 뭐야? 2. 
+<Sync Start=891910><P Class=KRCC>
+뒤에 거는? x. 지수는 뭐야? 10 이렇게 되어 있으면 일반 항이 뭡니까? 
+<Sync Start=899551><P Class=KRCC>
+얘를 전개했을 때 각각의 항은 다 어떻게 생겼습니까? 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=904785><P Class=KRCC>
+우리가 그렇게 기억하고 있으니까. 말로는 지수Cr앞에 거, 뒤에 거를 쓰시고요. 
+<Sync Start=910217><P Class=KRCC>
+쓸 때는 10Cr2x 이렇게 쓰시면 됩니다. 그리고 내가 뭐라고 그랬어? 
+<Sync Start=917001><P Class=KRCC>
+C 뒤에 있는 게 뒤로 가고 여기에서 이쪽으로 뺀 게 앞으로 간다 이렇게 말씀드렸잖아요. 
+<Sync Start=922120><P Class=KRCC>
+이게 바로 일반 항입니다. 그러니까 모든 항은 다 어떻게 생겼다? 
+<Sync Start=926743><P Class=KRCC>
+일반 항처럼 생겼다고 이야기하면 되고 이렇게 서술형으로 기억하셔야 한다니까. 
+<Sync Start=933302><P Class=KRCC>
+그러면 전개식의 모든 항을 다 구하려면 어떻게 해야 하느냐? 변수 대신에 대입하면 된다니까. 
+<Sync Start=937618><P Class=KRCC>
+뭘 대입하면 돼? 0부터 지수까지 대입하시면 돼. 지수가 얼마니까? 10이잖아요. 
+<Sync Start=943319><P Class=KRCC>
+그러니까 r 대신 0, 0, 0. 1, 1, 1. 2, 2, 2. 3, 3, 3. 4, 4, 4. 5, 5, 5. 6, 6, 6. 7, 7, 7. 
+<Sync Start=954681><P Class=KRCC>
+8, 8, 8. 9, 9, 9. 10, 10, 10. 그러면 항이 몇 개 나와? 11개 나와요. 
+<Sync Start=959337><P Class=KRCC>
+이 지수보다 하나 더 많게 나온다고. 왜? 
+<Sync Start=962166><P Class=KRCC>
+1부터 10까지 대입했으면 딱 10개 나오겠지만 뭐부터 대입했으니까? 조심해야지. 
+<Sync Start=968172><P Class=KRCC>
+0부터 대입했으니까 11개 항이 나오는데 얘를 전개했을 때 11개 항 모두 다 이렇게 생겼겠구나 
+<Sync Start=976991><P Class=KRCC>
+이해하시면 됩니다. 그러면 수능 문제에서는 이 11개 항을 다 구하라 그러느냐? 그러진 않아요.
+<Sync Start=986213><P Class=KRCC>
+얘의 특정 항의 개수를 구하라 이런 식으로 나오거든요. 그러니까 이렇게 나오는 거야. 
+<Sync Start=993060><P Class=KRCC>
+얘의 전개식에서 8차항의 계수를 구하세요. 이렇게 나와요. 
+<Sync Start=1001169><P Class=KRCC>
+그런데 8차항이든 7차항이든 6차항이든 상수항이든 모두 다 이렇게 생겼다니까. 
+<Sync Start=1008154><P Class=KRCC>
+그러니까 특정하게 계수를 구하라 그래도 일단 일반 항부터 작성하는 거야. 
+<Sync Start=1014103><P Class=KRCC>
+그러면 결국 얘가 뭐예요? 얘가 변수 파트고 얘가 계수겠지? 
+<Sync Start=1018784><P Class=KRCC>
+x가 들어있는 건 얘밖에 없고 x가 없는 게 바로 이놈이잖아. 
+<Sync Start=1024958><P Class=KRCC>
+그런데 x의 8제곱 계수를 구하라는 얘기는 이 지수가 뭐가 돼야 되는 거야? 
+<Sync Start=1029435><P Class=KRCC>
+8이 되라는 얘기니까 전체적으로 r 대신 원래는 뭐 대입하는 거야? 
+<Sync Start=1035021><P Class=KRCC>
+0부터 10까지 대입하는 건데 0부터 지수까지 대입하는 건데 
+<Sync Start=1040220><P Class=KRCC>
+특정한 8차항을 구하기 위해서는 원래는 0부터 10까지지만 r 대신 지금은 8만 대입해도 되겠고요. 
+<Sync Start=1047266><P Class=KRCC>
+8 한번 대입해 보세요. 10C82²x의 8제곱이라는 항이 나오니까. 
+<Sync Start=1054486><P Class=KRCC>
+결국 x의 8제곱 계수를 구하시오 그러면 이게 답인 거야. 10C8은 2랑 똑같으니까 얼마예요? 
+<Sync Start=1063343><P Class=KRCC>
+45. 45x4. 그래서 최종적인 답 189 이게 답이라는 거야. 만약에 전체를 다 구하고 싶어? 뭘 다 구해?
+<Sync Start=1076088><P Class=KRCC>
+전체 항을 다 구하고 싶어. 이것만 구할 게 아니라 전개식을 구하시오 그러면 어떻게 할 거야? 
+<Sync Start=1083028><P Class=KRCC>
+나오진 않겠지만, 여기에다가 서술형으로 이야기하라니까. Σ 이러지 말고. 
+<Sync Start=1088581><P Class=KRCC>
+말로 해봐. r 대신 0부터 지수 10까지 대입하시면 됩니다. 그래서 총 11개의 항이 나옵니다. 
+<Sync Start=1095712><P Class=KRCC>
+굳이 간단하게 표현하자면 r=0부터 10까지 Σ를 붙여주시면 얘가 바로 이것과 똑같은 말이 되겠다. 
+<Sync Start=1107186><P Class=KRCC>
+그래서 뭐만 기억하자? 일반 항만 기억하자. 일반 항은 뭐라고요? 
+<Sync Start=1113069><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거 이렇게 기억하시면 된다고요. 이번에 이럴 수도 있어요. 어떻게 해요? 
+<Sync Start=1121406><P Class=KRCC>
+(3x-2r)의 전체. 몇 제곱할까? 
+<Sync Start=1132117><P Class=KRCC>
+-7제곱. 
+<Sync Start=1132380><P Class=KRCC>
+-7제곱의 전개식에서 x5제곱y²의 계수를 구하시오? 이런 문제가 나오면 앞으로 뭐라 그럴 것이냐? 
+<Sync Start=1151674><P Class=KRCC>
+다음과 같이 얘기하는 거야, 내가 하라는 대로 해. 항 2개짜리예요. 
+<Sync Start=1156055><P Class=KRCC>
+앞에 거가 3x고 뒤에 거가 -2y인데요. 전체 7제곱이니까 얘를 전개하면 8개의 항이 나와요. 
+<Sync Start=1162920><P Class=KRCC>
+그거부터 시작하는 거야. 안 물어보더라도 그 얘기부터 시작하시라고요. 
+<Sync Start=1167800><P Class=KRCC>
+얘를 전개하면 8개 항이 나오는데요. 지수보다 하나 더 많이 나온다 그랬지? 똑같이 생겼다. 
+<Sync Start=1173807><P Class=KRCC>
+다 어떻게 생겼다? 일반 항처럼 생겼어요. 일반 항이 뭔데? 지수Cr앞에 거, 뒤에 거요. 
+<Sync Start=1180954><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거 이렇게 만드시면 된다고. 이것만 외우시라고. 따라해 봐요. 
+<Sync Start=1190372><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1190968><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1191895><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1193712><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1195742><P Class=KRCC>
+-잘했어요. 그러면 뒤에 있는 게 뒤로 간다고. 그리고 여기서 이거 뺀 게 앞으로 간다니까? 
+<Sync Start=1201113><P Class=KRCC>
+이렇게만 처리하시면 되지 않겠느냐? 얘를 조금 예쁘게 다듬으면 이렇게 되지 않을까? 
+<Sync Start=1208851><P Class=KRCC>
+7Crx3의 7-r제곱. x에도 7-r제곱. -2에도 r제곱. y에도 r제곱 이거잖아? xy 이렇게. 뭘 알았어? 
+<Sync Start=1227219><P Class=KRCC>
+그런데 우리는 x5제곱y² 얘가 5가 되면서 얘가 2가 됐으면 좋겠대. 그러면 r 대신 뭐 대입하면 돼요?
+<Sync Start=1236564><P Class=KRCC>
+2 대입하면 돼. 여러분, 전개식 8개 항을 다 구하라 그러면 r 대신 뭐 대입하면 돼? 0, 0, 0, 0. 
+<Sync Start=1245848><P Class=KRCC>
+1, 1, 1, 1. 2, 2, 2, 2. 맨 마지막 7, 7, 7, 7. 이렇게 대입하면 되겠네. 
+<Sync Start=1257677><P Class=KRCC>
+그러면 모든 항을 다 구할 수 있는데 여기에서는 r 대신 뭐만 대입하면 끝입니까? 
+<Sync Start=1263035><P Class=KRCC>
+2만 대입하면 우리가 원하는 항이 튀어나오니까 전체를 구할 때 r 대신 2를 대입하면 
+<Sync Start=1269739><P Class=KRCC>
+7C₂x3의 5제곱x(-2)²xx의 5제곱xy²이 되니까 최종적인 답을 구하라고 그러면 이게 답인 거지. 
+<Sync Start=1283035><P Class=KRCC>
+21x243x4를 해 준 게 최종적인 계수가 된다. 끝. 이렇게 푸는 거야. 선생님, 조금만 더 해 주세요. 
+<Sync Start=1301898><P Class=KRCC>
+느낌이 왔을 텐데? 더 해야 하나? 
+<Sync Start=1307634><P Class=KRCC>
+
+<Sync Start=1309724><P Class=KRCC>
+뭐를 더 해줄까? 이런 걸 더 해줄까? (2x-x²분의 1)5제곱의 전개식 이렇게 한번 가볼까? 
+<Sync Start=1325964><P Class=KRCC>
+5제곱의 전개식에서 x분의 1의 계수를 구하시오. -1차항의 계수를 구하래. 
+<Sync Start=1338818><P Class=KRCC>
+-1차항의 계수? 선생님, 이걸 어떻게 구해요? 마찬가지잖아. 
+<Sync Start=1345286><P Class=KRCC>
+항 2개짜리에 n제곱식이니까 이항정리를 이용해서 얘를 전개하면 동류항 다 처리하고 나면 
+<Sync Start=1350577><P Class=KRCC>
+최종적으로 항이 몇 개가 나와? 6개 나온다니까. 지수보다 하나 더 많게 나온다니까. 
+<Sync Start=1357349><P Class=KRCC>
+그런데 그 6개 항이 어떻게 생겼다고? 똑같이 생겼다니까. 어떻게 생겼는데? 
+<Sync Start=1364298><P Class=KRCC>
+지수Cr앞에 거, 뒤에 것처럼 생겼다니까. 지수Cr에 앞에 거 써, 뒤에 거 써. 
+<Sync Start=1376349><P Class=KRCC>
+-를 위에 쓸게. 분수를 아무데나 써도 되는데 위에 쓰는 게 예쁘잖아. 
+<Sync Start=1380016><P Class=KRCC>
+여기까지가 지수Cr앞에 거, 뒤에 거고 뒤에 있는 게 뒤로 간다니까. 
+<Sync Start=1386367><P Class=KRCC>
+여기에서 이거 뺀 게 여기로 간다니까. 
+<Sync Start=1388511><P Class=KRCC>
+그러고 봤더니 여러분, x에도 지수가 있고 여기에도 x가 또 있으니까 x끼리 몰아넣자. 
+<Sync Start=1394943><P Class=KRCC>
+어렵게 생각할 필요가 없어요. 간단해요. x 없는 거만 끌어내면 돼요. 2의 5-r제곱. 
+<Sync Start=1400115><P Class=KRCC>
+그다음에 여기는 이렇게 보면 돼. -1의 r제곱. 여기에 이렇게 써. 
+<Sync Start=1404002><P Class=KRCC>
+그런 다음에 여기는 x의 몇 제곱이고? 5-r제곱이고. 여기는 x의 몇 제곱이야? 
+<Sync Start=1410449><P Class=KRCC>
+x²의 r제곱이면 곱해서 2r제곱인데 분모에 있으니까 -2r²이라고, 역수꼴이니까. 
+<Sync Start=1417407><P Class=KRCC>
+x(-2)²의 r제곱하고 똑같은 거잖아. 그리고 지수끼리는 뭐 한다? 
+<Sync Start=1422720><P Class=KRCC>
+곱할 때는 지수끼리 더하는 거니까 5-r-2r은? 5-3r. 이제 예쁘게 다듬은 거야. 
+<Sync Start=1432010><P Class=KRCC>
+선생님, 여기에 뭐를 대입하면 모든 항을 구할 수 있다고? r 대신 0부터 지수까지. 
+<Sync Start=1439520><P Class=KRCC>
+지수가 5니까 5까지 대입하면 총 6개 항을 다 구할 수 있는데 우리가 원하는 항은 x분의 1이라는. 
+<Sync Start=1447236><P Class=KRCC>
+x분의 1은 다른 말로 x-1제곱이니까 이 지수가 -1이 됐으면 좋겠다. 그러면 r 대신에 뭐 대입하면? 
+<Sync Start=1455118><P Class=KRCC>
+2 대입하면 5-6이니까 -1이 되잖아요? 
+<Sync Start=1458864><P Class=KRCC>
+원래는 r 대신 0부터 5까지 대입하는 거지만 그중에 딱 하나인 2만 대입하면 
+<Sync Start=1465665><P Class=KRCC>
+최종적인 답이 나오지 않겠느냐. r 대신 2를 대입하면 x-1제곱이니까. 
+<Sync Start=1474238><P Class=KRCC>
+결국은 x-1제곱의 계수를 구하라고 그러면 얘는 1이에요. 8이고요. 10이니까 최종적인 답 80. 끝. 
+<Sync Start=1484703><P Class=KRCC>
+
+<Sync Start=1489591><P Class=KRCC>
+재미있나? 재미있다. 이게 바로 이항정리라는 거야. 뭐만 기억하면 된다? 일반 항만 기억하면 된다. 
+<Sync Start=1500770><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거 이거를 가지고 Σr=0부터 n까지 nCra의 n-r제곱 b의 r제곱 
+<Sync Start=1507870><P Class=KRCC>
+이렇게 기억하지 마시고. 그러면 안 좋은 점이 너무 많아. 내용 자체를 이해해야 하기 때문에. 
+<Sync Start=1515732><P Class=KRCC>
+그래야지 응용 문제를 풀기 때문에 항상 이항정리 문제가 나오면 얘를 익숙해지기 전까지는 
+<Sync Start=1523162><P Class=KRCC>
+항상 이렇게 서술적으로 대답하세요. 
+<Sync Start=1524885><P Class=KRCC>
+얘를 전개하고 나면 항이 총 몇 개 나오는데 그 모든 항들이 다 똑같이 생겼습니다. 뭐처럼? 
+<Sync Start=1531202><P Class=KRCC>
+지수Cr앞에 거, 뒤에 것처럼 생겼습니다. 
+<Sync Start=1534525><P Class=KRCC>
+r 대신에 0부터 지수까지 대입하면 모든 항을 다 구할 수 있는데 
+<Sync Start=1537814><P Class=KRCC>
+그중에서 우리가 원하는 항을 구하려면 r 대신에 뭐만 대입하면 됩니다라고 이야기하는 
+<Sync Start=1542477><P Class=KRCC>
+훌륭한 EBS 학생들이 됐으면 좋겠습니다. 알겠습니까? 
+<Sync Start=1551836><P Class=KRCC>
+
+<Sync Start=1555391><P Class=KRCC>
+지수Cr앞에 거, 뒤에 거. 나는 20년을 했다. 여러분이 할 차례. 따라 해 봐. 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1567465><P Class=KRCC>
+배경음을 넣어줘야지. 너는 진짜 나랑 EBS를 몇 년째 찍는데. 
+<Sync Start=1572887><P Class=KRCC>
+-타이밍을 놓쳤습니다. 
+<Sync Start=1574922><P Class=KRCC>
+-타이밍을 놓쳤어요? 따라해 보세요. 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1579830><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1581344><P Class=KRCC>
+-그렇게 빨리 하려고 그러지 마. 내가 매번 이야기했잖아. 왜 이렇게 빨리 하려는 강박이 있어? 
+<Sync Start=1586134><P Class=KRCC>
+아웃사이더야? 맞아요, 래퍼? 천천히. 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1598343><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1600236><P Class=KRCC>
+-그래. 너는 어떻게 하냐면 지수Cr앞에 거, 뒤에 거. 이런다니까, 그것도 서울말도 아닌. 
+<Sync Start=1609964><P Class=KRCC>
+표준어를 쓰라고 되어 있다고. 어디에? EBS 지침서에. 그 앞에 이렇게 있어. 
+<Sync Start=1616991><P Class=KRCC>
+가급적 표준어를 사용해야 돼요. 물론 우리가 지금 뉴스를 진행하는 건 아니니까. 
+<Sync Start=1625310><P Class=KRCC>
+빠르기까지 하면 어떡해. 해 봐. 지수Cr앞에 거, 뒤에 거. 시작. 
+<Sync Start=1630557><P Class=KRCC>
+-지수Cr앞에 거, 뒤에 거. 
+<Sync Start=1632400><P Class=KRCC>
+-잘했어. 좋아요. 여기까지. 
+<Sync Start=1636750><P Class=KRCC>
+그래서 여기 나온 우리 교재에 있는 문제를 차근차근 한번 풀어보도록 합시다. 
+<Sync Start=1642116><P Class=KRCC>
+유제 5번부터. 예제는 너무 어려워요. 못하겠어요. 그렇죠? 유제부터 풀어봐야 돼. 
+<Sync Start=1647167><P Class=KRCC>
+유제부터 시작을 해보도록 할게요. 여러분, 얘 전개하면 항 몇 개 나와요? 6개 나온다니까. 
+<Sync Start=1654376><P Class=KRCC>
+그런데 그 항 6개가 다 어떻게 생겼어? 똑같이 생겼더라니까. 어떻게? 일반 항처럼. 
+<Sync Start=1659614><P Class=KRCC>
+일반 항이 뭔데? 지수Cr앞에 거, 뒤에 거. 이렇게 생겼더라니까. 
+<Sync Start=1670589><P Class=KRCC>
+그런 다음에 뒤에 있는 애가 뒤로 가고, 앞에서 뒤에 거 뺀 애가 여기로 간다는 얘기인데. 
+<Sync Start=1676098><P Class=KRCC>
+그러고 봤더니 x가 여기도 있고 여기도 있으니까 이번에도 또 한쪽으로 몰아서 다듬자. 
+<Sync Start=1680975><P Class=KRCC>
+예쁘게 좀 다듬을게. 3의 5- r제곱, 여기는 -a의 r제곱. 이거 먼저 써놓고 여기는 x의 몇 제곱이야? 
+<Sync Start=1692107><P Class=KRCC>
+이거 곱할 때니까 10-2r제곱이잖아. 왜 땀이 나지? 안 더운데. 몸이 허해서 그래. 몸이 뭐 하다고? 허.
+<Sync Start=1706630><P Class=KRCC>
+x의 r제곱의 역수꼴이니까 x의 -r제곱 쓰면 되겠지? 지금 무슨 말하는지 알지? 
+<Sync Start=1715359><P Class=KRCC>
+-ax 이렇게 쓸 수 있잖아. x분의 1 이렇게. 그래서 x분의 1은 x의 -1제곱. 
+<Sync Start=1721423><P Class=KRCC>
+그것의 전체 r제곱이니까 -a에도 r제곱이고 x의 -1제곱에도 r제곱이니까 x의 -r제곱이잖아. 
+<Sync Start=1732437><P Class=KRCC>
+그러면 결국 10-2r제곱하고 -r제곱하고 더하는 거니까 10-2r-r 다 더해보세요. 얼마야? 10-3r 되겠지.
+<Sync Start=1743179><P Class=KRCC>
+10-3r 이렇게 처리하시면 됩니다. 이런 이야기야. 이제 끝났네요. 진짜 끝났네요. 
+<Sync Start=1753018><P Class=KRCC>
+뭐가 끝났습니까? 얘만 x가 들어가 있고 나머지는 x들의 계수일 테니. 그다음에 가는 거야. 
+<Sync Start=1761870><P Class=KRCC>
+x²의 역수니까 x-²의 계수가 15분의 1이라는 것을 이용해서 a를 구하라는 거예요. 
+<Sync Start=1770040><P Class=KRCC>
+그러려면 이 x 위에 있는 여기 10-3r에 원래는 r 대신 0부터 지수 5까지 대입하는 건데 
+<Sync Start=1782750><P Class=KRCC>
+지금은 뭐가 되면 되니까? -2가 되면 되니까 r 대신에 4만 대입하면 -2²을 만들 수 있잖아. 
+<Sync Start=1792092><P Class=KRCC>
+r 대신 4를 대입하자. r 대신 4를 대입하면 드디어 x-²이 되고 그러니까 뭐가 계수야? 얘가 계수야.
+<Sync Start=1807192><P Class=KRCC>
+5x3=15. -1에도 네제곱 있고 a에도 네제곱 있네. 
+<Sync Start=1814568><P Class=KRCC>
+-1은 네제곱해봤자 1이니까 결국 a⁴만 남아서 15a⁴가 최종적인 x²분의 1의 계수인데 
+<Sync Start=1826025><P Class=KRCC>
+걔가 뭐라고 그랬으니까? 15분의 1이라고 되어 있어요. 
+<Sync Start=1834450><P Class=KRCC>
+따라서 a⁴를 구하면 양변을 15로 나누니까 15²분의 1 이렇게 되어 있다는 이야기야. 
+<Sync Start=1845350><P Class=KRCC>
+여기에서 뭐 구하시는 거예요? 양수 a의 값을 구하시오 이렇게 되어 있는 거죠. 
+<Sync Start=1854520><P Class=KRCC>
+양수 a라 그랬으니까 이걸 이렇게 쓸까? 여러분, 15²분의 1이라는 것은 이렇게 쓸게. 
+<Sync Start=1862349><P Class=KRCC>
+똑같이 제곱으로 만들려고 그래. 15분의 1 전체의 제곱이잖아. 
+<Sync Start=1867346><P Class=KRCC>
+좌변도 a⁴이라는 것은 제곱에 제곱이니까 결국 (a²)²=15²니까 a²이 뭐라는 이야기야? 
+<Sync Start=1878573><P Class=KRCC>
+원래는 ±15분의 1인데 a²은 어차피 양수니까 얘가 15분의 1이 된다는 이야기라서 
+<Sync Start=1886800><P Class=KRCC>
+따라서 a의 값을 구하라고 그러면 원래는 ±√15분의 1 이렇게 써야 하겠지만 
+<Sync Start=1893062><P Class=KRCC>
+양수 a라고 그랬으니까 ± 붙이지 말고 √15분의 1입니다. 
+<Sync Start=1898148><P Class=KRCC>
+얘는 분자, 분모 각각 √를 씌워주면 되는 거니까 유리화하고 나면 15분의 √15다. 
+<Sync Start=1907329><P Class=KRCC>
+15분의 √15니까 최종적인 답 ①번 이렇게 처리하시면 된다는 거예요. 
+<Sync Start=1912870><P Class=KRCC>
+특정 항의 계수를 구하려면 뭐만 알면 되는구나? 일반 항만 알면 되겠구나. 
+<Sync Start=1918910><P Class=KRCC>
+이렇게 생각하면 되는 거예요. 유제를 볼까요? 
+<Sync Start=1928452><P Class=KRCC>
+(3a+2b)6제곱의 전개식에서 a⁴b²의 계수를 m, a²b⁴의 계수를 n이라고 할 때, n분의 m을 구하시오.
+<Sync Start=1938934><P Class=KRCC>
+그러니까  a⁴b² 계수 한번 찾아보고 a²b⁴ 계수 찾으면 되네? 
+<Sync Start=1944440><P Class=KRCC>
+그러니까 결국 (3a+2b)6제곱 전개식의 일반 항이 필요하겠네. 특정 항의 계수를 찾으라고 그랬으니까.
+<Sync Start=1950760><P Class=KRCC>
+일반 항 어떻게 생겼다? 지수 Cr앞에 거, 뒤에 거. 
+<Sync Start=1957380><P Class=KRCC>
+뒤에 있는 게 뒤로 가고 앞에서 뒤에 거 뺀 게 이쪽으로 가는 거야. 여기에 a와 b를 몰아넣을게요.
+<Sync Start=1967860><P Class=KRCC>
+3a의 6-r제곱 2r제곱이니까 2r제곱 먼저 쓰고 a의 6-r제곱 b의 r제곱 이렇게 한번 써볼게요. 
+<Sync Start=1975325><P Class=KRCC>
+그러면 결국 원래는 r 대신 0부터 6까지 대입해야 하겠지만 이 문제 풀 때는 첫 번째 
+<Sync Start=1982391><P Class=KRCC>
+a⁴ b²의 계수 m를 구할 때는 r 대신 2만 대입하면 되니까 r 대신 2 대입해 볼까? 
+<Sync Start=1989565><P Class=KRCC>
+6C25. 2 대입하면 3⁴ 81. 2 대입하면 2². 그게 바로 뭐야? m이야. 됐어? 
+<Sync Start=2002567><P Class=KRCC>
+그리고 나누기. n를 구하시오. 그런데 n은 뭔데? a²b⁴의 계수. 
+<Sync Start=2009127><P Class=KRCC>
+a²b⁴의 계수를 구하려면 r 대신에 이번에는 뭐 대입하면 돼?  4. 
+<Sync Start=2012019><P Class=KRCC>
+여기에 4 대입해도 6C₂이니까 똑같이 15. 4 대입하면 3²이니까 9. 여기다 4 대입하면 2⁴, 16. 
+<Sync Start=2023876><P Class=KRCC>
+이렇게 만들 수 있다는 거야. 그러고 봤더니 15랑 15 약분되고 9x9=81이니까 최종적인 답은 
+<Sync Start=2032702><P Class=KRCC>
+얘 약분하면 분모에만 2²이니까 2²분의 3² 형태. 
+<Sync Start=2037356><P Class=KRCC>
+그러니까 다른 말로 4분의 9가 최종적인 답으로 나오겠구나. 
+<Sync Start=2042538><P Class=KRCC>
+이렇게 특정 항의 계수를 찾을 때는 뭐만 알고 있으면 된다? 
+<Sync Start=2048138><P Class=KRCC>
+일반 항만 알고 계시면 된다는 느낌으로 해결하시면 되는 거예요. 
+<Sync Start=2054138><P Class=KRCC>
+그다음 문제를 풀기 위해서 따라해 봐. 곱꼴. 
+<Sync Start=2056708><P Class=KRCC>
+-곱꼴. 
+<Sync Start=2057195><P Class=KRCC>
+-곱꼴. 
+<Sync Start=2057606><P Class=KRCC>
+-곱꼴. 
+<Sync Start=2058344><P Class=KRCC>
+-곱꼴이라는 합꼴 중에 합꼴은 뒤에 연습 문제 풀다가 나오거든요? 
+<Sync Start=2064639><P Class=KRCC>
+곱꼴 먼저 설명을 해드리도록 하겠습니다. 새로운 파트입니다. 그런데 이것도 외우시면 안 됩니다. 
+<Sync Start=2071983><P Class=KRCC>
+어떤 친구들 부정 방정식 풀고 그러는데 그러시면 안 됩니다. 곱꼴이 뭐냐 하면 이런 거야. 
+<Sync Start=2077609><P Class=KRCC>
+간단한 거야. 여러분, 봐. (3x²-4x+5)랑 (x²-2x-3) 이런 게 있대. 여러분, 얘네들을 전개하래. 
+<Sync Start=2090143><P Class=KRCC>
+전개하면 몇 차항이 될 것 같아? 몇 차식이 될 것 같아? 4차식이 되거든? 왜? 
+<Sync Start=2094389><P Class=KRCC>
+최고차항끼리 곱하면 4차니까. 이렇게 곱하면 4차니까. 3x⁴ 나오니까. 
+<Sync Start=2099533><P Class=KRCC>
+나는 4차항의 계수를 구하라고 그러면 3이 답이겠지. 왜? 4차항을 만드는 방법은 이거밖에 없으니까. 
+<Sync Start=2106760><P Class=KRCC>
+지금 무슨 말인지 알아? 
+<Sync Start=2108060><P Class=KRCC>
+그런데 만약에 문제가 (3x²-4x+5)(x²-2x-3)의 전개식에서 2차항의 계수를 구하래. 
+<Sync Start=2119060><P Class=KRCC>
+그러면 여러분, 이거 고1 때 많이 나오거든? 
+<Sync Start=2122576><P Class=KRCC>
+이거 다 전개할 거야? 아니면 2차항이 될 것만 정리할 거야? 2차항이 될 것만 전개하지 않겠니? 
+<Sync Start=2130185><P Class=KRCC>
+너무 당연하지 않니? 2차항 계수를 찾는데 이것까지 계산하면 이상한 사람 아니니? 
+<Sync Start=2139945><P Class=KRCC>
+그런데 (3x²-4x+5)(x²-2x-3)를 전개하면 언제 2차항이 되게? 이렇게 곱하면 2차항이지. 뭐랑? 
+<Sync Start=2145086><P Class=KRCC>
+2차랑 상수랑 곱하면 되고 두 번째 거는 4x가 1차항이니까 1차랑 곱하면 2차가 되고, 
+<Sync Start=2151309><P Class=KRCC>
+5가 상수면 2차랑 곱해야지 2차가 될 거 아니야. 그러니까 2차항이 총 3번 발생되겠지? 
+<Sync Start=2159175><P Class=KRCC>
+
+<Sync Start=2165328><P Class=KRCC>
+그래서 이렇게 곱하면 -9x²이 되고 이렇게 곱하면 8x²이 되고 이렇게 하면 5x²이 되니까 
+<Sync Start=2176130><P Class=KRCC>
+동류항을 다 처리하고 나면 얼마가 돼? 4x² 아니겠니? 그래서 답은 4. 이렇게 쓰지 않겠니? 
+<Sync Start=2184880><P Class=KRCC>
+
+<Sync Start=2192140><P Class=KRCC>
+체계적으로 나타내 보면 이 느낌 아니니? 
+<Sync Start=2198282><P Class=KRCC>
+곱해서 2차항이 되려면 앞에 거 3개 중에 2차항이랑 뒤에 거 상수항이랑 곱하면 2차고 
+<Sync Start=2207639><P Class=KRCC>
+앞에 거 1차항이랑 뒤에 거 1차항이랑 곱해도 2차고, 
+<Sync Start=2212287><P Class=KRCC>
+앞에 거 상수항이랑 뒤에 거 2차항이랑 곱하면 2차가 되지 않겠니? 
+<Sync Start=2220480><P Class=KRCC>
+그런데 앞에 거의 2차항의 계수는 3, 1차항의 계수는 -4, 상수항은 5고. 
+<Sync Start=2228404><P Class=KRCC>
+상수항은 -3, 1차항은 -2, 2차항의 계수는 1이다 보니까 결국 이렇게 곱해야 하잖아? 
+<Sync Start=2236562><P Class=KRCC>
+2차항을 만드려면. 
+<Sync Start=2238501><P Class=KRCC>
+계수끼리 곱해서 -9가 되고 계수끼리 곱해서 +8이 되며 계수끼리 곱해서 +5가 되니까 
+<Sync Start=2249180><P Class=KRCC>
+그 이야기는 -9x²도 나오고 8x²도 나오고 5x²도 나오니까 다 더하라. 
+<Sync Start=2255730><P Class=KRCC>
+동류항 처리하면 4x²이 나오지 않겠니? 그 이야기겠지. 그러니까 제 말은 따라 해 봐. 곱꼴. 
+<Sync Start=2266710><P Class=KRCC>
+-곱꼴. 
+<Sync Start=2267366><P Class=KRCC>
+-곱꼴이라는 것은 괄호 2개가 곱해져 있을 때 특정 항, 
+<Sync Start=2275651><P Class=KRCC>
+그중에서도 2차항 찾으라고 그러면 2차 상수, 1차, 1차, 상수, 2차, 
+<Sync Start=2281222><P Class=KRCC>
+2차항이 될 수 있는 것들끼리 곱하면 된다 그 이야기거든? 그러다 보니까 이 문제 보세요. 
+<Sync Start=2297321><P Class=KRCC>
+조금 전에는 다 전개해 놓은 거고 지금은 전개해 놓지 않고 ³과 5제곱의 곱꼴이거든? 
+<Sync Start=2305607><P Class=KRCC>
+그러면 이거를 조금 전처럼 생각하는 거야. 어차피 여러분, 얘를 전개하면 항 몇 개 생겨? 
+<Sync Start=2310481><P Class=KRCC>
+4개 항이 생기고 얘를 전개하면 6개 항이 생기는 거야. 아까랑 똑같은 곱꼴. 
+<Sync Start=2317791><P Class=KRCC>
+-곱꼴. 
+<Sync Start=2321595><P Class=KRCC>
+-곱꼴에서 2차항 찾는 거거든. 어차피 앞에 나온 것은 3차항, 2차항, 1차항, 상수항. 
+<Sync Start=2332082><P Class=KRCC>
+뒤에 나오는 거는 5차항, 4차항, 3차항, 2차항, 1차항, 상수항인데 걔네들끼리 곱해서 2차가 되려면 
+<Sync Start=2341408><P Class=KRCC>
+앞에 있는 거의 3차항이랑은 -1차항이랑 곱해야 하는데 -1차항은 발생하지 않잖아요. 
+<Sync Start=2348332><P Class=KRCC>
+그러니까 아까랑 똑같이 앞에 거 2차항이랑 뒤에 거 상수항, 앞에 거 1차항과 뒤에 거 1차항, 
+<Sync Start=2356579><P Class=KRCC>
+앞에 거 상수항과 뒤에 거 2차항을 곱했을 때 총 3번 2차항이 나오는 거고 최종적인 2차항의 계수는 
+<Sync Start=2367446><P Class=KRCC>
+얘네들을 더해 주시면 최종적인 답이다. 선생님, 2차항을 찾아주세요. 여기서 2차항 찾아주세요. 
+<Sync Start=2377110><P Class=KRCC>
+결국은 얘 전개해서 2차항을 찾는 거니까 빨리 일반 항을 작성해 볼게. 지수Cr앞에 거, 뒤에 거. 
+<Sync Start=2393380><P Class=KRCC>
+조금 예쁘게 써볼까? ₃Cr(-1)의 r제곱x2의 3-r제곱 x의 3-r제곱. 찾는다. 2차항의 계수 찾아봐. 
+<Sync Start=2409980><P Class=KRCC>
+그러면 3-r이 2가 되어야지? 그러면 r 대신 뭐 대입하면 돼? 1 대입하면 되니까 3x-1x4. 
+<Sync Start=2418852><P Class=KRCC>
+그러면 얼마야? -12. 2차항의 계수 -12. 1차항의 계수 찾아봐. r 대신 뭐 대입하면 돼? 
+<Sync Start=2428972><P Class=KRCC>
+2 대입하면 x의 1제곱이 나오니까 r 대신 2 대입하면 3x1x2. 얼마야? 6이 나오고. 
+<Sync Start=2437762><P Class=KRCC>
+상수항이라는 것은 뭐냐 하면 0차항의 계수예요. 그러면 r 대신 뭐 대입하면 돼? 
+<Sync Start=2443012><P Class=KRCC>
+3 대입하면 되니까 1x-1x1. 그러면 얼마야? -1. 
+<Sync Start=2449303><P Class=KRCC>
+다른 말로 앞에 거를 전개했을 때 2차항의 계수와 1차항의 계수와 상수항을 차례대로 쓰면 
+<Sync Start=2459323><P Class=KRCC>
+-12, 6, -1이 생긴다는 얘기야. 이번에는 뒤에 거의 전개식에서 상수항과 1차항과 2차항을 찾아보자.
+<Sync Start=2472547><P Class=KRCC>
+(x-1)5제곱 전개하면 지수Cr앞에 거, 뒤에 거. 이렇게 생겨요. 
+<Sync Start=2479782><P Class=KRCC>
+뒤에 있는 게 뒤로 가고 앞에 거에서 뒤에 거 뺀 게 여기로 간다만, 조금만 예쁘게 쓸게. 
+<Sync Start=2485561><P Class=KRCC>
+x를 마지막에 쓸게. 이거거든. 따라서 상수항을 찾아라. 상수항부터 찾아. 상수항은 뭐라고? 
+<Sync Start=2495353><P Class=KRCC>
+x0제곱의 계수이니까 r 대신에 5 대입하면 얼마야? 1x-1은 0 대입하면 1. 5 대입하면 -1. 
+<Sync Start=2507776><P Class=KRCC>
+5 대입하면 1x-1. 상수항 -1이 나오고. 
+<Sync Start=2511940><P Class=KRCC>
+1차항의 계수를 찾으라고 그러면 r 대신 4를 대입하면 되니까 5x1=5 이렇게 되고 
+<Sync Start=2518701><P Class=KRCC>
+2차항의 계수를 찾으라고 그러면 r 대신 3 대입하면 되니까 10x-1=-10이 되더라. 
+<Sync Start=2528136><P Class=KRCC>
+이렇게 각각의 전개식에서 2차항, 1차항, 상수항, 상수항, 1차항, 2차항을 찾는다. 왜? 
+<Sync Start=2535320><P Class=KRCC>
+곱한 곱꼴의 2차항은 이렇게 2차항과 상수항을 곱했을 때 12x²이 나오고 두 번째 6x5=30x²이 나오고
+<Sync Start=2548370><P Class=KRCC>
+마지막 10x²이 나오니 다 더하면 52x²이라는 최종적인 2차항을 만들 수 있지 않겠느냐? 
+<Sync Start=2564980><P Class=KRCC>
+하는 방법 외우면 안 돼. 느끼셔야 하는 거야. 됐죠? 
+<Sync Start=2573134><P Class=KRCC>
+여기까지가 이항정리의 특정 항의 계수 찾는 것까지 했었고요. 
+<Sync Start=2578488><P Class=KRCC>
+다음 시간 들어가면 이항계수의 성질이라고 그래서 또 아주 재미있는 거거든? 
+<Sync Start=2584753><P Class=KRCC>
+아주 퍼즐 푸는 느낌이 들 텐데 아주 재미있게 마찬가지로 한글로 공부해 보도록 하겠습니다. 
+<Sync Start=2590559><P Class=KRCC>
+오늘은 여기까지입니다. 수고하셨습니다. 
+<Sync Start=2594018><P Class=KRCC>
+
+<Sync Start=2595017><P Class=KRCC>
+
+
+
+
+
+</BODY>
+</SAMI>
